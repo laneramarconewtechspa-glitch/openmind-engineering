@@ -195,10 +195,16 @@ def fetch_og_image(article_url: str) -> str | None:
 
 
 def collect_from_source(source: dict, cutoff: dt.datetime) -> list[dict]:
-    """Scarica un feed RSS/Atom e restituisce gli item pubblicati dopo `cutoff`."""
+    """Scarica un feed RSS/Atom (con timeout esplicito!) e restituisce gli item
+    pubblicati dopo `cutoff`. IMPORTANTE: passiamo da `requests` con un timeout
+    reale invece di lasciare che feedparser apra la connessione da solo, perché
+    feedparser.parse(url) non ha un timeout di default e può restare bloccato
+    a tempo indeterminato su una fonte lenta o che non risponde correttamente."""
     items = []
     try:
-        parsed = feedparser.parse(source["url"], request_headers=REQUEST_HEADERS)
+        resp = requests.get(source["url"], headers=REQUEST_HEADERS, timeout=15)
+        resp.raise_for_status()
+        parsed = feedparser.parse(resp.content)
         if parsed.bozo and not parsed.entries:
             raise ValueError(str(parsed.bozo_exception))
     except Exception as exc:  # noqa: BLE001 - vogliamo continuare con le altre fonti
@@ -281,12 +287,20 @@ def call_gemini(item: dict) -> dict | None:
 
     for attempt in range(3):
         try:
-            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=60)
+            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=30)
             if resp.status_code == 429:
-                wait = 10 * (attempt + 1)
+                wait = 8 * (attempt + 1)
                 print(f"[WARN] rate limit Gemini, aspetto {wait}s...", file=sys.stderr)
                 time.sleep(wait)
                 continue
+            if resp.status_code >= 400:
+                # Log esplicito di status + corpo risposta: è la parte più utile
+                # per capire SUBITO se è un problema di chiave, di modello o di
+                # quota, invece di scoprirlo solo dopo minuti di silenzio.
+                print(
+                    f"[WARN] Gemini {resp.status_code} per {item['url']}: {resp.text[:300]}",
+                    file=sys.stderr,
+                )
             resp.raise_for_status()
             data = resp.json()
             text = data["candidates"][0]["content"]["parts"][0]["text"]
