@@ -1,0 +1,45 @@
+name: Sync engineering news
+
+on:
+  schedule:
+    # 06:00 e 14:00 ora Italia (CET=UTC+1 / CEST=UTC+2, qui regolato sull'ora
+    # solare; con l'ora legale la sync partirà un'ora "prima" rispetto
+    # all'orologio locale — non è un problema per un digest delle 24h)
+    - cron: "0 5 * * *"
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}   # bottone "Run workflow" per la sincronizzazione manuale
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-engineering-news
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run sync
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python fetch_news.py
+
+      - name: Commit updated news.json
+        run: |
+          git config user.name "openmind-news-bot"
+          git config user.email "openmind-news-bot@users.noreply.github.com"
+          git add docs/news.json
+          git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie [skip ci]"
+          git push
