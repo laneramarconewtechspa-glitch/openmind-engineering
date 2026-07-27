@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenMind Engineering — digest quotidiano di ingegneria</title>
+<meta name="description" content="Le notizie di ingegneria delle ultime 24 ore, in pillole: BLUF, idea, risultati e direzioni future.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <span class="brand">OpenMind <span class="brand-accent">Engineering</span></span>
+      <div class="filters" id="filters" aria-label="Filtra per categoria"></div>
+      <span class="last-updated" id="last-updated"></span>
+    </div>
+  </header>
+
+  <main id="stage">
+
+    <div id="brain-wrap">
+      <button id="open-btn" aria-label="Apri la mente e mostra le notizie di oggi">
+        <svg id="brain-svg" viewBox="0 0 200 160" aria-hidden="true">
+          <g class="brain-edges">
+            <line x1="55" y1="60" x2="70" y2="40"/>
+            <line x1="55" y1="60" x2="40" y2="90"/>
+            <line x1="40" y1="90" x2="48" y2="110"/>
+            <line x1="55" y1="60" x2="85" y2="55"/>
+            <line x1="70" y1="40" x2="85" y2="55"/>
+            <line x1="85" y1="55" x2="100" y2="80"/>
+            <line x1="100" y1="80" x2="115" y2="55"/>
+            <line x1="115" y1="55" x2="130" y2="40"/>
+            <line x1="115" y1="55" x2="145" y2="60"/>
+            <line x1="130" y1="40" x2="145" y2="60"/>
+            <line x1="145" y1="60" x2="160" y2="90"/>
+            <line x1="145" y1="60" x2="152" y2="110"/>
+            <line x1="160" y1="90" x2="152" y2="110"/>
+          </g>
+          <g class="brain-nodes">
+            <circle cx="55" cy="60" r="5"/>
+            <circle cx="40" cy="90" r="4"/>
+            <circle cx="70" cy="40" r="4.5"/>
+            <circle cx="48" cy="110" r="3.5"/>
+            <circle cx="85" cy="55" r="3"/>
+            <circle cx="145" cy="60" r="5"/>
+            <circle cx="160" cy="90" r="4"/>
+            <circle cx="130" cy="40" r="4.5"/>
+            <circle cx="152" cy="110" r="3.5"/>
+            <circle cx="115" cy="55" r="3"/>
+            <circle class="core" cx="100" cy="80" r="7"/>
+          </g>
+        </svg>
+        <span class="open-label">Open your mind</span>
+        <span class="open-sublabel" id="open-sublabel">digest quotidiano di ingegneria</span>
+      </button>
+    </div>
+
+    <svg id="synapses" class="synapses-layer" aria-hidden="true"></svg>
+    <div id="neurons-layer" aria-live="polite"></div>
+
+    <p id="empty-state" hidden>Nessuna nuova scintilla nelle ultime 24 ore — torna più tardi.</p>
+
+  </main>
+
+  <div id="detail-overlay"></div>
+  <aside id="detail-panel" aria-hidden="true" aria-label="Dettaglio notizia">
+    <button id="detail-close" aria-label="Chiudi il dettaglio">✕</button>
+    <div id="detail-content"></div>
+  </aside>
+
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
