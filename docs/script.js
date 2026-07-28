@@ -76,7 +76,9 @@
   });
 */
 ////////////////////////////////////////////////DA SOSTITUIRE /////////////////////////////////////////////
-  openBtn.onclick = function () {
+openBtn.onclick = function () {
+  alert("CLICK FUNZIONA");
+
   hasOpened = true;
   app.classList.add("opened");
 
@@ -85,6 +87,8 @@
     return;
   }
 
+  layoutNeurons();
+};
     //////////////////////////////////////////////////////////
 
   layoutNeurons();
