@@ -26,7 +26,8 @@
   // ------------------------------------------------------------------ //
   // Caricamento dati
   // ------------------------------------------------------------------ //
-
+/////////////////////////////////////////////////////////////////////
+  /*
   async function loadBriefs() {
     try {
       const res = await fetch("news.json", { cache: "no-store" });
@@ -44,7 +45,42 @@
       visibleBriefs = [];
     }
   }
+*/
+  //////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////
+  async function debugWorkflow() {
+  console.log("👉 1. Inizio fetch di news.json...");
+  
+  try {
+    const res = await fetch('./news.json');
+    console.log("👉 2. Risposta HTTP ricevuta. Stato:", res.status);
+    
+    const dati = await res.json();
+    console.log("👉 3. JSON convertito con successo! Tipo dati:", Array.isArray(dati) ? "Array" : typeof dati);
+    console.log("👉 4. Contenuto grezzo del JSON:", dati);
 
+    // Identifica dove si trovano le notizie
+    const listaNotizie = Array.isArray(dati) ? dati : (dati.news || dati.items || dati.articles);
+
+    if (!listaNotizie) {
+      console.warn("⚠️ 5. Attenzione: Impossibile trovare un array di notizie dentro il JSON. Controlla la chiave radice.");
+      return;
+    }
+
+    console.log(`👉 5. Trovati ${listaNotizie.length} elementi da mostrare.`);
+
+    // Test di inserimento nell'HTML
+    const mainContainer = document.querySelector('main') || document.body;
+    console.log("👉 6. Contenitore HTML trovato:", mainContainer);
+
+  } catch (err) {
+    console.error("❌ ERRORE CATTURATO:", err);
+  }
+}
+
+// Avvio immediato
+debugWorkflow();
+  //////////////////////////////////////////////////////////////////////
   function renderLastUpdated(rawData) {
     if (!rawData.length) { lastUpdatedEl.textContent = ""; return; }
     const latest = rawData.reduce((max, b) =>
