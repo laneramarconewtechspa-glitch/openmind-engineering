@@ -45,37 +45,6 @@
       visibleBriefs = [];
     }
   }
-  //////////////////////////////////////////////////////////////////////
-  /////////////////////////////////////////////////////////////////////
-  async function debugWorkflow() {
-  console.log("👉 1. Inizio fetch di news.json...");
-  
-  try {
-    const res = await fetch('./news.json');
-    console.log("👉 2. Risposta HTTP ricevuta. Stato:", res.status);
-    
-    const dati = await res.json();
-    console.log("👉 3. JSON convertito con successo! Tipo dati:", Array.isArray(dati) ? "Array" : typeof dati);
-    console.log("👉 4. Contenuto grezzo del JSON:", dati);
-
-    // Identifica dove si trovano le notizie
-    const listaNotizie = Array.isArray(dati) ? dati : (dati.news || dati.items || dati.articles);
-
-    if (!listaNotizie) {
-      console.warn("⚠️ 5. Attenzione: Impossibile trovare un array di notizie dentro il JSON. Controlla la chiave radice.");
-      return;
-    }
-
-    console.log(`👉 5. Trovati ${listaNotizie.length} elementi da mostrare.`);
-
-    // Test di inserimento nell'HTML
-    const mainContainer = document.querySelector('main') || document.body;
-    console.log("👉 6. Contenitore HTML trovato:", mainContainer);
-
-  } catch (err) {
-    console.error("❌ ERRORE CATTURATO:", err);
-  }
-}
 
 // Avvio immediato
 debugWorkflow();
@@ -96,7 +65,7 @@ debugWorkflow();
   // Apertura della mente
   // ------------------------------------------------------------------ //
   
-/* //////////////BLOCCO DA ELIMINARE //////////////////
+
   openBtn.addEventListener("click", () => {
     if (hasOpened) return;
     hasOpened = true;
@@ -110,26 +79,7 @@ debugWorkflow();
     layoutNeurons();
   });
 
-  *//////////// BLOCCO DA ELIMINARE ///////////////////////
-
-  ////////////////////////SOSTITUTO TEMPORANEO///////////////////
-  openBtn.onclick = function () {
-  alert("CLICK FUNZIONA");
-
-  hasOpened = true;
-  app.classList.add("opened");
-
-  if (!visibleBriefs.length) {
-    emptyState.hidden = false;
-    return;
-  }
-
-  layoutNeurons();
-};
-  ///////////////////////TERMINE SOSTITUTO TEMPORANEO///////////////////
-
-
-
+  
   
   window.addEventListener("resize", debounce(() => {
     if (hasOpened && visibleBriefs.length) layoutNeurons();
