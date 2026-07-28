@@ -1,81 +1,646 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenMind Engineering — digest quotidiano di ingegneria</title>
-<meta name="description" content="Le notizie di ingegneria delle ultime 24 ore, in pillole: BLUF, idea, risultati e direzioni future.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Be in the loop — Science, Engineering, Innovation, Connection."
+    >
+
+    <title>Be in the loop</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
+
 <body>
 
-<div id="app">
 
-  <header class="topbar" id="topbar">
-    <div class="topbar-inner">
-      <span class="brand">OpenMind <span class="brand-accent">Engineering</span></span>
-      <div class="filters" id="filters" aria-label="Filtra per categoria"></div>
-      <span class="last-updated" id="last-updated"></span>
-    </div>
-  </header>
+    <!-- ============================================================= -->
+    <!-- APP                                                          -->
+    <!-- ============================================================= -->
 
-  <main id="stage">
+    <main id="app">
 
-    <div id="brain-wrap">
-      <button id="open-btn" aria-label="Apri la mente e mostra le notizie di oggi">
-        <svg id="brain-svg" viewBox="0 0 200 160" aria-hidden="true">
-          <g class="brain-edges">
-            <line x1="55" y1="60" x2="70" y2="40"/>
-            <line x1="55" y1="60" x2="40" y2="90"/>
-            <line x1="40" y1="90" x2="48" y2="110"/>
-            <line x1="55" y1="60" x2="85" y2="55"/>
-            <line x1="70" y1="40" x2="85" y2="55"/>
-            <line x1="85" y1="55" x2="100" y2="80"/>
-            <line x1="100" y1="80" x2="115" y2="55"/>
-            <line x1="115" y1="55" x2="130" y2="40"/>
-            <line x1="115" y1="55" x2="145" y2="60"/>
-            <line x1="130" y1="40" x2="145" y2="60"/>
-            <line x1="145" y1="60" x2="160" y2="90"/>
-            <line x1="145" y1="60" x2="152" y2="110"/>
-            <line x1="160" y1="90" x2="152" y2="110"/>
-          </g>
-          <g class="brain-nodes">
-            <circle cx="55" cy="60" r="5"/>
-            <circle cx="40" cy="90" r="4"/>
-            <circle cx="70" cy="40" r="4.5"/>
-            <circle cx="48" cy="110" r="3.5"/>
-            <circle cx="85" cy="55" r="3"/>
-            <circle cx="145" cy="60" r="5"/>
-            <circle cx="160" cy="90" r="4"/>
-            <circle cx="130" cy="40" r="4.5"/>
-            <circle cx="152" cy="110" r="3.5"/>
-            <circle cx="115" cy="55" r="3"/>
-            <circle class="core" cx="100" cy="80" r="7"/>
-          </g>
-        </svg>
-        <span class="open-label">Open your mind</span>
-        <span class="open-sublabel" id="open-sublabel">digest quotidiano di ingegneria</span>
-      </button>
-    </div>
 
-    <svg id="synapses" class="synapses-layer" aria-hidden="true"></svg>
-    <div id="neurons-layer" aria-live="polite"></div>
+        <!-- ========================================================= -->
+        <!-- COVER                                                     -->
+        <!-- ========================================================= -->
 
-    <p id="empty-state" hidden>Nessuna nuova scintilla nelle ultime 24 ore — torna più tardi.</p>
+        <section
+            id="cover"
+            class="cover"
+            aria-labelledby="main-title"
+        >
 
-  </main>
+            <div class="cover-inner">
 
-  <div id="detail-overlay"></div>
-  <aside id="detail-panel" aria-hidden="true" aria-label="Dettaglio notizia">
-    <button id="detail-close" aria-label="Chiudi il dettaglio">✕</button>
-    <div id="detail-content"></div>
-  </aside>
 
-</div>
+                <div class="cover-topline">
 
-<script src="script.js" defer></script>
+                    <span>
+                        SCIENCE · ENGINEERING · INNOVATION · CONNECTION
+                    </span>
+
+                    <span>
+                        ISSUE 01 · 2024
+                    </span>
+
+                </div>
+
+
+                <div class="cover-title-wrap">
+
+                    <h1 id="main-title">
+
+                        Be in
+                        <br>
+                        the loop
+
+                    </h1>
+
+
+                    <div class="cover-rule"></div>
+
+
+                    <p class="cover-subtitle">
+
+                        SCIENCE. ENGINEERING.
+                        <br>
+                        INNOVATION. CONNECTION.
+
+                    </p>
+
+
+                    <p class="cover-tagline">
+
+                        THE FUTURE IS INTERCONNECTED.
+
+                    </p>
+
+                </div>
+
+
+                <div class="cover-footer">
+
+                    <button
+                        id="open-btn"
+                        class="open-button"
+                        type="button"
+                    >
+
+                        <span class="open-button-index">
+                            01
+                        </span>
+
+                        <span class="open-button-text">
+                            ENTER THE NETWORK
+                        </span>
+
+                        <span class="open-button-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- NETWORK EXPERIENCE                                       -->
+        <!-- ========================================================= -->
+
+        <section
+            id="network-view"
+            class="network-view"
+            aria-label="Neural editorial network"
+        >
+
+
+            <!-- ===================================================== -->
+            <!-- NETWORK HEADER                                        -->
+            <!-- ===================================================== -->
+
+            <header class="network-header">
+
+
+                <div class="network-brand">
+
+                    <span class="network-brand-kicker">
+                        BE IN THE LOOP
+                    </span>
+
+                    <span class="network-brand-status">
+                        NEURAL EDITORIAL NETWORK
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="filters"
+                    class="filters"
+                    aria-label="Filtra gli articoli"
+                >
+                </div>
+
+
+                <div
+                    id="last-updated"
+                    class="last-updated"
+                >
+                </div>
+
+
+            </header>
+
+
+
+            <!-- ===================================================== -->
+            <!-- NETWORK STAGE                                          -->
+            <!-- ===================================================== -->
+
+            <div
+                id="stage"
+                class="stage"
+            >
+
+
+                <!-- ================================================= -->
+                <!-- ENGINEERING COLUMN                               -->
+                <!-- ================================================= -->
+
+                <aside
+                    class="engineering-column"
+                    aria-label="Engineering"
+                >
+
+                    <div class="engineering-index">
+                        01
+                    </div>
+
+
+                    <div class="engineering-line"></div>
+
+
+                    <div class="engineering-label">
+                        ENGINEERING
+                    </div>
+
+
+                    <h2>
+                        Designing
+                        <br>
+                        today.
+                    </h2>
+
+
+                    <p>
+                        Building
+                        <br>
+                        tomorrow.
+                    </p>
+
+
+                    <div class="engineering-meta">
+
+                        <span>
+                            MATERIALS
+                        </span>
+
+                        <span>
+                            SYSTEMS
+                        </span>
+
+                        <span>
+                            CONNECTION
+                        </span>
+
+                    </div>
+
+                </aside>
+
+
+
+                <!-- ================================================= -->
+                <!-- NEURAL CORE                                       -->
+                <!-- ================================================= -->
+
+                <section
+                    id="neural-core"
+                    class="neural-core"
+                    aria-label="Neural Core"
+                >
+
+
+                    <div class="core-kicker">
+                        THE NEURAL CORE
+                    </div>
+
+
+                    <div class="brain-wrapper">
+
+
+                        <div class="brain-glow"></div>
+
+
+                        <div class="brain-outer-ring"></div>
+
+
+                        <svg
+                            class="brain-svg"
+                            viewBox="0 0 520 520"
+                            aria-hidden="true"
+                        >
+
+                            <defs>
+
+                                <radialGradient
+                                    id="brainFill"
+                                    cx="50%"
+                                    cy="45%"
+                                    r="65%"
+                                >
+
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#ffffff"
+                                    />
+
+                                    <stop
+                                        offset="70%"
+                                        stop-color="#f3f3f1"
+                                    />
+
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#dededb"
+                                    />
+
+                                </radialGradient>
+
+
+                                <filter
+                                    id="brainShadow"
+                                    x="-30%"
+                                    y="-30%"
+                                    width="160%"
+                                    height="160%"
+                                >
+
+                                    <feDropShadow
+                                        dx="0"
+                                        dy="8"
+                                        stdDeviation="12"
+                                        flood-color="#777777"
+                                        flood-opacity=".18"
+                                    />
+
+                                </filter>
+
+                            </defs>
+
+
+                            <!-- Main brain silhouette -->
+
+                            <path
+                                class="brain-silhouette"
+                                filter="url(#brainShadow)"
+                                fill="url(#brainFill)"
+                                d="
+                                M260 42
+                                C215 24 162 48 137 87
+                                C96 92 70 128 77 165
+                                C45 190 49 242 77 264
+                                C58 303 79 347 116 359
+                                C117 405 159 436 200 427
+                                C228 464 284 460 310 425
+                                C352 443 399 417 402 377
+                                C442 362 457 316 435 281
+                                C468 247 455 197 425 180
+                                C432 137 401 99 361 94
+                                C337 52 300 31 260 42
+                                Z
+                                "
+                            />
+
+
+                            <!-- Brain longitudinal fissure -->
+
+                            <path
+                                class="brain-fissure"
+                                d="
+                                M260 54
+                                C247 110 253 158 250 210
+                                C247 270 261 325 251 390
+                                C247 418 251 438 260 450
+                                "
+                            />
+
+
+                            <!-- Cortical network -->
+
+                            <g class="brain-network">
+
+
+                                <path
+                                    d="M125 156 C165 118 202 135 230 105 C260 72 307 81 341 112 C378 145 389 179 414 207"
+                                />
+
+                                <path
+                                    d="M93 224 C135 196 171 208 205 183 C238 159 280 164 313 190 C351 218 374 243 430 252"
+                                />
+
+                                <path
+                                    d="M100 287 C143 260 175 274 207 249 C246 220 285 231 319 260 C356 291 382 306 417 302"
+                                />
+
+                                <path
+                                    d="M130 346 C163 319 198 334 228 307 C261 277 294 292 326 321 C353 345 376 349 399 347"
+                                />
+
+                                <path
+                                    d="M173 111 C180 157 178 204 188 245 C198 286 191 329 205 382"
+                                />
+
+                                <path
+                                    d="M315 102 C304 151 309 193 299 232 C288 273 306 318 291 402"
+                                />
+
+
+                                <circle
+                                    cx="125"
+                                    cy="156"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="230"
+                                    cy="105"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="341"
+                                    cy="112"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="205"
+                                    cy="183"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="313"
+                                    cy="190"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="207"
+                                    cy="249"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="319"
+                                    cy="260"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="228"
+                                    cy="307"
+                                    r="4"
+                                />
+
+                                <circle
+                                    cx="326"
+                                    cy="321"
+                                    r="4"
+                                />
+
+                            </g>
+
+
+                            <!-- Central synaptic nucleus -->
+
+                            <g class="brain-core-node">
+
+                                <circle
+                                    cx="260"
+                                    cy="250"
+                                    r="58"
+                                />
+
+                                <circle
+                                    cx="260"
+                                    cy="250"
+                                    r="38"
+                                />
+
+                                <circle
+                                    cx="260"
+                                    cy="250"
+                                    r="12"
+                                />
+
+                            </g>
+
+                        </svg>
+
+
+                        <!-- Floating synaptic points -->
+
+                        <span class="floating-node node-a"></span>
+                        <span class="floating-node node-b"></span>
+                        <span class="floating-node node-c"></span>
+                        <span class="floating-node node-d"></span>
+
+
+                    </div>
+
+
+                    <div class="core-caption">
+
+                        <span class="core-caption-title">
+                            DISCOVERY
+                        </span>
+
+                        <span class="core-caption-text">
+                            DRIVING KNOWLEDGE FORWARD
+                        </span>
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ================================================= -->
+                <!-- SVG CONNECTION NETWORK                            -->
+                <!-- ================================================= -->
+
+                <svg
+                    id="synapses"
+                    class="synapses"
+                    aria-hidden="true"
+                >
+                </svg>
+
+
+
+                <!-- ================================================= -->
+                <!-- PAPER CARDS                                       -->
+                <!-- ================================================= -->
+
+                <div
+                    id="neurons-layer"
+                    class="neurons-layer"
+                >
+                </div>
+
+
+
+                <!-- ================================================= -->
+                <!-- EMPTY STATE                                       -->
+                <!-- ================================================= -->
+
+                <div
+                    id="empty-state"
+                    class="empty-state"
+                    hidden
+                >
+
+                    <span>
+                        N/A
+                    </span>
+
+                    <p>
+                        Nessun paper disponibile
+                        nella finestra temporale corrente.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ===================================================== -->
+            <!-- NETWORK FOOTER                                        -->
+            <!-- ===================================================== -->
+
+            <footer class="network-footer">
+
+                <span>
+                    SCIENCE
+                </span>
+
+                <span>
+                    ENGINEERING
+                </span>
+
+                <span>
+                    INNOVATION
+                </span>
+
+                <span>
+                    CONNECTION
+                </span>
+
+            </footer>
+
+
+        </section>
+
+
+
+        <!-- ========================================================= -->
+        <!-- DETAIL OVERLAY                                            -->
+        <!-- ========================================================= -->
+
+        <div
+            id="detail-overlay"
+            class="detail-overlay"
+        >
+        </div>
+
+
+
+        <!-- ========================================================= -->
+        <!-- DETAIL PANEL                                              -->
+        <!-- ========================================================= -->
+
+        <aside
+            id="detail-panel"
+            class="detail-panel"
+            aria-hidden="true"
+        >
+
+
+            <div class="detail-panel-top">
+
+
+                <span class="detail-panel-kicker">
+                    RESEARCH PAPER
+                </span>
+
+
+                <button
+                    id="detail-close"
+                    class="detail-close"
+                    type="button"
+                    aria-label="Chiudi articolo"
+                >
+
+                    ×
+
+                </button>
+
+
+            </div>
+
+
+            <div
+                id="detail-content"
+                class="detail-content"
+            >
+            </div>
+
+
+        </aside>
+
+
+    </main>
+
+
+    <script
+        src="script.js"
+    ></script>
+
+
 </body>
+
 </html>
