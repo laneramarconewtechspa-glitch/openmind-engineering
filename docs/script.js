@@ -33,8 +33,16 @@
       const res = await fetch("news.json", { cache: "no-store" });
       if (!res.ok) throw new Error("news.json non raggiungibile");
       const data = await res.json();
-      const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
-      allBriefs = data.filter((b) => new Date(b.published_at).getTime() >= cutoff);
+      console.log("Dati grezzi scaricati da news.json:", data);
+      
+      //const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
+      //allBriefs = data.filter((b) => new Date(b.published_at).getTime() >= cutoff);
+      
+      // TEMPORANEO
+      allBriefs = data; // Mostra tutti gli elementi presenti nel JSON
+      console.log(`Notizie caricate ed elaborate: ${allBriefs.length}`);
+      // FINE TEMPORANEO
+      
       allBriefs.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
       visibleBriefs = allBriefs;
       renderFilters();
