@@ -61,6 +61,7 @@
   // Apertura della mente
   // ------------------------------------------------------------------ //
 
+  /*
   openBtn.addEventListener("click", () => {
     if (hasOpened) return;
     hasOpened = true;
@@ -73,7 +74,21 @@
     }
     layoutNeurons();
   });
+*/
+////////////////////////////////////////////////DA SOSTITUIRE /////////////////////////////////////////////
+  openBtn.onclick = function () {
+  hasOpened = true;
+  app.classList.add("opened");
 
+  if (!visibleBriefs.length) {
+    emptyState.hidden = false;
+    return;
+  }
+
+    //////////////////////////////////////////////////////////
+
+  layoutNeurons();
+};
   window.addEventListener("resize", debounce(() => {
     if (hasOpened && visibleBriefs.length) layoutNeurons();
   }, 200));
