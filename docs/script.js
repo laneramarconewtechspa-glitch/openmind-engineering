@@ -46,9 +46,6 @@
     }
   }
 
-// Avvio immediato
-debugWorkflow();
-  //////////////////////////////////////////////////////////////////////
   function renderLastUpdated(rawData) {
     if (!rawData.length) { lastUpdatedEl.textContent = ""; return; }
     const latest = rawData.reduce((max, b) =>
