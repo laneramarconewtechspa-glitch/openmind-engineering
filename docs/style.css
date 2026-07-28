@@ -180,15 +180,15 @@ button { font-family: inherit; }
 #app.opened #brain-wrap { transform: translate(-50%, -50%) scale(0.62); }
 /* modifica dinamica da rimuovere eventualmente */
 
-#synapses {
-  pointer-events: none;
-}
-
 #open-btn {
+  position: relative;
+  z-index: 1000;
   pointer-events: auto;
   cursor: pointer;
-  position: relative;
-  z-index: 100;
+}
+
+#synapses {
+  pointer-events: none;
 }
 
 #open-btn {
