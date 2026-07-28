@@ -70,7 +70,7 @@
   // Apertura della mente
   // ------------------------------------------------------------------ //
   
-
+/*
   openBtn.addEventListener("click", () => {
     if (hasOpened) return;
     hasOpened = true;
@@ -83,8 +83,24 @@
     }
     layoutNeurons();
   });
+*/
+  /////////////// TEMPORANEO ///////////////
+  if (openBtn) {
+    openBtn.onclick = function () {
+      hasOpened = true;
+      if (app) app.classList.add("opened");
 
-  
+      if (!visibleBriefs.length) {
+        if (emptyState) emptyState.hidden = false;
+        return;
+      }
+
+      layoutNeurons();
+    };
+  } else {
+    console.warn("⚠️ Elemento 'open-btn' non trovato nell'HTML. L'interazione del pulsante è disabilitata.");
+  }
+  ///////////////////////////////////////////
   
   window.addEventListener("resize", debounce(() => {
     if (hasOpened && visibleBriefs.length) layoutNeurons();
