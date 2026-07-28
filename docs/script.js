@@ -1,341 +1,2366 @@
-console.log("### SCRIPT.JS CARICATO ###");
+/* ====================================================================== */
+/* BE IN THE LOOP                                                        */
+/* NEURAL EDITORIAL ENGINE                                               */
+/* ====================================================================== */
 
 (() => {
+
     "use strict";
 
-    const WINDOW_HOURS = 24;
-    const GOLDEN_ANGLE = 2.399963; // radianti (~137.508°)
-    const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const DEFAULT_CATEGORY = "Altro Ingegneria";
-    const REQUIRED_TEXT_FIELDS = [
-        "title", "source_name", "source_url", "published_at", "fetched_at",
-        "big_problem", "small_problem", "idea", "plan", "conclusion", "future_directions",
-    ];
 
-    const app = document.getElementById("app");
-    const stage = document.getElementById("stage");
-    const openBtn = document.getElementById("open-btn");
-    const synapsesSvg = document.getElementById("synapses");
-    const neuronsLayer = document.getElementById("neurons-layer");
-    const emptyState = document.getElementById("empty-state");
-    const filtersEl = document.getElementById("filters");
-    const lastUpdatedEl = document.getElementById("last-updated");
-    const detailPanel = document.getElementById("detail-panel");
-    const detailContent = document.getElementById("detail-content");
-    const detailOverlay = document.getElementById("detail-overlay");
-    const detailClose = document.getElementById("detail-close");
+    /* ================================================================== */
+    /* CONFIG                                                             */
+    /* ================================================================== */
 
-    let allBriefs = [];
-    let visibleBriefs = [];
-    let activeCategory = null;
-    let hasOpened = false;
-
-    // ------------------------------------------------------------------ //
-    // Caricamento dati
-    // ------------------------------------------------------------------ //
-
-    async function loadBriefs() {
-        try {
-            const res = await fetch("news.json", { cache: "no-store" });
-            if (!res.ok) throw new Error("news.json non raggiungibile");
-            const data = await res.json();
-            if (!Array.isArray(data)) throw new Error("news.json deve contenere un array");
-            console.log("Dati grezzi scaricati da news.json:", data);
-
-            const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
-            allBriefs = data
-                .filter(isRenderableBrief)
-                .map(normalizeBrief)
-                .filter((b) => new Date(b.published_at).getTime() >= cutoff);
-
-            console.log(`Notizie renderizzabili nelle ultime ${WINDOW_HOURS}h:`, allBriefs.length);
+    const NEWS_FILE =
+        "news.json";
 
 
-            allBriefs.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-            visibleBriefs = allBriefs;
-            renderFilters();
-            renderLastUpdated(data);
-        } catch (err) {
-            console.error("Errore nel caricamento di news.json:", err);
-            allBriefs = [];
-            visibleBriefs = [];
+    const WINDOW_HOURS =
+        24;
+
+
+    /*
+     * Se vuoi mostrare tutti gli articoli:
+     *
+     * const MAX_PAPERS = null;
+     *
+     * Se vuoi limitare il numero:
+     *
+     * const MAX_PAPERS = 8;
+     */
+
+    const MAX_PAPERS =
+        8;
+
+
+    const REDUCED_MOTION =
+        window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+        ).matches;
+
+
+    /* ================================================================== */
+    /* DOM                                                                */
+    /* ================================================================== */
+
+    const app =
+        document.getElementById(
+            "app"
+        );
+
+
+    const openButton =
+        document.getElementById(
+            "open-btn"
+        );
+
+
+    const stage =
+        document.getElementById(
+            "stage"
+        );
+
+
+    const neuralCore =
+        document.getElementById(
+            "neural-core"
+        );
+
+
+    const synapses =
+        document.getElementById(
+            "synapses"
+        );
+
+
+    const neuronsLayer =
+        document.getElementById(
+            "neurons-layer"
+        );
+
+
+    const emptyState =
+        document.getElementById(
+            "empty-state"
+        );
+
+
+    const filters =
+        document.getElementById(
+            "filters"
+        );
+
+
+    const lastUpdated =
+        document.getElementById(
+            "last-updated"
+        );
+
+
+    const detailPanel =
+        document.getElementById(
+            "detail-panel"
+        );
+
+
+    const detailContent =
+        document.getElementById(
+            "detail-content"
+        );
+
+
+    const detailOverlay =
+        document.getElementById(
+            "detail-overlay"
+        );
+
+
+    const detailClose =
+        document.getElementById(
+            "detail-close"
+        );
+
+
+    /* ================================================================== */
+    /* STATE                                                              */
+    /* ================================================================== */
+
+    let allPapers =
+        [];
+
+
+    let visiblePapers =
+        [];
+
+
+    let activeCategory =
+        null;
+
+
+    let networkOpened =
+        false;
+
+
+    let resizeTimer =
+        null;
+
+
+    let animationFrame =
+        null;
+
+
+    /* ================================================================== */
+    /* HELPERS                                                            */
+    /* ================================================================== */
+
+    function safeText(
+        value
+    ) {
+
+        if (
+            value === null ||
+            value === undefined ||
+            String(value).trim() === ""
+        ) {
+
+            return "N/A";
+
         }
+
+
+        return String(
+            value
+        ).trim();
+
     }
 
-    function isRenderableBrief(brief) {
-        if (!brief || typeof brief !== "object") return false;
-        const hasRequiredText = REQUIRED_TEXT_FIELDS.every((key) => String(brief[key] || "").trim());
-        const publishedAt = new Date(brief.published_at).getTime();
-        if (!hasRequiredText || Number.isNaN(publishedAt)) {
-            console.warn("Notizia ignorata perché incompleta o con data non valida:", brief);
-            return false;
-        }
-        return true;
+
+    function escapeHTML(
+        value
+    ) {
+
+        const element =
+            document.createElement(
+                "div"
+            );
+
+
+        element.textContent =
+            safeText(
+                value
+            );
+
+
+        return element.innerHTML;
+
     }
 
-    function normalizeBrief(brief) {
+
+    function normalizeImage(
+        value
+    ) {
+
+        if (
+            !value
+        ) {
+
+            return "";
+
+        }
+
+
+        const image =
+            String(
+                value
+            ).trim();
+
+
+        if (
+            image.startsWith(
+                "/static/browse/"
+            )
+        ) {
+
+            return (
+                "https://arxiv.org" +
+                image
+            );
+
+        }
+
+
+        return image;
+
+    }
+
+
+    function formatDate(
+        value
+    ) {
+
+        const date =
+            new Date(
+                value
+            );
+
+
+        if (
+            Number.isNaN(
+                date.getTime()
+            )
+        ) {
+
+            return "N/A";
+
+        }
+
+
+        return date.toLocaleDateString(
+            "it-IT",
+            {
+                day:
+                    "2-digit",
+
+                month:
+                    "long",
+
+                year:
+                    "numeric"
+            }
+        );
+
+    }
+
+
+    function formatDateTime(
+        value
+    ) {
+
+        const date =
+            new Date(
+                value
+            );
+
+
+        if (
+            Number.isNaN(
+                date.getTime()
+            )
+        ) {
+
+            return "N/A";
+
+        }
+
+
+        return date.toLocaleString(
+            "it-IT",
+            {
+                day:
+                    "2-digit",
+
+                month:
+                    "2-digit",
+
+                year:
+                    "numeric",
+
+                hour:
+                    "2-digit",
+
+                minute:
+                    "2-digit"
+            }
+        );
+
+    }
+
+
+    function normalizePaper(
+        paper
+    ) {
+
         return {
-            ...brief,
-            category: String(brief.category || "").trim() || DEFAULT_CATEGORY,
-            image_url: normalizeImageUrl(brief.image_url),
+
+            ...paper,
+
+            title:
+                safeText(
+                    paper.title
+                ),
+
+            source_name:
+                safeText(
+                    paper.source_name
+                ),
+
+            source_url:
+                safeText(
+                    paper.source_url
+                ),
+
+            published_at:
+                paper.published_at,
+
+            category:
+                safeText(
+                    paper.category
+                ) === "N/A"
+                    ? "Altro"
+                    : safeText(
+                        paper.category
+                    ),
+
+            image_url:
+                normalizeImage(
+                    paper.image_url
+                ),
+
+            big_problem:
+                safeText(
+                    paper.big_problem
+                ),
+
+            small_problem:
+                safeText(
+                    paper.small_problem
+                ),
+
+            idea:
+                safeText(
+                    paper.idea
+                ),
+
+            plan:
+                safeText(
+                    paper.plan
+                ),
+
+            conclusion:
+                safeText(
+                    paper.conclusion
+                ),
+
+            future_directions:
+                safeText(
+                    paper.future_directions
+                ),
+
+            result_1_headline:
+                safeText(
+                    paper.result_1_headline
+                ),
+
+            result_1_number:
+                safeText(
+                    paper.result_1_number
+                ),
+
+            result_1_detail:
+                safeText(
+                    paper.result_1_detail
+                ),
+
+            result_2_headline:
+                safeText(
+                    paper.result_2_headline
+                ),
+
+            result_2_number:
+                safeText(
+                    paper.result_2_number
+                ),
+
+            result_2_detail:
+                safeText(
+                    paper.result_2_detail
+                ),
+
+            result_3_headline:
+                safeText(
+                    paper.result_3_headline
+                ),
+
+            result_3_number:
+                safeText(
+                    paper.result_3_number
+                ),
+
+            result_3_detail:
+                safeText(
+                    paper.result_3_detail
+                )
+
         };
+
     }
 
-    function normalizeImageUrl(url) {
-        if (!url) return "";
-        if (url.startsWith("/static/browse/")) return `https://arxiv.org${url}`;
-        return url;
+
+    /* ================================================================== */
+    /* LOAD DATA                                                          */
+    /* ================================================================== */
+
+    async function loadNews() {
+
+        try {
+
+            const response =
+                await fetch(
+                    NEWS_FILE,
+                    {
+                        cache:
+                            "no-store"
+                    }
+                );
+
+
+            if (
+                !response.ok
+            ) {
+
+                throw new Error(
+                    "Impossibile caricare news.json"
+                );
+
+            }
+
+
+            const data =
+                await response.json();
+
+
+            if (
+                !Array.isArray(
+                    data
+                )
+            ) {
+
+                throw new Error(
+                    "news.json deve contenere un array"
+                );
+
+            }
+
+
+            const cutoff =
+                Date.now() -
+                (
+                    WINDOW_HOURS *
+                    60 *
+                    60 *
+                    1000
+                );
+
+
+            allPapers =
+
+                data
+
+                    .filter(
+                        paper => {
+
+                            if (
+                                !paper.title ||
+                                !paper.source_name ||
+                                !paper.source_url ||
+                                !paper.published_at
+                            ) {
+
+                                return false;
+
+                            }
+
+
+                            const date =
+                                new Date(
+                                    paper.published_at
+                                );
+
+
+                            return (
+                                !Number.isNaN(
+                                    date.getTime()
+                                )
+                            );
+
+                        }
+                    )
+
+                    .filter(
+                        paper => {
+
+                            const timestamp =
+                                new Date(
+                                    paper.published_at
+                                ).getTime();
+
+
+                            return (
+                                timestamp >=
+                                cutoff
+                            );
+
+                        }
+                    )
+
+                    .map(
+                        normalizePaper
+                    )
+
+                    .sort(
+                        (
+                            a,
+                            b
+                        ) =>
+
+                            new Date(
+                                b.published_at
+                            ) -
+
+                            new Date(
+                                a.published_at
+                            )
+
+                    );
+
+
+            if (
+                MAX_PAPERS !== null
+            ) {
+
+                allPapers =
+                    allPapers.slice(
+                        0,
+                        MAX_PAPERS
+                    );
+
+            }
+
+
+            visiblePapers =
+                [
+                    ...allPapers
+                ];
+
+
+            renderFilters();
+
+
+            renderLastUpdated(
+                data
+            );
+
+
+            console.log(
+                "Paper caricati:",
+                allPapers.length
+            );
+
+
+        } catch (
+            error
+        ) {
+
+            console.error(
+                error
+            );
+
+
+            allPapers =
+                [];
+
+
+            visiblePapers =
+                [];
+
+
+            renderEmptyState();
+
+        }
+
     }
 
-    function renderLastUpdated(rawData) {
-        if (!rawData.length) { lastUpdatedEl.textContent = ""; return; }
-        const latest = rawData.reduce((max, b) =>
-            new Date(b.fetched_at) > new Date(max) ? b.fetched_at : max, rawData[0].fetched_at);
-        const d = new Date(latest);
-        const time = d.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
-        const sameDay = new Date().toDateString() === d.toDateString();
-        lastUpdatedEl.textContent = sameDay
-            ? `Aggiornato oggi alle ${time}`
-            : `Aggiornato il ${d.toLocaleDateString("it-IT")} alle ${time}`;
-    }
 
-    // ------------------------------------------------------------------ //
-    // Apertura della mente
-    // ------------------------------------------------------------------ //
+    /* ================================================================== */
+    /* LAST UPDATED                                                       */
+    /* ================================================================== */
+
+    function renderLastUpdated(
+        data
+    ) {
+
+        const dates =
+
+            data
+
+                .map(
+                    item =>
+                        new Date(
+                            item.fetched_at
+                        )
+                )
+
+                .filter(
+                    date =>
+                        !Number.isNaN(
+                            date.getTime()
+                        )
+                );
 
 
-    openBtn.addEventListener("click", () => {
-        if (hasOpened) return;
-        hasOpened = true;
-        app.classList.add("opened");
+        if (
+            !dates.length
+        ) {
 
-        if (!visibleBriefs.length) {
-            emptyState.hidden = false;
-            requestAnimationFrame(() => emptyState.classList.add("visible"));
+            lastUpdated.textContent =
+                "";
+
             return;
+
         }
-        layoutNeurons();
-    });
 
 
-    window.addEventListener("resize", debounce(() => {
-        if (hasOpened && visibleBriefs.length) layoutNeurons();
-    }, 200));
+        const latest =
+            dates.reduce(
+                (
+                    max,
+                    current
+                ) =>
+                    current >
+                    max
+                        ? current
+                        : max
+            );
 
-    function debounce(fn, wait) {
-        let t;
-        return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); };
+
+        lastUpdated.textContent =
+            "LAST UPDATE · " +
+            formatDateTime(
+                latest
+            );
+
     }
 
-    // ------------------------------------------------------------------ //
-    // Layout a spirale (angolo aureo) + rendering neuroni/sinapsi
-    // ------------------------------------------------------------------ //
 
-    function layoutNeurons() {
-        neuronsLayer.innerHTML = "";
-        synapsesSvg.innerHTML = "";
-
-        const rect = stage.getBoundingClientRect();
-        const originX = rect.width / 2;
-        const originY = rect.height / 2;
-        const minRadius = Math.min(rect.width, rect.height) * 0.16 + 60;
-        const maxRadius = Math.min(rect.width, rect.height) * 0.44;
-        const n = visibleBriefs.length;
-
-        visibleBriefs.forEach((brief, i) => {
-            const angle = i * GOLDEN_ANGLE;
-            const t = n > 1 ? Math.sqrt((i + 1) / n) : 1;
-            const radius = minRadius + (maxRadius - minRadius) * t;
-            const x = originX + radius * Math.cos(angle);
-            const y = originY + radius * Math.sin(angle);
-
-            drawSynapse(originX, originY, x, y, i);
-            drawNeuron(brief, x, y, i);
-        });
-    }
-
-    function drawSynapse(ox, oy, x, y, index) {
-        const mx = (ox + x) / 2 + (y - oy) * 0.08 * (index % 2 === 0 ? 1 : -1);
-        const my = (oy + y) / 2 + (ox - x) * 0.08 * (index % 2 === 0 ? 1 : -1);
-        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        path.setAttribute("d", `M ${ox} ${oy} Q ${mx} ${my} ${x} ${y}`);
-        path.setAttribute("class", "synapse");
-        path.dataset.index = String(index);
-        if (!REDUCED_MOTION) path.style.transitionDelay = `${Math.min(index * 35, 900)}ms`;
-        synapsesSvg.appendChild(path);
-    }
-
-    function drawNeuron(brief, x, y, index) {
-        const el = document.createElement("div");
-        el.className = "neuron" + (brief.image_url ? "" : " no-image");
-        el.dataset.category = brief.category;
-        el.style.left = `${x}px`;
-        el.style.top = `${y}px`;
-        if (brief.image_url) el.style.backgroundImage = `url("${brief.image_url}")`;
-        if (!REDUCED_MOTION) {
-            el.style.setProperty("--delay", `${Math.min(index * 0.035, 0.9)}s`);
-            el.style.setProperty("--float-duration", `${5 + Math.random() * 3}s`);
-            el.style.setProperty("--float-delay", `${Math.random() * 3}s`);
-        }
-        el.tabIndex = 0;
-        el.setAttribute("role", "button");
-        el.setAttribute("aria-label", brief.title);
-
-        const tooltip = document.createElement("span");
-        tooltip.className = "neuron-tooltip";
-        tooltip.textContent = brief.title;
-        el.appendChild(tooltip);
-
-        const open = () => openDetail(brief, el);
-        el.addEventListener("click", open);
-        el.addEventListener("keydown", (e) => {
-            if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
-        });
-
-        neuronsLayer.appendChild(el);
-    }
-
-    // ------------------------------------------------------------------ //
-    // Filtri per categoria
-    // ------------------------------------------------------------------ //
+    /* ================================================================== */
+    /* FILTERS                                                            */
+    /* ================================================================== */
 
     function renderFilters() {
-        filtersEl.innerHTML = "";
-        const categories = [...new Set(allBriefs.map((b) => b.category))];
-        if (categories.length < 2) return;
 
-        const allChip = makeChip("Tutte", null);
-        allChip.classList.add("active");
-        filtersEl.appendChild(allChip);
-        categories.forEach((cat) => filtersEl.appendChild(makeChip(cat, cat)));
+        filters.innerHTML =
+            "";
+
+
+        const categories =
+
+            [
+                ...new Set(
+                    allPapers.map(
+                        paper =>
+                            paper.category
+                    )
+                )
+            ];
+
+
+        if (
+            !categories.length
+        ) {
+
+            return;
+
+        }
+
+
+        const allButton =
+            createFilterButton(
+                "TUTTI",
+                null
+            );
+
+
+        allButton.classList.add(
+            "active"
+        );
+
+
+        filters.appendChild(
+            allButton
+        );
+
+
+        categories.forEach(
+            category => {
+
+                filters.appendChild(
+                    createFilterButton(
+                        category,
+                        category
+                    )
+                );
+
+            }
+        );
+
     }
 
-    function makeChip(label, category) {
-        const chip = document.createElement("button");
-        chip.className = "chip";
-        chip.textContent = label;
-        if (category) chip.dataset.category = category;
-        chip.addEventListener("click", () => applyFilter(category, chip));
-        return chip;
+
+    function createFilterButton(
+        label,
+        category
+    ) {
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+
+        button.type =
+            "button";
+
+
+        button.className =
+            "chip";
+
+
+        button.textContent =
+            label;
+
+
+        button.addEventListener(
+            "click",
+            () => {
+
+                activeCategory =
+                    category;
+
+
+                document
+                    .querySelectorAll(
+                        ".chip"
+                    )
+                    .forEach(
+                        item =>
+                            item.classList.remove(
+                                "active"
+                            )
+                    );
+
+
+                button.classList.add(
+                    "active"
+                );
+
+
+                applyFilter();
+
+            }
+        );
+
+
+        return button;
+
     }
 
-    function applyFilter(category, chipEl) {
-        activeCategory = category;
-        [...filtersEl.children].forEach((c) => c.classList.remove("active"));
-        chipEl.classList.add("active");
 
-        [...neuronsLayer.children].forEach((el) => {
-            const match = !category || el.dataset.category === category;
-            el.classList.toggle("dimmed", !match);
-        });
-        [...synapsesSvg.children].forEach((path) => {
-            const idx = Number(path.dataset.index);
-            const brief = visibleBriefs[idx];
-            const match = !category || brief.category === category;
-            path.style.opacity = match ? "" : "0.06";
-        });
+    function applyFilter() {
+
+        document
+            .querySelectorAll(
+                ".neuron"
+            )
+            .forEach(
+                paper => {
+
+                    const match =
+
+                        !activeCategory ||
+
+                        paper.dataset.category ===
+                        activeCategory;
+
+
+                    paper.classList.toggle(
+                        "dimmed",
+                        !match
+                    );
+
+                }
+            );
+
+
+        document
+            .querySelectorAll(
+                ".synapse"
+            )
+            .forEach(
+                line => {
+
+                    if (
+                        line.dataset.type !==
+                        "core"
+                    ) {
+
+                        line.style.opacity =
+                            activeCategory
+                                ? ".08"
+                                : "";
+
+                        return;
+
+                    }
+
+
+                    const index =
+                        Number(
+                            line.dataset.paperIndex
+                        );
+
+
+                    const paper =
+                        visiblePapers[
+                            index
+                        ];
+
+
+                    if (
+                        !paper
+                    ) {
+
+                        return;
+
+                    }
+
+
+                    const match =
+
+                        !activeCategory ||
+
+                        paper.category ===
+                        activeCategory;
+
+
+                    line.style.opacity =
+                        match
+                            ? ""
+                            : ".04";
+
+                }
+            );
+
     }
 
-    // ------------------------------------------------------------------ //
-    // Pannello di dettaglio
-    // ------------------------------------------------------------------ //
 
-    function openDetail(brief, neuronEl) {
-        [...neuronsLayer.children].forEach((el) => el.classList.remove("selected"));
-        neuronEl.classList.add("selected");
+    /* ================================================================== */
+    /* OPEN NETWORK                                                       */
+    /* ================================================================== */
 
-        detailContent.setAttribute("data-category", brief.category);
-        detailContent.innerHTML = buildDetailHTML(brief);
-        detailPanel.classList.add("visible");
-        detailOverlay.classList.add("visible");
-        detailPanel.setAttribute("aria-hidden", "false");
+    openButton.addEventListener(
+        "click",
+        () => {
+
+            if (
+                networkOpened
+            ) {
+
+                return;
+
+            }
+
+
+            networkOpened =
+                true;
+
+
+            app.classList.add(
+                "opened"
+            );
+
+
+            setTimeout(
+                () => {
+
+                    if (
+                        visiblePapers.length
+                    ) {
+
+                        renderNetwork();
+
+                    } else {
+
+                        renderEmptyState();
+
+                    }
+
+                },
+                500
+            );
+
+        }
+    );
+
+
+    /* ================================================================== */
+    /* EMPTY STATE                                                        */
+    /* ================================================================== */
+
+    function renderEmptyState() {
+
+        emptyState.hidden =
+            false;
+
+    }
+
+
+    /* ================================================================== */
+    /* NETWORK RENDER                                                     */
+    /* ================================================================== */
+
+    function renderNetwork() {
+
+        neuronsLayer.innerHTML =
+            "";
+
+
+        synapses.innerHTML =
+            "";
+
+
+        if (
+            animationFrame
+        ) {
+
+            cancelAnimationFrame(
+                animationFrame
+            );
+
+        }
+
+
+        const stageRect =
+            stage.getBoundingClientRect();
+
+
+        const isMobile =
+            window.innerWidth <= 650;
+
+
+        const coreRect =
+            neuralCore.getBoundingClientRect();
+
+
+        const stageLeft =
+            stageRect.left;
+
+
+        const stageTop =
+            stageRect.top;
+
+
+        const coreX =
+            coreRect.left +
+            coreRect.width /
+            2 -
+            stageLeft;
+
+
+        const coreY =
+            coreRect.top +
+            coreRect.height /
+            2 -
+            stageTop;
+
+
+        const positions =
+            calculatePositions(
+                stageRect.width,
+                stageRect.height,
+                isMobile
+            );
+
+
+        drawCoreConnections(
+            coreX,
+            coreY,
+            positions
+        );
+
+
+        drawPaperConnections(
+            positions
+        );
+
+
+        positions.forEach(
+            (
+                position,
+                index
+            ) => {
+
+                createPaperCard(
+                    visiblePapers[
+                        index
+                    ],
+                    position,
+                    index
+                );
+
+            }
+        );
+
+
+        applyFilter();
+
+
+        if (
+            !REDUCED_MOTION
+        ) {
+
+            startPulseAnimation();
+
+        }
+
+    }
+
+
+    /* ================================================================== */
+    /* PAPER POSITIONS                                                    */
+    /* ================================================================== */
+
+    function calculatePositions(
+        width,
+        height,
+        isMobile
+    ) {
+
+        const positions =
+            [];
+
+
+        /*
+         * Il layout è intenzionalmente asimmetrico.
+         *
+         * Le card non vengono messe in cerchio.
+         * Questo evita l'effetto "orbita matematica"
+         * e produce un impianto editoriale più simile
+         * a una composizione di magazine.
+         */
+
+
+        if (
+            isMobile
+        ) {
+
+            const mobilePositions = [
+
+                {
+                    x:
+                        width *
+                        .18,
+
+                    y:
+                        height *
+                        .73
+                },
+
+                {
+                    x:
+                        width *
+                        .82,
+
+                    y:
+                        height *
+                        .73
+                },
+
+                {
+                    x:
+                        width *
+                        .18,
+
+                    y:
+                        height *
+                        .90
+                },
+
+                {
+                    x:
+                        width *
+                        .82,
+
+                    y:
+                        height *
+                        .90
+                },
+
+                {
+                    x:
+                        width *
+                        .50,
+
+                    y:
+                        height *
+                        .92
+                },
+
+                {
+                    x:
+                        width *
+                        .15,
+
+                    y:
+                        height *
+                        .55
+                },
+
+                {
+                    x:
+                        width *
+                        .85,
+
+                    y:
+                        height *
+                        .55
+                },
+
+                {
+                    x:
+                        width *
+                        .50,
+
+                    y:
+                        height *
+                        .70
+                }
+
+            ];
+
+
+            return visiblePapers.map(
+                (
+                    paper,
+                    index
+                ) =>
+                    mobilePositions[
+                        index %
+                        mobilePositions.length
+                    ]
+            );
+
+        }
+
+
+        const desktopPositions = [
+
+            {
+                x:
+                    width *
+                    .24,
+
+                y:
+                    height *
+                    .28
+            },
+
+            {
+                x:
+                    width *
+                    .82,
+
+                y:
+                    height *
+                    .24
+            },
+
+            {
+                x:
+                    width *
+                    .15,
+
+                y:
+                    height *
+                    .65
+            },
+
+            {
+                x:
+                    width *
+                    .87,
+
+                y:
+                    height *
+                    .62
+            },
+
+            {
+                x:
+                    width *
+                    .30,
+
+                y:
+                    height *
+                    .86
+            },
+
+            {
+                x:
+                    width *
+                    .72,
+
+                y:
+                    height *
+                    .87
+            },
+
+            {
+                x:
+                    width *
+                    .08,
+
+                y:
+                    height *
+                    .43
+            },
+
+            {
+                x:
+                    width *
+                    .93,
+
+                y:
+                    height *
+                    .43
+            }
+
+        ];
+
+
+        return visiblePapers.map(
+            (
+                paper,
+                index
+            ) =>
+                desktopPositions[
+                    index %
+                    desktopPositions.length
+                ]
+        );
+
+    }
+
+
+    /* ================================================================== */
+    /* CORE CONNECTIONS                                                   */
+    /* ================================================================== */
+
+    function drawCoreConnections(
+        coreX,
+        coreY,
+        positions
+    ) {
+
+        positions.forEach(
+            (
+                position,
+                index
+            ) => {
+
+                const path =
+                    createCurvedPath(
+                        coreX,
+                        coreY,
+                        position.x,
+                        position.y,
+                        index
+                    );
+
+
+                path.dataset.type =
+                    "core";
+
+
+                path.dataset.paperIndex =
+                    String(
+                        index
+                    );
+
+
+                synapses.appendChild(
+                    path
+                );
+
+            }
+        );
+
+    }
+
+
+    /* ================================================================== */
+    /* PAPER CONNECTIONS                                                  */
+    /* ================================================================== */
+
+    function drawPaperConnections(
+        positions
+    ) {
+
+        /*
+         * Collega ogni card con la card successiva.
+         * La rete resta leggibile e non diventa una ragnatela.
+         */
+
+        for (
+            let index = 0;
+            index <
+            positions.length - 1;
+            index++
+        ) {
+
+            const a =
+                positions[
+                    index
+                ];
+
+
+            const b =
+                positions[
+                    index + 1
+                ];
+
+
+            const path =
+                createCurvedPath(
+                    a.x,
+                    a.y,
+                    b.x,
+                    b.y,
+                    index +
+                    100
+                );
+
+
+            path.classList.add(
+                "synapse-secondary"
+            );
+
+
+            path.dataset.type =
+                "secondary";
+
+
+            synapses.appendChild(
+                path
+            );
+
+        }
+
+    }
+
+
+    /* ================================================================== */
+    /* CURVED PATH                                                        */
+    /* ================================================================== */
+
+    function createCurvedPath(
+        x1,
+        y1,
+        x2,
+        y2,
+        index
+    ) {
+
+        const dx =
+            x2 -
+            x1;
+
+
+        const dy =
+            y2 -
+            y1;
+
+
+        const distance =
+            Math.sqrt(
+                dx * dx +
+                dy * dy
+            );
+
+
+        const nx =
+            -dy /
+            (
+                distance ||
+                1
+            );
+
+
+        const ny =
+            dx /
+            (
+                distance ||
+                1
+            );
+
+
+        const direction =
+            index %
+            2 ===
+            0
+                ? 1
+                : -1;
+
+
+        const curve =
+            Math.min(
+                90,
+                distance *
+                .12
+            );
+
+
+        const cx =
+            (
+                x1 +
+                x2
+            ) /
+            2 +
+            nx *
+            curve *
+            direction;
+
+
+        const cy =
+            (
+                y1 +
+                y2
+            ) /
+            2 +
+            ny *
+            curve *
+            direction;
+
+
+        const path =
+            document.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "path"
+            );
+
+
+        path.setAttribute(
+            "d",
+            `
+            M ${x1} ${y1}
+            Q ${cx} ${cy}
+            ${x2} ${y2}
+            `
+        );
+
+
+        path.classList.add(
+            "synapse"
+        );
+
+
+        return path;
+
+    }
+
+
+    /* ================================================================== */
+    /* PAPER CARD                                                         */
+    /* ================================================================== */
+
+    function createPaperCard(
+        paper,
+        position,
+        index
+    ) {
+
+        const article =
+            document.createElement(
+                "article"
+            );
+
+
+        article.className =
+            "neuron";
+
+
+        article.dataset.category =
+            paper.category;
+
+
+        article.dataset.index =
+            String(
+                index
+            );
+
+
+        article.style.left =
+            `${position.x}px`;
+
+
+        article.style.top =
+            `${position.y}px`;
+
+
+        article.tabIndex =
+            0;
+
+
+        article.setAttribute(
+            "role",
+            "button"
+        );
+
+
+        article.setAttribute(
+            "aria-label",
+            paper.title
+        );
+
+
+        const imageHTML =
+
+            paper.image_url
+
+                ?
+
+                `
+                <img
+                    class="paper-image"
+                    src="${escapeHTML(
+                        paper.image_url
+                    )}"
+                    alt=""
+                    loading="lazy"
+                >
+                `
+
+                :
+
+                `
+                <div
+                    class="paper-image paper-image-na"
+                >
+                    N/A
+                </div>
+                `;
+
+
+        article.innerHTML = `
+
+            <div class="paper-header">
+
+                <span class="paper-number">
+                    RESEARCH ARTICLE
+                </span>
+
+                <span>
+                    ${String(
+                        index +
+                        1
+                    ).padStart(
+                        2,
+                        "0"
+                    )}
+                </span>
+
+            </div>
+
+
+            ${imageHTML}
+
+
+            <div class="paper-body">
+
+                <div class="paper-category">
+
+                    ${escapeHTML(
+                        paper.category
+                    )}
+
+                </div>
+
+
+                <h2 class="paper-title">
+
+                    ${escapeHTML(
+                        paper.title
+                    )}
+
+                </h2>
+
+
+                <p class="paper-abstract">
+
+                    ${escapeHTML(
+                        createAbstract(
+                            paper
+                        )
+                    )}
+
+                </p>
+
+
+                <div class="paper-meta">
+
+                    <span>
+
+                        ${escapeHTML(
+                            formatDate(
+                                paper.published_at
+                            )
+                        )}
+
+                    </span>
+
+
+                    <span>
+
+                        ${escapeHTML(
+                            paper.source_name
+                        )}
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        `;
+
+
+        article.addEventListener(
+            "click",
+            () =>
+                openDetail(
+                    paper,
+                    article
+                )
+        );
+
+
+        article.addEventListener(
+            "keydown",
+            event => {
+
+                if (
+                    event.key ===
+                    "Enter" ||
+
+                    event.key ===
+                    " "
+                ) {
+
+                    event.preventDefault();
+
+
+                    openDetail(
+                        paper,
+                        article
+                    );
+
+                }
+
+            }
+        );
+
+
+        neuronsLayer.appendChild(
+            article
+        );
+
+    }
+
+
+    /* ================================================================== */
+    /* ABSTRACT                                                           */
+    /* ================================================================== */
+
+    function createAbstract(
+        paper
+    ) {
+
+        const candidates = [
+
+            paper.idea,
+
+            paper.small_problem,
+
+            paper.big_problem,
+
+            paper.conclusion
+
+        ];
+
+
+        for (
+            const value of
+            candidates
+        ) {
+
+            if (
+                value &&
+                value !== "N/A"
+            ) {
+
+                return value;
+
+            }
+
+        }
+
+
+        return "N/A";
+
+    }
+
+
+    /* ================================================================== */
+    /* SYNAPTIC PULSE                                                     */
+    /* ================================================================== */
+
+    function startPulseAnimation() {
+
+        const paths =
+            [
+                ...synapses.querySelectorAll(
+                    ".synapse"
+                )
+            ];
+
+
+        if (
+            !paths.length
+        ) {
+
+            return;
+
+        }
+
+
+        const pulses =
+            [];
+
+
+        paths.forEach(
+            (
+                path,
+                index
+            ) => {
+
+                const length =
+                    path.getTotalLength();
+
+
+                const pulse =
+                    document.createElementNS(
+                        "http://www.w3.org/2000/svg",
+                        "circle"
+                    );
+
+
+                pulse.classList.add(
+                    "synapse-pulse"
+                );
+
+
+                pulse.setAttribute(
+                    "r",
+                    path.classList.contains(
+                        "synapse-secondary"
+                    )
+                        ? "2"
+                        : "2.8"
+                );
+
+
+                synapses.appendChild(
+                    pulse
+                );
+
+
+                pulses.push(
+                    {
+                        path,
+                        pulse,
+                        length,
+                        delay:
+                            index *
+                            550
+                    }
+                );
+
+            }
+        );
+
+
+        const start =
+            performance.now();
+
+
+        function animate(
+            now
+        ) {
+
+            const elapsed =
+                now -
+                start;
+
+
+            pulses.forEach(
+                item => {
+
+                    const duration =
+                        item.path.classList.contains(
+                            "synapse-secondary"
+                        )
+                            ? 9000
+                            : 6500;
+
+
+                    const progress =
+                        (
+                            elapsed +
+                            item.delay
+                        ) %
+                        duration /
+                        duration;
+
+
+                    const point =
+                        item.path.getPointAtLength(
+                            progress *
+                            item.length
+                        );
+
+
+                    item.pulse.setAttribute(
+                        "cx",
+                        point.x
+                    );
+
+
+                    item.pulse.setAttribute(
+                        "cy",
+                        point.y
+                    );
+
+                }
+            );
+
+
+            animationFrame =
+                requestAnimationFrame(
+                    animate
+                );
+
+        }
+
+
+        animationFrame =
+            requestAnimationFrame(
+                animate
+            );
+
+    }
+
+
+    /* ================================================================== */
+    /* DETAIL PANEL                                                       */
+    /* ================================================================== */
+
+    function openDetail(
+        paper,
+        article
+    ) {
+
+        document
+            .querySelectorAll(
+                ".neuron"
+            )
+            .forEach(
+                element =>
+                    element.classList.remove(
+                        "selected"
+                    )
+            );
+
+
+        article.classList.add(
+            "selected"
+        );
+
+
+        detailContent.innerHTML =
+            createDetailHTML(
+                paper
+            );
+
+
+        detailPanel.classList.add(
+            "visible"
+        );
+
+
+        detailOverlay.classList.add(
+            "visible"
+        );
+
+
+        detailPanel.setAttribute(
+            "aria-hidden",
+            "false"
+        );
+
+
+        document.body.style.overflow =
+            "hidden";
+
+
         detailClose.focus();
+
     }
+
 
     function closeDetail() {
-        detailPanel.classList.remove("visible");
-        detailOverlay.classList.remove("visible");
-        detailPanel.setAttribute("aria-hidden", "true");
-        [...neuronsLayer.children].forEach((el) => el.classList.remove("selected"));
+
+        detailPanel.classList.remove(
+            "visible"
+        );
+
+
+        detailOverlay.classList.remove(
+            "visible"
+        );
+
+
+        detailPanel.setAttribute(
+            "aria-hidden",
+            "true"
+        );
+
+
+        document.body.style.overflow =
+            "";
+
+
+        document
+            .querySelectorAll(
+                ".neuron"
+            )
+            .forEach(
+                element =>
+                    element.classList.remove(
+                        "selected"
+                    )
+            );
+
     }
 
-    detailClose.addEventListener("click", closeDetail);
-    detailOverlay.addEventListener("click", closeDetail);
-    document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && detailPanel.classList.contains("visible")) closeDetail();
-    });
 
-    function formatDate(iso) {
-        return new Date(iso).toLocaleDateString("it-IT", {
-            day: "numeric", month: "long", hour: "2-digit", minute: "2-digit",
-        });
-    }
+    detailClose.addEventListener(
+        "click",
+        closeDetail
+    );
 
-    function esc(str) {
-        const div = document.createElement("div");
-        div.textContent = str || "";
-        return div.innerHTML;
-    }
 
-    function buildDetailHTML(b) {
-        const imageBlock = b.image_url
-            ? `<img class="d-image" src="${esc(b.image_url)}" alt="" loading="lazy">`
-            : `<div class="d-image neuron no-image" style="position:static;transform:none;border-radius:14px;"></div>`;
+    detailOverlay.addEventListener(
+        "click",
+        closeDetail
+    );
 
-        const preprintBadge = b.is_preprint
-            ? `<span class="d-preprint">Preprint — non peer-reviewed</span>` : "";
+
+    document.addEventListener(
+        "keydown",
+        event => {
+
+            if (
+                event.key ===
+                "Escape"
+            ) {
+
+                if (
+                    detailPanel.classList.contains(
+                        "visible"
+                    )
+                ) {
+
+                    closeDetail();
+
+                }
+
+            }
+
+        }
+    );
+
+
+    /* ================================================================== */
+    /* DETAIL HTML                                                        */
+    /* ================================================================== */
+
+    function createDetailHTML(
+        paper
+    ) {
+
+        const imageHTML =
+
+            paper.image_url
+
+                ?
+
+                `
+                <img
+                    class="d-image"
+                    src="${escapeHTML(
+                        paper.image_url
+                    )}"
+                    alt=""
+                >
+                `
+
+                :
+
+                `
+                <div
+                    class="d-image paper-image-na"
+                >
+                    N/A
+                </div>
+                `;
+
 
         return `
-      ${imageBlock}
-      <div class="d-meta">
-        <span>${esc(b.source_name)}</span>
-        <span class="d-badge">${esc(b.category)}</span>
-        <span>${formatDate(b.published_at)}</span>
-        ${preprintBadge}
-      </div>
 
-      <p class="d-bluf-label">BLUF</p>
-      <p class="d-bluf">${esc(b.big_problem)}</p>
+            ${imageHTML}
 
-      <div class="d-intro">
-        <p class="d-section-label">Intro</p>
-        <div class="d-intro-row"><strong>Problema</strong><span>${esc(b.small_problem)}</span></div>
-        <div class="d-intro-row"><strong>Idea</strong><span>${esc(b.idea)}</span></div>
-        <div class="d-intro-row"><strong>Piano</strong><span>${esc(b.plan)}</span></div>
-      </div>
 
-      <p class="d-section-label">Risultati</p>
-      <div class="d-results">
-        ${[1, 2, 3].map((n) => `
-          <div class="d-result-card">
-            <div class="d-result-headline">${esc(b[`result_${n}_headline`])}</div>
-            <span class="d-result-number">${esc(b[`result_${n}_number`])}</span>
-            <div class="d-result-detail">${esc(b[`result_${n}_detail`])}</div>
-          </div>`).join("")}
-      </div>
+            <div class="d-meta">
 
-      <p class="d-section-label">Conclusione</p>
-      <p class="d-conclusion">${esc(b.conclusion)}</p>
+                <span>
+                    ${escapeHTML(
+                        paper.source_name
+                    )}
+                </span>
 
-      <p class="d-section-label">Direzioni future</p>
-      <p class="d-future">${esc(b.future_directions)}</p>
 
-      <div class="d-actions">
-        <a class="d-source-link" href="${esc(b.source_url)}" target="_blank" rel="noopener noreferrer">
-          Leggi la fonte originale ↗
-        </a>
-      </div>
-      <p class="d-attribution">
-        Contenuto elaborato automaticamente a partire dalla fonte indicata.
-        Testo e diritti originali di ${esc(b.source_name)}.
-      </p>
-    `;
+                <span class="d-badge">
+
+                    ${escapeHTML(
+                        paper.category
+                    )}
+
+                </span>
+
+
+                <span>
+
+                    ${escapeHTML(
+                        formatDate(
+                            paper.published_at
+                        )
+                    )}
+
+                </span>
+
+            </div>
+
+
+            <p class="d-bluf-label">
+                BLUF
+            </p>
+
+
+            <p class="d-bluf">
+
+                ${escapeHTML(
+                    paper.big_problem
+                )}
+
+            </p>
+
+
+            <div class="d-intro">
+
+                <p class="d-section-label">
+                    INTRO
+                </p>
+
+
+                <div class="d-intro-row">
+
+                    <strong>
+                        PROBLEMA
+                    </strong>
+
+                    <span>
+                        ${escapeHTML(
+                            paper.small_problem
+                        )}
+                    </span>
+
+                </div>
+
+
+                <div class="d-intro-row">
+
+                    <strong>
+                        IDEA
+                    </strong>
+
+                    <span>
+                        ${escapeHTML(
+                            paper.idea
+                        )}
+                    </span>
+
+                </div>
+
+
+                <div class="d-intro-row">
+
+                    <strong>
+                        PIANO
+                    </strong>
+
+                    <span>
+                        ${escapeHTML(
+                            paper.plan
+                        )}
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p class="d-section-label">
+                RISULTATI
+            </p>
+
+
+            <div class="d-results">
+
+
+                ${createResultCard(
+                    paper.result_1_headline,
+                    paper.result_1_number,
+                    paper.result_1_detail
+                )}
+
+
+                ${createResultCard(
+                    paper.result_2_headline,
+                    paper.result_2_number,
+                    paper.result_2_detail
+                )}
+
+
+                ${createResultCard(
+                    paper.result_3_headline,
+                    paper.result_3_number,
+                    paper.result_3_detail
+                )}
+
+
+            </div>
+
+
+            <p class="d-section-label">
+                CONCLUSIONE
+            </p>
+
+
+            <p class="d-conclusion">
+
+                ${escapeHTML(
+                    paper.conclusion
+                )}
+
+            </p>
+
+
+            <p class="d-section-label">
+                DIREZIONI FUTURE
+            </p>
+
+
+            <p class="d-future">
+
+                ${escapeHTML(
+                    paper.future_directions
+                )}
+
+            </p>
+
+
+            <div class="d-actions">
+
+                <a
+                    class="d-source-link"
+                    href="${escapeHTML(
+                        paper.source_url
+                    )}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    LEGGI LA FONTE ORIGINALE ↗
+
+                </a>
+
+            </div>
+
+
+            <p class="d-attribution">
+
+                Contenuto elaborato automaticamente
+                a partire dalla fonte indicata.
+
+                Testo e diritti originali appartengono
+                alla fonte:
+
+                ${escapeHTML(
+                    paper.source_name
+                )}.
+
+            </p>
+
+        `;
+
     }
 
-    // ------------------------------------------------------------------ //
-    // Avvio
-    // ------------------------------------------------------------------ //
 
-    console.log("### CHIAMO LOADBRIEFS ###");
-    loadBriefs();
+    /* ================================================================== */
+    /* RESULT CARD                                                        */
+    /* ================================================================== */
+
+    function createResultCard(
+        headline,
+        number,
+        detail
+    ) {
+
+        return `
+
+            <div class="d-result-card">
+
+                <div class="d-result-headline">
+
+                    ${escapeHTML(
+                        headline
+                    )}
+
+                </div>
+
+
+                <span class="d-result-number">
+
+                    ${escapeHTML(
+                        number
+                    )}
+
+                </span>
+
+
+                <div class="d-result-detail">
+
+                    ${escapeHTML(
+                        detail
+                    )}
+
+                </div>
+
+            </div>
+
+        `;
+
+    }
+
+
+    /* ================================================================== */
+    /* RESPONSIVE NETWORK                                                */
+    /* ================================================================== */
+
+    window.addEventListener(
+        "resize",
+        () => {
+
+            clearTimeout(
+                resizeTimer
+            );
+
+
+            resizeTimer =
+                setTimeout(
+                    () => {
+
+                        if (
+                            networkOpened
+                        ) {
+
+                            renderNetwork();
+
+                        }
+
+                    },
+                    250
+                );
+
+        }
+    );
+
+
+    /* ================================================================== */
+    /* START                                                              */
+    /* ================================================================== */
+
+    loadNews();
+
+
 })();
