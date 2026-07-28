@@ -60,8 +60,8 @@
   // ------------------------------------------------------------------ //
   // Apertura della mente
   // ------------------------------------------------------------------ //
-
-  /*
+  
+/* //////////////BLOCCO DA ELIMINARE //////////////////
   openBtn.addEventListener("click", () => {
     if (hasOpened) return;
     hasOpened = true;
@@ -74,9 +74,11 @@
     }
     layoutNeurons();
   });
-*/
-////////////////////////////////////////////////DA SOSTITUIRE /////////////////////////////////////////////
-openBtn.onclick = function () {
+
+  *//////////// BLOCCO DA ELIMINARE ///////////////////////
+
+  ////////////////////////SOSTITUTO TEMPORANEO///////////////////
+  openBtn.onclick = function () {
   alert("CLICK FUNZIONA");
 
   hasOpened = true;
@@ -89,10 +91,11 @@ openBtn.onclick = function () {
 
   layoutNeurons();
 };
-    //////////////////////////////////////////////////////////
+  ///////////////////////TERMINE SOSTITUTO TEMPORANEO///////////////////
 
-  layoutNeurons();
-};
+
+
+  
   window.addEventListener("resize", debounce(() => {
     if (hasOpened && visibleBriefs.length) layoutNeurons();
   }, 200));
