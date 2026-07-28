@@ -35,13 +35,9 @@
       const data = await res.json();
       console.log("Dati grezzi scaricati da news.json:", data);
       
-      //const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
-      //allBriefs = data.filter((b) => new Date(b.published_at).getTime() >= cutoff);
-      
-      // TEMPORANEO
-      allBriefs = data; // Mostra tutti gli elementi presenti nel JSON
-      console.log(`Notizie caricate ed elaborate: ${allBriefs.length}`);
-      // FINE TEMPORANEO
+      const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
+      allBriefs = data.filter((b) => new Date(b.published_at).getTime() >= cutoff);
+
       
       allBriefs.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
       visibleBriefs = allBriefs;
@@ -70,7 +66,7 @@
   // Apertura della mente
   // ------------------------------------------------------------------ //
   
-/*
+
   openBtn.addEventListener("click", () => {
     if (hasOpened) return;
     hasOpened = true;
@@ -83,24 +79,7 @@
     }
     layoutNeurons();
   });
-*/
-  /////////////// TEMPORANEO ///////////////
-  if (openBtn) {
-    openBtn.onclick = function () {
-      hasOpened = true;
-      if (app) app.classList.add("opened");
 
-      if (!visibleBriefs.length) {
-        if (emptyState) emptyState.hidden = false;
-        return;
-      }
-
-      layoutNeurons();
-    };
-  } else {
-    console.warn("⚠️ Elemento 'open-btn' non trovato nell'HTML. L'interazione del pulsante è disabilitata.");
-  }
-  ///////////////////////////////////////////
   
   window.addEventListener("resize", debounce(() => {
     if (hasOpened && visibleBriefs.length) layoutNeurons();
