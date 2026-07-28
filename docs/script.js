@@ -1,3 +1,5 @@
+console.log("### SCRIPT.JS CARICATO ###");
+
 (() => {
   "use strict";
 
@@ -298,5 +300,6 @@
   // Avvio
   // ------------------------------------------------------------------ //
 
+  console.log("### CHIAMO LOADBRIEFS ###");
   loadBriefs();
 })();
