@@ -43,6 +43,12 @@ COLLECT_WINDOW_HOURS = 30
 # eliminarli dal file (il frontend applica comunque il filtro "ultime 24h" a
 # runtime, quindi questo è solo un margine per evitare buchi tra due sync).
 RETAIN_WINDOW_HOURS = 48
+# Numero massimo di notizie elaborate (e quindi chiamate a Gemini) per ogni
+# esecuzione: tiene il digest snello e limita tempo/costi per run.
+MAX_ITEMS_PER_RUN = 10
+# Se queste chiamate a Gemini falliscono di fila, il run si interrompe subito
+# invece di ritentare inutilmente su tutte le notizie rimaste.
+MAX_CONSECUTIVE_FAILURES = 3
 
 REQUEST_HEADERS = {"User-Agent": "OpenMindEngineeringBot/1.0 (+personal news digest)"}
 
@@ -285,11 +291,11 @@ def call_gemini(item: dict) -> dict | None:
     }
     headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
 
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=30)
+            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=20)
             if resp.status_code == 429:
-                wait = 8 * (attempt + 1)
+                wait = 6 * (attempt + 1)
                 print(f"[WARN] rate limit Gemini, aspetto {wait}s...", file=sys.stderr)
                 time.sleep(wait)
                 continue
@@ -328,14 +334,20 @@ def guard_against_invented_numbers(structured: dict, source_text: str) -> dict:
     return structured
 
 
-def structure_item(item: dict) -> dict | None:
+def structure_item(item: dict) -> tuple[dict | None, bool]:
+    """Ritorna (brief, chiamata_fallita).
+    brief è None sia se la notizia non è pertinente sia se la chiamata a
+    Gemini è fallita; chiamata_fallita è True SOLO nel secondo caso, ed è
+    il segnale che main() usa per il circuit breaker."""
     structured = call_gemini(item)
-    if not structured or not structured.get("is_engineering_relevant"):
-        return None
+    if structured is None:
+        return None, True
+    if not structured.get("is_engineering_relevant"):
+        return None, False
     structured = guard_against_invented_numbers(structured, item["title"] + " " + item["summary"])
 
     image_url = item["image_url"] or fetch_og_image(item["url"])
-    return {
+    brief = {
         "title": structured["title"] or item["title"],
         "source_name": item["source_name"],
         "source_url": item["url"],
@@ -360,6 +372,7 @@ def structure_item(item: dict) -> dict | None:
         "conclusion": structured["conclusion"],
         "future_directions": structured["future_directions"],
     }
+    return brief, False
 
 
 # --------------------------------------------------------------------------- #
@@ -411,14 +424,32 @@ def main() -> None:
 
     raw_items = collect_all(collect_cutoff)
     fresh_items = dedupe(raw_items, already_seen_urls)
-    print(f"[INFO] {len(fresh_items)} articoli nuovi da valutare con Gemini.")
+    fresh_items.sort(key=lambda it: it["published_at"], reverse=True)
+    fresh_items = fresh_items[:MAX_ITEMS_PER_RUN]
+    print(f"[INFO] {len(fresh_items)} articoli da valutare con Gemini (limite {MAX_ITEMS_PER_RUN}/run).")
 
     new_briefs = []
+    consecutive_failures = 0
     for i, item in enumerate(fresh_items, start=1):
         print(f"[INFO] ({i}/{len(fresh_items)}) elaboro: {item['title'][:70]}...")
-        brief = structure_item(item)
-        if brief:
-            new_briefs.append(brief)
+        brief, call_failed = structure_item(item)
+
+        if call_failed:
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                print(
+                    f"[ERROR] {MAX_CONSECUTIVE_FAILURES} chiamate a Gemini fallite di fila: "
+                    "interrompo il run invece di continuare a vuoto. Guarda la riga "
+                    "'[WARN] Gemini ...' qui sopra per il motivo esatto (chiave non "
+                    "valida, quota esaurita, modello non disponibile, ecc.).",
+                    file=sys.stderr,
+                )
+                break
+        else:
+            consecutive_failures = 0
+            if brief:
+                new_briefs.append(brief)
+
         time.sleep(1.5)  # margine di cortesia sui rate limit del free tier
 
     merged = merge_and_prune(existing, new_briefs)
