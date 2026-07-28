@@ -82,6 +82,7 @@ SOURCES = [
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
+    {"name": "EurekAlert!", "url": "https://www.eurekalert.org/specialtopic/tech/home"},
     # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
     # funzionante per la sezione Tech & Engineering (i pattern noti tornano
     # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
