@@ -34,6 +34,14 @@ GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
 
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+# "groq" (default) o "gemini" — permette di cambiare motore senza toccare il
+# resto della pipeline, cambiando solo questa variabile d'ambiente nel workflow.
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq").lower()
+
 OUTPUT_PATH = os.path.join("docs", "news.json")
 
 # Finestra usata per RACCOGLIERE i candidati (con margine di sicurezza rispetto
@@ -74,7 +82,10 @@ SOURCES = [
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
-    {"name": "EurekAlert!", "url": "https://www.eurekalert.org/rss/technology_engineering.xml"},
+    # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
+    # funzionante per la sezione Tech & Engineering (i pattern noti tornano
+    # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
+    # l'URL corretto, riattivala aggiungendo una riga come le altre qui sopra.
     {
         "name": "arXiv",
         "url": (
@@ -147,6 +158,12 @@ queste regole ferree:
 8. Se la fonte è arXiv (preprint), aggiungi alla fine di "conclusion" la frase \
    "Risultato preliminare, non ancora sottoposto a peer review."
 """
+
+SYSTEM_RULES += (
+    "\n\nRispondi SOLO con un oggetto JSON valido, senza testo prima o dopo, senza "
+    "blocchi ```. Deve avere ESATTAMENTE queste chiavi:\n"
+    + "\n".join(f"- {k}" for k in RESPONSE_SCHEMA["properties"])
+)
 
 
 # --------------------------------------------------------------------------- #
@@ -317,6 +334,52 @@ def call_gemini(item: dict) -> dict | None:
     return None
 
 
+def call_groq(item: dict) -> dict | None:
+    if not GROQ_API_KEY:
+        raise RuntimeError("GROQ_API_KEY non impostata nell'ambiente.")
+
+    body = {
+        "model": GROQ_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_RULES},
+            {"role": "user", "content": build_user_prompt(item)},
+        ],
+        "temperature": 0.3,
+        "response_format": {"type": "json_object"},
+    }
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
+
+    for attempt in range(2):
+        try:
+            resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=20)
+            if resp.status_code == 429:
+                wait = 6 * (attempt + 1)
+                print(f"[WARN] rate limit Groq, aspetto {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            if resp.status_code >= 400:
+                print(
+                    f"[WARN] Groq {resp.status_code} per {item['url']}: {resp.text[:300]}",
+                    file=sys.stderr,
+                )
+            resp.raise_for_status()
+            data = resp.json()
+            text = data["choices"][0]["message"]["content"]
+            return json.loads(text)
+        except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
+            print(f"[WARN] chiamata Groq fallita ({item['url']}): {exc}", file=sys.stderr)
+            time.sleep(2)
+    return None
+
+
+def call_llm(item: dict) -> dict | None:
+    """Dispatcher: usa il motore scelto in LLM_PROVIDER senza cambiare il resto
+    della pipeline."""
+    if LLM_PROVIDER == "gemini":
+        return call_gemini(item)
+    return call_groq(item)
+
+
 NUMBER_RE = re.compile(r"\d[\d.,]*")
 
 
@@ -339,7 +402,7 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
     brief è None sia se la notizia non è pertinente sia se la chiamata a
     Gemini è fallita; chiamata_fallita è True SOLO nel secondo caso, ed è
     il segnale che main() usa per il circuit breaker."""
-    structured = call_gemini(item)
+    structured = call_llm(item)
     if structured is None:
         return None, True
     if not structured.get("is_engineering_relevant"):
