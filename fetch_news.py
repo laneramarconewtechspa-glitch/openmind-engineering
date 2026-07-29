@@ -298,7 +298,7 @@ def build_user_prompt(item: dict) -> str:
     return (
         f"Fonte: {item['source_name']}\n"
         f"Titolo originale: {item['title']}\n"
-        f"Riassunto/abstract originale: {item.get('content', item.get('summary', ''))[:8000]}\n\n"
+        f"Riassunto/abstract originale: str({item.get('content', item.get('summary', '')))[:8000]}\n\n"
         "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
         "del system prompt."
     )
@@ -401,7 +401,7 @@ def guard_against_invented_numbers(structured: dict, source_text: str) -> dict:
     haystack = source_text.replace(",", ".")
     for i in (1, 2, 3):
         key = f"result_{i}_number"
-        value = structured.get(key, "")
+        value = str(structured.get(key, "")) #eventualmente rimuovere str
         digits = NUMBER_RE.findall(value.replace(",", "."))
         if digits and not any(d in haystack for d in digits):
             structured[key] = "dato non specificato nella fonte"
