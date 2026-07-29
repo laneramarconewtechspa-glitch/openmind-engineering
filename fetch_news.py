@@ -298,7 +298,7 @@ def build_user_prompt(item: dict) -> str:
     return (
         f"Fonte: {item['source_name']}\n"
         f"Titolo originale: {item['title']}\n"
-        f"Riassunto/abstract originale: {item('content','summary')[:800]}\n\n"
+        f"Riassunto/abstract originale: {item.get('content', item.get('summary', ''))[:8000]}\n\n"
         "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
         "del system prompt."
     )
