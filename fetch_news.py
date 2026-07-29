@@ -295,10 +295,11 @@ def dedupe(items: list[dict], already_seen_urls: set[str]) -> list[dict]:
 
 
 def build_user_prompt(item: dict) -> str:
+    testo = str(item.get('content') or item.get('summary') or '')[:8000]
     return (
         f"Fonte: {item['source_name']}\n"
         f"Titolo originale: {item['title']}\n"
-        f"Riassunto/abstract originale: str({item.get('content', item.get('summary', '')))[:8000]}\n\n"
+        f"Riassunto/abstract originale: {testo}\n\n"
         "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
         "del system prompt."
     )
