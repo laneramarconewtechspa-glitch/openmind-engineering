@@ -83,10 +83,6 @@ SOURCES = [
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
     {"name": "EurekAlert!", "url": "https://www.eurekalert.org/specialtopic/tech/home"},
-    # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
-    # funzionante per la sezione Tech & Engineering (i pattern noti tornano
-    # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
-    # l'URL corretto, riattivala aggiungendo una riga come le altre qui sopra.
     {
         "name": "arXiv",
         "url": (
@@ -286,11 +282,23 @@ def dedupe(items: list[dict], already_seen_urls: set[str]) -> list[dict]:
 # Gemini: filtro di pertinenza + strutturazione
 # --------------------------------------------------------------------------- #
 
+# Modifica effettuata sul limite del summary, aumento a 8000 piuttosto che 2500
+
+# def build_user_prompt(item: dict) -> str:
+ #   return (
+ #       f"Fonte: {item['source_name']}\n"
+ #       f"Titolo originale: {item['title']}\n"
+  #      f"Riassunto/abstract originale: {item['summary'][:2500]}\n\n"
+ #       "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
+ #       "del system prompt."
+ #   )
+
+
 def build_user_prompt(item: dict) -> str:
     return (
         f"Fonte: {item['source_name']}\n"
         f"Titolo originale: {item['title']}\n"
-        f"Riassunto/abstract originale: {item['summary'][:2500]}\n\n"
+        f"Riassunto/abstract originale: {item('content','summary')[:800]}\n\n"
         "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
         "del system prompt."
     )
