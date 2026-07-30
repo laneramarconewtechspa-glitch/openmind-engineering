@@ -2,11 +2,13 @@ name: Sync engineering news
 
 on:
   schedule:
-    # 06:00 e 14:00 ora Italia (CET=UTC+1 / CEST=UTC+2, qui regolato sull'ora
-    # solare; con l'ora legale la sync partirà un'ora "prima" rispetto
-    # all'orologio locale — non è un problema per un digest delle 24h)
-    - cron: "0 5 * * *"
-    - cron: "0 13 * * *"
+    # 06:00 e 14:00 ora Italia in ORA LEGALE (CEST = UTC+2, in vigore da fine
+    # marzo a fine ottobre). GitHub Actions non converte automaticamente per
+    # i cambi ora legale/solare: quando torna l'ora solare (fine ottobre,
+    # CET = UTC+1) questi orari slitteranno di un'ora avanti (07:00/15:00)
+    # finché non li aggiorni manualmente a "0 5 * * *" e "0 13 * * *".
+    - cron: "0 4 * * *"
+    - cron: "0 12 * * *"
   workflow_dispatch: {}   # bottone "Run workflow" per la sincronizzazione manuale
 
 permissions:
