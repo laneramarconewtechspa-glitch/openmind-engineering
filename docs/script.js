@@ -213,19 +213,21 @@
   function initBrainTilt() {
     if (REDUCED_MOTION || !brain3d) return;
 
+    const BASE_RY = -34; // presenta il cervello di 3/4 lateralmente invece che frontalmente
     let targetRX = 0, targetRY = 0, curRX = 0, curRY = 0;
 
     window.addEventListener("mousemove", (e) => {
       const dx = (e.clientX - window.innerWidth / 2) / (window.innerWidth / 2);
       const dy = (e.clientY - window.innerHeight / 2) / (window.innerHeight / 2);
-      targetRY = clamp(dx, -1, 1) * 14;
-      targetRX = clamp(-dy, -1, 1) * 9;
+      targetRY = BASE_RY + clamp(dx, -1, 1) * 10;
+      targetRX = clamp(-dy, -1, 1) * 8;
     });
+    targetRY = BASE_RY;
 
     function tick(t) {
       curRX += (targetRX - curRX) * 0.055;
       curRY += (targetRY - curRY) * 0.055;
-      const idle = Math.sin(t / 2600) * 4;
+      const idle = Math.sin(t / 2600) * 3;
       brain3d.style.transform = `rotateX(${curRX.toFixed(2)}deg) rotateY(${(curRY + idle).toFixed(2)}deg)`;
       if (specular) {
         specular.style.setProperty("--sx", (-curRY * 1.6).toFixed(1));
@@ -241,10 +243,13 @@
   /* Layout a spirale anti-sovrapposizione                             */
   /* ---------------------------------------------------------------- */
 
-  function computePositions(count, stageRect, coreX, coreY) {
+  function computePositions(count, stageRect, coreX, coreY, brainHalfW, brainHalfH) {
     const cardW = 192, cardH = 258, gap = 20;
-    const marginLeft = 236, marginRight = 18, marginTop = 18, marginBottom = 24;
-    const coreHalfW = 175, coreHalfH = 205; // raggio (ellittico) dell'area da lasciare libera attorno al cervello
+    const columnVisible = stageRect.width > 1080;
+    const marginLeft = columnVisible ? 236 : 20;
+    const marginRight = 18, marginTop = 18, marginBottom = 24;
+    const coreHalfW = (brainHalfW || 130) + 24; // area (ellittica) da lasciare libera attorno al cervello, proporzionata alla sua dimensione reale a schermo
+    const coreHalfH = (brainHalfH || 130) + 40;
 
     const usableLeft = marginLeft, usableRight = stageRect.width - marginRight;
     const usableTop = marginTop, usableBottom = stageRect.height - marginBottom;
@@ -318,9 +323,10 @@
     neuronsLayer.innerHTML = "";
     synapses.innerHTML = "";
 
-    const isMobile = window.innerWidth <= 720;
+    const isMobile = window.innerWidth <= 640;
     const stageRect = stage.getBoundingClientRect();
     const coreRect = neuralCore.getBoundingClientRect();
+    const brainRect = brainScene.getBoundingClientRect();
     const coreX = coreRect.left + coreRect.width / 2 - stageRect.left;
     const coreY = coreRect.top + coreRect.height / 2 - stageRect.top;
 
@@ -330,7 +336,7 @@
       return;
     }
 
-    const positions = computePositions(visiblePapers.length, stageRect, coreX, coreY);
+    const positions = computePositions(visiblePapers.length, stageRect, coreX, coreY, brainRect.width / 2, brainRect.height / 2);
 
     const maxBottom = positions.reduce((m, p) => Math.max(m, p.y + 258 / 2), 0);
     stage.style.minHeight = maxBottom + 40 > stageRect.height
