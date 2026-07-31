@@ -86,60 +86,64 @@
             <div class="brain-ring brain-ring-a"></div>
             <div class="brain-ring brain-ring-b"></div>
 
-            <svg class="brain-svg" viewBox="0 0 520 520" aria-hidden="true">
+            <svg class="brain-svg" viewBox="0 0 500 220" aria-hidden="true">
               <defs>
-                <radialGradient id="brainFill" cx="42%" cy="38%" r="75%">
-                  <stop offset="0%" stop-color="#3a3a3a"/>
-                  <stop offset="55%" stop-color="#1c1c1c"/>
-                  <stop offset="100%" stop-color="#0a0a0a"/>
-                </radialGradient>
                 <linearGradient id="synapseGlow" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stop-color="#ff4d4d"/>
                   <stop offset="100%" stop-color="#d71920"/>
                 </linearGradient>
                 <filter id="brainShadow" x="-30%" y="-30%" width="160%" height="160%">
-                  <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity=".38"/>
+                  <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity=".28"/>
                 </filter>
                 <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-                  <feGaussianBlur stdDeviation="4.5" result="blur"/>
-                  <feMerge>
-                    <feMergeNode in="blur"/>
-                    <feMergeNode in="SourceGraphic"/>
-                  </feMerge>
+                  <feGaussianBlur stdDeviation="4" result="blur"/>
+                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                </filter>
+                <filter id="goo" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="blur"/>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -9" result="goo"/>
                 </filter>
               </defs>
 
-              <path class="brain-silhouette" filter="url(#brainShadow)" fill="url(#brainFill)" d="
-                M260 42 C215 24 162 48 137 87 C96 92 70 128 77 165 C45 190 49 242 77 264
-                C58 303 79 347 116 359 C117 405 159 436 200 427 C228 464 284 460 310 425
-                C352 443 399 417 402 377 C442 362 457 316 435 281 C468 247 455 197 425 180
-                C432 137 401 99 361 94 C337 52 300 31 260 42 Z"/>
+              <!-- Sagoma laterale del cervello: unione organica di forme (bordo rosso
+                   sottile sotto, riempimento bianco sopra) invece di un unico path —
+                   più pulita e controllabile di una silhouette anatomica disegnata a mano. -->
+              <g filter="url(#brainShadow)">
+                <g filter="url(#goo)" fill="#d71920">
+                  <circle cx="90" cy="110" r="57"/><circle cx="155" cy="79" r="44"/>
+                  <circle cx="215" cy="68" r="42"/><circle cx="277" cy="73" r="40"/>
+                  <circle cx="332" cy="94" r="42"/><circle cx="367" cy="126" r="34"/>
+                  <circle cx="398" cy="156" r="28"/><circle cx="418" cy="177" r="20"/>
+                  <circle cx="372" cy="188" r="12"/><circle cx="366" cy="203" r="9"/>
+                </g>
+                <g filter="url(#goo)" fill="#ffffff">
+                  <circle cx="90" cy="110" r="55"/><circle cx="155" cy="80" r="42"/>
+                  <circle cx="215" cy="70" r="40"/><circle cx="277" cy="75" r="38"/>
+                  <circle cx="332" cy="95" r="40"/><circle cx="367" cy="127" r="32"/>
+                  <circle cx="398" cy="157" r="26"/><circle cx="418" cy="178" r="18"/>
+                  <circle cx="372" cy="189" r="10"/><circle cx="366" cy="203" r="7"/>
+                </g>
+              </g>
 
-              <path class="brain-fissure" d="
-                M260 54 C247 110 253 158 250 210 C247 270 261 325 251 390 C247 418 251 438 260 450"/>
+              <path class="brain-fissure" d="M78 73 C140 44 220 41 300 59 C330 67 348 79 360 94"/>
 
               <g class="brain-network" filter="url(#softGlow)">
-                <path d="M125 156 C165 118 202 135 230 105 C260 72 307 81 341 112 C378 145 389 179 414 207"/>
-                <path d="M93 224 C135 196 171 208 205 183 C238 159 280 164 313 190 C351 218 374 243 430 252"/>
-                <path d="M100 287 C143 260 175 274 207 249 C246 220 285 231 319 260 C356 291 382 306 417 302"/>
-                <path d="M130 346 C163 319 198 334 228 307 C261 277 294 292 326 321 C353 345 376 349 399 347"/>
-                <path d="M173 111 C180 157 178 204 188 245 C198 286 191 329 205 382"/>
-                <path d="M315 102 C304 151 309 193 299 232 C288 273 306 318 291 402"/>
-                <circle cx="125" cy="156" r="4"/>
-                <circle cx="230" cy="105" r="4"/>
-                <circle cx="341" cy="112" r="4"/>
-                <circle cx="205" cy="183" r="4"/>
-                <circle cx="313" cy="190" r="4"/>
-                <circle cx="207" cy="249" r="4"/>
-                <circle cx="319" cy="260" r="4"/>
-                <circle cx="228" cy="307" r="4"/>
-                <circle cx="326" cy="321" r="4"/>
+                <path d="M90 110 C120 90 140 70 155 80"/>
+                <path d="M155 80 C180 60 195 55 215 70"/>
+                <path d="M215 70 C245 55 260 60 277 75"/>
+                <path d="M277 75 C300 80 315 85 332 95"/>
+                <path d="M332 95 C350 105 358 115 367 127"/>
+                <path d="M90 110 C130 150 170 150 215 70"/>
+                <path d="M215 70 C260 110 290 120 332 95"/>
+                <circle cx="90" cy="110" r="3.5"/><circle cx="155" cy="80" r="3.5"/>
+                <circle cx="215" cy="70" r="3.5"/><circle cx="277" cy="75" r="3.5"/>
+                <circle cx="332" cy="95" r="3.5"/><circle cx="367" cy="127" r="3.5"/>
               </g>
 
               <g class="brain-core-node" filter="url(#softGlow)">
-                <circle cx="260" cy="250" r="58"/>
-                <circle cx="260" cy="250" r="38"/>
-                <circle cx="260" cy="250" r="12"/>
+                <circle cx="192" cy="97" r="34"/>
+                <circle cx="192" cy="97" r="22"/>
+                <circle cx="192" cy="97" r="8"/>
               </g>
             </svg>
 
@@ -155,10 +159,10 @@
           </div>
         </div>
 
-       <!-- <div class="core-caption">
+        <div class="core-caption">
           <span class="core-caption-title">DISCOVERY</span>
           <span class="core-caption-text">DRIVING KNOWLEDGE FORWARD</span>
-        </div> -->
+        </div>
       </section>
 
       <svg id="synapses" class="synapses" aria-hidden="true"></svg>
