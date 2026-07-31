@@ -26,8 +26,8 @@
   --font-sans: "Inter", Arial, Helvetica, sans-serif;
   --font-mono: "IBM Plex Mono", "Courier New", monospace;
 
-  --core-w: 430px;
-  --core-h: 520px;
+  --core-w: 360px;
+  --core-h: 190px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -195,7 +195,7 @@ button { font-family: inherit; }
 /* ------------------------------------------------------------------ */
 
 .neural-core {
-  position: absolute; z-index: 10; left: 55%; top: 50%;
+  position: absolute; z-index: 10; left: 55%; top: 25%;
   width: var(--core-w); height: var(--core-h);
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -208,7 +208,7 @@ button { font-family: inherit; }
 
 .brain-scene {
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  width: 360px; height: 360px;
+  width: 320px; height: 165px;
   perspective: 1400px;
 }
 .brain-3d {
@@ -218,37 +218,36 @@ button { font-family: inherit; }
 }
 
 .brain-shadow {
-  position: absolute; left: 50%; top: 82%; width: 240px; height: 60px;
+  position: absolute; left: 50%; top: 88%; width: 220px; height: 40px;
   transform: translate(-50%, -50%) translateZ(-160px);
-  background: radial-gradient(ellipse, rgba(0,0,0,.35), transparent 72%);
+  background: radial-gradient(ellipse, rgba(0,0,0,.32), transparent 72%);
   filter: blur(4px);
 }
 .brain-glow {
-  position: absolute; inset: -20%;
+  position: absolute; inset: -25%;
   transform: translateZ(-90px);
   background: radial-gradient(circle at 45% 42%, var(--red-glow), transparent 62%);
-  filter: blur(18px);
+  filter: blur(16px);
   animation: glow-pulse 5.5s ease-in-out infinite;
 }
 @keyframes glow-pulse {
-  0%, 100% { opacity: .55; transform: translateZ(-90px) scale(1); }
-  50% { opacity: .85; transform: translateZ(-90px) scale(1.06); }
+  0%, 100% { opacity: .5; transform: translateZ(-90px) scale(1); }
+  50% { opacity: .8; transform: translateZ(-90px) scale(1.06); }
 }
 .brain-ring {
   position: absolute; left: 50%; top: 50%; border-radius: 50%;
-  border: 1px solid rgba(215, 25, 32, .28);
+  border: 1px solid rgba(215, 25, 32, .26);
 }
-.brain-ring-a { width: 320px; height: 320px; transform: translate(-50%,-50%) translateZ(-45px) rotateX(72deg); animation: ring-spin 22s linear infinite; }
-.brain-ring-b { width: 380px; height: 380px; transform: translate(-50%,-50%) translateZ(-65px) rotateX(72deg) rotate(40deg); border-style: dashed; opacity: .5; animation: ring-spin 34s linear infinite reverse; }
+.brain-ring-a { width: 250px; height: 250px; transform: translate(-50%,-50%) translateZ(-45px) rotateX(72deg); animation: ring-spin 22s linear infinite; }
+.brain-ring-b { width: 300px; height: 300px; transform: translate(-50%,-50%) translateZ(-65px) rotateX(72deg) rotate(40deg); border-style: dashed; opacity: .5; animation: ring-spin 34s linear infinite reverse; }
 @keyframes ring-spin { to { transform: translate(-50%,-50%) translateZ(-45px) rotateX(72deg) rotate(360deg); } }
 
 .brain-svg {
   position: relative; z-index: 2; width: 100%; height: 100%;
   transform: translateZ(0);
-  filter: drop-shadow(0 0 1px rgba(0,0,0,.4));
+  filter: drop-shadow(0 0 1px rgba(0,0,0,.35));
 }
-.brain-silhouette { stroke: rgba(215,25,32,.35); stroke-width: 1; }
-.brain-fissure { fill: none; stroke: rgba(255,255,255,.10); stroke-width: 2.2; stroke-linecap: round; }
+.brain-fissure { fill: none; stroke: rgba(20,20,20,.16); stroke-width: 2.2; stroke-linecap: round; }
 .brain-network path {
   fill: none; stroke: url(#synapseGlow); stroke-width: 1.6; stroke-linecap: round;
   stroke-dasharray: 3 9; opacity: .9;
@@ -267,8 +266,8 @@ button { font-family: inherit; }
   position: absolute; z-index: 3; left: 30%; top: 26%;
   width: 46%; height: 40%;
   transform: translateZ(3px) translate(calc(var(--sx, 0) * 1px), calc(var(--sy, 0) * 1px));
-  background: radial-gradient(ellipse, rgba(255,255,255,.5), transparent 70%);
-  mix-blend-mode: soft-light;
+  background: radial-gradient(ellipse, rgba(20,20,15,.16), transparent 70%);
+  mix-blend-mode: multiply;
   border-radius: 50%;
   pointer-events: none;
 }
@@ -406,30 +405,49 @@ button { font-family: inherit; }
 .d-attribution { font-size: 10px; color: var(--ink-light); line-height: 1.5; }
 
 /* ------------------------------------------------------------------ */
-/* Responsive                                                          */
+/* Responsive — desktop / tablet (iPad) / telefono                     */
 /* ------------------------------------------------------------------ */
 
-@media (max-width: 900px) {
+/* Tablet e iPad (portrait ~768-834px, landscape ~1024-1194px): layout
+   spaziale mantenuto ma più compatto, colonna "engineering" nascosta per
+   guadagnare spazio, margini del layout ridotti di conseguenza (vedi JS). */
+@media (max-width: 1080px) {
   .engineering-column { display: none; }
-  .neural-core { left: 50%; width: 340px; height: 400px; }
-  .brain-scene { width: 260px; height: 260px; }
+  .neural-core { left: 55%; top: 20%; width: 270px; height: 145px; }
+  .brain-scene { width: 240px; height: 125px; }
+  .core-caption-text { display: none; }
 }
 
-@media (max-width: 720px) {
-  .network-header { flex-wrap: wrap; }
+@media (max-width: 860px) {
+  .neural-core { left: 50%; top: 15%; }
+  .network-header { padding: 14px 18px; }
+}
+
+/* Telefono: layout a lista verticale, niente disposizione spaziale (più
+   affidabile e più comodo da leggere su schermi stretti). */
+@media (max-width: 640px) {
+  .network-header { flex-wrap: wrap; row-gap: 8px; }
   .last-updated { order: 3; width: 100%; }
-  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 260px; margin: 24px auto 0; }
-  .brain-scene { width: 200px; height: 200px; }
+  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 150px; margin: 20px auto 0; }
+  .brain-scene { width: 220px; height: 115px; }
   .core-caption { display: none; }
   .stage { display: flex; flex-direction: column; min-height: 0; padding-bottom: 40px; }
   .synapses { display: none; }
-  .neurons-layer { position: relative; inset: auto; display: flex; flex-direction: column; align-items: center; gap: 22px; padding: 30px 18px 0; }
-  .neuron { position: relative; left: auto !important; top: auto !important; width: 100%; max-width: 360px; transform: none !important; animation: card-fade-up .5s ease forwards; animation-delay: var(--delay, 0s); }
+  .neurons-layer { position: relative; inset: auto; display: flex; flex-direction: column; align-items: center; gap: 18px; padding: 26px 16px 0; }
+  .neuron { position: relative; left: auto !important; top: auto !important; width: 100%; max-width: 420px; transform: none !important; animation: card-fade-up .5s ease forwards; animation-delay: var(--delay, 0s); }
   @keyframes card-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
   .neuron:hover { transform: translateY(-3px) !important; }
   .spark { display: none; }
   .empty-state { position: relative; left: auto; top: auto; transform: none; margin: 30px auto; }
+  .paper-image { height: 150px; }
+  .paper-title { font-size: 16px; }
   .d-results { grid-template-columns: 1fr; }
+  .detail-content { padding: 8px 18px 50px; }
+}
+
+@media (max-width: 380px) {
+  .cover-title-wrap h1 { font-size: 15vw; }
+  .neuron { max-width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
