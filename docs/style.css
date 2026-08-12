@@ -195,10 +195,11 @@ button { font-family: inherit; }
 /* ------------------------------------------------------------------ */
 
 .neural-core {
-  position: absolute; z-index: 10; left: 55%; top: 25%;
+  position: absolute; z-index: 10; left: 55%; top: 46%;
   width: var(--core-w); height: var(--core-h);
   transform: translate(-50%, -50%);
   pointer-events: none;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
 }
 .core-kicker {
   position: absolute; top: 0; left: 50%; transform: translateX(-50%);
@@ -206,89 +207,42 @@ button { font-family: inherit; }
   letter-spacing: .16em; white-space: nowrap;
 }
 
-.brain-scene {
-  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  width: 280px; height: 195px;
-  perspective: 2400px;
-}
-.brain-3d {
-  position: relative; width: 100%; height: 100%;
-  transform-style: preserve-3d;
-  transform: rotateX(0deg) rotateY(0deg);
-}
-
-.brain-shadow {
-  position: absolute; left: 50%; top: 88%; width: 220px; height: 40px;
-  transform: translate(-50%, -50%) translateZ(-160px);
-  background: radial-gradient(ellipse, rgba(0,0,0,.32), transparent 72%);
-  filter: blur(4px);
+.brain-wrap {
+  position: relative;
+  width: 260px; height: 215px;
+  display: flex; align-items: center; justify-content: center;
 }
 .brain-glow {
-  position: absolute; inset: -25%;
-  transform: translateZ(-90px);
-  background: radial-gradient(circle at 45% 42%, var(--red-glow), transparent 62%);
-  filter: blur(16px);
+  position: absolute; inset: -18%;
+  background: radial-gradient(circle at 48% 45%, var(--red-glow), transparent 62%);
+  filter: blur(18px);
   animation: glow-pulse 5.5s ease-in-out infinite;
 }
 @keyframes glow-pulse {
-  0%, 100% { opacity: .5; transform: translateZ(-90px) scale(1); }
-  50% { opacity: .8; transform: translateZ(-90px) scale(1.06); }
+  0%, 100% { opacity: .45; transform: scale(1); }
+  50% { opacity: .75; transform: scale(1.05); }
 }
-.brain-ring {
-  position: absolute; left: 50%; top: 50%; border-radius: 50%;
-  border: 1px solid rgba(215, 25, 32, .26);
+.brain-image {
+  position: relative; z-index: 2;
+  width: 100%; height: 100%; object-fit: contain;
+  filter: drop-shadow(0 10px 18px rgba(20,20,15,.18));
+  animation: brain-breathe 6s ease-in-out infinite;
 }
-.brain-ring-a { width: 250px; height: 250px; transform: translate(-50%,-50%) translateZ(-45px) rotateX(72deg); animation: ring-spin 22s linear infinite; }
-.brain-ring-b { width: 300px; height: 300px; transform: translate(-50%,-50%) translateZ(-65px) rotateX(72deg) rotate(40deg); border-style: dashed; opacity: .5; animation: ring-spin 34s linear infinite reverse; }
-@keyframes ring-spin { to { transform: translate(-50%,-50%) translateZ(-45px) rotateX(72deg) rotate(360deg); } }
+@keyframes brain-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.018); }
+}
 
-.brain-svg {
-  position: relative; z-index: 2; width: 100%; height: 100%;
-  transform: translateZ(0);
-  filter: drop-shadow(0 0 1px rgba(0,0,0,.35));
-}
-.brain-fissure { fill: none; stroke: rgba(20,20,20,.16); stroke-width: 2.2; stroke-linecap: round; }
-.brain-network path {
-  fill: none; stroke: url(#synapseGlow); stroke-width: 1.6; stroke-linecap: round;
-  stroke-dasharray: 3 9; opacity: .9;
-  animation: synapse-flow 3.2s linear infinite;
-}
-.brain-network path:nth-child(2n) { animation-duration: 4s; animation-direction: reverse; }
-.brain-network path:nth-child(3n) { animation-duration: 2.6s; }
-@keyframes synapse-flow { to { stroke-dashoffset: -120; } }
-.brain-network circle { fill: var(--red); }
-.brain-core-node circle { fill: none; stroke: var(--red); stroke-width: 1.3; opacity: .55; }
-.brain-core-node circle:nth-child(2) { opacity: .8; }
-.brain-core-node circle:last-child { fill: var(--red); stroke: none; opacity: 1; animation: core-pulse 2.4s ease-in-out infinite; transform-origin: 260px 250px; }
-@keyframes core-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.22); } }
-
-.brain-specular {
-  position: absolute; z-index: 3; left: 30%; top: 26%;
-  width: 46%; height: 40%;
-  transform: translateZ(3px) translate(calc(var(--sx, 0) * 1px), calc(var(--sy, 0) * 1px));
-  background: radial-gradient(ellipse, rgba(20,20,15,.16), transparent 70%);
-  mix-blend-mode: multiply;
+.connector-ring {
+  position: absolute; left: 55%; top: 46%; transform: translate(-50%, -50%);
+  border: 1px dashed rgba(215, 25, 32, .3);
   border-radius: 50%;
   pointer-events: none;
-}
-
-.floating-node {
-  position: absolute; border-radius: 50%;
-  background: var(--red); box-shadow: 0 0 10px var(--red-glow);
-}
-.node-a { width: 8px; height: 8px; left: 12%; top: 22%; transform: translateZ(50px); animation: node-drift 6s ease-in-out infinite; }
-.node-b { width: 6px; height: 6px; left: 86%; top: 32%; transform: translateZ(-40px); opacity: .6; animation: node-drift 7.5s ease-in-out infinite 1s; }
-.node-c { width: 10px; height: 10px; left: 80%; top: 74%; transform: translateZ(70px); animation: node-drift 5.2s ease-in-out infinite .4s; }
-.node-d { width: 5px; height: 5px; left: 18%; top: 78%; transform: translateZ(-55px); opacity: .55; animation: node-drift 8s ease-in-out infinite 2s; }
-.node-e { width: 7px; height: 7px; left: 50%; top: 6%; transform: translateZ(30px); animation: node-drift 6.8s ease-in-out infinite .8s; }
-.node-f { width: 6px; height: 6px; left: 46%; top: 92%; transform: translateZ(-30px); opacity: .6; animation: node-drift 7s ease-in-out infinite 1.6s; }
-@keyframes node-drift {
-  0%, 100% { margin: 0 0; }
-  50% { margin: -14px 8px; }
+  z-index: 3;
 }
 
 .core-caption {
-  position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+  position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%);
   display: flex; flex-direction: column; align-items: center; gap: 3px;
 }
 .core-caption-title { font-family: var(--font-display); font-weight: 600; font-size: 15px; letter-spacing: .04em; }
@@ -300,60 +254,56 @@ button { font-family: inherit; }
 
 .synapses { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
 .synapse-line {
-  fill: none; stroke: rgba(215,25,32,.4); stroke-width: 1.2;
-  stroke-dasharray: 5 7; opacity: 0;
+  fill: none; stroke: rgba(215,25,32,.45); stroke-width: 1.2;
+  stroke-dasharray: 4 6; opacity: 0;
   transition: opacity .4s ease;
 }
-.synapse-line.live { opacity: .5; animation: synapse-flow 2.4s linear infinite; }
-
-.neurons-layer { position: absolute; inset: 0; z-index: 6; pointer-events: none; }
-
-.spark {
-  position: absolute; left: 0; top: 0;
-  width: 11px; height: 11px; border-radius: 50%;
-  background: var(--red); box-shadow: 0 0 14px var(--red-glow), 0 0 3px #fff;
-  pointer-events: none;
-  animation: spark-travel var(--travel, .7s) cubic-bezier(.2,.7,.3,1) forwards,
-             spark-fade .18s ease-in forwards;
-  animation-delay: var(--delay, 0s), calc(var(--delay, 0s) + var(--travel, .7s) - .05s);
+.synapse-line.live { opacity: .55; }
+.ring-dot {
+  fill: var(--red);
+  opacity: 0;
+  transition: opacity .4s ease;
 }
-@keyframes spark-travel {
-  0%   { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(.6); }
-  70%  { transform: translate(-50%, -50%) scale(1.5); }
-  100% { transform: translate(-50%, -50%) scale(1.1); }
-}
-@keyframes spark-fade { to { opacity: 0; } }
+.ring-dot.live { opacity: 1; }
+
+.neurons-layer { position: absolute; inset: 0; z-index: 6; }
 
 .neuron {
-  position: absolute; width: 192px;
-  transform: translate(-50%, -50%) scale(.82);
+  position: absolute; width: 150px;
+  transform: translate(-50%, -50%) scale(.8);
   opacity: 0;
   pointer-events: auto;
   cursor: pointer;
   background: var(--paper-white);
   border: 1px solid var(--line-dark);
   box-shadow: var(--shadow-card);
-  animation: card-bloom .5s cubic-bezier(.2,.8,.2,1) forwards;
-  animation-delay: calc(var(--delay, 0s) + var(--travel, .7s) - .08s);
-  transition: box-shadow .25s ease, transform .25s ease;
+  animation: card-bloom .45s cubic-bezier(.2,.8,.2,1) forwards;
+  animation-delay: var(--delay, 0s);
+  transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s ease, opacity .3s ease;
+  transform-origin: center center;
 }
 @keyframes card-bloom {
-  0%   { opacity: 0; transform: translate(-50%, -50%) scale(.8); }
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(.75); }
   100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 }
-.neuron:hover, .neuron:focus-visible { transform: translate(-50%, -50%) translateY(-6px) scale(1); box-shadow: 0 34px 60px -20px rgba(20,20,15,.35), var(--shadow-tight); outline: none; z-index: 15; }
+.neuron:hover, .neuron:focus-visible {
+  transform: translate(-50%, -50%) scale(1.55);
+  box-shadow: 0 40px 70px -18px rgba(20,20,15,.4), var(--shadow-tight);
+  outline: none; z-index: 30;
+}
 .neuron.selected { border-color: var(--red); box-shadow: 0 0 0 2px var(--red-soft), var(--shadow-card); }
-.neuron.dimmed { opacity: .14 !important; pointer-events: none; }
+.neuron.dimmed { opacity: .12 !important; pointer-events: none; }
+.neurons-layer.hovering .neuron:not(:hover) { opacity: .35; }
 
-.paper-header { display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 7px; letter-spacing: .09em; color: var(--ink-light); }
+.paper-header { display: flex; justify-content: space-between; align-items: center; padding: 6px 9px; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 6.5px; letter-spacing: .08em; color: var(--ink-light); }
 .paper-number { color: var(--red); font-weight: 700; }
-.paper-image { width: 100%; height: 84px; object-fit: cover; display: block; border-bottom: 1px solid var(--line); background: var(--paper-grey); filter: grayscale(100%) contrast(1.05); }
+.paper-image { width: 100%; height: 72px; object-fit: cover; display: block; border-bottom: 1px solid var(--line); background: var(--paper-grey); filter: grayscale(100%) contrast(1.05) blur(.3px); }
 .paper-image-na { display: flex; align-items: center; justify-content: center; color: var(--line-dark); font-family: var(--font-mono); font-size: 9px; }
-.paper-body { padding: 11px 12px 12px; }
-.paper-category { font-family: var(--font-mono); font-size: 8px; letter-spacing: .09em; color: var(--red); margin-bottom: 6px; }
-.paper-title { margin: 0 0 6px; font-family: var(--font-display); font-weight: 600; font-size: 14px; line-height: 1.2; }
-.paper-abstract { margin: 0 0 9px; font-size: 10.5px; line-height: 1.45; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.paper-meta { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 7.5px; letter-spacing: .03em; color: var(--ink-light); padding-top: 8px; border-top: 1px solid var(--line); }
+.paper-body { padding: 9px 10px 10px; }
+.paper-category { font-family: var(--font-mono); font-size: 7.5px; letter-spacing: .08em; color: var(--red); margin-bottom: 5px; }
+.paper-title { margin: 0 0 5px; font-family: var(--font-display); font-weight: 600; font-size: 12.5px; line-height: 1.2; }
+.paper-abstract { margin: 0 0 8px; font-size: 9.5px; line-height: 1.4; color: var(--ink-soft); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.paper-meta { display: flex; justify-content: space-between; font-family: var(--font-mono); font-size: 7px; letter-spacing: .02em; color: var(--ink-light); padding-top: 7px; border-top: 1px solid var(--line); }
 
 .empty-state {
   position: absolute; left: 50%; top: 82%; transform: translate(-50%, 0);
@@ -410,8 +360,9 @@ button { font-family: inherit; }
    guadagnare spazio, margini del layout ridotti di conseguenza (vedi JS). */
 @media (max-width: 1080px) {
   .engineering-column { display: none; }
-  .neural-core { left: 55%; top: 20%; width: 235px; height: 163px; }
-  .brain-scene { width: 205px; height: 143px; }
+  .neural-core { left: 55%; top: 44%; width: 235px; height: 163px; }
+  .brain-wrap { width: 180px; height: 148px; }
+  .connector-ring { left: 55%; top: 44%; }
   .core-caption-text { display: none; }
 }
 
@@ -425,8 +376,8 @@ button { font-family: inherit; }
 @media (max-width: 640px) {
   .network-header { flex-wrap: wrap; row-gap: 8px; }
   .last-updated { order: 3; width: 100%; }
-  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 165px; margin: 20px auto 0; }
-  .brain-scene { width: 190px; height: 132px; }
+  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 155px; margin: 20px auto 0; }
+  .brain-wrap { width: 160px; height: 132px; }
   .core-caption { display: none; }
   .stage { display: flex; flex-direction: column; min-height: 0; padding-bottom: 40px; }
   .synapses { display: none; }
