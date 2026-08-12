@@ -51,9 +51,11 @@ COLLECT_WINDOW_HOURS = 30
 # eliminarli dal file (il frontend applica comunque il filtro "ultime 24h" a
 # runtime, quindi questo è solo un margine per evitare buchi tra due sync).
 RETAIN_WINDOW_HOURS = 48
-# Numero massimo di notizie elaborate (e quindi chiamate a Gemini) per ogni
-# esecuzione: tiene il digest snello e limita tempo/costi per run.
-MAX_ITEMS_PER_RUN = 10
+# Numero massimo di notizie VALUTATE per ogni esecuzione (non tutte verranno
+# pubblicate: molte saranno scartate dal controllo qualità se il contenuto
+# risulta troppo povero — per questo il numero è più alto di quante notizie
+# ci si aspetta effettivamente in output).
+MAX_ITEMS_PER_RUN = 16
 # Se queste chiamate a Gemini falliscono di fila, il run si interrompe subito
 # invece di ritentare inutilmente su tutte le notizie rimaste.
 MAX_CONSECUTIVE_FAILURES = 3
@@ -129,33 +131,51 @@ RESPONSE_SCHEMA = {
 }
 
 SYSTEM_RULES = """You are a technical analyst preparing a daily engineering news digest for \
-expert but time-pressed readers. You receive the title and summary of ONE single \
-article/paper and must return ONLY the JSON required by the schema, following these \
-strict rules:
+expert but time-pressed readers. You receive the title and the FULL TEXT of the \
+article's web page for ONE single article/paper (already stripped of navigation/ads) \
+and must return ONLY the JSON required by the schema, following these strict rules:
 
-1. Evaluate "is_engineering_relevant" first: false if the story is about pure \
-   health/medicine, pure policy, basic science, or business with no clear \
-   engineering application or innovation; in that case fill the other fields \
-   with an empty string "".
-2. If relevant, write EVERYTHING in English, in a punchy "brief" style: short, \
-   direct sentences, max 25-30 words per field (conclusion and future_directions \
-   can go up to 40 words).
+1. Evaluate "is_engineering_relevant" first. Set it to false in TWO cases:
+   (a) the story is about pure health/medicine, pure policy, basic science, or \
+       business with no clear engineering application or innovation;
+   (b) the story COULD be relevant but the text provided is too thin, paywalled, \
+       or generic to support a genuinely informative analysis (e.g. you cannot \
+       identify a specific problem, a specific idea/method, and at least two \
+       concrete findings). When in doubt because the material is too weak, \
+       prefer false — a shorter digest of solid stories beats a longer digest \
+       full of empty ones.
+   If false, fill every other field with an empty string "".
+2. If relevant, write EVERYTHING in English. Every field must be a complete, \
+   naturally-connected sentence (or two) that could be read aloud and make \
+   sense on its own — never a telegraphic fragment, never a bare noun phrase, \
+   never generic filler. Target lengths: big_problem 20-28 words; \
+   small_problem, idea and plan 30-42 words each; conclusion and \
+   future_directions 35-50 words each.
 3. "big_problem" = the big-picture industry problem this research addresses \
-   (the BLUF), as one sharp sentence.
+   (the BLUF), as one sharp, specific sentence — not a vague truism.
 4. "small_problem" = the specific technical problem addressed by THIS study/ \
-   article. "idea" = the proposed insight/approach. "plan" = how it was tested \
-   or implemented.
-5. The three results (result_1/2/3) must have a REAL number or metric taken \
-   from the text provided (percentage, improvement factor, cost, time, \
-   efficiency...). If no number is present in the text provided, leave the \
-   corresponding _number field as an EMPTY STRING "": never invent or estimate \
-   one.
-6. "conclusion" = why this is a genuine innovation, compared against the state \
-   of the art if mentioned in the text. "future_directions" = next steps, if \
-   indicated.
-7. Base yourself EXCLUSIVELY on the text provided. Do not add facts, numbers, \
+   article, with enough context to stand alone. "idea" = the proposed insight/ \
+   approach, explained concretely (what did they actually build, test, or \
+   propose?). "plan" = how it was tested or implemented (method, setup, scale).
+5. The three results must each be a genuine, specific FINDING or OUTCOME of \
+   this research — something the team measured, built, or demonstrated — never \
+   a generic industry fact (e.g. overall market size or total sector output is \
+   NOT a result). Each needs a real number or metric taken from the text \
+   (percentage, improvement factor, cost, time, efficiency, scale...). If a \
+   genuine result has no number attached in the text, leave result_N_number as \
+   an EMPTY STRING "" — never invent or estimate one, and never write "N/A" or \
+   similar there either. If you cannot identify at least TWO genuine, specific \
+   results from the text, set is_engineering_relevant to false instead of \
+   forcing weak ones.
+6. NEVER write "N/A", "unknown", "not specified", "none", or similar placeholder \
+   text in any field. Every field is either a real, substantive sentence, or — \
+   only for result_N_number — an empty string.
+7. "conclusion" = why this is a genuine innovation, compared against the state \
+   of the art if mentioned in the text. "future_directions" = concrete next \
+   steps, if indicated in the text.
+8. Base yourself EXCLUSIVELY on the text provided. Do not add facts, numbers, \
    or names that do not appear in the text, even if you think you know them.
-8. If the source is arXiv (preprint), append to the end of "conclusion" the \
+9. If the source is arXiv (preprint), append to the end of "conclusion" the \
    sentence "Preliminary result, not yet peer-reviewed."
 """
 
@@ -203,19 +223,34 @@ def entry_image(entry) -> str | None:
     return None
 
 
-def fetch_og_image(article_url: str) -> str | None:
-    """Recupera la pagina dell'articolo ed estrae il meta og:image (di solito
-    a risoluzione più alta della miniatura del feed RSS)."""
+def fetch_article_page(article_url: str) -> tuple[str | None, str]:
+    """Recupera la pagina dell'articolo UNA sola volta ed estrae sia l'immagine
+    og:image (di solito più grande e nitida della miniatura RSS) sia il TESTO
+    INTEGRALE dell'articolo — non solo il breve riassunto del feed, che spesso
+    è troppo povero per costruire un'analisi seria con BLUF/idea/piano/risultati."""
     try:
-        resp = requests.get(article_url, headers=REQUEST_HEADERS, timeout=10)
+        resp = requests.get(article_url, headers=REQUEST_HEADERS, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
+
+        image_url = None
         tag = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "og:image"})
         if tag and tag.get("content"):
-            return tag["content"]
+            image_url = tag["content"]
+
+        for junk in soup(["script", "style", "nav", "footer", "header", "aside", "form", "iframe"]):
+            junk.decompose()
+        article_tag = soup.find("article")
+        if article_tag:
+            text = article_tag.get_text(" ", strip=True)
+        else:
+            paragraphs = soup.find_all("p")
+            text = " ".join(p.get_text(" ", strip=True) for p in paragraphs)
+        text = re.sub(r"\s+", " ", text).strip()
+
+        return image_url, text[:9000]
     except requests.RequestException:
-        pass
-    return None
+        return None, ""
 
 
 def collect_from_source(source: dict, cutoff: dt.datetime) -> list[dict]:
@@ -284,23 +319,28 @@ def dedupe(items: list[dict], already_seen_urls: set[str]) -> list[dict]:
 # Gemini: filtro di pertinenza + strutturazione
 # --------------------------------------------------------------------------- #
 
-def build_user_prompt(item: dict) -> str:
+def build_user_prompt(item: dict, article_text: str) -> str:
+    # Usa il testo integrale della pagina se lo abbiamo recuperato ed è
+    # sostanzioso; altrimenti ripiega sul riassunto del feed RSS (meglio
+    # di niente, ma il modello viene comunque istruito a segnare "non
+    # pertinente" se il materiale resta troppo povero per un'analisi vera).
+    body = article_text if len(article_text) > len(item["summary"]) + 200 else item["summary"]
     return (
         f"Source: {item['source_name']}\n"
         f"Original title: {item['title']}\n"
-        f"Original summary/abstract: {item['summary'][:2500]}\n\n"
+        f"Article text:\n{body[:7000]}\n\n"
         "Return the required JSON following exactly the schema and rules "
         "from the system prompt."
     )
 
 
-def call_gemini(item: dict) -> dict | None:
+def call_gemini(item: dict, article_text: str) -> dict | None:
     if not GEMINI_API_KEY:
         raise RuntimeError("GEMINI_API_KEY non impostata nell'ambiente.")
 
     body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_RULES}]},
-        "contents": [{"role": "user", "parts": [{"text": build_user_prompt(item)}]}],
+        "contents": [{"role": "user", "parts": [{"text": build_user_prompt(item, article_text)}]}],
         "generationConfig": {
             "temperature": 0.3,
             "responseMimeType": "application/json",
@@ -335,7 +375,7 @@ def call_gemini(item: dict) -> dict | None:
     return None
 
 
-def call_groq(item: dict) -> dict | None:
+def call_groq(item: dict, article_text: str) -> dict | None:
     if not GROQ_API_KEY:
         raise RuntimeError("GROQ_API_KEY non impostata nell'ambiente.")
 
@@ -343,7 +383,7 @@ def call_groq(item: dict) -> dict | None:
         "model": GROQ_MODEL,
         "messages": [
             {"role": "system", "content": SYSTEM_RULES},
-            {"role": "user", "content": build_user_prompt(item)},
+            {"role": "user", "content": build_user_prompt(item, article_text)},
         ],
         "temperature": 0.3,
         "response_format": {"type": "json_object"},
@@ -373,15 +413,18 @@ def call_groq(item: dict) -> dict | None:
     return None
 
 
-def call_llm(item: dict) -> dict | None:
+def call_llm(item: dict, article_text: str) -> dict | None:
     """Dispatcher: usa il motore scelto in LLM_PROVIDER senza cambiare il resto
     della pipeline."""
     if LLM_PROVIDER == "gemini":
-        return call_gemini(item)
-    return call_groq(item)
+        return call_gemini(item, article_text)
+    return call_groq(item, article_text)
 
 
 NUMBER_RE = re.compile(r"\d[\d.,]*")
+
+
+PLACEHOLDER_VALUES = {"", "n/a", "na", "none", "unknown", "not specified", "unavailable", "tbd"}
 
 
 def guard_against_invented_numbers(structured: dict, source_text: str) -> dict:
@@ -398,28 +441,65 @@ def guard_against_invented_numbers(structured: dict, source_text: str) -> dict:
     return structured
 
 
+def is_substantive(structured: dict) -> tuple[bool, str]:
+    """Controllo di qualità: rifiuta strutture con campi vuoti o segnaposto
+    tipo 'N/A' — meglio scartare una notizia che pubblicarla senza contenuto
+    reale. Ritorna (ok, motivo_se_scartata)."""
+
+    def has_content(key: str, min_words: int = 4) -> bool:
+        val = str(structured.get(key, "")).strip()
+        if val.lower() in PLACEHOLDER_VALUES:
+            return False
+        return len(val.split()) >= min_words
+
+    required = ["title", "big_problem", "small_problem", "idea", "plan", "conclusion"]
+    for key in required:
+        if not has_content(key, min_words=3 if key == "title" else 5):
+            return False, f"campo '{key}' vuoto o troppo generico"
+
+    solid_results = 0
+    for i in (1, 2, 3):
+        headline = str(structured.get(f"result_{i}_headline", "")).strip()
+        detail = str(structured.get(f"result_{i}_detail", "")).strip()
+        if (
+            headline.lower() not in PLACEHOLDER_VALUES
+            and detail.lower() not in PLACEHOLDER_VALUES
+            and len(detail.split()) >= 4
+        ):
+            solid_results += 1
+    if solid_results < 2:
+        return False, f"solo {solid_results}/3 risultati con contenuto reale (minimo 2)"
+
+    return True, ""
+
+
 def structure_item(item: dict) -> tuple[dict | None, bool]:
     """Ritorna (brief, chiamata_fallita).
-    brief è None sia se la notizia non è pertinente sia se la chiamata a
-    Gemini è fallita; chiamata_fallita è True SOLO nel secondo caso, ed è
-    il segnale che main() usa per il circuit breaker."""
-    structured = call_llm(item)
+    brief è None se la notizia non è pertinente, se il contenuto risulta
+    troppo povero per un'analisi seria, o se la chiamata all'LLM è fallita;
+    chiamata_fallita è True SOLO in quest'ultimo caso, ed è il segnale che
+    main() usa per il circuit breaker."""
+    image_url, article_text = fetch_article_page(item["url"])
+
+    structured = call_llm(item, article_text)
     if structured is None:
         return None, True
     if not structured.get("is_engineering_relevant"):
         return None, False
-    structured = guard_against_invented_numbers(structured, item["title"] + " " + item["summary"])
 
-    # Preferiamo og:image (di solito più grande e nitida, pensata per le
-    # anteprime social) rispetto alla miniatura embedded nel feed RSS (spesso
-    # piccola e sgranata quando ingrandita in una card): la proviamo per prima
-    # e usiamo il fallback dal feed solo se non è disponibile.
-    image_url = fetch_og_image(item["url"]) or item["image_url"]
+    ok, reason = is_substantive(structured)
+    if not ok:
+        print(f"[INFO] Scartata (contenuto insufficiente: {reason}): {item['title'][:70]}", file=sys.stderr)
+        return None, False
+
+    haystack = item["title"] + " " + item["summary"] + " " + article_text
+    structured = guard_against_invented_numbers(structured, haystack)
+
     brief = {
         "title": structured["title"] or item["title"],
         "source_name": item["source_name"],
         "source_url": item["url"],
-        "image_url": image_url,
+        "image_url": image_url or item["image_url"],
         "category": structured["category"],
         "published_at": item["published_at"].isoformat(),
         "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -523,7 +603,8 @@ def main() -> None:
     merged = merge_and_prune(existing, new_briefs)
     save_json(OUTPUT_PATH, merged)
 
-    print(f"[INFO] Salvate {len(new_briefs)} nuove notizie pertinenti su {len(fresh_items)} valutate.")
+    print(f"[INFO] Salvate {len(new_briefs)} notizie pertinenti E sostanziali su {len(fresh_items)} valutate "
+          f"(le altre sono state scartate per pertinenza o qualità insufficiente — vedi i log [INFO]/[WARN] sopra).")
     print(f"[INFO] Totale notizie in {OUTPUT_PATH}: {len(merged)}.")
 
 
