@@ -74,13 +74,19 @@
   function formatDate(value) {
     const d = new Date(value);
     if (Number.isNaN(d.getTime())) return "N/A";
-    return d.toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" });
+    return d.toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
   }
 
   function formatDateTime(value) {
     const d = new Date(value);
     if (Number.isNaN(d.getTime())) return "N/A";
-    return d.toLocaleString("it-IT", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" });
+    return d.toLocaleString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" });
+  }
+
+  const NOT_SPECIFIED_VALUES = new Set(["", "n/a", "dato non specificato nella fonte", "not specified in source"]);
+
+  function hasNumber(value) {
+    return !NOT_SPECIFIED_VALUES.has(String(value || "").trim().toLowerCase());
   }
 
   function normalizePaper(paper) {
@@ -90,7 +96,7 @@
       source_name: safeText(paper.source_name),
       source_url: safeText(paper.source_url),
       published_at: paper.published_at,
-      category: safeText(paper.category) === "N/A" ? "Altro" : safeText(paper.category),
+      category: safeText(paper.category) === "N/A" ? "Other" : safeText(paper.category),
       image_url: normalizeImage(paper.image_url),
       is_preprint: !!paper.is_preprint,
       big_problem: safeText(paper.big_problem),
@@ -163,7 +169,7 @@
   function renderLastUpdated(data) {
     if (!data.length) { lastUpdatedEl.textContent = ""; return; }
     const latest = data.reduce((max, p) => (new Date(p.fetched_at || p.published_at) > new Date(max) ? (p.fetched_at || p.published_at) : max), data[0].fetched_at || data[0].published_at);
-    lastUpdatedEl.textContent = "ULTIMO AGGIORNAMENTO · " + formatDateTime(latest).toUpperCase();
+    lastUpdatedEl.textContent = "LAST UPDATED · " + formatDateTime(latest).toUpperCase();
   }
 
   const dataReady = loadNews();
@@ -441,7 +447,7 @@
     const categories = [...new Set(allPapers.map((p) => p.category))];
     if (categories.length < 2) { activeCategory = null; return; }
 
-    filtersEl.appendChild(makeChip("TUTTE", null));
+    filtersEl.appendChild(makeChip("ALL", null));
     categories.forEach((cat) => filtersEl.appendChild(makeChip(cat.toUpperCase(), cat)));
     applyFilter(activeCategory);
   }
@@ -502,12 +508,20 @@
   });
 
   function createResultCard(headline, number, detail) {
+    const numberHTML = hasNumber(number) ? `<span class="d-result-number">${escapeHTML(number)}</span>` : "";
     return `
       <div class="d-result-card">
         <div class="d-result-headline">${escapeHTML(headline)}</div>
-        <span class="d-result-number">${escapeHTML(number)}</span>
+        ${numberHTML}
         <div class="d-result-detail">${escapeHTML(detail)}</div>
       </div>`;
+  }
+
+  function joinSentences(parts) {
+    return parts
+      .filter((p) => p && p !== "N/A")
+      .map((p) => (/[.!?]$/.test(p.trim()) ? p.trim() : p.trim() + "."))
+      .join(" ");
   }
 
   function createDetailHTML(p) {
@@ -515,6 +529,8 @@
       ? `<img class="d-image" src="${escapeHTML(p.image_url)}" alt="">`
       : `<div class="d-image paper-image-na">N/A</div>`;
     const preprintBadge = p.is_preprint ? `<span class="d-badge" style="background:var(--ink)">PREPRINT</span>` : "";
+    const introText = joinSentences([p.small_problem, p.idea, p.plan]);
+    const closingText = joinSentences([p.conclusion, p.future_directions]);
 
     return `
       ${imageHTML}
@@ -525,37 +541,26 @@
         ${preprintBadge}
       </div>
 
-      <p class="d-bluf-label">BLUF</p>
       <p class="d-bluf">${escapeHTML(p.big_problem)}</p>
 
-      <div class="d-intro">
-        <p class="d-section-label">INTRO</p>
-        <div class="d-intro-row"><strong>PROBLEMA</strong><span>${escapeHTML(p.small_problem)}</span></div>
-        <div class="d-intro-row"><strong>IDEA</strong><span>${escapeHTML(p.idea)}</span></div>
-        <div class="d-intro-row"><strong>PIANO</strong><span>${escapeHTML(p.plan)}</span></div>
-      </div>
+      <p class="d-intro-text">${escapeHTML(introText)}</p>
 
-      <p class="d-section-label">RISULTATI</p>
       <div class="d-results">
         ${createResultCard(p.result_1_headline, p.result_1_number, p.result_1_detail)}
         ${createResultCard(p.result_2_headline, p.result_2_number, p.result_2_detail)}
         ${createResultCard(p.result_3_headline, p.result_3_number, p.result_3_detail)}
       </div>
 
-      <p class="d-section-label">CONCLUSIONE</p>
-      <p class="d-conclusion">${escapeHTML(p.conclusion)}</p>
-
-      <p class="d-section-label">DIREZIONI FUTURE</p>
-      <p class="d-future">${escapeHTML(p.future_directions)}</p>
+      <p class="d-conclusion">${escapeHTML(closingText)}</p>
 
       <div class="d-actions">
         <a class="d-source-link" href="${escapeHTML(p.source_url)}" target="_blank" rel="noopener noreferrer">
-          LEGGI LA FONTE ORIGINALE ↗
+          READ THE ORIGINAL SOURCE ↗
         </a>
       </div>
       <p class="d-attribution">
-        Contenuto elaborato automaticamente a partire dalla fonte indicata.
-        Testo e diritti originali appartengono alla fonte: ${escapeHTML(p.source_name)}.
+        Content automatically processed from the source indicated.
+        Original text and rights belong to ${escapeHTML(p.source_name)}.
       </p>
     `;
   }
