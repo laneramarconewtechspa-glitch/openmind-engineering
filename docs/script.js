@@ -300,7 +300,7 @@
 
     positions.forEach((pos, i) => {
       drawSynapse(pos, i);
-      createPaperCard(visiblePapers[i], pos, i);
+      createPaperCard(visiblePapers[i], pos, i, coreX, coreY);
     });
     applyFilter(activeCategory);
   }
@@ -310,6 +310,7 @@
     dot.setAttribute("cx", pos.dotX); dot.setAttribute("cy", pos.dotY); dot.setAttribute("r", 3.5);
     dot.setAttribute("class", "ring-dot live");
     dot.dataset.index = String(index);
+    if (!REDUCED_MOTION) dot.style.transitionDelay = `${Math.min(index * 70, 800)}ms`;
     synapses.appendChild(dot);
 
     const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
@@ -317,6 +318,7 @@
     line.setAttribute("x2", pos.x); line.setAttribute("y2", pos.y);
     line.setAttribute("class", "synapse-line live");
     line.dataset.index = String(index);
+    if (!REDUCED_MOTION) line.style.transitionDelay = `${Math.min(index * 70, 800)}ms`;
     synapses.appendChild(line);
   }
 
@@ -324,7 +326,22 @@
   /* Card — dimensione ridotta, si ingrandisce al passaggio del mouse   */
   /* ---------------------------------------------------------------- */
 
-  function createPaperCard(paper, pos, index) {
+  function createPaperCard(paper, pos, index, coreX, coreY) {
+    const delay = Math.min(index * 0.07, 0.8);
+    const travel = 0.5 + Math.random() * 0.2;
+
+    if (pos && !REDUCED_MOTION) {
+      const spark = document.createElement("span");
+      spark.className = "spark";
+      spark.style.left = `${pos.x}px`;
+      spark.style.top = `${pos.y}px`;
+      spark.style.setProperty("--dx", `${coreX - pos.x}px`);
+      spark.style.setProperty("--dy", `${coreY - pos.y}px`);
+      spark.style.setProperty("--delay", `${delay}s`);
+      spark.style.setProperty("--travel", `${travel}s`);
+      neuronsLayer.appendChild(spark);
+    }
+
     const article = document.createElement("article");
     article.className = "neuron";
     article.dataset.category = paper.category;
@@ -333,7 +350,7 @@
       article.style.left = `${pos.x}px`;
       article.style.top = `${pos.y}px`;
     }
-    article.style.setProperty("--delay", `${Math.min(index * 0.06, 0.7)}s`);
+    article.style.setProperty("--delay", `${pos ? delay + travel - 0.08 : index * 0.06}s`);
     if (REDUCED_MOTION) {
       article.style.animation = "none";
       article.style.opacity = "1";
@@ -482,26 +499,4 @@
 
       <p class="d-bluf">${escapeHTML(p.big_problem)}</p>
 
-      <p class="d-intro-text">${escapeHTML(introText)}</p>
-
-      <div class="d-results">
-        ${createResultCard(p.result_1_headline, p.result_1_number, p.result_1_detail)}
-        ${createResultCard(p.result_2_headline, p.result_2_number, p.result_2_detail)}
-        ${createResultCard(p.result_3_headline, p.result_3_number, p.result_3_detail)}
-      </div>
-
-      <p class="d-conclusion">${escapeHTML(closingText)}</p>
-
-      <div class="d-actions">
-        <a class="d-source-link" href="${escapeHTML(p.source_url)}" target="_blank" rel="noopener noreferrer">
-          READ THE ORIGINAL SOURCE ↗
-        </a>
-      </div>
-      <p class="d-attribution">
-        Content automatically processed from the source indicated.
-        Original text and rights belong to ${escapeHTML(p.source_name)}.
-      </p>
-    `;
-  }
-
-})();
+      <p class="d-intro-text">${escapeHTML(i
