@@ -499,4 +499,26 @@
 
       <p class="d-bluf">${escapeHTML(p.big_problem)}</p>
 
-      <p class="d-intro-text">${escapeHTML(i
+      <p class="d-intro-text">${escapeHTML(introText)}</p>
+
+      <div class="d-results">
+        ${createResultCard(p.result_1_headline, p.result_1_number, p.result_1_detail)}
+        ${createResultCard(p.result_2_headline, p.result_2_number, p.result_2_detail)}
+        ${createResultCard(p.result_3_headline, p.result_3_number, p.result_3_detail)}
+      </div>
+
+      <p class="d-conclusion">${escapeHTML(closingText)}</p>
+
+      <div class="d-actions">
+        <a class="d-source-link" href="${escapeHTML(p.source_url)}" target="_blank" rel="noopener noreferrer">
+          READ THE ORIGINAL SOURCE ↗
+        </a>
+      </div>
+      <p class="d-attribution">
+        Content automatically processed from the source indicated.
+        Original text and rights belong to ${escapeHTML(p.source_name)}.
+      </p>
+    `;
+  }
+
+})();
