@@ -219,21 +219,19 @@
   function initBrainTilt() {
     if (REDUCED_MOTION || !brain3d) return;
 
-    const BASE_RY = -34; // presenta il cervello di 3/4 lateralmente invece che frontalmente
     let targetRX = 0, targetRY = 0, curRX = 0, curRY = 0;
 
     window.addEventListener("mousemove", (e) => {
       const dx = (e.clientX - window.innerWidth / 2) / (window.innerWidth / 2);
       const dy = (e.clientY - window.innerHeight / 2) / (window.innerHeight / 2);
-      targetRY = BASE_RY + clamp(dx, -1, 1) * 10;
-      targetRX = clamp(-dy, -1, 1) * 8;
+      targetRY = clamp(dx, -1, 1) * 7;
+      targetRX = clamp(-dy, -1, 1) * 5;
     });
-    targetRY = BASE_RY;
 
     function tick(t) {
       curRX += (targetRX - curRX) * 0.055;
       curRY += (targetRY - curRY) * 0.055;
-      const idle = Math.sin(t / 2600) * 3;
+      const idle = Math.sin(t / 2600) * 2;
       brain3d.style.transform = `rotateX(${curRX.toFixed(2)}deg) rotateY(${(curRY + idle).toFixed(2)}deg)`;
       if (specular) {
         specular.style.setProperty("--sx", (-curRY * 1.6).toFixed(1));
