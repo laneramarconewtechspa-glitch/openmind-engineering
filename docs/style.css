@@ -26,8 +26,8 @@
   --font-sans: "Inter", Arial, Helvetica, sans-serif;
   --font-mono: "IBM Plex Mono", "Courier New", monospace;
 
-  --core-w: 360px;
-  --core-h: 250px;
+  --core-w: 340px;
+  --core-h: 235px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -208,7 +208,7 @@ button { font-family: inherit; }
 
 .brain-scene {
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  width: 300px; height: 188px;
+  width: 280px; height: 195px;
   perspective: 1400px;
 }
 .brain-3d {
@@ -410,8 +410,8 @@ button { font-family: inherit; }
    guadagnare spazio, margini del layout ridotti di conseguenza (vedi JS). */
 @media (max-width: 1080px) {
   .engineering-column { display: none; }
-  .neural-core { left: 55%; top: 20%; width: 250px; height: 165px; }
-  .brain-scene { width: 220px; height: 138px; }
+  .neural-core { left: 55%; top: 20%; width: 235px; height: 163px; }
+  .brain-scene { width: 205px; height: 143px; }
   .core-caption-text { display: none; }
 }
 
@@ -425,8 +425,8 @@ button { font-family: inherit; }
 @media (max-width: 640px) {
   .network-header { flex-wrap: wrap; row-gap: 8px; }
   .last-updated { order: 3; width: 100%; }
-  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 175px; margin: 20px auto 0; }
-  .brain-scene { width: 200px; height: 125px; }
+  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; height: 165px; margin: 20px auto 0; }
+  .brain-scene { width: 190px; height: 132px; }
   .core-caption { display: none; }
   .stage { display: flex; flex-direction: column; min-height: 0; padding-bottom: 40px; }
   .synapses { display: none; }
