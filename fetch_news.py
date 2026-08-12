@@ -204,7 +204,8 @@ def entry_image(entry) -> str | None:
 
 
 def fetch_og_image(article_url: str) -> str | None:
-    """Fallback: recupera la pagina dell'articolo ed estrae il meta og:image."""
+    """Recupera la pagina dell'articolo ed estrae il meta og:image (di solito
+    a risoluzione più alta della miniatura del feed RSS)."""
     try:
         resp = requests.get(article_url, headers=REQUEST_HEADERS, timeout=10)
         resp.raise_for_status()
@@ -409,7 +410,11 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
         return None, False
     structured = guard_against_invented_numbers(structured, item["title"] + " " + item["summary"])
 
-    image_url = item["image_url"] or fetch_og_image(item["url"])
+    # Preferiamo og:image (di solito più grande e nitida, pensata per le
+    # anteprime social) rispetto alla miniatura embedded nel feed RSS (spesso
+    # piccola e sgranata quando ingrandita in una card): la proviamo per prima
+    # e usiamo il fallback dal feed solo se non è disponibile.
+    image_url = fetch_og_image(item["url"]) or item["image_url"]
     brief = {
         "title": structured["title"] or item["title"],
         "source_name": item["source_name"],
