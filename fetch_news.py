@@ -61,16 +61,16 @@ MAX_CONSECUTIVE_FAILURES = 3
 REQUEST_HEADERS = {"User-Agent": "OpenMindEngineeringBot/1.0 (+personal news digest)"}
 
 CATEGORIES = [
-    "Robotica",
-    "Aerospaziale",
-    "Energia",
-    "Civile e Infrastrutture",
-    "Meccanica",
-    "Elettronica e Semiconduttori",
-    "Materiali",
-    "Biomedica",
-    "Informatica e Computing",
-    "Altro Ingegneria",
+    "Robotics",
+    "Aerospace",
+    "Energy",
+    "Civil & Infrastructure",
+    "Mechanical",
+    "Electronics & Semiconductors",
+    "Materials",
+    "Biomedical",
+    "Computing",
+    "Other Engineering",
 ]
 
 SOURCES = [
@@ -82,7 +82,10 @@ SOURCES = [
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
-    {"name": "EurekAlert!", "url": "https://www.eurekalert.org/specialtopic/tech/home"},
+    # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
+    # funzionante per la sezione Tech & Engineering (i pattern noti tornano
+    # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
+    # l'URL corretto, riattivala aggiungendo una riga come le altre qui sopra.
     {
         "name": "arXiv",
         "url": (
@@ -125,42 +128,40 @@ RESPONSE_SCHEMA = {
     ],
 }
 
-SYSTEM_RULES = """Sei un analista tecnico che prepara un digest quotidiano di notizie di \
-ingegneria per lettori esperti ma di fretta. Ricevi il titolo e il contenuto di UN \
-solo articolo/paper e devi restituire SOLO il JSON richiesto dallo schema, seguendo \
-queste regole ferree:
+SYSTEM_RULES = """You are a technical analyst preparing a daily engineering news digest for \
+expert but time-pressed readers. You receive the title and summary of ONE single \
+article/paper and must return ONLY the JSON required by the schema, following these \
+strict rules:
 
-1. Valuta per primo "is_engineering_relevant": false se la notizia riguarda \
-   salute pura, policy pura, scienza di base o business senza una chiara \
-   applicazione o innovazione ingegneristica; in quel caso compila gli altri \
-   campi con stringa vuota "".
-2. Se è pertinente riporta il tutto con linguaggio specifico, professionale e scientifico: periodi brevi e \
-   diretti, ma che abbiano come obiettivo quello di far capire il contenuto dell'articolo \
-   in pochi minuti di lettura e che sia qualcosa che il lettore può raccontare (conclusion e future_directions \
-   possono essere leggermente più articolate).
-3. Nel BLUF deve essere presente da "big_problem" a "small_problem", da "small_problem" ad "idea" da "idea" a summary.\
-   "big_problem" = il macro-problema di settore che questa ricerca affronta spiegato in maniera esaustiva, ma comunque breve\
-4. "small_problem" = il problema tecnico specifico affrontato da QUESTO \
-   studio/articolo. "idea" = l'intuizione/approccio proposto. "plan" = come \
-   è stato testato o implementato.
-5. I tre risultati (result_1/2/3) devono avere un numero o una metrica REALE \
-   presa dal testo fornito (percentuale, fattore di miglioramento, costo, \
-   tempo, efficienza...). Se un numero non è nel testo fornito, scrivi ESATTAMENTE \
-   "dato non specificato nella fonte" nel campo _number corrispondente: non \
-   inventarlo e non stimarlo mai. Fai si però che i dati siano effettivamente numerici o comunque quantificabili in maniera che il lettore \
-   abbia un'idea sul perchè questi risultati sono importanti.
-6. "conclusion" = perché è un'innovazione reale, con confronto allo stato \
-   dell'arte se è menzionato nel testo. "future_directions" = i prossimi passi, \
-   se indicati.
-7. Basati ESCLUSIVAMENTE sul testo fornito. Non aggiungere fatti, numeri o nomi \
-   che non compaiono nel testo, anche se pensi di conoscerli.
-8. Se la fonte è arXiv (preprint), aggiungi alla fine di "conclusion" la frase \
-   "Risultato preliminare, non ancora sottoposto a peer review."
+1. Evaluate "is_engineering_relevant" first: false if the story is about pure \
+   health/medicine, pure policy, basic science, or business with no clear \
+   engineering application or innovation; in that case fill the other fields \
+   with an empty string "".
+2. If relevant, write EVERYTHING in English, in a punchy "brief" style: short, \
+   direct sentences, max 25-30 words per field (conclusion and future_directions \
+   can go up to 40 words).
+3. "big_problem" = the big-picture industry problem this research addresses \
+   (the BLUF), as one sharp sentence.
+4. "small_problem" = the specific technical problem addressed by THIS study/ \
+   article. "idea" = the proposed insight/approach. "plan" = how it was tested \
+   or implemented.
+5. The three results (result_1/2/3) must have a REAL number or metric taken \
+   from the text provided (percentage, improvement factor, cost, time, \
+   efficiency...). If no number is present in the text provided, leave the \
+   corresponding _number field as an EMPTY STRING "": never invent or estimate \
+   one.
+6. "conclusion" = why this is a genuine innovation, compared against the state \
+   of the art if mentioned in the text. "future_directions" = next steps, if \
+   indicated.
+7. Base yourself EXCLUSIVELY on the text provided. Do not add facts, numbers, \
+   or names that do not appear in the text, even if you think you know them.
+8. If the source is arXiv (preprint), append to the end of "conclusion" the \
+   sentence "Preliminary result, not yet peer-reviewed."
 """
 
 SYSTEM_RULES += (
-    "\n\nRispondi SOLO con un oggetto JSON valido, senza testo prima o dopo, senza "
-    "blocchi ```. Deve avere ESATTAMENTE queste chiavi:\n"
+    "\n\nReply with ONLY a valid JSON object, no text before or after, no ``` "
+    "code blocks. It must have EXACTLY these keys:\n"
     + "\n".join(f"- {k}" for k in RESPONSE_SCHEMA["properties"])
 )
 
@@ -282,26 +283,13 @@ def dedupe(items: list[dict], already_seen_urls: set[str]) -> list[dict]:
 # Gemini: filtro di pertinenza + strutturazione
 # --------------------------------------------------------------------------- #
 
-# Modifica effettuata sul limite del summary, aumento a 8000 piuttosto che 2500
-
-# def build_user_prompt(item: dict) -> str:
- #   return (
- #       f"Fonte: {item['source_name']}\n"
- #       f"Titolo originale: {item['title']}\n"
-  #      f"Riassunto/abstract originale: {item['summary'][:2500]}\n\n"
- #       "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
- #       "del system prompt."
- #   )
-
-
 def build_user_prompt(item: dict) -> str:
-    testo = str(item.get('content') or item.get('summary') or '')[:8000]
     return (
-        f"Fonte: {item['source_name']}\n"
-        f"Titolo originale: {item['title']}\n"
-        f"Riassunto/abstract originale: {testo}\n\n"
-        "Restituisci il JSON richiesto seguendo esattamente lo schema e le regole "
-        "del system prompt."
+        f"Source: {item['source_name']}\n"
+        f"Original title: {item['title']}\n"
+        f"Original summary/abstract: {item['summary'][:2500]}\n\n"
+        "Return the required JSON following exactly the schema and rules "
+        "from the system prompt."
     )
 
 
@@ -402,10 +390,10 @@ def guard_against_invented_numbers(structured: dict, source_text: str) -> dict:
     haystack = source_text.replace(",", ".")
     for i in (1, 2, 3):
         key = f"result_{i}_number"
-        value = str(structured.get(key, "")) #eventualmente rimuovere str
+        value = structured.get(key, "")
         digits = NUMBER_RE.findall(value.replace(",", "."))
         if digits and not any(d in haystack for d in digits):
-            structured[key] = "dato non specificato nella fonte"
+            structured[key] = ""
     return structured
 
 
