@@ -266,6 +266,22 @@ button { font-family: inherit; }
 }
 .ring-dot.live { opacity: 1; }
 
+.spark {
+  position: absolute; left: 0; top: 0;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--red); box-shadow: 0 0 14px var(--red-glow), 0 0 3px #fff;
+  pointer-events: none; z-index: 7;
+  animation: spark-travel var(--travel, .6s) cubic-bezier(.2,.7,.3,1) forwards,
+             spark-fade .18s ease-in forwards;
+  animation-delay: var(--delay, 0s), calc(var(--delay, 0s) + var(--travel, .6s) - .05s);
+}
+@keyframes spark-travel {
+  0%   { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(.6); }
+  70%  { transform: translate(-50%, -50%) scale(1.4); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes spark-fade { to { opacity: 0; } }
+
 .neurons-layer { position: absolute; inset: 0; z-index: 6; }
 
 .neuron {
