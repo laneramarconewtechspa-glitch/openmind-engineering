@@ -24,9 +24,8 @@
   const openBtn = document.getElementById("open-btn");
   const stage = document.getElementById("stage");
   const neuralCore = document.getElementById("neural-core");
-  const brainScene = document.getElementById("brain-scene");
-  const brain3d = document.getElementById("brain-3d");
-  const specular = document.getElementById("brain-specular");
+  const brainWrap = document.getElementById("brain-wrap");
+  const connectorRing = document.getElementById("connector-ring");
   const synapses = document.getElementById("synapses");
   const neuronsLayer = document.getElementById("neurons-layer");
   const emptyState = document.getElementById("empty-state");
@@ -213,109 +212,44 @@
   }, 220));
 
   /* ---------------------------------------------------------------- */
-  /* Tilt 3D del cervello (idle drift + parallasse al mouse)           */
+  /* Layout a cerchio regolare                                         */
   /* ---------------------------------------------------------------- */
 
-  function initBrainTilt() {
-    if (REDUCED_MOTION || !brain3d) return;
-
-    let targetRX = 0, targetRY = 0, curRX = 0, curRY = 0;
-
-    window.addEventListener("mousemove", (e) => {
-      const dx = (e.clientX - window.innerWidth / 2) / (window.innerWidth / 2);
-      const dy = (e.clientY - window.innerHeight / 2) / (window.innerHeight / 2);
-      targetRY = clamp(dx, -1, 1) * 7;
-      targetRX = clamp(-dy, -1, 1) * 5;
-    });
-
-    function tick(t) {
-      curRX += (targetRX - curRX) * 0.055;
-      curRY += (targetRY - curRY) * 0.055;
-      const idle = Math.sin(t / 2600) * 2;
-      brain3d.style.transform = `rotateX(${curRX.toFixed(2)}deg) rotateY(${(curRY + idle).toFixed(2)}deg)`;
-      if (specular) {
-        specular.style.setProperty("--sx", (-curRY * 1.6).toFixed(1));
-        specular.style.setProperty("--sy", (curRX * 1.6).toFixed(1));
-      }
-      requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  }
-  initBrainTilt();
-
-  /* ---------------------------------------------------------------- */
-  /* Layout a spirale anti-sovrapposizione                             */
-  /* ---------------------------------------------------------------- */
-
-  function computePositions(count, stageRect, coreX, coreY, brainHalfW, brainHalfH) {
-    const cardW = 192, cardH = 258, gap = 20;
-    const columnVisible = stageRect.width > 1080;
-    const marginLeft = columnVisible ? 236 : 20;
-    const marginRight = 18, marginTop = 18, marginBottom = 24;
-    const coreHalfW = (brainHalfW || 130) + 24; // area (ellittica) da lasciare libera attorno al cervello, proporzionata alla sua dimensione reale a schermo
-    const coreHalfH = (brainHalfH || 130) + 40;
-
+  function computeCirclePositions(count, stageRect, coreX, coreY, columnVisible) {
+    const cardW = 150, cardH = 190, gap = 22;
+    const diag = Math.hypot(cardW, cardH) + gap; // unico valore sicuro a qualsiasi angolo attorno al cerchio
+    const marginLeft = columnVisible ? 220 : 20;
+    const marginRight = 20, marginTop = 26, marginBottom = 36;
     const usableLeft = marginLeft, usableRight = stageRect.width - marginRight;
-    const usableTop = marginTop, usableBottom = stageRect.height - marginBottom;
 
-    const overlapsRect = (r1, r2, g) =>
-      !(r1.right + g < r2.left || r1.left - g > r2.right || r1.bottom + g < r2.top || r1.top - g > r2.bottom);
+    const spaceRadiusHoriz = Math.max(140, Math.min(coreX - usableLeft, usableRight - coreX));
+    const minR = count > 1 ? (diag / 2) / Math.sin(Math.PI / count) : 0;
+    // Il raggio deve garantire zero sovrapposizioni (minR) — se lo spazio
+    // orizzontale disponibile è più stretto lo rispettiamo comunque quando
+    // possibile, ma MAI a costo di far accavallare le card.
+    const cardRadius = Math.max(minR, Math.min(spaceRadiusHoriz, 340));
 
-    const insideCoreEllipse = (x, y) => {
-      const ex = coreHalfW + cardW / 2 + gap * 0.6;
-      const ey = coreHalfH + cardH / 2 + gap * 0.6;
-      const dx = (x - coreX) / ex, dy = (y - coreY) / ey;
-      return dx * dx + dy * dy < 1;
-    };
-
-    // Due griglie di celle intrecciate (la seconda sfalsata di mezzo passo) per avere
-    // più candidati liberi tra cui scegliere: a differenza di una spirale a raggio
-    // crescente, questo copre SEMPRE l'intera area utilizzabile, senza lasciare buchi.
-    const stepX = cardW + gap, stepY = cardH + gap;
-    const candidates = [];
-    for (let pass = 0; pass < 2; pass++) {
-      const offX = pass === 1 ? stepX / 2 : 0;
-      const offY = pass === 1 ? stepY / 2 : 0;
-      for (let y = usableTop + cardH / 2 + offY; y <= usableBottom - cardH / 2; y += stepY) {
-        for (let x = usableLeft + cardW / 2 + offX; x <= usableRight - cardW / 2; x += stepX) {
-          if (!insideCoreEllipse(x, y)) candidates.push({ x, y });
-        }
-      }
+    const positions = [];
+    for (let i = 0; i < count; i++) {
+      const angle = -Math.PI / 2 + i * ((2 * Math.PI) / count);
+      positions.push({
+        x: coreX + cardRadius * Math.cos(angle),
+        y: coreY + cardRadius * Math.sin(angle),
+        dotX: coreX + Math.min(cardRadius * 0.5, 118) * Math.cos(angle),
+        dotY: coreY + Math.min(cardRadius * 0.5, 118) * Math.sin(angle),
+      });
     }
 
-    // Ordina i candidati per distanza dal core con un pizzico di casualità, per un
-    // effetto organico invece che a griglia rigida.
-    candidates.forEach((c) => {
-      c.d = Math.hypot(c.x - coreX, (c.y - coreY) / 0.9) + (Math.random() - 0.5) * stepX * 0.5;
-    });
-    candidates.sort((a, b) => a.d - b.d);
-
-    const placed = [];
-    for (const c of candidates) {
-      if (placed.length >= count) break;
-      const x = c.x + (Math.random() - 0.5) * gap * 0.7;
-      const y = c.y + (Math.random() - 0.5) * gap * 0.7;
-      const rect = { left: x - cardW / 2, right: x + cardW / 2, top: y - cardH / 2, bottom: y + cardH / 2 };
-      if (placed.some((p) => overlapsRect(rect, p.rect, gap * 0.5))) continue;
-      placed.push({ x, y, rect });
+    // Se il cerchio calcolato non entra in alto (raggio maggiore dello spazio
+    // sopra il centro), sposta l'INTERO layout (non solo le card) più in
+    // basso di quel tanto, invece di tagliare o far accavallare nulla.
+    const minTop = Math.min(...positions.map((p) => p.y - cardH / 2));
+    const shiftDown = minTop < marginTop ? marginTop - minTop : 0;
+    if (shiftDown > 0) {
+      positions.forEach((p) => { p.y += shiftDown; p.dotY += shiftDown; });
     }
 
-    // Fallback per casi estremi (schermi molto piccoli o molti articoli insieme):
-    // se le due griglie non bastano, cerca posizioni aggiuntive scendendo con un
-    // passo fine, controllando comunque le sovrapposizioni (mai a costo zero).
-    let fx = usableLeft + cardW / 2, fy = usableBottom - cardH / 2;
-    let guard = 0;
-    while (placed.length < count && guard < 4000) {
-      guard++;
-      const rect = { left: fx - cardW / 2, right: fx + cardW / 2, top: fy - cardH / 2, bottom: fy + cardH / 2 };
-      if (!placed.some((p) => overlapsRect(rect, p.rect, 6))) {
-        placed.push({ x: fx, y: fy, rect });
-      }
-      fx += 34;
-      if (fx > usableRight - cardW / 2) { fx = usableLeft + cardW / 2; fy += 34; }
-    }
-
-    return placed.map((p) => ({ x: p.x, y: p.y }));
+    return { positions, dotRadius: Math.min(cardRadius * 0.5, 118), cardRadius, shiftDown };
   }
 
   /* ---------------------------------------------------------------- */
@@ -326,66 +260,71 @@
     emptyState.hidden = true;
     neuronsLayer.innerHTML = "";
     synapses.innerHTML = "";
+    neuronsLayer.classList.remove("hovering");
 
     const isMobile = window.innerWidth <= 640;
+    neuralCore.style.transform = "";
+    connectorRing.style.transform = "";
     const stageRect = stage.getBoundingClientRect();
     const coreRect = neuralCore.getBoundingClientRect();
-    const brainRect = brainScene.getBoundingClientRect();
     const coreX = coreRect.left + coreRect.width / 2 - stageRect.left;
     const coreY = coreRect.top + coreRect.height / 2 - stageRect.top;
 
     if (isMobile) {
-      visiblePapers.forEach((paper, i) => createPaperCard(paper, null, i, coreX, coreY));
+      connectorRing.style.display = "none";
+      visiblePapers.forEach((paper, i) => createPaperCard(paper, null, i));
       applyFilter(activeCategory);
       return;
     }
 
-    const positions = computePositions(visiblePapers.length, stageRect, coreX, coreY, brainRect.width / 2, brainRect.height / 2);
+    const columnVisible = window.innerWidth > 1080;
+    const { positions, dotRadius, shiftDown } = computeCirclePositions(
+      visiblePapers.length, stageRect, coreX, coreY, columnVisible
+    );
 
-    const maxBottom = positions.reduce((m, p) => Math.max(m, p.y + 258 / 2), 0);
-    stage.style.minHeight = maxBottom + 40 > stageRect.height
-      ? `${maxBottom + 40}px`
+    // Se il layout è stato spostato in basso per non tagliare le card in
+    // alto, sposta insieme anche il cervello e l'anello, per restare centrati.
+    neuralCore.style.transform = shiftDown
+      ? `translate(-50%, calc(-50% + ${shiftDown}px))`
+      : "";
+    connectorRing.style.transform = shiftDown
+      ? `translate(-50%, calc(-50% + ${shiftDown}px))`
       : "";
 
+    connectorRing.style.display = "";
+    connectorRing.style.width = `${dotRadius * 2}px`;
+    connectorRing.style.height = `${dotRadius * 2}px`;
+
+    const maxBottom = positions.reduce((m, p) => Math.max(m, p.y + 110), 0);
+    stage.style.minHeight = maxBottom + 40 > stageRect.height ? `${maxBottom + 40}px` : "";
+
     positions.forEach((pos, i) => {
-      drawSynapse(coreX, coreY, pos.x, pos.y, i);
-      createPaperCard(visiblePapers[i], pos, i, coreX, coreY);
+      drawSynapse(pos, i);
+      createPaperCard(visiblePapers[i], pos, i);
     });
     applyFilter(activeCategory);
   }
 
-  function drawSynapse(ox, oy, x, y, index) {
-    const bend = index % 2 === 0 ? 1 : -1;
-    const mx = (ox + x) / 2 + (y - oy) * 0.1 * bend;
-    const my = (oy + y) / 2 + (ox - x) * 0.1 * bend;
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    path.setAttribute("d", `M ${ox} ${oy} Q ${mx} ${my} ${x} ${y}`);
-    path.setAttribute("class", "synapse-line live");
-    path.dataset.index = String(index);
-    if (!REDUCED_MOTION) path.style.transitionDelay = `${Math.min(index * 70, 700)}ms`;
-    synapses.appendChild(path);
+  function drawSynapse(pos, index) {
+    const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    dot.setAttribute("cx", pos.dotX); dot.setAttribute("cy", pos.dotY); dot.setAttribute("r", 3.5);
+    dot.setAttribute("class", "ring-dot live");
+    dot.dataset.index = String(index);
+    synapses.appendChild(dot);
+
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("x1", pos.dotX); line.setAttribute("y1", pos.dotY);
+    line.setAttribute("x2", pos.x); line.setAttribute("y2", pos.y);
+    line.setAttribute("class", "synapse-line live");
+    line.dataset.index = String(index);
+    synapses.appendChild(line);
   }
 
   /* ---------------------------------------------------------------- */
-  /* Card (con spark che la precede sulla vista desktop)               */
+  /* Card — dimensione ridotta, si ingrandisce al passaggio del mouse   */
   /* ---------------------------------------------------------------- */
 
-  function createPaperCard(paper, pos, index, coreX, coreY) {
-    const delay = Math.min(index * 0.09, 1.1);
-    const travel = 0.55 + Math.random() * 0.25;
-
-    if (pos && !REDUCED_MOTION) {
-      const spark = document.createElement("span");
-      spark.className = "spark";
-      spark.style.left = `${pos.x}px`;
-      spark.style.top = `${pos.y}px`;
-      spark.style.setProperty("--dx", `${coreX - pos.x}px`);
-      spark.style.setProperty("--dy", `${coreY - pos.y}px`);
-      spark.style.setProperty("--delay", `${delay}s`);
-      spark.style.setProperty("--travel", `${travel}s`);
-      neuronsLayer.appendChild(spark);
-    }
-
+  function createPaperCard(paper, pos, index) {
     const article = document.createElement("article");
     article.className = "neuron";
     article.dataset.category = paper.category;
@@ -394,8 +333,7 @@
       article.style.left = `${pos.x}px`;
       article.style.top = `${pos.y}px`;
     }
-    article.style.setProperty("--delay", `${pos ? delay : index * 0.06}s`);
-    article.style.setProperty("--travel", `${pos ? travel : 0}s`);
+    article.style.setProperty("--delay", `${Math.min(index * 0.06, 0.7)}s`);
     if (REDUCED_MOTION) {
       article.style.animation = "none";
       article.style.opacity = "1";
@@ -432,6 +370,9 @@
     article.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
     });
+    // ingrandisce la card sotto il mouse e affievolisce le altre, per una lettura chiara
+    article.addEventListener("mouseenter", () => neuronsLayer.classList.add("hovering"));
+    article.addEventListener("mouseleave", () => neuronsLayer.classList.remove("hovering"));
 
     neuronsLayer.appendChild(article);
   }
@@ -467,10 +408,10 @@
       const match = !category || el.dataset.category === category;
       el.classList.toggle("dimmed", !match);
     });
-    [...synapses.querySelectorAll(".synapse-line")].forEach((line) => {
-      const p = visiblePapers[Number(line.dataset.index)];
+    [...synapses.querySelectorAll(".synapse-line, .ring-dot")].forEach((el) => {
+      const p = visiblePapers[Number(el.dataset.index)];
       const match = !p || !category || p.category === category;
-      line.style.opacity = match ? "" : "0.05";
+      el.style.opacity = match ? "" : "0.06";
     });
   }
 
