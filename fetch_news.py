@@ -42,6 +42,12 @@ GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 # resto della pipeline, cambiando solo questa variabile d'ambiente nel workflow.
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq").lower()
 
+# Da febbraio 2026 OpenAlex richiede una chiave API (gratuita, $1 di credito al
+# giorno — ampiamente sufficiente per il nostro utilizzo). Se non è impostata,
+# la fonte OpenAlex viene semplicemente saltata invece di bloccare il resto.
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY")
+OPENALEX_CONTACT_EMAIL = os.environ.get("OPENALEX_CONTACT_EMAIL", "")
+
 OUTPUT_PATH = os.path.join("docs", "news.json")
 
 # Finestra usata per RACCOGLIERE i candidati (con margine di sicurezza rispetto
@@ -84,6 +90,7 @@ SOURCES = [
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
+    {"name": "NSF", "url": "https://www.nsf.gov/rss/rss_www_news.xml"},
     # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
     # funzionante per la sezione Tech & Engineering (i pattern noti tornano
     # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
@@ -175,8 +182,8 @@ and must return ONLY the JSON required by the schema, following these strict rul
    steps, if indicated in the text.
 8. Base yourself EXCLUSIVELY on the text provided. Do not add facts, numbers, \
    or names that do not appear in the text, even if you think you know them.
-9. If the source is arXiv (preprint), append to the end of "conclusion" the \
-   sentence "Preliminary result, not yet peer-reviewed."
+9. If the "Is this a preprint?" line below says yes, append to the end of \
+   "conclusion" the sentence "Preliminary result, not yet peer-reviewed."
 """
 
 SYSTEM_RULES += (
@@ -292,6 +299,124 @@ def collect_from_source(source: dict, cutoff: dt.datetime) -> list[dict]:
     return items
 
 
+def collect_from_semantic_scholar(cutoff: dt.datetime) -> list[dict]:
+    """Semantic Scholar: paper scientifici veri (con abstract), non notizie di
+    sintesi — API pubblica gratuita, nessuna chiave richiesta per il nostro
+    volume di utilizzo."""
+    items = []
+    date_from = cutoff.strftime("%Y-%m-%d")
+    date_to = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(days=1)).strftime("%Y-%m-%d")
+    params = {
+        "query": "engineering",
+        "fields": "title,abstract,url,externalIds,publicationDate,venue",
+        "fieldsOfStudy": "Engineering,Materials Science",
+        "publicationDateOrYear": f"{date_from}:{date_to}",
+        "sort": "publicationDate:desc",
+        "limit": 30,
+    }
+    try:
+        resp = requests.get(
+            "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+            params=params, headers=REQUEST_HEADERS, timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json().get("data") or []
+    except (requests.RequestException, ValueError) as exc:
+        print(f"[WARN] fonte non raggiungibile: Semantic Scholar: {exc}", file=sys.stderr)
+        return items
+
+    for paper in data:
+        pub_date = paper.get("publicationDate")
+        if not pub_date:
+            continue
+        try:
+            published = dt.datetime.strptime(pub_date, "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
+        except ValueError:
+            continue
+        if published < cutoff:
+            continue
+        url = paper.get("url")
+        doi = (paper.get("externalIds") or {}).get("DOI")
+        if not url and doi:
+            url = f"https://doi.org/{doi}"
+        if not url or not paper.get("title"):
+            continue
+        items.append({
+            "source_name": "Semantic Scholar",
+            "url": url,
+            "title": clean_html(paper.get("title") or ""),
+            "summary": clean_html(paper.get("abstract") or ""),
+            "published_at": published,
+            "image_url": None,
+            "is_preprint": not bool(paper.get("venue")),  # nessuna rivista/venue = probabile preprint
+        })
+    return items
+
+
+def reconstruct_openalex_abstract(inverted_index: dict | None) -> str:
+    """OpenAlex non fornisce l'abstract come testo semplice ma come 'inverted
+    index' (parola -> lista di posizioni): lo ricostruiamo in testo leggibile."""
+    if not inverted_index:
+        return ""
+    positions: dict[int, str] = {}
+    for word, idxs in inverted_index.items():
+        for i in idxs:
+            positions[i] = word
+    return " ".join(positions[i] for i in sorted(positions))
+
+
+def collect_from_openalex(cutoff: dt.datetime) -> list[dict]:
+    """OpenAlex: catalogo aperto di oltre 480 milioni di lavori scientifici.
+    Dal 2026 richiede una chiave API gratuita (OPENALEX_API_KEY): se non è
+    impostata, la fonte viene saltata senza bloccare il resto della raccolta."""
+    items = []
+    if not OPENALEX_API_KEY:
+        print("[WARN] OPENALEX_API_KEY non impostata: fonte OpenAlex saltata.", file=sys.stderr)
+        return items
+
+    params = {
+        "search": "engineering",
+        "filter": f"from_publication_date:{cutoff.strftime('%Y-%m-%d')}",
+        "sort": "publication_date:desc",
+        "per-page": 30,
+        "api_key": OPENALEX_API_KEY,
+    }
+    if OPENALEX_CONTACT_EMAIL:
+        params["mailto"] = OPENALEX_CONTACT_EMAIL
+    try:
+        resp = requests.get("https://api.openalex.org/works", params=params, headers=REQUEST_HEADERS, timeout=20)
+        resp.raise_for_status()
+        results = resp.json().get("results") or []
+    except (requests.RequestException, ValueError) as exc:
+        print(f"[WARN] fonte non raggiungibile: OpenAlex: {exc}", file=sys.stderr)
+        return items
+
+    for work in results:
+        pub_date = work.get("publication_date")
+        if not pub_date:
+            continue
+        try:
+            published = dt.datetime.strptime(pub_date, "%Y-%m-%d").replace(tzinfo=dt.timezone.utc)
+        except ValueError:
+            continue
+        if published < cutoff:
+            continue
+        url = (work.get("primary_location") or {}).get("landing_page_url") or work.get("id")
+        title = work.get("title") or work.get("display_name") or ""
+        if not url or not title:
+            continue
+        items.append({
+            "source_name": "OpenAlex",
+            "url": url,
+            "title": clean_html(title),
+            "summary": clean_html(reconstruct_openalex_abstract(work.get("abstract_inverted_index"))),
+            "published_at": published,
+            "image_url": None,
+            "is_preprint": work.get("type") == "preprint",
+        })
+    return items
+
+
 def collect_all(cutoff: dt.datetime) -> list[dict]:
     all_items = []
     for source in SOURCES:
@@ -301,6 +426,15 @@ def collect_all(cutoff: dt.datetime) -> list[dict]:
         # arXiv chiede gentilmente almeno ~3s tra le richieste alla loro API
         if source["name"] == "arXiv":
             time.sleep(3)
+
+    ss_items = collect_from_semantic_scholar(cutoff)
+    print(f"[INFO] Semantic Scholar: {len(ss_items)} candidati")
+    all_items.append(ss_items)
+
+    oa_items = collect_from_openalex(cutoff)
+    print(f"[INFO] OpenAlex: {len(oa_items)} candidati")
+    all_items.append(oa_items)
+
     return [item for group in all_items for item in group]
 
 
@@ -325,9 +459,11 @@ def build_user_prompt(item: dict, article_text: str) -> str:
     # di niente, ma il modello viene comunque istruito a segnare "non
     # pertinente" se il materiale resta troppo povero per un'analisi vera).
     body = article_text if len(article_text) > len(item["summary"]) + 200 else item["summary"]
+    preprint_line = "Yes" if item.get("is_preprint") else "No"
     return (
         f"Source: {item['source_name']}\n"
         f"Original title: {item['title']}\n"
+        f"Is this a preprint (not yet peer-reviewed)? {preprint_line}\n"
         f"Article text:\n{body[:7000]}\n\n"
         "Return the required JSON following exactly the schema and rules "
         "from the system prompt."
