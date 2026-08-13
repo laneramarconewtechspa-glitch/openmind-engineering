@@ -88,6 +88,10 @@
     return !NOT_SPECIFIED_VALUES.has(String(value || "").trim().toLowerCase());
   }
 
+  function hasContent(value) {
+    return !NOT_SPECIFIED_VALUES.has(String(value || "").trim().toLowerCase());
+  }
+
   function normalizePaper(paper) {
     return {
       ...paper,
@@ -363,7 +367,7 @@
 
     const imageHTML = paper.image_url
       ? `<img class="paper-image" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
-      : `<div class="paper-image paper-image-na">N/A</div>`;
+      : `<div class="paper-image paper-image-na"><span class="mark-main">Be in<br>the loop</span></div>`;
 
     article.innerHTML = `
       <div class="paper-header">
@@ -464,6 +468,7 @@
   });
 
   function createResultCard(headline, number, detail) {
+    if (!hasContent(headline) || !hasContent(detail)) return "";
     const numberHTML = hasNumber(number) ? `<span class="d-result-number">${escapeHTML(number)}</span>` : "";
     return `
       <div class="d-result-card">
@@ -483,7 +488,7 @@
   function createDetailHTML(p) {
     const imageHTML = p.image_url
       ? `<img class="d-image" src="${escapeHTML(p.image_url)}" alt="">`
-      : `<div class="d-image paper-image-na">N/A</div>`;
+      : `<div class="d-image paper-image-na"><span class="mark-main">Be in the loop</span></div>`;
     const preprintBadge = p.is_preprint ? `<span class="d-badge" style="background:var(--ink)">PREPRINT</span>` : "";
     const introText = joinSentences([p.small_problem, p.idea, p.plan]);
     const closingText = joinSentences([p.conclusion, p.future_directions]);
