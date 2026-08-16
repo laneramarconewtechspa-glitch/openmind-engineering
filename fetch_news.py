@@ -126,6 +126,13 @@ RESPONSE_SCHEMA = {
         "result_3_detail": {"type": "STRING"},
         "conclusion": {"type": "STRING"},
         "future_directions": {"type": "STRING"},
+        "evidence_score": {"type": "INTEGER"},
+        "applicability_score": {"type": "INTEGER"},
+        "impact_score": {"type": "INTEGER"},
+        "cross_domain_score": {"type": "INTEGER"},
+        "maturity_score": {"type": "INTEGER"},
+        "momentum_score": {"type": "INTEGER"},
+        "feasibility_score": {"type": "INTEGER"},
     },
     "required": [
         "is_engineering_relevant", "category", "title", "big_problem", "small_problem",
@@ -134,8 +141,39 @@ RESPONSE_SCHEMA = {
         "result_2_headline", "result_2_number", "result_2_detail",
         "result_3_headline", "result_3_number", "result_3_detail",
         "conclusion", "future_directions",
+        "evidence_score", "applicability_score", "impact_score", "cross_domain_score",
+        "maturity_score", "momentum_score", "feasibility_score",
     ],
 }
+
+# Pesi dell'"OpenMind Score": la somma pesata la calcoliamo NOI in Python (non
+# il modello) subito dopo aver ricevuto i 7 punteggi grezzi, così il numero
+# finale è sempre matematicamente corretto e verificabile.
+SCORE_WEIGHTS = {
+    "evidence_score": 0.25,
+    "applicability_score": 0.20,
+    "impact_score": 0.15,
+    "cross_domain_score": 0.15,
+    "feasibility_score": 0.15,
+    "maturity_score": 0.05,
+    "momentum_score": 0.05,
+}
+
+
+def compute_openmind_score(structured: dict) -> tuple[int, dict[str, int]]:
+    """Calcola la somma pesata a partire dai 7 punteggi grezzi restituiti dal
+    modello. Ritorna (score_finale, punteggi_singoli_puliti)."""
+    clean_scores = {}
+    total = 0.0
+    for key, weight in SCORE_WEIGHTS.items():
+        try:
+            val = float(structured.get(key))
+        except (TypeError, ValueError):
+            val = 50.0  # valore neutro se il modello non fornisce un numero valido
+        val = round(max(0.0, min(100.0, val)))
+        clean_scores[key] = val
+        total += val * weight
+    return round(total), clean_scores
 
 SYSTEM_RULES = """You are a technical analyst preparing a daily engineering news digest for \
 expert but time-pressed readers. You receive the title and the FULL TEXT of the \
@@ -184,6 +222,44 @@ and must return ONLY the JSON required by the schema, following these strict rul
    or names that do not appear in the text, even if you think you know them.
 9. If the "Is this a preprint?" line below says yes, append to the end of \
    "conclusion" the sentence "Preliminary result, not yet peer-reviewed."
+10. Score the finding on 7 dimensions, each an INTEGER from 0 to 100. Judge \
+    strictly from the text provided — do not inflate a score just because the \
+    source uses hype words like "breakthrough" or "revolutionary" without \
+    proof to back them up.
+    - evidence_score: how solid/verifiable the results are. 0-20 pure claim \
+      with no data; 21-40 theory/simulation only; 41-60 proof of concept; \
+      61-75 convincing experimental results; 76-90 solid results with \
+      benchmarks/validation; 91-100 very strong, replicated or validated in \
+      realistic conditions.
+    - applicability_score: could an engineer realistically use this in a \
+      project? 0-20 purely theoretical; 21-40 possible future application; \
+      41-60 plausible but needs development; 61-80 concretely testable now; \
+      81-100 realistically applicable today or very soon.
+    - impact_score: how much this could change available technical \
+      capabilities (performance, cost, efficiency, new capabilities). 0-20 \
+      marginal improvement; 21-40 local optimization; 41-60 significant \
+      improvement; 61-80 strong technological impact; 81-100 transformative/ \
+      breakthrough potential.
+    - cross_domain_score: how plausibly this principle/technique transfers to \
+      OTHER engineering domains beyond its original one (materials, energy, \
+      aerospace, robotics, electronics, manufacturing, etc. — real technical \
+      connections, not keyword matching). 0-20 very narrow use; 21-40 few \
+      reuses; 41-60 applicable in several contexts; 61-80 strong \
+      transferability; 81-100 highly generalizable principle.
+    - maturity_score: technology readiness, TRL-inspired. 0-20 TRL 1-2 \
+      (concept only); 21-40 TRL 3-4 (proof of concept/lab validation); 41-60 \
+      TRL 5-6 (relevant environment/prototype); 61-80 TRL 7-8 (operational \
+      demonstration); 81-100 TRL 9 (proven, operational). A low score here is \
+      NORMAL and fine for early-stage research — do not treat it as a flaw.
+    - momentum_score: signs that activity around this is accelerating (rising \
+      publications, follow-up work, adoption, related patents/repos/startups \
+      MENTIONED IN THE TEXT — never invented). 0 if the text gives no signal \
+      either way; otherwise judge from what's actually stated.
+    - feasibility_score: economic/operational realism of implementing this \
+      (cost, hardware/material/software availability, scalability, required \
+      expertise). 0-20 practically not implementable; 21-40 very complex/ \
+      costly; 41-60 possible with significant development; 61-80 \
+      realistically implementable; 81-100 relatively easy to adopt/prototype.
 """
 
 SYSTEM_RULES += (
@@ -656,6 +732,11 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
         "conclusion": structured["conclusion"],
         "future_directions": structured["future_directions"],
     }
+
+    score, sub_scores = compute_openmind_score(structured)
+    brief["score"] = score
+    brief.update(sub_scores)
+
     return brief, False
 
 
@@ -691,7 +772,7 @@ def merge_and_prune(existing: list[dict], new_briefs: list[dict]) -> list[dict]:
         b for b in by_url.values()
         if dt.datetime.fromisoformat(b["published_at"]) >= retain_cutoff
     ]
-    merged.sort(key=lambda b: b["published_at"], reverse=True)
+    merged.sort(key=lambda b: (b.get("score", 0), b["published_at"]), reverse=True)
     return merged
 
 
