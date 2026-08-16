@@ -125,6 +125,24 @@
     return parts.join(" — ") || (paper.big_problem !== "N/A" ? paper.big_problem : "");
   }
 
+  function createScoreBadge(score, size) {
+    if (score === undefined || score === null || Number.isNaN(Number(score))) return "";
+    const s = Math.max(0, Math.min(100, Math.round(Number(score))));
+    const r = size / 2 - 3;
+    const c = 2 * Math.PI * r;
+    const offset = c * (1 - s / 100);
+    const fontSize = size <= 30 ? 9 : 13;
+    return `
+      <svg class="score-badge" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="OpenMind Score ${s} su 100">
+        <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="#ffffff" stroke="#eae9e5" stroke-width="2.5"/>
+        <circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="#d71920" stroke-width="2.5"
+          stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${offset.toFixed(1)}"
+          transform="rotate(-90 ${size / 2} ${size / 2})"/>
+        <text x="50%" y="52%" text-anchor="middle" dominant-baseline="middle"
+          font-family="IBM Plex Mono, monospace" font-weight="600" font-size="${fontSize}" fill="#d71920">${s}</text>
+      </svg>`;
+  }
+
   function papersSignature(list) {
     return list.map((p) => p.source_url).sort().join("|");
   }
@@ -154,7 +172,7 @@
           return !Number.isNaN(t) && t >= cutoff;
         })
         .map(normalizePaper)
-        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+        .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || new Date(b.published_at) - new Date(a.published_at))
         .slice(0, MAX_PAPERS);
 
       visiblePapers = [...allPapers];
@@ -368,13 +386,17 @@
     const imageHTML = paper.image_url
       ? `<img class="paper-image" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
       : `<div class="paper-image paper-image-na"><span class="mark-main">Be in<br>the loop</span></div>`;
+    const scoreBadgeHTML = createScoreBadge(paper.score, 30);
 
     article.innerHTML = `
       <div class="paper-header">
         <span class="paper-number">RESEARCH ARTICLE</span>
         <span>${String(index + 1).padStart(2, "0")}${paper.is_preprint ? " · PREPRINT" : ""}</span>
       </div>
-      ${imageHTML}
+      <div class="paper-image-wrap">
+        ${imageHTML}
+        ${scoreBadgeHTML ? `<div class="score-badge-wrap">${scoreBadgeHTML}</div>` : ""}
+      </div>
       <div class="paper-body">
         <div class="paper-category">${escapeHTML(paper.category)}</div>
         <h2 class="paper-title">${escapeHTML(paper.title)}</h2>
@@ -492,9 +514,13 @@
     const preprintBadge = p.is_preprint ? `<span class="d-badge" style="background:var(--ink)">PREPRINT</span>` : "";
     const introText = joinSentences([p.small_problem, p.idea, p.plan]);
     const closingText = joinSentences([p.conclusion, p.future_directions]);
+    const scoreBadgeHTML = createScoreBadge(p.score, 48);
 
     return `
-      ${imageHTML}
+      <div class="d-image-wrap">
+        ${imageHTML}
+        ${scoreBadgeHTML ? `<div class="score-badge-wrap score-badge-wrap-lg">${scoreBadgeHTML}</div>` : ""}
+      </div>
       <div class="d-meta">
         <span>${escapeHTML(p.source_name)}</span>
         <span class="d-badge">${escapeHTML(p.category)}</span>
