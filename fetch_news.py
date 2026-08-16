@@ -61,7 +61,7 @@ RETAIN_WINDOW_HOURS = 48
 # pubblicate: molte saranno scartate dal controllo qualità se il contenuto
 # risulta troppo povero — per questo il numero è più alto di quante notizie
 # ci si aspetta effettivamente in output).
-MAX_ITEMS_PER_RUN = 16
+MAX_ITEMS_PER_RUN = 120
 # Se queste chiamate a Gemini falliscono di fila, il run si interrompe subito
 # invece di ritentare inutilmente su tutte le notizie rimaste.
 MAX_CONSECUTIVE_FAILURES = 3
