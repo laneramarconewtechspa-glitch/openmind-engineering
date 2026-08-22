@@ -16,6 +16,9 @@
   const GOLDEN_ANGLE = 2.399963;
   const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  const FLASH_FILE = "flash.json";
+  const FLASH_SPEED_PX_PER_SEC = 55; // velocità di scorrimento del ticker, costante a prescindere da quante flash ci sono
+
   /* ---------------------------------------------------------------- */
   /* DOM                                                                */
   /* ---------------------------------------------------------------- */
@@ -35,6 +38,12 @@
   const detailContent = document.getElementById("detail-content");
   const detailOverlay = document.getElementById("detail-overlay");
   const detailClose = document.getElementById("detail-close");
+
+  const flashBar = document.getElementById("flash-bar");
+  const flashTrack = document.getElementById("flash-bar-track");
+  const flashTrackWrap = flashBar ? flashBar.querySelector(".flash-bar-track-wrap") : null;
+  const flashContentA = document.getElementById("flash-bar-content-a");
+  const flashContentB = document.getElementById("flash-bar-content-b");
 
   /* ---------------------------------------------------------------- */
   /* State                                                              */
@@ -211,8 +220,95 @@
 
   setInterval(refreshIfNeeded, REFRESH_MINUTES * 60 * 1000);
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible") refreshIfNeeded();
+    if (document.visibilityState === "visible") { refreshIfNeeded(); loadFlash(); }
   });
+
+  /* ---------------------------------------------------------------- */
+  /* Flash bar — "Breaking Loop" ticker                                */
+  /* ---------------------------------------------------------------- */
+
+  function normalizeFlash(item) {
+    return {
+      title: safeText(item.title),
+      summary: safeText(item.summary),
+      category: safeText(item.category) === "N/A" ? "Other Engineering" : safeText(item.category),
+      source_name: safeText(item.source_name),
+      source_url: safeText(item.source_url),
+      published_at: item.published_at,
+    };
+  }
+
+  function createFlashItemHTML(item) {
+    return `
+      <a class="flash-item" href="${escapeHTML(item.source_url)}" target="_blank" rel="noopener noreferrer">
+        <span class="flash-item-cat">${escapeHTML(item.category.toUpperCase())}</span>
+        <span class="flash-item-title">${escapeHTML(item.title)}</span>
+        <span class="flash-item-summary">— ${escapeHTML(item.summary)}</span>
+      </a>`;
+  }
+
+  async function loadFlash() {
+    if (!flashBar) return; // markup non presente: nessuna funzionalità da rompere
+    try {
+      const res = await fetch(FLASH_FILE, { cache: "no-store" });
+      if (!res.ok) throw new Error("flash.json non disponibile");
+      const data = await res.json();
+      if (!Array.isArray(data)) throw new Error("flash.json deve contenere un array");
+
+      const items = data
+        .filter((f) => f.title && f.summary && f.category && f.source_url)
+        .map(normalizeFlash)
+        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
+      renderFlashBar(items);
+    } catch (err) {
+      // A differenza di loadNews, il file flash.json è per design opzionale
+      // (può mancare, essere vuoto, o non ancora esistere su un repo appena
+      // creato): nessun console.error qui, la barra si nasconde e basta.
+      renderFlashBar([]);
+    }
+  }
+
+  function renderFlashBar(items) {
+    if (!items.length) {
+      flashBar.hidden = true;
+      app.classList.remove("has-flash-bar");
+      return;
+    }
+
+    const html = items.map(createFlashItemHTML).join("");
+    flashContentA.innerHTML = html;
+
+    // Sveliamo la barra PRIMA di misurare scrollWidth più sotto: un elemento
+    // hidden (display:none) misura sempre larghezza 0, il che falserebbe il
+    // calcolo della durata dell'animazione.
+    flashBar.hidden = false;
+    app.classList.add("has-flash-bar");
+
+    if (REDUCED_MOTION) {
+      // Niente scorrimento automatico: contenuto singolo, scorribile a mano.
+      flashContentB.innerHTML = "";
+      flashContentB.hidden = true;
+      flashTrack.classList.add("no-scroll");
+      if (flashTrackWrap) flashTrackWrap.classList.add("manual-scroll");
+    } else {
+      flashContentB.innerHTML = html;
+      flashContentB.hidden = false;
+      flashTrack.classList.remove("no-scroll");
+      if (flashTrackWrap) flashTrackWrap.classList.remove("manual-scroll");
+      // Durata proporzionale alla larghezza reale del contenuto, per una
+      // velocità di scorrimento costante indipendentemente da quante flash
+      // news ci sono in un dato momento. Leggere scrollWidth forza da solo
+      // il reflow necessario: niente requestAnimationFrame (può restare in
+      // sospeso a lungo su un tab in background o non ancora composito).
+      const width = flashContentA.scrollWidth;
+      const duration = Math.max(20, width / FLASH_SPEED_PX_PER_SEC);
+      flashTrack.style.setProperty("--flash-duration", `${duration}s`);
+    }
+  }
+
+  loadFlash();
+  setInterval(loadFlash, REFRESH_MINUTES * 60 * 1000);
 
   /* ---------------------------------------------------------------- */
   /* Apertura rete                                                     */
