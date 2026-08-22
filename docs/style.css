@@ -383,6 +383,70 @@ button { font-family: inherit; }
 .d-attribution { font-size: 10px; color: var(--ink-light); line-height: 1.5; }
 
 /* ------------------------------------------------------------------ */
+/* Flash bar — "Breaking Loop" ticker                                  */
+/* ------------------------------------------------------------------ */
+
+#app.has-flash-bar .network-view { padding-bottom: 46px; }
+
+.flash-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+  display: flex; align-items: stretch;
+  height: 44px;
+  background: var(--ink);
+  border-top: 3px solid var(--red);
+  box-shadow: 0 -8px 22px -10px rgba(20, 20, 15, .4);
+}
+.flash-bar[hidden] { display: none; }
+
+.flash-bar-label {
+  flex: 0 0 auto;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0 18px;
+  background: var(--red);
+}
+.flash-bar-mark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 1.05;
+  letter-spacing: -.005em;
+  color: var(--paper);
+  white-space: nowrap;
+  text-align: left;
+}
+
+.flash-bar-track-wrap { position: relative; flex: 1; overflow: hidden; }
+.flash-bar-track {
+  position: absolute; top: 0; left: 0; height: 100%;
+  display: flex; align-items: center;
+  white-space: nowrap;
+  will-change: transform;
+  animation: flash-scroll var(--flash-duration, 60s) linear infinite;
+}
+.flash-bar-track-wrap:hover .flash-bar-track { animation-play-state: paused; }
+.flash-bar-track.no-scroll { position: static; animation: none; }
+.flash-bar-track-wrap.manual-scroll { overflow-x: auto; }
+
+@keyframes flash-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.flash-bar-content { display: flex; align-items: center; }
+
+.flash-item {
+  display: inline-flex; align-items: baseline; gap: 7px;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: .015em;
+  text-decoration: none; white-space: nowrap;
+  padding: 0 22px; border-right: 1px solid rgba(246, 245, 242, .16);
+}
+.flash-item-cat { color: var(--red); font-weight: 600; letter-spacing: .08em; font-size: 9.5px; }
+.flash-item-title { color: var(--paper); font-weight: 600; transition: color .15s ease; }
+.flash-item-summary { color: var(--paper-grey); }
+.flash-item:hover .flash-item-title { color: var(--red); }
+.flash-item:focus-visible { outline-color: var(--paper); }
+
+/* ------------------------------------------------------------------ */
 /* Responsive — desktop / tablet (iPad) / telefono                     */
 /* ------------------------------------------------------------------ */
 
@@ -423,6 +487,13 @@ button { font-family: inherit; }
   .paper-title { font-size: 16px; }
   .d-results { grid-template-columns: 1fr; }
   .detail-content { padding: 8px 18px 50px; }
+
+  #app.has-flash-bar .network-view { padding-bottom: 38px; }
+  .flash-bar { height: 36px; }
+  .flash-bar-label { padding: 0 12px; }
+  .flash-bar-mark { font-size: 10.5px; }
+  .flash-item { font-size: 10px; padding: 0 16px; gap: 5px; }
+  .flash-item-summary { display: none; } /* schermi stretti: solo categoria + titolo, niente sintesi */
 }
 
 @media (max-width: 380px) {
@@ -434,4 +505,6 @@ button { font-family: inherit; }
   .brain-glow, .brain-ring, .floating-node, .brain-network path, .brain-core-node circle:last-child { animation: none !important; }
   .neuron, .spark { animation-duration: .01s !important; animation-delay: 0s !important; }
   * { transition-duration: .12s !important; }
+  .flash-bar-track { animation: none !important; position: static !important; }
+  .flash-bar-track-wrap { overflow-x: auto !important; }
 }
