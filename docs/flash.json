@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "title": "New Process Recycles Nuclear Waste into Valuable Isotopes",
+    "summary": "A new technique is being developed to recover reusable fuel and high-value isotopes from stored nuclear waste.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/energy/new-process-spins-nuclear-waste-into-radioactive-gold/",
+    "published_at": "2026-08-22T17:03:00+00:00",
+    "fetched_at": "2026-08-22T18:37:30.931834+00:00"
+  },
+  {
+    "title": "Mushroom-Based Vegan Leather Reaches Production Scale",
+    "summary": "Researchers are advancing a production-scale breakthrough for plastic-free vegan leather made from mushrooms.",
+    "category": "Materials",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/materials/vtt-practical-mushroom-leather/",
+    "published_at": "2026-08-22T13:03:00+00:00",
+    "fetched_at": "2026-08-22T18:37:30.931848+00:00"
+  },
+  {
+    "title": "Gravitational Wave Detectors Exploring Quantum Mechanics",
+    "summary": "A NASA NIAC-funded team is developing a quantum-based concept to detect gravitational waves without physical laser links between spacecraft.",
+    "category": "Aerospace",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/gravitational-waves-quantum-mechanics-nasa",
+    "published_at": "2026-08-22T13:00:01+00:00",
+    "fetched_at": "2026-08-22T18:37:30.931854+00:00"
+  }
+]
