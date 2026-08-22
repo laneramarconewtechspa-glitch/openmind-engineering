@@ -123,6 +123,20 @@ SOURCES = [
     {"name": "Engineering.com", "url": "https://www.engineering.com/feed/"},
     {"name": "Renewable Energy World", "url": "https://www.renewableenergyworld.com/feed/"},
     {"name": "Power Engineering", "url": "https://www.power-eng.com/feed/"},
+    # Seconda ondata di fonti, per coprire categorie ancora scoperte (civile,
+    # biomedicale, computing) — stesso criterio: verificate a mano una per una.
+    {"name": "New Civil Engineer", "url": "https://www.newcivilengineer.com/feed/"},
+    {"name": "Global Construction Review", "url": "https://www.globalconstructionreview.com/feed/"},
+    {"name": "Medical Design & Outsourcing", "url": "https://www.medicaldesignandoutsourcing.com/feed/"},
+    # The Register e Data Center Dynamics tolte dopo un run di prova: 38
+    # valutazioni combinate, 0 notizie pubblicate — sono editorialmente
+    # business/cybersecurity/immobiliare data-center, non ricerca
+    # ingegneristica, quindi sprecavano solo quota LLM senza mai passare
+    # il filtro di pertinenza (non un caso di "oggi non c'era nulla").
+    {"name": "Semiconductor Engineering", "url": "https://semiengineering.com/feed/"},
+    {"name": "Electronics Weekly", "url": "https://www.electronicsweekly.com/feed/"},
+    {"name": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/feed/"},
+    {"name": "Space.com", "url": "https://www.space.com/feeds/all"},
     # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
     # funzionante per la sezione Tech & Engineering (i pattern noti tornano
     # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
