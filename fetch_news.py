@@ -731,6 +731,7 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
             f"{item['title'][:70]}",
             file=sys.stderr,
         )
+        print(f"[DEBUG] raw is_engineering_relevant={structured.get('is_engineering_relevant')!r}, keys={list(structured.keys())}", file=sys.stderr)
         return None, False
 
     ok, reason = is_substantive(structured)
