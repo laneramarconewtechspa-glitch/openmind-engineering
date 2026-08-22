@@ -35,7 +35,7 @@ GEMINI_URL = (
 )
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "meta-llama/llama-4-maverick-17b-128e-instruct")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # "groq" (default) o "gemini" — permette di cambiare motore senza toccare il
@@ -731,7 +731,6 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
             f"{item['title'][:70]}",
             file=sys.stderr,
         )
-        print(f"[DEBUG] raw is_engineering_relevant={structured.get('is_engineering_relevant')!r}, keys={list(structured.keys())}", file=sys.stderr)
         return None, False
 
     ok, reason = is_substantive(structured)
