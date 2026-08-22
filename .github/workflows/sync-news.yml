@@ -41,10 +41,10 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python fetch_news.py
 
-      - name: Commit updated news.json
+      - name: Commit updated news.json and flash.json
         run: |
           git config user.name "openmind-news-bot"
           git config user.email "openmind-news-bot@users.noreply.github.com"
-          git add docs/news.json
+          git add docs/news.json docs/flash.json
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie [skip ci]"
           git push
