@@ -57,11 +57,16 @@ COLLECT_WINDOW_HOURS = 30
 # eliminarli dal file (il frontend applica comunque il filtro "ultime 24h" a
 # runtime, quindi questo è solo un margine per evitare buchi tra due sync).
 RETAIN_WINDOW_HOURS = 48
-# Numero massimo di notizie VALUTATE per ogni esecuzione (non tutte verranno
-# pubblicate: molte saranno scartate dal controllo qualità se il contenuto
-# risulta troppo povero — per questo il numero è più alto di quante notizie
-# ci si aspetta effettivamente in output).
+# Numero massimo di notizie VALUTATE per ogni esecuzione: deve essere
+# abbastanza alto da non tagliare nessuna fonte prima ancora di darle una
+# possibilità (in pratica quasi mai raggiunto tutto). Non è il numero di
+# notizie pubblicate: quello è deciso da PUBLISH_TOP_N qui sotto, in base
+# all'OpenMind Score.
 MAX_ITEMS_PER_RUN = 120
+# Numero di notizie effettivamente PUBBLICATE sul sito: sempre e solo le
+# migliori per OpenMind Score tra quelle che superano il controllo qualità,
+# indipendentemente da quante ne vengono valutate.
+PUBLISH_TOP_N = 10
 # Se queste chiamate a Gemini falliscono di fila, il run si interrompe subito
 # invece di ritentare inutilmente su tutte le notizie rimaste.
 MAX_CONSECUTIVE_FAILURES = 3
@@ -708,29 +713,29 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
     structured = guard_against_invented_numbers(structured, haystack)
 
     brief = {
-        "title": structured["title"] or item["title"],
+        "title": structured.get("title") or item["title"],
         "source_name": item["source_name"],
         "source_url": item["url"],
         "image_url": image_url or item["image_url"],
-        "category": structured["category"],
+        "category": structured.get("category") or "Other Engineering",
         "published_at": item["published_at"].isoformat(),
         "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "is_preprint": item["is_preprint"],
-        "big_problem": structured["big_problem"],
-        "small_problem": structured["small_problem"],
-        "idea": structured["idea"],
-        "plan": structured["plan"],
-        "result_1_headline": structured["result_1_headline"],
-        "result_1_number": structured["result_1_number"],
-        "result_1_detail": structured["result_1_detail"],
-        "result_2_headline": structured["result_2_headline"],
-        "result_2_number": structured["result_2_number"],
-        "result_2_detail": structured["result_2_detail"],
-        "result_3_headline": structured["result_3_headline"],
-        "result_3_number": structured["result_3_number"],
-        "result_3_detail": structured["result_3_detail"],
-        "conclusion": structured["conclusion"],
-        "future_directions": structured["future_directions"],
+        "big_problem": structured.get("big_problem", ""),
+        "small_problem": structured.get("small_problem", ""),
+        "idea": structured.get("idea", ""),
+        "plan": structured.get("plan", ""),
+        "result_1_headline": structured.get("result_1_headline", ""),
+        "result_1_number": structured.get("result_1_number", ""),
+        "result_1_detail": structured.get("result_1_detail", ""),
+        "result_2_headline": structured.get("result_2_headline", ""),
+        "result_2_number": structured.get("result_2_number", ""),
+        "result_2_detail": structured.get("result_2_detail", ""),
+        "result_3_headline": structured.get("result_3_headline", ""),
+        "result_3_number": structured.get("result_3_number", ""),
+        "result_3_detail": structured.get("result_3_detail", ""),
+        "conclusion": structured.get("conclusion", ""),
+        "future_directions": structured.get("future_directions", ""),
     }
 
     score, sub_scores = compute_openmind_score(structured)
@@ -773,7 +778,10 @@ def merge_and_prune(existing: list[dict], new_briefs: list[dict]) -> list[dict]:
         if dt.datetime.fromisoformat(b["published_at"]) >= retain_cutoff
     ]
     merged.sort(key=lambda b: (b.get("score", 0), b["published_at"]), reverse=True)
-    return merged
+    # Pubblichiamo sempre e solo le migliori PUBLISH_TOP_N per OpenMind Score:
+    # una notizia con punteggio più alto arrivata in un run successivo può
+    # quindi "scalzare" una già pubblicata con punteggio più basso.
+    return merged[:PUBLISH_TOP_N]
 
 
 # --------------------------------------------------------------------------- #
@@ -797,7 +805,11 @@ def main() -> None:
     consecutive_failures = 0
     for i, item in enumerate(fresh_items, start=1):
         print(f"[INFO] ({i}/{len(fresh_items)}) elaboro: {item['title'][:70]}...")
-        brief, call_failed = structure_item(item)
+        try:
+            brief, call_failed = structure_item(item)
+        except Exception as exc:  # noqa: BLE001 - un errore imprevisto su UN articolo non deve fermare l'intero run
+            print(f"[WARN] Errore imprevisto su questo articolo, lo salto: {exc}", file=sys.stderr)
+            brief, call_failed = None, True
 
         if call_failed:
             consecutive_failures += 1
@@ -820,9 +832,9 @@ def main() -> None:
     merged = merge_and_prune(existing, new_briefs)
     save_json(OUTPUT_PATH, merged)
 
-    print(f"[INFO] Salvate {len(new_briefs)} notizie pertinenti E sostanziali su {len(fresh_items)} valutate "
+    print(f"[INFO] {len(new_briefs)} notizie pertinenti E sostanziali su {len(fresh_items)} valutate "
           f"(le altre sono state scartate per pertinenza o qualità insufficiente — vedi i log [INFO]/[WARN] sopra).")
-    print(f"[INFO] Totale notizie in {OUTPUT_PATH}: {len(merged)}.")
+    print(f"[INFO] Pubblicate le migliori {len(merged)} per OpenMind Score (tetto: {PUBLISH_TOP_N}) in {OUTPUT_PATH}.")
 
 
 if __name__ == "__main__":
