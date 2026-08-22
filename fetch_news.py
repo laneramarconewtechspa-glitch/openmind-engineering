@@ -84,6 +84,20 @@ PUBLISH_TOP_N = 10
 # invece di ritentare inutilmente su tutte le notizie rimaste.
 MAX_CONSECUTIVE_FAILURES = 3
 
+# --------------------------------------------------------------------------- #
+# Flash News: striscia leggera (titolo + sintesi, niente analisi BLUF/score)
+# per candidati pertinenti ma esclusi dalla top PUBLISH_TOP_N — scartati per
+# contenuto troppo leggero per l'analisi completa, o sostanziosi ma fuori
+# classifica per punteggio. Non toccano mai la pipeline di news.json sopra.
+# --------------------------------------------------------------------------- #
+FLASH_OUTPUT_PATH = os.path.join("docs", "flash.json")
+# Più larga/capiente della top 10: le flash costano una frazione di una
+# chiamata LLM ciascuna (batch da FLASH_BATCH_SIZE) e non richiedono lo stesso
+# turnover stretto delle notizie con analisi completa.
+FLASH_RETAIN_WINDOW_HOURS = 72
+FLASH_MAX_ITEMS = 30
+FLASH_BATCH_SIZE = 10
+
 REQUEST_HEADERS = {"User-Agent": "OpenMindEngineeringBot/1.0 (+personal news digest)"}
 
 CATEGORIES = [
@@ -313,6 +327,70 @@ SYSTEM_RULES += (
     "code blocks. It must have EXACTLY these keys:\n"
     + "\n".join(f"- {k}" for k in RESPONSE_SCHEMA["properties"])
 )
+
+# Schema/prompt leggero per le Flash News: elabora un intero batch di
+# candidati in una sola chiamata (titolo + riassunto RSS soltanto, MAI il
+# testo integrale dell'articolo) e restituisce solo titolo breve + sintesi +
+# categoria — nessuna analisi BLUF/idea/piano/risultati/punteggio.
+FLASH_RESPONSE_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "flashes": {
+            "type": "ARRAY",
+            "items": {
+                "type": "OBJECT",
+                "properties": {
+                    "id": {"type": "INTEGER"},
+                    "title": {"type": "STRING"},
+                    "summary": {"type": "STRING"},
+                    "category": {"type": "STRING", "enum": CATEGORIES},
+                },
+                "required": ["id", "title", "summary", "category"],
+            },
+        },
+    },
+    "required": ["flashes"],
+}
+
+FLASH_SYSTEM_RULES = (
+    "You are writing short breaking-news-style blurbs for an engineering/"
+    "technology news ticker. You receive a numbered batch of candidates, each "
+    "with only a source name, an original title, and a short RSS summary/"
+    "abstract (no full article text). For each candidate, write a compact "
+    "flash entry using ONLY the information given in that candidate's title "
+    "and summary — never invent facts, numbers, or details that aren't there, "
+    "and never pull in information from a different candidate in the batch.\n\n"
+    "Rules:\n"
+    "1. \"title\": a short, punchy news-ticker headline in English, max ~12 "
+    "words — tighten/rephrase the original if needed, don't just copy it "
+    "verbatim unless it's already tight.\n"
+    "2. \"summary\": ONE short sentence in English, max ~30 words, plainly "
+    "stating what happened or was announced — no analysis, no score, no "
+    "filler, no invented specifics.\n"
+    "3. \"category\": pick the single best fit from this exact list: "
+    + ", ".join(CATEGORIES) + ".\n"
+    "4. If a candidate's title+summary are too thin, generic, or off-topic "
+    "(not real engineering/technology news) to honestly write both a title "
+    "and a summary without inventing anything, OMIT that id entirely from "
+    "your response instead of forcing a weak entry.\n"
+    "5. Reply with ONLY a JSON object of the exact shape "
+    "{\"flashes\": [{\"id\": <int>, \"title\": \"...\", \"summary\": \"...\", "
+    "\"category\": \"...\"}, ...]}, no text before/after, no ``` code blocks. "
+    "Include only the ids you can honestly complete — it's fine to return "
+    "fewer items than you were given."
+)
+
+
+def build_flash_batch_prompt(batch: list[dict]) -> str:
+    blocks = []
+    for idx, item in enumerate(batch):
+        blocks.append(
+            f"id: {idx}\n"
+            f"source: {item['source_name']}\n"
+            f"title: {item['title']}\n"
+            f"summary: {item['summary'] or '(no summary provided)'}"
+        )
+    return "\n\n".join(blocks) + "\n\nReturn the JSON object described in the system prompt."
 
 
 # --------------------------------------------------------------------------- #
@@ -716,6 +794,92 @@ def call_llm(item: dict, article_text: str) -> dict | None:
     return call_groq(item, article_text)
 
 
+def call_gemini_flash_batch(batch: list[dict]) -> list[dict] | None:
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY non impostata nell'ambiente.")
+
+    body = {
+        "systemInstruction": {"parts": [{"text": FLASH_SYSTEM_RULES}]},
+        "contents": [{"role": "user", "parts": [{"text": build_flash_batch_prompt(batch)}]}],
+        "generationConfig": {
+            "temperature": 0.3,
+            "responseMimeType": "application/json",
+            "responseSchema": FLASH_RESPONSE_SCHEMA,
+        },
+    }
+    headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
+
+    genuine_failures = 0
+    rate_limit_hits = 0
+    while genuine_failures < 2 and rate_limit_hits < 5:
+        try:
+            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=25)
+            if resp.status_code == 429:
+                rate_limit_hits += 1
+                wait = 6 * rate_limit_hits
+                print(f"[WARN] rate limit Gemini (flash), aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            if resp.status_code >= 400:
+                print(f"[WARN] Gemini {resp.status_code} (flash batch): {resp.text[:300]}", file=sys.stderr)
+            resp.raise_for_status()
+            data = resp.json()
+            text = data["candidates"][0]["content"]["parts"][0]["text"]
+            return extract_json_object(text).get("flashes", [])
+        except (requests.RequestException, KeyError, json.JSONDecodeError) as exc:
+            genuine_failures += 1
+            print(f"[WARN] chiamata Gemini (flash batch) fallita: {exc}", file=sys.stderr)
+            time.sleep(2)
+    return None
+
+
+def call_groq_flash_batch(batch: list[dict]) -> list[dict] | None:
+    if not GROQ_API_KEY:
+        raise RuntimeError("GROQ_API_KEY non impostata nell'ambiente.")
+
+    body = {
+        "model": GROQ_MODEL,
+        "messages": [
+            {"role": "system", "content": FLASH_SYSTEM_RULES},
+            {"role": "user", "content": build_flash_batch_prompt(batch)},
+        ],
+        "temperature": 0.3,
+        "response_format": {"type": "json_object"},
+    }
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
+
+    genuine_failures = 0
+    rate_limit_hits = 0
+    while genuine_failures < 2 and rate_limit_hits < 5:
+        try:
+            resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=25)
+            if resp.status_code == 429:
+                rate_limit_hits += 1
+                wait = 6 * rate_limit_hits
+                print(f"[WARN] rate limit Groq (flash), aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            if resp.status_code >= 400:
+                print(f"[WARN] Groq {resp.status_code} (flash batch): {resp.text[:300]}", file=sys.stderr)
+            resp.raise_for_status()
+            data = resp.json()
+            text = data["choices"][0]["message"]["content"]
+            return extract_json_object(text).get("flashes", [])
+        except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
+            genuine_failures += 1
+            print(f"[WARN] chiamata Groq (flash batch) fallita: {exc}", file=sys.stderr)
+            time.sleep(2)
+    return None
+
+
+def call_llm_flash_batch(batch: list[dict]) -> list[dict] | None:
+    """Dispatcher gemello di call_llm, ma per il prompt leggero delle Flash
+    News (batch di più candidati in un'unica chiamata)."""
+    if LLM_PROVIDER == "gemini":
+        return call_gemini_flash_batch(batch)
+    return call_groq_flash_batch(batch)
+
+
 NUMBER_RE = re.compile(r"\d[\d.,]*")
 
 
@@ -768,17 +932,21 @@ def is_substantive(structured: dict) -> tuple[bool, str]:
     return True, ""
 
 
-def structure_item(item: dict) -> tuple[dict | None, bool]:
-    """Ritorna (brief, chiamata_fallita).
+def structure_item(item: dict) -> tuple[dict | None, bool, bool]:
+    """Ritorna (brief, chiamata_fallita, pertinente).
     brief è None se la notizia non è pertinente, se il contenuto risulta
     troppo povero per un'analisi seria, o se la chiamata all'LLM è fallita;
     chiamata_fallita è True SOLO in quest'ultimo caso, ed è il segnale che
-    main() usa per il circuit breaker."""
+    main() usa per il circuit breaker. pertinente è True quando il modello ha
+    giudicato is_engineering_relevant, ANCHE se poi risultata troppo leggera
+    per l'analisi completa — main() usa questo flag per selezionare i
+    candidati delle Flash News, senza dover richiamare l'LLM una seconda volta
+    solo per saperlo."""
     image_url, article_text = fetch_article_page(item["url"])
 
     structured = call_llm(item, article_text)
     if structured is None:
-        return None, True
+        return None, True, False
     if not structured.get("is_engineering_relevant"):
         body_len = max(len(article_text), len(item["summary"]))
         print(
@@ -787,12 +955,12 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
             f"{item['title'][:70]}",
             file=sys.stderr,
         )
-        return None, False
+        return None, False, False
 
     ok, reason = is_substantive(structured)
     if not ok:
         print(f"[INFO] Scartata (contenuto insufficiente: {reason}): {item['title'][:70]}", file=sys.stderr)
-        return None, False
+        return None, False, True
 
     haystack = item["title"] + " " + item["summary"] + " " + article_text
     structured = guard_against_invented_numbers(structured, haystack)
@@ -827,7 +995,7 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
     brief["score"] = score
     brief.update(sub_scores)
 
-    return brief, False
+    return brief, False, True
 
 
 # --------------------------------------------------------------------------- #
@@ -870,6 +1038,92 @@ def merge_and_prune(existing: list[dict], new_briefs: list[dict]) -> list[dict]:
 
 
 # --------------------------------------------------------------------------- #
+# Flash News
+# --------------------------------------------------------------------------- #
+
+def build_flash_news(candidates: list[dict]) -> list[dict]:
+    """Genera le Flash News in batch da FLASH_BATCH_SIZE candidati per
+    chiamata LLM (titolo+summary RSS soltanto, mai il testo integrale). Ogni
+    batch fallito viene loggato e saltato senza interrompere gli altri —
+    questa funzione stessa è comunque richiamata da main() dentro un
+    try/except più ampio, per non compromettere mai la top 10 già salvata."""
+    flashes = []
+    total_batches = (len(candidates) + FLASH_BATCH_SIZE - 1) // FLASH_BATCH_SIZE
+    for batch_num, i in enumerate(range(0, len(candidates), FLASH_BATCH_SIZE), start=1):
+        batch = candidates[i:i + FLASH_BATCH_SIZE]
+        try:
+            results = call_llm_flash_batch(batch)
+        except Exception as exc:  # noqa: BLE001 - un batch fallito non deve bloccare gli altri
+            print(f"[WARN] batch flash news {batch_num}/{total_batches} fallito, lo salto: {exc}", file=sys.stderr)
+            continue
+        if not results:
+            print(f"[WARN] nessuna flash news dal batch {batch_num}/{total_batches} (chiamata fallita o risposta vuota).", file=sys.stderr)
+            continue
+
+        for entry in results:
+            try:
+                idx = int(entry.get("id"))
+                item = batch[idx]
+            except (TypeError, ValueError, IndexError):
+                continue
+            title = str(entry.get("title", "")).strip()
+            summary = str(entry.get("summary", "")).strip()
+            category = entry.get("category") or "Other Engineering"
+            if (
+                not title or not summary
+                or title.lower() in PLACEHOLDER_VALUES
+                or summary.lower() in PLACEHOLDER_VALUES
+            ):
+                continue
+            flashes.append({
+                "title": title,
+                "summary": summary,
+                "category": category if category in CATEGORIES else "Other Engineering",
+                "source_name": item["source_name"],
+                "source_url": item["url"],
+                "published_at": item["published_at"].isoformat(),
+                "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+            })
+
+        if batch_num < total_batches:
+            time.sleep(1.5)
+
+    print(f"[INFO] {len(flashes)} flash news generate da {len(candidates)} candidati ({total_batches} batch).")
+    return flashes
+
+
+def load_existing_flash() -> list[dict]:
+    if not os.path.exists(FLASH_OUTPUT_PATH):
+        return []
+    try:
+        with open(FLASH_OUTPUT_PATH, "r", encoding="utf-8") as fh:
+            return json.load(fh)
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def merge_and_prune_flash(existing: list[dict], new_flashes: list[dict], exclude_urls: set[str]) -> list[dict]:
+    """Stessa logica di merge_and_prune (dedup per source_url + finestra di
+    retention + tetto massimo), con l'aggiunta di exclude_urls: una flash news
+    il cui source_url è finito nella top 10 (in QUESTO run o in uno precedente)
+    non deve mai comparire anche qui — stesso URL sorgente = un posto solo."""
+    now = dt.datetime.now(dt.timezone.utc)
+    retain_cutoff = now - dt.timedelta(hours=FLASH_RETAIN_WINDOW_HOURS)
+
+    by_url = {f["source_url"]: f for f in existing}
+    for f in new_flashes:
+        by_url[f["source_url"]] = f
+
+    merged = [
+        f for f in by_url.values()
+        if f["source_url"] not in exclude_urls
+        and dt.datetime.fromisoformat(f["published_at"]) >= retain_cutoff
+    ]
+    merged.sort(key=lambda f: f["published_at"], reverse=True)
+    return merged[:FLASH_MAX_ITEMS]
+
+
+# --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
 
@@ -887,14 +1141,15 @@ def main() -> None:
     print(f"[INFO] {len(fresh_items)} articoli da valutare con Gemini (limite {MAX_ITEMS_PER_RUN}/run).")
 
     new_briefs = []
+    relevant_items_this_run = []  # pertinenti secondo il modello, usati sotto per le Flash News
     consecutive_failures = 0
     for i, item in enumerate(fresh_items, start=1):
         print(f"[INFO] ({i}/{len(fresh_items)}) elaboro: {item['title'][:70]}...")
         try:
-            brief, call_failed = structure_item(item)
+            brief, call_failed, is_relevant = structure_item(item)
         except Exception as exc:  # noqa: BLE001 - un errore imprevisto su UN articolo non deve fermare l'intero run
             print(f"[WARN] Errore imprevisto su questo articolo, lo salto: {exc}", file=sys.stderr)
-            brief, call_failed = None, True
+            brief, call_failed, is_relevant = None, True, False
 
         if call_failed:
             consecutive_failures += 1
@@ -911,6 +1166,8 @@ def main() -> None:
             consecutive_failures = 0
             if brief:
                 new_briefs.append(brief)
+            if is_relevant:
+                relevant_items_this_run.append(item)
 
         time.sleep(1.5)  # margine di cortesia sui rate limit del free tier
 
@@ -920,6 +1177,24 @@ def main() -> None:
     print(f"[INFO] {len(new_briefs)} notizie pertinenti E sostanziali su {len(fresh_items)} valutate "
           f"(le altre sono state scartate per pertinenza o qualità insufficiente — vedi i log [INFO]/[WARN] sopra).")
     print(f"[INFO] Pubblicate le migliori {len(merged)} per OpenMind Score (tetto: {PUBLISH_TOP_N}) in {OUTPUT_PATH}.")
+
+    # Flash News: sempre DOPO che la top 10 è già stata salvata sopra, e
+    # sempre in un blocco isolato — qualunque errore qui (LLM, I/O, parsing)
+    # viene solo loggato, non deve mai far fallire il run né toccare news.json.
+    try:
+        published_urls = {b["source_url"] for b in merged}
+        flash_candidates = [it for it in relevant_items_this_run if it["url"] not in published_urls]
+        print(f"[INFO] {len(flash_candidates)} candidati per le Flash News (pertinenti, esclusi dalla top {PUBLISH_TOP_N}).")
+
+        new_flashes = build_flash_news(flash_candidates)
+        existing_flash = load_existing_flash()
+        merged_flash = merge_and_prune_flash(existing_flash, new_flashes, published_urls)
+        save_json(FLASH_OUTPUT_PATH, merged_flash)
+
+        print(f"[INFO] {len(merged_flash)} Flash News pubblicate (tetto: {FLASH_MAX_ITEMS}) in {FLASH_OUTPUT_PATH}.")
+    except Exception as exc:  # noqa: BLE001 - le Flash News sono un extra: un loro fallimento non deve mai
+        # compromettere la top 10, già salvata correttamente qui sopra.
+        print(f"[WARN] Generazione Flash News fallita, la top {PUBLISH_TOP_N} resta comunque pubblicata: {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":
