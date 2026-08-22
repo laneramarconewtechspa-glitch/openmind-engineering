@@ -724,6 +724,13 @@ def structure_item(item: dict) -> tuple[dict | None, bool]:
     if structured is None:
         return None, True
     if not structured.get("is_engineering_relevant"):
+        body_len = max(len(article_text), len(item["summary"]))
+        print(
+            f"[INFO] Scartata (non pertinente secondo il modello, testo disponibile: "
+            f"{body_len} caratteri{' — probabile blocco/fetch fallito' if len(article_text) == 0 else ''}): "
+            f"{item['title'][:70]}",
+            file=sys.stderr,
+        )
         return None, False
 
     ok, reason = is_substantive(structured)
