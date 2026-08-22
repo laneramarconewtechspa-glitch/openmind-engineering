@@ -585,11 +585,33 @@ def call_gemini(item: dict, article_text: str) -> dict | None:
             resp.raise_for_status()
             data = resp.json()
             text = data["candidates"][0]["content"]["parts"][0]["text"]
-            return json.loads(text)
+            return extract_json_object(text)
         except (requests.RequestException, KeyError, json.JSONDecodeError) as exc:
             print(f"[WARN] chiamata Gemini fallita ({item['url']}): {exc}", file=sys.stderr)
             time.sleep(2)
     return None
+
+
+def extract_json_object(text: str) -> dict:
+    """Ripulisce la risposta del modello prima di interpretarla come JSON.
+    Nonostante l'istruzione esplicita di non farlo, capita che il modello
+    racchiuda comunque la risposta in un blocco ```json ... ``` o aggiunga
+    testo prima/dopo l'oggetto JSON vero e proprio: senza questa pulizia,
+    OGNI chiamata fallirebbe silenziosamente con un errore di parsing."""
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.strip("`")
+        if cleaned.lower().startswith("json"):
+            cleaned = cleaned[4:]
+        cleaned = cleaned.strip()
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        # Ultima spiaggia: estrae la sottostringa tra la prima "{" e l'ultima "}"
+        start, end = cleaned.find("{"), cleaned.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            return json.loads(cleaned[start:end + 1])
+        raise
 
 
 def call_groq(item: dict, article_text: str) -> dict | None:
@@ -623,7 +645,7 @@ def call_groq(item: dict, article_text: str) -> dict | None:
             resp.raise_for_status()
             data = resp.json()
             text = data["choices"][0]["message"]["content"]
-            return json.loads(text)
+            return extract_json_object(text)
         except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
             print(f"[WARN] chiamata Groq fallita ({item['url']}): {exc}", file=sys.stderr)
             time.sleep(2)
