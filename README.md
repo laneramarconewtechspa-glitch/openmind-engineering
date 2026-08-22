@@ -7,6 +7,10 @@ Aggregatore quotidiano di notizie di ingegneria — 100% gratuito, senza server 
   (Tech & Engineering), arXiv (eess.SY, eess.SP, eess.IV, cs.RO).
 - **Struttura ogni notizia** secondo lo schema BLUF · Intro (problema/idea/piano) ·
   R1/R2/R3 · Conclusione, usando l'API Gemini (Google AI Studio, livello gratuito).
+- **Flash News**: i candidati pertinenti ma esclusi dalla top 10 (contenuto
+  troppo leggero per l'analisi completa, o sostanziosi ma fuori classifica per
+  punteggio) diventano una striscia "Breaking Loop" in fondo alla pagina — solo
+  titolo + sintesi breve, generati in batch in `docs/flash.json`.
 - **Frontend**: HTML/CSS/JS puro — un cervello centrale ("Open your mind") che,
   al click, apre una rete di neuroni cliccabili, uno per notizia del giorno.
 - **Esecuzione**: uno script Python lanciato 2 volte al giorno da GitHub Actions
@@ -85,7 +89,8 @@ openmind-engineering/
     ├── index.html
     ├── style.css
     ├── script.js
-    └── news.json                  # generato/aggiornato automaticamente
+    ├── news.json                  # top 10 con analisi completa, generato/aggiornato automaticamente
+    └── flash.json                 # Flash News (titolo+sintesi, no analisi), generato/aggiornato automaticamente
 ```
 
 ## Personalizzazioni comuni
@@ -98,3 +103,6 @@ openmind-engineering/
   di un po' di qualità).
 - **Controllo qualità manuale**: apri `docs/news.json` (è testo semplice) per
   vedere o correggere a mano una notizia già pubblicata.
+- **Flash News**: numero massimo (`FLASH_MAX_ITEMS`) e finestra di retention
+  (`FLASH_RETAIN_WINDOW_HOURS`) si regolano in `fetch_news.py`, vicino alle
+  costanti `PUBLISH_TOP_N`/`RETAIN_WINDOW_HOURS` della top 10.
