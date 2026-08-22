@@ -24,12 +24,20 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 
+# Su Windows la console usa di default una codifica legacy (es. cp1252) che
+# manda in crash il processo su qualunque titolo con caratteri tipografici
+# (trattini "‑", virgolette curve, ecc. — comunissimi nei feed RSS). Forziamo
+# stdout/stderr in UTF-8 così i log non fanno mai fallire lo script.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 # --------------------------------------------------------------------------- #
 # Configurazione
 # --------------------------------------------------------------------------- #
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
@@ -38,9 +46,14 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "meta-llama/llama-4-maverick-17b-128e-instruct")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-# "groq" (default) o "gemini" — permette di cambiare motore senza toccare il
+# "gemini" (default) o "groq" — permette di cambiare motore senza toccare il
 # resto della pipeline, cambiando solo questa variabile d'ambiente nel workflow.
-LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq").lower()
+# Gemini è il default perché impone lo schema JSON a livello di API (tipi/bool/
+# enum obbligatori tramite responseSchema), mentre Groq in json_object mode
+# forza solo "JSON valido" senza garantire i campi: con modelli come
+# openai/gpt-oss-120b questo produceva giudizi di pertinenza inaffidabili
+# (is_engineering_relevant sempre false anche su articoli validi).
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "gemini").lower()
 
 # Da febbraio 2026 OpenAlex richiede una chiave API (gratuita, $1 di credito al
 # giorno — ampiamente sufficiente per il nostro utilizzo). Se non è impostata,
@@ -90,12 +103,26 @@ SOURCES = [
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/civil_engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/robotics.xml"},
-    {"name": "Tech Xplore", "url": "https://techxplore.com/rss-feed/"},
+    # Tech Xplore disattivata: protetta da anti-bot Cloudflare, ogni fetch
+    # dell'articolo tornava 403 e quindi al modello arrivava solo il breve
+    # summary RSS — sprecava valutazioni senza mai produrre contenuto
+    # pubblicabile (vedi anche phys.org, stessa rete Science X, stesso blocco).
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/type/news.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
     {"name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/"},
     {"name": "NSF", "url": "https://www.nsf.gov/rss/rss_www_news.xml"},
+    # Fonti aggiunte per ampliare il ventaglio dopo la disattivazione di Tech
+    # Xplore: tutte verificate a mano (feed valido + articolo scaricabile con
+    # testo reale, non teaser/paywall/blocco anti-bot) prima di inserirle qui.
+    {"name": "New Atlas", "url": "https://newatlas.com/index.rss"},
+    {"name": "MIT News", "url": "https://news.mit.edu/rss/feed"},
+    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/"},
+    {"name": "SpaceNews", "url": "https://spacenews.com/feed/"},
+    {"name": "EE Times", "url": "https://www.eetimes.com/feed/"},
+    {"name": "Engineering.com", "url": "https://www.engineering.com/feed/"},
+    {"name": "Renewable Energy World", "url": "https://www.renewableenergyworld.com/feed/"},
+    {"name": "Power Engineering", "url": "https://www.power-eng.com/feed/"},
     # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
     # funzionante per la sezione Tech & Engineering (i pattern noti tornano
     # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
@@ -566,12 +593,20 @@ def call_gemini(item: dict, article_text: str) -> dict | None:
     }
     headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
 
-    for attempt in range(2):
+    # Il rate limit (429) è tipicamente transitorio e si risolve aspettando —
+    # non è indicativo di un problema reale come chiave non valida o modello
+    # inesistente, quindi ha un budget di tentativi suo (con backoff via via
+    # più lungo) separato da quello degli errori genuini, che invece devono
+    # continuare a far scattare rapidamente il circuit breaker in main().
+    genuine_failures = 0
+    rate_limit_hits = 0
+    while genuine_failures < 2 and rate_limit_hits < 5:
         try:
             resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=20)
             if resp.status_code == 429:
-                wait = 6 * (attempt + 1)
-                print(f"[WARN] rate limit Gemini, aspetto {wait}s...", file=sys.stderr)
+                rate_limit_hits += 1
+                wait = 6 * rate_limit_hits
+                print(f"[WARN] rate limit Gemini, aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
                 time.sleep(wait)
                 continue
             if resp.status_code >= 400:
@@ -587,6 +622,7 @@ def call_gemini(item: dict, article_text: str) -> dict | None:
             text = data["candidates"][0]["content"]["parts"][0]["text"]
             return extract_json_object(text)
         except (requests.RequestException, KeyError, json.JSONDecodeError) as exc:
+            genuine_failures += 1
             print(f"[WARN] chiamata Gemini fallita ({item['url']}): {exc}", file=sys.stderr)
             time.sleep(2)
     return None
@@ -629,12 +665,17 @@ def call_groq(item: dict, article_text: str) -> dict | None:
     }
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
 
-    for attempt in range(2):
+    # Stesso ragionamento di call_gemini: il rate limit ha un budget di
+    # tentativi separato da quello degli errori genuini (vedi commento lì).
+    genuine_failures = 0
+    rate_limit_hits = 0
+    while genuine_failures < 2 and rate_limit_hits < 5:
         try:
             resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=20)
             if resp.status_code == 429:
-                wait = 6 * (attempt + 1)
-                print(f"[WARN] rate limit Groq, aspetto {wait}s...", file=sys.stderr)
+                rate_limit_hits += 1
+                wait = 6 * rate_limit_hits
+                print(f"[WARN] rate limit Groq, aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
                 time.sleep(wait)
                 continue
             if resp.status_code >= 400:
@@ -647,6 +688,7 @@ def call_groq(item: dict, article_text: str) -> dict | None:
             text = data["choices"][0]["message"]["content"]
             return extract_json_object(text)
         except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
+            genuine_failures += 1
             print(f"[WARN] chiamata Groq fallita ({item['url']}): {exc}", file=sys.stderr)
             time.sleep(2)
     return None
