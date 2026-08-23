@@ -1,29 +1,20 @@
 [
   {
-    "title": "New Technique Recovers Nuclear Waste Value",
-    "summary": "A new process is being developed to recover trapped value and reusable fuel from stored nuclear waste.",
-    "category": "Energy",
+    "title": "China Unveils World's First Boring and Blasting Tunnel Machine",
+    "summary": "China rolled out the world's first Boring and Blasting Machine that combines a tunnel-boring machine with explosive blasting capabilities.",
+    "category": "Civil & Infrastructure",
     "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/energy/new-process-spins-nuclear-waste-into-radioactive-gold/",
-    "published_at": "2026-08-22T17:03:00+00:00",
-    "fetched_at": "2026-08-23T05:17:42.533481+00:00"
+    "source_url": "https://newatlas.com/engineering/china-tunneling-machine-bores-and-blasts/",
+    "published_at": "2026-08-23T10:03:00+00:00",
+    "fetched_at": "2026-08-23T13:46:30.964880+00:00"
   },
   {
-    "title": "Mushroom-Based Vegan Leather Breakthrough",
-    "summary": "Researchers have achieved a production-scale breakthrough in developing plastic-free vegan leather using mushrooms.",
-    "category": "Materials",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/materials/vtt-practical-mushroom-leather/",
-    "published_at": "2026-08-22T13:03:00+00:00",
-    "fetched_at": "2026-08-23T05:17:42.533495+00:00"
-  },
-  {
-    "title": "Quantum Mechanics Proposed for Space Detectors",
-    "summary": "A NASA-funded team is developing a quantum-based concept using independent spacecraft to detect gravitational waves without laser links.",
+    "title": "NASA Grant Funds Quantum Gravitational Wave Detector Concept",
+    "summary": "A NASA NIAC grant is funding a Brookhaven National Laboratory concept that uses quantum mechanics and independent spacecraft to detect gravitational waves.",
     "category": "Aerospace",
     "source_name": "IEEE Spectrum",
     "source_url": "https://spectrum.ieee.org/gravitational-waves-quantum-mechanics-nasa",
     "published_at": "2026-08-22T13:00:01+00:00",
-    "fetched_at": "2026-08-23T05:17:42.533500+00:00"
+    "fetched_at": "2026-08-23T13:46:30.964893+00:00"
   }
 ]
