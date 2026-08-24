@@ -1,5 +1,32 @@
 [
   {
+    "title": "Trustworthy AI for IC Signoff and Manufacturing",
+    "summary": "Deterministic EDA engines and explainable AI are helping accelerate chip design signoff and manufacturing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
+    "published_at": "2026-08-24T13:00:00+00:00",
+    "fetched_at": "2026-08-24T14:28:44.400204+00:00"
+  },
+  {
+    "title": "51WORLD Unveils Two Embodied AI Products",
+    "summary": "The company introduced two new embodied AI products alongside a three-tier aerospace and low-altitude systems strategy.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/51world-unveils-two-embodied-ai-products/",
+    "published_at": "2026-08-24T12:12:40+00:00",
+    "fetched_at": "2026-08-24T14:28:44.400215+00:00"
+  },
+  {
+    "title": "Hexseed Raises £600,000 for Datacentre Cooling",
+    "summary": "HexSeed Technology raised early-stage funding to scale its low-temperature diamond coating for cooling AI power semiconductors.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/hexseed-raises-60000-to-cool-datacentres-2026-08/",
+    "published_at": "2026-08-24T05:14:16+00:00",
+    "fetched_at": "2026-08-24T14:28:44.400222+00:00"
+  },
+  {
     "title": "NASA Grant Funds Quantum Gravitational Wave Detector Concept",
     "summary": "A NASA NIAC grant is funding a Brookhaven National Laboratory concept that uses quantum mechanics and independent spacecraft to detect gravitational waves.",
     "category": "Aerospace",
