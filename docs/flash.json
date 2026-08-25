@@ -1,12 +1,12 @@
 [
   {
-    "title": "Laser Mosquito Shooter Now Available",
-    "summary": "A personal air defense system that tracks and shoots mosquitoes using a blue laser is now available for preorder.",
-    "category": "Other Engineering",
+    "title": "World's First Laser Mosquito Shooter Now Available",
+    "summary": "Photon Matrix has made its personal air defense system that tracks and shoots mosquitoes with a blue laser available for preorder.",
+    "category": "Electronics & Semiconductors",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/outdoor-gear/laser-shooting-mosquito-killer/",
     "published_at": "2026-08-25T05:33:00+00:00",
-    "fetched_at": "2026-08-25T06:04:15.188094+00:00"
+    "fetched_at": "2026-08-25T14:42:52.748698+00:00"
   },
   {
     "title": "Value Engineering Impacts A9 Project",
@@ -61,14 +61,5 @@
     "source_url": "https://newatlas.com/military/saab-supersonic-concept-loyal-wingman-drone/",
     "published_at": "2026-08-24T05:03:00+00:00",
     "fetched_at": "2026-08-25T06:06:05.835804+00:00"
-  },
-  {
-    "title": "NASA Grant Funds Quantum Gravitational Wave Detector Concept",
-    "summary": "A NASA NIAC grant is funding a Brookhaven National Laboratory concept that uses quantum mechanics and independent spacecraft to detect gravitational waves.",
-    "category": "Aerospace",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/gravitational-waves-quantum-mechanics-nasa",
-    "published_at": "2026-08-22T13:00:01+00:00",
-    "fetched_at": "2026-08-23T13:46:30.964893+00:00"
   }
 ]
