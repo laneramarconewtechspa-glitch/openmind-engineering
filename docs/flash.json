@@ -1,5 +1,41 @@
 [
   {
+    "title": "Laser Mosquito Shooter Now Available",
+    "summary": "A personal air defense system that tracks and shoots mosquitoes using a blue laser is now available for preorder.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/outdoor-gear/laser-shooting-mosquito-killer/",
+    "published_at": "2026-08-25T05:33:00+00:00",
+    "fetched_at": "2026-08-25T06:04:15.188094+00:00"
+  },
+  {
+    "title": "Value Engineering Impacts A9 Project",
+    "summary": "Value engineering exercises during tender and post-contract stages provided significant cost, carbon, and programme efficiencies for the A9 Tomatin to Moy project.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/in-depth/value-engineering-exercises-major-impact-on-the-a9-tomatin-to-moy-project-25-08-2026/",
+    "published_at": "2026-08-25T03:00:03+00:00",
+    "fetched_at": "2026-08-25T06:04:15.188107+00:00"
+  },
+  {
+    "title": "Physics-Constrained Deep Learning for Contactless Blood Pressure",
+    "summary": "Researchers proposed a non-invasive blood pressure estimation framework using triaxial bodyseismography and physics-constrained deep learning.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.23562v1",
+    "published_at": "2026-08-24T17:58:35+00:00",
+    "fetched_at": "2026-08-25T06:04:15.188113+00:00"
+  },
+  {
+    "title": "Aerospace Demonstrates DiskSats in LEO",
+    "summary": "The Aerospace Corp. continues demonstrating the viability of pancake-shaped DiskSats in low-Earth orbit following their December launch.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/aerospace-demonstrates-disksats-in-low-earth-orbit/",
+    "published_at": "2026-08-24T17:30:00+00:00",
+    "fetched_at": "2026-08-25T06:04:15.188118+00:00"
+  },
+  {
     "title": "Trustworthy AI for IC Signoff and Manufacturing",
     "summary": "Deterministic EDA engines and explainable AI are helping accelerate chip design signoff and manufacturing.",
     "category": "Electronics & Semiconductors",
@@ -9,15 +45,6 @@
     "fetched_at": "2026-08-24T14:28:44.400204+00:00"
   },
   {
-    "title": "51WORLD Unveils Two Embodied AI Products",
-    "summary": "The company introduced two new embodied AI products alongside a three-tier aerospace and low-altitude systems strategy.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/51world-unveils-two-embodied-ai-products/",
-    "published_at": "2026-08-24T12:12:40+00:00",
-    "fetched_at": "2026-08-24T14:28:44.400215+00:00"
-  },
-  {
     "title": "Hexseed Raises £600,000 for Datacentre Cooling",
     "summary": "HexSeed Technology raised early-stage funding to scale its low-temperature diamond coating for cooling AI power semiconductors.",
     "category": "Computing",
@@ -25,6 +52,15 @@
     "source_url": "https://www.electronicsweekly.com/news/business/hexseed-raises-60000-to-cool-datacentres-2026-08/",
     "published_at": "2026-08-24T05:14:16+00:00",
     "fetched_at": "2026-08-24T14:28:44.400222+00:00"
+  },
+  {
+    "title": "Saab Unveils Supersonic Loyal Wingman Concept",
+    "summary": "Saab debuted a full-scale mock-up of its A3-001 supersonic autonomous combat aircraft concept at the Swedish Armed Forces Jubilee Air Show.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/saab-supersonic-concept-loyal-wingman-drone/",
+    "published_at": "2026-08-24T05:03:00+00:00",
+    "fetched_at": "2026-08-25T06:06:05.835804+00:00"
   },
   {
     "title": "NASA Grant Funds Quantum Gravitational Wave Detector Concept",
