@@ -1,21 +1,264 @@
 [
   {
-    "title": "World's First Laser Mosquito Shooter Now Available",
-    "summary": "Photon Matrix has made its personal air defense system that tracks and shoots mosquitoes with a blue laser available for preorder.",
+    "title": "SpaceX Unveils Starbase, Louisiana Spaceport",
+    "summary": "SpaceX has unveiled plans for Starbase, Louisiana, described as the largest private spaceport in the world.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/08/starbase-louisiana-largest-private-spaceport-world/",
+    "published_at": "2026-08-26T03:56:21+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552441+00:00"
+  },
+  {
+    "title": "CFD Modelling Cuts Network Rail Bridge Scour Costs",
+    "summary": "Computational fluid dynamics modelling is reducing bridge scour prevention costs across Network Rail's asset base by improving assessment accuracy.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/in-depth/cfd-modelling-promises-bridge-scour-prevention-cost-efficiencies-for-network-rail-26-08-2026/",
+    "published_at": "2026-08-26T03:00:54+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552456+00:00"
+  },
+  {
+    "title": "Ingestible Sensor Tracks Core Temperature",
+    "summary": "MIT engineers have created an ingestible temperature sensor measuring six by four millimeters that can send continuous core body temperature updates.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
+    "published_at": "2026-08-25T21:00:00+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552463+00:00"
+  },
+  {
+    "title": "Electra's Hybrid Aircraft Moves to Factory",
+    "summary": "Electra's hybrid, fixed-wing aircraft, which originated as an MIT class project, has arrived at an Ohio factory.",
+    "category": "Aerospace",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/electra-aircraft-departs-mit-classroom-and-arrives-at-ohio-factory-0825",
+    "published_at": "2026-08-25T20:00:00+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552469+00:00"
+  },
+  {
+    "title": "WorldSync Improves Robotic World Models",
+    "summary": "Researchers introduce WorldSync to align action-conditioned generation in robotic world models, improving policy evaluation and robot task success rates.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24885v1",
+    "published_at": "2026-08-25T17:59:49+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552475+00:00"
+  },
+  {
+    "title": "LAWA Architecture Enhances Robot Future Imagination",
+    "summary": "LAWA uses compact latent actions to enable efficient test-time future imagination in world action models, improving robot control and success rates.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24882v1",
+    "published_at": "2026-08-25T17:59:03+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552481+00:00"
+  },
+  {
+    "title": "Coherent Direct D-MIMO Localization Framework",
+    "summary": "Researchers present a unified family of Bayesian state-space filters for wideband near-field D-MIMO systems that operate directly on noisy channel observations.",
     "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24880v1",
+    "published_at": "2026-08-25T17:58:07+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552487+00:00"
+  },
+  {
+    "title": "Energy-Aware CNF Placement in O-RAN Edges",
+    "summary": "This research investigates energy-aware joint placement and migration of cloud-native functions in an O-RAN edge cloud to minimize server and transmission energy.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24841v1",
+    "published_at": "2026-08-25T17:30:46+00:00",
+    "fetched_at": "2026-08-26T05:40:25.552519+00:00"
+  },
+  {
+    "title": "Westinghouse Achieves eVinci Microreactor Criticality",
+    "summary": "Westinghouse completed zero-power criticality testing for its eVinci microreactor at NCERC, validating the core design.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/smrs/westinghouse-achieves-zero-power-criticality-with-its-evinci-microreactor/",
+    "published_at": "2026-08-25T17:24:00+00:00",
+    "fetched_at": "2026-08-26T05:40:28.182929+00:00"
+  },
+  {
+    "title": "New Household Humanoid Robot Priced Under $1,700",
+    "summary": "A San Francisco startup introduced a household humanoid robot designed to handle chores for US$1,688.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/household-robot-chores-nori-a3/",
+    "published_at": "2026-08-25T15:47:29+00:00",
+    "fetched_at": "2026-08-26T05:40:28.182941+00:00"
+  },
+  {
+    "title": "Fiber Bragg Grating Whiskers for Underwater Robots",
+    "summary": "Seal-inspired fiber Bragg grating whiskers allow underwater robots to passively perceive hydrodynamic trails and vortices.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24724v1",
+    "published_at": "2026-08-25T15:37:33+00:00",
+    "fetched_at": "2026-08-26T05:40:28.182947+00:00"
+  },
+  {
+    "title": "W-/D-Band Power Amplifier in 130 nm SiGe BiCMOS",
+    "summary": "A wideband power amplifier implemented in a 130-nm SiGe BiCMOS process achieves a small-signal gain bandwidth of 71-133 GHz.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24687v1",
+    "published_at": "2026-08-25T15:16:37+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996922+00:00"
+  },
+  {
+    "title": "Ultra-Compact V-Band Power Amplifier in 22nm FD-SOI CMOS",
+    "summary": "A differential millimeter-wave power amplifier using EDMOS transistors in a 22nm FD-SOI CMOS process achieves 18.8 dBm saturated output power.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24686v1",
+    "published_at": "2026-08-25T15:15:50+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996936+00:00"
+  },
+  {
+    "title": "NanoAvionics Launches MP42H Microsatellite Bus",
+    "summary": "Kongsberg NanoAvionics is introducing its Gen-2 MP42 family of modular microsatellite buses designed for optical or SAR imaging missions.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/nanoavionics-introduces-flagship-mp42h-microsatellite-bus-2026-08/",
+    "published_at": "2026-08-25T14:57:02+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996943+00:00"
+  },
+  {
+    "title": "Unvoiced Speech Regions Improve Audio Deepfake Detection",
+    "summary": "An analysis of speech components shows that unvoiced regions are particularly effective in distinguishing synthetic deepfake speech from bonafide speech.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24639v1",
+    "published_at": "2026-08-25T14:49:55+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996949+00:00"
+  },
+  {
+    "title": "Dual-Based Weight Selection for Approximate Linear Programming",
+    "summary": "A proposed dual-based method uses projected occupancy information from the ALP dual solution to construct a smooth stochastic policy.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24629v1",
+    "published_at": "2026-08-25T14:44:44+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996955+00:00"
+  },
+  {
+    "title": "VIP Framework for Efficient Robotic Navigation",
+    "summary": "A variation-based iterative-learning planning framework directly updates planning commands as continuous functions in an infinite-dimensional space.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24618v1",
+    "published_at": "2026-08-25T14:38:20+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996960+00:00"
+  },
+  {
+    "title": "Gripper-Aware Vision Language Action Models for Robots",
+    "summary": "Researchers introduce a multi-gripper dataset and a gripper-aware model to improve robotic grasping across five distinct gripper types.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24603v1",
+    "published_at": "2026-08-25T14:24:51+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996966+00:00"
+  },
+  {
+    "title": "Nordic Semiconductor Announces nRF93M1-LABA Smart Modem",
+    "summary": "Nordic Semiconductor's multi-regional nRF93M1-LABA smart modem module is now generally available following Global Certification Forum compliance.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/nrf93m1-laba-smart-modem-for-cat-1-bis-iot-devices-2026-08/",
+    "published_at": "2026-08-25T14:14:36+00:00",
+    "fetched_at": "2026-08-26T05:40:31.996973+00:00"
+  },
+  {
+    "title": "Transformer Model Enables Pilotless Multi-Receiver Wi-Fi Decoding",
+    "summary": "Researchers developed a fully pilotless multi-access-point Wi-Fi receiver using a self-attention Transformer that achieves low error rates in cooperative configurations.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24584v1",
+    "published_at": "2026-08-25T14:09:22+00:00",
+    "fetched_at": "2026-08-26T05:40:35.005148+00:00"
+  },
+  {
+    "title": "Fiber Optic Sensing Glove Tracks Full Hand Pose",
+    "summary": "A new fiber optic glove uses multi-core shape-sensing fibers to capture full hand pose for dexterous manipulation and virtual teleoperation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.24572v1",
+    "published_at": "2026-08-25T13:59:35+00:00",
+    "fetched_at": "2026-08-26T05:40:35.005159+00:00"
+  },
+  {
+    "title": "IBM Unveils 2nm Dual-Architecture Processor for Enterprise",
+    "summary": "The new 2 nm processor supports Arm-native workloads alongside IBM environments with AI acceleration and encryption.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/ibm-unveils-dual-architecture-processor-for-z-and-linuxone/",
+    "published_at": "2026-08-25T12:23:08+00:00",
+    "fetched_at": "2026-08-26T05:40:35.005165+00:00"
+  },
+  {
+    "title": "Nordson Launches Vantage XL for Panel-Level Packaging",
+    "summary": "The fluid dispensing platform is designed for large semiconductor panels with thermal management, alignment, and warpage control.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/nordson-introduces-vantage-xl-for-panel-level-packaging/",
+    "published_at": "2026-08-25T12:10:25+00:00",
+    "fetched_at": "2026-08-26T05:40:35.005172+00:00"
+  },
+  {
+    "title": "Advantech Launches Dragonwing-Based Edge AI Solutions",
+    "summary": "New industrial platforms support multi-camera vision, robotics, and automation with up to 100 TOPS of AI performance.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/advantech-launches-dragonwing-based-edge-ai-solutions/",
+    "published_at": "2026-08-25T12:03:47+00:00",
+    "fetched_at": "2026-08-26T05:40:35.005177+00:00"
+  },
+  {
+    "title": "Optocouplers Mitigate EMI in Wide-Bandgap GaN and SiC Designs",
+    "summary": "Advanced optocouplers provide necessary isolation to protect signal integrity and prevent logic corruption caused by electromagnetic interference in wide-bandgap designs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/optocouplers-tame-emi-in-wide-bandgap-designs-2026-08/",
+    "published_at": "2026-08-25T11:00:12+00:00",
+    "fetched_at": "2026-08-26T05:40:38.148631+00:00"
+  },
+  {
+    "title": "Port of Dover Completes £53M Western Docks Revival Project",
+    "summary": "McLaughlin and Harvey and Boskalis Westminster completed the £53M Dover Western Docks Revival Stage 3B project at the Port of Dover.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/53m-dover-western-docks-revival-project-completed-25-08-2026/",
+    "published_at": "2026-08-25T10:15:32+00:00",
+    "fetched_at": "2026-08-26T05:40:38.148667+00:00"
+  },
+  {
+    "title": "TSMC CoWoS Bottlenecks Create Packaging Opportunity for Intel",
+    "summary": "Yield issues with TSMC's HBM-packaging could provide Intel a foundry opening as AI chipmakers evaluate alternative technologies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
+    "published_at": "2026-08-25T07:00:00+00:00",
+    "fetched_at": "2026-08-26T05:40:38.148674+00:00"
+  },
+  {
+    "title": "World's First Laser-Beam Mosquito Shooter Available for Preorder",
+    "summary": "A personal air defense system that tracks and shoots mosquitoes using a blue laser is now available for preorder.",
+    "category": "Other Engineering",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/outdoor-gear/laser-shooting-mosquito-killer/",
     "published_at": "2026-08-25T05:33:00+00:00",
-    "fetched_at": "2026-08-25T14:42:52.748698+00:00"
+    "fetched_at": "2026-08-26T05:40:38.148681+00:00"
   },
   {
-    "title": "Value Engineering Impacts A9 Project",
-    "summary": "Value engineering exercises during tender and post-contract stages provided significant cost, carbon, and programme efficiencies for the A9 Tomatin to Moy project.",
+    "title": "Value Engineering Delivers Efficiencies for A9 Tomatin to Moy Project",
+    "summary": "Value engineering exercises conducted during the tender stage and post contract award provided cost, carbon, and programme efficiencies for the project.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/in-depth/value-engineering-exercises-major-impact-on-the-a9-tomatin-to-moy-project-25-08-2026/",
     "published_at": "2026-08-25T03:00:03+00:00",
-    "fetched_at": "2026-08-25T06:04:15.188107+00:00"
+    "fetched_at": "2026-08-26T05:40:38.148686+00:00"
   },
   {
     "title": "Physics-Constrained Deep Learning for Contactless Blood Pressure",
@@ -25,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2608.23562v1",
     "published_at": "2026-08-24T17:58:35+00:00",
     "fetched_at": "2026-08-25T06:04:15.188113+00:00"
-  },
-  {
-    "title": "Aerospace Demonstrates DiskSats in LEO",
-    "summary": "The Aerospace Corp. continues demonstrating the viability of pancake-shaped DiskSats in low-Earth orbit following their December launch.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/aerospace-demonstrates-disksats-in-low-earth-orbit/",
-    "published_at": "2026-08-24T17:30:00+00:00",
-    "fetched_at": "2026-08-25T06:04:15.188118+00:00"
-  },
-  {
-    "title": "Trustworthy AI for IC Signoff and Manufacturing",
-    "summary": "Deterministic EDA engines and explainable AI are helping accelerate chip design signoff and manufacturing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
-    "published_at": "2026-08-24T13:00:00+00:00",
-    "fetched_at": "2026-08-24T14:28:44.400204+00:00"
-  },
-  {
-    "title": "Hexseed Raises £600,000 for Datacentre Cooling",
-    "summary": "HexSeed Technology raised early-stage funding to scale its low-temperature diamond coating for cooling AI power semiconductors.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/hexseed-raises-60000-to-cool-datacentres-2026-08/",
-    "published_at": "2026-08-24T05:14:16+00:00",
-    "fetched_at": "2026-08-24T14:28:44.400222+00:00"
-  },
-  {
-    "title": "Saab Unveils Supersonic Loyal Wingman Concept",
-    "summary": "Saab debuted a full-scale mock-up of its A3-001 supersonic autonomous combat aircraft concept at the Swedish Armed Forces Jubilee Air Show.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/saab-supersonic-concept-loyal-wingman-drone/",
-    "published_at": "2026-08-24T05:03:00+00:00",
-    "fetched_at": "2026-08-25T06:06:05.835804+00:00"
   }
 ]
