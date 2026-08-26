@@ -190,6 +190,26 @@ button { font-family: inherit; }
 .engineering-column p { margin: 0; color: var(--ink-light); font-family: var(--font-display); font-size: 18px; line-height: 1.1; font-style: italic; }
 .engineering-meta { display: flex; flex-direction: column; gap: 4px; margin-top: 25px; color: var(--ink-light); font-family: var(--font-mono); font-size: 8px; letter-spacing: .1em; }
 
+.archive-toggle {
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 10px;
+  width: 100%; margin: 18px 0 0; padding: 0; border: none; background: none;
+  cursor: pointer; text-align: left; font-family: inherit; color: inherit;
+}
+.archive-toggle-text {
+  font-family: var(--font-display); font-weight: 600; font-size: 21px; line-height: 1.15;
+  color: var(--ink); transition: color .2s ease;
+}
+.archive-toggle:hover .archive-toggle-text { color: var(--red); }
+.archive-toggle-arrow {
+  flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line-dark);
+  color: var(--red); font-size: 13px; transform: rotate(90deg);
+  transition: transform .3s cubic-bezier(.2,.8,.2,1), background .2s ease, color .2s ease, border-color .2s ease;
+}
+.archive-toggle:hover .archive-toggle-arrow { background: var(--red); border-color: var(--red); color: var(--paper); }
+.archive-toggle.active .archive-toggle-arrow { transform: rotate(-90deg); background: var(--ink); border-color: var(--ink); color: var(--paper); }
+#archive-status { color: var(--red); font-weight: 700; }
+
 /* ------------------------------------------------------------------ */
 /* Neural core — scena 3D                                              */
 /* ------------------------------------------------------------------ */
@@ -308,6 +328,39 @@ button { font-family: inherit; }
 .neuron.selected { border-color: var(--red); box-shadow: 0 0 0 2px var(--red-soft), var(--shadow-card); }
 .neuron.dimmed { opacity: .12 !important; pointer-events: none; }
 .neurons-layer.hovering .neuron:not(:hover) { opacity: .35; }
+
+/* Nodo compatto (telefono): stesso cerchio/cervello del desktop, card
+   ridotte a un tondo con miniatura — niente testo, illeggibile a queste
+   dimensioni. Il tap apre lo stesso pannello di dettaglio del desktop. */
+.neuron.neuron-compact {
+  background: none; border: none; box-shadow: none;
+}
+/* Dimensione e scale in hover sono fissati nella media query telefono più
+   sotto (l'unico contesto in cui esiste un nodo "compact") — devono
+   combaciare con cardW/cardH passati a computeCirclePositions in script.js. */
+/* Il cerchio si ritaglia sull'immagine stessa (non sul contenitore): così i
+   badge indice/punteggio, posizionati leggermente fuori dal bordo, restano
+   visibili invece di essere tagliati da un overflow:hidden sul genitore. */
+.neuron-thumb-img {
+  width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 50%;
+  border: 2px solid var(--paper-white); box-shadow: var(--shadow-card);
+  filter: grayscale(100%) contrast(1.05);
+}
+.neuron-thumb-na {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; height: 100%; border-radius: 50%;
+  border: 2px solid var(--paper-white); box-shadow: var(--shadow-card);
+  background: var(--red); color: var(--paper-white);
+  font-family: var(--font-display); font-weight: 600; font-size: 13px;
+}
+.neuron-compact-index {
+  position: absolute; top: -3px; left: -3px; z-index: 2;
+  min-width: 16px; padding: 1px 4px; border-radius: 999px;
+  background: var(--ink); color: var(--paper);
+  font-family: var(--font-mono); font-size: 8px; font-weight: 600; text-align: center;
+  box-shadow: 0 1px 3px rgba(20,20,15,.3);
+}
+.neuron-compact-score { position: absolute; bottom: -4px; right: -4px; z-index: 2; filter: drop-shadow(0 1px 3px rgba(20,20,15,.35)); }
 
 .paper-header { display: flex; justify-content: space-between; align-items: center; padding: 6px 9px; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 6.5px; letter-spacing: .08em; color: var(--ink-light); }
 .paper-number { color: var(--red); font-weight: 700; }
@@ -467,24 +520,39 @@ button { font-family: inherit; }
   .network-header { padding: 14px 18px; }
 }
 
-/* Telefono: layout a lista verticale, niente disposizione spaziale (più
-   affidabile e più comodo da leggere su schermi stretti). */
+/* Telefono: STESSO layout circolare del desktop (cervello al centro, card
+   attorno) — solo più compatto. Il tap su un nodo apre lo stesso pannello di
+   dettaglio del desktop, invariato. Vedi computeCirclePositions/
+   createPaperCard in script.js per la logica "compact" lato JS. */
 @media (max-width: 640px) {
   .network-header { flex-wrap: wrap; row-gap: 8px; }
   .last-updated { order: 3; width: 100%; }
-  .neural-core { position: relative; left: 0; top: 0; transform: none; width: 100%; margin: 20px auto 0; }
-  .brain-wrap { width: 160px; height: 132px; }
+  .neural-core { left: 50%; }
+  .connector-ring { left: 50%; }
+  .brain-wrap { width: 130px; height: 108px; }
   .core-caption { display: none; }
-  .stage { display: flex; flex-direction: column; min-height: 0; padding-bottom: 40px; }
-  .synapses { display: none; }
-  .neurons-layer { position: relative; inset: auto; display: flex; flex-direction: column; align-items: center; gap: 18px; padding: 26px 16px 0; }
-  .neuron { position: relative; left: auto !important; top: auto !important; width: 100%; max-width: 420px; transform: none !important; animation: card-fade-up .5s ease forwards; animation-delay: var(--delay, 0s); }
-  @keyframes card-fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-  .neuron:hover { transform: translateY(-3px) !important; }
-  .spark { display: none; }
-  .empty-state { position: relative; left: auto; top: auto; transform: none; margin: 30px auto; }
-  .paper-image { height: 150px; }
-  .paper-title { font-size: 16px; }
+  .stage { min-height: 0; padding-bottom: 40px; }
+
+  /* L'archivio non deve sparire, ma nemmeno rompere la geometria del
+     cerchio: diventa un piccolo pulsante fisso in un angolo, come farebbe
+     una qualunque etichetta della UI desktop, invece di rifluire in lista. */
+  .engineering-column {
+    display: flex; position: absolute; top: 10px; left: 10px; z-index: 15;
+    width: auto; max-width: 128px; padding: 8px 10px;
+    border-left: 2px solid var(--red);
+    background: rgba(255, 255, 255, .88); backdrop-filter: blur(3px);
+  }
+  .engineering-index, .engineering-line, .engineering-label { display: none; }
+  .archive-toggle { margin-top: 0; gap: 6px; }
+  .archive-toggle-text { font-size: 11.5px; line-height: 1.2; }
+  .archive-toggle-arrow { width: 20px; height: 20px; font-size: 10px; }
+  .engineering-meta { margin-top: 6px; }
+  #archive-status { font-size: 7px; }
+
+  .neuron-compact { width: 56px; height: 56px; }
+  .neuron-compact:hover, .neuron-compact:focus-visible { transform: translate(-50%, -50%) scale(1.35); }
+
+  .empty-state { top: 60%; }
   .d-results { grid-template-columns: 1fr; }
   .detail-content { padding: 8px 18px 50px; }
 
@@ -498,7 +566,8 @@ button { font-family: inherit; }
 
 @media (max-width: 380px) {
   .cover-title-wrap h1 { font-size: 15vw; }
-  .neuron { max-width: 100%; }
+  .brain-wrap { width: 112px; height: 93px; }
+  .neuron-compact { width: 48px; height: 48px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
