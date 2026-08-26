@@ -11,6 +11,10 @@
 
   const NEWS_FILE = "news.json";
   const WINDOW_HOURS = 24;
+  // Il backend (fetch_news.py, RETAIN_WINDOW_HOURS) tiene le notizie per 48h
+  // anche se il sito ne mostra solo le ultime 24: la fascia 24-48h è
+  // esattamente l'archivio "di ieri" mostrato dal toggle Archive qui sotto.
+  const ARCHIVE_WINDOW_HOURS = 48;
   const MAX_PAPERS = 10;
   const REFRESH_MINUTES = 15; // ricontrolla news.json periodicamente a pagina aperta
   const GOLDEN_ANGLE = 2.399963;
@@ -32,6 +36,7 @@
   const synapses = document.getElementById("synapses");
   const neuronsLayer = document.getElementById("neurons-layer");
   const emptyState = document.getElementById("empty-state");
+  const emptyStateText = emptyState ? emptyState.querySelector("p") : null;
   const filtersEl = document.getElementById("filters");
   const lastUpdatedEl = document.getElementById("last-updated");
   const detailPanel = document.getElementById("detail-panel");
@@ -45,11 +50,16 @@
   const flashContentA = document.getElementById("flash-bar-content-a");
   const flashContentB = document.getElementById("flash-bar-content-b");
 
+  const archiveToggle = document.getElementById("archive-toggle");
+  const archiveStatus = document.getElementById("archive-status");
+
   /* ---------------------------------------------------------------- */
   /* State                                                              */
   /* ---------------------------------------------------------------- */
 
-  let allPapers = [];
+  let allPapers = [];      // notizie di oggi (ultime WINDOW_HOURS)
+  let archivePapers = [];  // notizie di ieri (tra WINDOW_HOURS e ARCHIVE_WINDOW_HOURS fa)
+  let archiveMode = false; // false = si vede "oggi", true = si vede "ieri"
   let visiblePapers = [];
   let activeCategory = null;
   let networkOpened = false;
@@ -165,6 +175,10 @@
   /* Caricamento dati + auto-refresh                                   */
   /* ---------------------------------------------------------------- */
 
+  function currentPool() {
+    return archiveMode ? archivePapers : allPapers;
+  }
+
   async function loadNews() {
     try {
       const res = await fetch(NEWS_FILE, { cache: "no-store" });
@@ -172,25 +186,33 @@
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error("news.json deve contenere un array");
 
-      const cutoff = Date.now() - WINDOW_HOURS * 3600 * 1000;
+      const now = Date.now();
+      const todayCutoff = now - WINDOW_HOURS * 3600 * 1000;
+      const archiveCutoff = now - ARCHIVE_WINDOW_HOURS * 3600 * 1000;
 
-      allPapers = data
+      const valid = data
         .filter((p) => p.title && p.source_name && p.source_url && p.published_at)
-        .filter((p) => {
-          const t = new Date(p.published_at).getTime();
-          return !Number.isNaN(t) && t >= cutoff;
-        })
-        .map(normalizePaper)
-        .sort((a, b) => (b.score ?? -1) - (a.score ?? -1) || new Date(b.published_at) - new Date(a.published_at))
+        .map(normalizePaper);
+      const byScoreThenDate = (a, b) => (b.score ?? -1) - (a.score ?? -1) || new Date(b.published_at) - new Date(a.published_at);
+
+      allPapers = valid
+        .filter((p) => { const t = new Date(p.published_at).getTime(); return !Number.isNaN(t) && t >= todayCutoff; })
+        .sort(byScoreThenDate)
         .slice(0, MAX_PAPERS);
 
-      visiblePapers = [...allPapers];
+      archivePapers = valid
+        .filter((p) => { const t = new Date(p.published_at).getTime(); return !Number.isNaN(t) && t < todayCutoff && t >= archiveCutoff; })
+        .sort(byScoreThenDate)
+        .slice(0, MAX_PAPERS);
+
+      visiblePapers = [...currentPool()];
       renderFilters();
       renderLastUpdated(data);
       return true;
     } catch (err) {
       console.error("loadNews:", err);
       allPapers = [];
+      archivePapers = [];
       visiblePapers = [];
       return false;
     }
@@ -325,16 +347,63 @@
     });
   });
 
+  // Sui browser mobile lo scroll nasconde/mostra la barra degli indirizzi,
+  // il che cambia window.innerHeight e quindi scatena un evento "resize" a
+  // ogni scroll — senza questo controllo, ogni scroll ridisegnava l'intera
+  // rete da zero (animazioni di comparsa comprese), il che si percepiva
+  // come scatti e come se la pagina "risalisse". Ridisegniamo solo se
+  // cambia la LARGHEZZA (unico caso che richiede davvero un nuovo layout).
+  let lastRenderWidth = window.innerWidth;
   window.addEventListener("resize", debounce(() => {
+    if (window.innerWidth === lastRenderWidth) return;
+    lastRenderWidth = window.innerWidth;
     if (networkOpened && visiblePapers.length) renderNetwork();
   }, 220));
+
+  /* ---------------------------------------------------------------- */
+  /* Archive — "Learn from yesterday to act today"                     */
+  /* ---------------------------------------------------------------- */
+
+  function setEmptyStateMessage(isArchive) {
+    if (!emptyStateText) return;
+    emptyStateText.textContent = isArchive
+      ? "No archive available yet — check back tomorrow."
+      : "No papers available in the current time window.";
+  }
+
+  if (archiveToggle) {
+    archiveToggle.addEventListener("click", () => {
+      archiveMode = !archiveMode;
+      archiveToggle.classList.toggle("active", archiveMode);
+      archiveToggle.setAttribute("aria-expanded", String(archiveMode));
+      if (archiveStatus) archiveStatus.textContent = archiveMode ? "VIEWING · YESTERDAY" : "VIEWING · TODAY";
+      setEmptyStateMessage(archiveMode);
+
+      visiblePapers = [...currentPool()];
+      activeCategory = null;
+      renderFilters();
+
+      if (!networkOpened) return; // la rete non è ancora aperta: nulla da ridisegnare ora
+      if (visiblePapers.length) {
+        renderNetwork();
+      } else {
+        neuronsLayer.innerHTML = "";
+        synapses.innerHTML = "";
+        emptyState.hidden = false;
+      }
+    });
+  }
 
   /* ---------------------------------------------------------------- */
   /* Layout a cerchio regolare                                         */
   /* ---------------------------------------------------------------- */
 
-  function computeCirclePositions(count, stageRect, coreX, coreY, columnVisible) {
-    const cardW = 150, cardH = 190, gap = 22;
+  function computeCirclePositions(count, stageRect, coreX, coreY, columnVisible, compact) {
+    // In modalità compatta (telefono) usiamo lo stesso layout circolare del
+    // desktop, solo con card molto più piccole — niente più fallback a
+    // lista verticale: il cervello al centro è parte dell'identità visiva
+    // del sito e non deve sparire su schermi stretti.
+    const cardW = compact ? 56 : 150, cardH = compact ? 56 : 190, gap = compact ? 12 : 22;
     const diag = Math.hypot(cardW, cardH) + gap; // unico valore sicuro a qualsiasi angolo attorno al cerchio
     const marginLeft = columnVisible ? 220 : 20;
     const marginRight = 20, marginTop = 26, marginBottom = 36;
@@ -380,7 +449,10 @@
     synapses.innerHTML = "";
     neuronsLayer.classList.remove("hovering");
 
-    const isMobile = window.innerWidth <= 640;
+    // Stesso layout circolare a ogni larghezza — su telefono (compact)
+    // cambiano solo le dimensioni di card/cervello/raggio, mai la struttura:
+    // il cervello al centro resta sempre il fulcro visivo del sito.
+    const compact = window.innerWidth <= 640;
     neuralCore.style.transform = "";
     connectorRing.style.transform = "";
     const stageRect = stage.getBoundingClientRect();
@@ -388,16 +460,9 @@
     const coreX = coreRect.left + coreRect.width / 2 - stageRect.left;
     const coreY = coreRect.top + coreRect.height / 2 - stageRect.top;
 
-    if (isMobile) {
-      connectorRing.style.display = "none";
-      visiblePapers.forEach((paper, i) => createPaperCard(paper, null, i));
-      applyFilter(activeCategory);
-      return;
-    }
-
     const columnVisible = window.innerWidth > 1080;
     const { positions, dotRadius, shiftDown } = computeCirclePositions(
-      visiblePapers.length, stageRect, coreX, coreY, columnVisible
+      visiblePapers.length, stageRect, coreX, coreY, columnVisible, compact
     );
 
     // Se il layout è stato spostato in basso per non tagliare le card in
@@ -413,12 +478,13 @@
     connectorRing.style.width = `${dotRadius * 2}px`;
     connectorRing.style.height = `${dotRadius * 2}px`;
 
-    const maxBottom = positions.reduce((m, p) => Math.max(m, p.y + 110), 0);
+    const cardHalfHeight = compact ? 30 : 110;
+    const maxBottom = positions.reduce((m, p) => Math.max(m, p.y + cardHalfHeight), 0);
     stage.style.minHeight = maxBottom + 40 > stageRect.height ? `${maxBottom + 40}px` : "";
 
     positions.forEach((pos, i) => {
       drawSynapse(pos, i);
-      createPaperCard(visiblePapers[i], pos, i, coreX, coreY);
+      createPaperCard(visiblePapers[i], pos, i, coreX, coreY, compact);
     });
     applyFilter(activeCategory);
   }
@@ -444,7 +510,7 @@
   /* Card — dimensione ridotta, si ingrandisce al passaggio del mouse   */
   /* ---------------------------------------------------------------- */
 
-  function createPaperCard(paper, pos, index, coreX, coreY) {
+  function createPaperCard(paper, pos, index, coreX, coreY, compact) {
     const delay = Math.min(index * 0.07, 0.8);
     const travel = 0.5 + Math.random() * 0.2;
 
@@ -461,7 +527,7 @@
     }
 
     const article = document.createElement("article");
-    article.className = "neuron";
+    article.className = compact ? "neuron neuron-compact" : "neuron";
     article.dataset.category = paper.category;
     article.dataset.index = String(index);
     if (pos) {
@@ -479,30 +545,46 @@
     article.setAttribute("role", "button");
     article.setAttribute("aria-label", paper.title);
 
-    const imageHTML = paper.image_url
-      ? `<img class="paper-image" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
-      : `<div class="paper-image paper-image-na"><span class="mark-main">Be in<br>the loop</span></div>`;
-    const scoreBadgeHTML = createScoreBadge(paper.score, 30);
+    if (compact) {
+      // Nodo compatto per telefono: stesso cerchio/cervello del desktop, ma
+      // niente testo (illeggibile a queste dimensioni) — solo miniatura,
+      // indice e punteggio. Il tap apre lo stesso pannello di dettaglio
+      // completo del desktop (vedi openDetail più sotto, invariato).
+      const thumbHTML = paper.image_url
+        ? `<img class="neuron-thumb-img" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
+        : `<div class="neuron-thumb-img neuron-thumb-na">BL</div>`;
+      const scoreBadgeCompactHTML = createScoreBadge(paper.score, 18);
+      article.innerHTML = `
+        <span class="neuron-compact-index">${String(index + 1).padStart(2, "0")}</span>
+        ${thumbHTML}
+        ${scoreBadgeCompactHTML ? `<span class="neuron-compact-score">${scoreBadgeCompactHTML}</span>` : ""}
+      `;
+    } else {
+      const imageHTML = paper.image_url
+        ? `<img class="paper-image" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
+        : `<div class="paper-image paper-image-na"><span class="mark-main">Be in<br>the loop</span></div>`;
+      const scoreBadgeHTML = createScoreBadge(paper.score, 30);
 
-    article.innerHTML = `
-      <div class="paper-header">
-        <span class="paper-number">RESEARCH ARTICLE</span>
-        <span>${String(index + 1).padStart(2, "0")}${paper.is_preprint ? " · PREPRINT" : ""}</span>
-      </div>
-      <div class="paper-image-wrap">
-        ${imageHTML}
-        ${scoreBadgeHTML ? `<div class="score-badge-wrap">${scoreBadgeHTML}</div>` : ""}
-      </div>
-      <div class="paper-body">
-        <div class="paper-category">${escapeHTML(paper.category)}</div>
-        <h2 class="paper-title">${escapeHTML(paper.title)}</h2>
-        <p class="paper-abstract">${escapeHTML(createAbstract(paper))}</p>
-        <div class="paper-meta">
-          <span>${escapeHTML(formatDate(paper.published_at))}</span>
-          <span>${escapeHTML(paper.source_name)}</span>
+      article.innerHTML = `
+        <div class="paper-header">
+          <span class="paper-number">RESEARCH ARTICLE</span>
+          <span>${String(index + 1).padStart(2, "0")}${paper.is_preprint ? " · PREPRINT" : ""}</span>
         </div>
-      </div>
-    `;
+        <div class="paper-image-wrap">
+          ${imageHTML}
+          ${scoreBadgeHTML ? `<div class="score-badge-wrap">${scoreBadgeHTML}</div>` : ""}
+        </div>
+        <div class="paper-body">
+          <div class="paper-category">${escapeHTML(paper.category)}</div>
+          <h2 class="paper-title">${escapeHTML(paper.title)}</h2>
+          <p class="paper-abstract">${escapeHTML(createAbstract(paper))}</p>
+          <div class="paper-meta">
+            <span>${escapeHTML(formatDate(paper.published_at))}</span>
+            <span>${escapeHTML(paper.source_name)}</span>
+          </div>
+        </div>
+      `;
+    }
 
     const open = () => openDetail(paper, article);
     article.addEventListener("click", open);
@@ -522,7 +604,7 @@
 
   function renderFilters() {
     filtersEl.innerHTML = "";
-    const categories = [...new Set(allPapers.map((p) => p.category))];
+    const categories = [...new Set(currentPool().map((p) => p.category))];
     if (categories.length < 2) { activeCategory = null; return; }
 
     filtersEl.appendChild(makeChip("ALL", null));
