@@ -1,5 +1,104 @@
 [
   {
+    "title": "Generative Design Optimizes Cooling Channels for 2.5D and 3D Chips",
+    "summary": "Researchers published a physics-guided generative design framework for liquid cooling channel topology optimization in multi-chip packages.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/generative-design-optimizes-liquid-cooling-channels-for-2-5d-and-3d-packages-um-dearborn/",
+    "published_at": "2026-08-28T17:34:14+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396343+00:00"
+  },
+  {
+    "title": "East West Rail Deploys Thermal Drones for Site Clearance",
+    "summary": "East West Rail introduced thermal-imaging drones into pre-construction ecological surveys to accelerate site clearance and protect wildlife.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ewr-and-keir-deploy-drones-to-ease-site-clearance-and-protect-wildlife-28-08-2026/",
+    "published_at": "2026-08-28T11:14:04+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396355+00:00"
+  },
+  {
+    "title": "3D Systems and SRNL Partner on Additive Manufacturing",
+    "summary": "The collaboration will advance materials, AI-enabled process optimization, and workforce training for energy and national security applications.",
+    "category": "Materials",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/3d-systems-and-srnl-partner-on-additive-manufacturing-research/",
+    "published_at": "2026-08-28T10:24:45+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396359+00:00"
+  },
+  {
+    "title": "Laser Pulses and X-Rays Reveal Microscale Heat Dissipation Impact",
+    "summary": "Laser pulses and X-ray imaging reveal the surprising impact of micron-scale material defects on heat dissipation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
+    "published_at": "2026-08-28T07:00:00+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396363+00:00"
+  },
+  {
+    "title": "Sail-Powered Drone Fires Guided Missiles in US Navy Test",
+    "summary": "The Saildrone Surveyor Unmanned Surface Vessel successfully fired two Joint Air-to-Ground Missiles during a naval exercise.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/saildrone-guided-missiles-us-navy-rimpac/",
+    "published_at": "2026-08-28T01:34:08+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396367+00:00"
+  },
+  {
+    "title": "Achieving Long-Cycling Silicon-Based All-Solid-State Batteries",
+    "summary": "Researchers developed mitigation strategies achieving near-zero stress variation and high capacity retention in silicon-based all-solid-state batteries.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/204d31c5a36f9d905402ceaa4d099f02abae66ed",
+    "published_at": "2026-08-28T00:00:00+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396371+00:00"
+  },
+  {
+    "title": "First Benchmarks Revealed for OpenAI Jalapeño AI Accelerator",
+    "summary": "OpenAI detailed Jalapeño, a purpose-built general purpose AI accelerator ASIC designed from scratch for AI workloads.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
+    "published_at": "2026-08-27T22:14:16+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396388+00:00"
+  },
+  {
+    "title": "New Machine-Learning Framework Improves Protein Design",
+    "summary": "A new machine-learning framework aims to improve computational protein design success rates without reproducing natural sequences.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
+    "published_at": "2026-08-27T19:20:00+00:00",
+    "fetched_at": "2026-08-28T21:22:10.396391+00:00"
+  },
+  {
+    "title": "Qualcomm Backs Open-Source AI Software to Challenge Nvidia",
+    "summary": "Modular aims to separate AI software from silicon choice, giving Qualcomm and other challengers a shot at Nvidia-dominated workloads.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
+    "published_at": "2026-08-27T18:09:20+00:00",
+    "fetched_at": "2026-08-28T21:22:13.105800+00:00"
+  },
+  {
+    "title": "Embodied Scene Rearrangement Planning Benchmark Introduced",
+    "summary": "Researchers introduce ESRP and ESRP-Bench to evaluate embodied agents on rearranging furniture in 3D scenes using egocentric observations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2608.27371v1",
+    "published_at": "2026-08-27T17:08:40+00:00",
+    "fetched_at": "2026-08-28T21:22:13.105808+00:00"
+  },
+  {
+    "title": "SpaceX Loads Starship onto Ship in Indian Ocean",
+    "summary": "SpaceX has loaded Flight 13's Starship upper stage onto a ship in the Indian Ocean for transport back to Texas.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/starship-is-coming-home-spacex-loads-floating-spacecraft-onto-huge-ship-in-the-indian-ocean-photos",
+    "published_at": "2026-08-27T16:45:12+00:00",
+    "fetched_at": "2026-08-28T21:22:13.105814+00:00"
+  },
+  {
     "title": "Bedrock Robotics Deploys Autonomous Excavators",
     "summary": "Bedrock Robotics deploys autonomous excavators to active construction job sites to tackle labor shortages using AI-powered heavy machinery.",
     "category": "Robotics",
@@ -88,185 +187,5 @@
     "source_url": "https://www.newcivilengineer.com/in-depth/cfd-modelling-promises-bridge-scour-prevention-cost-efficiencies-for-network-rail-26-08-2026/",
     "published_at": "2026-08-26T03:00:54+00:00",
     "fetched_at": "2026-08-26T14:36:44.123881+00:00"
-  },
-  {
-    "title": "Ingestible Sensor Tracks Core Temperature",
-    "summary": "MIT engineers have created an ingestible temperature sensor measuring six by four millimeters that can send continuous core body temperature updates.",
-    "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/08/25/1140952/taking-your-temperature-from-the-inside/",
-    "published_at": "2026-08-25T21:00:00+00:00",
-    "fetched_at": "2026-08-26T05:40:25.552463+00:00"
-  },
-  {
-    "title": "Electra Hybrid Aircraft Moves from Lab to Factory",
-    "summary": "Electra’s hybrid, fixed-wing aircraft project, originating from an MIT classroom, has arrived at an Ohio factory.",
-    "category": "Aerospace",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/electra-aircraft-departs-mit-classroom-and-arrives-at-ohio-factory-0825",
-    "published_at": "2026-08-25T20:00:00+00:00",
-    "fetched_at": "2026-08-26T14:36:44.123888+00:00"
-  },
-  {
-    "title": "WorldSync Improves Robotic World Models",
-    "summary": "Researchers introduce WorldSync to align action-conditioned generation in robotic world models, improving policy evaluation and robot task success rates.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24885v1",
-    "published_at": "2026-08-25T17:59:49+00:00",
-    "fetched_at": "2026-08-26T05:40:25.552475+00:00"
-  },
-  {
-    "title": "LAWA Architecture Enhances Robot Future Imagination",
-    "summary": "LAWA uses compact latent actions to enable efficient test-time future imagination in world action models, improving robot control and success rates.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24882v1",
-    "published_at": "2026-08-25T17:59:03+00:00",
-    "fetched_at": "2026-08-26T05:40:25.552481+00:00"
-  },
-  {
-    "title": "Coherent Direct D-MIMO Localization Framework",
-    "summary": "Researchers present a unified family of Bayesian state-space filters for wideband near-field D-MIMO systems that operate directly on noisy channel observations.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24880v1",
-    "published_at": "2026-08-25T17:58:07+00:00",
-    "fetched_at": "2026-08-26T05:40:25.552487+00:00"
-  },
-  {
-    "title": "Energy-Aware CNF Placement in O-RAN Edges",
-    "summary": "This research investigates energy-aware joint placement and migration of cloud-native functions in an O-RAN edge cloud to minimize server and transmission energy.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24841v1",
-    "published_at": "2026-08-25T17:30:46+00:00",
-    "fetched_at": "2026-08-26T05:40:25.552519+00:00"
-  },
-  {
-    "title": "Westinghouse Achieves Criticality for eVinci Microreactor",
-    "summary": "Westinghouse Electric Company successfully completed zero-power criticality testing for its eVinci microreactor in Nevada.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/smrs/westinghouse-achieves-zero-power-criticality-with-its-evinci-microreactor/",
-    "published_at": "2026-08-25T17:24:00+00:00",
-    "fetched_at": "2026-08-26T14:36:44.123892+00:00"
-  },
-  {
-    "title": "Doubly Non-Negative Relaxations for Neural Network Verification",
-    "summary": "Researchers proposed an eigenvalue maximization procedure to solve tight doubly non-negative program relaxations for verifying deep neural networks.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24743v1",
-    "published_at": "2026-08-25T15:48:32+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095830+00:00"
-  },
-  {
-    "title": "One-Shot Learning from Demonstration for Contact-Rich Tasks",
-    "summary": "A new learning from demonstration method uses explicitly modeled physical interactions to enable robots to execute complex contact-rich tasks from a single demonstration.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24741v1",
-    "published_at": "2026-08-25T15:48:03+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095839+00:00"
-  },
-  {
-    "title": "New Sub-$1,700 Humanoid Robot Debuts",
-    "summary": "A San Francisco startup introduced a household humanoid robot priced at under $1,700 to handle chores like laundry and tidying.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/robotics/household-robot-chores-nori-a3/",
-    "published_at": "2026-08-25T15:47:29+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095844+00:00"
-  },
-  {
-    "title": "Fiber Bragg Grating Whiskers for Underwater Robots",
-    "summary": "Researchers developed bioinspired FBR whiskers with non-uniform tapers to help underwater robots track hydrodynamic trails and detect vortices.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24724v1",
-    "published_at": "2026-08-25T15:37:33+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095849+00:00"
-  },
-  {
-    "title": "GaussianWAM Integrates Geometry and Semantics in World-Action Models",
-    "summary": "GaussianWAM distills geometric and semantic supervision from 3D Gaussian fields into world-action models to improve robotic manipulation performance.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24714v1",
-    "published_at": "2026-08-25T15:34:13+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095852+00:00"
-  },
-  {
-    "title": "DeepONet-LSTM Operator for PDE Output Feedback Control",
-    "summary": "A hybrid DeepONet-LSTM neural operator is proposed to approximate causal boundary operators for the output feedback stabilization of reaction diffusion PDEs.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24699v1",
-    "published_at": "2026-08-25T15:23:19+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095856+00:00"
-  },
-  {
-    "title": "Efficient W-/D-Band Power Amplifier in 130 nm SiGe BiCMOS",
-    "summary": "A wideband power amplifier designed in a 130-nm SiGe BiCMOS process achieves a small-signal gain bandwidth of 71-133 GHz.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24687v1",
-    "published_at": "2026-08-25T15:16:37+00:00",
-    "fetched_at": "2026-08-26T14:36:48.095860+00:00"
-  },
-  {
-    "title": "Ultra-Compact V-Band Power Amplifier Developed in 22nm FD-SOI",
-    "summary": "Researchers designed a differential V-band power amplifier using EDMOS transistors in 22nm FD-SOI CMOS, achieving high power density and efficiency.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24686v1",
-    "published_at": "2026-08-25T15:15:50+00:00",
-    "fetched_at": "2026-08-26T14:36:52.028837+00:00"
-  },
-  {
-    "title": "NanoAvionics Launches MP42H Microsatellite Bus",
-    "summary": "Kongsberg NanoAvionics is introducing its Gen-2 MP42 family of modular microsatellite buses designed for optical or SAR imaging missions.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/nanoavionics-introduces-flagship-mp42h-microsatellite-bus-2026-08/",
-    "published_at": "2026-08-25T14:57:02+00:00",
-    "fetched_at": "2026-08-26T05:40:31.996943+00:00"
-  },
-  {
-    "title": "Unvoiced Speech Regions Improve Audio Deepfake Detection",
-    "summary": "A study shows that analyzing unvoiced speech components using a graph attention detection system significantly improves deepfake audio detection accuracy.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24639v1",
-    "published_at": "2026-08-25T14:49:55+00:00",
-    "fetched_at": "2026-08-26T14:36:52.028848+00:00"
-  },
-  {
-    "title": "Dual-Based Weight Selection for Approximate Linear Programming",
-    "summary": "A new dual-based method avoids separate greedy-action calculations in approximate linear programming, reducing sensitivity to fixed weights and lowering computational costs.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24629v1",
-    "published_at": "2026-08-25T14:44:44+00:00",
-    "fetched_at": "2026-08-26T14:36:52.028852+00:00"
-  },
-  {
-    "title": "Variation-Based Iterative Learning for Robotic Navigation",
-    "summary": "A novel variation-based planning framework enables efficient motion planning for single robots and swarms by updating commands in an infinite-dimensional function space.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24618v1",
-    "published_at": "2026-08-25T14:38:20+00:00",
-    "fetched_at": "2026-08-26T14:36:52.028855+00:00"
-  },
-  {
-    "title": "Gripper-Aware Vision Language Action Models for Robotics",
-    "summary": "Researchers introduce MiGA, a multi-gripper dataset, and GVLA, a model that improves robotic manipulation across diverse gripper types and interaction strategies.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.24603v1",
-    "published_at": "2026-08-25T14:24:51+00:00",
-    "fetched_at": "2026-08-26T14:36:52.028859+00:00"
   }
 ]
