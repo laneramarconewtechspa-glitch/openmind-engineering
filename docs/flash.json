@@ -1,39 +1,75 @@
 [
   {
-    "title": "Generative Design Optimizes Cooling for 2.5D and 3D Packages",
-    "summary": "Researchers published a paper detailing a physics-guided generative design framework for liquid cooling channel topology optimization in multi-chip packages.",
+    "title": "BYD Unveils PHEV Crossover With 1,430-Mile Range",
+    "summary": "BYD announced its latest crossover SUV, the FCB Ti 9, which promises a combined range of 1,430 miles.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/byds-fcb-ti9/",
+    "published_at": "2026-08-29T09:03:00+00:00",
+    "fetched_at": "2026-08-29T10:41:40.676282+00:00"
+  },
+  {
+    "title": "New Algorithm Designs Expandable 3D Lattices",
+    "summary": "Researchers from Harvard and Tokyo University developed collapsible scissored surfaces and pantographic lattices inspired by origami and kirigami.",
+    "category": "Materials",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/materials/hoberman-spheres-scissor-jointed-collapsible-shapes/",
+    "published_at": "2026-08-29T06:03:00+00:00",
+    "fetched_at": "2026-08-29T10:41:40.676296+00:00"
+  },
+  {
+    "title": "Generative Design Optimizes Liquid-Cooling Channels",
+    "summary": "University of Michigan-Dearborn researchers published a physics-guided generative design framework for liquid cooling channel topology optimization in advanced packaging.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/generative-design-optimizes-liquid-cooling-channels-for-2-5d-and-3d-packages-um-dearborn/",
     "published_at": "2026-08-28T17:34:14+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027819+00:00"
+    "fetched_at": "2026-08-29T10:41:40.676303+00:00"
   },
   {
     "title": "Atomica Launches AI Thermal Microstructures Platform",
-    "summary": "The new platform integrates microfluidic cooling, sensing, and wafer-level packaging for photonic and AI hardware.",
+    "summary": "Atomica introduced a platform combining microfluidic cooling, sensing, and wafer-level packaging for advanced AI and photonic hardware.",
     "category": "Electronics & Semiconductors",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/atomica-introduces-ai-thermal-microstructures-platform/",
     "published_at": "2026-08-28T14:02:44+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027833+00:00"
+    "fetched_at": "2026-08-29T10:41:40.676308+00:00"
   },
   {
-    "title": "Drones Deployed for Railway Site Clearance and Wildlife Protection",
-    "summary": "East West Rail introduced thermal-imaging drones to accelerate pre-construction ecological surveys and reduce wildlife disturbance.",
+    "title": "Locus Robotics Acquires Nexera Robotics",
+    "summary": "Locus Robotics acquired Nexera Robotics to bolster its manipulation capabilities using soft picking technology.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/",
+    "published_at": "2026-08-28T13:29:51+00:00",
+    "fetched_at": "2026-08-29T10:41:40.676313+00:00"
+  },
+  {
+    "title": "EWR and Keir Deploy Drones for Site Clearance",
+    "summary": "East West Rail deployed thermal-imaging drones in pre-construction ecological surveys to accelerate site clearance and protect wildlife.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/ewr-and-keir-deploy-drones-to-ease-site-clearance-and-protect-wildlife-28-08-2026/",
     "published_at": "2026-08-28T11:14:04+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027840+00:00"
+    "fetched_at": "2026-08-29T10:41:40.676317+00:00"
   },
   {
     "title": "3D Systems and SRNL Partner on Additive Manufacturing",
-    "summary": "The collaboration aims to advance materials, AI-driven process optimization, and workforce training for national security and energy applications.",
-    "category": "Materials",
+    "summary": "3D Systems and SRNL partnered to advance materials, AI-enabled process optimization, and workforce training for energy and national security applications.",
+    "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/3d-systems-and-srnl-partner-on-additive-manufacturing-research/",
     "published_at": "2026-08-28T10:24:45+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027844+00:00"
+    "fetched_at": "2026-08-29T10:41:40.676321+00:00"
+  },
+  {
+    "title": "Weisun Adds Single-Panel Curing and Annealing Oven",
+    "summary": "Weisun added a 310mm x 310mm chamber to its AQWOL-5S range for fan-out panel level packaging lines.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/curing-and-annealing-oven-is-sized-for-single-panel-format-2026-08/",
+    "published_at": "2026-08-28T08:16:38+00:00",
+    "fetched_at": "2026-08-29T10:41:40.676326+00:00"
   },
   {
     "title": "Laser Pulses and X-Rays Reveal Micron-Scale Defect Impact",
@@ -160,59 +196,5 @@
     "source_url": "https://www.electronicsweekly.com/news/products/connectors/f-c-lanes-compact-connectors-target-evolving-drone-market-2026-08/",
     "published_at": "2026-08-26T10:55:35+00:00",
     "fetched_at": "2026-08-26T14:36:13.943125+00:00"
-  },
-  {
-    "title": "Nvidia Releases Jetson Orin Nano 2 Computer",
-    "summary": "Nvidia announced the Jetson Orin Nano 2, an entry-level robotics computer delivering twice the inference performance of the previous Super model.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/bus-systems-sbcs/nvidia-unleashes-robotics-computer-set-for-entry-level-edge-ai-2026-08/",
-    "published_at": "2026-08-26T09:53:44+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943130+00:00"
-  },
-  {
-    "title": "Genesis Recognized for Agentic Data Engineering",
-    "summary": "The Genesis platform, which operates in customer-managed environments and includes AI agent verification tools, was featured in a Gartner report.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/genesis-recognized-in-gartner-report-for-agentic-data-engineering/",
-    "published_at": "2026-08-26T09:26:06+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943135+00:00"
-  },
-  {
-    "title": "VolkerRail Finishes Charing Cross Engineering Programme",
-    "summary": "VolkerRail completed a 22-day engineering programme during a route closure, allowing Charing Cross and Waterloo East stations to reopen.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/volkerrail-completes-22-day-charing-cross-and-waterloo-east-engineering-programme-26-08-2026/",
-    "published_at": "2026-08-26T07:46:30+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943139+00:00"
-  },
-  {
-    "title": "ASIP Begins OSAT Facility Construction in India",
-    "summary": "ASIP Technologies has started building a new OSAT facility in Visakhapatnam in partnership with Korean firm APACT.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/indias-osat-atmp-build-out-from-legacy-packages-to-2-5d/",
-    "published_at": "2026-08-26T07:00:00+00:00",
-    "fetched_at": "2026-08-26T14:36:44.123867+00:00"
-  },
-  {
-    "title": "SpaceX Unveils Starbase Spaceport in Louisiana",
-    "summary": "SpaceX has announced plans for Starbase, Louisiana, described as the largest private spaceport globally.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/08/starbase-louisiana-largest-private-spaceport-world/",
-    "published_at": "2026-08-26T03:56:21+00:00",
-    "fetched_at": "2026-08-26T14:36:44.123876+00:00"
-  },
-  {
-    "title": "CFD Modelling Cuts Network Rail Bridge Scour Costs",
-    "summary": "Computational fluid dynamics modelling is improving asset assessment accuracy and reducing bridge scour prevention costs for Network Rail.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/in-depth/cfd-modelling-promises-bridge-scour-prevention-cost-efficiencies-for-network-rail-26-08-2026/",
-    "published_at": "2026-08-26T03:00:54+00:00",
-    "fetched_at": "2026-08-26T14:36:44.123881+00:00"
   }
 ]
