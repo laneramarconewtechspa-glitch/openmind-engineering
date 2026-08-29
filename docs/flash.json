@@ -1,30 +1,39 @@
 [
   {
-    "title": "BYD Unveils PHEV Crossover With 1,430-Mile Range",
-    "summary": "BYD announced its latest crossover SUV, the FCB Ti 9, which promises a combined range of 1,430 miles.",
-    "category": "Mechanical",
+    "title": "Power Management in Swarm Robotics",
+    "summary": "A robotic swarm can use centralized or decentralized power management, though a hybrid approach may offer the best solution.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
+    "published_at": "2026-08-29T12:25:31+00:00",
+    "fetched_at": "2026-08-29T16:14:02.397201+00:00"
+  },
+  {
+    "title": "BYD Unveils PHEV Crossover with 1,430-Mile Range",
+    "summary": "BYD announced its latest crossover SUV, the BYD FCB Ti 9, promising a combined range of 1,430 miles.",
+    "category": "Energy",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/automotive/byds-fcb-ti9/",
     "published_at": "2026-08-29T09:03:00+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676282+00:00"
+    "fetched_at": "2026-08-29T16:14:02.397213+00:00"
   },
   {
     "title": "New Algorithm Designs Expandable 3D Lattices",
-    "summary": "Researchers from Harvard and Tokyo University developed collapsible scissored surfaces and pantographic lattices inspired by origami and kirigami.",
+    "summary": "Researchers developed expandable structures inspired by origami and kirigami that use rods and scissored joints to shift shape.",
     "category": "Materials",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/materials/hoberman-spheres-scissor-jointed-collapsible-shapes/",
     "published_at": "2026-08-29T06:03:00+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676296+00:00"
+    "fetched_at": "2026-08-29T16:14:02.397219+00:00"
   },
   {
-    "title": "Generative Design Optimizes Liquid-Cooling Channels",
-    "summary": "University of Michigan-Dearborn researchers published a physics-guided generative design framework for liquid cooling channel topology optimization in advanced packaging.",
+    "title": "Generative Design Optimizes 2.5D and 3D Cooling",
+    "summary": "Researchers published a physics-guided generative design framework for liquid cooling channel topology optimization in multi-chip packages.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/generative-design-optimizes-liquid-cooling-channels-for-2-5d-and-3d-packages-um-dearborn/",
     "published_at": "2026-08-28T17:34:14+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676303+00:00"
+    "fetched_at": "2026-08-29T16:14:02.397223+00:00"
   },
   {
     "title": "Atomica Launches AI Thermal Microstructures Platform",
@@ -45,22 +54,31 @@
     "fetched_at": "2026-08-29T10:41:40.676313+00:00"
   },
   {
-    "title": "EWR and Keir Deploy Drones for Site Clearance",
-    "summary": "East West Rail deployed thermal-imaging drones in pre-construction ecological surveys to accelerate site clearance and protect wildlife.",
+    "title": "Birmingham Floods Highlight Urban Drainage Challenges",
+    "summary": "Recent flash flooding in Birmingham exposed the limitations of existing sewer networks and sparked debate over urban drainage management.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/birmingham-flash-floods-underline-need-for-surface-first-approach-to-urban-drainage-specialist-warns-28-08-2026/",
+    "published_at": "2026-08-28T12:57:06+00:00",
+    "fetched_at": "2026-08-29T16:14:02.397227+00:00"
+  },
+  {
+    "title": "Thermal Drones Deployed for Railway Site Surveys",
+    "summary": "East West Rail deployed thermal-imaging drones for pre-construction ecological surveys to accelerate site clearance and protect wildlife.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/ewr-and-keir-deploy-drones-to-ease-site-clearance-and-protect-wildlife-28-08-2026/",
     "published_at": "2026-08-28T11:14:04+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676317+00:00"
+    "fetched_at": "2026-08-29T16:14:02.397230+00:00"
   },
   {
     "title": "3D Systems and SRNL Partner on Additive Manufacturing",
-    "summary": "3D Systems and SRNL partnered to advance materials, AI-enabled process optimization, and workforce training for energy and national security applications.",
+    "summary": "The partnership will advance materials, AI-enabled process optimization, and workforce training for energy and national security applications.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/3d-systems-and-srnl-partner-on-additive-manufacturing-research/",
     "published_at": "2026-08-28T10:24:45+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676321+00:00"
+    "fetched_at": "2026-08-29T16:14:02.397234+00:00"
   },
   {
     "title": "Weisun Adds Single-Panel Curing and Annealing Oven",
@@ -160,41 +178,5 @@
     "source_url": "https://arxiv.org/abs/2608.27282v1",
     "published_at": "2026-08-27T15:54:32+00:00",
     "fetched_at": "2026-08-28T22:01:36.838251+00:00"
-  },
-  {
-    "title": "Bedrock Robotics Deploys Autonomous Excavators",
-    "summary": "Bedrock Robotics deploys autonomous excavators to active construction job sites to tackle labor shortages using AI-powered heavy machinery.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
-    "published_at": "2026-08-26T13:51:51+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943102+00:00"
-  },
-  {
-    "title": "Goodfire Opens AI Interpretability Platform to Public",
-    "summary": "Goodfire has released its Silico platform, offering mechanistic interpretability tools to help users peer inside and understand AI model behavior.",
-    "category": "Computing",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/silico-ai-interpretability",
-    "published_at": "2026-08-26T12:00:01+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943116+00:00"
-  },
-  {
-    "title": "Earthquake Sensors Record Hurricane Infrasound Signals",
-    "summary": "Researchers found that seismoacoustic earthquake sensors can detect infrasound and mechanical vibrations produced by turbulent hurricane winds.",
-    "category": "Civil & Infrastructure",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/earthquake-sensor-hurricanes",
-    "published_at": "2026-08-26T11:00:01+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943121+00:00"
-  },
-  {
-    "title": "Lane Electronics Offers Compact Connectors for UAVs",
-    "summary": "Lane Electronics is supplying Weald Electronics compact LM200 connector systems designed to address the evolving unmanned aerial vehicle market.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/connectors/f-c-lanes-compact-connectors-target-evolving-drone-market-2026-08/",
-    "published_at": "2026-08-26T10:55:35+00:00",
-    "fetched_at": "2026-08-26T14:36:13.943125+00:00"
   }
 ]
