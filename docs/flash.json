@@ -45,13 +45,22 @@
     "fetched_at": "2026-08-30T09:37:55.264989+00:00"
   },
   {
-    "title": "M3D 6T SRAM With BEOL Pass-Gates at 2nm",
-    "summary": "Researchers proposed a monolithic-3D 6T SRAM at the 2nm node integrating BEOL IGO pass-gates with an all-silicon nanosheet latch.",
+    "title": "M3D 6T SRAM With BEOL Pass-Gates Proposed for 2nm Node",
+    "summary": "Researchers from Georgia Tech and Synopsys published a technical paper proposing a monolithic-3D 6T SRAM at the 2nm node integrating BEOL pass-gates.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
     "published_at": "2026-08-30T07:04:34+00:00",
-    "fetched_at": "2026-08-30T09:37:55.264992+00:00"
+    "fetched_at": "2026-08-30T15:48:06.019272+00:00"
+  },
+  {
+    "title": "Molecular Dynamics Study Explains Aluminum Dopant Activation in 4H-SiC",
+    "summary": "Researchers from TU Wien and Silvaco Europe published a molecular dynamics study investigating aluminum dopant activation in 4H-SiC.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/molecular-dynamics-study-explains-aluminum-dopant-activation-in-4h-sic-tu-wien-silvaco/",
+    "published_at": "2026-08-30T07:01:27+00:00",
+    "fetched_at": "2026-08-30T15:48:06.019284+00:00"
   },
   {
     "title": "BYD PHEV Crossover Promises 1430-Mile Range",
