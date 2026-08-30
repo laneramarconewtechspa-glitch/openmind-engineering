@@ -1,30 +1,66 @@
 [
   {
-    "title": "Power Management in Swarm Robotics",
-    "summary": "A robotic swarm can use centralized or decentralized power management, though a hybrid approach may offer the best solution.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/",
-    "published_at": "2026-08-29T12:25:31+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397201+00:00"
+    "title": "Alkali Activators in Fly Ash Geopolymer Concrete",
+    "summary": "Study examines how sodium hydroxide and sodium silicate ratios affect the mechanical and durability properties of fly ash-based geopolymer concrete.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fc8421be045194ca0b85fcfe8740d095f30d183b",
+    "published_at": "2026-08-31T00:00:00+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264965+00:00"
   },
   {
-    "title": "BYD Unveils PHEV Crossover with 1,430-Mile Range",
-    "summary": "BYD announced its latest crossover SUV, the BYD FCB Ti 9, promising a combined range of 1,430 miles.",
+    "title": "Self-Balancing Electric Unicycle Developed",
+    "summary": "Researchers designed a self-balancing electric unicycle using an open-source motor controller, IMU sensor, and PID control algorithm.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/cf0c606470f8553b8eed3606109808bdae6ab5af",
+    "published_at": "2026-08-31T00:00:00+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264976+00:00"
+  },
+  {
+    "title": "Mechanical Behaviour of Pipeline-Mounted Assemblies during S-Lay",
+    "summary": "Parametric finite element analyses characterize how pipeline-mounted structural assemblies amplify strain during stinger passage.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/2636dc58a4520b252911074609f200e4e46e34fc",
+    "published_at": "2026-08-31T00:00:00+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264981+00:00"
+  },
+  {
+    "title": "AI Prediction of Oil Formation Volume Factor",
+    "summary": "Super Learner and Deep Neural Network algorithms were trained to forecast oil formation volume factor for Niger Delta reservoir fluids.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/183505f4597a2ebc4385f57f5aeb2bfb9e1818c6",
+    "published_at": "2026-08-31T00:00:00+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264985+00:00"
+  },
+  {
+    "title": "Machine Learning Prediction of Gas-Oil Ratio",
+    "summary": "Machine learning models were trained to predict the solution gas-oil ratio for Niger Delta reservoir fluids below bubble point pressure.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/067063f122ed403920b8fbd9083a9bc521a1dd5b",
+    "published_at": "2026-08-31T00:00:00+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264989+00:00"
+  },
+  {
+    "title": "M3D 6T SRAM With BEOL Pass-Gates at 2nm",
+    "summary": "Researchers proposed a monolithic-3D 6T SRAM at the 2nm node integrating BEOL IGO pass-gates with an all-silicon nanosheet latch.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
+    "published_at": "2026-08-30T07:04:34+00:00",
+    "fetched_at": "2026-08-30T09:37:55.264992+00:00"
+  },
+  {
+    "title": "BYD PHEV Crossover Promises 1430-Mile Range",
+    "summary": "BYD's FCB Ti 9 crossover SUV offers a combined range of 1,430 miles.",
     "category": "Energy",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/automotive/byds-fcb-ti9/",
     "published_at": "2026-08-29T09:03:00+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397213+00:00"
-  },
-  {
-    "title": "New Algorithm Designs Expandable 3D Lattices",
-    "summary": "Researchers developed expandable structures inspired by origami and kirigami that use rods and scissored joints to shift shape.",
-    "category": "Materials",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/materials/hoberman-spheres-scissor-jointed-collapsible-shapes/",
-    "published_at": "2026-08-29T06:03:00+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397219+00:00"
+    "fetched_at": "2026-08-30T09:37:55.264996+00:00"
   },
   {
     "title": "Generative Design Optimizes 2.5D and 3D Cooling",
