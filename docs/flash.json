@@ -1,5 +1,140 @@
 [
   {
+    "title": "Karst Collapse Risk Assessment for Urban Metro Engineering",
+    "summary": "Researchers propose an integrated framework combining geological characterization and hydrodynamic simulation to assess karst collapse risks in urban metro engineering.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fdc508fceb9651824f04b7b104fb57a5c912db8a",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512375+00:00"
+  },
+  {
+    "title": "Porous Liquid Crystal Elastomers for Tunable Acoustics",
+    "summary": "Porous liquid crystal elastomers with reversible thermal-driven pore structures enable wide-range acoustic tuning and dynamic sound regulation.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fc35904b3fd1792b431dcb5eab38f896a0b38031",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512387+00:00"
+  },
+  {
+    "title": "Electronegative Linker Engineering in MOFs for Catalysis",
+    "summary": "Researchers designed Pt@UiO-66-X model catalysts to reveal how organic ligand electronegativity enhances H2O2 activation for pesticide detection.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fb1019f596c46424e8f93d940939104358cab21a",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512393+00:00"
+  },
+  {
+    "title": "Back-Analysis Method for Shear Strength in Slopes",
+    "summary": "A new upper-bound back-analysis method uses slip surface continuity to determine shear strength parameters in double-layered slopes.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ec0c152a2b30f7e8912a1e21a34cf2b2c6f46380",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512398+00:00"
+  },
+  {
+    "title": "Passive Suppression of Gradual Opening in Wave Rotors",
+    "summary": "An unpartitioned inlet duct design improves fuel mixing and suppresses the gradual opening effect in wave rotor combustors.",
+    "category": "Aerospace",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e60f82747b7d989e7d98a2a298c0dc093568184c",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512403+00:00"
+  },
+  {
+    "title": "Limit-State Capacity Sampling in Seismic Fragility",
+    "summary": "A unified probabilistic framework compares capacity sampling models to prevent systematic biases in simulation-based seismic damage distributions.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e54f6d82bb0faf7ec512228d1cb5234e10fb0694",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512408+00:00"
+  },
+  {
+    "title": "Gate-Side Hydrogen Regulation in ITO FETs",
+    "summary": "An in-situ NiO interlayer regulates gate-side hydrogen to significantly reduce threshold-voltage shifts in ITO field-effect transistors.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e4e671dee4ff725c64cfe3eb6afc8ce0fa0164e2",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512412+00:00"
+  },
+  {
+    "title": "Phosphorylated Chitin Composite for Bone Repair",
+    "summary": "A novel composite integrating phosphorylated chitin with hydroxyapatite promotes angiogenesis and osteogenesis for effective bone defect repair.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e36ab99fa6ffc651085a62dee2a3701cd31307ad",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512416+00:00"
+  },
+  {
+    "title": "Portable Micro-Indentation Instrument for Structures",
+    "summary": "A new portable micro-indentation instrument accurately tests the mechanical properties of in-service engineering structures with high-resolution depth measurement.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e0dc2df650f180d9c13c69983c00d0c21dd2c6f8",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512420+00:00"
+  },
+  {
+    "title": "Predicting Soil Plug Development in Steel Pipe Piles",
+    "summary": "The coupled Eulerian-Lagrangian method is used to investigate soil plug development and penetration resistance for large-diameter steel pipe piles in clay.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/dfc2c427f12b8b15017c001e021766ea8d5d972d",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:43.512424+00:00"
+  },
+  {
+    "title": "Digital Image Correlation Improves Concrete Model Validation",
+    "summary": "Researchers compared concrete constitutive models using digital image correlation and found that the strain-dependent Massicotte model aligns best with experimental crack patterns.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/dc08463ebb3c3dc5e000ef678d0f06148f2e6947",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:46.972858+00:00"
+  },
+  {
+    "title": "Optimizing High-Speed Railway Turnout Stiffness",
+    "summary": "A modified genetic algorithm optimizes high-speed rail turnout stiffness, improving mechanical performance and reducing wheel-rail contact forces.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/daf06780efdd9098204d941b361661c3eb81e1f3",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:46.972868+00:00"
+  },
+  {
+    "title": "Analyzing Stability Switching in BAM Neural Networks",
+    "summary": "This article investigates stability switching and Hopf bifurcation in fractional-order bidirectional associative memory neural networks featuring higher-order interactions.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d32698b300e79274b8b92d8e1cee380770703580",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:46.972873+00:00"
+  },
+  {
+    "title": "Geopolymer-Stabilized Pond Ash for Pavements",
+    "summary": "Studies show that geopolymer additives improve the hydromechanical properties of pond ash, making it a sustainable and effective pavement base material.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c96536163beedd2e95bd92a760e2a1b419baa798",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:46.972878+00:00"
+  },
+  {
+    "title": "Automating Numerical Analysis in Geotechnical Design",
+    "summary": "An AI-assisted workflow integrating Python and finite element modeling automates geotechnical analyses to improve design efficiency and evaluate hundreds of scenarios.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b14e687a5f4589c03182529865adae4d14c1b3f4",
+    "published_at": "2026-09-01T00:00:00+00:00",
+    "fetched_at": "2026-08-31T18:36:46.972882+00:00"
+  },
+  {
     "title": "Advanced Cooling Tech Tackles Automotive Heat Challenge",
     "summary": "New cooling technologies are emerging to handle higher automotive heat fluxes from electric drivetrains, AI processors, and autonomous systems.",
     "category": "Electronics & Semiconductors",
@@ -97,59 +232,5 @@
     "source_url": "https://newatlas.com/automotive/byds-fcb-ti9/",
     "published_at": "2026-08-29T09:03:00+00:00",
     "fetched_at": "2026-08-30T09:37:55.264996+00:00"
-  },
-  {
-    "title": "Generative Design Optimizes 2.5D and 3D Cooling",
-    "summary": "Researchers published a physics-guided generative design framework for liquid cooling channel topology optimization in multi-chip packages.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/generative-design-optimizes-liquid-cooling-channels-for-2-5d-and-3d-packages-um-dearborn/",
-    "published_at": "2026-08-28T17:34:14+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397223+00:00"
-  },
-  {
-    "title": "Atomica Launches AI Thermal Microstructures Platform",
-    "summary": "Atomica introduced a platform combining microfluidic cooling, sensing, and wafer-level packaging for advanced AI and photonic hardware.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/atomica-introduces-ai-thermal-microstructures-platform/",
-    "published_at": "2026-08-28T14:02:44+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676308+00:00"
-  },
-  {
-    "title": "Locus Robotics Acquires Nexera Robotics",
-    "summary": "Locus Robotics acquired Nexera Robotics to bolster its manipulation capabilities using soft picking technology.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/",
-    "published_at": "2026-08-28T13:29:51+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676313+00:00"
-  },
-  {
-    "title": "Birmingham Floods Highlight Urban Drainage Challenges",
-    "summary": "Recent flash flooding in Birmingham exposed the limitations of existing sewer networks and sparked debate over urban drainage management.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/birmingham-flash-floods-underline-need-for-surface-first-approach-to-urban-drainage-specialist-warns-28-08-2026/",
-    "published_at": "2026-08-28T12:57:06+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397227+00:00"
-  },
-  {
-    "title": "Thermal Drones Deployed for Railway Site Surveys",
-    "summary": "East West Rail deployed thermal-imaging drones for pre-construction ecological surveys to accelerate site clearance and protect wildlife.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/ewr-and-keir-deploy-drones-to-ease-site-clearance-and-protect-wildlife-28-08-2026/",
-    "published_at": "2026-08-28T11:14:04+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397230+00:00"
-  },
-  {
-    "title": "3D Systems and SRNL Partner on Additive Manufacturing",
-    "summary": "The partnership will advance materials, AI-enabled process optimization, and workforce training for energy and national security applications.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/3d-systems-and-srnl-partner-on-additive-manufacturing-research/",
-    "published_at": "2026-08-28T10:24:45+00:00",
-    "fetched_at": "2026-08-29T16:14:02.397234+00:00"
   }
 ]
