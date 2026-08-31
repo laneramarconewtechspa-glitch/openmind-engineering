@@ -1,5 +1,23 @@
 [
   {
+    "title": "Advanced Cooling Tech Tackles Automotive Heat Challenge",
+    "summary": "New cooling technologies are emerging to handle higher automotive heat fluxes from electric drivetrains, AI processors, and autonomous systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
+    "published_at": "2026-08-31T07:46:55+00:00",
+    "fetched_at": "2026-08-31T10:17:42.677293+00:00"
+  },
+  {
+    "title": "Elastocaloric Cooling Proposed to Replace Aircon",
+    "summary": "Elastocaloric cooling uses mechanical stress on shape memory alloys like nitinol to generate air conditioning using minimal electricity.",
+    "category": "Mechanical",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/elastocaloric-cooling-could-replace-aircon-2026-08/",
+    "published_at": "2026-08-31T05:16:56+00:00",
+    "fetched_at": "2026-08-31T10:17:42.677306+00:00"
+  },
+  {
     "title": "Alkali Activators in Fly Ash Geopolymer Concrete",
     "summary": "Study examines how sodium hydroxide and sodium silicate ratios affect the mechanical and durability properties of fly ash-based geopolymer concrete.",
     "category": "Civil & Infrastructure",
@@ -45,22 +63,31 @@
     "fetched_at": "2026-08-30T09:37:55.264989+00:00"
   },
   {
-    "title": "M3D 6T SRAM With BEOL Pass-Gates Proposed for 2nm Node",
-    "summary": "Researchers from Georgia Tech and Synopsys published a technical paper proposing a monolithic-3D 6T SRAM at the 2nm node integrating BEOL pass-gates.",
+    "title": "Hybrid HBM-HBF Architecture Proposed for LLM Inference",
+    "summary": "Oxford researchers published a paper on using High-Bandwidth Flash alongside High-Bandwidth Memory to address capacity limitations in LLM inference systems.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hybrid-hbm-hbf-architecture-in-llm-inference-university-of-oxford/",
+    "published_at": "2026-08-30T07:06:37+00:00",
+    "fetched_at": "2026-08-31T10:17:42.677312+00:00"
+  },
+  {
+    "title": "M3D 6T SRAM With BEOL Pass-Gates Developed for 2nm Node",
+    "summary": "Researchers from Georgia Tech and Synopsys proposed a monolithic-3D 6T SRAM for the 2nm node integrating BEOL IGO pass-gates.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
     "published_at": "2026-08-30T07:04:34+00:00",
-    "fetched_at": "2026-08-30T15:48:06.019272+00:00"
+    "fetched_at": "2026-08-31T10:17:42.677317+00:00"
   },
   {
     "title": "Molecular Dynamics Study Explains Aluminum Dopant Activation in 4H-SiC",
-    "summary": "Researchers from TU Wien and Silvaco Europe published a molecular dynamics study investigating aluminum dopant activation in 4H-SiC.",
+    "summary": "Researchers from TU Wien and Silvaco Europe published a molecular dynamics study explaining aluminum dopant activation in 4H-SiC.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/molecular-dynamics-study-explains-aluminum-dopant-activation-in-4h-sic-tu-wien-silvaco/",
     "published_at": "2026-08-30T07:01:27+00:00",
-    "fetched_at": "2026-08-30T15:48:06.019284+00:00"
+    "fetched_at": "2026-08-31T10:17:42.677321+00:00"
   },
   {
     "title": "BYD PHEV Crossover Promises 1430-Mile Range",
@@ -124,104 +151,5 @@
     "source_url": "https://www.engineering.com/3d-systems-and-srnl-partner-on-additive-manufacturing-research/",
     "published_at": "2026-08-28T10:24:45+00:00",
     "fetched_at": "2026-08-29T16:14:02.397234+00:00"
-  },
-  {
-    "title": "Weisun Adds Single-Panel Curing and Annealing Oven",
-    "summary": "Weisun added a 310mm x 310mm chamber to its AQWOL-5S range for fan-out panel level packaging lines.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/curing-and-annealing-oven-is-sized-for-single-panel-format-2026-08/",
-    "published_at": "2026-08-28T08:16:38+00:00",
-    "fetched_at": "2026-08-29T10:41:40.676326+00:00"
-  },
-  {
-    "title": "Laser Pulses and X-Rays Reveal Micron-Scale Defect Impact",
-    "summary": "Advanced imaging techniques reveal the unexpected effects of microscale material defects on heat dissipation and power management.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
-    "published_at": "2026-08-28T07:00:00+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027849+00:00"
-  },
-  {
-    "title": "Achieving Long-Cycling Silicon Solid-State Batteries",
-    "summary": "Researchers developed stress-mitigation strategies that achieve near-zero stress variation and high cycling stability in silicon-based all-solid-state batteries.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/204d31c5a36f9d905402ceaa4d099f02abae66ed",
-    "published_at": "2026-08-28T00:00:00+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027854+00:00"
-  },
-  {
-    "title": "New Machine-Learning Framework for Protein Design",
-    "summary": "A machine-learning framework was introduced to enhance computational protein design without relying on natural sequences.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
-    "published_at": "2026-08-27T19:20:00+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027858+00:00"
-  },
-  {
-    "title": "Qualcomm Backs Open-Source AI Software to Challenge Nvidia",
-    "summary": "Qualcomm leverages modular open-source AI software to separate workloads from specific silicon choices and challenge Nvidia's dominance.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
-    "published_at": "2026-08-27T18:09:20+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027862+00:00"
-  },
-  {
-    "title": "Framework Identifies Critical Power Grid Measurement Nodes",
-    "summary": "A new framework evaluates power grid sensor vulnerability to identify critical measurement nodes susceptible to false data injection attacks.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.27393v1",
-    "published_at": "2026-08-27T17:24:46+00:00",
-    "fetched_at": "2026-08-28T22:01:34.027866+00:00"
-  },
-  {
-    "title": "Evaluating Property-Specific Recoverability in Camera rPPG",
-    "summary": "Researchers evaluated property-specific PPG-to-rPPG recoverability using 655 recordings, revealing that physiological properties differ in recording-specific preservation and environmental dependence.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.27392v1",
-    "published_at": "2026-08-27T17:23:14+00:00",
-    "fetched_at": "2026-08-28T22:01:36.838231+00:00"
-  },
-  {
-    "title": "Embodied Scene Rearrangement Planning Benchmark for Robots",
-    "summary": "This work introduces the Embodied Scene Rearrangement Planning task and ESRP-Bench to evaluate agents rearranging furniture using egocentric observations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.27371v1",
-    "published_at": "2026-08-27T17:08:40+00:00",
-    "fetched_at": "2026-08-28T22:01:36.838241+00:00"
-  },
-  {
-    "title": "SpaceX Loads Starship onto Ship in Indian Ocean",
-    "summary": "SpaceX has loaded Flight 13's Starship upper stage onto a ship in the Indian Ocean for transport back to Texas.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/starship-is-coming-home-spacex-loads-floating-spacecraft-onto-huge-ship-in-the-indian-ocean-photos",
-    "published_at": "2026-08-27T16:45:12+00:00",
-    "fetched_at": "2026-08-28T21:22:13.105814+00:00"
-  },
-  {
-    "title": "Historical and Engineering Reassessment of AC Phase Order",
-    "summary": "This paper reassesses why three-phase power became dominant in bulk AC transmission by analyzing power smoothness, conductor architecture, and historical factors.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.27325v1",
-    "published_at": "2026-08-27T16:24:28+00:00",
-    "fetched_at": "2026-08-28T22:01:36.838247+00:00"
-  },
-  {
-    "title": "Task-Aware Deformable Prediction for 3D Object Detection",
-    "summary": "Researchers propose a task-aware deformable prediction method for single-stage 3D object detection that adapts features for different tasks.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2608.27282v1",
-    "published_at": "2026-08-27T15:54:32+00:00",
-    "fetched_at": "2026-08-28T22:01:36.838251+00:00"
   }
 ]
