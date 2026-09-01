@@ -1,5 +1,32 @@
 [
   {
+    "title": "Advancing CFET Device Roadmap with Novel Integration Modules",
+    "summary": "Pioneering work develops critical CFET modules including an improved backside contact module and a novel gate stack for threshold voltage tuning.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations/",
+    "published_at": "2026-09-01T07:01:52+00:00",
+    "fetched_at": "2026-09-01T09:05:04.476483+00:00"
+  },
+  {
+    "title": "US Army Approves 20 Nuclear Micro-Reactors on Bases",
+    "summary": "The US Army authorized the construction of up to 20 nuclear micro-reactors across domestic military bases to provide reliable power.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/us-army-install-20-micro-reactors-military-bases/",
+    "published_at": "2026-09-01T06:47:46+00:00",
+    "fetched_at": "2026-09-01T09:05:04.476497+00:00"
+  },
+  {
+    "title": "New GaN-on-Si Transistor Withstands Nearly 4kV",
+    "summary": "A new Intrinsic Polarisation Super Junction transistor has been invented to prevent GaN transistor failures at very high voltages.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/new-transistor-withstands-nearly-4kv-before-breakdown-2026-09/",
+    "published_at": "2026-09-01T05:17:32+00:00",
+    "fetched_at": "2026-09-01T09:05:04.476503+00:00"
+  },
+  {
     "title": "Karst Collapse Risk Assessment for Urban Metro Engineering",
     "summary": "Researchers propose an integrated framework combining geological characterization and hydrodynamic simulation to assess karst collapse risks in urban metro engineering.",
     "category": "Civil & Infrastructure",
@@ -135,13 +162,40 @@
     "fetched_at": "2026-08-31T18:36:46.972882+00:00"
   },
   {
-    "title": "Advanced Cooling Tech Tackles Automotive Heat Challenge",
-    "summary": "New cooling technologies are emerging to handle higher automotive heat fluxes from electric drivetrains, AI processors, and autonomous systems.",
+    "title": "Skild AI Unveils S1 Robot Foundation Model",
+    "summary": "Skild AI launched its S1 robot foundation model, enabling robots to learn new tasks from demonstration videos.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
+    "published_at": "2026-08-31T21:14:08+00:00",
+    "fetched_at": "2026-09-01T09:05:04.476508+00:00"
+  },
+  {
+    "title": "Siemens Launches Eigen Engineering Agent in Thailand",
+    "summary": "Siemens launched an AI tool that connects with TIA Portal to support PLC coding, HMI visualization, and device configuration.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-launches-eigen-engineering-agent-in-thailand/",
+    "published_at": "2026-08-31T12:15:27+00:00",
+    "fetched_at": "2026-09-01T09:05:04.476513+00:00"
+  },
+  {
+    "title": "Massive Thermal Anomaly Discovered Beneath Martian Surface",
+    "summary": "Researchers discovered a large thermal anomaly under the surface of Mars, highlighting the planet's two distinct halves.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/scientists-discover-massive-thermal-anomaly-beneath-the-surface-of-mars",
+    "published_at": "2026-08-31T12:00:00+00:00",
+    "fetched_at": "2026-09-01T09:05:07.286404+00:00"
+  },
+  {
+    "title": "Advanced Cooling Technologies Tackle Automotive Heat Challenge",
+    "summary": "New cooling solutions are being developed to manage rising heat fluxes driven by electric drivetrains, AI processors, and autonomous systems.",
     "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
     "published_at": "2026-08-31T07:46:55+00:00",
-    "fetched_at": "2026-08-31T10:17:42.677293+00:00"
+    "fetched_at": "2026-09-01T09:05:07.286415+00:00"
   },
   {
     "title": "Elastocaloric Cooling Proposed to Replace Aircon",
@@ -214,23 +268,5 @@
     "source_url": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
     "published_at": "2026-08-30T07:04:34+00:00",
     "fetched_at": "2026-08-31T10:17:42.677317+00:00"
-  },
-  {
-    "title": "Molecular Dynamics Study Explains Aluminum Dopant Activation in 4H-SiC",
-    "summary": "Researchers from TU Wien and Silvaco Europe published a molecular dynamics study explaining aluminum dopant activation in 4H-SiC.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/molecular-dynamics-study-explains-aluminum-dopant-activation-in-4h-sic-tu-wien-silvaco/",
-    "published_at": "2026-08-30T07:01:27+00:00",
-    "fetched_at": "2026-08-31T10:17:42.677321+00:00"
-  },
-  {
-    "title": "BYD PHEV Crossover Promises 1430-Mile Range",
-    "summary": "BYD's FCB Ti 9 crossover SUV offers a combined range of 1,430 miles.",
-    "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/byds-fcb-ti9/",
-    "published_at": "2026-08-29T09:03:00+00:00",
-    "fetched_at": "2026-08-30T09:37:55.264996+00:00"
   }
 ]
