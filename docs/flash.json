@@ -1,12 +1,120 @@
 [
   {
-    "title": "Indian Startup HrdWyr Develops AI-Native SoCs",
-    "summary": "HrdWyr is building AI-native SoCs for power management, motor control, and physical system applications.",
+    "title": "System Predicts Autonomous Vehicle AI Mistakes",
+    "summary": "A new method called CW-Net translates an autonomous vehicle AI's reasoning process into understandable concepts to explain its behavior.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+    "published_at": "2026-09-02T15:00:00+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866090+00:00"
+  },
+  {
+    "title": "Relativity Creates Drag for Interstellar Solar Sails",
+    "summary": "At about 75 percent of the speed of light, scattered photons can begin creating drag against laser-pushed solar sails.",
+    "category": "Aerospace",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/08/260831015157.htm",
+    "published_at": "2026-09-02T14:51:21+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866103+00:00"
+  },
+  {
+    "title": "Anritsu Launches Wideband Linear Amplifier for Optical Comms",
+    "summary": "Anritsu is launching the AH15203A/B 140 Gbaud wideband linear amplifier with integrated bias tee for optical communications developers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/anritsu-ah15203a-wideband-linear-amplifier-for-optical-comms-2026-09/",
+    "published_at": "2026-09-02T14:14:18+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866109+00:00"
+  },
+  {
+    "title": "First Section of Saltley Viaduct Installed for HS2",
+    "summary": "HS2 engineers successfully installed the first 55-meter section of the new Saltley Viaduct over the Birmingham to Derby railway lines.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/first-55m-saltley-viaduct-section-installed-for-hs2-02-09-2026/",
+    "published_at": "2026-09-02T13:45:01+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866114+00:00"
+  },
+  {
+    "title": "SprintRay Launches Ceramic-Filled Resin",
+    "summary": "SprintRay released Midas Restore, a ceramic-filled resin supporting crowns, veneers, inlays, and onlays with a four-minute post-curing workflow.",
+    "category": "Biomedical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/sprintray-launches-ceramic-filled-resin-for-definitive-restorations/",
+    "published_at": "2026-09-02T12:51:00+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866119+00:00"
+  },
+  {
+    "title": "Addionics Develops 3D Porous Battery Architecture",
+    "summary": "Addionics designed a battery architecture using 3D porous current collectors to improve ion transport and performance in cold conditions.",
+    "category": "Energy",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/addionics-develops-battery-architecture-for-low-temperature-use/",
+    "published_at": "2026-09-02T12:06:04+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866124+00:00"
+  },
+  {
+    "title": "Researchers Quantum Teleport Data Across 100 Channels",
+    "summary": "Researchers in China scaled quantum teleportation up to 100 simultaneous channels using a spatial light modulator and entangled light fields.",
+    "category": "Computing",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/quantum-teleportation-networks-communications-china",
+    "published_at": "2026-09-02T12:00:04+00:00",
+    "fetched_at": "2026-09-02T16:02:21.866128+00:00"
+  },
+  {
+    "title": "West Midlands Metro Opens New Control Centre",
+    "summary": "West Midlands Metro has opened a new Operational Control Centre at its Wednesbury depot ahead of an upcoming extension launch.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/west-midlands-metro-opens-state-of-the-art-control-centre-02-09-2026/",
+    "published_at": "2026-09-02T11:59:54+00:00",
+    "fetched_at": "2026-09-02T16:02:25.285587+00:00"
+  },
+  {
+    "title": "Flat Optical Fibers Developed for Ultra-Sensitive Sensing",
+    "summary": "Scientists have developed flat optical fiber sensor technology that outperforms traditional round optical fibers.",
+    "category": "Materials",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/materials/flat-optical-fiber-design-superior-sensing-capabilities/",
+    "published_at": "2026-09-02T11:03:00+00:00",
+    "fetched_at": "2026-09-02T16:02:25.285597+00:00"
+  },
+  {
+    "title": "Teradyne Launches Instruments for UltraFLEXplus",
+    "summary": "Teradyne released three new instruments to support the testing of AI and data center chips.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/teradyne-launches-three-instruments-for-ultraflexplus/",
+    "published_at": "2026-09-02T10:52:48+00:00",
+    "fetched_at": "2026-09-02T16:02:25.285602+00:00"
+  },
+  {
+    "title": "Pudu Robotics Launches GT Series Commercial Robotic Mowers",
+    "summary": "Pudu Robotics introduced three new commercial robotic mower models targeted at grounds maintenance and large turf areas.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/pudu-robotics-launches-gt-series-commercial-robotic-mowers/",
+    "published_at": "2026-09-02T10:42:44+00:00",
+    "fetched_at": "2026-09-02T16:02:25.285607+00:00"
+  },
+  {
+    "title": "Marr Cranes Complete Flue Gas Stack Installation",
+    "summary": "Marr Contracting cranes successfully installed a modularised 100m chimney stack at the North London Heat and Power Project.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/marr-cranes-complete-100m-flue-gas-stack-at-north-london-heat-project-02-09-2026/",
+    "published_at": "2026-09-02T10:01:03+00:00",
+    "fetched_at": "2026-09-02T16:02:25.285611+00:00"
+  },
+  {
+    "title": "Startup HrdWyr Develops AI-Native SoCs",
+    "summary": "Indian startup HrdWyr is building AI-native SoCs designed for power management, motor control, and physical system applications.",
     "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/indian-startup-hrdwyr-builds-ai-native-socs-for-the-physical-world/",
     "published_at": "2026-09-02T08:00:00+00:00",
-    "fetched_at": "2026-09-02T08:22:27.284058+00:00"
+    "fetched_at": "2026-09-02T16:02:25.285616+00:00"
   },
   {
     "title": "Bonnell Launches 805 RX Electric Dirt Bike",
@@ -27,15 +135,6 @@
     "fetched_at": "2026-09-02T08:22:27.284077+00:00"
   },
   {
-    "title": "U.S. Army Plans Microreactors at Five Bases",
-    "summary": "The U.S. Army awarded over $2.2 billion in contracts to build nuclear microreactors at five bases.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/smrs/inside-the-u-s-armys-2b-plan-to-build-microreactors-at-five-bases/",
-    "published_at": "2026-09-01T19:14:25+00:00",
-    "fetched_at": "2026-09-02T08:22:27.284082+00:00"
-  },
-  {
     "title": "Launch Site Progress Ahead of Starship East Coast Debut",
     "summary": "SpaceX is making facility progress at its launch site in Florida ahead of upcoming Starship flights.",
     "category": "Aerospace",
@@ -45,13 +144,22 @@
     "fetched_at": "2026-09-02T08:22:27.284086+00:00"
   },
   {
-    "title": "Runtime-Editable Behavior System for Humanoid Robots",
-    "summary": "Researchers present a robot-local, runtime-editable behavior authoring system that enables fast creation and adaptation of loco-manipulation behaviors on humanoid robots.",
+    "title": "Robust Optimal Control via Generalized Semi-Infinite Programming",
+    "summary": "Researchers present a general framework that reformulates generalized semi-infinite programs to solve robust optimal control problems with state-dependent uncertainty.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01538v1",
+    "published_at": "2026-09-01T17:05:14+00:00",
+    "fetched_at": "2026-09-02T16:02:29.629654+00:00"
+  },
+  {
+    "title": "Behavior Architecture System for Humanoid Robots",
+    "summary": "A runtime-editable behavior authoring system enables humanoid robots to rapidly coordinate perception, locomotion, and whole-body manipulation tasks.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01518v1",
     "published_at": "2026-09-01T16:47:00+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144103+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629663+00:00"
   },
   {
     "title": "Visko Launches Orbis Live Model",
@@ -64,48 +172,48 @@
   },
   {
     "title": "Evaluating Temporal Robustness in Imitation Learning",
-    "summary": "A study compares an expert and an imitation learning policy across task execution speeds in a dexterous parcel stowing task.",
+    "summary": "A study comparing expert and imitation-learned dexterous manipulation policies reveals that equal nominal task success does not preserve performance across execution speeds.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01453v1",
     "published_at": "2026-09-01T15:57:26+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144121+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629668+00:00"
   },
   {
     "title": "Vision-Based Formation Control for UAVs",
-    "summary": "A vision-based cooperative framework enables follower UAVs to track and maintain formation with a leader UAV in GPS-degraded environments.",
+    "summary": "A vision-based cooperative framework enables follower UAVs to maintain formation using an onboard RGB-D camera when GPS sensors degrade or fail.",
     "category": "Aerospace",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01420v1",
     "published_at": "2026-09-01T15:35:38+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144126+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629672+00:00"
   },
   {
-    "title": "Blackbox Modeling of Grid-Connected Inverters",
-    "summary": "A new sequence domain structure represents the dynamic behavior of commercial grid-connected converters in asymmetrical power grid conditions.",
+    "title": "Blackbox Modeling of Inverters in Asymmetrical Grids",
+    "summary": "A new sequence domain structure models the dynamic behavior of grid-connected commercial inverters during asymmetrical voltage sag conditions.",
     "category": "Energy",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01411v1",
     "published_at": "2026-09-01T15:30:35+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144131+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629677+00:00"
   },
   {
-    "title": "Evaluating Multimodal LLMs for Drone Control",
-    "summary": "A new benchmark and architecture evaluates multimodal large language models as generalist agents for drone control tasks.",
+    "title": "Evaluating MLLMs as Vision-Language-Action Drone Agents",
+    "summary": "A new benchmark tests multimodal large language models as generalist drone control agents, revealing challenges in sustaining action protocols and terminating tasks.",
     "category": "Computing",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01404v1",
     "published_at": "2026-09-01T15:27:43+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144137+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629681+00:00"
   },
   {
-    "title": "Autonomous Robotic Aquatic Bridging via Swarms",
-    "summary": "Researchers demonstrate a swarm-capable autonomous aquatic bridging system using distributed swarm control without inter-agent communication or GPS.",
+    "title": "Autonomous Robotic Aquatic Bridging with Swarm Control",
+    "summary": "Unmanned surface vehicles use distributed swarm control and multi-model sensing to autonomously form bridges without requiring GPS or RF communications.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.01394v1",
     "published_at": "2026-09-01T15:21:12+00:00",
-    "fetched_at": "2026-09-02T08:22:31.144142+00:00"
+    "fetched_at": "2026-09-02T16:02:29.629685+00:00"
   },
   {
     "title": "Unified ROS 2 Architecture for Outdoor Robots",
@@ -126,147 +234,39 @@
     "fetched_at": "2026-09-02T08:22:31.144153+00:00"
   },
   {
-    "title": "Cheshire Viaduct Joint Replacement and Upgrade Begins",
-    "summary": "Work has started on a 27 million pound vital upgrade including joint replacement for the Thelwall Viaduct on the M6.",
+    "title": "£27M Thelwall Viaduct Upgrades Begin",
+    "summary": "Work has started on critical improvements and joint replacements for the Thelwall Viaduct on the M6.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/27m-vital-upgrade-encompassing-joint-replacement-starts-on-iconic-cheshire-viaduct-01-09-2026/",
     "published_at": "2026-09-01T15:10:58+00:00",
-    "fetched_at": "2026-09-02T08:22:33.891683+00:00"
+    "fetched_at": "2026-09-02T16:02:32.724617+00:00"
   },
   {
-    "title": "Cat-Clawed Drone Lands on Vertical Ice Walls",
-    "summary": "Researchers have developed a quadcopter capable of landing on near-vertical ice walls for environmental science applications.",
+    "title": "Ice Dart Quadcopter Lands on Vertical Ice Walls",
+    "summary": "Researchers at the Université de Sherbrooke developed a cat-clawed drone capable of landing on near-vertical ice walls.",
     "category": "Robotics",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/drones/ice-dart-cat-claw-drone-vertical-ice-walls/",
     "published_at": "2026-09-01T13:03:00+00:00",
-    "fetched_at": "2026-09-02T08:22:33.891692+00:00"
+    "fetched_at": "2026-09-02T16:02:32.724635+00:00"
   },
   {
     "title": "U.S. Navy Funds Phase II for UAV Composites",
-    "summary": "The U.S. Navy funded a Phase II program including thirty months of R&D for embedded-power UAV composites.",
+    "summary": "The U.S. Navy has funded a 30-month R&D program and a one-year option for embedded-power UAV composites.",
     "category": "Aerospace",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/u-s-navy-funds-phase-ii-for-embedded-power-uav-composites/",
     "published_at": "2026-09-01T12:18:05+00:00",
-    "fetched_at": "2026-09-02T08:22:33.891697+00:00"
+    "fetched_at": "2026-09-02T16:02:35.667030+00:00"
   },
   {
-    "title": "John Deere Launches AI Tool for Farm Data",
-    "summary": "John Deere introduced JD, an AI tool that converts historical farm data into actionable insights for farmers.",
-    "category": "Computing",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/",
-    "published_at": "2026-09-01T11:00:41+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053345+00:00"
-  },
-  {
-    "title": "CollPlant to Acquire LightSolver in Photonic Deal",
-    "summary": "CollPlant is acquiring LightSolver, whose laser-based LPU targets optimization and computational workloads.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/collplant-to-acquire-lightsolver-in-photonic-computing-deal/",
-    "published_at": "2026-09-01T10:28:46+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053354+00:00"
-  },
-  {
-    "title": "Lewes Rail Line Reopened After Cleanup",
-    "summary": "Network Rail completed derailment cleanup and track renewal, allowing train services between Lewes and Haywards Heath to resume.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/lewes-to-haywards-heath-line-reopened-after-network-rail-completes-derailment-cleanup-01-09-2026/",
-    "published_at": "2026-09-01T10:05:52+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053360+00:00"
-  },
-  {
-    "title": "SiMa.ai and ARK Electronics Partner for Drones",
-    "summary": "The companies are offering Modalix MLSoC bundles aimed at commercial, industrial, agriculture, and defense drone applications.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/sima-ai-and-ark-electronics-partner-on-autonomous-drones/",
-    "published_at": "2026-09-01T09:32:34+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053364+00:00"
-  },
-  {
-    "title": "Anyon and KMT Partner on Quantum Computing",
-    "summary": "KMT will provide integration and support as Anyon develops superconducting systems of 72 qubits and larger.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/anyon-and-kmt-partner-on-quantum-computing-deployment/",
-    "published_at": "2026-09-01T09:19:20+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053368+00:00"
-  },
-  {
-    "title": "Advancing CFET Device Roadmap with Novel Integration Modules",
-    "summary": "Pioneering work develops critical CFET modules including an improved backside contact module and a novel gate stack for threshold voltage tuning.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations/",
-    "published_at": "2026-09-01T07:01:52+00:00",
-    "fetched_at": "2026-09-01T09:05:04.476483+00:00"
-  },
-  {
-    "title": "US Army to Install Nuclear Micro-Reactors",
-    "summary": "The US Army authorized building up to 20 nuclear micro-reactors on domestic military bases to supply reliable power.",
+    "title": "ScottishPower Wind Farm Decommissioning Demonstrates Circularity",
+    "summary": "Decommissioning Scotland's first commercial wind farm has demonstrated how the wind sector can align with material reuse.",
     "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/us-army-install-20-micro-reactors-military-bases/",
-    "published_at": "2026-09-01T06:47:46+00:00",
-    "fetched_at": "2026-09-02T08:22:37.053372+00:00"
-  },
-  {
-    "title": "Karst Collapse Risk Assessment for Urban Metro Engineering",
-    "summary": "Researchers propose an integrated framework combining geological characterization and hydrodynamic simulation to assess karst collapse risks in urban metro engineering.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fdc508fceb9651824f04b7b104fb57a5c912db8a",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-08-31T18:36:43.512375+00:00"
-  },
-  {
-    "title": "Porous Liquid Crystal Elastomers for Tunable Acoustic Properties",
-    "summary": "Researchers developed a porous liquid crystal elastomer platform enabling wide-range, reversible acoustic tuning via thermal-driven pore reconfiguration.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fc35904b3fd1792b431dcb5eab38f896a0b38031",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707811+00:00"
-  },
-  {
-    "title": "Long-Range Modulation of Pt Sites in MOFs Enhances H2O2 Activation",
-    "summary": "Engineers designed Pt@UiO-66-X nanozymes to demonstrate how ligand electronegativity controls catalytic performance for pesticide detection.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fb1019f596c46424e8f93d940939104358cab21a",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707821+00:00"
-  },
-  {
-    "title": "Back-Analysis Method for Shear Strength Parameters of Double-Layered Slopes",
-    "summary": "A new upper-bound back-analysis method improves shear strength parameter determination for double-layered slopes and controls inversion dispersion.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ec0c152a2b30f7e8912a1e21a34cf2b2c6f46380",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707826+00:00"
-  },
-  {
-    "title": "Passive Suppression of Gradual Opening in Wave Rotor Combustors",
-    "summary": "An unpartitioned inlet duct design improves fuel-air mixing and suppresses interface distortion in wave rotor combustors.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e60f82747b7d989e7d98a2a298c0dc093568184c",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707832+00:00"
-  },
-  {
-    "title": "Limit-State Capacity Sampling and Seismic Damage-State Distributions",
-    "summary": "A unified probabilistic framework evaluates multi-limit-state capacity sampling models and their bias effects on seismic damage-state distributions.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e54f6d82bb0faf7ec512228d1cb5234e10fb0694",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707837+00:00"
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uk-first-sees-decommissioning-of-scottishpower-wind-farm-demonstrate-turbine-circularity-01-09-2026/",
+    "published_at": "2026-09-01T12:16:03+00:00",
+    "fetched_at": "2026-09-02T16:02:35.667038+00:00"
   }
 ]
