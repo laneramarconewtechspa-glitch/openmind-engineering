@@ -1,66 +1,201 @@
 [
   {
-    "title": "£27M Thelwall Viaduct Upgrade Underway",
-    "summary": "Work has begun on a £27 million vital upgrade and joint replacement project for the Thelwall Viaduct in Cheshire.",
+    "title": "Indian Startup HrdWyr Develops AI-Native SoCs",
+    "summary": "HrdWyr is building AI-native SoCs for power management, motor control, and physical system applications.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/indian-startup-hrdwyr-builds-ai-native-socs-for-the-physical-world/",
+    "published_at": "2026-09-02T08:00:00+00:00",
+    "fetched_at": "2026-09-02T08:22:27.284058+00:00"
+  },
+  {
+    "title": "Bonnell Launches 805 RX Electric Dirt Bike",
+    "summary": "Bonnell launched its new 805 RX electric dirt bike, featuring 56 horsepower and an 80-mph top speed.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/bonnell-launches-805-rx-electric-dirt-bike/",
+    "published_at": "2026-09-02T01:37:08+00:00",
+    "fetched_at": "2026-09-02T08:22:27.284071+00:00"
+  },
+  {
+    "title": "Scientists Trace Seven Stages of Meteorite Life",
+    "summary": "By studying 75 fallen meteorites, scientists identified the seven stages a space rock undergoes entering Earth's atmosphere.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/meteor-showers/scientists-trace-7-stages-of-a-meteorites-life-from-hurtling-space-rock-to-earths-surface",
+    "published_at": "2026-09-01T21:00:00+00:00",
+    "fetched_at": "2026-09-02T08:22:27.284077+00:00"
+  },
+  {
+    "title": "U.S. Army Plans Microreactors at Five Bases",
+    "summary": "The U.S. Army awarded over $2.2 billion in contracts to build nuclear microreactors at five bases.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/smrs/inside-the-u-s-armys-2b-plan-to-build-microreactors-at-five-bases/",
+    "published_at": "2026-09-01T19:14:25+00:00",
+    "fetched_at": "2026-09-02T08:22:27.284082+00:00"
+  },
+  {
+    "title": "Launch Site Progress Ahead of Starship East Coast Debut",
+    "summary": "SpaceX is making facility progress at its launch site in Florida ahead of upcoming Starship flights.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/launch-site-facility-progress-east-coast-starship/",
+    "published_at": "2026-09-01T18:15:54+00:00",
+    "fetched_at": "2026-09-02T08:22:27.284086+00:00"
+  },
+  {
+    "title": "Runtime-Editable Behavior System for Humanoid Robots",
+    "summary": "Researchers present a robot-local, runtime-editable behavior authoring system that enables fast creation and adaptation of loco-manipulation behaviors on humanoid robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01518v1",
+    "published_at": "2026-09-01T16:47:00+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144103+00:00"
+  },
+  {
+    "title": "Visko Launches Orbis Live Model",
+    "summary": "Visko launched its Orbis model that streams 4K video at 24 frames per second and closed a pre-seed funding round.",
+    "category": "Computing",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/",
+    "published_at": "2026-09-01T16:00:01+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144115+00:00"
+  },
+  {
+    "title": "Evaluating Temporal Robustness in Imitation Learning",
+    "summary": "A study compares an expert and an imitation learning policy across task execution speeds in a dexterous parcel stowing task.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01453v1",
+    "published_at": "2026-09-01T15:57:26+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144121+00:00"
+  },
+  {
+    "title": "Vision-Based Formation Control for UAVs",
+    "summary": "A vision-based cooperative framework enables follower UAVs to track and maintain formation with a leader UAV in GPS-degraded environments.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01420v1",
+    "published_at": "2026-09-01T15:35:38+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144126+00:00"
+  },
+  {
+    "title": "Blackbox Modeling of Grid-Connected Inverters",
+    "summary": "A new sequence domain structure represents the dynamic behavior of commercial grid-connected converters in asymmetrical power grid conditions.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01411v1",
+    "published_at": "2026-09-01T15:30:35+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144131+00:00"
+  },
+  {
+    "title": "Evaluating Multimodal LLMs for Drone Control",
+    "summary": "A new benchmark and architecture evaluates multimodal large language models as generalist agents for drone control tasks.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01404v1",
+    "published_at": "2026-09-01T15:27:43+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144137+00:00"
+  },
+  {
+    "title": "Autonomous Robotic Aquatic Bridging via Swarms",
+    "summary": "Researchers demonstrate a swarm-capable autonomous aquatic bridging system using distributed swarm control without inter-agent communication or GPS.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01394v1",
+    "published_at": "2026-09-01T15:21:12+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144142+00:00"
+  },
+  {
+    "title": "Unified ROS 2 Architecture for Outdoor Robots",
+    "summary": "A unified ROS 2 architecture combines coverage planning, RTK-GNSS localization, and navigation to achieve reliable autonomous outdoor coverage missions.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01384v1",
+    "published_at": "2026-09-01T15:15:45+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144148+00:00"
+  },
+  {
+    "title": "Satellite Swarms for Direct-to-Cell Networks",
+    "summary": "This work investigates 2D distributed satellite swarm configurations for direct-to-cell applications to exploit increased spatial resolution from large distributed apertures.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.01380v1",
+    "published_at": "2026-09-01T15:14:55+00:00",
+    "fetched_at": "2026-09-02T08:22:31.144153+00:00"
+  },
+  {
+    "title": "Cheshire Viaduct Joint Replacement and Upgrade Begins",
+    "summary": "Work has started on a 27 million pound vital upgrade including joint replacement for the Thelwall Viaduct on the M6.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/27m-vital-upgrade-encompassing-joint-replacement-starts-on-iconic-cheshire-viaduct-01-09-2026/",
     "published_at": "2026-09-01T15:10:58+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758547+00:00"
+    "fetched_at": "2026-09-02T08:22:33.891683+00:00"
   },
   {
-    "title": "Cat-Clawed Drone Lands on Ice Walls",
-    "summary": "Researchers at the Université de Sherbrooke developed the Ice Dart quadcopter to land securely on near-vertical ice walls.",
+    "title": "Cat-Clawed Drone Lands on Vertical Ice Walls",
+    "summary": "Researchers have developed a quadcopter capable of landing on near-vertical ice walls for environmental science applications.",
     "category": "Robotics",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/drones/ice-dart-cat-claw-drone-vertical-ice-walls/",
     "published_at": "2026-09-01T13:03:00+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758563+00:00"
+    "fetched_at": "2026-09-02T08:22:33.891692+00:00"
   },
   {
-    "title": "U.S. Navy Funds Embedded-Power UAV Composites",
-    "summary": "The U.S. Navy funded Phase II for embedded-power UAV composites, encompassing 30 months of R&D.",
+    "title": "U.S. Navy Funds Phase II for UAV Composites",
+    "summary": "The U.S. Navy funded a Phase II program including thirty months of R&D for embedded-power UAV composites.",
     "category": "Aerospace",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/u-s-navy-funds-phase-ii-for-embedded-power-uav-composites/",
     "published_at": "2026-09-01T12:18:05+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758570+00:00"
+    "fetched_at": "2026-09-02T08:22:33.891697+00:00"
   },
   {
-    "title": "CollPlant Acquires LightSolver",
-    "summary": "CollPlant is acquiring LightSolver in a photonic computing deal focused on laser-based optimization workloads.",
+    "title": "John Deere Launches AI Tool for Farm Data",
+    "summary": "John Deere introduced JD, an AI tool that converts historical farm data into actionable insights for farmers.",
+    "category": "Computing",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/",
+    "published_at": "2026-09-01T11:00:41+00:00",
+    "fetched_at": "2026-09-02T08:22:37.053345+00:00"
+  },
+  {
+    "title": "CollPlant to Acquire LightSolver in Photonic Deal",
+    "summary": "CollPlant is acquiring LightSolver, whose laser-based LPU targets optimization and computational workloads.",
     "category": "Computing",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/collplant-to-acquire-lightsolver-in-photonic-computing-deal/",
     "published_at": "2026-09-01T10:28:46+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758575+00:00"
+    "fetched_at": "2026-09-02T08:22:37.053354+00:00"
   },
   {
-    "title": "Lewes to Haywards Heath Railway Line Reopened",
-    "summary": "Network Rail completed derailment cleanup and track renewal, allowing services between Lewes and Haywards Heath to resume.",
+    "title": "Lewes Rail Line Reopened After Cleanup",
+    "summary": "Network Rail completed derailment cleanup and track renewal, allowing train services between Lewes and Haywards Heath to resume.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/lewes-to-haywards-heath-line-reopened-after-network-rail-completes-derailment-cleanup-01-09-2026/",
     "published_at": "2026-09-01T10:05:52+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758581+00:00"
+    "fetched_at": "2026-09-02T08:22:37.053360+00:00"
   },
   {
-    "title": "SiMa.ai and ARK Electronics Partner on Drones",
-    "summary": "The companies partnered to offer Modalix MLSoC bundles for autonomous commercial, industrial, and defense drone applications.",
+    "title": "SiMa.ai and ARK Electronics Partner for Drones",
+    "summary": "The companies are offering Modalix MLSoC bundles aimed at commercial, industrial, agriculture, and defense drone applications.",
     "category": "Electronics & Semiconductors",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/sima-ai-and-ark-electronics-partner-on-autonomous-drones/",
     "published_at": "2026-09-01T09:32:34+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758586+00:00"
+    "fetched_at": "2026-09-02T08:22:37.053364+00:00"
   },
   {
-    "title": "Anyon and KMT Partner for Quantum Deployment",
-    "summary": "KMT will provide installation and support as Anyon develops 72-qubit and larger superconducting quantum computing systems.",
+    "title": "Anyon and KMT Partner on Quantum Computing",
+    "summary": "KMT will provide integration and support as Anyon develops superconducting systems of 72 qubits and larger.",
     "category": "Computing",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/anyon-and-kmt-partner-on-quantum-computing-deployment/",
     "published_at": "2026-09-01T09:19:20+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758591+00:00"
+    "fetched_at": "2026-09-02T08:22:37.053368+00:00"
   },
   {
     "title": "Advancing CFET Device Roadmap with Novel Integration Modules",
@@ -72,13 +207,13 @@
     "fetched_at": "2026-09-01T09:05:04.476483+00:00"
   },
   {
-    "title": "US Army Approves 20 Nuclear Micro-Reactors",
-    "summary": "The US Army authorized the construction of up to 20 nuclear micro-reactors on domestic military bases.",
+    "title": "US Army to Install Nuclear Micro-Reactors",
+    "summary": "The US Army authorized building up to 20 nuclear micro-reactors on domestic military bases to supply reliable power.",
     "category": "Energy",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/military/us-army-install-20-micro-reactors-military-bases/",
     "published_at": "2026-09-01T06:47:46+00:00",
-    "fetched_at": "2026-09-01T16:06:57.758595+00:00"
+    "fetched_at": "2026-09-02T08:22:37.053372+00:00"
   },
   {
     "title": "Karst Collapse Risk Assessment for Urban Metro Engineering",
@@ -133,140 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/e54f6d82bb0faf7ec512228d1cb5234e10fb0694",
     "published_at": "2026-09-01T00:00:00+00:00",
     "fetched_at": "2026-09-01T16:07:01.707837+00:00"
-  },
-  {
-    "title": "Gate-Side Hydrogen Regulation via NiO Interlayer in ITO FETs",
-    "summary": "An in-situ grown NiO interlayer regulates gate-side hydrogen in ITO FETs to suppress the PBTI-induced threshold-voltage shift.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e4e671dee4ff725c64cfe3eb6afc8ce0fa0164e2",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707842+00:00"
-  },
-  {
-    "title": "Phosphorylated Chitin-Hydroxyapatite Composite Promotes Bone Repair",
-    "summary": "A novel composite combining phosphorylated chitin and hydroxyapatite promotes angiogenesis, osteogenesis, and bone defect repair.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e36ab99fa6ffc651085a62dee2a3701cd31307ad",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707847+00:00"
-  },
-  {
-    "title": "Portable Micro-Indentation Instrument for In-Service Structures",
-    "summary": "A new portable micro-indentation instrument tests mechanical properties of in-service structures with high-resolution load and depth measurements.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e0dc2df650f180d9c13c69983c00d0c21dd2c6f8",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707856+00:00"
-  },
-  {
-    "title": "Predicting Plug Development of Large-Diameter Steel Pipe Piles",
-    "summary": "Researchers used the coupled Eulerian-Lagrangian method to examine and predict soil plug development for large-diameter steel pipe piles in clay.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/dfc2c427f12b8b15017c001e021766ea8d5d972d",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707861+00:00"
-  },
-  {
-    "title": "Digital Image Correlation Improves Concrete Model Validation",
-    "summary": "Researchers compared concrete constitutive models using digital image correlation and found that the strain-dependent Massicotte model aligns best with experimental crack patterns.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/dc08463ebb3c3dc5e000ef678d0f06148f2e6947",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-08-31T18:36:46.972858+00:00"
-  },
-  {
-    "title": "Optimizing Turnout Stiffness in High-Speed Railways",
-    "summary": "A modified genetic algorithm optimizes high-speed railway turnout stiffness to reduce wheel-rail contact forces and improve structural durability.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/daf06780efdd9098204d941b361661c3eb81e1f3",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:04.243675+00:00"
-  },
-  {
-    "title": "Analyzing Stability Switching in BAM Neural Networks",
-    "summary": "This article investigates stability switching and Hopf bifurcation in fractional-order bidirectional associative memory neural networks featuring higher-order interactions.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d32698b300e79274b8b92d8e1cee380770703580",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-08-31T18:36:46.972873+00:00"
-  },
-  {
-    "title": "Geopolymer-Stabilized Pond Ash for Pavements",
-    "summary": "Studies show that geopolymer additives improve the hydromechanical properties of pond ash, making it a sustainable and effective pavement base material.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c96536163beedd2e95bd92a760e2a1b419baa798",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-08-31T18:36:46.972878+00:00"
-  },
-  {
-    "title": "Automating Numerical Analysis in Geotechnical Design",
-    "summary": "An AI-assisted workflow integrating Python and finite element modeling automates geotechnical analyses to improve design efficiency and evaluate hundreds of scenarios.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b14e687a5f4589c03182529865adae4d14c1b3f4",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-08-31T18:36:46.972882+00:00"
-  },
-  {
-    "title": "Optimization of Labyrinth-Fingertip Composite Seal Structure",
-    "summary": "A combined numerical and Taguchi approach optimized a labyrinth-finger seal, achieving significant leakage reduction and lower peak temperatures.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e163d7cf618f03b47ec21caac5b25cc7b6e9b417",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:01.707852+00:00"
-  },
-  {
-    "title": "Magnetic Fusogenic Liposomes Enable Direct Nanoparticle Delivery",
-    "summary": "Researchers developed magnetic fusogenic liposomes that use lipid membrane fusion to achieve direct cytosolic delivery of magnetic nanoparticles.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/dfa8a1f5426a2b533b4078037b4e45d85b3743af",
-    "published_at": "2026-09-01T00:00:00+00:00",
-    "fetched_at": "2026-09-01T16:07:04.243666+00:00"
-  },
-  {
-    "title": "Skild AI Unveils S1 Robot Foundation Model",
-    "summary": "Skild AI launched its S1 robot foundation model, enabling robots to learn new tasks from demonstration videos.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
-    "published_at": "2026-08-31T21:14:08+00:00",
-    "fetched_at": "2026-09-01T09:05:04.476508+00:00"
-  },
-  {
-    "title": "Siemens Launches Eigen Engineering Agent in Thailand",
-    "summary": "Siemens launched an AI tool that connects with TIA Portal to support PLC coding, HMI visualization, and device configuration.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-launches-eigen-engineering-agent-in-thailand/",
-    "published_at": "2026-08-31T12:15:27+00:00",
-    "fetched_at": "2026-09-01T09:05:04.476513+00:00"
-  },
-  {
-    "title": "Massive Thermal Anomaly Discovered Beneath Martian Surface",
-    "summary": "Researchers discovered a large thermal anomaly under the surface of Mars, highlighting the planet's two distinct halves.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/scientists-discover-massive-thermal-anomaly-beneath-the-surface-of-mars",
-    "published_at": "2026-08-31T12:00:00+00:00",
-    "fetched_at": "2026-09-01T09:05:07.286404+00:00"
-  },
-  {
-    "title": "Advanced Cooling Technologies Tackle Automotive Heat Challenge",
-    "summary": "New cooling solutions are being developed to manage rising heat fluxes driven by electric drivetrains, AI processors, and autonomous systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
-    "published_at": "2026-08-31T07:46:55+00:00",
-    "fetched_at": "2026-09-01T09:05:07.286415+00:00"
   }
 ]
