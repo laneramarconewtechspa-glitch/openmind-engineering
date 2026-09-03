@@ -1,12 +1,84 @@
 [
   {
-    "title": "India's Quantum Ecosystem Expands Beyond Qubits",
-    "summary": "IBM's Amaravati deployment is set to accelerate India's quantum ecosystem as startups develop processors and supporting technologies.",
+    "title": "JDIT-K Unveils 13.3-Inch 4K2K Rugged TFT Display",
+    "summary": "JDIT-K released a 13.3-inch 4K2K rugged TFT display featuring a 70,000-hour LED lifetime designed for challenging lighting conditions.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/displays-2/jdit-ks-13-3-inch-4k2k-rugged-tft-display-eyes-challenging-lighting-2026-09/",
+    "published_at": "2026-09-03T13:39:34+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284927+00:00"
+  },
+  {
+    "title": "Tsubaki KabelSchlepp Introduces Robotrax Cable Carrier System",
+    "summary": "The Robotrax system features a central steel cable and three-axis flexibility to protect industrial robot cables from severe mechanical stress.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
+    "published_at": "2026-09-03T12:18:21+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284940+00:00"
+  },
+  {
+    "title": "Carnegie Mellon Researchers Discover New Hall Effect Form",
+    "summary": "Scientists discovered an unexpected form of the Hall effect that occurs without a perpendicular magnetic field, overturning a century-old assumption.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
+    "published_at": "2026-09-03T12:17:16+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284946+00:00"
+  },
+  {
+    "title": "Texas A&M Researchers Develop Inflatable RoboBall for Lunar Craters",
+    "summary": "Engineers designed an inflatable robotic sphere called RoboBall to explore inaccessible, steep lunar craters without tipping over.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/moon-ball-robot",
+    "published_at": "2026-09-03T12:00:01+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284952+00:00"
+  },
+  {
+    "title": "HPE Expands Oracle Collaboration for AI Data Center Networking",
+    "summary": "Hewlett Packard Enterprise expanded its partnership with Oracle to include multi-year deployments of routing and switching platforms for AI data centers.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/hpe-expands-oracle-collaboration-for-ai-data-center-networking/",
+    "published_at": "2026-09-03T10:55:33+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284957+00:00"
+  },
+  {
+    "title": "QuickLogic Expands eFPGA Hard IP for GF 12LP Process",
+    "summary": "QuickLogic updated its eFPGA Hard IP for GlobalFoundries 12LP with new DSP capabilities, configuration error monitoring, and support for over 250,000 LUTs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/quicklogic-expands-efpga-hard-ip-for-gf-12lp/",
+    "published_at": "2026-09-03T10:45:16+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284962+00:00"
+  },
+  {
+    "title": "MulticoreWare Acquires Semiconductor Design Firm Simulus",
+    "summary": "MulticoreWare acquired Simulus to integrate FPGA, CXL, and PCIe expertise into its AI and heterogeneous computing offerings.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/multicoreware-acquires-semiconductor-design-specialist-simulus/",
+    "published_at": "2026-09-03T10:13:13+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284966+00:00"
+  },
+  {
+    "title": "Historic Reedham Swing Bridge Repairs Completed Early",
+    "summary": "Network Rail completed repairs on the central bearing of the 123-year-old Reedham swing bridge ahead of schedule, restoring full navigation for larger boats.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/historic-reedham-swing-bridge-repaired-ahead-of-schedule-03-09-2026/",
+    "published_at": "2026-09-03T09:20:27+00:00",
+    "fetched_at": "2026-09-03T15:59:32.284971+00:00"
+  },
+  {
+    "title": "IBM's Amaravati Deployment Boosts India's Quantum Ecosystem",
+    "summary": "IBM's deployment in Amaravati could help accelerate India's quantum ecosystem as startups develop processors and software.",
     "category": "Computing",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/indias-quantum-journey-goes-beyond-the-qubit/",
     "published_at": "2026-09-03T08:00:47+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798116+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231937+00:00"
   },
   {
     "title": "Inline Memory Encryption Needs Integrity for Mission-Critical Data",
@@ -15,34 +87,34 @@
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/protecting-mission-critical-data-beyond-the-soc-why-inline-memory-encryption-needs-integrity/",
     "published_at": "2026-09-03T07:07:47+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798129+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231947+00:00"
   },
   {
-    "title": "Evaluating Risks in 800VDC AI Data Centers",
-    "summary": "Higher electrical currents in 800VDC AI data centers can cause sparks, fires, costly outages, and safety hazards alongside hot chips.",
+    "title": "Risks and Challenges in 800VDC AI Data Centers",
+    "summary": "Higher electrical currents can cause sparks, fires, and costly outages, while hot chips also create operational problems.",
     "category": "Energy",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
     "published_at": "2026-09-03T07:01:33+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798134+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231952+00:00"
   },
   {
-    "title": "Regent Craft's Viceroy WIG Hydrofoil Aircraft Completes Maiden Flight",
-    "summary": "Regent Craft's Viceroy, an all-electric seaglider combining a hull, WIG effect, and hydrofoils, has completed its first crewed flight.",
+    "title": "All-Electric Viceroy Seaglider Completes Maiden Flight",
+    "summary": "Regent Craft's Viceroy all-electric seaglider combines a floating hull, WIG effect technology, and hydrofoils in its first crewed flight.",
     "category": "Aerospace",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/aircraft/regent-craft-viceroy-wig-hydrofoil-aircraft-maiden-flight/",
     "published_at": "2026-09-03T06:03:00+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798139+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231957+00:00"
   },
   {
-    "title": "Battery Storage Cyber Attack Could Trigger UK Blackout",
-    "summary": "A cybersecurity report finds that attacking 29% of the UK's battery energy storage systems could cause a national blackout.",
+    "title": "Cyber Attack on UK Battery Storage Could Trigger Blackout",
+    "summary": "A report finds that compromising 29 percent of the UK's battery energy storage systems could cause a national blackout.",
     "category": "Energy",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/cyber-attack-on-battery-energy-storage-systems-could-trigger-blackout-report-finds-03-09-2026/",
     "published_at": "2026-09-03T05:30:27+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798144+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231962+00:00"
   },
   {
     "title": "Google Quadruples TPU Roll-Out Cadence",
@@ -54,13 +126,13 @@
     "fetched_at": "2026-09-03T08:36:39.798148+00:00"
   },
   {
-    "title": "Skeleton and Infineon Partner on Power Solutions",
-    "summary": "Infineon and Skeleton Technologies signed an MoU to collaborate on high-efficiency power solutions for modern data centers.",
-    "category": "Energy",
+    "title": "Skeleton and Infineon Collaborate on Power Solutions",
+    "summary": "Infineon and Skeleton Technologies signed an MoU to develop high-efficiency power solutions for modern datacentres.",
+    "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
     "source_url": "https://www.electronicsweekly.com/news/business/skeleton-and-infineon-hook-up-on-ssts-2026-09/",
     "published_at": "2026-09-03T05:11:03+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798153+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231966+00:00"
   },
   {
     "title": "Nisshinbo Launches Secondary Protection IC for Lithium Cells",
@@ -72,22 +144,22 @@
     "fetched_at": "2026-09-03T08:36:39.798157+00:00"
   },
   {
-    "title": "New Qubit Architecture Improves Operation Speed and Accuracy",
-    "summary": "A new qubit architecture has been developed to enable faster and more accurate operations for scalable quantum computing.",
+    "title": "New Qubit Architecture Improves Quantum Operations",
+    "summary": "A new qubit architecture enables faster and more accurate operations, marking a step toward scalable quantum computers.",
     "category": "Computing",
     "source_name": "MIT News",
     "source_url": "https://news.mit.edu/2026/new-qubit-architecture-enables-faster-more-accurate-operations-0903",
     "published_at": "2026-09-03T04:00:00+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798161+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231970+00:00"
   },
   {
-    "title": "Robigo Engineers Microbes for Sustainable Crop Protection",
-    "summary": "Robigo uses biotechnology to engineer microbes that fight agricultural pests and reduce the need for chemical pesticides.",
+    "title": "Robigo Engineers Microbes to Protect Crops Sustainably",
+    "summary": "Robigo uses biotechnology to engineer microbes to fight pests and reduce reliance on harmful chemical pesticides.",
     "category": "Biomedical",
     "source_name": "MIT News",
     "source_url": "https://news.mit.edu/2026/robigo-gives-farmers-more-sustainable-way-protect-crops-0903",
     "published_at": "2026-09-03T04:00:00+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798165+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231974+00:00"
   },
   {
     "title": "Ather Energy Scooter Adopts Car-Like Features",
@@ -99,31 +171,31 @@
     "fetched_at": "2026-09-03T08:36:44.298449+00:00"
   },
   {
-    "title": "China's Pallas-1 Rocket Reaches Orbit on Debut",
-    "summary": "Galactic Energy successfully launched its new Pallas-1 reusable rocket into orbit on Monday, though its first stage did not attempt a landing.",
+    "title": "China's Pallas-1 Reusable Rocket Aces Orbit Debut",
+    "summary": "Galactic Energy's new Pallas-1 rocket successfully reached orbit on its debut launch, though its first stage did not land.",
     "category": "Aerospace",
     "source_name": "Space.com",
     "source_url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-private-reusable-pallas-1-rocket-aces-debut-launch-video",
     "published_at": "2026-09-02T20:00:00+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298461+00:00"
+    "fetched_at": "2026-09-03T15:59:36.231979+00:00"
   },
   {
-    "title": "Solidworks Introduces 'Blue Tokens' for AI Features",
-    "summary": "Dassault Systèmes launched a blue token subscription model to pay for AI usage across the 3DExperience platform.",
+    "title": "Solidworks Introduces Blue Tokens for AI Features",
+    "summary": "Dassault Systèmes introduced a blue token subscription model to pay for AI usage across the 3DExperience platform.",
     "category": "Computing",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/solidworks-users-spend-blue-tokens-on-ai-drawings-insights-and-more/",
     "published_at": "2026-09-02T19:39:24+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298478+00:00"
+    "fetched_at": "2026-09-03T15:59:40.467263+00:00"
   },
   {
-    "title": "Green Disc+ Applies Lube Without Mess",
-    "summary": "The Green Disc+ bicycle chain lubricating tool is designed to apply eco-friendly lubricant precisely to chains with less waste and no mess.",
+    "title": "Green Disc+ Bike Chain Lubricant Cuts Waste",
+    "summary": "The Green Disc+ applies eco-friendly bike chain lubricant directly where needed to eliminate mess and reduce waste.",
     "category": "Mechanical",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/bicycles/green-disc-plus-chain-lube/",
     "published_at": "2026-09-02T18:38:00+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298482+00:00"
+    "fetched_at": "2026-09-03T15:59:40.467275+00:00"
   },
   {
     "title": "TRACE Framework Brings Explainability to Autonomous Robots",
@@ -180,13 +252,13 @@
     "fetched_at": "2026-09-03T08:36:54.174972+00:00"
   },
   {
-    "title": "AIR Partners with Elmo for Cargo Aircraft",
-    "summary": "AIR is integrating Elmo Motion Control's servo drives into its uncrewed electric cargo aircraft design.",
+    "title": "AIR Adopts Elmo Motion Control for Cargo Aircraft",
+    "summary": "AIR is integrating Elmo Motion Control's compact servo drives into its uncrewed electric cargo aircraft design.",
     "category": "Aerospace",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/",
     "published_at": "2026-09-02T15:29:23+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174981+00:00"
+    "fetched_at": "2026-09-03T15:59:40.467281+00:00"
   },
   {
     "title": "MV-dVRK Benchmark for Spatial Surgical Perception",
@@ -196,77 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.02717v1",
     "published_at": "2026-09-02T15:25:28+00:00",
     "fetched_at": "2026-09-03T08:36:54.174986+00:00"
-  },
-  {
-    "title": "New System Explains Autonomous Vehicle Decisions",
-    "summary": "A new method called CW-Net translates an autonomous vehicle's AI reasoning into understandable concepts to help humans predict errors.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
-    "published_at": "2026-09-02T15:00:00+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174990+00:00"
-  },
-  {
-    "title": "Proxy-to-Decision Transfer Framework for AD Planners",
-    "summary": "Researchers proposed an analysis framework to evaluate when learned future-aware representations reliably improve autonomous driving performance.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02688v1",
-    "published_at": "2026-09-02T14:55:14+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174994+00:00"
-  },
-  {
-    "title": "Relativity Creates Drag on Interstellar Solar Sails",
-    "summary": "At 75% of the speed of light, scattered photons begin creating drag on laser-pushed solar sails, posing a challenge for interstellar travel.",
-    "category": "Aerospace",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/08/260831015157.htm",
-    "published_at": "2026-09-02T14:51:21+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174998+00:00"
-  },
-  {
-    "title": "LoFi RADIO Backbone for Neonatal Brain MRI",
-    "summary": "Researchers developed a distilled in-domain Vision Transformer student backbone for artifact-severity grading of ultra-low-field neonatal brain MRI scans.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02676v1",
-    "published_at": "2026-09-02T14:47:38+00:00",
-    "fetched_at": "2026-09-03T08:36:54.175004+00:00"
-  },
-  {
-    "title": "ARFT Dataset for Distributed Wireless Positioning",
-    "summary": "The ARFT dataset provides synchronized acoustic and radio frequency measurements across a 2D spatial grid for distributed wireless sensing research.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02657v1",
-    "published_at": "2026-09-02T14:32:09+00:00",
-    "fetched_at": "2026-09-03T08:36:54.175008+00:00"
-  },
-  {
-    "title": "Active Inference for Fluid Antenna Systems",
-    "summary": "Researchers formulated port selection and pilot allocation jointly as active inference to optimize fluid antenna systems under partial channel state information.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02642v1",
-    "published_at": "2026-09-02T14:17:57+00:00",
-    "fetched_at": "2026-09-03T08:36:54.175013+00:00"
-  },
-  {
-    "title": "Anritsu Launches Wideband Linear Amplifier",
-    "summary": "Anritsu announced a 140 Gbaud wideband linear amplifier with an integrated bias tee intended for optical communications developers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/anritsu-ah15203a-wideband-linear-amplifier-for-optical-comms-2026-09/",
-    "published_at": "2026-09-02T14:14:18+00:00",
-    "fetched_at": "2026-09-03T08:36:54.175017+00:00"
-  },
-  {
-    "title": "Latent Cluster Analysis Framework for Vision-Language-Action Models",
-    "summary": "Researchers propose LAVLA, a framework using latent cluster analysis and cross-attention embedding-weighting to investigate and improve the interpretability of VLA models in robotics.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02634v1",
-    "published_at": "2026-09-02T14:10:47+00:00",
-    "fetched_at": "2026-09-03T08:37:00.984973+00:00"
   }
 ]
