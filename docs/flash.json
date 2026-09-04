@@ -1,21 +1,192 @@
 [
   {
-    "title": "JDIT-K Unveils 13.3-Inch 4K2K Rugged TFT Display",
-    "summary": "JDIT-K released a 13.3-inch 4K2K rugged TFT display featuring a 70,000-hour LED lifetime designed for challenging lighting conditions.",
+    "title": "AI Power Integrity Moves Inside the Semiconductor Package",
+    "summary": "AI power integrity now resides inside the package rather than just the PCB, requiring chips, packages, and boards to be treated as a single PDN.",
     "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/displays-2/jdit-ks-13-3-inch-4k2k-rugged-tft-display-eyes-challenging-lighting-2026-09/",
-    "published_at": "2026-09-03T13:39:34+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284927+00:00"
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
+    "published_at": "2026-09-04T07:50:10+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110436+00:00"
   },
   {
-    "title": "Tsubaki KabelSchlepp Introduces Robotrax Cable Carrier System",
-    "summary": "The Robotrax system features a central steel cable and three-axis flexibility to protect industrial robot cables from severe mechanical stress.",
+    "title": "KYB Adopts Simulator for NVH and Ride Comfort",
+    "summary": "KYB has adopted a simulator capable of reproducing motion, vibration, and sound from 0.5 Hz to 20 kHz for early-stage vehicle evaluation.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/kyb-adopts-simulator-for-ride-comfort-and-nvh-development/",
+    "published_at": "2026-09-04T07:48:24+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110448+00:00"
+  },
+  {
+    "title": "Saxmundham Rail Junction to Be Upgraded for Sizewell C",
+    "summary": "Saxmundham rail junction is scheduled for a major renewal this autumn to improve reliability for freight trains delivering materials to Sizewell C.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/saxmundham-rail-junction-to-be-upgraded-ahead-of-sizewell-c-freight-services-04-09-2026/",
+    "published_at": "2026-09-04T05:30:46+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110452+00:00"
+  },
+  {
+    "title": "Simoco and Antevia Networks Partner for Private 5G",
+    "summary": "Simoco and Antevia Networks are integrating private 5G capability into Simoco's mission-critical communications platform using the 5G SHIFT platform.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/simoco-and-antevia-networks-hook-up-for-private-5g-deployment-2026-09/",
+    "published_at": "2026-09-04T05:12:49+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110455+00:00"
+  },
+  {
+    "title": "GIFT Framework Improves Robotic Manipulation Performance",
+    "summary": "Researchers introduce GIFT, a guided intermediate feature training framework that bridges the action-sufficiency gap to enhance robotic manipulation policies.",
     "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
-    "published_at": "2026-09-03T12:18:21+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284940+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04193v1",
+    "published_at": "2026-09-03T17:59:03+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110459+00:00"
+  },
+  {
+    "title": "Energy-Based Controller for Multi-Agent Robotic Systems",
+    "summary": "A new energy-based controller uses spring-damper modules and a formation matrix to help multi-agent robotic systems achieve and maintain formations while avoiding collisions.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04158v1",
+    "published_at": "2026-09-03T17:49:06+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110462+00:00"
+  },
+  {
+    "title": "Low-Cost Open Platform for Autonomous Driving Research",
+    "summary": "A new open experimental platform combines a miniature Ackermann vehicle, a digital twin, and data tools for end-to-end autonomous driving research.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04147v1",
+    "published_at": "2026-09-03T17:40:20+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110464+00:00"
+  },
+  {
+    "title": "New Headland Coverage Path Planning Method for Farming",
+    "summary": "A new path planning method modifies polygon corners to allow reversing turns, improving field coverage in sharp corners for autonomous farming vehicles.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04103v1",
+    "published_at": "2026-09-03T17:08:02+00:00",
+    "fetched_at": "2026-09-04T08:43:00.110467+00:00"
+  },
+  {
+    "title": "AdaRoboVLG Framework for Adaptive Robotic Grasping",
+    "summary": "Researchers propose AdaRoboVLG, a task-adaptive Vision-Language-Grasp framework that enables generalizable grasp synthesis across different robotic hands using foundation-model priors.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04096v1",
+    "published_at": "2026-09-03T17:03:11+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377785+00:00"
+  },
+  {
+    "title": "LaPla Latent-Aligned Planning for Autonomous Driving",
+    "summary": "LaPla is a new vision-language-action framework for autonomous driving that grounds semantic understanding into continuous, physics-constrained motion execution.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04070v1",
+    "published_at": "2026-09-03T16:42:11+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377794+00:00"
+  },
+  {
+    "title": "PreferenceEKF for Active Reward Learning in RLHF",
+    "summary": "PreferenceEKF frames active preference learning as a sequential Bayesian filtering problem using an extended Kalman filter to track reward model uncertainty.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04066v1",
+    "published_at": "2026-09-03T16:39:55+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377797+00:00"
+  },
+  {
+    "title": "RobustSeiz Framework for EEG Seizure Detection Testing",
+    "summary": "RobustSeiz is an open-source framework designed to benchmark and stress-test the robustness of EEG seizure detection models under clinical distribution shifts.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04007v1",
+    "published_at": "2026-09-03T15:45:52+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377801+00:00"
+  },
+  {
+    "title": "Site-Specific Training for Real-World 5G NR Systems",
+    "summary": "A study evaluates site-specific finetuning on 5G NR wireless receivers, demonstrating substantial performance improvements for neural receiver architectures.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.04004v1",
+    "published_at": "2026-09-03T15:43:06+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377804+00:00"
+  },
+  {
+    "title": "New Stainless Steel Optimized for Hydrogen Electrolysis",
+    "summary": "Scientists developed a new type of stainless steel capable of withstanding harsh conditions to enable more cost-effective green hydrogen production.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/energy/stainless-steel-hydrogen-electrolysis/",
+    "published_at": "2026-09-03T15:37:56+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377807+00:00"
+  },
+  {
+    "title": "Catalogue Photography for Carbide Burr Recognition",
+    "summary": "Researchers investigate how manufacturer catalogue photography can serve as a cold-start supervision source for deployable precision tool recognition.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03995v1",
+    "published_at": "2026-09-03T15:36:12+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377810+00:00"
+  },
+  {
+    "title": "Low-Complexity Sequential Detection for Signal Separation",
+    "summary": "A new sequential detection framework achieves significant computational complexity reduction in separating single-channel co-frequency signals.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03986v1",
+    "published_at": "2026-09-03T15:20:55+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377812+00:00"
+  },
+  {
+    "title": "Multimodal Diffusion Policy for Quadruped Parkour",
+    "summary": "MulDP integrates visual perception with robot proprioception to enable robust long-horizon autonomous navigation for quadruped robots across complex terrains.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03984v1",
+    "published_at": "2026-09-03T15:19:17+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377814+00:00"
+  },
+  {
+    "title": "Efficient Pathology Segmentation via Knowledge Distillation",
+    "summary": "A new knowledge distillation framework transfers pathology foundation model capabilities to compact student networks for efficient tissue segmentation.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03947v1",
+    "published_at": "2026-09-03T14:52:00+00:00",
+    "fetched_at": "2026-09-04T08:43:12.377817+00:00"
+  },
+  {
+    "title": "Hierarchical RL Improves Vision-Language Navigation in Continuous Environments",
+    "summary": "Researchers reformulate Vision-Language Navigation as a Hierarchical Markov Decision Process, using topological graphs and closed-loop RL to achieve state-of-the-art benchmark performance.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03906v1",
+    "published_at": "2026-09-03T14:24:29+00:00",
+    "fetched_at": "2026-09-04T08:43:23.650967+00:00"
+  },
+  {
+    "title": "Force-Aware VLA Framework Enables Contact-Rich Loco-Manipulation",
+    "summary": "Researchers developed a force-aware framework that integrates sensorless residual-torque estimation with vision-language-action models to improve robotic loco-manipulation tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03889v1",
+    "published_at": "2026-09-03T14:10:47+00:00",
+    "fetched_at": "2026-09-04T08:43:23.650975+00:00"
+  },
+  {
+    "title": "Camera-Based Vegetation Index Mapping System Estimates Plant Growth",
+    "summary": "Engineers developed a low-cost camera sensor using RTK-GNSS and NDVI to map and estimate plant growth in real time from agricultural ground vehicles.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.03872v1",
+    "published_at": "2026-09-03T14:00:38+00:00",
+    "fetched_at": "2026-09-04T08:43:23.650979+00:00"
   },
   {
     "title": "Carnegie Mellon Researchers Discover New Hall Effect Form",
@@ -27,49 +198,58 @@
     "fetched_at": "2026-09-03T15:59:32.284946+00:00"
   },
   {
-    "title": "Texas A&M Researchers Develop Inflatable RoboBall for Lunar Craters",
-    "summary": "Engineers designed an inflatable robotic sphere called RoboBall to explore inaccessible, steep lunar craters without tipping over.",
+    "title": "Inflatable RoboBall Designed to Explore Inaccessible Lunar Craters",
+    "summary": "Texas A&M engineers developed an inflatable robotic ball driven by an internal pendulum, designed to explore treacherous lunar craters and launch sample payloads back to a rover.",
     "category": "Robotics",
     "source_name": "IEEE Spectrum",
     "source_url": "https://spectrum.ieee.org/moon-ball-robot",
     "published_at": "2026-09-03T12:00:01+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284952+00:00"
+    "fetched_at": "2026-09-04T08:43:23.650982+00:00"
   },
   {
-    "title": "HPE Expands Oracle Collaboration for AI Data Center Networking",
-    "summary": "Hewlett Packard Enterprise expanded its partnership with Oracle to include multi-year deployments of routing and switching platforms for AI data centers.",
+    "title": "HPE and Oracle Expand AI Data Center Networking Partnership",
+    "summary": "Hewlett Packard Enterprise announced an expanded collaboration with Oracle to deploy routing and switching platforms for AI data centers.",
     "category": "Computing",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/hpe-expands-oracle-collaboration-for-ai-data-center-networking/",
     "published_at": "2026-09-03T10:55:33+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284957+00:00"
+    "fetched_at": "2026-09-04T08:43:23.650984+00:00"
   },
   {
     "title": "QuickLogic Expands eFPGA Hard IP for GF 12LP Process",
-    "summary": "QuickLogic updated its eFPGA Hard IP for GlobalFoundries 12LP with new DSP capabilities, configuration error monitoring, and support for over 250,000 LUTs.",
+    "summary": "QuickLogic introduced new eFPGA Hard IP features for GlobalFoundries 12LP, adding DSP capabilities, increased LUT support, and configuration error monitoring.",
     "category": "Electronics & Semiconductors",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/quicklogic-expands-efpga-hard-ip-for-gf-12lp/",
     "published_at": "2026-09-03T10:45:16+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284962+00:00"
+    "fetched_at": "2026-09-04T08:43:23.650987+00:00"
   },
   {
-    "title": "MulticoreWare Acquires Semiconductor Design Firm Simulus",
-    "summary": "MulticoreWare acquired Simulus to integrate FPGA, CXL, and PCIe expertise into its AI and heterogeneous computing offerings.",
+    "title": "£16M Tender Announced for Barbican Demolition and Structural Works",
+    "summary": "The City of London Corporation announced a £16M tender for demolition, enabling works, and structural works as part of the Barbican Renewal Programme.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/16m-barbican-demolition-and-structures-tender-announced-03-09-2026/",
+    "published_at": "2026-09-03T10:19:19+00:00",
+    "fetched_at": "2026-09-04T08:43:23.651002+00:00"
+  },
+  {
+    "title": "MulticoreWare Acquires Simulus",
+    "summary": "MulticoreWare has acquired semiconductor design specialist Simulus to expand its FPGA, CXL, and PCIe expertise.",
     "category": "Electronics & Semiconductors",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/multicoreware-acquires-semiconductor-design-specialist-simulus/",
     "published_at": "2026-09-03T10:13:13+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284966+00:00"
+    "fetched_at": "2026-09-04T08:43:32.401561+00:00"
   },
   {
-    "title": "Historic Reedham Swing Bridge Repairs Completed Early",
-    "summary": "Network Rail completed repairs on the central bearing of the 123-year-old Reedham swing bridge ahead of schedule, restoring full navigation for larger boats.",
+    "title": "Historic Reedham Swing Bridge Repaired",
+    "summary": "Network Rail has finished repairing the central bearing of the 123-year-old Reedham swing bridge ahead of schedule.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/historic-reedham-swing-bridge-repaired-ahead-of-schedule-03-09-2026/",
     "published_at": "2026-09-03T09:20:27+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284971+00:00"
+    "fetched_at": "2026-09-04T08:43:32.401570+00:00"
   },
   {
     "title": "IBM's Amaravati Deployment Boosts India's Quantum Ecosystem",
@@ -88,185 +268,5 @@
     "source_url": "https://semiengineering.com/protecting-mission-critical-data-beyond-the-soc-why-inline-memory-encryption-needs-integrity/",
     "published_at": "2026-09-03T07:07:47+00:00",
     "fetched_at": "2026-09-03T15:59:36.231947+00:00"
-  },
-  {
-    "title": "Risks and Challenges in 800VDC AI Data Centers",
-    "summary": "Higher electrical currents can cause sparks, fires, and costly outages, while hot chips also create operational problems.",
-    "category": "Energy",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
-    "published_at": "2026-09-03T07:01:33+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231952+00:00"
-  },
-  {
-    "title": "All-Electric Viceroy Seaglider Completes Maiden Flight",
-    "summary": "Regent Craft's Viceroy all-electric seaglider combines a floating hull, WIG effect technology, and hydrofoils in its first crewed flight.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/regent-craft-viceroy-wig-hydrofoil-aircraft-maiden-flight/",
-    "published_at": "2026-09-03T06:03:00+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231957+00:00"
-  },
-  {
-    "title": "Cyber Attack on UK Battery Storage Could Trigger Blackout",
-    "summary": "A report finds that compromising 29 percent of the UK's battery energy storage systems could cause a national blackout.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/cyber-attack-on-battery-energy-storage-systems-could-trigger-blackout-report-finds-03-09-2026/",
-    "published_at": "2026-09-03T05:30:27+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231962+00:00"
-  },
-  {
-    "title": "Google Quadruples TPU Roll-Out Cadence",
-    "summary": "Google has increased its TPU release schedule from once every two years to twice a year.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/google-increases-tpu-roll-out-cadence-by-4x-2026-09/",
-    "published_at": "2026-09-03T05:13:50+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798148+00:00"
-  },
-  {
-    "title": "Skeleton and Infineon Collaborate on Power Solutions",
-    "summary": "Infineon and Skeleton Technologies signed an MoU to develop high-efficiency power solutions for modern datacentres.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/skeleton-and-infineon-hook-up-on-ssts-2026-09/",
-    "published_at": "2026-09-03T05:11:03+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231966+00:00"
-  },
-  {
-    "title": "Nisshinbo Launches Secondary Protection IC for Lithium Cells",
-    "summary": "Nisshinbo Micro Devices introduced a secondary protection IC for two to four series-connected lithium-ion or lithium-polymer cells.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/secondary-protection-ic-for-2-to-4-lithium-cells-connected-in-series-2026-09/",
-    "published_at": "2026-09-03T05:01:10+00:00",
-    "fetched_at": "2026-09-03T08:36:39.798157+00:00"
-  },
-  {
-    "title": "New Qubit Architecture Improves Quantum Operations",
-    "summary": "A new qubit architecture enables faster and more accurate operations, marking a step toward scalable quantum computers.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/new-qubit-architecture-enables-faster-more-accurate-operations-0903",
-    "published_at": "2026-09-03T04:00:00+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231970+00:00"
-  },
-  {
-    "title": "Robigo Engineers Microbes to Protect Crops Sustainably",
-    "summary": "Robigo uses biotechnology to engineer microbes to fight pests and reduce reliance on harmful chemical pesticides.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/robigo-gives-farmers-more-sustainable-way-protect-crops-0903",
-    "published_at": "2026-09-03T04:00:00+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231974+00:00"
-  },
-  {
-    "title": "Ather Energy Scooter Adopts Car-Like Features",
-    "summary": "Bengaluru-based Ather Energy released a new electric scooter model incorporating several modern automotive-style features not typically found on two-wheelers.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/ather-budget-konarc-scooter/",
-    "published_at": "2026-09-02T20:59:11+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298449+00:00"
-  },
-  {
-    "title": "China's Pallas-1 Reusable Rocket Aces Orbit Debut",
-    "summary": "Galactic Energy's new Pallas-1 rocket successfully reached orbit on its debut launch, though its first stage did not land.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/chinas-private-reusable-pallas-1-rocket-aces-debut-launch-video",
-    "published_at": "2026-09-02T20:00:00+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231979+00:00"
-  },
-  {
-    "title": "Solidworks Introduces Blue Tokens for AI Features",
-    "summary": "Dassault Systèmes introduced a blue token subscription model to pay for AI usage across the 3DExperience platform.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/solidworks-users-spend-blue-tokens-on-ai-drawings-insights-and-more/",
-    "published_at": "2026-09-02T19:39:24+00:00",
-    "fetched_at": "2026-09-03T15:59:40.467263+00:00"
-  },
-  {
-    "title": "Green Disc+ Bike Chain Lubricant Cuts Waste",
-    "summary": "The Green Disc+ applies eco-friendly bike chain lubricant directly where needed to eliminate mess and reduce waste.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/bicycles/green-disc-plus-chain-lube/",
-    "published_at": "2026-09-02T18:38:00+00:00",
-    "fetched_at": "2026-09-03T15:59:40.467275+00:00"
-  },
-  {
-    "title": "TRACE Framework Brings Explainability to Autonomous Robots",
-    "summary": "Researchers introduced TRACE, a transparent reasoning architecture designed to provide auditable causal chains and decision-level traceability for autonomous robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02861v1",
-    "published_at": "2026-09-02T17:44:25+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298487+00:00"
-  },
-  {
-    "title": "Two-Stage Systems Improve Automatic Audio Mixing",
-    "summary": "A study on automatic mixing systems demonstrates that separating local balance and global mix coordination significantly improves full-mix quality.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02835v1",
-    "published_at": "2026-09-02T17:19:27+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298491+00:00"
-  },
-  {
-    "title": "Evaluating LiDAR Semantic Segmentation for Real-World Deployment",
-    "summary": "A new evaluation protocol assesses LiDAR semantic segmentation models under coarse labels, environmental corruptions, and cross-domain shifts.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02830v1",
-    "published_at": "2026-09-02T17:15:07+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298495+00:00"
-  },
-  {
-    "title": "Study Examines Predictive World Models in Robot Control",
-    "summary": "Researchers analyzed how predictive model evaluation metrics affect robot path-tracking performance under varying sensing and feedback conditions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02811v1",
-    "published_at": "2026-09-02T16:52:30+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298500+00:00"
-  },
-  {
-    "title": "Guidelines Issued for Power Oscillation Damping Controllers",
-    "summary": "New implementation guidelines and compliance criteria outline how power oscillation damping controllers in power converters can stabilize large-scale power systems.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02810v1",
-    "published_at": "2026-09-02T16:52:25+00:00",
-    "fetched_at": "2026-09-03T08:36:44.298504+00:00"
-  },
-  {
-    "title": "Dry-Contact Ear-EEG System Monitors ESI Mismatch",
-    "summary": "Researchers developed a dry-contact Ear-EEG system using a driven-right-leg stimulus for continuous electrode-skin impedance mismatch monitoring and motion artifact cancellation.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02777v1",
-    "published_at": "2026-09-02T16:12:49+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174972+00:00"
-  },
-  {
-    "title": "AIR Adopts Elmo Motion Control for Cargo Aircraft",
-    "summary": "AIR is integrating Elmo Motion Control's compact servo drives into its uncrewed electric cargo aircraft design.",
-    "category": "Aerospace",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/",
-    "published_at": "2026-09-02T15:29:23+00:00",
-    "fetched_at": "2026-09-03T15:59:40.467281+00:00"
-  },
-  {
-    "title": "MV-dVRK Benchmark for Spatial Surgical Perception",
-    "summary": "A new ex-vivo surgical dataset combines multiple synchronized stereo viewpoints with accurate surface geometry and camera poses for spatial perception evaluation.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.02717v1",
-    "published_at": "2026-09-02T15:25:28+00:00",
-    "fetched_at": "2026-09-03T08:36:54.174986+00:00"
   }
 ]
