@@ -1,12 +1,30 @@
 [
   {
-    "title": "Blue Origin Expands Cape Launch and Test Sites",
-    "summary": "Blue Origin is expanding its footprint at the Kennedy Space Center and Cape Canaveral across multiple fronts.",
+    "title": "Cyborg Cockroaches Developed for Disaster Response",
+    "summary": "Researchers have engineered remote-controlled cyborg cockroaches equipped with spring-loaded needle injectors to deliver medication to trapped disaster victims.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/cyborg-rescue-roach",
+    "published_at": "2026-09-05T13:00:04+00:00",
+    "fetched_at": "2026-09-05T14:20:59.051741+00:00"
+  },
+  {
+    "title": "NASA Funds Slingshot Spacecraft Concept",
+    "summary": "NASA has funded an early-stage concept utilizing a slingshot technique to map minerals on the moon, asteroids, and Martian moons.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
+    "published_at": "2026-09-05T10:00:00+00:00",
+    "fetched_at": "2026-09-05T14:20:59.051754+00:00"
+  },
+  {
+    "title": "Blue Origin Expands Cape Facilities",
+    "summary": "Blue Origin is expanding its test and launch footprints at the Kennedy Space Center and Cape Canaveral.",
     "category": "Aerospace",
     "source_name": "NASASpaceflight",
     "source_url": "https://www.nasaspaceflight.com/2026/09/blue-origin-expands-test-launch-cape/",
     "published_at": "2026-09-04T20:37:43+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041011+00:00"
+    "fetched_at": "2026-09-05T14:20:59.051760+00:00"
   },
   {
     "title": "iSpace to Lead ESA Lunar Polar Ice Rover Mission",
@@ -18,22 +36,13 @@
     "fetched_at": "2026-09-05T08:00:11.041039+00:00"
   },
   {
-    "title": "UK Military Tests Powered Paragliders for Troops",
-    "summary": "The British Ministry of Defence launched a study to evaluate foot-launched powered paragliders for covert troop insertion and reconnaissance.",
+    "title": "UK Military Tests Powered Paragliders",
+    "summary": "The British Ministry of Defence is evaluating foot-launched powered paragliders for covert troop insertion and reconnaissance.",
     "category": "Aerospace",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/military/uk-military-tests-powered-paragliders-covert-troop-nsertion/",
     "published_at": "2026-09-04T13:03:00+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041045+00:00"
-  },
-  {
-    "title": "First Fully EV Highway Asphalt Paver Completes Trial",
-    "summary": "Eurovia Surfacing completed the UK's first operational trial of a fully electric highway-class asphalt paver during an overnight resurfacing shift.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/first-fully-ev-highway-class-asphalt-paver-completes-overnight-resurfacing-shift-04-09-2026/",
-    "published_at": "2026-09-04T08:57:36+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041050+00:00"
+    "fetched_at": "2026-09-05T14:20:59.051765+00:00"
   },
   {
     "title": "KYB Adopts New Simulator for Ride Comfort",
@@ -259,14 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/latest/16m-barbican-demolition-and-structures-tender-announced-03-09-2026/",
     "published_at": "2026-09-03T10:19:19+00:00",
     "fetched_at": "2026-09-04T08:43:23.651002+00:00"
-  },
-  {
-    "title": "MulticoreWare Acquires Simulus",
-    "summary": "MulticoreWare has acquired semiconductor design specialist Simulus to expand its FPGA, CXL, and PCIe expertise.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/multicoreware-acquires-semiconductor-design-specialist-simulus/",
-    "published_at": "2026-09-03T10:13:13+00:00",
-    "fetched_at": "2026-09-04T08:43:32.401561+00:00"
   }
 ]
