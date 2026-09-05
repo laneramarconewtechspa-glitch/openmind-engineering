@@ -1,39 +1,66 @@
 [
   {
-    "title": "AI Power Integrity Moves Inside the Semiconductor Package",
-    "summary": "AI power integrity now resides inside the package rather than just the PCB, requiring chips, packages, and boards to be treated as a single PDN.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
-    "published_at": "2026-09-04T07:50:10+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110436+00:00"
+    "title": "Blue Origin Expands Cape Launch and Test Sites",
+    "summary": "Blue Origin is expanding its footprint at the Kennedy Space Center and Cape Canaveral across multiple fronts.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/blue-origin-expands-test-launch-cape/",
+    "published_at": "2026-09-04T20:37:43+00:00",
+    "fetched_at": "2026-09-05T08:00:11.041011+00:00"
   },
   {
-    "title": "KYB Adopts Simulator for NVH and Ride Comfort",
-    "summary": "KYB has adopted a simulator capable of reproducing motion, vibration, and sound from 0.5 Hz to 20 kHz for early-stage vehicle evaluation.",
+    "title": "iSpace to Lead ESA Lunar Polar Ice Rover Mission",
+    "summary": "iSpace-Europe and ESA agreed on the MAGPIE mission, which is Europe’s first lunar polar ice exploration rover.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/ispace-leading-esas-first-lunar-polar-ice-exploration-rover-mission-2026-09/",
+    "published_at": "2026-09-04T16:14:20+00:00",
+    "fetched_at": "2026-09-05T08:00:11.041039+00:00"
+  },
+  {
+    "title": "UK Military Tests Powered Paragliders for Troops",
+    "summary": "The British Ministry of Defence launched a study to evaluate foot-launched powered paragliders for covert troop insertion and reconnaissance.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/uk-military-tests-powered-paragliders-covert-troop-nsertion/",
+    "published_at": "2026-09-04T13:03:00+00:00",
+    "fetched_at": "2026-09-05T08:00:11.041045+00:00"
+  },
+  {
+    "title": "First Fully EV Highway Asphalt Paver Completes Trial",
+    "summary": "Eurovia Surfacing completed the UK's first operational trial of a fully electric highway-class asphalt paver during an overnight resurfacing shift.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/first-fully-ev-highway-class-asphalt-paver-completes-overnight-resurfacing-shift-04-09-2026/",
+    "published_at": "2026-09-04T08:57:36+00:00",
+    "fetched_at": "2026-09-05T08:00:11.041050+00:00"
+  },
+  {
+    "title": "KYB Adopts New Simulator for Ride Comfort",
+    "summary": "KYB has adopted a system that reproduces motion, vibration, and sound for early-stage vehicle evaluation.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/kyb-adopts-simulator-for-ride-comfort-and-nvh-development/",
     "published_at": "2026-09-04T07:48:24+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110448+00:00"
+    "fetched_at": "2026-09-05T08:00:11.041055+00:00"
   },
   {
-    "title": "Saxmundham Rail Junction to Be Upgraded for Sizewell C",
-    "summary": "Saxmundham rail junction is scheduled for a major renewal this autumn to improve reliability for freight trains delivering materials to Sizewell C.",
+    "title": "Saxmundham Rail Junction Planned for Major Upgrade",
+    "summary": "Saxmundham rail junction is scheduled for a major renewal to improve resilience and reliability ahead of Sizewell C freight services.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/saxmundham-rail-junction-to-be-upgraded-ahead-of-sizewell-c-freight-services-04-09-2026/",
     "published_at": "2026-09-04T05:30:46+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110452+00:00"
+    "fetched_at": "2026-09-05T08:00:11.041060+00:00"
   },
   {
-    "title": "Simoco and Antevia Networks Partner for Private 5G",
-    "summary": "Simoco and Antevia Networks are integrating private 5G capability into Simoco's mission-critical communications platform using the 5G SHIFT platform.",
-    "category": "Computing",
+    "title": "Simoco and Antevia Partner for Private 5G",
+    "summary": "Simoco and Antevia Networks are integrating private 5G capability into Simoco’s mission-critical communications platform.",
+    "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
     "source_url": "https://www.electronicsweekly.com/news/business/simoco-and-antevia-networks-hook-up-for-private-5g-deployment-2026-09/",
     "published_at": "2026-09-04T05:12:49+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110455+00:00"
+    "fetched_at": "2026-09-05T08:00:11.041066+00:00"
   },
   {
     "title": "GIFT Framework Improves Robotic Manipulation Performance",
@@ -241,32 +268,5 @@
     "source_url": "https://www.engineering.com/multicoreware-acquires-semiconductor-design-specialist-simulus/",
     "published_at": "2026-09-03T10:13:13+00:00",
     "fetched_at": "2026-09-04T08:43:32.401561+00:00"
-  },
-  {
-    "title": "Historic Reedham Swing Bridge Repaired",
-    "summary": "Network Rail has finished repairing the central bearing of the 123-year-old Reedham swing bridge ahead of schedule.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/historic-reedham-swing-bridge-repaired-ahead-of-schedule-03-09-2026/",
-    "published_at": "2026-09-03T09:20:27+00:00",
-    "fetched_at": "2026-09-04T08:43:32.401570+00:00"
-  },
-  {
-    "title": "IBM's Amaravati Deployment Boosts India's Quantum Ecosystem",
-    "summary": "IBM's deployment in Amaravati could help accelerate India's quantum ecosystem as startups develop processors and software.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/indias-quantum-journey-goes-beyond-the-qubit/",
-    "published_at": "2026-09-03T08:00:47+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231937+00:00"
-  },
-  {
-    "title": "Inline Memory Encryption Needs Integrity for Mission-Critical Data",
-    "summary": "Aerospace and government systems require confidentiality, authentication, and implementation resilience for off-chip memory.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/protecting-mission-critical-data-beyond-the-soc-why-inline-memory-encryption-needs-integrity/",
-    "published_at": "2026-09-03T07:07:47+00:00",
-    "fetched_at": "2026-09-03T15:59:36.231947+00:00"
   }
 ]
