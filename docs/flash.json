@@ -1,30 +1,21 @@
 [
   {
-    "title": "Cyborg Cockroaches Developed for Disaster Rescue",
-    "summary": "Researchers have created cyborg cockroaches equipped with remote-controlled navigation and spring-loaded needle injectors to deliver lifesaving aid to disaster victims.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/cyborg-rescue-roach",
-    "published_at": "2026-09-05T13:00:04+00:00",
-    "fetched_at": "2026-09-06T08:13:56.646120+00:00"
-  },
-  {
-    "title": "LightMake L4 Features Four Independent Print Heads",
-    "summary": "The LightMake L4 desktop 3D printer uses four independent print heads to address speed, multi-color filament waste, and volume load limitations.",
+    "title": "LightMake L4 3D Printer Features Four Independent Print Heads",
+    "summary": "The LightMake L4 desktop 3D printer launches on Kickstarter with four independent print heads to address speed, multi-color waste, and volume constraints.",
     "category": "Mechanical",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/3d-printing/lightmake-l4-four-independent-print-heads-one-desktop/",
     "published_at": "2026-09-05T12:03:00+00:00",
-    "fetched_at": "2026-09-06T08:13:56.646131+00:00"
+    "fetched_at": "2026-09-06T14:41:37.928353+00:00"
   },
   {
-    "title": "NASA Funds 'Slingshot' Mineral-Mapping Spacecraft Concept",
-    "summary": "NASA has funded an early-stage concept to test new techniques for mapping minerals on the moon, asteroids, and Martian moons.",
+    "title": "NASA Funds Slingshot Spacecraft Concept for Mineral Mapping",
+    "summary": "NASA is funding an early-stage concept to test new techniques for mapping minerals on planetary bodies across the solar system.",
     "category": "Aerospace",
     "source_name": "Space.com",
     "source_url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
     "published_at": "2026-09-05T10:00:00+00:00",
-    "fetched_at": "2026-09-06T08:13:56.646136+00:00"
+    "fetched_at": "2026-09-06T14:41:37.928367+00:00"
   },
   {
     "title": "Blue Origin Expands Cape Facilities",
@@ -205,68 +196,5 @@
     "source_url": "https://arxiv.org/abs/2609.03947v1",
     "published_at": "2026-09-03T14:52:00+00:00",
     "fetched_at": "2026-09-04T08:43:12.377817+00:00"
-  },
-  {
-    "title": "Hierarchical RL Improves Vision-Language Navigation in Continuous Environments",
-    "summary": "Researchers reformulate Vision-Language Navigation as a Hierarchical Markov Decision Process, using topological graphs and closed-loop RL to achieve state-of-the-art benchmark performance.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03906v1",
-    "published_at": "2026-09-03T14:24:29+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650967+00:00"
-  },
-  {
-    "title": "Force-Aware VLA Framework Enables Contact-Rich Loco-Manipulation",
-    "summary": "Researchers developed a force-aware framework that integrates sensorless residual-torque estimation with vision-language-action models to improve robotic loco-manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03889v1",
-    "published_at": "2026-09-03T14:10:47+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650975+00:00"
-  },
-  {
-    "title": "Camera-Based Vegetation Index Mapping System Estimates Plant Growth",
-    "summary": "Engineers developed a low-cost camera sensor using RTK-GNSS and NDVI to map and estimate plant growth in real time from agricultural ground vehicles.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03872v1",
-    "published_at": "2026-09-03T14:00:38+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650979+00:00"
-  },
-  {
-    "title": "Carnegie Mellon Researchers Discover New Hall Effect Form",
-    "summary": "Scientists discovered an unexpected form of the Hall effect that occurs without a perpendicular magnetic field, overturning a century-old assumption.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260901010659.htm",
-    "published_at": "2026-09-03T12:17:16+00:00",
-    "fetched_at": "2026-09-03T15:59:32.284946+00:00"
-  },
-  {
-    "title": "Inflatable RoboBall Designed to Explore Inaccessible Lunar Craters",
-    "summary": "Texas A&M engineers developed an inflatable robotic ball driven by an internal pendulum, designed to explore treacherous lunar craters and launch sample payloads back to a rover.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/moon-ball-robot",
-    "published_at": "2026-09-03T12:00:01+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650982+00:00"
-  },
-  {
-    "title": "HPE and Oracle Expand AI Data Center Networking Partnership",
-    "summary": "Hewlett Packard Enterprise announced an expanded collaboration with Oracle to deploy routing and switching platforms for AI data centers.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/hpe-expands-oracle-collaboration-for-ai-data-center-networking/",
-    "published_at": "2026-09-03T10:55:33+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650984+00:00"
-  },
-  {
-    "title": "QuickLogic Expands eFPGA Hard IP for GF 12LP Process",
-    "summary": "QuickLogic introduced new eFPGA Hard IP features for GlobalFoundries 12LP, adding DSP capabilities, increased LUT support, and configuration error monitoring.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/quicklogic-expands-efpga-hard-ip-for-gf-12lp/",
-    "published_at": "2026-09-03T10:45:16+00:00",
-    "fetched_at": "2026-09-04T08:43:23.650987+00:00"
   }
 ]
