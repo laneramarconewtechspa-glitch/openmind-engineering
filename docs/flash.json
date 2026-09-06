@@ -1,21 +1,30 @@
 [
   {
-    "title": "Cyborg Cockroaches Developed for Disaster Response",
-    "summary": "Researchers have engineered remote-controlled cyborg cockroaches equipped with spring-loaded needle injectors to deliver medication to trapped disaster victims.",
+    "title": "Cyborg Cockroaches Developed for Disaster Rescue",
+    "summary": "Researchers have created cyborg cockroaches equipped with remote-controlled navigation and spring-loaded needle injectors to deliver lifesaving aid to disaster victims.",
     "category": "Robotics",
     "source_name": "IEEE Spectrum",
     "source_url": "https://spectrum.ieee.org/cyborg-rescue-roach",
     "published_at": "2026-09-05T13:00:04+00:00",
-    "fetched_at": "2026-09-05T14:20:59.051741+00:00"
+    "fetched_at": "2026-09-06T08:13:56.646120+00:00"
   },
   {
-    "title": "NASA Funds Slingshot Spacecraft Concept",
-    "summary": "NASA has funded an early-stage concept utilizing a slingshot technique to map minerals on the moon, asteroids, and Martian moons.",
+    "title": "LightMake L4 Features Four Independent Print Heads",
+    "summary": "The LightMake L4 desktop 3D printer uses four independent print heads to address speed, multi-color filament waste, and volume load limitations.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/3d-printing/lightmake-l4-four-independent-print-heads-one-desktop/",
+    "published_at": "2026-09-05T12:03:00+00:00",
+    "fetched_at": "2026-09-06T08:13:56.646131+00:00"
+  },
+  {
+    "title": "NASA Funds 'Slingshot' Mineral-Mapping Spacecraft Concept",
+    "summary": "NASA has funded an early-stage concept to test new techniques for mapping minerals on the moon, asteroids, and Martian moons.",
     "category": "Aerospace",
     "source_name": "Space.com",
     "source_url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
     "published_at": "2026-09-05T10:00:00+00:00",
-    "fetched_at": "2026-09-05T14:20:59.051754+00:00"
+    "fetched_at": "2026-09-06T08:13:56.646136+00:00"
   },
   {
     "title": "Blue Origin Expands Cape Facilities",
@@ -259,14 +268,5 @@
     "source_url": "https://www.engineering.com/quicklogic-expands-efpga-hard-ip-for-gf-12lp/",
     "published_at": "2026-09-03T10:45:16+00:00",
     "fetched_at": "2026-09-04T08:43:23.650987+00:00"
-  },
-  {
-    "title": "£16M Tender Announced for Barbican Demolition and Structural Works",
-    "summary": "The City of London Corporation announced a £16M tender for demolition, enabling works, and structural works as part of the Barbican Renewal Programme.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/16m-barbican-demolition-and-structures-tender-announced-03-09-2026/",
-    "published_at": "2026-09-03T10:19:19+00:00",
-    "fetched_at": "2026-09-04T08:43:23.651002+00:00"
   }
 ]
