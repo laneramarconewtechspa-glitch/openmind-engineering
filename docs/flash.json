@@ -1,21 +1,57 @@
 [
   {
+    "title": "Agility Robotics Reports $1.8M Revenue Ahead of SPAC",
+    "summary": "Agility Robotics revealed $1.8 million in 2025 revenue and plans to scale its Digit humanoid robot business.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+    "published_at": "2026-09-07T13:17:45+00:00",
+    "fetched_at": "2026-09-07T16:58:14.764834+00:00"
+  },
+  {
+    "title": "£13M West Highland Line Upgrade Scheduled",
+    "summary": "The West Highland Line will close for nine days for £13 million in upgrade work to improve reliability.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/13m-west-highland-line-upgrade-planned-07-09-2026/",
+    "published_at": "2026-09-07T11:43:25+00:00",
+    "fetched_at": "2026-09-07T16:58:14.764859+00:00"
+  },
+  {
+    "title": "Phytec Showcases phyVIP Platform for Embedded AI Vision",
+    "summary": "Phytec is showcasing its phyVIP platform at the Vision trade fair to speed up embedded AI-based vision development.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/bus-systems-sbcs/phytecs-phyvip-to-speed-embedded-ai-based-vision-development-2026-09/",
+    "published_at": "2026-09-07T10:29:49+00:00",
+    "fetched_at": "2026-09-07T16:58:14.764866+00:00"
+  },
+  {
     "title": "Kioxia Introduces Flash-for-DRAM Initiative for AI Workloads",
-    "summary": "Kioxia announced a CXL-attached memory expansion utilizing NAND flash optimized for high-speed processing alongside AI compute devices.",
+    "summary": "Kioxia announced a CXL-attached memory expansion utilizing NAND flash optimized for high-speed processing with AI compute devices.",
     "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/kioxias-flash-for-dram-initiative-eyes-ai-workloads/",
     "published_at": "2026-09-07T08:01:30+00:00",
-    "fetched_at": "2026-09-07T08:45:55.859088+00:00"
+    "fetched_at": "2026-09-07T16:58:14.764870+00:00"
   },
   {
-    "title": "New Solid-State Cooler Uses Heat to Generate Cold",
-    "summary": "Scientists developed a solid-state cooling device that uses heat to generate cold, potentially recycling waste heat from electronics.",
+    "title": "Solid-State Cooling Device Uses Heat to Generate Cold",
+    "summary": "Scientists built a solid-state cooling device that uses heat to generate cold to recycle waste heat in electronics.",
     "category": "Energy",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/energy/solid-state-cooler-heat-cold/",
     "published_at": "2026-09-06T23:03:00+00:00",
-    "fetched_at": "2026-09-07T08:45:55.859102+00:00"
+    "fetched_at": "2026-09-07T16:58:14.764875+00:00"
+  },
+  {
+    "title": "Pressure Sensors Improve Robotic Gripping Accuracy",
+    "summary": "Pressure sensors can help improve robotic bin picking from first contact through surface deformation and stable holds.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+    "published_at": "2026-09-06T12:30:17+00:00",
+    "fetched_at": "2026-09-07T16:58:14.764880+00:00"
   },
   {
     "title": "LightMake L4 3D Printer Features Four Independent Print Heads",
@@ -43,23 +79,5 @@
     "source_url": "https://www.nasaspaceflight.com/2026/09/blue-origin-expands-test-launch-cape/",
     "published_at": "2026-09-04T20:37:43+00:00",
     "fetched_at": "2026-09-05T14:20:59.051760+00:00"
-  },
-  {
-    "title": "iSpace to Lead ESA Lunar Polar Ice Rover Mission",
-    "summary": "iSpace-Europe and ESA agreed on the MAGPIE mission, which is Europe’s first lunar polar ice exploration rover.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/ispace-leading-esas-first-lunar-polar-ice-exploration-rover-mission-2026-09/",
-    "published_at": "2026-09-04T16:14:20+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041039+00:00"
-  },
-  {
-    "title": "UK Military Tests Powered Paragliders",
-    "summary": "The British Ministry of Defence is evaluating foot-launched powered paragliders for covert troop insertion and reconnaissance.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/uk-military-tests-powered-paragliders-covert-troop-nsertion/",
-    "published_at": "2026-09-04T13:03:00+00:00",
-    "fetched_at": "2026-09-05T14:20:59.051765+00:00"
   }
 ]
