@@ -1,5 +1,23 @@
 [
   {
+    "title": "Kioxia Introduces Flash-for-DRAM Initiative for AI Workloads",
+    "summary": "Kioxia announced a CXL-attached memory expansion utilizing NAND flash optimized for high-speed processing alongside AI compute devices.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/kioxias-flash-for-dram-initiative-eyes-ai-workloads/",
+    "published_at": "2026-09-07T08:01:30+00:00",
+    "fetched_at": "2026-09-07T08:45:55.859088+00:00"
+  },
+  {
+    "title": "New Solid-State Cooler Uses Heat to Generate Cold",
+    "summary": "Scientists developed a solid-state cooling device that uses heat to generate cold, potentially recycling waste heat from electronics.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/energy/solid-state-cooler-heat-cold/",
+    "published_at": "2026-09-06T23:03:00+00:00",
+    "fetched_at": "2026-09-07T08:45:55.859102+00:00"
+  },
+  {
     "title": "LightMake L4 3D Printer Features Four Independent Print Heads",
     "summary": "The LightMake L4 desktop 3D printer launches on Kickstarter with four independent print heads to address speed, multi-color waste, and volume constraints.",
     "category": "Mechanical",
@@ -43,158 +61,5 @@
     "source_url": "https://newatlas.com/military/uk-military-tests-powered-paragliders-covert-troop-nsertion/",
     "published_at": "2026-09-04T13:03:00+00:00",
     "fetched_at": "2026-09-05T14:20:59.051765+00:00"
-  },
-  {
-    "title": "KYB Adopts New Simulator for Ride Comfort",
-    "summary": "KYB has adopted a system that reproduces motion, vibration, and sound for early-stage vehicle evaluation.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/kyb-adopts-simulator-for-ride-comfort-and-nvh-development/",
-    "published_at": "2026-09-04T07:48:24+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041055+00:00"
-  },
-  {
-    "title": "Saxmundham Rail Junction Planned for Major Upgrade",
-    "summary": "Saxmundham rail junction is scheduled for a major renewal to improve resilience and reliability ahead of Sizewell C freight services.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/saxmundham-rail-junction-to-be-upgraded-ahead-of-sizewell-c-freight-services-04-09-2026/",
-    "published_at": "2026-09-04T05:30:46+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041060+00:00"
-  },
-  {
-    "title": "Simoco and Antevia Partner for Private 5G",
-    "summary": "Simoco and Antevia Networks are integrating private 5G capability into Simoco’s mission-critical communications platform.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/simoco-and-antevia-networks-hook-up-for-private-5g-deployment-2026-09/",
-    "published_at": "2026-09-04T05:12:49+00:00",
-    "fetched_at": "2026-09-05T08:00:11.041066+00:00"
-  },
-  {
-    "title": "GIFT Framework Improves Robotic Manipulation Performance",
-    "summary": "Researchers introduce GIFT, a guided intermediate feature training framework that bridges the action-sufficiency gap to enhance robotic manipulation policies.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04193v1",
-    "published_at": "2026-09-03T17:59:03+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110459+00:00"
-  },
-  {
-    "title": "Energy-Based Controller for Multi-Agent Robotic Systems",
-    "summary": "A new energy-based controller uses spring-damper modules and a formation matrix to help multi-agent robotic systems achieve and maintain formations while avoiding collisions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04158v1",
-    "published_at": "2026-09-03T17:49:06+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110462+00:00"
-  },
-  {
-    "title": "Low-Cost Open Platform for Autonomous Driving Research",
-    "summary": "A new open experimental platform combines a miniature Ackermann vehicle, a digital twin, and data tools for end-to-end autonomous driving research.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04147v1",
-    "published_at": "2026-09-03T17:40:20+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110464+00:00"
-  },
-  {
-    "title": "New Headland Coverage Path Planning Method for Farming",
-    "summary": "A new path planning method modifies polygon corners to allow reversing turns, improving field coverage in sharp corners for autonomous farming vehicles.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04103v1",
-    "published_at": "2026-09-03T17:08:02+00:00",
-    "fetched_at": "2026-09-04T08:43:00.110467+00:00"
-  },
-  {
-    "title": "AdaRoboVLG Framework for Adaptive Robotic Grasping",
-    "summary": "Researchers propose AdaRoboVLG, a task-adaptive Vision-Language-Grasp framework that enables generalizable grasp synthesis across different robotic hands using foundation-model priors.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04096v1",
-    "published_at": "2026-09-03T17:03:11+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377785+00:00"
-  },
-  {
-    "title": "LaPla Latent-Aligned Planning for Autonomous Driving",
-    "summary": "LaPla is a new vision-language-action framework for autonomous driving that grounds semantic understanding into continuous, physics-constrained motion execution.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04070v1",
-    "published_at": "2026-09-03T16:42:11+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377794+00:00"
-  },
-  {
-    "title": "PreferenceEKF for Active Reward Learning in RLHF",
-    "summary": "PreferenceEKF frames active preference learning as a sequential Bayesian filtering problem using an extended Kalman filter to track reward model uncertainty.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04066v1",
-    "published_at": "2026-09-03T16:39:55+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377797+00:00"
-  },
-  {
-    "title": "RobustSeiz Framework for EEG Seizure Detection Testing",
-    "summary": "RobustSeiz is an open-source framework designed to benchmark and stress-test the robustness of EEG seizure detection models under clinical distribution shifts.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04007v1",
-    "published_at": "2026-09-03T15:45:52+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377801+00:00"
-  },
-  {
-    "title": "Site-Specific Training for Real-World 5G NR Systems",
-    "summary": "A study evaluates site-specific finetuning on 5G NR wireless receivers, demonstrating substantial performance improvements for neural receiver architectures.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.04004v1",
-    "published_at": "2026-09-03T15:43:06+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377804+00:00"
-  },
-  {
-    "title": "New Stainless Steel Optimized for Hydrogen Electrolysis",
-    "summary": "Scientists developed a new type of stainless steel capable of withstanding harsh conditions to enable more cost-effective green hydrogen production.",
-    "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/energy/stainless-steel-hydrogen-electrolysis/",
-    "published_at": "2026-09-03T15:37:56+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377807+00:00"
-  },
-  {
-    "title": "Catalogue Photography for Carbide Burr Recognition",
-    "summary": "Researchers investigate how manufacturer catalogue photography can serve as a cold-start supervision source for deployable precision tool recognition.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03995v1",
-    "published_at": "2026-09-03T15:36:12+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377810+00:00"
-  },
-  {
-    "title": "Low-Complexity Sequential Detection for Signal Separation",
-    "summary": "A new sequential detection framework achieves significant computational complexity reduction in separating single-channel co-frequency signals.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03986v1",
-    "published_at": "2026-09-03T15:20:55+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377812+00:00"
-  },
-  {
-    "title": "Multimodal Diffusion Policy for Quadruped Parkour",
-    "summary": "MulDP integrates visual perception with robot proprioception to enable robust long-horizon autonomous navigation for quadruped robots across complex terrains.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03984v1",
-    "published_at": "2026-09-03T15:19:17+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377814+00:00"
-  },
-  {
-    "title": "Efficient Pathology Segmentation via Knowledge Distillation",
-    "summary": "A new knowledge distillation framework transfers pathology foundation model capabilities to compact student networks for efficient tissue segmentation.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.03947v1",
-    "published_at": "2026-09-03T14:52:00+00:00",
-    "fetched_at": "2026-09-04T08:43:12.377817+00:00"
   }
 ]
