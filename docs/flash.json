@@ -1,5 +1,95 @@
 [
   {
+    "title": "XGIMI Unveils 4K/120Hz Ultra-Short-Throw Projector Series",
+    "summary": "XGIMI previewed its AURA 3 Series at IFA 2026, featuring the flagship Aura 3 Max and Aura 3 Pro as the world's first 4K/120Hz ultra-short-throw projectors.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/home-entertainment/xgimi-aura-3-max-pro-4k-120hz-ust-projector/",
+    "published_at": "2026-09-08T13:33:49+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049712+00:00"
+  },
+  {
+    "title": "Creality Debuts New 3D Printing and Digital Fabrication Portfolio",
+    "summary": "Creality introduced new systems spanning filament recycling, resin printing, 3D scanning, laser processing, and digitally manufactured footwear.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/creality-presents-3d-printing-and-digital-fabrication-portfolio/",
+    "published_at": "2026-09-08T13:27:27+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049726+00:00"
+  },
+  {
+    "title": "Dolphin Adopts AI Simulation Tools for Cooling Systems",
+    "summary": "Dolphin plans to implement CFD and thermal simulations across its heavy-duty and industrial product ranges for cooling system designs.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/dolphin-adopts-ai-simulation-tools-for-cooling-system-designs/",
+    "published_at": "2026-09-08T12:20:42+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049731+00:00"
+  },
+  {
+    "title": "Pudu D7 Semi-Humanoid Robot Named IFA Innovation Honoree",
+    "summary": "The Pudu D7 semi-humanoid robot features dual-arm manipulation and autonomous battery swapping to support industrial, warehouse, retail, and hospitality tasks.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/pudu-d7-named-ifa-innovation-awards-honoree/",
+    "published_at": "2026-09-08T11:09:33+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049736+00:00"
+  },
+  {
+    "title": "Kawasaki and EdgeCortix Partner on AI Defense Systems",
+    "summary": "Kawasaki and EdgeCortix launched a multi-year program covering technology development, system integration, and prototypes for AI defense systems.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/kawasaki-and-edgecortix-partner-on-ai-defense-systems/",
+    "published_at": "2026-09-08T10:56:05+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049740+00:00"
+  },
+  {
+    "title": "83% of British Cities Highly Vulnerable to Urban Heat",
+    "summary": "Analysis from Ordnance Survey, the Met Office, and 4 Earth Intelligence reveals that 59 British cities are highly vulnerable to urban heat.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/83-of-britains-cities-highly-vulnerable-to-urban-heat-says-os-analysis-08-09-2026/",
+    "published_at": "2026-09-08T10:43:00+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049744+00:00"
+  },
+  {
+    "title": "Startup Vaire Computing Builds Energy-Recycling Chips",
+    "summary": "Startup Vaire Computing is developing reversible computing chips designed to recycle energy usually thrown away as heat.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+    "published_at": "2026-09-08T10:36:00+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049749+00:00"
+  },
+  {
+    "title": "Startup Innovates Cheaper and Cleaner Steel Production",
+    "summary": "A new startup is working on making steel cleaner and cheaper by modernizing the traditional iron ore purification process.",
+    "category": "Materials",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+    "published_at": "2026-09-08T10:33:00+00:00",
+    "fetched_at": "2026-09-08T15:48:31.049752+00:00"
+  },
+  {
+    "title": "SKF and Sentea Partner on Integrated Sensing Platform",
+    "summary": "SKF has partnered with Sentea on the SKF Core platform to combine sensing, processing, and communication for machine intelligence.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/skf-partners-with-sentea-on-integrated-sensing-platform/",
+    "published_at": "2026-09-08T09:52:36+00:00",
+    "fetched_at": "2026-09-08T15:48:33.970731+00:00"
+  },
+  {
+    "title": "ASML and TSMC Lead 12-inch Photomask Transition",
+    "summary": "ASML and TSMC announced a collaborative initiative to transition the semiconductor industry to larger-format EUV lithography photomasks.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/asml-and-tsmc-to-lead-transition-to-12-inch-photomasks-for-high-na-euv-2026-09/",
+    "published_at": "2026-09-08T07:22:53+00:00",
+    "fetched_at": "2026-09-08T15:48:33.970741+00:00"
+  },
+  {
     "title": "Brain Wave-Tracking Wearable Detects Focus Levels",
     "summary": "A new wearable device uses EEG technology to track brain waves and tell users how often their mind drifts.",
     "category": "Biomedical",
@@ -18,13 +108,13 @@
     "fetched_at": "2026-09-08T08:30:35.497083+00:00"
   },
   {
-    "title": "Agility Robotics Reports $1.8M Revenue Ahead of SPAC",
-    "summary": "Agility Robotics revealed $1.8 million in 2025 revenue and plans to scale its Digit humanoid robot business in an S-4 filing.",
+    "title": "Agility Robotics Reports Financials Ahead of SPAC",
+    "summary": "Agility Robotics revealed $1.8 million in revenue and a $140 million operating loss in an S-4 filing as it plans to scale its Digit humanoid robot business.",
     "category": "Robotics",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
     "published_at": "2026-09-07T13:17:45+00:00",
-    "fetched_at": "2026-09-08T08:30:35.497090+00:00"
+    "fetched_at": "2026-09-08T15:48:33.970745+00:00"
   },
   {
     "title": "Phytec Showcases phyVIP Platform for Embedded AI Vision",
@@ -70,23 +160,5 @@
     "source_url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
     "published_at": "2026-09-06T12:30:17+00:00",
     "fetched_at": "2026-09-07T16:58:14.764880+00:00"
-  },
-  {
-    "title": "LightMake L4 3D Printer Features Four Independent Print Heads",
-    "summary": "The LightMake L4 desktop 3D printer launches on Kickstarter with four independent print heads to address speed, multi-color waste, and volume constraints.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/3d-printing/lightmake-l4-four-independent-print-heads-one-desktop/",
-    "published_at": "2026-09-05T12:03:00+00:00",
-    "fetched_at": "2026-09-06T14:41:37.928353+00:00"
-  },
-  {
-    "title": "NASA Funds Slingshot Spacecraft Concept for Mineral Mapping",
-    "summary": "NASA is funding an early-stage concept to test new techniques for mapping minerals on planetary bodies across the solar system.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
-    "published_at": "2026-09-05T10:00:00+00:00",
-    "fetched_at": "2026-09-06T14:41:37.928367+00:00"
   }
 ]
