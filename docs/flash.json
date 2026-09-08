@@ -1,21 +1,30 @@
 [
   {
+    "title": "Brain Wave-Tracking Wearable Detects Focus Levels",
+    "summary": "A new wearable device uses EEG technology to track brain waves and tell users how often their mind drifts.",
+    "category": "Biomedical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/wearables/brain-wave-tracking-wearable-eeg-focus-atlas/",
+    "published_at": "2026-09-07T23:03:00+00:00",
+    "fetched_at": "2026-09-08T08:30:35.497067+00:00"
+  },
+  {
+    "title": "Microcooling Enables Agentic AI",
+    "summary": "Microcooling technologies are becoming a critical enabler for tiny devices to beat heat and sustain agentic AI intelligence.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/why-microcooling-will-be-a-critical-enabler-of-agentic-ai/",
+    "published_at": "2026-09-07T13:19:14+00:00",
+    "fetched_at": "2026-09-08T08:30:35.497083+00:00"
+  },
+  {
     "title": "Agility Robotics Reports $1.8M Revenue Ahead of SPAC",
-    "summary": "Agility Robotics revealed $1.8 million in 2025 revenue and plans to scale its Digit humanoid robot business.",
+    "summary": "Agility Robotics revealed $1.8 million in 2025 revenue and plans to scale its Digit humanoid robot business in an S-4 filing.",
     "category": "Robotics",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
     "published_at": "2026-09-07T13:17:45+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764834+00:00"
-  },
-  {
-    "title": "£13M West Highland Line Upgrade Scheduled",
-    "summary": "The West Highland Line will close for nine days for £13 million in upgrade work to improve reliability.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/13m-west-highland-line-upgrade-planned-07-09-2026/",
-    "published_at": "2026-09-07T11:43:25+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764859+00:00"
+    "fetched_at": "2026-09-08T08:30:35.497090+00:00"
   },
   {
     "title": "Phytec Showcases phyVIP Platform for Embedded AI Vision",
@@ -27,13 +36,22 @@
     "fetched_at": "2026-09-07T16:58:14.764866+00:00"
   },
   {
-    "title": "Kioxia Introduces Flash-for-DRAM Initiative for AI Workloads",
-    "summary": "Kioxia announced a CXL-attached memory expansion utilizing NAND flash optimized for high-speed processing with AI compute devices.",
-    "category": "Electronics & Semiconductors",
+    "title": "Winvic Appointed for Witton-le-Wear Bridge Scheme",
+    "summary": "Durham County Council appointed Winvic Construction to design the Witton Le Wear Bridge scheme on the A68.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/winvic-delivering-witton-le-wear-bridge-scheme-07-09-2026/",
+    "published_at": "2026-09-07T08:05:26+00:00",
+    "fetched_at": "2026-09-08T08:30:35.497096+00:00"
+  },
+  {
+    "title": "Kioxia Introduces Flash-for-DRAM Initiative for AI",
+    "summary": "Kioxia unveiled a CXL-attached memory expansion using NAND flash optimized for high-speed processing alongside AI compute devices.",
+    "category": "Computing",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/kioxias-flash-for-dram-initiative-eyes-ai-workloads/",
     "published_at": "2026-09-07T08:01:30+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764870+00:00"
+    "fetched_at": "2026-09-08T08:30:35.497102+00:00"
   },
   {
     "title": "Solid-State Cooling Device Uses Heat to Generate Cold",
@@ -70,14 +88,5 @@
     "source_url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
     "published_at": "2026-09-05T10:00:00+00:00",
     "fetched_at": "2026-09-06T14:41:37.928367+00:00"
-  },
-  {
-    "title": "Blue Origin Expands Cape Facilities",
-    "summary": "Blue Origin is expanding its test and launch footprints at the Kennedy Space Center and Cape Canaveral.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/blue-origin-expands-test-launch-cape/",
-    "published_at": "2026-09-04T20:37:43+00:00",
-    "fetched_at": "2026-09-05T14:20:59.051760+00:00"
   }
 ]
