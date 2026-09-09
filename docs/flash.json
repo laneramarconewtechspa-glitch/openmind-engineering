@@ -1,39 +1,237 @@
 [
   {
+    "title": "Quantum Scaling Demands Advanced Control Electronics",
+    "summary": "Excessive wiring, heat, and latency are pushing quantum control electronics deeper into cryogenic environments.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/quantum-scaling-is-becoming-a-control-electronics-problem/",
+    "published_at": "2026-09-09T08:05:43+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659853+00:00"
+  },
+  {
+    "title": "Smart Telescope Uses Spinning Sensor to Stop Star Trails",
+    "summary": "DwarfLab's Draco smart telescope uses a physically spinning sensor to cancel out star trails caused by Earth's rotation without an equatorial mount.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/consumer-tech/dwarflab-draco-smart-telescope/",
+    "published_at": "2026-09-09T07:50:24+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659869+00:00"
+  },
+  {
+    "title": "Frog Skeletal Muscle Powers Swimming Robotic Manta Ray",
+    "summary": "Scientists used skeletal muscle from a frog leg as a biological actuator to control a tiny robotic manta ray.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/frog-muscle-swimming-robotic-manta-ray/",
+    "published_at": "2026-09-08T23:03:00+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659876+00:00"
+  },
+  {
+    "title": "Stoke Space Raises $1 Billion for Reusable Rockets",
+    "summary": "Stoke Space secured $1 billion in funding to develop its reusable Nova rockets and targets an early 2027 launch.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/private-spaceflight/stoke-space-raises-usd1-billion-for-fully-reusable-rockets-targets-early-2027-for-1st-ever-launch",
+    "published_at": "2026-09-08T19:23:56+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659882+00:00"
+  },
+  {
+    "title": "TANGO Humanoid Navigates Cluttered Spaces Using Vision-Language",
+    "summary": "TANGO is a new whole-board vision-language-action framework enabling humanoids to navigate cluttered environments through continuous geometry-aware adaptation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09158v1",
+    "published_at": "2026-09-08T17:59:55+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659887+00:00"
+  },
+  {
+    "title": "DeCAL Model Enhances Dexterous Robotic Manipulation with Tactile Data",
+    "summary": "DeCAL is a physically grounded vision-language-action model that combines adaptive visuo-tactile fusion and latent co-imagination for contact-rich dexterous manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09119v1",
+    "published_at": "2026-09-08T17:47:43+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659893+00:00"
+  },
+  {
+    "title": "New Path Loss Models Extend 3GPP Standards Up to 150 GHz",
+    "summary": "Researchers derived omnidirectional urban microcell path loss models spanning 6.75 to 142 GHz to help extend standardized communications into sub-THz frequencies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09092v1",
+    "published_at": "2026-09-08T17:36:14+00:00",
+    "fetched_at": "2026-09-09T08:36:35.659901+00:00"
+  },
+  {
+    "title": "Observation-Gated Filtering for Autonomous Mapping",
+    "summary": "An observation-gated filter improves learned occupancy in autonomous active mapping by suppressing inaccurate predictions without requiring retraining.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09069v1",
+    "published_at": "2026-09-08T17:23:37+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172445+00:00"
+  },
+  {
+    "title": "Efficient Quantile-Resolved Hosting Capacity Assessment",
+    "summary": "A new computationally efficient method calculates quantile-resolved hosting capacity distributions for low-voltage grids using multivariate normal representations.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09060v1",
+    "published_at": "2026-09-08T17:16:23+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172455+00:00"
+  },
+  {
+    "title": "DYAD Multimodal Dataset for Human Assistance",
+    "summary": "DYAD is a new synchronized multimodal dataset recording human-human assistance during gearbox assembly to study co-located task intervention.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09023v1",
+    "published_at": "2026-09-08T16:53:15+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172461+00:00"
+  },
+  {
+    "title": "SphereOcc Framework for 3D Scene Understanding",
+    "summary": "SphereOcc is a new semantic occupancy framework that couples spherical geometry modeling with semantic evidence retrieval for 3D scene understanding.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09012v1",
+    "published_at": "2026-09-08T16:47:25+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172466+00:00"
+  },
+  {
+    "title": "Intelligent Fault Detection for VSC-MTDC Grids",
+    "summary": "A new algorithm combining S transforms and a residual network with hybrid attention detects faults and lightning in VSC-MTDC grids.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09000v1",
+    "published_at": "2026-09-08T16:38:08+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172471+00:00"
+  },
+  {
+    "title": "Physics-Informed Deep Learning for ICU Alarms",
+    "summary": "A deep learning framework using SE-ResNets and a Windkessel hemodynamic model reduces false ventricular tachycardia alarms in intensive care units.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08992v1",
+    "published_at": "2026-09-08T16:33:07+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172475+00:00"
+  },
+  {
+    "title": "MPC for Tensegrity Robots via GNN Dynamics",
+    "summary": "A model predictive path integral controller paired with a contact-aware graph neural network model improves tensegrity robot navigation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08958v1",
+    "published_at": "2026-09-08T16:14:25+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172479+00:00"
+  },
+  {
+    "title": "Unifying Power Flow and EMT Modeling",
+    "summary": "A new steady-state framework uses full-physics electromagnetic transient models to achieve high-fidelity grid analysis with significant speedups.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08933v1",
+    "published_at": "2026-09-08T15:56:06+00:00",
+    "fetched_at": "2026-09-09T08:36:39.172484+00:00"
+  },
+  {
+    "title": "Robot Motion as a Physical Communication Channel",
+    "summary": "Researchers demonstrate a method for robots to transmit short messages through articulate motion detectable by remote sensing without extra hardware.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08920v1",
+    "published_at": "2026-09-08T15:49:10+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579026+00:00"
+  },
+  {
+    "title": "Perception-Aware Humanoid Design Increases Workspace Coverage",
+    "summary": "A 31-DoF humanoid design with independently actuated cameras increases visible-reachable workspace coverage from 38% to 97%.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08905v1",
+    "published_at": "2026-09-08T15:40:05+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579035+00:00"
+  },
+  {
+    "title": "FRAME: Attribute-Compositional Retrieval for Robot Scene Memory",
+    "summary": "A new method called FRAME enables language-guided robots to accurately retrieve objects from scene memories using multi-attribute natural language queries.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08886v1",
+    "published_at": "2026-09-08T15:26:00+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579040+00:00"
+  },
+  {
+    "title": "CAST Improves Model-Based Reinforcement Learning in Robotics",
+    "summary": "CAST uses planner-guided behavior to improve value learning and successfully transfers to a physical quadruped performing a dynamic handstand.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08853v1",
+    "published_at": "2026-09-08T15:05:16+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579045+00:00"
+  },
+  {
+    "title": "FIRE3D Generates Interactive 3D Scenes in Under a Minute",
+    "summary": "A new framework transforms a single RGB image or casual video into simulation-ready 3D scene assets with decoupled objects in under a minute.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08848v1",
+    "published_at": "2026-09-08T15:01:49+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579051+00:00"
+  },
+  {
+    "title": "Stability Guarantees Established for Asynchronous Model Predictive Control",
+    "summary": "New theoretical findings establish stability and performance guarantees for asynchronous model predictive control under model mismatch.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08836v1",
+    "published_at": "2026-09-08T14:55:45+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579056+00:00"
+  },
+  {
+    "title": "Real-time Puncture Detection and Recovery for Soft Actuators",
+    "summary": "A new anomaly detection system uses inertial measurement data to identify punctures and severity in pneumatic soft actuators and maintains actuation force post-failure.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.08804v1",
+    "published_at": "2026-09-08T14:31:59+00:00",
+    "fetched_at": "2026-09-09T08:37:10.579060+00:00"
+  },
+  {
     "title": "XGIMI Unveils 4K/120Hz Ultra-Short-Throw Projector Series",
-    "summary": "XGIMI previewed its AURA 3 Series at IFA 2026, featuring the flagship Aura 3 Max and Aura 3 Pro as the world's first 4K/120Hz ultra-short-throw projectors.",
+    "summary": "XGIMI previewed its AURA 3 Series, featuring the Aura 3 Max, touted as the world's first 4K/120Hz ultra-short-throw projector series.",
     "category": "Electronics & Semiconductors",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/home-entertainment/xgimi-aura-3-max-pro-4k-120hz-ust-projector/",
     "published_at": "2026-09-08T13:33:49+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049712+00:00"
+    "fetched_at": "2026-09-09T08:37:10.579065+00:00"
   },
   {
-    "title": "Creality Debuts New 3D Printing and Digital Fabrication Portfolio",
+    "title": "Creality Presents New 3D Printing and Digital Fabrication Portfolio",
     "summary": "Creality introduced new systems spanning filament recycling, resin printing, 3D scanning, laser processing, and digitally manufactured footwear.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/creality-presents-3d-printing-and-digital-fabrication-portfolio/",
     "published_at": "2026-09-08T13:27:27+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049726+00:00"
+    "fetched_at": "2026-09-09T08:37:10.579069+00:00"
   },
   {
-    "title": "Dolphin Adopts AI Simulation Tools for Cooling Systems",
-    "summary": "Dolphin plans to implement CFD and thermal simulations across its heavy-duty and industrial product ranges for cooling system designs.",
+    "title": "Dolphin Adopts AI Simulation Tools for Cooling Designs",
+    "summary": "Dolphin plans to use computational fluid dynamics and thermal simulations across its heavy-duty and industrial product ranges.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/dolphin-adopts-ai-simulation-tools-for-cooling-system-designs/",
     "published_at": "2026-09-08T12:20:42+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049731+00:00"
+    "fetched_at": "2026-09-09T08:37:10.579074+00:00"
   },
   {
-    "title": "Pudu D7 Semi-Humanoid Robot Named IFA Innovation Honoree",
-    "summary": "The Pudu D7 semi-humanoid robot features dual-arm manipulation and autonomous battery swapping to support industrial, warehouse, retail, and hospitality tasks.",
+    "title": "Pudu D7 Robot Wins IFA Innovation Award",
+    "summary": "The semi-humanoid Pudu D7 robot has been named an IFA Innovation Awards honoree for its dual-arm manipulation and autonomous battery swapping.",
     "category": "Robotics",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/pudu-d7-named-ifa-innovation-awards-honoree/",
     "published_at": "2026-09-08T11:09:33+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049736+00:00"
+    "fetched_at": "2026-09-09T08:37:13.000036+00:00"
   },
   {
     "title": "Kawasaki and EdgeCortix Partner on AI Defense Systems",
@@ -54,13 +252,13 @@
     "fetched_at": "2026-09-08T15:48:31.049744+00:00"
   },
   {
-    "title": "Startup Vaire Computing Builds Energy-Recycling Chips",
-    "summary": "Startup Vaire Computing is developing reversible computing chips designed to recycle energy usually thrown away as heat.",
+    "title": "Startup Vaire Computing Develops Energy-Recycling Chips",
+    "summary": "Vaire Computing is building reversible computer chips designed to recycle energy that is normally wasted as heat.",
     "category": "Electronics & Semiconductors",
     "source_name": "MIT Technology Review",
     "source_url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
     "published_at": "2026-09-08T10:36:00+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049749+00:00"
+    "fetched_at": "2026-09-09T08:37:13.000049+00:00"
   },
   {
     "title": "Startup Innovates Cheaper and Cleaner Steel Production",
@@ -70,95 +268,5 @@
     "source_url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
     "published_at": "2026-09-08T10:33:00+00:00",
     "fetched_at": "2026-09-08T15:48:31.049752+00:00"
-  },
-  {
-    "title": "SKF and Sentea Partner on Integrated Sensing Platform",
-    "summary": "SKF has partnered with Sentea on the SKF Core platform to combine sensing, processing, and communication for machine intelligence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/skf-partners-with-sentea-on-integrated-sensing-platform/",
-    "published_at": "2026-09-08T09:52:36+00:00",
-    "fetched_at": "2026-09-08T15:48:33.970731+00:00"
-  },
-  {
-    "title": "ASML and TSMC Lead 12-inch Photomask Transition",
-    "summary": "ASML and TSMC announced a collaborative initiative to transition the semiconductor industry to larger-format EUV lithography photomasks.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/asml-and-tsmc-to-lead-transition-to-12-inch-photomasks-for-high-na-euv-2026-09/",
-    "published_at": "2026-09-08T07:22:53+00:00",
-    "fetched_at": "2026-09-08T15:48:33.970741+00:00"
-  },
-  {
-    "title": "Brain Wave-Tracking Wearable Detects Focus Levels",
-    "summary": "A new wearable device uses EEG technology to track brain waves and tell users how often their mind drifts.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/wearables/brain-wave-tracking-wearable-eeg-focus-atlas/",
-    "published_at": "2026-09-07T23:03:00+00:00",
-    "fetched_at": "2026-09-08T08:30:35.497067+00:00"
-  },
-  {
-    "title": "Microcooling Enables Agentic AI",
-    "summary": "Microcooling technologies are becoming a critical enabler for tiny devices to beat heat and sustain agentic AI intelligence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/why-microcooling-will-be-a-critical-enabler-of-agentic-ai/",
-    "published_at": "2026-09-07T13:19:14+00:00",
-    "fetched_at": "2026-09-08T08:30:35.497083+00:00"
-  },
-  {
-    "title": "Agility Robotics Reports Financials Ahead of SPAC",
-    "summary": "Agility Robotics revealed $1.8 million in revenue and a $140 million operating loss in an S-4 filing as it plans to scale its Digit humanoid robot business.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-    "published_at": "2026-09-07T13:17:45+00:00",
-    "fetched_at": "2026-09-08T15:48:33.970745+00:00"
-  },
-  {
-    "title": "Phytec Showcases phyVIP Platform for Embedded AI Vision",
-    "summary": "Phytec is showcasing its phyVIP platform at the Vision trade fair to speed up embedded AI-based vision development.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/bus-systems-sbcs/phytecs-phyvip-to-speed-embedded-ai-based-vision-development-2026-09/",
-    "published_at": "2026-09-07T10:29:49+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764866+00:00"
-  },
-  {
-    "title": "Winvic Appointed for Witton-le-Wear Bridge Scheme",
-    "summary": "Durham County Council appointed Winvic Construction to design the Witton Le Wear Bridge scheme on the A68.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/winvic-delivering-witton-le-wear-bridge-scheme-07-09-2026/",
-    "published_at": "2026-09-07T08:05:26+00:00",
-    "fetched_at": "2026-09-08T08:30:35.497096+00:00"
-  },
-  {
-    "title": "Kioxia Introduces Flash-for-DRAM Initiative for AI",
-    "summary": "Kioxia unveiled a CXL-attached memory expansion using NAND flash optimized for high-speed processing alongside AI compute devices.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/kioxias-flash-for-dram-initiative-eyes-ai-workloads/",
-    "published_at": "2026-09-07T08:01:30+00:00",
-    "fetched_at": "2026-09-08T08:30:35.497102+00:00"
-  },
-  {
-    "title": "Solid-State Cooling Device Uses Heat to Generate Cold",
-    "summary": "Scientists built a solid-state cooling device that uses heat to generate cold to recycle waste heat in electronics.",
-    "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/energy/solid-state-cooler-heat-cold/",
-    "published_at": "2026-09-06T23:03:00+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764875+00:00"
-  },
-  {
-    "title": "Pressure Sensors Improve Robotic Gripping Accuracy",
-    "summary": "Pressure sensors can help improve robotic bin picking from first contact through surface deformation and stable holds.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
-    "published_at": "2026-09-06T12:30:17+00:00",
-    "fetched_at": "2026-09-07T16:58:14.764880+00:00"
   }
 ]
