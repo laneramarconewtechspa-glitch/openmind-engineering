@@ -1,66 +1,147 @@
 [
   {
-    "title": "Quantum Scaling Demands Advanced Control Electronics",
-    "summary": "Excessive wiring, heat, and latency are pushing quantum control electronics deeper into cryogenic environments.",
+    "title": "Electrochemical Process Extracts Pure Hydrogen from Ammonia",
+    "summary": "An MIT team has demonstrated a more efficient way to extract pure hydrogen gas from hydrogen carrier molecules.",
+    "category": "Energy",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/electrochemical-approach-turns-ammonia-into-pure-hydrogen-0909",
+    "published_at": "2026-09-09T15:00:00+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563662+00:00"
+  },
+  {
+    "title": "Hexagon Launches Redesigned OPTIV S Optical CMM",
+    "summary": "The multisensor platform combines vision and tactile inspection with AI-assisted edge detection, autofocus, and lighting functions.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/hexagon-launches-redesigned-optiv-s-optical-cmm/",
+    "published_at": "2026-09-09T13:19:41+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563673+00:00"
+  },
+  {
+    "title": "Bam Cranes Footbridge into Place at Leyton Station",
+    "summary": "A new steel footbridge was craned into place at Leyton Underground station in north London during an overnight operation.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/bam-cranes-footbridge-into-place-at-leyton-station-09-09-2026/",
+    "published_at": "2026-09-09T12:03:21+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563679+00:00"
+  },
+  {
+    "title": "Qualcomm and Amazon Expand AI Infrastructure Partnership",
+    "summary": "The companies will develop customized silicon for AI inference and optical connectivity solutions up to 1.6T.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/qualcomm-and-amazon-expand-collaboration-on-ai-infrastructure/",
+    "published_at": "2026-09-09T11:12:39+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563683+00:00"
+  },
+  {
+    "title": "VolkerRail Completes Sheffield Supertram Track Renewal Early",
+    "summary": "The renewal of the track at the Supertram Delta Junction in Sheffield has been completed ahead of schedule by VolkerRail.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/in-pictures-volkerrail-completes-challenging-sheffield-supertram-track-renewal-early-09-09-2026/",
+    "published_at": "2026-09-09T09:09:28+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563688+00:00"
+  },
+  {
+    "title": "US Battery Installations Reach Record High",
+    "summary": "Battery installations hit a new record in the US in the second quarter of 2026, bringing 20.2 gigawatt-hours of new capacity online.",
+    "category": "Energy",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+    "published_at": "2026-09-09T09:00:00+00:00",
+    "fetched_at": "2026-09-09T16:04:12.563692+00:00"
+  },
+  {
+    "title": "Quantum Scaling Driven by Control Electronics Challenges",
+    "summary": "Excessive wiring, heat, and latency are forcing quantum control electronics deeper into cryogenic temperatures.",
     "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/quantum-scaling-is-becoming-a-control-electronics-problem/",
     "published_at": "2026-09-09T08:05:43+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659853+00:00"
+    "fetched_at": "2026-09-09T16:04:12.563697+00:00"
   },
   {
-    "title": "Smart Telescope Uses Spinning Sensor to Stop Star Trails",
-    "summary": "DwarfLab's Draco smart telescope uses a physically spinning sensor to cancel out star trails caused by Earth's rotation without an equatorial mount.",
-    "category": "Other Engineering",
+    "title": "Smart Telescope Uses Spinning Sensor to Erase Star Trails",
+    "summary": "DwarfLab's Draco smart telescope features a sensor that physically spins to cancel out star trails caused by Earth's rotation.",
+    "category": "Mechanical",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/consumer-tech/dwarflab-draco-smart-telescope/",
     "published_at": "2026-09-09T07:50:24+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659869+00:00"
+    "fetched_at": "2026-09-09T16:04:12.563702+00:00"
   },
   {
-    "title": "Frog Skeletal Muscle Powers Swimming Robotic Manta Ray",
-    "summary": "Scientists used skeletal muscle from a frog leg as a biological actuator to control a tiny robotic manta ray.",
+    "title": "Can GPUs Maintain Dominance in AI Compute?",
+    "summary": "Alternative competitive chips from companies like Google, Amazon, and OpenAI are gaining market share.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
+    "published_at": "2026-09-09T07:01:53+00:00",
+    "fetched_at": "2026-09-09T16:04:16.892437+00:00"
+  },
+  {
+    "title": "Hidden Atomic Structure Unlocks Efficient Methane Conversion",
+    "summary": "Scientists discovered an atomic structure on nickel oxide that allows a low-nickel catalyst to rival ones containing ten times more metal.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260909005148.htm",
+    "published_at": "2026-09-09T05:33:42+00:00",
+    "fetched_at": "2026-09-09T16:04:16.892446+00:00"
+  },
+  {
+    "title": "Frog Muscle Powers Swimming Robotic Manta Ray",
+    "summary": "Researchers used skeletal muscle from a frog leg as an actuator to control a tiny robotic manta ray.",
     "category": "Robotics",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/robotics/frog-muscle-swimming-robotic-manta-ray/",
     "published_at": "2026-09-08T23:03:00+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659876+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892451+00:00"
   },
   {
-    "title": "Stoke Space Raises $1 Billion for Reusable Rockets",
-    "summary": "Stoke Space secured $1 billion in funding to develop its reusable Nova rockets and targets an early 2027 launch.",
+    "title": "Stoke Space Secures $1B for Reusable Rockets",
+    "summary": "Stoke Space raised $1 billion to develop its fully reusable Nova rockets and targets early 2027 for its first launch.",
     "category": "Aerospace",
     "source_name": "Space.com",
     "source_url": "https://www.space.com/space-exploration/private-spaceflight/stoke-space-raises-usd1-billion-for-fully-reusable-rockets-targets-early-2027-for-1st-ever-launch",
     "published_at": "2026-09-08T19:23:56+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659882+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892456+00:00"
   },
   {
-    "title": "TANGO Humanoid Navigates Cluttered Spaces Using Vision-Language",
-    "summary": "TANGO is a new whole-board vision-language-action framework enabling humanoids to navigate cluttered environments through continuous geometry-aware adaptation.",
+    "title": "New York University Engineers Build Scalable Robotic Fish",
+    "summary": "Researchers at NYU have developed a robotic fish capable of being built to any size, drawing inspiration from nature.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/scafi-scalable-robotic-fish/",
+    "published_at": "2026-09-08T18:03:00+00:00",
+    "fetched_at": "2026-09-09T16:04:16.892460+00:00"
+  },
+  {
+    "title": "TANGO Enables Humanoid Navigation in Cluttered Spaces",
+    "summary": "Researchers introduced TANGO, a whole-byte vision-language-action framework for language-conditioned humanoid traversal in cluttered environments.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.09158v1",
     "published_at": "2026-09-08T17:59:55+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659887+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892464+00:00"
   },
   {
-    "title": "DeCAL Model Enhances Dexterous Robotic Manipulation with Tactile Data",
-    "summary": "DeCAL is a physically grounded vision-language-action model that combines adaptive visuo-tactile fusion and latent co-imagination for contact-rich dexterous manipulation.",
+    "title": "DeCAL Model Enhances Dexterous Robotic Manipulation",
+    "summary": "Researchers developed DeCAL, a physically-grounded dexterous vision-language-action model that unifies understanding, imagination, and action generation.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.09119v1",
     "published_at": "2026-09-08T17:47:43+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659893+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892468+00:00"
   },
   {
-    "title": "New Path Loss Models Extend 3GPP Standards Up to 150 GHz",
-    "summary": "Researchers derived omnidirectional urban microcell path loss models spanning 6.75 to 142 GHz to help extend standardized communications into sub-THz frequencies.",
+    "title": "Omnidirectional Path Loss Models Extended Above 100 GHz",
+    "summary": "Researchers derived single- and multi-frequency omnidirectional path loss models for urban microcell environments based on extensive empirical data.",
     "category": "Electronics & Semiconductors",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.09092v1",
     "published_at": "2026-09-08T17:36:14+00:00",
-    "fetched_at": "2026-09-09T08:36:35.659901+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892472+00:00"
   },
   {
     "title": "Observation-Gated Filtering for Autonomous Mapping",
@@ -72,13 +153,22 @@
     "fetched_at": "2026-09-09T08:36:39.172445+00:00"
   },
   {
-    "title": "Efficient Quantile-Resolved Hosting Capacity Assessment",
-    "summary": "A new computationally efficient method calculates quantile-resolved hosting capacity distributions for low-voltage grids using multivariate normal representations.",
+    "title": "Distributed Consensus Particle Filter for USV Target Tracking",
+    "summary": "An augmented particle filter helps autonomous surface vessels maintain accurate target tracking estimates during intermittent communications.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.09066v1",
+    "published_at": "2026-09-08T17:20:07+00:00",
+    "fetched_at": "2026-09-09T16:04:16.892476+00:00"
+  },
+  {
+    "title": "Efficient Quantile-Resolved Hosting Capacity Assessment for Grids",
+    "summary": "A new computational method significantly reduces the time needed to assess hosting capacity distributions on low-voltage grids.",
     "category": "Energy",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.09060v1",
     "published_at": "2026-09-08T17:16:23+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172455+00:00"
+    "fetched_at": "2026-09-09T16:04:16.892480+00:00"
   },
   {
     "title": "DYAD Multimodal Dataset for Human Assistance",
@@ -171,102 +261,12 @@
     "fetched_at": "2026-09-09T08:37:10.579045+00:00"
   },
   {
-    "title": "FIRE3D Generates Interactive 3D Scenes in Under a Minute",
-    "summary": "A new framework transforms a single RGB image or casual video into simulation-ready 3D scene assets with decoupled objects in under a minute.",
+    "title": "FIRE3D Fast 3D Scene Reconstruction",
+    "summary": "FIRE3D is a new framework that converts single RGB images or casual videos into simulation-ready 3D scene assets in under a minute.",
     "category": "Computing",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.08848v1",
     "published_at": "2026-09-08T15:01:49+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579051+00:00"
-  },
-  {
-    "title": "Stability Guarantees Established for Asynchronous Model Predictive Control",
-    "summary": "New theoretical findings establish stability and performance guarantees for asynchronous model predictive control under model mismatch.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08836v1",
-    "published_at": "2026-09-08T14:55:45+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579056+00:00"
-  },
-  {
-    "title": "Real-time Puncture Detection and Recovery for Soft Actuators",
-    "summary": "A new anomaly detection system uses inertial measurement data to identify punctures and severity in pneumatic soft actuators and maintains actuation force post-failure.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08804v1",
-    "published_at": "2026-09-08T14:31:59+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579060+00:00"
-  },
-  {
-    "title": "XGIMI Unveils 4K/120Hz Ultra-Short-Throw Projector Series",
-    "summary": "XGIMI previewed its AURA 3 Series, featuring the Aura 3 Max, touted as the world's first 4K/120Hz ultra-short-throw projector series.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/home-entertainment/xgimi-aura-3-max-pro-4k-120hz-ust-projector/",
-    "published_at": "2026-09-08T13:33:49+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579065+00:00"
-  },
-  {
-    "title": "Creality Presents New 3D Printing and Digital Fabrication Portfolio",
-    "summary": "Creality introduced new systems spanning filament recycling, resin printing, 3D scanning, laser processing, and digitally manufactured footwear.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/creality-presents-3d-printing-and-digital-fabrication-portfolio/",
-    "published_at": "2026-09-08T13:27:27+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579069+00:00"
-  },
-  {
-    "title": "Dolphin Adopts AI Simulation Tools for Cooling Designs",
-    "summary": "Dolphin plans to use computational fluid dynamics and thermal simulations across its heavy-duty and industrial product ranges.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/dolphin-adopts-ai-simulation-tools-for-cooling-system-designs/",
-    "published_at": "2026-09-08T12:20:42+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579074+00:00"
-  },
-  {
-    "title": "Pudu D7 Robot Wins IFA Innovation Award",
-    "summary": "The semi-humanoid Pudu D7 robot has been named an IFA Innovation Awards honoree for its dual-arm manipulation and autonomous battery swapping.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/pudu-d7-named-ifa-innovation-awards-honoree/",
-    "published_at": "2026-09-08T11:09:33+00:00",
-    "fetched_at": "2026-09-09T08:37:13.000036+00:00"
-  },
-  {
-    "title": "Kawasaki and EdgeCortix Partner on AI Defense Systems",
-    "summary": "Kawasaki and EdgeCortix launched a multi-year program covering technology development, system integration, and prototypes for AI defense systems.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/kawasaki-and-edgecortix-partner-on-ai-defense-systems/",
-    "published_at": "2026-09-08T10:56:05+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049740+00:00"
-  },
-  {
-    "title": "83% of British Cities Highly Vulnerable to Urban Heat",
-    "summary": "Analysis from Ordnance Survey, the Met Office, and 4 Earth Intelligence reveals that 59 British cities are highly vulnerable to urban heat.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/83-of-britains-cities-highly-vulnerable-to-urban-heat-says-os-analysis-08-09-2026/",
-    "published_at": "2026-09-08T10:43:00+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049744+00:00"
-  },
-  {
-    "title": "Startup Vaire Computing Develops Energy-Recycling Chips",
-    "summary": "Vaire Computing is building reversible computer chips designed to recycle energy that is normally wasted as heat.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
-    "published_at": "2026-09-08T10:36:00+00:00",
-    "fetched_at": "2026-09-09T08:37:13.000049+00:00"
-  },
-  {
-    "title": "Startup Innovates Cheaper and Cleaner Steel Production",
-    "summary": "A new startup is working on making steel cleaner and cheaper by modernizing the traditional iron ore purification process.",
-    "category": "Materials",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
-    "published_at": "2026-09-08T10:33:00+00:00",
-    "fetched_at": "2026-09-08T15:48:31.049752+00:00"
+    "fetched_at": "2026-09-09T16:05:20.729276+00:00"
   }
 ]
