@@ -1,5 +1,23 @@
 [
   {
+    "title": "Picosecond Ultrasonics for SiCr Process Control",
+    "summary": "Combining thickness metrology with simultaneous reflectivity measurements improves visibility into deposition variation for BCD devices.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
+    "published_at": "2026-09-10T07:09:47+00:00",
+    "fetched_at": "2026-09-10T08:33:49.182217+00:00"
+  },
+  {
+    "title": "Rethinking Verification Traceability for Modern Systems",
+    "summary": "A comprehensive digital verification thread links parameterized requirements to verification results, models, context, and configurations.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/rethinking-verification-traceability-for-modern-systems/",
+    "published_at": "2026-09-10T07:02:01+00:00",
+    "fetched_at": "2026-09-10T08:33:49.182229+00:00"
+  },
+  {
     "title": "Electrochemical Process Extracts Pure Hydrogen from Ammonia",
     "summary": "An MIT team has demonstrated a more efficient way to extract pure hydrogen gas from hydrogen carrier molecules.",
     "category": "Energy",
@@ -250,23 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.08886v1",
     "published_at": "2026-09-08T15:26:00+00:00",
     "fetched_at": "2026-09-09T08:37:10.579040+00:00"
-  },
-  {
-    "title": "CAST Improves Model-Based Reinforcement Learning in Robotics",
-    "summary": "CAST uses planner-guided behavior to improve value learning and successfully transfers to a physical quadruped performing a dynamic handstand.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08853v1",
-    "published_at": "2026-09-08T15:05:16+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579045+00:00"
-  },
-  {
-    "title": "FIRE3D Fast 3D Scene Reconstruction",
-    "summary": "FIRE3D is a new framework that converts single RGB images or casual videos into simulation-ready 3D scene assets in under a minute.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08848v1",
-    "published_at": "2026-09-08T15:01:49+00:00",
-    "fetched_at": "2026-09-09T16:05:20.729276+00:00"
   }
 ]
