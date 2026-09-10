@@ -6,16 +6,142 @@
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
     "published_at": "2026-09-10T07:09:47+00:00",
-    "fetched_at": "2026-09-10T08:33:49.182217+00:00"
+    "fetched_at": "2026-09-10T16:04:10.696773+00:00"
   },
   {
     "title": "Rethinking Verification Traceability for Modern Systems",
-    "summary": "A comprehensive digital verification thread links parameterized requirements to verification results, models, context, and configurations.",
+    "summary": "A comprehensive digital verification thread links parameterized requirements to verification results using structured coverage artifacts.",
     "category": "Computing",
     "source_name": "Semiconductor Engineering",
     "source_url": "https://semiengineering.com/rethinking-verification-traceability-for-modern-systems/",
     "published_at": "2026-09-10T07:02:01+00:00",
-    "fetched_at": "2026-09-10T08:33:49.182229+00:00"
+    "fetched_at": "2026-09-10T16:04:10.696784+00:00"
+  },
+  {
+    "title": "Infineon Ships New OPTIREG PMIC for Traction Inverters",
+    "summary": "Infineon is shipping the TLE9744QK PMIC integrating power-supply functions, resolver excitation, and a safety engine for electric vehicles.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/ic-integrates-power-supply-functions-resolver-excitation-and-safety-engine-2026-09/",
+    "published_at": "2026-09-10T05:03:17+00:00",
+    "fetched_at": "2026-09-10T16:04:10.696789+00:00"
+  },
+  {
+    "title": "SpaceX Rolls Out Super Heavy Booster 22 for Testing",
+    "summary": "SpaceX has rolled Super Heavy Booster 22 out of Mega Bay 1 to Massey’s for testing.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/flight-15-pairing-masseys/",
+    "published_at": "2026-09-09T20:22:02+00:00",
+    "fetched_at": "2026-09-10T16:04:10.696795+00:00"
+  },
+  {
+    "title": "Wireless Nanodevices Treat Drug-Resistant Glioblastoma",
+    "summary": "MIT researchers show that implanted nanoantennas can be activated wirelessly to destroy brain cancer cells safely.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/injectable-nanodevices-could-provide-effective-treatment-drug-resistant-glioblastoma-0909",
+    "published_at": "2026-09-09T20:00:00+00:00",
+    "fetched_at": "2026-09-10T16:04:10.696800+00:00"
+  },
+  {
+    "title": "LED-Based Wireless Power Transfer for IoT Devices",
+    "summary": "Institute of Science Tokyo researchers use adaptive optics and AI beam steering to charge indoor IoT devices using LEDs.",
+    "category": "Energy",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/leds-push-wireless-power-further/",
+    "published_at": "2026-09-09T20:00:00+00:00",
+    "fetched_at": "2026-09-10T16:04:10.696803+00:00"
+  },
+  {
+    "title": "InfinitForm Brings Determinism to Generative Design",
+    "summary": "The cloud-based platform utilizes artificial intelligence strictly as an assistant to bring determinism back to generative design.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/infinitform-brings-determinism-back-to-generative-design/",
+    "published_at": "2026-09-09T19:21:06+00:00",
+    "fetched_at": "2026-09-10T16:04:10.696807+00:00"
+  },
+  {
+    "title": "Show-Harness Enables Foundation VLMs to Control Robots",
+    "summary": "Show-Harness provides a semantic interface that links vision-language model intent to robot actions for zero-shot and fine-tuned control.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10522v1",
+    "published_at": "2026-09-09T17:53:38+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335842+00:00"
+  },
+  {
+    "title": "NorthForge Launches Dispatch Triple-Battery Tactical E-Moto",
+    "summary": "Canadian electric utility manufacturer NorthForge has launched the Dispatch, an electric tactical motorcycle designed for military use with a 125-mile range.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/northforge-dispatch/",
+    "published_at": "2026-09-09T17:33:00+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335850+00:00"
+  },
+  {
+    "title": "Pipeline Automates Coastal Environment Generation for HoloOcean",
+    "summary": "A new Unreal Engine 5 level generation pipeline automatically creates coastal environments for marine robotics simulation using user-provided overhead images.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10484v1",
+    "published_at": "2026-09-09T17:25:05+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335854+00:00"
+  },
+  {
+    "title": "Optimizing Quantum Measurements for Risk-Averse Decisions",
+    "summary": "Researchers developed a method to design quantum measurements maximizing a risk-averse objective, improving the lower tail of the utility distribution.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10482v1",
+    "published_at": "2026-09-09T17:21:46+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335857+00:00"
+  },
+  {
+    "title": "Deep Learning Detects Faults in Aerospace Power Systems",
+    "summary": "A hardware-aware deep learning framework detects electrical faults and power quality disturbances in a 400 Hz aerospace power system.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10479v1",
+    "published_at": "2026-09-09T17:19:14+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335861+00:00"
+  },
+  {
+    "title": "QZ-IPCA Algorithm Solves Multivariate Linear Regression",
+    "summary": "An iterative generalized-eigenvalue algorithm recovers multivariate linear system structures and coefficients directly from raw data without prior noise assumptions.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10477v1",
+    "published_at": "2026-09-09T17:18:04+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335865+00:00"
+  },
+  {
+    "title": "Mobility Information Capacity Defined for Low-Altitude Wireless Networks",
+    "summary": "This letter establishes mobility information capacity as an information-theoretic measure to quantify trajectory observations and maneuver inputs in low-altitude wireless networks.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10436v1",
+    "published_at": "2026-09-09T16:48:28+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335868+00:00"
+  },
+  {
+    "title": "Distributed Radar Sensors Enable Continuous Human Activity Recognition",
+    "summary": "A deep learning framework using five spatially distributed radar nodes achieves robust frame-wise continuous human activity recognition from Doppler-time spectrograms.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10419v1",
+    "published_at": "2026-09-09T16:37:16+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335871+00:00"
+  },
+  {
+    "title": "Evaluating Tethered UAV Base Stations for 5G Urban Connectivity",
+    "summary": "System-level simulations show that tethered unmanned aerial vehicle-mounted base stations can significantly outperform conventional terrestrial 5G in dense urban per-user throughput.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.10414v1",
+    "published_at": "2026-09-09T16:32:20+00:00",
+    "fetched_at": "2026-09-10T16:04:29.335874+00:00"
   },
   {
     "title": "Electrochemical Process Extracts Pure Hydrogen from Ammonia",
@@ -142,131 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.09158v1",
     "published_at": "2026-09-08T17:59:55+00:00",
     "fetched_at": "2026-09-09T16:04:16.892464+00:00"
-  },
-  {
-    "title": "DeCAL Model Enhances Dexterous Robotic Manipulation",
-    "summary": "Researchers developed DeCAL, a physically-grounded dexterous vision-language-action model that unifies understanding, imagination, and action generation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09119v1",
-    "published_at": "2026-09-08T17:47:43+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892468+00:00"
-  },
-  {
-    "title": "Omnidirectional Path Loss Models Extended Above 100 GHz",
-    "summary": "Researchers derived single- and multi-frequency omnidirectional path loss models for urban microcell environments based on extensive empirical data.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09092v1",
-    "published_at": "2026-09-08T17:36:14+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892472+00:00"
-  },
-  {
-    "title": "Observation-Gated Filtering for Autonomous Mapping",
-    "summary": "An observation-gated filter improves learned occupancy in autonomous active mapping by suppressing inaccurate predictions without requiring retraining.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09069v1",
-    "published_at": "2026-09-08T17:23:37+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172445+00:00"
-  },
-  {
-    "title": "Distributed Consensus Particle Filter for USV Target Tracking",
-    "summary": "An augmented particle filter helps autonomous surface vessels maintain accurate target tracking estimates during intermittent communications.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09066v1",
-    "published_at": "2026-09-08T17:20:07+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892476+00:00"
-  },
-  {
-    "title": "Efficient Quantile-Resolved Hosting Capacity Assessment for Grids",
-    "summary": "A new computational method significantly reduces the time needed to assess hosting capacity distributions on low-voltage grids.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09060v1",
-    "published_at": "2026-09-08T17:16:23+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892480+00:00"
-  },
-  {
-    "title": "DYAD Multimodal Dataset for Human Assistance",
-    "summary": "DYAD is a new synchronized multimodal dataset recording human-human assistance during gearbox assembly to study co-located task intervention.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09023v1",
-    "published_at": "2026-09-08T16:53:15+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172461+00:00"
-  },
-  {
-    "title": "SphereOcc Framework for 3D Scene Understanding",
-    "summary": "SphereOcc is a new semantic occupancy framework that couples spherical geometry modeling with semantic evidence retrieval for 3D scene understanding.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09012v1",
-    "published_at": "2026-09-08T16:47:25+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172466+00:00"
-  },
-  {
-    "title": "Intelligent Fault Detection for VSC-MTDC Grids",
-    "summary": "A new algorithm combining S transforms and a residual network with hybrid attention detects faults and lightning in VSC-MTDC grids.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09000v1",
-    "published_at": "2026-09-08T16:38:08+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172471+00:00"
-  },
-  {
-    "title": "Physics-Informed Deep Learning for ICU Alarms",
-    "summary": "A deep learning framework using SE-ResNets and a Windkessel hemodynamic model reduces false ventricular tachycardia alarms in intensive care units.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08992v1",
-    "published_at": "2026-09-08T16:33:07+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172475+00:00"
-  },
-  {
-    "title": "MPC for Tensegrity Robots via GNN Dynamics",
-    "summary": "A model predictive path integral controller paired with a contact-aware graph neural network model improves tensegrity robot navigation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08958v1",
-    "published_at": "2026-09-08T16:14:25+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172479+00:00"
-  },
-  {
-    "title": "Unifying Power Flow and EMT Modeling",
-    "summary": "A new steady-state framework uses full-physics electromagnetic transient models to achieve high-fidelity grid analysis with significant speedups.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08933v1",
-    "published_at": "2026-09-08T15:56:06+00:00",
-    "fetched_at": "2026-09-09T08:36:39.172484+00:00"
-  },
-  {
-    "title": "Robot Motion as a Physical Communication Channel",
-    "summary": "Researchers demonstrate a method for robots to transmit short messages through articulate motion detectable by remote sensing without extra hardware.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08920v1",
-    "published_at": "2026-09-08T15:49:10+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579026+00:00"
-  },
-  {
-    "title": "Perception-Aware Humanoid Design Increases Workspace Coverage",
-    "summary": "A 31-DoF humanoid design with independently actuated cameras increases visible-reachable workspace coverage from 38% to 97%.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08905v1",
-    "published_at": "2026-09-08T15:40:05+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579035+00:00"
-  },
-  {
-    "title": "FRAME: Attribute-Compositional Retrieval for Robot Scene Memory",
-    "summary": "A new method called FRAME enables language-guided robots to accurately retrieve objects from scene memories using multi-attribute natural language queries.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.08886v1",
-    "published_at": "2026-09-08T15:26:00+00:00",
-    "fetched_at": "2026-09-09T08:37:10.579040+00:00"
   }
 ]
