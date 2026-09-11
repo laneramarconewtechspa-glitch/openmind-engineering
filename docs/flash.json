@@ -1,21 +1,66 @@
 [
   {
-    "title": "Indian Researchers Explore Neuromorphic AI Hardware",
-    "summary": "Researchers in India are investigating neuromorphic computing architecture as an alternative to GPUs for demanding AI workloads.",
-    "category": "Computing",
+    "title": "SoC PLANNER Platform Released for Automated Design Exploration",
+    "summary": "CEA, Defacto Technologies, and Innova Advanced Technologies completed the three-year SoC PLANNER project to deliver a next-generation automated SoC design exploration platform.",
+    "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
-    "published_at": "2026-09-11T07:31:15+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946822+00:00"
+    "source_url": "https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
+    "published_at": "2026-09-11T14:36:58+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276559+00:00"
   },
   {
-    "title": "Hermeus Pairs Quarterhorse with Ramjet-X",
-    "summary": "Hermeus has revealed plans to use its Quarterhorse supersonic aircraft to launch the Ramjet-X high-Mach test vehicle.",
+    "title": "Impulse Space Spacecraft Perform Close Proximity Maneuver in Orbit",
+    "summary": "Two private spacecraft operated by Impulse Space came within less than 650 feet of each other to demonstrate advanced orbital capabilities.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/2-private-spacecraft-zoom-within-650-feet-of-each-other-to-showcase-advanced-capabilities-in-orbit-photos",
+    "published_at": "2026-09-11T13:00:00+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276572+00:00"
+  },
+  {
+    "title": "ToolDance Unveils X1 Desktop CNC Mill",
+    "summary": "The X1 desktop CNC mill features a 1,500W spindle, nine-tool changer, and optional four- or five-axis machining capabilities.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/tooldance-unveils-x1-desktop-cnc-mill-at-ifa-2026/",
+    "published_at": "2026-09-11T10:13:28+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276578+00:00"
+  },
+  {
+    "title": "SUNLU and INSLOGIC Launch i10 Filament Storage Cabinet",
+    "summary": "The i10 cabinet holds up to 10 filament spools and regulates relative humidity between 10% and 45% using smart cycling.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/sunlu-and-inslogic-launch-i10-filament-storage-cabinet/",
+    "published_at": "2026-09-11T10:04:46+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276583+00:00"
+  },
+  {
+    "title": "Ellinikon Regeneration Project Completes Courtyards Residential Stage",
+    "summary": "Europe's largest urban regeneration project in Athens completed the Courtyards, a 324-unit residential neighbourhood.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/checking-in-on-europes-largest-urban-regeneration-project/",
+    "published_at": "2026-09-11T09:49:51+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276587+00:00"
+  },
+  {
+    "title": "Portland General Electric Launches Wildfire Research Program",
+    "summary": "Portland General Electric is measuring live plant moisture levels to study how vegetation conditions influence wildfire risk.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/pge-has-a-high-tech-suite-of-wildfire-monitoring-tools-but-one-key-piece-is-missing/",
+    "published_at": "2026-09-11T09:03:56+00:00",
+    "fetched_at": "2026-09-11T15:46:38.276592+00:00"
+  },
+  {
+    "title": "Hermeus Pairs Quarterhorse with Ramjet-X for High-Mach Testing",
+    "summary": "Hermeus announced plans to launch the Ramjet-X high-Mach test vehicle using its Quarterhorse supersonic aircraft for component testing.",
     "category": "Aerospace",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/aircraft/quarterhorse-ramjet-x-high-mach-flight-test-platform/",
     "published_at": "2026-09-11T06:47:49+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946836+00:00"
+    "fetched_at": "2026-09-11T15:46:38.276596+00:00"
   },
   {
     "title": "Infineon Launches Smart Power Stage Family",
@@ -27,22 +72,13 @@
     "fetched_at": "2026-09-11T08:44:44.946878+00:00"
   },
   {
-    "title": "Roman Telescope Deploys Systems and Powers On",
-    "summary": "NASA's newly launched Nancy Grace Roman Space Telescope deployed its solar array and communication systems and powered on its Coronagraph Instrument.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/roman-commissioning-update/",
-    "published_at": "2026-09-10T22:24:00+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946883+00:00"
-  },
-  {
-    "title": "Digital Twin and Cobot Paired for Remote AM Finishing",
-    "summary": "Researchers successfully tested a digital twin and cobot system to allow operators to remotely program and supervise metal AM finishing.",
+    "title": "Pairing Digital Twin and Cobot for Remote AM Finishing",
+    "summary": "Researchers tested a digital twin and cobot system to enable operators to remotely program and supervise metal additive manufacturing finishing.",
     "category": "Robotics",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/researchers-pair-digital-twin-cobot-for-remote-am-finishing/",
     "published_at": "2026-09-10T21:07:33+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946888+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521796+00:00"
   },
   {
     "title": "Swarmer to Acquire Ratel Robotics",
@@ -54,31 +90,31 @@
     "fetched_at": "2026-09-11T08:44:44.946892+00:00"
   },
   {
-    "title": "Comau Automates Logistics for Decathlon",
-    "summary": "Comau deployed an automated system for Decathlon featuring its MyCo cobot, ROS2 software, AI-powered vision, and a modular gripper.",
+    "title": "Comau Automates Fulfillment Operations for Decathlon",
+    "summary": "Comau deployed an automated system for Decathlon featuring its MyCo cobot, ROS2 software, AI vision, and a modular gripper.",
     "category": "Robotics",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
     "published_at": "2026-09-10T18:49:08+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946896+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521805+00:00"
   },
   {
-    "title": "LINK Spacecraft Misses Orbit Boost for NASA's Swift",
-    "summary": "Operations continue aboard the Katalyst Space LINK satellite despite its failure to boost NASA's Swift Observatory orbit.",
+    "title": "LINK Spacecraft Falls Short of Saving NASA's Swift Observatory",
+    "summary": "Operations continue for the Katalyst Space LINK satellite despite its inability to boost the orbit of NASA's Swift Observatory.",
     "category": "Aerospace",
     "source_name": "Space.com",
     "source_url": "https://www.space.com/space-exploration/missions/link-spacecraft-gets-close-to-nasas-swift-observatory-but-not-close-enough-to-save-it",
     "published_at": "2026-09-10T18:00:00+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479166+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521810+00:00"
   },
   {
-    "title": "Event-Based Perception System Coordinates Aerial and Ground Robots",
-    "summary": "EVPeriscope uses an upward-facing event camera on a ground robot to track and control a quadrotor via propeller signatures.",
+    "title": "EVPeriscope Enables Event-Based Aerial and Ground Vehicle Perception",
+    "summary": "Researchers developed EVPeriscope, an event-based system that uses an upward-facing camera on a ground robot to detect and control a quadrotor.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11920v1",
     "published_at": "2026-09-10T17:58:03+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479176+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521814+00:00"
   },
   {
     "title": "Learning Agent-Based Model Predictive Control Enhances Vehicle Performance",
@@ -99,103 +135,112 @@
     "fetched_at": "2026-09-11T08:44:55.479186+00:00"
   },
   {
-    "title": "Open Spectrum Architecture Integrates Multi-Service Coexistence",
-    "summary": "The Open Spectrum architecture combines spectrum, services, and infrastructure into a shared pool orchestrated by an intelligent controller.",
+    "title": "Open Spectrum Architecture Expands Beyond Open RAN",
+    "summary": "Researchers introduced Open Spectrum, an architecture using software-defined networking and digital twins to optimize multi-service spectrum coexistence.",
     "category": "Electronics & Semiconductors",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11843v1",
     "published_at": "2026-09-10T17:32:42+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479190+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521819+00:00"
   },
   {
-    "title": "Acoustic Guidance Enables Automatic Docking for Autonomous Underwater Vehicles",
-    "summary": "A fully acoustic sensing architecture using Ultrashort Baseline sensors allows autonomous underwater vehicles to dock without precise position knowledge.",
+    "title": "Acoustic-Based Guidance System for Automatic AUV Docking",
+    "summary": "Researchers validated an acoustic sensing architecture using USBL sensors to enable automatic AUV docking in low-visibility environments.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11821v1",
     "published_at": "2026-09-10T17:17:21+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479194+00:00"
+    "fetched_at": "2026-09-11T15:46:41.521823+00:00"
   },
   {
-    "title": "Predefined-Time Consensus Achieved Under Denial-of-Service Attacks",
-    "summary": "A switching sliding-mode protocol enables nonlinear multi-agent systems to achieve position and velocity consensus during DoS attacks.",
-    "category": "Computing",
+    "title": "Integral Reinforcement Learning for Constrained Nonlinear Systems",
+    "summary": "This paper proposes a data-driven integral reinforcement learning method to control nonlinear systems under actuator constraints and disturbances.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11815v1",
+    "published_at": "2026-09-10T17:08:39+00:00",
+    "fetched_at": "2026-09-11T15:46:45.589961+00:00"
+  },
+  {
+    "title": "Predefined-Time Consensus Under DoS Attacks",
+    "summary": "A switching sliding-mode protocol enables nonlinear multi-agent systems to achieve position and velocity consensus despite denial-of-service attacks.",
+    "category": "Other Engineering",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11781v1",
     "published_at": "2026-09-10T16:34:28+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479198+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589971+00:00"
   },
   {
-    "title": "Real-Time Jacobian Estimation Enables Rapid In-Hand Robot Writing",
-    "summary": "An embodied control approach using real-time task Jacobian estimation allows anthropomorphic robot hands to perform in-hand pen writing.",
+    "title": "Rapid Learning of In-Hand Pen Writing via Jacobian Estimation",
+    "summary": "An embodied control approach uses real-time task Jacobian estimation to enable anthropomorphic hands to write with a grasped pen.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11775v1",
     "published_at": "2026-09-10T16:29:00+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479202+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589976+00:00"
   },
   {
-    "title": "Monocular Visual-SLAM Detects Hidden Tomatoes for Robotized Harvesting",
-    "summary": "A cost-effective monocular camera Visual-SLAM system maps greenhouse crops and identifies occluded tomatoes using hierarchical localization.",
-    "category": "Robotics",
+    "title": "Monocular Visual-SLAM for Greenhouse Tomato Detection",
+    "summary": "A cost-effective monocular Visual-SLAM system mapped greenhouse tomato crops and correctly identified occluded tomato clusters for harvesting.",
+    "category": "Civil & Infrastructure",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11766v1",
     "published_at": "2026-09-10T16:19:36+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479205+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589980+00:00"
   },
   {
-    "title": "SEED-UMI Exoskeleton Framework Improves Robot Imitation Learning",
-    "summary": "Researchers introduced SEED-UMI, a shared exoskeleton framework for humans and robots that improves data collection efficiency and task success rates for dexterous hands.",
+    "title": "Shared Exoskeleton Framework for Dexterous Imitation Learning",
+    "summary": "The SEED-UMI framework uses a shared exoskeleton worn by both humans and robots to improve contact-rich imitation learning efficiency.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11753v1",
     "published_at": "2026-09-10T16:08:58+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806292+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589985+00:00"
   },
   {
-    "title": "Constructing Control Lyapunov-Barrier Functions from CLF-CBF Pairs",
-    "summary": "This study establishes a method to construct control Lyapunov-barrier functions from existing Lyapunov and barrier functions to ensure safe stabilization in nonlinear systems.",
+    "title": "Constructing Control Lyapunov-Barrier Functions from Pairs",
+    "summary": "Researchers show how to construct control Lyapunov-barrier functions from a given control Lyapunov function and control barrier function.",
     "category": "Other Engineering",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11746v1",
     "published_at": "2026-09-10T16:01:25+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806302+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589989+00:00"
   },
   {
-    "title": "ORCH Framework Enables Collective Intelligence in Embodied AI",
-    "summary": "A new framework called ORCH applies human organization principles to improve task execution and coordination in large multi-agent artificial intelligence teams.",
+    "title": "Organizational Principles Enable Collective Embodied AI",
+    "summary": "Integrating human organization theory into multi-agent systems significantly improves teamwork outcomes in wildfire-response missions.",
     "category": "Computing",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11737v1",
     "published_at": "2026-09-10T15:52:35+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806308+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589993+00:00"
   },
   {
     "title": "Reflex-Informed Reinforcement Learning for Muscle-Driven Locomotion",
-    "summary": "A neuromuscular reinforcement learning framework integrates phase-dependent reflex controllers with residual learning to generate physiologically plausible and robust human locomotion.",
+    "summary": "A reflex-informed reinforcement learning framework generates physiologically plausible and robust muscle-driven human movement.",
     "category": "Biomedical",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11733v1",
     "published_at": "2026-09-10T15:47:26+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806312+00:00"
+    "fetched_at": "2026-09-11T15:46:45.589997+00:00"
   },
   {
-    "title": "MC-DeTra Improves Joint Object Detection and Trajectory Forecasting",
-    "summary": "MC-DeTra adds motion-consistency mechanisms to autonomous driving models to improve socially-aware trajectory forecasting without adding inference latency.",
+    "title": "MC-DeTra: Motion-Consistent Object Detection and Forecasting",
+    "summary": "This work introduces motion-consistency mechanisms to improve joint object detection and trajectory forecasting for autonomous driving.",
     "category": "Computing",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11717v1",
     "published_at": "2026-09-10T15:34:09+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806316+00:00"
+    "fetched_at": "2026-09-11T15:46:45.590001+00:00"
   },
   {
-    "title": "Mixed-Integer Optimization for Military Aircraft Fleet Management",
-    "summary": "A new multi-year planning strategy uses mixed-integer optimization and receding-horizon approaches to maximize long-term military aircraft fleet availability.",
+    "title": "Mixed-Integer Optimization for Military Fleet Management",
+    "summary": "A multi-year planning strategy maximizes military aircraft fleet availability using mixed-integer optimization and complementary tuning heuristics.",
     "category": "Aerospace",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11710v1",
     "published_at": "2026-09-10T15:28:29+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806320+00:00"
+    "fetched_at": "2026-09-11T15:46:45.590005+00:00"
   },
   {
     "title": "hp-Adaptive Trees for Efficient Graph Signal Approximation",
@@ -207,66 +252,21 @@
     "fetched_at": "2026-09-11T08:44:59.806324+00:00"
   },
   {
-    "title": "Aerodynamic Prior-Free Trajectory Tracking for Tail-Sitter UAVs",
-    "summary": "A coordinated control framework enables high-precision trajectory tracking for a tail-sitter UAV across the full flight envelope without requiring aerodynamic priors.",
+    "title": "Tail-Sitter UAV Flight Control Without Aerodynamic Priors",
+    "summary": "Researchers developed a coordinated trajectory generation and tracking control framework for a tail-sitter UAV that functions without airframe-specific aerodynamic priors.",
     "category": "Aerospace",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11698v1",
     "published_at": "2026-09-10T15:22:59+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806328+00:00"
+    "fetched_at": "2026-09-11T15:46:49.365584+00:00"
   },
   {
-    "title": "ActSafeGuard Enforces Constraints for Flow-Matching Policies",
-    "summary": "ActSafeGuard introduces a differentiable, training-aligned safeguard layer that integrates hard physical action feasibility into robotic flow-matching policies.",
+    "title": "ActSafeGuard Enforces Hard Constraints for Flow-Matching Policies",
+    "summary": "ActSafeGuard is a differentiable safeguard layer that integrates hard action feasibility into flow-matching based robotic policies during training.",
     "category": "Robotics",
     "source_name": "arXiv",
     "source_url": "https://arxiv.org/abs/2609.11697v1",
     "published_at": "2026-09-10T15:21:47+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806332+00:00"
-  },
-  {
-    "title": "Contact-Aware Control for Underactuated Aerial Manipulators",
-    "summary": "A framework combining nonlinear model predictive control with incremental nonlinear dynamic inversion enables contact-aware aerial writing on an underactuated quadrotor.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11661v1",
-    "published_at": "2026-09-10T15:03:02+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806336+00:00"
-  },
-  {
-    "title": "Zuken Releases E3.series 2027 Design Software",
-    "summary": "The updated software adds browser-based project access, 2D cabinet views, and expanded support for 3D panel and harness data.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/zuken-releases-e3-series-2027-with-new-design-tools/",
-    "published_at": "2026-09-10T14:30:07+00:00",
-    "fetched_at": "2026-09-11T08:45:02.979761+00:00"
-  },
-  {
-    "title": "TfL Publishes Climate Plan to Cut Emissions",
-    "summary": "Transport for London released an updated environment plan featuring over 70 actions to reduce carbon emissions and improve network resilience.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/tfl-environment-plan-with-more-than-70-actions-to-cut-emissions-10-09-2026/",
-    "published_at": "2026-09-10T14:01:19+00:00",
-    "fetched_at": "2026-09-11T08:45:02.979771+00:00"
-  },
-  {
-    "title": "IBM and Lockheed Martin Open Swiss Quantum Hub",
-    "summary": "The new innovation hub will house Switzerland's first IBM Quantum System Two to support research, education, and workforce development.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/ibm-lockheed-martin-establish-swiss-quantum-innovation-hub/",
-    "published_at": "2026-09-10T10:12:42+00:00",
-    "fetched_at": "2026-09-11T08:45:02.979776+00:00"
-  },
-  {
-    "title": "Tackling Silent Data Errors in Data Centers",
-    "summary": "Advanced manufacturing screening, design-for-test architectures, and fleet monitors are helping mitigate silent data errors in hardware.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/silent-data-errors-redefine-test-coverage-and-fleet-maintenance-strategies/",
-    "published_at": "2026-09-10T07:12:39+00:00",
-    "fetched_at": "2026-09-11T08:45:02.979780+00:00"
+    "fetched_at": "2026-09-11T15:46:49.365593+00:00"
   }
 ]
