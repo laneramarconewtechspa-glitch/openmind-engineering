@@ -1,272 +1,272 @@
 [
   {
-    "title": "Picosecond Ultrasonics for SiCr Process Control",
-    "summary": "Combining thickness metrology with simultaneous reflectivity measurements improves visibility into deposition variation for BCD devices.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
-    "published_at": "2026-09-10T07:09:47+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696773+00:00"
-  },
-  {
-    "title": "Rethinking Verification Traceability for Modern Systems",
-    "summary": "A comprehensive digital verification thread links parameterized requirements to verification results using structured coverage artifacts.",
+    "title": "Indian Researchers Explore Neuromorphic AI Hardware",
+    "summary": "Researchers in India are investigating neuromorphic computing architecture as an alternative to GPUs for demanding AI workloads.",
     "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/rethinking-verification-traceability-for-modern-systems/",
-    "published_at": "2026-09-10T07:02:01+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696784+00:00"
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
+    "published_at": "2026-09-11T07:31:15+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946822+00:00"
   },
   {
-    "title": "Infineon Ships New OPTIREG PMIC for Traction Inverters",
-    "summary": "Infineon is shipping the TLE9744QK PMIC integrating power-supply functions, resolver excitation, and a safety engine for electric vehicles.",
+    "title": "Hermeus Pairs Quarterhorse with Ramjet-X",
+    "summary": "Hermeus has revealed plans to use its Quarterhorse supersonic aircraft to launch the Ramjet-X high-Mach test vehicle.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/quarterhorse-ramjet-x-high-mach-flight-test-platform/",
+    "published_at": "2026-09-11T06:47:49+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946836+00:00"
+  },
+  {
+    "title": "Infineon Launches Smart Power Stage Family",
+    "summary": "Infineon is sampling a dual-phase smart power stage family featuring a power density exceeding 2 A/mm² for AI accelerators.",
     "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/ic-integrates-power-supply-functions-resolver-excitation-and-safety-engine-2026-09/",
-    "published_at": "2026-09-10T05:03:17+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696789+00:00"
+    "source_url": "https://www.electronicsweekly.com/news/business/dual-phase-smart-power-stage-family-power-density-exceeding-2-a-mm%c2%b2-2026-09/",
+    "published_at": "2026-09-11T05:05:40+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946878+00:00"
   },
   {
-    "title": "SpaceX Rolls Out Super Heavy Booster 22 for Testing",
-    "summary": "SpaceX has rolled Super Heavy Booster 22 out of Mega Bay 1 to Massey’s for testing.",
+    "title": "Roman Telescope Deploys Systems and Powers On",
+    "summary": "NASA's newly launched Nancy Grace Roman Space Telescope deployed its solar array and communication systems and powered on its Coronagraph Instrument.",
     "category": "Aerospace",
     "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/flight-15-pairing-masseys/",
-    "published_at": "2026-09-09T20:22:02+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696795+00:00"
+    "source_url": "https://www.nasaspaceflight.com/2026/09/roman-commissioning-update/",
+    "published_at": "2026-09-10T22:24:00+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946883+00:00"
   },
   {
-    "title": "Wireless Nanodevices Treat Drug-Resistant Glioblastoma",
-    "summary": "MIT researchers show that implanted nanoantennas can be activated wirelessly to destroy brain cancer cells safely.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/injectable-nanodevices-could-provide-effective-treatment-drug-resistant-glioblastoma-0909",
-    "published_at": "2026-09-09T20:00:00+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696800+00:00"
-  },
-  {
-    "title": "LED-Based Wireless Power Transfer for IoT Devices",
-    "summary": "Institute of Science Tokyo researchers use adaptive optics and AI beam steering to charge indoor IoT devices using LEDs.",
-    "category": "Energy",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/leds-push-wireless-power-further/",
-    "published_at": "2026-09-09T20:00:00+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696803+00:00"
-  },
-  {
-    "title": "InfinitForm Brings Determinism to Generative Design",
-    "summary": "The cloud-based platform utilizes artificial intelligence strictly as an assistant to bring determinism back to generative design.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/infinitform-brings-determinism-back-to-generative-design/",
-    "published_at": "2026-09-09T19:21:06+00:00",
-    "fetched_at": "2026-09-10T16:04:10.696807+00:00"
-  },
-  {
-    "title": "Show-Harness Enables Foundation VLMs to Control Robots",
-    "summary": "Show-Harness provides a semantic interface that links vision-language model intent to robot actions for zero-shot and fine-tuned control.",
+    "title": "Digital Twin and Cobot Paired for Remote AM Finishing",
+    "summary": "Researchers successfully tested a digital twin and cobot system to allow operators to remotely program and supervise metal AM finishing.",
     "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10522v1",
-    "published_at": "2026-09-09T17:53:38+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335842+00:00"
-  },
-  {
-    "title": "NorthForge Launches Dispatch Triple-Battery Tactical E-Moto",
-    "summary": "Canadian electric utility manufacturer NorthForge has launched the Dispatch, an electric tactical motorcycle designed for military use with a 125-mile range.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/northforge-dispatch/",
-    "published_at": "2026-09-09T17:33:00+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335850+00:00"
-  },
-  {
-    "title": "Pipeline Automates Coastal Environment Generation for HoloOcean",
-    "summary": "A new Unreal Engine 5 level generation pipeline automatically creates coastal environments for marine robotics simulation using user-provided overhead images.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10484v1",
-    "published_at": "2026-09-09T17:25:05+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335854+00:00"
-  },
-  {
-    "title": "Optimizing Quantum Measurements for Risk-Averse Decisions",
-    "summary": "Researchers developed a method to design quantum measurements maximizing a risk-averse objective, improving the lower tail of the utility distribution.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10482v1",
-    "published_at": "2026-09-09T17:21:46+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335857+00:00"
-  },
-  {
-    "title": "Deep Learning Detects Faults in Aerospace Power Systems",
-    "summary": "A hardware-aware deep learning framework detects electrical faults and power quality disturbances in a 400 Hz aerospace power system.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10479v1",
-    "published_at": "2026-09-09T17:19:14+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335861+00:00"
-  },
-  {
-    "title": "QZ-IPCA Algorithm Solves Multivariate Linear Regression",
-    "summary": "An iterative generalized-eigenvalue algorithm recovers multivariate linear system structures and coefficients directly from raw data without prior noise assumptions.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10477v1",
-    "published_at": "2026-09-09T17:18:04+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335865+00:00"
-  },
-  {
-    "title": "Mobility Information Capacity Defined for Low-Altitude Wireless Networks",
-    "summary": "This letter establishes mobility information capacity as an information-theoretic measure to quantify trajectory observations and maneuver inputs in low-altitude wireless networks.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10436v1",
-    "published_at": "2026-09-09T16:48:28+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335868+00:00"
-  },
-  {
-    "title": "Distributed Radar Sensors Enable Continuous Human Activity Recognition",
-    "summary": "A deep learning framework using five spatially distributed radar nodes achieves robust frame-wise continuous human activity recognition from Doppler-time spectrograms.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10419v1",
-    "published_at": "2026-09-09T16:37:16+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335871+00:00"
-  },
-  {
-    "title": "Evaluating Tethered UAV Base Stations for 5G Urban Connectivity",
-    "summary": "System-level simulations show that tethered unmanned aerial vehicle-mounted base stations can significantly outperform conventional terrestrial 5G in dense urban per-user throughput.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.10414v1",
-    "published_at": "2026-09-09T16:32:20+00:00",
-    "fetched_at": "2026-09-10T16:04:29.335874+00:00"
-  },
-  {
-    "title": "Electrochemical Process Extracts Pure Hydrogen from Ammonia",
-    "summary": "An MIT team has demonstrated a more efficient way to extract pure hydrogen gas from hydrogen carrier molecules.",
-    "category": "Energy",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/electrochemical-approach-turns-ammonia-into-pure-hydrogen-0909",
-    "published_at": "2026-09-09T15:00:00+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563662+00:00"
-  },
-  {
-    "title": "Hexagon Launches Redesigned OPTIV S Optical CMM",
-    "summary": "The multisensor platform combines vision and tactile inspection with AI-assisted edge detection, autofocus, and lighting functions.",
-    "category": "Mechanical",
     "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/hexagon-launches-redesigned-optiv-s-optical-cmm/",
-    "published_at": "2026-09-09T13:19:41+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563673+00:00"
+    "source_url": "https://www.engineering.com/researchers-pair-digital-twin-cobot-for-remote-am-finishing/",
+    "published_at": "2026-09-10T21:07:33+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946888+00:00"
   },
   {
-    "title": "Bam Cranes Footbridge into Place at Leyton Station",
-    "summary": "A new steel footbridge was craned into place at Leyton Underground station in north London during an overnight operation.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/bam-cranes-footbridge-into-place-at-leyton-station-09-09-2026/",
-    "published_at": "2026-09-09T12:03:21+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563679+00:00"
-  },
-  {
-    "title": "Qualcomm and Amazon Expand AI Infrastructure Partnership",
-    "summary": "The companies will develop customized silicon for AI inference and optical connectivity solutions up to 1.6T.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/qualcomm-and-amazon-expand-collaboration-on-ai-infrastructure/",
-    "published_at": "2026-09-09T11:12:39+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563683+00:00"
-  },
-  {
-    "title": "VolkerRail Completes Sheffield Supertram Track Renewal Early",
-    "summary": "The renewal of the track at the Supertram Delta Junction in Sheffield has been completed ahead of schedule by VolkerRail.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/in-pictures-volkerrail-completes-challenging-sheffield-supertram-track-renewal-early-09-09-2026/",
-    "published_at": "2026-09-09T09:09:28+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563688+00:00"
-  },
-  {
-    "title": "US Battery Installations Reach Record High",
-    "summary": "Battery installations hit a new record in the US in the second quarter of 2026, bringing 20.2 gigawatt-hours of new capacity online.",
-    "category": "Energy",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
-    "published_at": "2026-09-09T09:00:00+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563692+00:00"
-  },
-  {
-    "title": "Quantum Scaling Driven by Control Electronics Challenges",
-    "summary": "Excessive wiring, heat, and latency are forcing quantum control electronics deeper into cryogenic temperatures.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/quantum-scaling-is-becoming-a-control-electronics-problem/",
-    "published_at": "2026-09-09T08:05:43+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563697+00:00"
-  },
-  {
-    "title": "Smart Telescope Uses Spinning Sensor to Erase Star Trails",
-    "summary": "DwarfLab's Draco smart telescope features a sensor that physically spins to cancel out star trails caused by Earth's rotation.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/dwarflab-draco-smart-telescope/",
-    "published_at": "2026-09-09T07:50:24+00:00",
-    "fetched_at": "2026-09-09T16:04:12.563702+00:00"
-  },
-  {
-    "title": "Can GPUs Maintain Dominance in AI Compute?",
-    "summary": "Alternative competitive chips from companies like Google, Amazon, and OpenAI are gaining market share.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/can-gpus-continue-to-dominate-ai-compute/",
-    "published_at": "2026-09-09T07:01:53+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892437+00:00"
-  },
-  {
-    "title": "Hidden Atomic Structure Unlocks Efficient Methane Conversion",
-    "summary": "Scientists discovered an atomic structure on nickel oxide that allows a low-nickel catalyst to rival ones containing ten times more metal.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260909005148.htm",
-    "published_at": "2026-09-09T05:33:42+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892446+00:00"
-  },
-  {
-    "title": "Frog Muscle Powers Swimming Robotic Manta Ray",
-    "summary": "Researchers used skeletal muscle from a frog leg as an actuator to control a tiny robotic manta ray.",
+    "title": "Swarmer to Acquire Ratel Robotics",
+    "summary": "Software developer Swarmer plans to acquire Ukrainian unmanned ground vehicle maker Ratel Robotics for up to $224 million.",
     "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/robotics/frog-muscle-swimming-robotic-manta-ray/",
-    "published_at": "2026-09-08T23:03:00+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892451+00:00"
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
+    "published_at": "2026-09-10T20:10:22+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946892+00:00"
   },
   {
-    "title": "Stoke Space Secures $1B for Reusable Rockets",
-    "summary": "Stoke Space raised $1 billion to develop its fully reusable Nova rockets and targets early 2027 for its first launch.",
+    "title": "Comau Automates Logistics for Decathlon",
+    "summary": "Comau deployed an automated system for Decathlon featuring its MyCo cobot, ROS2 software, AI-powered vision, and a modular gripper.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
+    "published_at": "2026-09-10T18:49:08+00:00",
+    "fetched_at": "2026-09-11T08:44:44.946896+00:00"
+  },
+  {
+    "title": "LINK Spacecraft Misses Orbit Boost for NASA's Swift",
+    "summary": "Operations continue aboard the Katalyst Space LINK satellite despite its failure to boost NASA's Swift Observatory orbit.",
     "category": "Aerospace",
     "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/private-spaceflight/stoke-space-raises-usd1-billion-for-fully-reusable-rockets-targets-early-2027-for-1st-ever-launch",
-    "published_at": "2026-09-08T19:23:56+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892456+00:00"
+    "source_url": "https://www.space.com/space-exploration/missions/link-spacecraft-gets-close-to-nasas-swift-observatory-but-not-close-enough-to-save-it",
+    "published_at": "2026-09-10T18:00:00+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479166+00:00"
   },
   {
-    "title": "New York University Engineers Build Scalable Robotic Fish",
-    "summary": "Researchers at NYU have developed a robotic fish capable of being built to any size, drawing inspiration from nature.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/robotics/scafi-scalable-robotic-fish/",
-    "published_at": "2026-09-08T18:03:00+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892460+00:00"
-  },
-  {
-    "title": "TANGO Enables Humanoid Navigation in Cluttered Spaces",
-    "summary": "Researchers introduced TANGO, a whole-byte vision-language-action framework for language-conditioned humanoid traversal in cluttered environments.",
+    "title": "Event-Based Perception System Coordinates Aerial and Ground Robots",
+    "summary": "EVPeriscope uses an upward-facing event camera on a ground robot to track and control a quadrotor via propeller signatures.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.09158v1",
-    "published_at": "2026-09-08T17:59:55+00:00",
-    "fetched_at": "2026-09-09T16:04:16.892464+00:00"
+    "source_url": "https://arxiv.org/abs/2609.11920v1",
+    "published_at": "2026-09-10T17:58:03+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479176+00:00"
+  },
+  {
+    "title": "Learning Agent-Based Model Predictive Control Enhances Vehicle Performance",
+    "summary": "A novel hybrid control scheme combines model-based AMPC with Gaussian process regression to improve multi-agent vehicle performance.",
+    "category": "Mechanical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11871v1",
+    "published_at": "2026-09-10T17:43:16+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479181+00:00"
+  },
+  {
+    "title": "Truncated Noisy Best-Response Algorithms Provide Game Theoretic Guarantees",
+    "summary": "A family of asynchronous algorithms offers performance and safety bounds for multi-agent coordination with submodular maximization objectives.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11863v1",
+    "published_at": "2026-09-10T17:41:49+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479186+00:00"
+  },
+  {
+    "title": "Open Spectrum Architecture Integrates Multi-Service Coexistence",
+    "summary": "The Open Spectrum architecture combines spectrum, services, and infrastructure into a shared pool orchestrated by an intelligent controller.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11843v1",
+    "published_at": "2026-09-10T17:32:42+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479190+00:00"
+  },
+  {
+    "title": "Acoustic Guidance Enables Automatic Docking for Autonomous Underwater Vehicles",
+    "summary": "A fully acoustic sensing architecture using Ultrashort Baseline sensors allows autonomous underwater vehicles to dock without precise position knowledge.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11821v1",
+    "published_at": "2026-09-10T17:17:21+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479194+00:00"
+  },
+  {
+    "title": "Predefined-Time Consensus Achieved Under Denial-of-Service Attacks",
+    "summary": "A switching sliding-mode protocol enables nonlinear multi-agent systems to achieve position and velocity consensus during DoS attacks.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11781v1",
+    "published_at": "2026-09-10T16:34:28+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479198+00:00"
+  },
+  {
+    "title": "Real-Time Jacobian Estimation Enables Rapid In-Hand Robot Writing",
+    "summary": "An embodied control approach using real-time task Jacobian estimation allows anthropomorphic robot hands to perform in-hand pen writing.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11775v1",
+    "published_at": "2026-09-10T16:29:00+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479202+00:00"
+  },
+  {
+    "title": "Monocular Visual-SLAM Detects Hidden Tomatoes for Robotized Harvesting",
+    "summary": "A cost-effective monocular camera Visual-SLAM system maps greenhouse crops and identifies occluded tomatoes using hierarchical localization.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11766v1",
+    "published_at": "2026-09-10T16:19:36+00:00",
+    "fetched_at": "2026-09-11T08:44:55.479205+00:00"
+  },
+  {
+    "title": "SEED-UMI Exoskeleton Framework Improves Robot Imitation Learning",
+    "summary": "Researchers introduced SEED-UMI, a shared exoskeleton framework for humans and robots that improves data collection efficiency and task success rates for dexterous hands.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11753v1",
+    "published_at": "2026-09-10T16:08:58+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806292+00:00"
+  },
+  {
+    "title": "Constructing Control Lyapunov-Barrier Functions from CLF-CBF Pairs",
+    "summary": "This study establishes a method to construct control Lyapunov-barrier functions from existing Lyapunov and barrier functions to ensure safe stabilization in nonlinear systems.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11746v1",
+    "published_at": "2026-09-10T16:01:25+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806302+00:00"
+  },
+  {
+    "title": "ORCH Framework Enables Collective Intelligence in Embodied AI",
+    "summary": "A new framework called ORCH applies human organization principles to improve task execution and coordination in large multi-agent artificial intelligence teams.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11737v1",
+    "published_at": "2026-09-10T15:52:35+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806308+00:00"
+  },
+  {
+    "title": "Reflex-Informed Reinforcement Learning for Muscle-Driven Locomotion",
+    "summary": "A neuromuscular reinforcement learning framework integrates phase-dependent reflex controllers with residual learning to generate physiologically plausible and robust human locomotion.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11733v1",
+    "published_at": "2026-09-10T15:47:26+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806312+00:00"
+  },
+  {
+    "title": "MC-DeTra Improves Joint Object Detection and Trajectory Forecasting",
+    "summary": "MC-DeTra adds motion-consistency mechanisms to autonomous driving models to improve socially-aware trajectory forecasting without adding inference latency.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11717v1",
+    "published_at": "2026-09-10T15:34:09+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806316+00:00"
+  },
+  {
+    "title": "Mixed-Integer Optimization for Military Aircraft Fleet Management",
+    "summary": "A new multi-year planning strategy uses mixed-integer optimization and receding-horizon approaches to maximize long-term military aircraft fleet availability.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11710v1",
+    "published_at": "2026-09-10T15:28:29+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806320+00:00"
+  },
+  {
+    "title": "hp-Adaptive Trees for Efficient Graph Signal Approximation",
+    "summary": "Researchers developed an hp-refinement strategy using binary knapsack problems and local embeddings to improve the approximation efficiency of graph signals.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11701v1",
+    "published_at": "2026-09-10T15:25:32+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806324+00:00"
+  },
+  {
+    "title": "Aerodynamic Prior-Free Trajectory Tracking for Tail-Sitter UAVs",
+    "summary": "A coordinated control framework enables high-precision trajectory tracking for a tail-sitter UAV across the full flight envelope without requiring aerodynamic priors.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11698v1",
+    "published_at": "2026-09-10T15:22:59+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806328+00:00"
+  },
+  {
+    "title": "ActSafeGuard Enforces Constraints for Flow-Matching Policies",
+    "summary": "ActSafeGuard introduces a differentiable, training-aligned safeguard layer that integrates hard physical action feasibility into robotic flow-matching policies.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11697v1",
+    "published_at": "2026-09-10T15:21:47+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806332+00:00"
+  },
+  {
+    "title": "Contact-Aware Control for Underactuated Aerial Manipulators",
+    "summary": "A framework combining nonlinear model predictive control with incremental nonlinear dynamic inversion enables contact-aware aerial writing on an underactuated quadrotor.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.11661v1",
+    "published_at": "2026-09-10T15:03:02+00:00",
+    "fetched_at": "2026-09-11T08:44:59.806336+00:00"
+  },
+  {
+    "title": "Zuken Releases E3.series 2027 Design Software",
+    "summary": "The updated software adds browser-based project access, 2D cabinet views, and expanded support for 3D panel and harness data.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/zuken-releases-e3-series-2027-with-new-design-tools/",
+    "published_at": "2026-09-10T14:30:07+00:00",
+    "fetched_at": "2026-09-11T08:45:02.979761+00:00"
+  },
+  {
+    "title": "TfL Publishes Climate Plan to Cut Emissions",
+    "summary": "Transport for London released an updated environment plan featuring over 70 actions to reduce carbon emissions and improve network resilience.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/tfl-environment-plan-with-more-than-70-actions-to-cut-emissions-10-09-2026/",
+    "published_at": "2026-09-10T14:01:19+00:00",
+    "fetched_at": "2026-09-11T08:45:02.979771+00:00"
+  },
+  {
+    "title": "IBM and Lockheed Martin Open Swiss Quantum Hub",
+    "summary": "The new innovation hub will house Switzerland's first IBM Quantum System Two to support research, education, and workforce development.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/ibm-lockheed-martin-establish-swiss-quantum-innovation-hub/",
+    "published_at": "2026-09-10T10:12:42+00:00",
+    "fetched_at": "2026-09-11T08:45:02.979776+00:00"
+  },
+  {
+    "title": "Tackling Silent Data Errors in Data Centers",
+    "summary": "Advanced manufacturing screening, design-for-test architectures, and fleet monitors are helping mitigate silent data errors in hardware.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/silent-data-errors-redefine-test-coverage-and-fleet-maintenance-strategies/",
+    "published_at": "2026-09-10T07:12:39+00:00",
+    "fetched_at": "2026-09-11T08:45:02.979780+00:00"
   }
 ]
