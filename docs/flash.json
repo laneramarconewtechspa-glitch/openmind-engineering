@@ -1,75 +1,120 @@
 [
   {
-    "title": "SoC PLANNER Platform Released for Automated Design Exploration",
-    "summary": "CEA, Defacto Technologies, and Innova Advanced Technologies completed the three-year SoC PLANNER project to deliver a next-generation automated SoC design exploration platform.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
-    "published_at": "2026-09-11T14:36:58+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276559+00:00"
+    "title": "Shoei GT-Air 3 Smart Helmet Launches with Built-In AR",
+    "summary": "The GT-Air 3 Smart helmet featuring built-in augmented reality has officially hit shop shelves for $1,500.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/shoei-gt-air-3-smart-helmet/",
+    "published_at": "2026-09-12T03:03:00+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620545+00:00"
   },
   {
-    "title": "Impulse Space Spacecraft Perform Close Proximity Maneuver in Orbit",
-    "summary": "Two private spacecraft operated by Impulse Space came within less than 650 feet of each other to demonstrate advanced orbital capabilities.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/satellites/2-private-spacecraft-zoom-within-650-feet-of-each-other-to-showcase-advanced-capabilities-in-orbit-photos",
-    "published_at": "2026-09-11T13:00:00+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276572+00:00"
+    "title": "Architect Labs Announces Two-Week Custom Chip Design",
+    "summary": "Architect Labs claims its AI platform Redwood can reduce custom chip design timelines from years down to weeks.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
+    "published_at": "2026-09-12T02:00:00+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620561+00:00"
+  },
+  {
+    "title": "Molybdenum Quasi Phase-Only Masks Improve EUV Imaging",
+    "summary": "Researchers from NYCU and TSMC have proposed molybdenum-based quasi phase-only masks to enhance contrast in EUV imaging.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/molybdenum-quasi-phase-only-masks-improve-euv-imaging-nycu-tsmc/",
+    "published_at": "2026-09-11T21:28:44+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620567+00:00"
+  },
+  {
+    "title": "Startup Exploits Space Vacuum for Semiconductor Substrates",
+    "summary": "Startup Besxar completed its first SpaceX flight to test semiconductor manufacturing in the vacuum of space.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/",
+    "published_at": "2026-09-11T21:00:00+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620572+00:00"
+  },
+  {
+    "title": "New Hardware Information-Flow Tracking for Pre-Silicon Testing",
+    "summary": "Researchers published a method for efficient hardware information-flow tracking to test security properties in pre-silicon RTL simulation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hw-information-flow-tracking-for-pre-silicon-security-testing-princeton-mit-epfl/",
+    "published_at": "2026-09-11T20:15:35+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620576+00:00"
+  },
+  {
+    "title": "£1bn Battery-Electric Train Fleet Proposed for Transpennine Route",
+    "summary": "Plans have been submitted for a new £1bn fleet of British-built battery-electric trains for the Transpennine Route Upgrade.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/1bn-battery-electric-train-fleet-for-transpennine-route-11-09-2026/",
+    "published_at": "2026-09-11T15:25:07+00:00",
+    "fetched_at": "2026-09-12T08:18:17.620595+00:00"
   },
   {
     "title": "ToolDance Unveils X1 Desktop CNC Mill",
-    "summary": "The X1 desktop CNC mill features a 1,500W spindle, nine-tool changer, and optional four- or five-axis machining capabilities.",
+    "summary": "The new X1 desktop CNC mill features a 1,500W spindle, a nine-tool changer, and optional multi-axis capabilities.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/tooldance-unveils-x1-desktop-cnc-mill-at-ifa-2026/",
     "published_at": "2026-09-11T10:13:28+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276578+00:00"
+    "fetched_at": "2026-09-12T08:18:17.620600+00:00"
   },
   {
     "title": "SUNLU and INSLOGIC Launch i10 Filament Storage Cabinet",
-    "summary": "The i10 cabinet holds up to 10 filament spools and regulates relative humidity between 10% and 45% using smart cycling.",
+    "summary": "The i10 cabinet holds up to 10 filament spools and uses smart cycling to maintain humidity between 10% and 45%.",
     "category": "Mechanical",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/sunlu-and-inslogic-launch-i10-filament-storage-cabinet/",
     "published_at": "2026-09-11T10:04:46+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276583+00:00"
+    "fetched_at": "2026-09-12T08:18:17.620604+00:00"
   },
   {
-    "title": "Ellinikon Regeneration Project Completes Courtyards Residential Stage",
-    "summary": "Europe's largest urban regeneration project in Athens completed the Courtyards, a 324-unit residential neighbourhood.",
+    "title": "Ellinikon Urban Regeneration Project Completes Courtyards Phase",
+    "summary": "The Ellinikon redevelopment in Athens has completed its latest residential phase called the Courtyards.",
     "category": "Civil & Infrastructure",
     "source_name": "Global Construction Review",
     "source_url": "https://www.globalconstructionreview.com/checking-in-on-europes-largest-urban-regeneration-project/",
     "published_at": "2026-09-11T09:49:51+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276587+00:00"
+    "fetched_at": "2026-09-12T08:18:20.428580+00:00"
   },
   {
-    "title": "Portland General Electric Launches Wildfire Research Program",
-    "summary": "Portland General Electric is measuring live plant moisture levels to study how vegetation conditions influence wildfire risk.",
+    "title": "Portland General Electric Launches Novel Wildfire Prevention Research",
+    "summary": "Portland General Electric is starting a wildfire research program measuring live plant moisture levels to assess wildfire risks.",
     "category": "Energy",
     "source_name": "Renewable Energy World",
     "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/pge-has-a-high-tech-suite-of-wildfire-monitoring-tools-but-one-key-piece-is-missing/",
     "published_at": "2026-09-11T09:03:56+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276592+00:00"
+    "fetched_at": "2026-09-12T08:18:20.428591+00:00"
   },
   {
     "title": "Hermeus Pairs Quarterhorse with Ramjet-X for High-Mach Testing",
-    "summary": "Hermeus announced plans to launch the Ramjet-X high-Mach test vehicle using its Quarterhorse supersonic aircraft for component testing.",
+    "summary": "Hermeus revealed plans for the Quarterhorse aircraft to launch the Ramjet-X test vehicle for high-speed flight testing.",
     "category": "Aerospace",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/aircraft/quarterhorse-ramjet-x-high-mach-flight-test-platform/",
     "published_at": "2026-09-11T06:47:49+00:00",
-    "fetched_at": "2026-09-11T15:46:38.276596+00:00"
+    "fetched_at": "2026-09-12T08:18:20.428597+00:00"
   },
   {
-    "title": "Infineon Launches Smart Power Stage Family",
-    "summary": "Infineon is sampling a dual-phase smart power stage family featuring a power density exceeding 2 A/mm² for AI accelerators.",
+    "title": "NAO Deems UK £70bn Grid Upgrade Timetable Challenging",
+    "summary": "A National Audit Office review concluded that the UK's planned £70bn electricity transmission network upgrades face a very challenging delivery timetable.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/70bn-grid-upgrade-timetable-very-challenging-nao-11-09-2026/",
+    "published_at": "2026-09-11T05:30:55+00:00",
+    "fetched_at": "2026-09-12T08:18:20.428619+00:00"
+  },
+  {
+    "title": "Infineon Samples Dual-Phase Smart Power Stage Family",
+    "summary": "Infineon has introduced a dual-phase smart power stage family for AI accelerators exceeding a power density of 2 A/mm².",
     "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
     "source_url": "https://www.electronicsweekly.com/news/business/dual-phase-smart-power-stage-family-power-density-exceeding-2-a-mm%c2%b2-2026-09/",
     "published_at": "2026-09-11T05:05:40+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946878+00:00"
+    "fetched_at": "2026-09-12T08:18:20.428626+00:00"
   },
   {
     "title": "Pairing Digital Twin and Cobot for Remote AM Finishing",
@@ -223,50 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.11733v1",
     "published_at": "2026-09-10T15:47:26+00:00",
     "fetched_at": "2026-09-11T15:46:45.589997+00:00"
-  },
-  {
-    "title": "MC-DeTra: Motion-Consistent Object Detection and Forecasting",
-    "summary": "This work introduces motion-consistency mechanisms to improve joint object detection and trajectory forecasting for autonomous driving.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11717v1",
-    "published_at": "2026-09-10T15:34:09+00:00",
-    "fetched_at": "2026-09-11T15:46:45.590001+00:00"
-  },
-  {
-    "title": "Mixed-Integer Optimization for Military Fleet Management",
-    "summary": "A multi-year planning strategy maximizes military aircraft fleet availability using mixed-integer optimization and complementary tuning heuristics.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11710v1",
-    "published_at": "2026-09-10T15:28:29+00:00",
-    "fetched_at": "2026-09-11T15:46:45.590005+00:00"
-  },
-  {
-    "title": "hp-Adaptive Trees for Efficient Graph Signal Approximation",
-    "summary": "Researchers developed an hp-refinement strategy using binary knapsack problems and local embeddings to improve the approximation efficiency of graph signals.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11701v1",
-    "published_at": "2026-09-10T15:25:32+00:00",
-    "fetched_at": "2026-09-11T08:44:59.806324+00:00"
-  },
-  {
-    "title": "Tail-Sitter UAV Flight Control Without Aerodynamic Priors",
-    "summary": "Researchers developed a coordinated trajectory generation and tracking control framework for a tail-sitter UAV that functions without airframe-specific aerodynamic priors.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11698v1",
-    "published_at": "2026-09-10T15:22:59+00:00",
-    "fetched_at": "2026-09-11T15:46:49.365584+00:00"
-  },
-  {
-    "title": "ActSafeGuard Enforces Hard Constraints for Flow-Matching Policies",
-    "summary": "ActSafeGuard is a differentiable safeguard layer that integrates hard action feasibility into flow-matching based robotic policies during training.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11697v1",
-    "published_at": "2026-09-10T15:21:47+00:00",
-    "fetched_at": "2026-09-11T15:46:49.365593+00:00"
   }
 ]
