@@ -1,12 +1,30 @@
 [
   {
-    "title": "Quantum-Powered Electron Microscope Developed",
-    "summary": "Scientists are combining an electron microscope with a quantum computer to extract more information while protecting fragile samples.",
-    "category": "Electronics & Semiconductors",
+    "title": "Japan Launches Kaguya Lunar Spacecraft",
+    "summary": "On September 13, 2007, Japan launched the Kaguya spacecraft to map the lunar surface in HD.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/on-this-day-in-space-september-13-2026",
+    "published_at": "2026-09-13T17:45:21+00:00",
+    "fetched_at": "2026-09-13T20:36:19.750173+00:00"
+  },
+  {
+    "title": "Microscope Powered by Quantum Computer",
+    "summary": "Scientists are combining an electron microscope with a quantum computer to extract more information from each electron and protect fragile samples.",
+    "category": "Computing",
     "source_name": "ScienceDaily",
     "source_url": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
     "published_at": "2026-09-13T12:03:59+00:00",
-    "fetched_at": "2026-09-13T15:22:36.357733+00:00"
+    "fetched_at": "2026-09-13T20:36:19.750186+00:00"
+  },
+  {
+    "title": "NASA-Backed Scientists Turn Plastic Waste Into Edible Cookies",
+    "summary": "Researchers engineered yeast to convert PET plastic and agricultural waste into ingredients for protein-rich, 3D-printed cookies for deep-space missions.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
+    "published_at": "2026-09-13T11:54:36+00:00",
+    "fetched_at": "2026-09-13T20:36:19.750192+00:00"
   },
   {
     "title": "Architect Labs Announces AI Tool for Rapid Chip Design",
@@ -124,149 +142,5 @@
     "source_url": "https://www.engineering.com/researchers-pair-digital-twin-cobot-for-remote-am-finishing/",
     "published_at": "2026-09-10T21:07:33+00:00",
     "fetched_at": "2026-09-11T15:46:41.521796+00:00"
-  },
-  {
-    "title": "Swarmer to Acquire Ratel Robotics",
-    "summary": "Software developer Swarmer plans to acquire Ukrainian unmanned ground vehicle maker Ratel Robotics for up to $224 million.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/swarmer-to-acquire-ukrainian-ugv-maker-ratel-robotics-for-up-to-224m/",
-    "published_at": "2026-09-10T20:10:22+00:00",
-    "fetched_at": "2026-09-11T08:44:44.946892+00:00"
-  },
-  {
-    "title": "Comau Automates Fulfillment Operations for Decathlon",
-    "summary": "Comau deployed an automated system for Decathlon featuring its MyCo cobot, ROS2 software, AI vision, and a modular gripper.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/",
-    "published_at": "2026-09-10T18:49:08+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521805+00:00"
-  },
-  {
-    "title": "LINK Spacecraft Falls Short of Saving NASA's Swift Observatory",
-    "summary": "Operations continue for the Katalyst Space LINK satellite despite its inability to boost the orbit of NASA's Swift Observatory.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/missions/link-spacecraft-gets-close-to-nasas-swift-observatory-but-not-close-enough-to-save-it",
-    "published_at": "2026-09-10T18:00:00+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521810+00:00"
-  },
-  {
-    "title": "EVPeriscope Enables Event-Based Aerial and Ground Vehicle Perception",
-    "summary": "Researchers developed EVPeriscope, an event-based system that uses an upward-facing camera on a ground robot to detect and control a quadrotor.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11920v1",
-    "published_at": "2026-09-10T17:58:03+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521814+00:00"
-  },
-  {
-    "title": "Learning Agent-Based Model Predictive Control Enhances Vehicle Performance",
-    "summary": "A novel hybrid control scheme combines model-based AMPC with Gaussian process regression to improve multi-agent vehicle performance.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11871v1",
-    "published_at": "2026-09-10T17:43:16+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479181+00:00"
-  },
-  {
-    "title": "Truncated Noisy Best-Response Algorithms Provide Game Theoretic Guarantees",
-    "summary": "A family of asynchronous algorithms offers performance and safety bounds for multi-agent coordination with submodular maximization objectives.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11863v1",
-    "published_at": "2026-09-10T17:41:49+00:00",
-    "fetched_at": "2026-09-11T08:44:55.479186+00:00"
-  },
-  {
-    "title": "Open Spectrum Architecture Expands Beyond Open RAN",
-    "summary": "Researchers introduced Open Spectrum, an architecture using software-defined networking and digital twins to optimize multi-service spectrum coexistence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11843v1",
-    "published_at": "2026-09-10T17:32:42+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521819+00:00"
-  },
-  {
-    "title": "Acoustic-Based Guidance System for Automatic AUV Docking",
-    "summary": "Researchers validated an acoustic sensing architecture using USBL sensors to enable automatic AUV docking in low-visibility environments.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11821v1",
-    "published_at": "2026-09-10T17:17:21+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521823+00:00"
-  },
-  {
-    "title": "Integral Reinforcement Learning for Constrained Nonlinear Systems",
-    "summary": "This paper proposes a data-driven integral reinforcement learning method to control nonlinear systems under actuator constraints and disturbances.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11815v1",
-    "published_at": "2026-09-10T17:08:39+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589961+00:00"
-  },
-  {
-    "title": "Predefined-Time Consensus Under DoS Attacks",
-    "summary": "A switching sliding-mode protocol enables nonlinear multi-agent systems to achieve position and velocity consensus despite denial-of-service attacks.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11781v1",
-    "published_at": "2026-09-10T16:34:28+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589971+00:00"
-  },
-  {
-    "title": "Rapid Learning of In-Hand Pen Writing via Jacobian Estimation",
-    "summary": "An embodied control approach uses real-time task Jacobian estimation to enable anthropomorphic hands to write with a grasped pen.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11775v1",
-    "published_at": "2026-09-10T16:29:00+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589976+00:00"
-  },
-  {
-    "title": "Monocular Visual-SLAM for Greenhouse Tomato Detection",
-    "summary": "A cost-effective monocular Visual-SLAM system mapped greenhouse tomato crops and correctly identified occluded tomato clusters for harvesting.",
-    "category": "Civil & Infrastructure",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11766v1",
-    "published_at": "2026-09-10T16:19:36+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589980+00:00"
-  },
-  {
-    "title": "Shared Exoskeleton Framework for Dexterous Imitation Learning",
-    "summary": "The SEED-UMI framework uses a shared exoskeleton worn by both humans and robots to improve contact-rich imitation learning efficiency.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11753v1",
-    "published_at": "2026-09-10T16:08:58+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589985+00:00"
-  },
-  {
-    "title": "Constructing Control Lyapunov-Barrier Functions from Pairs",
-    "summary": "Researchers show how to construct control Lyapunov-barrier functions from a given control Lyapunov function and control barrier function.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11746v1",
-    "published_at": "2026-09-10T16:01:25+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589989+00:00"
-  },
-  {
-    "title": "Organizational Principles Enable Collective Embodied AI",
-    "summary": "Integrating human organization theory into multi-agent systems significantly improves teamwork outcomes in wildfire-response missions.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11737v1",
-    "published_at": "2026-09-10T15:52:35+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589993+00:00"
-  },
-  {
-    "title": "Reflex-Informed Reinforcement Learning for Muscle-Driven Locomotion",
-    "summary": "A reflex-informed reinforcement learning framework generates physiologically plausible and robust muscle-driven human movement.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.11733v1",
-    "published_at": "2026-09-10T15:47:26+00:00",
-    "fetched_at": "2026-09-11T15:46:45.589997+00:00"
   }
 ]
