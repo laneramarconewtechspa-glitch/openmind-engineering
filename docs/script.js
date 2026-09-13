@@ -553,7 +553,7 @@
       const thumbHTML = paper.image_url
         ? `<img class="neuron-thumb-img" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
         : `<div class="neuron-thumb-img neuron-thumb-na">BL</div>`;
-      const scoreBadgeCompactHTML = createScoreBadge(paper.score, 18);
+      const scoreBadgeCompactHTML = createScoreBadge(paper.score, 26);
       article.innerHTML = `
         <span class="neuron-compact-index">${String(index + 1).padStart(2, "0")}</span>
         ${thumbHTML}
@@ -563,7 +563,7 @@
       const imageHTML = paper.image_url
         ? `<img class="paper-image" src="${escapeHTML(paper.image_url)}" alt="" loading="lazy">`
         : `<div class="paper-image paper-image-na"><span class="mark-main">Be in<br>the loop</span></div>`;
-      const scoreBadgeHTML = createScoreBadge(paper.score, 30);
+      const scoreBadgeHTML = createScoreBadge(paper.score, 34);
 
       article.innerHTML = `
         <div class="paper-header">
