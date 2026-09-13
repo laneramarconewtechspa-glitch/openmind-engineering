@@ -75,7 +75,7 @@ RETAIN_WINDOW_HOURS = 48
 # possibilità (in pratica quasi mai raggiunto tutto). Non è il numero di
 # notizie pubblicate: quello è deciso da PUBLISH_TOP_N qui sotto, in base
 # all'OpenMind Score.
-MAX_ITEMS_PER_RUN = 120
+MAX_ITEMS_PER_RUN = 180
 # Numero di notizie effettivamente PUBBLICATE sul sito: sempre e solo le
 # migliori per OpenMind Score tra quelle che superano il controllo qualità,
 # indipendentemente da quante ne vengono valutate.
@@ -151,6 +151,25 @@ SOURCES = [
     {"name": "Electronics Weekly", "url": "https://www.electronicsweekly.com/feed/"},
     {"name": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/feed/"},
     {"name": "Space.com", "url": "https://www.space.com/feeds/all"},
+    # Terza ondata: più volume in ingresso mantenendo i criteri stringenti
+    # (obiettivo dell'utente: riempire la top 10 tutti i giorni con più
+    # candidati, non abbassando ulteriormente la qualità). Molti sono altri
+    # feed per categoria dello stesso dominio ScienceDaily, già verificato
+    # affidabile (nessun blocco anti-bot) dalle 3 fonti SD già in uso sopra —
+    # qui coprono soprattutto le categorie più scoperte (Biomedical,
+    # Computing, Materials). Bioengineer.org e SD Space Exploration esclusi:
+    # il primo era fuori tema/troppo corto nel test, il secondo avrebbe solo
+    # ingrossato ulteriormente l'Aerospace, già la categoria più coperta.
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/electronics.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/energy_and_resources.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/computers_math/computer_science.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/health_medicine/medical_devices.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"},
+    {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/earth_climate/environmental_science.xml"},
+    {"name": "MD+DI", "url": "https://www.mddionline.com/rss.xml"},
+    {"name": "Drug Delivery Business News", "url": "https://www.drugdeliverybusiness.com/feed/"},
     # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
     # funzionante per la sezione Tech & Engineering (i pattern noti tornano
     # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
@@ -240,15 +259,27 @@ expert but time-pressed readers. You receive the title and the FULL TEXT of the 
 article's web page for ONE single article/paper (already stripped of navigation/ads) \
 and must return ONLY the JSON required by the schema, following these strict rules:
 
-1. Evaluate "is_engineering_relevant" first. Set it to false in TWO cases:
-   (a) the story is about pure health/medicine, pure policy, basic science, or \
-       business with no clear engineering application or innovation;
-   (b) the story COULD be relevant but the text provided is too thin, paywalled, \
-       or generic to support a genuinely informative analysis (e.g. you cannot \
-       identify a specific problem, a specific idea/method, and at least two \
-       concrete findings). When in doubt because the material is too weak, \
-       prefer false — a shorter digest of solid stories beats a longer digest \
-       full of empty ones.
+1. Evaluate "is_engineering_relevant" first. This flags TOPIC fit only — a \
+   separate, later step in our own pipeline (not something you do) decides \
+   whether the material is rich enough for a full write-up or only a short \
+   blurb, so do NOT reject a story just because the text is short or limited: \
+   set it to false ONLY in these cases:
+   (a) the story has no genuine engineering/technology angle at all — pure \
+       entertainment/celebrity/pop-culture, pure astronomy or space imagery \
+       with no engineering-project angle, generic corporate M&A/financial \
+       news with no described technology, pure health/medicine with no \
+       device/engineering component, or pure policy/politics with nothing \
+       technical in it;
+   (b) there is truly close to NO usable text at all (e.g. the page failed to \
+       load and only a one-line title is available) — not just "short", but \
+       genuinely too little to honestly say anything factual about it.
+   When a story IS a real engineering/technology story — a new device, \
+   material, method, infrastructure project, funding for a technical effort, \
+   an industry/technical forecast, etc. — set it to TRUE even if the \
+   available text is brief or you can only identify one concrete detail: \
+   write whatever honest, specific sentences the material actually supports, \
+   and leave weaker fields shorter rather than inventing padding. Prefer TRUE \
+   whenever there's a genuine technical subject, even if thin.
    If false, fill every other field with an empty string "".
 2. If relevant, write EVERYTHING in English. Every field must be a complete, \
    naturally-connected sentence (or two) that could be read aloud and make \
@@ -269,9 +300,11 @@ and must return ONLY the JSON required by the schema, following these strict rul
    (percentage, improvement factor, cost, time, efficiency, scale...). If a \
    genuine result has no number attached in the text, leave result_N_number as \
    an EMPTY STRING "" — never invent or estimate one, and never write "N/A" or \
-   similar there either. If you cannot identify at least TWO genuine, specific \
-   results from the text, set is_engineering_relevant to false instead of \
-   forcing weak ones.
+   similar there either. If you cannot identify a genuine result for one or \
+   more of the three slots, leave result_N_headline/result_N_detail as empty \
+   strings "" too rather than inventing one — do NOT set is_engineering_relevant \
+   to false just because fewer than three (or even zero) results are available; \
+   that trade-off is handled elsewhere in our pipeline, not by you.
 6. NEVER write "N/A", "unknown", "not specified", "none", or similar placeholder \
    text in any field. Every field is either a real, substantive sentence, or — \
    only for result_N_number — an empty string.
@@ -655,9 +688,11 @@ def dedupe(items: list[dict], already_seen_urls: set[str]) -> list[dict]:
 
 def build_user_prompt(item: dict, article_text: str) -> str:
     # Usa il testo integrale della pagina se lo abbiamo recuperato ed è
-    # sostanzioso; altrimenti ripiega sul riassunto del feed RSS (meglio
-    # di niente, ma il modello viene comunque istruito a segnare "non
-    # pertinente" se il materiale resta troppo povero per un'analisi vera).
+    # sostanzioso; altrimenti ripiega sul riassunto del feed RSS. Anche se
+    # il materiale resta limitato il modello è ora istruito a marcare
+    # comunque is_engineering_relevant=true per un vero argomento tecnico:
+    # is_substantive() più sotto decide poi se basta per l'analisi completa
+    # (top 10) o solo per una Flash News — non è più il modello a scartare.
     body = article_text if len(article_text) > len(item["summary"]) + 200 else item["summary"]
     preprint_line = "Yes" if item.get("is_preprint") else "No"
     return (
@@ -926,8 +961,13 @@ def is_substantive(structured: dict) -> tuple[bool, str]:
             and len(detail.split()) >= 4
         ):
             solid_results += 1
-    if solid_results < 2:
-        return False, f"solo {solid_results}/3 risultati con contenuto reale (minimo 2)"
+    # Soglia abbassata da 2 a 1: da quando il prompt (SYSTEM_RULES) lascia
+    # onestamente vuoti gli slot senza un risultato genuino invece di forzarli,
+    # richiedere ancora 2/3 risultati qui scartava dalla top 10 (verso le
+    # Flash News) articoli comunque validi con un solo riscontro quantificabile
+    # ma un problema/idea/piano ben scritti — troppo severo per il volume atteso.
+    if solid_results < 1:
+        return False, f"solo {solid_results}/3 risultati con contenuto reale (minimo 1)"
 
     return True, ""
 
