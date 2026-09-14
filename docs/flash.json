@@ -1,30 +1,111 @@
 [
   {
-    "title": "Japan Launches Kaguya Lunar Spacecraft",
-    "summary": "On September 13, 2007, Japan launched the Kaguya spacecraft to map the lunar surface in HD.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/on-this-day-in-space-september-13-2026",
-    "published_at": "2026-09-13T17:45:21+00:00",
-    "fetched_at": "2026-09-13T20:36:19.750173+00:00"
+    "title": "Evaluating Lattice-Based Scaffold Architectures for Tissue Engineering",
+    "summary": "A study explores how scaffold geometry, material properties, and manufacturing methods like SLA affect structural and mechanical performance in tissue engineering.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b82e6e65de76b3341a9a230c7c8d48643b5faadb",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177476+00:00"
   },
   {
-    "title": "Microscope Powered by Quantum Computer",
-    "summary": "Scientists are combining an electron microscope with a quantum computer to extract more information from each electron and protect fragile samples.",
+    "title": "ImmunoGenAI Optimizes Therapeutic Devices Using Multimodal Deep Learning",
+    "summary": "A new multimodal deep learning framework predicts and optimizes immune evasion in personalized therapeutic devices and vaccines.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/6cb8f4919a8f653d9ccfc4e60c558ecff742ffb9",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177488+00:00"
+  },
+  {
+    "title": "Semiconductor Engineering Releases Technical Paper Roundup",
+    "summary": "The latest technical paper roundup covers heterogeneous memory chiplets, advanced packaging, and pre-silicon security testing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-14/",
+    "published_at": "2026-09-14T07:01:44+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177495+00:00"
+  },
+  {
+    "title": "Indian Manufacturers Face Data and Legacy-System Hurdles in AI Scaling",
+    "summary": "Small Indian manufacturers are encountering structural data and legacy-system barriers when attempting to scale artificial intelligence adoption.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
+    "published_at": "2026-09-14T05:53:04+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177500+00:00"
+  },
+  {
+    "title": "Network Rail Begins Track Upgrades for Buxton's Eaves Tunnel",
+    "summary": "A 1.5 million pound project is upgrading 400 meters of track through the 163-year-old Eaves Tunnel in Buxton.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/uncategorized/track-upgrade-for-buxtons-historic-eaves-tunnel-14-09-2026/",
+    "published_at": "2026-09-14T05:30:48+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177504+00:00"
+  },
+  {
+    "title": "Enflame Raises $900 Million in Shanghai IPO",
+    "summary": "Shanghai Enflame Technology has raised $900 million in an initial public offering on the Shanghai exchange.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/enflame-raises-900m-2026-09/",
+    "published_at": "2026-09-14T05:12:13+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177509+00:00"
+  },
+  {
+    "title": "High-End Routing and Aggregation Equipment Revenue Rises 25%",
+    "summary": "High-end routing and aggregation equipment revenue grew 25% year-over-year in the second quarter according to Dell'Oro.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/high-end-routing-and-aggregation-equipment-up-25-yoy-in-q2-2026-09/",
+    "published_at": "2026-09-14T05:09:34+00:00",
+    "fetched_at": "2026-09-14T09:25:33.177513+00:00"
+  },
+  {
+    "title": "Nokia Launches Cognitive Operations Platform",
+    "summary": "Nokia launched Cognitive Operations to unify mission-critical communications, edge computing, and operational AI for industries.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/nokia-launches-cognitive-operations-2026-09/",
+    "published_at": "2026-09-14T05:09:20+00:00",
+    "fetched_at": "2026-09-14T09:25:36.244008+00:00"
+  },
+  {
+    "title": "Expansion Stimulated Raman Scattering Microscopy Review",
+    "summary": "This review details Expansion Stimulated Raman Scattering, which combines SRS with expansion microscopy for nanoscale chemical imaging.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/9d2186d0e364e53dffd5dc25b98fa227ddb3b778",
+    "published_at": "2026-09-14T00:00:00+00:00",
+    "fetched_at": "2026-09-14T09:25:36.244017+00:00"
+  },
+  {
+    "title": "In-Wheel Motors Boost Army Mule UGV",
+    "summary": "The ESOX Group placed electric motors directly inside each wheel of its X2 uncrewed ground vehicle to improve stealth and off-road performance.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/esox-x2-robotic-infantry-mule/",
+    "published_at": "2026-09-13T23:03:00+00:00",
+    "fetched_at": "2026-09-14T09:25:36.244022+00:00"
+  },
+  {
+    "title": "Microscope Powered by a Quantum Computer",
+    "summary": "Scientists are combining an electron microscope with a quantum computer to extract more information while protecting fragile samples.",
     "category": "Computing",
     "source_name": "ScienceDaily",
     "source_url": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
     "published_at": "2026-09-13T12:03:59+00:00",
-    "fetched_at": "2026-09-13T20:36:19.750186+00:00"
+    "fetched_at": "2026-09-14T09:25:36.244026+00:00"
   },
   {
     "title": "NASA-Backed Scientists Turn Plastic Waste Into Edible Cookies",
-    "summary": "Researchers engineered yeast to convert PET plastic and agricultural waste into ingredients for protein-rich, 3D-printed cookies for deep-space missions.",
+    "summary": "Engineered yeast converts plastic waste into ingredients for 3D-printed cookies designed to support deep-space missions and reduce pollution.",
     "category": "Biomedical",
     "source_name": "ScienceDaily",
     "source_url": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
     "published_at": "2026-09-13T11:54:36+00:00",
-    "fetched_at": "2026-09-13T20:36:19.750192+00:00"
+    "fetched_at": "2026-09-14T09:25:36.244031+00:00"
   },
   {
     "title": "Architect Labs Announces AI Tool for Rapid Chip Design",
@@ -97,50 +178,5 @@
     "source_url": "https://www.globalconstructionreview.com/checking-in-on-europes-largest-urban-regeneration-project/",
     "published_at": "2026-09-11T09:49:51+00:00",
     "fetched_at": "2026-09-12T14:52:00.555438+00:00"
-  },
-  {
-    "title": "Portland General Electric Launches Novel Wildfire Prevention Research",
-    "summary": "Portland General Electric is starting a wildfire research program measuring live plant moisture levels to assess wildfire risks.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/pge-has-a-high-tech-suite-of-wildfire-monitoring-tools-but-one-key-piece-is-missing/",
-    "published_at": "2026-09-11T09:03:56+00:00",
-    "fetched_at": "2026-09-12T08:18:20.428591+00:00"
-  },
-  {
-    "title": "Hermeus Pairs Quarterhorse with Ramjet-X for High-Mach Testing",
-    "summary": "Hermeus revealed plans for the Quarterhorse aircraft to launch the Ramjet-X test vehicle for high-speed flight testing.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/quarterhorse-ramjet-x-high-mach-flight-test-platform/",
-    "published_at": "2026-09-11T06:47:49+00:00",
-    "fetched_at": "2026-09-12T08:18:20.428597+00:00"
-  },
-  {
-    "title": "NAO Deems UK £70bn Grid Upgrade Timetable Challenging",
-    "summary": "A National Audit Office review concluded that the UK's planned £70bn electricity transmission network upgrades face a very challenging delivery timetable.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/70bn-grid-upgrade-timetable-very-challenging-nao-11-09-2026/",
-    "published_at": "2026-09-11T05:30:55+00:00",
-    "fetched_at": "2026-09-12T08:18:20.428619+00:00"
-  },
-  {
-    "title": "Infineon Samples Dual-Phase Smart Power Stage Family",
-    "summary": "Infineon has introduced a dual-phase smart power stage family for AI accelerators exceeding a power density of 2 A/mm².",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/dual-phase-smart-power-stage-family-power-density-exceeding-2-a-mm%c2%b2-2026-09/",
-    "published_at": "2026-09-11T05:05:40+00:00",
-    "fetched_at": "2026-09-12T08:18:20.428626+00:00"
-  },
-  {
-    "title": "Pairing Digital Twin and Cobot for Remote AM Finishing",
-    "summary": "Researchers tested a digital twin and cobot system to enable operators to remotely program and supervise metal additive manufacturing finishing.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/researchers-pair-digital-twin-cobot-for-remote-am-finishing/",
-    "published_at": "2026-09-10T21:07:33+00:00",
-    "fetched_at": "2026-09-11T15:46:41.521796+00:00"
   }
 ]
