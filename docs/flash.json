@@ -1,39 +1,264 @@
 [
   {
+    "title": "Space Force Uses AI and Satellites for Intelligence",
+    "summary": "Space Force programs are tapping satellite data and artificial intelligence to get intelligence to military commanders faster.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/more-satellites-watch-the-battlefield-putting-a-premium-on-making-sense-of-the-data/",
+    "published_at": "2026-09-15T15:49:31+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129627+00:00"
+  },
+  {
+    "title": "Agility Robotics Announces Digit 5 Humanoid Worker",
+    "summary": "Agility Robotics unveiled Digit 5, a humanoid worker designed to lift payloads, operate near humans safely, and run for over 20 hours daily.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/humanoid-robot-safety",
+    "published_at": "2026-09-15T15:22:30+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129642+00:00"
+  },
+  {
+    "title": "Hunga Tonga Volcanic Eruption Cloud Destroys Methane",
+    "summary": "The Hunga Tonga eruption may have triggered a surprising chemical reaction that destroyed atmospheric methane, potentially aiding global warming strategies.",
+    "category": "Energy",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260915095750.htm",
+    "published_at": "2026-09-15T15:15:31+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129649+00:00"
+  },
+  {
+    "title": "Report Warns New Towns Need Transport Infrastructure First",
+    "summary": "A University of Hertfordshire report warns that planned new towns will fail without transport infrastructure integrated from the start.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/new-towns-must-include-transport-infrastructure-from-the-start-says-report-15-09-2026/",
+    "published_at": "2026-09-15T14:46:16+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129655+00:00"
+  },
+  {
+    "title": "Trimble Launches ST30 Smart Target for Surveying",
+    "summary": "Trimble has released the ST30, a surveying system combining a 360-degree prism, IMU, GNSS receiver, and automated rod height measurement.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/trimble-launches-st30-smart-target-for-surveying/",
+    "published_at": "2026-09-15T14:16:17+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129660+00:00"
+  },
+  {
+    "title": "KVector Raises £3.8M for Low-Power Antenna Tech",
+    "summary": "University of Birmingham spin-out KVector secured £3.8 million to commercialize its low-power beam-steered alternative to active phased array antennas.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/finance/kvector-raises-3-8m-to-commercialise-low-power-beam-steered-antenna-2026-09/",
+    "published_at": "2026-09-15T14:12:48+00:00",
+    "fetched_at": "2026-09-15T16:09:55.129682+00:00"
+  },
+  {
+    "title": "HS2 Civils Contracts Renegotiation Extended",
+    "summary": "Renegotiation of the two remaining civil contracts for HS2 is expected to continue for another two to three months.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/hs2-renegotiation-of-remaining-civils-contracts-expected-to-continue-for-another-two-to-three-months-15-09-2026/",
+    "published_at": "2026-09-15T13:39:22+00:00",
+    "fetched_at": "2026-09-15T16:09:58.293451+00:00"
+  },
+  {
+    "title": "ESA and Axiom Space Sign MoU for Post-ISS Ecosystem",
+    "summary": "The European Space Agency and Axiom Space have signed a memorandum of understanding for a post-International Space Station ecosystem.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/esa-axiom-space-sign-a-mou-for-post-iss-space-ecosystem-2026-09/",
+    "published_at": "2026-09-15T13:25:00+00:00",
+    "fetched_at": "2026-09-15T16:09:58.293460+00:00"
+  },
+  {
+    "title": "Beta Bionics Insulin Patch Pump Earns FDA Clearance",
+    "summary": "Beta Bionics has secured FDA clearance for its first patch pump insulin delivery system.",
+    "category": "Biomedical",
+    "source_name": "Drug Delivery Business News",
+    "source_url": "https://www.drugdeliverybusiness.com/beta-bionics-insulin-patch-pump-scores-fda-clearance/",
+    "published_at": "2026-09-15T13:22:39+00:00",
+    "fetched_at": "2026-09-15T16:09:58.293465+00:00"
+  },
+  {
+    "title": "InOrbit.AI Releases OpenRobOps Reference Implementation",
+    "summary": "InOrbit.AI has released the OpenRobOps ISO 21423 reference implementation to support the upcoming robotics interoperability standard.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/",
+    "published_at": "2026-09-15T12:58:29+00:00",
+    "fetched_at": "2026-09-15T16:09:58.293470+00:00"
+  },
+  {
+    "title": "FCC Optical Connectivity Rule Risks AI Race Slowdown",
+    "summary": "A potential FCC ban on importing optical network equipment could create critical shortages for hyperscalers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/fcc-rule-on-optical-connectivity-could-slow-ai-race/",
+    "published_at": "2026-09-15T12:32:10+00:00",
+    "fetched_at": "2026-09-15T16:09:58.293475+00:00"
+  },
+  {
+    "title": "UKRI Seeks Market Input for £6M Civils Procurement",
+    "summary": "UK Research and Innovation is engaging the market ahead of a future £6M procurement for civil engineering and groundworks.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ukri-seeks-market-input-ahead-of-6m-civils-and-groundworks-procurement-15-09-2026/",
+    "published_at": "2026-09-15T11:48:24+00:00",
+    "fetched_at": "2026-09-15T16:10:07.570610+00:00"
+  },
+  {
+    "title": "Artec 3D Launches Wireless Metrology Scanner",
+    "summary": "Artec 3D released the Artec Neo, combining 0.025 mm metrology accuracy with full-color scanning for dimensional control.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/artec-3d-launches-wireless-scanner-for-dimensional-control/",
+    "published_at": "2026-09-15T11:17:13+00:00",
+    "fetched_at": "2026-09-15T16:10:07.570619+00:00"
+  },
+  {
+    "title": "Agility Robotics Unveils Digit 5 Humanoid Upgrades",
+    "summary": "The latest Digit humanoid features new knees, upgraded batteries, and a more comprehensive safety architecture.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
+    "published_at": "2026-09-15T10:55:15+00:00",
+    "fetched_at": "2026-09-15T16:10:07.570624+00:00"
+  },
+  {
+    "title": "Qedma Integrates QESEM with NVIDIA CUDA-Q",
+    "summary": "The integration allows CUDA-Q users to apply quantum error mitigation without altering their existing programming workflow.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/qedma-integrates-qesem-with-nvidia-cuda-q-platform/",
+    "published_at": "2026-09-15T10:49:36+00:00",
+    "fetched_at": "2026-09-15T16:10:07.570629+00:00"
+  },
+  {
     "title": "Binder Introduces Angled M12 Connectors",
-    "summary": "Binder launched angled M12 connectors for tubular sensors supporting centered PCB mounting and operating temperatures from -40°C to +85°C.",
+    "summary": "Binder launched new angled M12 connectors supporting centered PCB mounting and operating temperatures from -40°C to +85°C.",
     "category": "Electronics & Semiconductors",
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/binder-introduces-angled-m12-connectors-for-tubular-sensors/",
     "published_at": "2026-09-15T07:38:12+00:00",
-    "fetched_at": "2026-09-15T09:10:19.049950+00:00"
+    "fetched_at": "2026-09-15T16:10:07.570634+00:00"
   },
   {
-    "title": "GE Vernova Modernizes São Simão Hydro Plant",
-    "summary": "SPIC Brasil and GE Vernova completed the modernization of Generating Unit 3 at the São Simão Hydroelectric Power Plant.",
+    "title": "AI Data Centers Face Stranded Power Challenge",
+    "summary": "Redundant feeds protect uptime in AI data centers but strand capacity that could support additional hardware.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/ai-data-centers-have-a-power-hoarding-problem/",
+    "published_at": "2026-09-15T07:13:41+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632689+00:00"
+  },
+  {
+    "title": "Challenges in AI Hardware-Software Co-Design",
+    "summary": "Combined hardware and software development flows for the AI era remain hampered by numerous design challenges.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hardware-software-co-design-in-the-ai-era/",
+    "published_at": "2026-09-15T07:12:38+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632698+00:00"
+  },
+  {
+    "title": "Scaling Thermal Analysis in Data Centers",
+    "summary": "Rising power density and chiplet complexity are pushing thermal considerations earlier into the semiconductor design process.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/scaling-thermal-analysis-from-transistors-to-data-centers/",
+    "published_at": "2026-09-15T07:11:30+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632703+00:00"
+  },
+  {
+    "title": "Scaling AI Infrastructure with PCIe",
+    "summary": "PCIe switches and retimers enable configurable subsystems spanning local expansion, shared resources, and longer topologies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/scaling-ai-infrastructure-with-pcie-switches-and-retimers/",
+    "published_at": "2026-09-15T07:06:12+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632707+00:00"
+  },
+  {
+    "title": "AMBA Over UCIe for Multi-Die Systems",
+    "summary": "Established SoC design paradigms are being transformed into system-level fabrics to support next-generation AI and HPC workloads.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/amba-over-ucie-building-coherent-multi-die-systems/",
+    "published_at": "2026-09-15T07:04:57+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632712+00:00"
+  },
+  {
+    "title": "Compressing 11B VLM to 2.7-bit for Mobile CPUs",
+    "summary": "Researchers combined a novel weight format and quantization-aware training to reduce model size while retaining accuracy.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/compressing-an-11b-vlm-to-2-7-bit-weights-for-mobile-cpus/",
+    "published_at": "2026-09-15T07:03:29+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632716+00:00"
+  },
+  {
+    "title": "Validating PCIe 6.0 in 3D Multi-Die Test Chip",
+    "summary": "Engineers implemented 64.0 GT/s PCIe connectivity within a stacked-die, face-to-face 3D architecture.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/validating-pcie-6-0-connectivity-in-a-3d-multi-die-test-chip/",
+    "published_at": "2026-09-15T07:02:24+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632719+00:00"
+  },
+  {
+    "title": "Single Processor Handles Matrix, Vector, and Scalar Code",
+    "summary": "A single software-controlled core has been developed to handle matrix, vector, and scalar code in one execution pipeline.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/one-processor-one-toolchain/",
+    "published_at": "2026-09-15T07:01:24+00:00",
+    "fetched_at": "2026-09-15T16:10:11.632723+00:00"
+  },
+  {
+    "title": "Brazil Hydro Plant Modernization Completed",
+    "summary": "SPIC Brasil and GE Vernova finished modernizing Generating Unit 3 at the São Simão Hydroelectric Power Plant.",
     "category": "Energy",
     "source_name": "Renewable Energy World",
     "source_url": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/brazils-sao-simao-hydro-plant-sees-accelerated-modernization-in-ge-vernova-project/",
     "published_at": "2026-09-15T07:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:19.049964+00:00"
+    "fetched_at": "2026-09-15T16:10:11.632741+00:00"
   },
   {
-    "title": "Flood Barrier Installed at Brisbane Rail Station",
-    "summary": "An 80-tonne protective lid has been installed over Albert Street station in Brisbane, Australia, to act as a flood barrier.",
+    "title": "US Backs Australian Antiviral Nasal Spray",
+    "summary": "An Australian nasal spray is being backed by the US to treat respiratory viral infections like the common cold.",
+    "category": "Biomedical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/infectious-diseases/first-nasal-spray-block-respiratory-viruses/",
+    "published_at": "2026-09-15T06:48:30+00:00",
+    "fetched_at": "2026-09-15T16:10:14.771139+00:00"
+  },
+  {
+    "title": "Iceye Expands Global Presence for Sovereign Demand",
+    "summary": "Iceye has expanded its global presence following a Series F funding round to address growing demand for sovereign space capabilities.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/iceye-rapidly-expands-global-presence-to-address-sovereign-demand/",
+    "published_at": "2026-09-15T06:00:00+00:00",
+    "fetched_at": "2026-09-15T16:10:14.771154+00:00"
+  },
+  {
+    "title": "Massive Flood Barrier Installed at Brisbane Station",
+    "summary": "An 80-tonne flood barrier lid has been installed over Albert Street station in Brisbane to protect against extreme flooding.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/80t-lid-to-protect-australian-rail-station-from-1-in-10000-year-flood-15-09-2026/",
     "published_at": "2026-09-15T05:30:35+00:00",
-    "fetched_at": "2026-09-15T09:10:19.049971+00:00"
+    "fetched_at": "2026-09-15T16:10:14.771159+00:00"
   },
   {
-    "title": "Imec Demos 22nm Pitch on Single-Print High-NA EUV",
-    "summary": "Imec demonstrated the feasibility of patterning tight-pitch random logic structures down to a 22nm pitch using single-print High NA EUV lithography.",
+    "title": "Imec Demonstrates 22nm Pitch on High-NA EUV",
+    "summary": "Imec has demonstrated tight-pitch random logic structures down to 22nm pitch using a single-print High NA EUV lithography step.",
     "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
     "source_url": "https://www.electronicsweekly.com/news/business/imec-demoes-22nm-pitch-and-28nm-vias-on-single-print-high-na-step-2026-09/",
     "published_at": "2026-09-15T05:10:59+00:00",
-    "fetched_at": "2026-09-15T09:10:19.049977+00:00"
+    "fetched_at": "2026-09-15T16:10:14.771164+00:00"
   },
   {
     "title": "SBC Prices Surge Amid Memory Boom",
@@ -43,230 +268,5 @@
     "source_url": "https://www.electronicsweekly.com/news/business/sbcs-bloodied-by-the-memory-boom-but-surviving-2026-09/",
     "published_at": "2026-09-15T05:09:37+00:00",
     "fetched_at": "2026-09-15T09:10:22.881178+00:00"
-  },
-  {
-    "title": "Mitsubishi and Swissto12 Partner for 3D-Printed Payloads",
-    "summary": "Mitsubishi Electric and SWISSto12 signed an MoU to develop small, lightweight satellite payloads using 3D-printing processes.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/mitsubishi-and-swissto12-hook-up-for-3d-printed-space-payloads-2026-09/",
-    "published_at": "2026-09-15T05:08:42+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881188+00:00"
-  },
-  {
-    "title": "Comparative Analysis of Lattice-Based Scaffolds for Tissues",
-    "summary": "Researchers evaluated how different lattice scaffold geometries affect structural, mechanical, and manufacturing performance in tissue engineering.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b82e6e65de76b3341a9a230c7c8d48643b5faadb",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881207+00:00"
-  },
-  {
-    "title": "ImmunoGenAI for Optimizing Therapeutic Immune Evasion",
-    "summary": "ImmunoGenAI uses multimodal deep learning to predict and optimize immune evasion and peptide-HLA binding in personalized therapeutic devices.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/6cb8f4919a8f653d9ccfc4e60c558ecff742ffb9",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881211+00:00"
-  },
-  {
-    "title": "Solitary Wave Solutions in Two-Mode Nonlinear Equations",
-    "summary": "Researchers investigated new solitary wave solutions and stability for the two-mode foam drainage equation modeling liquid flow in porous media.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/090b6b4620cf817260aa19bed8fe264d184bd3e6",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881219+00:00"
-  },
-  {
-    "title": "AFIAN Method for Open-Set Fault Diagnosis",
-    "summary": "Researchers proposed an adaptive fusion interaction adversarial network to improve open-set cross-domain fault diagnosis using multimodal signals.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f236bf10429db61c6cd41f21d3e49356ceb42f58",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881194+00:00"
-  },
-  {
-    "title": "Redefining Upper-Limb Prosthetics as Intelligent Instruments",
-    "summary": "A human-centered design framework proposes shifting prosthetic hands from transparent replacements to intelligent instruments focused on shared autonomy.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c63df01fd9fb6bc3a4c0872b488c8bfb5aa9ca99",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881198+00:00"
-  },
-  {
-    "title": "Governance Gaps and Embodied Carbon in Buildings",
-    "summary": "A study maps recurrent supply chain governance gaps to decision points that influence embodied-carbon outcomes in building construction.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bf2694b568a207dd86f3fe1a29df8f246a462e18",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881203+00:00"
-  },
-  {
-    "title": "PMC-Net for Defect Detection in Pipeline Systems",
-    "summary": "A physical information-guided masked contrastive learning network was developed to improve defect detection accuracy in intelligent pipeline systems.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/116a9aa222a80af587eb28c45cb751ec772a4ea0",
-    "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:22.881215+00:00"
-  },
-  {
-    "title": "RoboBusiness 2026 Panel to Explore RaaS Playbook",
-    "summary": "At RoboBusiness 2026, robotics leaders will examine the practical business strategies behind Robots-as-a-Service offerings.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
-    "published_at": "2026-09-14T21:45:57+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009602+00:00"
-  },
-  {
-    "title": "Additive Manufacturing Enables New Thermal Cloaking Structures",
-    "summary": "An NSF-supported researcher is using additive manufacturing and topology optimization to develop a 3D thermal cloaking device.",
-    "category": "Materials",
-    "source_name": "NSF",
-    "source_url": "https://www.nsf.gov/news/podcast-creating-thermal-cloaking-new-structures",
-    "published_at": "2026-09-14T21:28:01+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009612+00:00"
-  },
-  {
-    "title": "Marine Bacteria Break Down Ocean Carbon-Storing Molecules",
-    "summary": "Researchers revealed how communities of marine bacteria divide the task of degrading fucoidan to impact ocean carbon storage.",
-    "category": "Other Engineering",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/marine-bacteria-team-up-to-break-down-carbon-storing-molecules-0914",
-    "published_at": "2026-09-14T20:30:00+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009618+00:00"
-  },
-  {
-    "title": "Medical Device Supply Chains Face Cyber Vulnerabilities",
-    "summary": "A recent cyberattack highlighted that IT and OT systems manufacturing medical devices remain vulnerable to threats.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/digital-health/your-medical-device-is-fda-compliant-your-supply-chain-isn-t-",
-    "published_at": "2026-09-14T19:49:41+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009623+00:00"
-  },
-  {
-    "title": "US Non-Powered Dams Hold Significant Hydropower Potential",
-    "summary": "DOE researchers found that untapped non-powered dams in the U.S. could generate 15.2 terawatt-hours of electricity annually.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/the-u-s-is-sitting-on-a-gold-mine-of-untapped-hydropower-potential/",
-    "published_at": "2026-09-14T19:36:06+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009628+00:00"
-  },
-  {
-    "title": "Vega C Rocket Launches Two European Satellites",
-    "summary": "A Vega C rocket successfully launched Europe's FLEX and Copernicus-3C Earth-observing spacecraft into orbit from French Guiana.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/vega-rocket-launch-europe-flex-sentinel-3c-earth-observation-satellites",
-    "published_at": "2026-09-14T18:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:26.009632+00:00"
-  },
-  {
-    "title": "SpaceX Completes Ship 42 Tests",
-    "summary": "SpaceX finished catch-related testing with unflown Ship 42 at Pad 2 as Flight 14 targets September 22.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/ship-42-chopsticks-tests-flight-14-net/",
-    "published_at": "2026-09-14T17:25:17+00:00",
-    "fetched_at": "2026-09-15T09:10:28.802175+00:00"
-  },
-  {
-    "title": "Donated Livers Made Biologically Younger",
-    "summary": "Researchers are developing methods to counteract degradation and make donated livers biologically younger before transplantation.",
-    "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-    "published_at": "2026-09-14T16:11:42+00:00",
-    "fetched_at": "2026-09-15T09:10:28.802185+00:00"
-  },
-  {
-    "title": "Arm to Discuss Scaling Physical AI",
-    "summary": "Arm executive Dermot O'Driscoll will examine compute principles behind physical AI at the upcoming RoboBusiness event.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
-    "published_at": "2026-09-14T16:09:27+00:00",
-    "fetched_at": "2026-09-15T09:10:28.802190+00:00"
-  },
-  {
-    "title": "AI Agents Report Cheating Peers",
-    "summary": "A Google DeepMind experiment showed AI agents blowing the whistle when rival agents cheated on math problems.",
-    "category": "Computing",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-    "published_at": "2026-09-14T16:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:28.802194+00:00"
-  },
-  {
-    "title": "CASIS marks 15 years managing ISS National Laboratory",
-    "summary": "The Center for the Advancement of Science in Space is celebrating 15 years of managing the International Space Station National Laboratory.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/casis-celebrates-15-years-managing-international-space-station-lab-2026-09/",
-    "published_at": "2026-09-14T15:37:55+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886334+00:00"
-  },
-  {
-    "title": "GBE-N Denies Record of SGE's Oldbury Site Interest",
-    "summary": "Great British Energy – Nuclear stated it has no record of correspondence from SGE regarding an interest in acquiring the Oldbury site.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/gbe-n-has-no-record-of-sges-claimed-interest-in-acquiring-oldbury-site-14-09-2026/",
-    "published_at": "2026-09-14T15:05:05+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752810+00:00"
-  },
-  {
-    "title": "Moon Cities Unlikely Due to Limited Water Supplies",
-    "summary": "Scientists note that establishing cities on the moon is constrained by a lack of sufficient water resources in polar craters.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/moon/no-cities-on-the-moon-there-isnt-enough-water-scientists-say-op-ed",
-    "published_at": "2026-09-14T15:00:00+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752820+00:00"
-  },
-  {
-    "title": "JOYX and Hitch Interactive Partner on Embodied AI",
-    "summary": "The companies are combining spatial data processing with open robotics platforms for commercial applications.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/joyx-and-hitch-interactive-partner-on-embodied-ai-systems/",
-    "published_at": "2026-09-14T14:53:56+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752825+00:00"
-  },
-  {
-    "title": "EPA to Repeal Plant Greenhouse Gas Rules",
-    "summary": "The EPA is set to eliminate Biden-era carbon standards requiring carbon capture for coal plants and new gas units.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/environmental-emissions/epa-to-repeal-greenhouse-gas-rules-for-coal-and-gas-fired-plants/",
-    "published_at": "2026-09-14T14:51:08+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752831+00:00"
-  },
-  {
-    "title": "Chemistry Textbooks May Misteach Inductive Effect",
-    "summary": "Researchers report that the inductive effect in neutral molecules extends across only one chemical bond rather than multiple bonds.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
-    "published_at": "2026-09-14T14:13:47+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752836+00:00"
-  },
-  {
-    "title": "OpenAI Unveils Jalapeño AI Accelerator Chip",
-    "summary": "OpenAI unveiled its debut AI accelerator chip, Jalapeño, designed using its own large language models.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
-    "published_at": "2026-09-14T14:06:31+00:00",
-    "fetched_at": "2026-09-15T09:10:32.752842+00:00"
   }
 ]
