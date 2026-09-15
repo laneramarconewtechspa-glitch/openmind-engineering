@@ -1,57 +1,210 @@
 [
   {
-    "title": "Study analyzes lattice scaffold geometries for tissue engineering",
-    "summary": "Researchers evaluated how different lattice scaffold architectures affect mechanical stability, porosity, and manufacturing feasibility using FDM and SLA techniques.",
+    "title": "Binder Introduces Angled M12 Connectors",
+    "summary": "Binder launched angled M12 connectors for tubular sensors supporting centered PCB mounting and operating temperatures from -40°C to +85°C.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/binder-introduces-angled-m12-connectors-for-tubular-sensors/",
+    "published_at": "2026-09-15T07:38:12+00:00",
+    "fetched_at": "2026-09-15T09:10:19.049950+00:00"
+  },
+  {
+    "title": "GE Vernova Modernizes São Simão Hydro Plant",
+    "summary": "SPIC Brasil and GE Vernova completed the modernization of Generating Unit 3 at the São Simão Hydroelectric Power Plant.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/brazils-sao-simao-hydro-plant-sees-accelerated-modernization-in-ge-vernova-project/",
+    "published_at": "2026-09-15T07:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:19.049964+00:00"
+  },
+  {
+    "title": "Flood Barrier Installed at Brisbane Rail Station",
+    "summary": "An 80-tonne protective lid has been installed over Albert Street station in Brisbane, Australia, to act as a flood barrier.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/80t-lid-to-protect-australian-rail-station-from-1-in-10000-year-flood-15-09-2026/",
+    "published_at": "2026-09-15T05:30:35+00:00",
+    "fetched_at": "2026-09-15T09:10:19.049971+00:00"
+  },
+  {
+    "title": "Imec Demos 22nm Pitch on Single-Print High-NA EUV",
+    "summary": "Imec demonstrated the feasibility of patterning tight-pitch random logic structures down to a 22nm pitch using single-print High NA EUV lithography.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/imec-demoes-22nm-pitch-and-28nm-vias-on-single-print-high-na-step-2026-09/",
+    "published_at": "2026-09-15T05:10:59+00:00",
+    "fetched_at": "2026-09-15T09:10:19.049977+00:00"
+  },
+  {
+    "title": "SBC Prices Surge Amid Memory Boom",
+    "summary": "Single-board computers have become significantly more expensive, with older models and Raspberry Pi units selling at elevated prices.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/sbcs-bloodied-by-the-memory-boom-but-surviving-2026-09/",
+    "published_at": "2026-09-15T05:09:37+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881178+00:00"
+  },
+  {
+    "title": "Mitsubishi and Swissto12 Partner for 3D-Printed Payloads",
+    "summary": "Mitsubishi Electric and SWISSto12 signed an MoU to develop small, lightweight satellite payloads using 3D-printing processes.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/mitsubishi-and-swissto12-hook-up-for-3d-printed-space-payloads-2026-09/",
+    "published_at": "2026-09-15T05:08:42+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881188+00:00"
+  },
+  {
+    "title": "Comparative Analysis of Lattice-Based Scaffolds for Tissues",
+    "summary": "Researchers evaluated how different lattice scaffold geometries affect structural, mechanical, and manufacturing performance in tissue engineering.",
     "category": "Biomedical",
     "source_name": "Semantic Scholar",
     "source_url": "https://www.semanticscholar.org/paper/b82e6e65de76b3341a9a230c7c8d48643b5faadb",
     "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886297+00:00"
+    "fetched_at": "2026-09-15T09:10:22.881207+00:00"
   },
   {
-    "title": "ImmunoGenAI optimizes personalized therapeutic devices",
-    "summary": "A multimodal deep learning framework called ImmunoGenAI predicts and optimizes immune evasion to reduce unintended immunogenic peptide formation in therapeutics.",
-    "category": "Computing",
+    "title": "ImmunoGenAI for Optimizing Therapeutic Immune Evasion",
+    "summary": "ImmunoGenAI uses multimodal deep learning to predict and optimize immune evasion and peptide-HLA binding in personalized therapeutic devices.",
+    "category": "Biomedical",
     "source_name": "Semantic Scholar",
     "source_url": "https://www.semanticscholar.org/paper/6cb8f4919a8f653d9ccfc4e60c558ecff742ffb9",
     "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886310+00:00"
+    "fetched_at": "2026-09-15T09:10:22.881211+00:00"
   },
   {
-    "title": "Analyzing synchronized motion in two-mode solitary waves",
-    "summary": "Researchers investigated solitary wave solutions and stability for two-mode nonlinear equations modeling liquid flow in foams and porous media.",
+    "title": "Solitary Wave Solutions in Two-Mode Nonlinear Equations",
+    "summary": "Researchers investigated new solitary wave solutions and stability for the two-mode foam drainage equation modeling liquid flow in porous media.",
     "category": "Other Engineering",
     "source_name": "Semantic Scholar",
     "source_url": "https://www.semanticscholar.org/paper/090b6b4620cf817260aa19bed8fe264d184bd3e6",
     "published_at": "2026-09-15T00:00:00+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886316+00:00"
+    "fetched_at": "2026-09-15T09:10:22.881219+00:00"
   },
   {
-    "title": "Donated livers made biologically younger",
-    "summary": "Researchers explore methods to preserve and rejuvenate donated livers outside the body to extend transplant viability.",
+    "title": "AFIAN Method for Open-Set Fault Diagnosis",
+    "summary": "Researchers proposed an adaptive fusion interaction adversarial network to improve open-set cross-domain fault diagnosis using multimodal signals.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/f236bf10429db61c6cd41f21d3e49356ceb42f58",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881194+00:00"
+  },
+  {
+    "title": "Redefining Upper-Limb Prosthetics as Intelligent Instruments",
+    "summary": "A human-centered design framework proposes shifting prosthetic hands from transparent replacements to intelligent instruments focused on shared autonomy.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c63df01fd9fb6bc3a4c0872b488c8bfb5aa9ca99",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881198+00:00"
+  },
+  {
+    "title": "Governance Gaps and Embodied Carbon in Buildings",
+    "summary": "A study maps recurrent supply chain governance gaps to decision points that influence embodied-carbon outcomes in building construction.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bf2694b568a207dd86f3fe1a29df8f246a462e18",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881203+00:00"
+  },
+  {
+    "title": "PMC-Net for Defect Detection in Pipeline Systems",
+    "summary": "A physical information-guided masked contrastive learning network was developed to improve defect detection accuracy in intelligent pipeline systems.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/116a9aa222a80af587eb28c45cb751ec772a4ea0",
+    "published_at": "2026-09-15T00:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:22.881215+00:00"
+  },
+  {
+    "title": "RoboBusiness 2026 Panel to Explore RaaS Playbook",
+    "summary": "At RoboBusiness 2026, robotics leaders will examine the practical business strategies behind Robots-as-a-Service offerings.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/why-raas-needs-more-than-a-subscription-model/",
+    "published_at": "2026-09-14T21:45:57+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009602+00:00"
+  },
+  {
+    "title": "Additive Manufacturing Enables New Thermal Cloaking Structures",
+    "summary": "An NSF-supported researcher is using additive manufacturing and topology optimization to develop a 3D thermal cloaking device.",
+    "category": "Materials",
+    "source_name": "NSF",
+    "source_url": "https://www.nsf.gov/news/podcast-creating-thermal-cloaking-new-structures",
+    "published_at": "2026-09-14T21:28:01+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009612+00:00"
+  },
+  {
+    "title": "Marine Bacteria Break Down Ocean Carbon-Storing Molecules",
+    "summary": "Researchers revealed how communities of marine bacteria divide the task of degrading fucoidan to impact ocean carbon storage.",
+    "category": "Other Engineering",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/marine-bacteria-team-up-to-break-down-carbon-storing-molecules-0914",
+    "published_at": "2026-09-14T20:30:00+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009618+00:00"
+  },
+  {
+    "title": "Medical Device Supply Chains Face Cyber Vulnerabilities",
+    "summary": "A recent cyberattack highlighted that IT and OT systems manufacturing medical devices remain vulnerable to threats.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/digital-health/your-medical-device-is-fda-compliant-your-supply-chain-isn-t-",
+    "published_at": "2026-09-14T19:49:41+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009623+00:00"
+  },
+  {
+    "title": "US Non-Powered Dams Hold Significant Hydropower Potential",
+    "summary": "DOE researchers found that untapped non-powered dams in the U.S. could generate 15.2 terawatt-hours of electricity annually.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/the-u-s-is-sitting-on-a-gold-mine-of-untapped-hydropower-potential/",
+    "published_at": "2026-09-14T19:36:06+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009628+00:00"
+  },
+  {
+    "title": "Vega C Rocket Launches Two European Satellites",
+    "summary": "A Vega C rocket successfully launched Europe's FLEX and Copernicus-3C Earth-observing spacecraft into orbit from French Guiana.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/vega-rocket-launch-europe-flex-sentinel-3c-earth-observation-satellites",
+    "published_at": "2026-09-14T18:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:26.009632+00:00"
+  },
+  {
+    "title": "SpaceX Completes Ship 42 Tests",
+    "summary": "SpaceX finished catch-related testing with unflown Ship 42 at Pad 2 as Flight 14 targets September 22.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/ship-42-chopsticks-tests-flight-14-net/",
+    "published_at": "2026-09-14T17:25:17+00:00",
+    "fetched_at": "2026-09-15T09:10:28.802175+00:00"
+  },
+  {
+    "title": "Donated Livers Made Biologically Younger",
+    "summary": "Researchers are developing methods to counteract degradation and make donated livers biologically younger before transplantation.",
     "category": "Biomedical",
     "source_name": "MIT Technology Review",
     "source_url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
     "published_at": "2026-09-14T16:11:42+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886321+00:00"
+    "fetched_at": "2026-09-15T09:10:28.802185+00:00"
   },
   {
-    "title": "Arm to discuss scaling physical AI at RoboBusiness",
-    "summary": "Arm's VP of physical AI is set to examine compute principles behind trusted physical AI at the upcoming RoboBusiness event.",
+    "title": "Arm to Discuss Scaling Physical AI",
+    "summary": "Arm executive Dermot O'Driscoll will examine compute principles behind physical AI at the upcoming RoboBusiness event.",
     "category": "Robotics",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
     "published_at": "2026-09-14T16:09:27+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886326+00:00"
+    "fetched_at": "2026-09-15T09:10:28.802190+00:00"
   },
   {
-    "title": "AI agents whistleblow on cheating colleagues in Google experiment",
-    "summary": "A Google DeepMind experiment revealed autonomous AI agents attempting to stop rival agents from cheating during math problem-solving tasks.",
+    "title": "AI Agents Report Cheating Peers",
+    "summary": "A Google DeepMind experiment showed AI agents blowing the whistle when rival agents cheated on math problems.",
     "category": "Computing",
     "source_name": "MIT Technology Review",
     "source_url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
     "published_at": "2026-09-14T16:00:00+00:00",
-    "fetched_at": "2026-09-14T17:24:11.886330+00:00"
+    "fetched_at": "2026-09-15T09:10:28.802194+00:00"
   },
   {
     "title": "CASIS marks 15 years managing ISS National Laboratory",
@@ -63,13 +216,22 @@
     "fetched_at": "2026-09-14T17:24:11.886334+00:00"
   },
   {
-    "title": "GBE-N Denies Record of SGE’s Oldbury Site Interest",
-    "summary": "Great British Energy – Nuclear stated it has no record of receiving correspondence from SGE regarding interest in acquiring land at Oldbury.",
+    "title": "GBE-N Denies Record of SGE's Oldbury Site Interest",
+    "summary": "Great British Energy – Nuclear stated it has no record of correspondence from SGE regarding an interest in acquiring the Oldbury site.",
     "category": "Civil & Infrastructure",
     "source_name": "New Civil Engineer",
     "source_url": "https://www.newcivilengineer.com/latest/gbe-n-has-no-record-of-sges-claimed-interest-in-acquiring-oldbury-site-14-09-2026/",
     "published_at": "2026-09-14T15:05:05+00:00",
-    "fetched_at": "2026-09-14T17:24:15.198483+00:00"
+    "fetched_at": "2026-09-15T09:10:32.752810+00:00"
+  },
+  {
+    "title": "Moon Cities Unlikely Due to Limited Water Supplies",
+    "summary": "Scientists note that establishing cities on the moon is constrained by a lack of sufficient water resources in polar craters.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/moon/no-cities-on-the-moon-there-isnt-enough-water-scientists-say-op-ed",
+    "published_at": "2026-09-14T15:00:00+00:00",
+    "fetched_at": "2026-09-15T09:10:32.752820+00:00"
   },
   {
     "title": "JOYX and Hitch Interactive Partner on Embodied AI",
@@ -78,195 +240,33 @@
     "source_name": "Engineering.com",
     "source_url": "https://www.engineering.com/joyx-and-hitch-interactive-partner-on-embodied-ai-systems/",
     "published_at": "2026-09-14T14:53:56+00:00",
-    "fetched_at": "2026-09-14T17:24:15.198495+00:00"
+    "fetched_at": "2026-09-15T09:10:32.752825+00:00"
   },
   {
-    "title": "EPA to Repeal Greenhouse Gas Rules for Fossil Plants",
-    "summary": "The action would eliminate Biden-era carbon standards requiring CCS at coal plants and new gas-fired units.",
+    "title": "EPA to Repeal Plant Greenhouse Gas Rules",
+    "summary": "The EPA is set to eliminate Biden-era carbon standards requiring carbon capture for coal plants and new gas units.",
     "category": "Energy",
     "source_name": "Power Engineering",
     "source_url": "https://www.power-eng.com/environmental-emissions/epa-to-repeal-greenhouse-gas-rules-for-coal-and-gas-fired-plants/",
     "published_at": "2026-09-14T14:51:08+00:00",
-    "fetched_at": "2026-09-14T17:24:15.198501+00:00"
+    "fetched_at": "2026-09-15T09:10:32.752831+00:00"
+  },
+  {
+    "title": "Chemistry Textbooks May Misteach Inductive Effect",
+    "summary": "Researchers report that the inductive effect in neutral molecules extends across only one chemical bond rather than multiple bonds.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+    "published_at": "2026-09-14T14:13:47+00:00",
+    "fetched_at": "2026-09-15T09:10:32.752836+00:00"
   },
   {
     "title": "OpenAI Unveils Jalapeño AI Accelerator Chip",
-    "summary": "OpenAI introduced its debut AI accelerator chip, Jalapeño, which was designed using its own large language models.",
+    "summary": "OpenAI unveiled its debut AI accelerator chip, Jalapeño, designed using its own large language models.",
     "category": "Electronics & Semiconductors",
     "source_name": "IEEE Spectrum",
     "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
     "published_at": "2026-09-14T14:06:31+00:00",
-    "fetched_at": "2026-09-14T17:24:15.198510+00:00"
-  },
-  {
-    "title": "UK and US Sign Agreements to Boost AI in Nuclear Fusion",
-    "summary": "The UK and US governments signed two agreements to accelerate commercial fusion power using AI and high-performance computing.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/uk-and-us-governments-sign-two-agreements-to-boost-use-of-ai-for-commercial-nuclear-fusion-14-09-2026/",
-    "published_at": "2026-09-14T14:03:03+00:00",
-    "fetched_at": "2026-09-14T17:24:15.198515+00:00"
-  },
-  {
-    "title": "NSF Launches $20M Pilot for Small Business Commercialization",
-    "summary": "The U.S. National Science Foundation announced a $20 million investment to launch a two-year pilot supporting small businesses in commercializing deep-technology ventures.",
-    "category": "Other Engineering",
-    "source_name": "NSF",
-    "source_url": "https://www.nsf.gov/news/nsf-launches-20m-pilot-accelerate-commercialization",
-    "published_at": "2026-09-14T14:00:32+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121697+00:00"
-  },
-  {
-    "title": "Nvidia Expands CUDA-Q Platform with Logical Layer",
-    "summary": "The new orchestration layer helps researchers evaluate fault-tolerant quantum system configurations and resource requirements.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/nvidia-expands-cuda-q-platform-with-cuda-q-logical/",
-    "published_at": "2026-09-14T13:51:53+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121706+00:00"
-  },
-  {
-    "title": "UK Government Invests £30M in SaxaVord Spaceport",
-    "summary": "The UK Government announced a £30 million investment in Scotland's SaxaVord Spaceport, matched by private funding.",
-    "category": "Aerospace",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/government-announces-30m-investment-in-shetland-spaceport-14-09-2026/",
-    "published_at": "2026-09-14T13:42:04+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121726+00:00"
-  },
-  {
-    "title": "Wrecked WWI German Submarine Leaking TNT Off Denmark",
-    "summary": "A century-old German submarine wreck off the coast of Denmark is leaking TNT into the surrounding marine environment.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260913081919.htm",
-    "published_at": "2026-09-14T13:30:51+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121731+00:00"
-  },
-  {
-    "title": "Binder Adds Midmount PCB Connectors to M12 Line",
-    "summary": "The company is expanding its M12 circular industrial connector portfolio with angled panel-mount connectors designed for slim cylindrical housings.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/connectors/binder-adds-midmount-pcb-connectors-to-its-m12-portfolio-2026-09/",
-    "published_at": "2026-09-14T13:17:48+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121735+00:00"
-  },
-  {
-    "title": "Acer Unveils 60-Hz Color ePaper Monitor",
-    "summary": "The EP130K pairs a paper-like 13.3-inch panel with touch, color, and a quick refresh rate while eliminating glare and blue light.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/acer-ep130k-epaper-monitor/",
-    "published_at": "2026-09-14T13:16:41+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121740+00:00"
-  },
-  {
-    "title": "Roland DG Launches TrueVis MG2 UV Printer/Cutters",
-    "summary": "The new 64- and 30-inch models support multi-layer printing, expanded color options, and integrated print and cut workflows.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/roland-dg-launches-truevis-mg2-series-uv-printer-cutters/",
-    "published_at": "2026-09-14T13:13:10+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121744+00:00"
-  },
-  {
-    "title": "Scotland’s First CfD Hydrogen Project Gets Planning Consent",
-    "summary": "A multidisciplinary team won planning approval for a green hydrogen plant at Cromarty under the UK Government's Hydrogen Allocation Round.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/scotlands-first-hydrogen-project-with-cfd-in-place-granted-planning-permission-14-09-2026/",
-    "published_at": "2026-09-14T12:00:07+00:00",
-    "fetched_at": "2026-09-14T17:24:19.121749+00:00"
-  },
-  {
-    "title": "Unistellar Envision AR Binoculars Available for Pre-Order",
-    "summary": "Unistellar's augmented reality Envision smart binoculars can now be pre-ordered for $1,499 with guaranteed pre-Christmas delivery.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/skywatching-kit/pre-order-the-unistellar-envision-ar-binoculars-and-learn-about-the-night-sky-in-real-time",
-    "published_at": "2026-09-14T12:00:00+00:00",
-    "fetched_at": "2026-09-14T17:24:22.029037+00:00"
-  },
-  {
-    "title": "Freight Trains Deliver Materials to Sizewell C",
-    "summary": "The Sizewell C development reached a construction milestone with the arrival of its first commercial freight train via the new Green Rail Route.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/in-pictures-freight-trains-deliver-construction-materials-to-sizewell-c-for-first-time-14-09-2026/",
-    "published_at": "2026-09-14T09:54:26+00:00",
-    "fetched_at": "2026-09-14T17:24:22.029046+00:00"
-  },
-  {
-    "title": "Serpac Releases IP67 Watch-Style Enclosures",
-    "summary": "Serpac is launching its BW Series of IP67-rated watch-style enclosures in three different models, sizes, and colors.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/emech-enclosures/serpac-watch-style-enclosures-feature-ip-67-sealing-2026-09/",
-    "published_at": "2026-09-14T09:21:27+00:00",
-    "fetched_at": "2026-09-14T17:24:22.029051+00:00"
-  },
-  {
-    "title": "Semiconductor Engineering Releases Technical Paper Roundup",
-    "summary": "The latest technical paper roundup covers heterogeneous memory chiplets, advanced packaging, and pre-silicon security testing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-14/",
-    "published_at": "2026-09-14T07:01:44+00:00",
-    "fetched_at": "2026-09-14T09:25:33.177495+00:00"
-  },
-  {
-    "title": "Indian Manufacturers Face Data and Legacy-System Hurdles in AI Scaling",
-    "summary": "Small Indian manufacturers are encountering structural data and legacy-system barriers when attempting to scale artificial intelligence adoption.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
-    "published_at": "2026-09-14T05:53:04+00:00",
-    "fetched_at": "2026-09-14T09:25:33.177500+00:00"
-  },
-  {
-    "title": "Network Rail Begins Track Upgrade for Buxton's Eaves Tunnel",
-    "summary": "A £1.5M project is upgrading 400 meters of track through the 163-year-old Eaves Tunnel in Buxton.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/uncategorized/track-upgrade-for-buxtons-historic-eaves-tunnel-14-09-2026/",
-    "published_at": "2026-09-14T05:30:48+00:00",
-    "fetched_at": "2026-09-14T17:24:22.029060+00:00"
-  },
-  {
-    "title": "Enflame Raises $900 Million in IPO",
-    "summary": "Shanghai Enflame Technology has raised $900m in an IPO on the Shanghai exchange and expects a $128m loss for 2026 YTD.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/enflame-raises-900m-2026-09/",
-    "published_at": "2026-09-14T05:12:13+00:00",
-    "fetched_at": "2026-09-14T17:24:24.836734+00:00"
-  },
-  {
-    "title": "High-End Routing Equipment Revenue Grows 25%",
-    "summary": "High-end routing and aggregation equipment revenue grew 25% year-over-year in Q2, driven by stronger demand across all regions and customer segments.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/high-end-routing-and-aggregation-equipment-up-25-yoy-in-q2-2026-09/",
-    "published_at": "2026-09-14T05:09:34+00:00",
-    "fetched_at": "2026-09-14T17:24:24.836744+00:00"
-  },
-  {
-    "title": "Nokia Launches Cognitive Operations Platform",
-    "summary": "Nokia has launched Cognitive Operations to unify mission-critical communications, edge computing, and operational AI for industries.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/nokia-launches-cognitive-operations-2026-09/",
-    "published_at": "2026-09-14T05:09:20+00:00",
-    "fetched_at": "2026-09-14T17:24:24.836749+00:00"
-  },
-  {
-    "title": "Expansion Stimulated Raman Scattering Microscopy Review",
-    "summary": "This review details Expansion Stimulated Raman Scattering, which combines SRS with expansion microscopy for nanoscale chemical imaging.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/9d2186d0e364e53dffd5dc25b98fa227ddb3b778",
-    "published_at": "2026-09-14T00:00:00+00:00",
-    "fetched_at": "2026-09-14T09:25:36.244017+00:00"
+    "fetched_at": "2026-09-15T09:10:32.752842+00:00"
   }
 ]
