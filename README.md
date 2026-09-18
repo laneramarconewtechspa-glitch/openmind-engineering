@@ -2,11 +2,18 @@
 
 Aggregatore quotidiano di notizie di ingegneria — 100% gratuito, senza server da mantenere.
 
-- **Raccolta:** ScienceDaily (Engineering, Civil Engineering, Robotics), Tech Xplore,
-  IEEE Spectrum (News, Robotics, Aerospace), MIT Technology Review, EurekAlert!
-  (Tech & Engineering), arXiv (eess.SY, eess.SP, eess.IV, cs.RO).
+- **Raccolta:** oltre 30 fonti tra feed RSS e API scientifiche (ScienceDaily,
+  IEEE Spectrum, MIT News/Technology Review, New Atlas, The Robot Report,
+  SpaceNews, EE Times, New Civil Engineer, MD+DI, arXiv, Semantic Scholar...) —
+  l'elenco completo, con il perché di ogni scelta, è la lista `SOURCES` in
+  `fetch_news.py`.
 - **Struttura ogni notizia** secondo lo schema BLUF · Intro (problema/idea/piano) ·
   R1/R2/R3 · Conclusione, usando l'API Gemini (Google AI Studio, livello gratuito).
+- **Oggi e ieri**: il sito mostra le migliori 10 notizie delle ultime 24h; il
+  pulsante "Learn from yesterday to act today" mostra le migliori 10 della fascia
+  24-48h. `news.json` conserva quindi due fasce separate: una riserva più ampia di
+  notizie "fresche" (così a qualunque ora ce ne sono almeno 10 ancora in finestra)
+  e un archivio di ieri.
 - **Flash News**: i candidati pertinenti ma esclusi dalla top 10 (contenuto
   troppo leggero per l'analisi completa, o sostanziosi ma fuori classifica per
   punteggio) diventano una striscia "Breaking Loop" in fondo alla pagina — solo
@@ -14,7 +21,11 @@ Aggregatore quotidiano di notizie di ingegneria — 100% gratuito, senza server 
 - **Frontend**: HTML/CSS/JS puro — un cervello centrale ("Open your mind") che,
   al click, apre una rete di neuroni cliccabili, uno per notizia del giorno.
 - **Esecuzione**: uno script Python lanciato 2 volte al giorno da GitHub Actions
-  (gratis su repo pubblici), che scrive `docs/news.json`.
+  (gratis su repo pubblici), che scrive `docs/news.json` e `docs/flash.json`.
+  Gli errori temporanei dell'LLM (503, timeout, rate limit) vengono ritentati,
+  la quota giornaliera esaurita fa passare a un modello Gemini di riserva, e gli
+  URL già valutati finiscono in `data/seen_urls.json` per non rivalutarli (e non
+  consumare quota) a ogni sync.
 - **Hosting**: GitHub Pages, servito direttamente dalla cartella `docs/`.
 
 ## 1. Crea il repository
@@ -84,6 +95,8 @@ python -m http.server 8000 --directory docs
 openmind-engineering/
 ├── fetch_news.py                  # raccolta + filtro + strutturazione via Gemini
 ├── requirements.txt
+├── data/
+│   └── seen_urls.json             # cache degli URL già valutati, generata automaticamente
 ├── .github/workflows/sync-news.yml  # cron 2x/giorno + pulsante "Run workflow"
 └── docs/
     ├── index.html
@@ -99,8 +112,13 @@ openmind-engineering/
   `.github/workflows/sync-news.yml` (formato UTC).
 - **Aggiungere/rimuovere fonti**: modifica la lista `SOURCES` in `fetch_news.py`.
 - **Cambiare modello Gemini**: imposta la variabile d'ambiente `GEMINI_MODEL`
-  (es. `gemini-2.5-flash-lite` se hai bisogno di più richieste/giorno a scapito
-  di un po' di qualità).
+  (i modelli vengono ritirati spesso e la quota gratuita è per modello: se
+  quello scelto sparisce o finisce la quota giornaliera, il run passa da solo ai
+  modelli elencati in `GEMINI_FALLBACK_MODELS`, separati da virgola).
+- **Quante notizie mostrare**: `PUBLISH_TOP_N` in `fetch_news.py` **e**
+  `MAX_PAPERS` in `docs/script.js` (tenerli uguali, es. entrambi 15).
+- **Forzare la rivalutazione di tutto** (es. dopo aver cambiato il prompt):
+  lancia con `IGNORE_SEEN=1`, oppure cancella `data/seen_urls.json`.
 - **Controllo qualità manuale**: apri `docs/news.json` (è testo semplice) per
   vedere o correggere a mano una notizia già pubblicata.
 - **Flash News**: numero massimo (`FLASH_MAX_ITEMS`) e finestra di retention
