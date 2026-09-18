@@ -1,5 +1,131 @@
 [
   {
+    "title": "Simulating Acoustic Performance in Chamber Music Halls",
+    "summary": "Combining acoustics simulation and ray tracing helps engineers improve music hall designs for a better musical experience.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/investigating-the-acoustic-performance-of-a-chamber-music-hall-with-simulation/",
+    "published_at": "2026-09-18T15:14:22+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746136+00:00"
+  },
+  {
+    "title": "Bolero Plastics Expands 3D Printing Capacity",
+    "summary": "Bolero Plastics installed a large-format industrial 3D printer alongside its thermoforming operations to expand production options.",
+    "category": "Mechanical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/3d-printing/bolero-plastics-adds-industrial-3d-printing-capacity",
+    "published_at": "2026-09-18T14:38:53+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746149+00:00"
+  },
+  {
+    "title": "Extra-Wide Single-Level Tiny House Design",
+    "summary": "A newly designed extra-wide tiny house offers a spacious and flexible single-level layout for comfortable living.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/kirra-removed-tiny-homes/",
+    "published_at": "2026-09-18T13:57:44+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746155+00:00"
+  },
+  {
+    "title": "Bambu Lab Launches Assistive 3D Printing Challenge",
+    "summary": "Seven accessibility organizations will test and distribute 3D-printed everyday designs through volunteer networks.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/bambu-lab-opens-3d-printing-challenge-for-assistive-designs/",
+    "published_at": "2026-09-18T13:55:06+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746159+00:00"
+  },
+  {
+    "title": "Icarus Robotics Tests ISS-Bound Robot in Microgravity",
+    "summary": "Icarus Robotics conducted its final major microgravity test of the JOY robot system ahead of its 2027 International Space Station mission.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+    "published_at": "2026-09-18T13:07:45+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746164+00:00"
+  },
+  {
+    "title": "AI Demand Keeps DRAM Market Under Pressure",
+    "summary": "AI infrastructure spending is driving DRAM shortages that will persist through 2027 and deprioritize consumer electronics makers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/ai-demand-will-keep-dram-market-under-pressure/",
+    "published_at": "2026-09-18T12:00:00+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746168+00:00"
+  },
+  {
+    "title": "Caltech Chip Steers Light in 74 Femtoseconds",
+    "summary": "A new Caltech device redirects a beam of light in 74 femtoseconds using a nanoscale silicon metasurface and another beam.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+    "published_at": "2026-09-18T11:50:13+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746172+00:00"
+  },
+  {
+    "title": "NovoLINC Launches MaxLINC Thermal Interface Material",
+    "summary": "The new MaxLINC material targets heat flux above 100 W/cm² and accommodates up to 350 µm of device and package warpage.",
+    "category": "Materials",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/novolinc-launches-maxlinc-thermal-interface-material/",
+    "published_at": "2026-09-18T11:21:58+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746191+00:00"
+  },
+  {
+    "title": "Saturn Cloud Integrates NVIDIA Run:ai for Inference",
+    "summary": "Saturn Cloud integrated NVIDIA Run:ai to allow GPU operators to offer token-based inference and managed fine-tuning.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/saturn-cloud-integrates-nvidia-runai-for-ai-inference/",
+    "published_at": "2026-09-18T11:12:18+00:00",
+    "fetched_at": "2026-09-18T15:37:31.746196+00:00"
+  },
+  {
+    "title": "Muonium Beam Breakthrough to Test Einstein's Gravity",
+    "summary": "Scientists developed a controlled beam of muonium to test whether gravity acts on second-generation particles as Einstein predicted.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024808.htm",
+    "published_at": "2026-09-18T11:07:25+00:00",
+    "fetched_at": "2026-09-18T15:37:34.927037+00:00"
+  },
+  {
+    "title": "Huawei Sets Next-Gen AI Chip Release for Early 2027",
+    "summary": "Huawei announced its next-generation AI chip designed to rival Nvidia models will be released as early as the start of 2027.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/ai-humanoids/nvidia-rival-chip-huawei/",
+    "published_at": "2026-09-18T11:03:21+00:00",
+    "fetched_at": "2026-09-18T15:37:34.927047+00:00"
+  },
+  {
+    "title": "ASUS and Poesis Test Autonomous AI Trading Locally",
+    "summary": "ASUS and Poesis conducted a week-long experiment using live capital for autonomous AI trade execution within predefined mandates.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/asus-and-poesis-test-autonomous-ai-trading-on-local-system/",
+    "published_at": "2026-09-18T10:20:49+00:00",
+    "fetched_at": "2026-09-18T15:37:34.927052+00:00"
+  },
+  {
+    "title": "Velo3D Joins GIDEP for Defense Manufacturing Support",
+    "summary": "Velo3D joined the GIDEP program to access technical and supply-chain information for identifying risks in defense production.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/velo3d-joins-gidep-to-support-defense-manufacturing/",
+    "published_at": "2026-09-18T10:02:39+00:00",
+    "fetched_at": "2026-09-18T15:37:34.927057+00:00"
+  },
+  {
+    "title": "Lawrence Semiconductor Appoints Don Garrison COO",
+    "summary": "Lawrence Semiconductor named Don Garrison as chief operating officer to support the company's capacity expansion.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/lawrence-semiconductor-names-don-garrison-as-coo/",
+    "published_at": "2026-09-18T09:54:26+00:00",
+    "fetched_at": "2026-09-18T15:37:34.927062+00:00"
+  },
+  {
     "title": "Thickthorn Junction Upgrade Progresses",
     "summary": "A purpose-built bridge is being craned into place for the £153M Thickthorn junction upgrade on the A47/A11.",
     "category": "Civil & Infrastructure",
@@ -54,22 +180,22 @@
     "fetched_at": "2026-09-18T08:44:28.117941+00:00"
   },
   {
-    "title": "Mojave UAS Achieves Battlefield STOL Milestone",
-    "summary": "General Atomics successfully performed the first short take-off and landing of its Mojave unmanned aircraft on a simulated battlefield.",
+    "title": "Mojave Drone Achieves Battlefield STOL Milestone",
+    "summary": "General Atomics successfully completed the first short take-off and landing of its Mojave UAS on a simulated battlefield.",
     "category": "Aerospace",
     "source_name": "New Atlas",
     "source_url": "https://newatlas.com/military/mojave-drone-battlefield-stol-world-first/",
     "published_at": "2026-09-18T05:03:00+00:00",
-    "fetched_at": "2026-09-18T08:44:31.164911+00:00"
+    "fetched_at": "2026-09-18T15:37:37.892025+00:00"
   },
   {
-    "title": "Converting Martian Atmosphere Into Rocket Propellant",
-    "summary": "A researcher is developing technology to convert the atmosphere of Mars into propellant to fuel the return journey for astronauts.",
+    "title": "Fueling Mars Return Journeys",
+    "summary": "A PhD candidate is developing technology to convert the atmosphere of Mars into propellant for returning astronauts home.",
     "category": "Aerospace",
     "source_name": "MIT News",
     "source_url": "https://news.mit.edu/2026/fueling-return-journey-from-mars-lanie-mckinney-0918",
     "published_at": "2026-09-18T04:00:00+00:00",
-    "fetched_at": "2026-09-18T08:44:31.164919+00:00"
+    "fetched_at": "2026-09-18T15:37:37.892034+00:00"
   },
   {
     "title": "Belfast Harbour Transforms Reclaimed Land Into Deep-Water Berth",
@@ -91,21 +217,21 @@
   },
   {
     "title": "U.S. Awards $1B for Quantum Wafer Manufacturing",
-    "summary": "The U.S. awarded IBM's Anderon $1 billion to forge quantum wafers domestically.",
+    "summary": "Washington awarded $1 billion to IBM's Anderon to produce quantum wafers on U.S. soil.",
     "category": "Electronics & Semiconductors",
     "source_name": "EE Times",
     "source_url": "https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/",
     "published_at": "2026-09-17T22:00:00+00:00",
-    "fetched_at": "2026-09-18T08:44:31.164944+00:00"
+    "fetched_at": "2026-09-18T15:37:37.892039+00:00"
   },
   {
-    "title": "Startup Develops Wafer-Scale Superconducting Transistors",
-    "summary": "Startup S-Transistors is fabricating superconducting transistors on silicon wafers to eliminate control cables in quantum computers.",
+    "title": "Superconducting Transistors for Quantum Computing",
+    "summary": "Startup S-Transistors is manufacturing superconducting transistors at wafer scale to eliminate cables in quantum computers.",
     "category": "Electronics & Semiconductors",
     "source_name": "IEEE Spectrum",
     "source_url": "https://spectrum.ieee.org/superconducting-transistors",
     "published_at": "2026-09-17T21:02:26+00:00",
-    "fetched_at": "2026-09-18T08:44:31.164948+00:00"
+    "fetched_at": "2026-09-18T15:37:37.892044+00:00"
   },
   {
     "title": "Ysmart London Introduces Toolt Multitool on Kickstarter",
@@ -117,156 +243,30 @@
     "fetched_at": "2026-09-18T08:44:34.618525+00:00"
   },
   {
-    "title": "NSF Launches Semiconductor Translation Initiative",
+    "title": "NSF Invests in Low-Dimensional Semiconductors",
     "summary": "The U.S. National Science Foundation announced an initiative to translate low-dimensional semiconductor technologies into platforms for advanced microelectronics.",
     "category": "Electronics & Semiconductors",
     "source_name": "NSF",
     "source_url": "https://www.nsf.gov/news/nsf-invests-translating-low-dimensional-semiconductor",
     "published_at": "2026-09-17T20:21:43+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618535+00:00"
+    "fetched_at": "2026-09-18T15:37:37.892048+00:00"
   },
   {
     "title": "First Solar Alters Patent Enforcement Strategy",
-    "summary": "First Solar is withdrawing its Section 337 complaint while continuing other ongoing lawsuits against solar manufacturers.",
+    "summary": "First Solar is withdrawing its Section 337 complaint while continuing other lawsuits against rival solar manufacturers.",
     "category": "Energy",
     "source_name": "Renewable Energy World",
     "source_url": "https://www.renewableenergyworld.com/solar/the-largest-us-solar-manufacturer-is-changing-fronts-in-its-patent-war/",
     "published_at": "2026-09-17T19:24:52+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618541+00:00"
+    "fetched_at": "2026-09-18T15:37:40.984346+00:00"
   },
   {
-    "title": "Designing Long-Travel Axes: Rack and Pinion vs Ball Screws",
-    "summary": "Rack-and-pinion systems offer speed, precision, and scalability when long-travel motion exceeds the limits of ball screws and linear motors.",
+    "title": "When to Choose Rack-and-Pinion Axes",
+    "summary": "Rack-and-pinion systems offer a blend of speed, precision, and scalability when long-travel motion exceeds ball screw limits.",
     "category": "Robotics",
     "source_name": "The Robot Report",
     "source_url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
     "published_at": "2026-09-17T18:34:16+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618547+00:00"
-  },
-  {
-    "title": "SafeHarness Improves Coding Agent Safety in Robot Manipulation",
-    "summary": "Researchers presented SafeHarness, an obstacle-aware harness that helps coding agents prioritize safety and avoid collisions during robot manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20822v1",
-    "published_at": "2026-09-17T17:59:58+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618553+00:00"
-  },
-  {
-    "title": "Workspace Models Offer Lightweight Robotic Memory",
-    "summary": "A new workspace token representation uses train-time VLM supervision to provide lightweight latent memory for robotic manipulation tasks without in-the-loop VLM queries.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20820v1",
-    "published_at": "2026-09-17T17:59:53+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618559+00:00"
-  },
-  {
-    "title": "FAMOS Models 3D Articulation from Sparse Observations",
-    "summary": "FAMOS is a feed-forward model that predicts movable-part segmentation and joint parameters from sparse, unordered sets of partial point clouds.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20817v1",
-    "published_at": "2026-09-17T17:59:40+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618565+00:00"
-  },
-  {
-    "title": "StageGuard Improves Long-Horizon Robot Task Transitions",
-    "summary": "StageGuard combines teacher-model reasoning and distillation for accurate subtask completion and policy switching in hierarchical robot control.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20791v1",
-    "published_at": "2026-09-17T17:53:48+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645812+00:00"
-  },
-  {
-    "title": "GeoAAC Introduces Geometry-Based Adaptive Action Chunking",
-    "summary": "GeoAAC dynamically adjusts action horizons in vision-language-action policies based on the reliability of denoising trajectories.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20776v1",
-    "published_at": "2026-09-17T17:48:07+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645822+00:00"
-  },
-  {
-    "title": "Volkswagen Debuts ID.3 GTI Electric Hot Hatch",
-    "summary": "Volkswagen revealed the ID.3 GTI, featuring 326 horsepower as its most powerful performance badge in an electric vehicle.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/volkswagen-id3-gti/",
-    "published_at": "2026-09-17T17:46:30+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645828+00:00"
-  },
-  {
-    "title": "Agile-WAM Enables Contact-Rich Robot Control",
-    "summary": "Agile-WAM encodes visual and tactile observations into a shared latent space for high-frequency, contact-rich robot manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20761v1",
-    "published_at": "2026-09-17T17:43:51+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645833+00:00"
-  },
-  {
-    "title": "OPTED Enhances End-to-End Autonomous Driving via On-Policy Fine-Tuning",
-    "summary": "OPTED decouples reinforcement learning with a privileged teacher to safely fine-tune end-to-end driving policies in simulation.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20756v1",
-    "published_at": "2026-09-17T17:41:51+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645838+00:00"
-  },
-  {
-    "title": "LLM-Falsifier Evaluates Cyber-Physical Systems via Optimization",
-    "summary": "LLM-Falsifier uses large language models to find counterexamples in cyber-physical systems by minimizing STL robustness degrees.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20752v1",
-    "published_at": "2026-09-17T17:40:04+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645844+00:00"
-  },
-  {
-    "title": "MILER Enables Zero-Shot Sim-to-Real Autonomous Driving",
-    "summary": "MILER uses a semantic mid-level representation and trajectory-alignment strategy for zero-shot sim-to-real reinforcement learning in autonomous driving.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20747v1",
-    "published_at": "2026-09-17T17:35:22+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645849+00:00"
-  },
-  {
-    "title": "Hydropower Industry Warns of Relicensing Bottlenecks",
-    "summary": "Over 12 GW of hydropower facing relicensing over the next decade confronts rising regulatory requirements that could threaten generation.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/renewables/hydropower/hydropower-licensing-requirements-have-exploded-the-industry-says-the-grid-could-pay/",
-    "published_at": "2026-09-17T17:34:26+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645855+00:00"
-  },
-  {
-    "title": "New Framework Improves Underwater Visual Target Tracking",
-    "summary": "A stereo visual-servoing framework combines target-specific depth estimation with adaptive model-fusion predictive control for autonomous underwater vehicles.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20731v1",
-    "published_at": "2026-09-17T17:22:01+00:00",
-    "fetched_at": "2026-09-18T08:44:38.645860+00:00"
-  },
-  {
-    "title": "MoWAM Predicts Future Motion for Efficient World Action Models",
-    "summary": "MoWAM replaces future video generation with explicit future motion prediction to improve robot policy learning and efficiency.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20709v1",
-    "published_at": "2026-09-17T17:07:00+00:00",
-    "fetched_at": "2026-09-18T08:44:48.891206+00:00"
-  },
-  {
-    "title": "US Power Grid Faces Winter Reliability Challenges",
-    "summary": "Recent winter storms tested the US power grid, exposing fuel and supply chain strains that will intensify with rising demand.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/winter-storms-fern-gianna-tested-the-us-power-grid-2027-could-bring-a-bigger-reliability-challenge/",
-    "published_at": "2026-09-17T17:03:47+00:00",
-    "fetched_at": "2026-09-18T08:44:48.891216+00:00"
+    "fetched_at": "2026-09-18T15:37:40.984360+00:00"
   }
 ]
