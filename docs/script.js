@@ -15,6 +15,9 @@
   // anche se il sito ne mostra solo le ultime 24: la fascia 24-48h è
   // esattamente l'archivio "di ieri" mostrato dal toggle Archive qui sotto.
   const ARCHIVE_WINDOW_HOURS = 48;
+  // Quante notizie mostra ogni vista (oggi / ieri): tenere allineato a
+  // PUBLISH_TOP_N in fetch_news.py. Il backend ne conserva di più (riserva di
+  // "fresche") e qui si mostrano le migliori per punteggio ancora nella finestra.
   const MAX_PAPERS = 10;
   const REFRESH_MINUTES = 15; // ricontrolla news.json periodicamente a pagina aperta
   const GOLDEN_ANGLE = 2.399963;
@@ -706,7 +709,12 @@
         ${preprintBadge}
       </div>
 
-      <p class="d-bluf">${escapeHTML(p.big_problem)}</p>
+      <h2 class="d-title">${escapeHTML(p.title)}</h2>
+
+      <div class="d-background">
+        <span class="d-background-label">BACKGROUND · THE BIG PROBLEM</span>
+        <p class="d-bluf">${escapeHTML(p.big_problem)}</p>
+      </div>
 
       <p class="d-intro-text">${escapeHTML(introText)}</p>
 
