@@ -38,9 +38,15 @@ if hasattr(sys.stdout, "reconfigure"):
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-)
+# Modelli di riserva, in ordine: la quota gratuita di Gemini è PER MODELLO e
+# i modelli vengono ritirati spesso (404). Se il principale esaurisce la quota
+# giornaliera o sparisce, il run passa al successivo invece di fermarsi.
+GEMINI_FALLBACK_MODELS = [
+    m.strip()
+    for m in os.environ.get("GEMINI_FALLBACK_MODELS", "gemini-3.1-flash-lite,gemini-3.5-flash").split(",")
+    if m.strip() and m.strip() != GEMINI_MODEL
+]
+GEMINI_MODELS = [GEMINI_MODEL] + GEMINI_FALLBACK_MODELS
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "meta-llama/llama-4-maverick-17b-128e-instruct")
@@ -64,25 +70,47 @@ OPENALEX_CONTACT_EMAIL = os.environ.get("OPENALEX_CONTACT_EMAIL", "")
 OUTPUT_PATH = os.path.join("docs", "news.json")
 
 # Finestra usata per RACCOGLIERE i candidati (con margine di sicurezza rispetto
-# alle 24h "vere", per non perdere nulla tra due sync consecutivi).
-COLLECT_WINDOW_HOURS = 30
+# alle 24h "vere", per non perdere nulla se uno o più sync vengono ritardati o
+# saltati: grazie alla cache degli URL già visti, allargarla non costa
+# chiamate LLM in più — si valutano comunque solo gli articoli nuovi).
+COLLECT_WINDOW_HOURS = 36
 # Finestra usata per TENERE gli elementi già pubblicati sul sito prima di
-# eliminarli dal file (il frontend applica comunque il filtro "ultime 24h" a
-# runtime, quindi questo è solo un margine per evitare buchi tra due sync).
+# eliminarli dal file: 24h "oggi" + 24h "ieri" (sezione Archive del sito).
 RETAIN_WINDOW_HOURS = 48
+# Il frontend (WINDOW_HOURS in docs/script.js) mostra come "oggi" solo gli
+# articoli pubblicati nelle ultime 24h: qui serve per selezionare le due
+# fasce (oggi / ieri) SEPARATAMENTE. Tenere allineato a docs/script.js.
+FRESH_WINDOW_HOURS = 24
 # Numero massimo di notizie VALUTATE per ogni esecuzione: deve essere
 # abbastanza alto da non tagliare nessuna fonte prima ancora di darle una
 # possibilità (in pratica quasi mai raggiunto tutto). Non è il numero di
 # notizie pubblicate: quello è deciso da PUBLISH_TOP_N qui sotto, in base
 # all'OpenMind Score.
 MAX_ITEMS_PER_RUN = 180
-# Numero di notizie effettivamente PUBBLICATE sul sito: sempre e solo le
-# migliori per OpenMind Score tra quelle che superano il controllo qualità,
-# indipendentemente da quante ne vengono valutate.
+# Quante notizie MOSTRA il sito per ciascuna vista (oggi / ieri): sempre e
+# solo le migliori per OpenMind Score. Tenere allineato a MAX_PAPERS in
+# docs/script.js quando lo si cambia (es. da 10 a 15).
 PUBLISH_TOP_N = 10
-# Se queste chiamate a Gemini falliscono di fila, il run si interrompe subito
-# invece di ritentare inutilmente su tutte le notizie rimaste.
-MAX_CONSECUTIVE_FAILURES = 3
+# In news.json si conserva però una RISERVA più ampia di articoli "freschi"
+# (<24h): tra un sync e l'altro gli articoli invecchiano e escono dalla vista
+# "oggi" del sito, quindi per averne sempre almeno PUBLISH_TOP_N a schermo a
+# qualunque ora ne servono di più di quelli mostrati in un dato istante.
+FRESH_POOL_SIZE = PUBLISH_TOP_N * 3
+ARCHIVE_POOL_SIZE = PUBLISH_TOP_N
+# Fallimenti "veri" di fila (dopo tutti i retry interni) oltre i quali il run
+# si ferma. Gli errori temporanei (503, timeout, rate limit al minuto) NON
+# fanno interrompere un run alla prima serie sfortunata: vengono ritentati
+# in un secondo passaggio a fine run. Gli errori permanenti (chiave non
+# valida, quota giornaliera di tutti i modelli finita) fermano invece subito.
+MAX_CONSECUTIVE_FAILURES = 8
+RETRY_PASS_COOLDOWN_SECONDS = 60
+
+# Cache degli URL già valutati (anche scartati): senza, ogni sync rivaluta
+# tutti gli articoli ancora nella finestra di raccolta, sprecando circa metà
+# della quota LLM giornaliera. Si può ignorare con la variabile d'ambiente
+# IGNORE_SEEN=1 (utile per test/riprove forzate).
+SEEN_PATH = os.path.join("data", "seen_urls.json")
+SEEN_RETAIN_HOURS = 96
 
 # --------------------------------------------------------------------------- #
 # Flash News: striscia leggera (titolo + sintesi, niente analisi BLUF/score)
@@ -287,8 +315,13 @@ and must return ONLY the JSON required by the schema, following these strict rul
    never generic filler. Target lengths: big_problem 20-28 words; \
    small_problem, idea and plan 30-42 words each; conclusion and \
    future_directions 35-50 words each.
-3. "big_problem" = the big-picture industry problem this research addresses \
-   (the BLUF), as one sharp, specific sentence — not a vague truism.
+3. "title" = the article's OWN title exactly as given in "Original title" \
+   (you may only trim trailing noise such as "(video)" or "| Space photo of \
+   the day"). It is a headline, NOT a problem statement and NOT a summary — \
+   never put the big problem or any rewritten sentence in "title". \
+   "big_problem" = the BACKGROUND problem: the big-picture industry problem \
+   this story sits in (the BLUF), as one sharp, specific sentence — not a \
+   vague truism, and clearly different from the title.
 4. "small_problem" = the specific technical problem addressed by THIS study/ \
    article, with enough context to stand alone. "idea" = the proposed insight/ \
    approach, explained concretely (what did they actually build, test, or \
@@ -705,54 +738,109 @@ def build_user_prompt(item: dict, article_text: str) -> str:
     )
 
 
-def call_gemini(item: dict, article_text: str) -> dict | None:
-    if not GEMINI_API_KEY:
-        raise RuntimeError("GEMINI_API_KEY non impostata nell'ambiente.")
+class LLMPermanentError(RuntimeError):
+    """Errore che riprovare non risolve (chiave non valida, tutti i modelli
+    esauriti o ritirati...). main() interrompe subito il run invece di
+    bruciare minuti su articoli che fallirebbero tutti allo stesso modo."""
 
-    body = {
-        "systemInstruction": {"parts": [{"text": SYSTEM_RULES}]},
-        "contents": [{"role": "user", "parts": [{"text": build_user_prompt(item, article_text)}]}],
-        "generationConfig": {
-            "temperature": 0.3,
-            "responseMimeType": "application/json",
-            "responseSchema": RESPONSE_SCHEMA,
-        },
-    }
-    headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
 
-    # Il rate limit (429) è tipicamente transitorio e si risolve aspettando —
-    # non è indicativo di un problema reale come chiave non valida o modello
-    # inesistente, quindi ha un budget di tentativi suo (con backoff via via
-    # più lungo) separato da quello degli errori genuini, che invece devono
-    # continuare a far scattare rapidamente il circuit breaker in main().
-    genuine_failures = 0
-    rate_limit_hits = 0
-    while genuine_failures < 2 and rate_limit_hits < 5:
+LLM_TIMEOUT_SECONDS = 60
+LLM_MAX_TRANSIENT_RETRIES = 5
+
+_gemini_idx = 0  # indice del modello attualmente in uso in GEMINI_MODELS
+
+
+def _gemini_url() -> str:
+    return f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODELS[_gemini_idx]}:generateContent"
+
+
+def _advance_gemini_model(reason: str) -> None:
+    """Passa al prossimo modello Gemini di riserva, o solleva
+    LLMPermanentError se non ne restano."""
+    global _gemini_idx
+    if _gemini_idx + 1 >= len(GEMINI_MODELS):
+        raise LLMPermanentError(
+            f"tutti i modelli Gemini configurati sono inutilizzabili ({reason}); "
+            f"provati: {', '.join(GEMINI_MODELS)}"
+        )
+    print(
+        f"[WARN] modello Gemini '{GEMINI_MODELS[_gemini_idx]}' non utilizzabile ({reason}): "
+        f"passo a '{GEMINI_MODELS[_gemini_idx + 1]}'.",
+        file=sys.stderr,
+    )
+    _gemini_idx += 1
+
+
+def _is_daily_quota(text: str) -> bool:
+    """True se un 429 riguarda la quota GIORNALIERA (inutile aspettare pochi
+    secondi) e non un semplice limite al minuto."""
+    low = (text or "").lower()
+    return "perday" in low or "per day" in low or "(tpd)" in low
+
+
+def _llm_post(provider: str, body: dict, label: str) -> dict | None:
+    """POST verso il provider LLM con la gestione degli errori in un unico
+    posto. Ritorna il JSON della risposta, oppure None se l'articolo non è
+    elaborabile ORA (errori temporanei che persistono dopo i retry, o richiesta
+    rifiutata per quello specifico contenuto). Solleva LLMPermanentError per
+    gli errori che non ha senso ritentare."""
+    if provider == "gemini":
+        headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
+    else:
+        headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
+
+    transient = 0
+    while True:
+        url = _gemini_url() if provider == "gemini" else GROQ_URL
         try:
-            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=20)
-            if resp.status_code == 429:
-                rate_limit_hits += 1
-                wait = 6 * rate_limit_hits
-                print(f"[WARN] rate limit Gemini, aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
-                time.sleep(wait)
+            resp = requests.post(url, headers=headers, json=body, timeout=LLM_TIMEOUT_SECONDS)
+        except requests.RequestException as exc:  # timeout, DNS, connessione interrotta...
+            status, text = None, f"errore di rete: {exc}"
+        else:
+            status, text = resp.status_code, resp.text
+            if status == 200:
+                try:
+                    return resp.json()
+                except ValueError:
+                    status, text = None, "risposta non JSON"
+
+        # --- da qui in poi: qualcosa è andato storto ---
+        if status in (401, 403):
+            raise LLMPermanentError(
+                f"{provider}: chiave API non valida o senza permessi (HTTP {status}): {text[:200]}"
+            )
+        if status == 404:
+            if provider == "gemini":
+                _advance_gemini_model("HTTP 404, modello non disponibile/ritirato")
                 continue
-            if resp.status_code >= 400:
-                # Log esplicito di status + corpo risposta: è la parte più utile
-                # per capire SUBITO se è un problema di chiave, di modello o di
-                # quota, invece di scoprirlo solo dopo minuti di silenzio.
-                print(
-                    f"[WARN] Gemini {resp.status_code} per {item['url']}: {resp.text[:300]}",
-                    file=sys.stderr,
-                )
-            resp.raise_for_status()
-            data = resp.json()
-            text = data["candidates"][0]["content"]["parts"][0]["text"]
-            return extract_json_object(text)
-        except (requests.RequestException, KeyError, json.JSONDecodeError) as exc:
-            genuine_failures += 1
-            print(f"[WARN] chiamata Gemini fallita ({item['url']}): {exc}", file=sys.stderr)
-            time.sleep(2)
-    return None
+            raise LLMPermanentError(f"groq: modello '{GROQ_MODEL}' non disponibile (HTTP 404): {text[:200]}")
+        if status == 429 and _is_daily_quota(text):
+            if provider == "gemini":
+                _advance_gemini_model("quota giornaliera esaurita")
+                continue
+            raise LLMPermanentError(f"groq: quota giornaliera esaurita: {text[:200]}")
+        if status is not None and status < 500 and status != 429:
+            # 400/413/422...: la richiesta per QUESTO contenuto viene rifiutata,
+            # riprovarla identica non cambia nulla.
+            print(f"[WARN] {provider} HTTP {status} ({label}): {text[:300]}", file=sys.stderr)
+            return None
+
+        # Errore temporaneo: 429 al minuto, 5xx (es. "high demand"), rete.
+        transient += 1
+        if transient > LLM_MAX_TRANSIENT_RETRIES:
+            print(
+                f"[WARN] {provider}: errori temporanei persistenti ({label}), "
+                f"ultimo: HTTP {status if status is not None else 'rete'} {text[:200]}",
+                file=sys.stderr,
+            )
+            return None
+        wait = min(5 * 2 ** (transient - 1), 40)
+        print(
+            f"[WARN] {provider} HTTP {status if status is not None else 'rete'} ({label}): "
+            f"riprovo tra {wait}s (tentativo {transient}/{LLM_MAX_TRANSIENT_RETRIES})...",
+            file=sys.stderr,
+        )
+        time.sleep(wait)
 
 
 def extract_json_object(text: str) -> dict:
@@ -777,10 +865,50 @@ def extract_json_object(text: str) -> dict:
         raise
 
 
+def _call_and_parse(provider: str, body: dict, label: str, extract_text) -> dict | None:
+    """Chiama il provider e interpreta il JSON prodotto dal modello. Se la
+    risposta è malformata (o senza candidati, es. bloccata dai filtri) ritenta
+    UNA volta: una seconda generazione può uscire valida."""
+    for _ in range(2):
+        data = _llm_post(provider, body, label)
+        if data is None:
+            return None
+        try:
+            parsed = extract_json_object(extract_text(data))
+            if isinstance(parsed, dict):
+                return parsed
+            raise ValueError("il JSON restituito non è un oggetto")
+        except (KeyError, IndexError, TypeError, ValueError) as exc:  # JSONDecodeError è un ValueError
+            print(f"[WARN] risposta {provider} non interpretabile ({label}): {exc}", file=sys.stderr)
+    return None
+
+
+def _gemini_text(data: dict) -> str:
+    return data["candidates"][0]["content"]["parts"][0]["text"]
+
+
+def _groq_text(data: dict) -> str:
+    return data["choices"][0]["message"]["content"]
+
+
+def call_gemini(item: dict, article_text: str) -> dict | None:
+    if not GEMINI_API_KEY:
+        raise LLMPermanentError("GEMINI_API_KEY non impostata nell'ambiente.")
+    body = {
+        "systemInstruction": {"parts": [{"text": SYSTEM_RULES}]},
+        "contents": [{"role": "user", "parts": [{"text": build_user_prompt(item, article_text)}]}],
+        "generationConfig": {
+            "temperature": 0.3,
+            "responseMimeType": "application/json",
+            "responseSchema": RESPONSE_SCHEMA,
+        },
+    }
+    return _call_and_parse("gemini", body, item["url"], _gemini_text)
+
+
 def call_groq(item: dict, article_text: str) -> dict | None:
     if not GROQ_API_KEY:
-        raise RuntimeError("GROQ_API_KEY non impostata nell'ambiente.")
-
+        raise LLMPermanentError("GROQ_API_KEY non impostata nell'ambiente.")
     body = {
         "model": GROQ_MODEL,
         "messages": [
@@ -790,35 +918,7 @@ def call_groq(item: dict, article_text: str) -> dict | None:
         "temperature": 0.3,
         "response_format": {"type": "json_object"},
     }
-    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
-
-    # Stesso ragionamento di call_gemini: il rate limit ha un budget di
-    # tentativi separato da quello degli errori genuini (vedi commento lì).
-    genuine_failures = 0
-    rate_limit_hits = 0
-    while genuine_failures < 2 and rate_limit_hits < 5:
-        try:
-            resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=20)
-            if resp.status_code == 429:
-                rate_limit_hits += 1
-                wait = 6 * rate_limit_hits
-                print(f"[WARN] rate limit Groq, aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
-                time.sleep(wait)
-                continue
-            if resp.status_code >= 400:
-                print(
-                    f"[WARN] Groq {resp.status_code} per {item['url']}: {resp.text[:300]}",
-                    file=sys.stderr,
-                )
-            resp.raise_for_status()
-            data = resp.json()
-            text = data["choices"][0]["message"]["content"]
-            return extract_json_object(text)
-        except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
-            genuine_failures += 1
-            print(f"[WARN] chiamata Groq fallita ({item['url']}): {exc}", file=sys.stderr)
-            time.sleep(2)
-    return None
+    return _call_and_parse("groq", body, item["url"], _groq_text)
 
 
 def call_llm(item: dict, article_text: str) -> dict | None:
@@ -831,8 +931,7 @@ def call_llm(item: dict, article_text: str) -> dict | None:
 
 def call_gemini_flash_batch(batch: list[dict]) -> list[dict] | None:
     if not GEMINI_API_KEY:
-        raise RuntimeError("GEMINI_API_KEY non impostata nell'ambiente.")
-
+        raise LLMPermanentError("GEMINI_API_KEY non impostata nell'ambiente.")
     body = {
         "systemInstruction": {"parts": [{"text": FLASH_SYSTEM_RULES}]},
         "contents": [{"role": "user", "parts": [{"text": build_flash_batch_prompt(batch)}]}],
@@ -842,36 +941,13 @@ def call_gemini_flash_batch(batch: list[dict]) -> list[dict] | None:
             "responseSchema": FLASH_RESPONSE_SCHEMA,
         },
     }
-    headers = {"Content-Type": "application/json", "x-goog-api-key": GEMINI_API_KEY}
-
-    genuine_failures = 0
-    rate_limit_hits = 0
-    while genuine_failures < 2 and rate_limit_hits < 5:
-        try:
-            resp = requests.post(GEMINI_URL, headers=headers, json=body, timeout=25)
-            if resp.status_code == 429:
-                rate_limit_hits += 1
-                wait = 6 * rate_limit_hits
-                print(f"[WARN] rate limit Gemini (flash), aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
-                time.sleep(wait)
-                continue
-            if resp.status_code >= 400:
-                print(f"[WARN] Gemini {resp.status_code} (flash batch): {resp.text[:300]}", file=sys.stderr)
-            resp.raise_for_status()
-            data = resp.json()
-            text = data["candidates"][0]["content"]["parts"][0]["text"]
-            return extract_json_object(text).get("flashes", [])
-        except (requests.RequestException, KeyError, json.JSONDecodeError) as exc:
-            genuine_failures += 1
-            print(f"[WARN] chiamata Gemini (flash batch) fallita: {exc}", file=sys.stderr)
-            time.sleep(2)
-    return None
+    parsed = _call_and_parse("gemini", body, "flash batch", _gemini_text)
+    return None if parsed is None else parsed.get("flashes", [])
 
 
 def call_groq_flash_batch(batch: list[dict]) -> list[dict] | None:
     if not GROQ_API_KEY:
-        raise RuntimeError("GROQ_API_KEY non impostata nell'ambiente.")
-
+        raise LLMPermanentError("GROQ_API_KEY non impostata nell'ambiente.")
     body = {
         "model": GROQ_MODEL,
         "messages": [
@@ -881,30 +957,8 @@ def call_groq_flash_batch(batch: list[dict]) -> list[dict] | None:
         "temperature": 0.3,
         "response_format": {"type": "json_object"},
     }
-    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {GROQ_API_KEY}"}
-
-    genuine_failures = 0
-    rate_limit_hits = 0
-    while genuine_failures < 2 and rate_limit_hits < 5:
-        try:
-            resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=25)
-            if resp.status_code == 429:
-                rate_limit_hits += 1
-                wait = 6 * rate_limit_hits
-                print(f"[WARN] rate limit Groq (flash), aspetto {wait}s... (tentativo {rate_limit_hits}/5)", file=sys.stderr)
-                time.sleep(wait)
-                continue
-            if resp.status_code >= 400:
-                print(f"[WARN] Groq {resp.status_code} (flash batch): {resp.text[:300]}", file=sys.stderr)
-            resp.raise_for_status()
-            data = resp.json()
-            text = data["choices"][0]["message"]["content"]
-            return extract_json_object(text).get("flashes", [])
-        except (requests.RequestException, KeyError, IndexError, json.JSONDecodeError) as exc:
-            genuine_failures += 1
-            print(f"[WARN] chiamata Groq (flash batch) fallita: {exc}", file=sys.stderr)
-            time.sleep(2)
-    return None
+    parsed = _call_and_parse("groq", body, "flash batch", _groq_text)
+    return None if parsed is None else parsed.get("flashes", [])
 
 
 def call_llm_flash_batch(batch: list[dict]) -> list[dict] | None:
@@ -916,6 +970,13 @@ def call_llm_flash_batch(batch: list[dict]) -> list[dict] | None:
 
 
 NUMBER_RE = re.compile(r"\d[\d.,]*")
+
+TITLE_NOISE_RE = re.compile(r"\s*[\(\[]\s*(?:video|videos|photos?|gallery|podcast)\s*[\)\]]\s*$", re.IGNORECASE)
+
+
+def clean_title(title: str) -> str:
+    """Toglie da un titolo RSS i marcatori finali tipo '(video)' / '[photos]'."""
+    return TITLE_NOISE_RE.sub("", (title or "").strip()).strip()
 
 
 PLACEHOLDER_VALUES = {"", "n/a", "na", "none", "unknown", "not specified", "unavailable", "tbd"}
@@ -946,9 +1007,11 @@ def is_substantive(structured: dict) -> tuple[bool, str]:
             return False
         return len(val.split()) >= min_words
 
-    required = ["title", "big_problem", "small_problem", "idea", "plan", "conclusion"]
+    # "title" non è più tra i campi controllati: ora è sempre il titolo
+    # originale dell'articolo (anche di sole 1-2 parole), non testo generato.
+    required = ["big_problem", "small_problem", "idea", "plan", "conclusion"]
     for key in required:
-        if not has_content(key, min_words=3 if key == "title" else 5):
+        if not has_content(key, min_words=5):
             return False, f"campo '{key}' vuoto o troppo generico"
 
     solid_results = 0
@@ -1006,7 +1069,10 @@ def structure_item(item: dict) -> tuple[dict | None, bool, bool]:
     structured = guard_against_invented_numbers(structured, haystack)
 
     brief = {
-        "title": structured.get("title") or item["title"],
+        # Sempre il titolo ORIGINALE dell'articolo (ripulito da marcatori tipo
+        # "(video)"), mai una frase generata dal modello: il "big problem" è
+        # il problema di background e vive nel suo campo, non nel titolo.
+        "title": clean_title(item["title"]) or structured.get("title") or item["title"],
         "source_name": item["source_name"],
         "source_url": item["url"],
         "image_url": image_url or item["image_url"],
@@ -1059,22 +1125,67 @@ def save_json(path: str, data) -> None:
 
 
 def merge_and_prune(existing: list[dict], new_briefs: list[dict]) -> list[dict]:
+    """Unisce le notizie già pubblicate con quelle nuove e sceglie cosa tenere
+    in news.json, separatamente per le due fasce che il sito mostra:
+      - FRESCHE (<FRESH_WINDOW_HOURS): le migliori FRESH_POOL_SIZE per score.
+        Il sito ne mostra le PUBLISH_TOP_N migliori ancora "di oggi" al
+        momento della visita; la riserva più ampia serve perché tra un sync e
+        l'altro alcune invecchiano e escono dalla vista.
+      - ARCHIVIO (tra FRESH_WINDOW_HOURS e RETAIN_WINDOW_HOURS): le migliori
+        ARCHIVE_POOL_SIZE, per la sezione "Learn from yesterday".
+    Prima si prendevano le migliori 10 in blocco su 48h: articoli di ieri con
+    punteggio alto occupavano i posti e oggi ne restavano visibili solo 2-3."""
     now = dt.datetime.now(dt.timezone.utc)
     retain_cutoff = now - dt.timedelta(hours=RETAIN_WINDOW_HOURS)
+    fresh_cutoff = now - dt.timedelta(hours=FRESH_WINDOW_HOURS)
 
     by_url = {b["source_url"]: b for b in existing}
     for b in new_briefs:
         by_url[b["source_url"]] = b
 
-    merged = [
-        b for b in by_url.values()
-        if dt.datetime.fromisoformat(b["published_at"]) >= retain_cutoff
-    ]
-    merged.sort(key=lambda b: (b.get("score", 0), b["published_at"]), reverse=True)
-    # Pubblichiamo sempre e solo le migliori PUBLISH_TOP_N per OpenMind Score:
-    # una notizia con punteggio più alto arrivata in un run successivo può
-    # quindi "scalzare" una già pubblicata con punteggio più basso.
-    return merged[:PUBLISH_TOP_N]
+    def published(b: dict) -> dt.datetime:
+        return dt.datetime.fromisoformat(b["published_at"])
+
+    merged = [b for b in by_url.values() if published(b) >= retain_cutoff]
+    fresh = [b for b in merged if published(b) >= fresh_cutoff]
+    older = [b for b in merged if published(b) < fresh_cutoff]
+
+    def rank(b: dict):
+        return (b.get("score", 0), b["published_at"])
+
+    fresh.sort(key=rank, reverse=True)
+    older.sort(key=rank, reverse=True)
+    # Una notizia con punteggio più alto arrivata in un run successivo può
+    # "scalzare" una già pubblicata con punteggio più basso, ma solo nella
+    # propria fascia: le notizie di oggi non competono con quelle di ieri.
+    return fresh[:FRESH_POOL_SIZE] + older[:ARCHIVE_POOL_SIZE]
+
+
+def load_seen() -> dict[str, str]:
+    """URL già valutati in run precedenti (url -> ISO timestamp)."""
+    if os.environ.get("IGNORE_SEEN") or not os.path.exists(SEEN_PATH):
+        return {}
+    try:
+        with open(SEEN_PATH, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_seen(seen: dict[str, str]) -> None:
+    """Salva la cache degli URL visti, eliminando quelli più vecchi di
+    SEEN_RETAIN_HOURS (un articolo fuori dalla finestra di raccolta non
+    tornerà comunque nel feed, quindi non serve ricordarlo per sempre)."""
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=SEEN_RETAIN_HOURS)
+    kept = {}
+    for url, ts in seen.items():
+        try:
+            if dt.datetime.fromisoformat(ts) >= cutoff:
+                kept[url] = ts
+        except (TypeError, ValueError):
+            continue
+    save_json(SEEN_PATH, kept)
 
 
 # --------------------------------------------------------------------------- #
@@ -1093,6 +1204,9 @@ def build_flash_news(candidates: list[dict]) -> list[dict]:
         batch = candidates[i:i + FLASH_BATCH_SIZE]
         try:
             results = call_llm_flash_batch(batch)
+        except LLMPermanentError as exc:
+            print(f"[WARN] Flash News interrotte, errore permanente dell'LLM: {exc}", file=sys.stderr)
+            break
         except Exception as exc:  # noqa: BLE001 - un batch fallito non deve bloccare gli altri
             print(f"[WARN] batch flash news {batch_num}/{total_batches} fallito, lo salto: {exc}", file=sys.stderr)
             continue
@@ -1172,51 +1286,116 @@ def main() -> None:
     collect_cutoff = now - dt.timedelta(hours=COLLECT_WINDOW_HOURS)
 
     existing = load_existing()
-    already_seen_urls = {b["source_url"] for b in existing}
+    seen = load_seen()
+    already_seen_urls = {b["source_url"] for b in existing} | set(seen)
 
     raw_items = collect_all(collect_cutoff)
     fresh_items = dedupe(raw_items, already_seen_urls)
     fresh_items.sort(key=lambda it: it["published_at"], reverse=True)
     fresh_items = fresh_items[:MAX_ITEMS_PER_RUN]
-    print(f"[INFO] {len(fresh_items)} articoli da valutare con Gemini (limite {MAX_ITEMS_PER_RUN}/run).")
+    print(
+        f"[INFO] {len(fresh_items)} articoli nuovi da valutare (limite {MAX_ITEMS_PER_RUN}/run; "
+        f"{len(raw_items)} raccolti, {len(raw_items) - len(dedupe(raw_items, set()))} duplicati e "
+        f"{len(set(it['url'] for it in raw_items) & already_seen_urls)} già valutati in run precedenti)."
+    )
 
-    new_briefs = []
-    relevant_items_this_run = []  # pertinenti secondo il modello, usati sotto per le Flash News
-    consecutive_failures = 0
-    for i, item in enumerate(fresh_items, start=1):
-        print(f"[INFO] ({i}/{len(fresh_items)}) elaboro: {item['title'][:70]}...")
+    new_briefs: list[dict] = []
+    relevant_items_this_run: list[dict] = []  # pertinenti secondo il modello, usati sotto per le Flash News
+    retry_queue: list[dict] = []              # falliti per errori temporanei: secondo passaggio a fine run
+    stats = {"evaluated": 0}
+    abort_reason = None
+
+    def evaluate(item: dict) -> bool:
+        """Valuta un articolo e ne registra l'esito. Ritorna True se la chiamata
+        LLM è FALLITA (l'articolo non viene segnato come visto, così un run
+        successivo può riprovarlo). Solleva LLMPermanentError se non ha senso
+        continuare il run."""
         try:
             brief, call_failed, is_relevant = structure_item(item)
+        except LLMPermanentError:
+            raise
         except Exception as exc:  # noqa: BLE001 - un errore imprevisto su UN articolo non deve fermare l'intero run
             print(f"[WARN] Errore imprevisto su questo articolo, lo salto: {exc}", file=sys.stderr)
-            brief, call_failed, is_relevant = None, True, False
-
+            return True
         if call_failed:
-            consecutive_failures += 1
-            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                print(
-                    f"[ERROR] {MAX_CONSECUTIVE_FAILURES} chiamate a Gemini fallite di fila: "
-                    "interrompo il run invece di continuare a vuoto. Guarda la riga "
-                    "'[WARN] Gemini ...' qui sopra per il motivo esatto (chiave non "
-                    "valida, quota esaurita, modello non disponibile, ecc.).",
-                    file=sys.stderr,
-                )
-                break
-        else:
-            consecutive_failures = 0
-            if brief:
-                new_briefs.append(brief)
-            if is_relevant:
-                relevant_items_this_run.append(item)
+            return True
+        stats["evaluated"] += 1
+        seen[item["url"]] = dt.datetime.now(dt.timezone.utc).isoformat()
+        if brief:
+            new_briefs.append(brief)
+        if is_relevant:
+            relevant_items_this_run.append(item)
+        return False
 
-        time.sleep(1.5)  # margine di cortesia sui rate limit del free tier
+    consecutive_failures = 0
+    try:
+        for i, item in enumerate(fresh_items, start=1):
+            print(f"[INFO] ({i}/{len(fresh_items)}) elaboro: {item['title'][:70]}...")
+            if evaluate(item):
+                retry_queue.append(item)
+                consecutive_failures += 1
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    abort_reason = (
+                        f"{MAX_CONSECUTIVE_FAILURES} articoli di fila non elaborabili dall'LLM "
+                        "(vedi i [WARN] sopra per il motivo)"
+                    )
+                    break
+            else:
+                consecutive_failures = 0
+            time.sleep(1.5)  # margine di cortesia sui rate limit del free tier
+
+        # Secondo passaggio: gli articoli falliti per errori TEMPORANEI (503,
+        # timeout, rate limit) spesso riescono dopo una pausa. Prima bastavano
+        # 3 fallimenti di fila per chiudere il run lasciando fuori tutto il resto.
+        if retry_queue and not abort_reason:
+            print(
+                f"[INFO] Secondo passaggio su {len(retry_queue)} articoli falliti per errori temporanei "
+                f"(pausa di {RETRY_PASS_COOLDOWN_SECONDS}s)..."
+            )
+            time.sleep(RETRY_PASS_COOLDOWN_SECONDS)
+            recovered, still_failing = 0, 0
+            for item in retry_queue:
+                if evaluate(item):
+                    still_failing += 1
+                    if still_failing >= 5:
+                        print("[WARN] Secondo passaggio interrotto: l'LLM continua a non rispondere.", file=sys.stderr)
+                        break
+                else:
+                    recovered += 1
+                time.sleep(1.5)
+            print(f"[INFO] Secondo passaggio: {recovered} recuperati, {len(retry_queue) - recovered} ancora falliti.")
+    except LLMPermanentError as exc:
+        abort_reason = str(exc)
+
+    if abort_reason:
+        print(
+            f"[ERROR] Run interrotto: {abort_reason}. Gli articoli valutati fin qui "
+            "vengono comunque pubblicati; gli altri saranno ritentati al prossimo sync.",
+            file=sys.stderr,
+        )
+
+    # La cache degli URL visti va salvata sempre, anche a run interrotto:
+    # evita di rivalutare (e ripagare in quota) gli articoli già fatti.
+    try:
+        save_seen(seen)
+    except Exception as exc:  # noqa: BLE001 - la cache è solo un'ottimizzazione
+        print(f"[WARN] Impossibile salvare la cache degli URL visti: {exc}", file=sys.stderr)
 
     merged = merge_and_prune(existing, new_briefs)
     save_json(OUTPUT_PATH, merged)
 
-    print(f"[INFO] {len(new_briefs)} notizie pertinenti E sostanziali su {len(fresh_items)} valutate "
+    fresh_cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=FRESH_WINDOW_HOURS)
+    n_fresh = sum(1 for b in merged if dt.datetime.fromisoformat(b["published_at"]) >= fresh_cutoff)
+    print(f"[INFO] {len(new_briefs)} notizie pertinenti E sostanziali su {stats['evaluated']} valutate "
           f"(le altre sono state scartate per pertinenza o qualità insufficiente — vedi i log [INFO]/[WARN] sopra).")
-    print(f"[INFO] Pubblicate le migliori {len(merged)} per OpenMind Score (tetto: {PUBLISH_TOP_N}) in {OUTPUT_PATH}.")
+    print(f"[INFO] In {OUTPUT_PATH}: {n_fresh} notizie fresche (<{FRESH_WINDOW_HOURS}h, il sito ne mostra le migliori "
+          f"{PUBLISH_TOP_N}) + {len(merged) - n_fresh} di archivio.")
+    if n_fresh < PUBLISH_TOP_N:
+        print(
+            f"[WARN] Solo {n_fresh} notizie fresche disponibili, meno delle {PUBLISH_TOP_N} attese: "
+            "o oggi le fonti hanno pubblicato poco, o il run è stato interrotto (vedi [ERROR]/[WARN] sopra).",
+            file=sys.stderr,
+        )
 
     # Flash News: sempre DOPO che la top 10 è già stata salvata sopra, e
     # sempre in un blocco isolato — qualunque errore qui (LLM, I/O, parsing)
@@ -1224,7 +1403,7 @@ def main() -> None:
     try:
         published_urls = {b["source_url"] for b in merged}
         flash_candidates = [it for it in relevant_items_this_run if it["url"] not in published_urls]
-        print(f"[INFO] {len(flash_candidates)} candidati per le Flash News (pertinenti, esclusi dalla top {PUBLISH_TOP_N}).")
+        print(f"[INFO] {len(flash_candidates)} candidati per le Flash News (pertinenti, non pubblicati in {OUTPUT_PATH}).")
 
         new_flashes = build_flash_news(flash_candidates)
         existing_flash = load_existing_flash()
@@ -1234,7 +1413,7 @@ def main() -> None:
         print(f"[INFO] {len(merged_flash)} Flash News pubblicate (tetto: {FLASH_MAX_ITEMS}) in {FLASH_OUTPUT_PATH}.")
     except Exception as exc:  # noqa: BLE001 - le Flash News sono un extra: un loro fallimento non deve mai
         # compromettere la top 10, già salvata correttamente qui sopra.
-        print(f"[WARN] Generazione Flash News fallita, la top {PUBLISH_TOP_N} resta comunque pubblicata: {exc}", file=sys.stderr)
+        print(f"[WARN] Generazione Flash News fallita, le notizie principali restano comunque pubblicate: {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":
