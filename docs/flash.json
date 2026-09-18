@@ -1,272 +1,272 @@
 [
   {
-    "title": "J&J Sells Laminar LAA Technology",
-    "summary": "The newly formed Jaguar LAA acquired the Laminar technology from Johnson & Johnson for an undisclosed sum.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/cardiovascular/j-j-steps-away-from-laa-closure-market-sells-tech-to-jaguar",
-    "published_at": "2026-09-17T15:27:23+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891308+00:00"
-  },
-  {
-    "title": "Satrec Initiative to Build Optical Satellites",
-    "summary": "South Korean company Satrec Initiative is working with Hanwha Systems to build 10-centimeter-class optical satellites for a SAR constellation.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
-    "published_at": "2026-09-17T15:05:15+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891323+00:00"
-  },
-  {
-    "title": "Simera Sense and IDOM Partner on xScape350",
-    "summary": "Simera Sense and IDOM formed a strategic partnership to develop and produce the xScape350 optical system for small satellites.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/simera-sense-and-idom-partner-to-develop-and-produce-xscape350-optical-system-as-demand-for-high-resolution-eo-imagery-surges/",
-    "published_at": "2026-09-17T14:40:51+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891330+00:00"
-  },
-  {
-    "title": "World's Smallest CT Scanner Built",
-    "summary": "Chinese researchers have developed a CT scanner small enough to fit in the palm of a hand.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/technology/xtomo-cube-ct-scanner-cas-ruiying/",
-    "published_at": "2026-09-17T14:11:44+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891335+00:00"
-  },
-  {
-    "title": "Light-Based Prosthetic Armband Senses Muscles",
-    "summary": "Engineers developed a prosthetic armband using light-based sensors on the skin instead of electrical sensors to avoid issues caused by sweat.",
-    "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/prosthetic-arm-electrodes-for-light",
-    "published_at": "2026-09-17T14:00:04+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891341+00:00"
-  },
-  {
-    "title": "Low-Cost Detector Sees Cosmic Particles",
-    "summary": "A pocket-sized, roughly $100 detector developed from a student project can reveal invisible cosmic particles passing through space and Earth.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260917003725.htm",
-    "published_at": "2026-09-17T13:54:19+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891347+00:00"
-  },
-  {
-    "title": "COMSOL Multiphysics v2027 Released",
-    "summary": "The latest software update adds an MCP Server, Electric Motor Module, and Application Builder support for macOS and Linux.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/comsol-multiphysics-v2027-released-for-systems-modeling/",
-    "published_at": "2026-09-17T13:28:34+00:00",
-    "fetched_at": "2026-09-17T16:16:53.891352+00:00"
-  },
-  {
-    "title": "Vectorworks 2027 Integrates Connected Design Tools",
-    "summary": "Vectorworks 2027 introduces an Exchange hub for sharing resources and supports Revit Families and Dynamic Blocks as dynamic objects.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/vectorworks-2027-adds-tools-for-connected-design-workflows/",
-    "published_at": "2026-09-17T13:08:28+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739934+00:00"
-  },
-  {
-    "title": "Icarus Robotics Tests Joy Platform Ahead of ISS Flight",
-    "summary": "Icarus Robotics tested its free-flying robotic platform in Canada in preparation for a 2027 demonstration on the International Space Station.",
-    "category": "Robotics",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/icarus-robotics-tests-joy-in-canada-ahead-of-iss-flight/",
-    "published_at": "2026-09-17T13:00:00+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739944+00:00"
-  },
-  {
-    "title": "FARO Launches Focus i.1 X Scanner for Geospatial Workflows",
-    "summary": "FARO introduced the Focus i.1 X scanner, featuring a 400-meter range and a mountable GNSS/RTK receiver for outdoor projects.",
+    "title": "Thickthorn Junction Upgrade Progresses",
+    "summary": "A purpose-built bridge is being craned into place for the £153M Thickthorn junction upgrade on the A47/A11.",
     "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/faro-introduces-scanners-for-geospatial-and-aeco-workflows/",
-    "published_at": "2026-09-17T12:59:45+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739950+00:00"
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/153m-thickthorn-junction-upgrade-progresses-with-bridge-being-craned-into-place-18-09-2026/",
+    "published_at": "2026-09-18T05:30:59+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117903+00:00"
   },
   {
-    "title": "Cadence and ADI Partner on Next-Gen SHARC Audio Processors",
-    "summary": "Cadence and ADI developed the SHARC-FX core, delivering five times higher performance and AI support for software-defined vehicle audio systems.",
+    "title": "Black Country Councils Award Highways Framework",
+    "summary": "Wolverhampton City Council has awarded a new highways works framework valued at £150 million on behalf of Black Country Transport.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/black-country-councils-award-150m-highways-works-framework-18-09-2026/",
+    "published_at": "2026-09-18T05:30:55+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117917+00:00"
+  },
+  {
+    "title": "A38(M) Tame Valley Viaduct Strengthening Completed",
+    "summary": "The A38(M) Tame Valley Viaduct Strengthening Scheme in north Birmingham has been successfully completed with project management by Arcadis.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/archive/a38m-tame-valley-viaduct-strengthening-scheme-completed-18-09-2026/",
+    "published_at": "2026-09-18T05:30:46+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117924+00:00"
+  },
+  {
+    "title": "Tata and Nexperia Form Joint Venture",
+    "summary": "Nexperia has partnered with Tata Electronics to fabricate and package integrated circuits in India.",
     "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/cadence-and-adi-develop-next-generation-sharc-audio-processors/",
-    "published_at": "2026-09-17T12:50:10+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739954+00:00"
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/tata-and-nexperia-join-in-far-reaching-jv-2026-09/",
+    "published_at": "2026-09-18T05:16:59+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117930+00:00"
   },
   {
-    "title": "Arm Launches Total Design for Physical AI Program",
-    "summary": "Arm brought together over 80 developers for its new Total Design program and Robotics Capability Framework to unify the robotics industry.",
+    "title": "Huawei Launches Ten AI Chipsets",
+    "summary": "Huawei has unveiled ten new AI chipsets, including AI accelerators, CPUs, and networking chips.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/huawei-launches-ten-ai-chipsets-2026-09/",
+    "published_at": "2026-09-18T05:15:30+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117935+00:00"
+  },
+  {
+    "title": "Imec Launches Advanced Hyperspectral Sensor",
+    "summary": "Imec's advanced hyperspectral sensor for Earth observation and industrial applications has transitioned to broader commercial adoption.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/imecs-most-advanced-hyperspectral-sensor-for-sale-2026-09/",
+    "published_at": "2026-09-18T05:08:13+00:00",
+    "fetched_at": "2026-09-18T08:44:28.117941+00:00"
+  },
+  {
+    "title": "Mojave UAS Achieves Battlefield STOL Milestone",
+    "summary": "General Atomics successfully performed the first short take-off and landing of its Mojave unmanned aircraft on a simulated battlefield.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/mojave-drone-battlefield-stol-world-first/",
+    "published_at": "2026-09-18T05:03:00+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164911+00:00"
+  },
+  {
+    "title": "Converting Martian Atmosphere Into Rocket Propellant",
+    "summary": "A researcher is developing technology to convert the atmosphere of Mars into propellant to fuel the return journey for astronauts.",
+    "category": "Aerospace",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/fueling-return-journey-from-mars-lanie-mckinney-0918",
+    "published_at": "2026-09-18T04:00:00+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164919+00:00"
+  },
+  {
+    "title": "Belfast Harbour Transforms Reclaimed Land Into Deep-Water Berth",
+    "summary": "Belfast Harbour's £90M D3 development is converting reclaimed land into a new deep-water quay for cruise ships and offshore wind.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/in-depth/how-belfast-harbour-is-transforming-reclaimed-land-into-a-new-deep-water-berth-18-09-2026/",
+    "published_at": "2026-09-18T03:00:12+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164934+00:00"
+  },
+  {
+    "title": "Direct Visualization of Defect Effects in BaTiO3 Junctions",
+    "summary": "Researchers combined microscopy and in-situ biasing to establish an asymmetric interfacial pinning mechanism in ferroelectric tunnel junctions.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c46355bfeef4f529fd6228697eb64b74e13ddc0c",
+    "published_at": "2026-09-18T00:00:00+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164939+00:00"
+  },
+  {
+    "title": "U.S. Awards $1B for Quantum Wafer Manufacturing",
+    "summary": "The U.S. awarded IBM's Anderon $1 billion to forge quantum wafers domestically.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/",
+    "published_at": "2026-09-17T22:00:00+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164944+00:00"
+  },
+  {
+    "title": "Startup Develops Wafer-Scale Superconducting Transistors",
+    "summary": "Startup S-Transistors is fabricating superconducting transistors on silicon wafers to eliminate control cables in quantum computers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/superconducting-transistors",
+    "published_at": "2026-09-17T21:02:26+00:00",
+    "fetched_at": "2026-09-18T08:44:31.164948+00:00"
+  },
+  {
+    "title": "Ysmart London Introduces Toolt Multitool on Kickstarter",
+    "summary": "Ysmart London has launched its new key-fob-sized multitool, packing 36 tools into a single module on Kickstarter.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/knives-multitools/ysmart-toolt-36-tool-multitool/",
+    "published_at": "2026-09-17T20:30:00+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618525+00:00"
+  },
+  {
+    "title": "NSF Launches Semiconductor Translation Initiative",
+    "summary": "The U.S. National Science Foundation announced an initiative to translate low-dimensional semiconductor technologies into platforms for advanced microelectronics.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "NSF",
+    "source_url": "https://www.nsf.gov/news/nsf-invests-translating-low-dimensional-semiconductor",
+    "published_at": "2026-09-17T20:21:43+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618535+00:00"
+  },
+  {
+    "title": "First Solar Alters Patent Enforcement Strategy",
+    "summary": "First Solar is withdrawing its Section 337 complaint while continuing other ongoing lawsuits against solar manufacturers.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/solar/the-largest-us-solar-manufacturer-is-changing-fronts-in-its-patent-war/",
+    "published_at": "2026-09-17T19:24:52+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618541+00:00"
+  },
+  {
+    "title": "Designing Long-Travel Axes: Rack and Pinion vs Ball Screws",
+    "summary": "Rack-and-pinion systems offer speed, precision, and scalability when long-travel motion exceeds the limits of ball screws and linear motors.",
     "category": "Robotics",
     "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
-    "published_at": "2026-09-17T12:30:13+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739959+00:00"
+    "source_url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
+    "published_at": "2026-09-17T18:34:16+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618547+00:00"
   },
   {
-    "title": "Former Amazon Robotics Execs Secure Funding for Reframe Systems",
-    "summary": "Robotic home-builder Reframe Systems raised $40 million in equity financing to construct a second automated component factory in Massachusetts.",
+    "title": "SafeHarness Improves Coding Agent Safety in Robot Manipulation",
+    "summary": "Researchers presented SafeHarness, an obstacle-aware harness that helps coding agents prioritize safety and avoid collisions during robot manipulation.",
     "category": "Robotics",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/former-amazon-robotics-executives-take-on-house-building/",
-    "published_at": "2026-09-17T11:27:57+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739963+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20822v1",
+    "published_at": "2026-09-17T17:59:58+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618553+00:00"
   },
   {
-    "title": "Siemens and Redington Expand African Industrial Software Access",
-    "summary": "Siemens and Redington agreed to expand industrial software distribution across Egypt, Kenya, Ethiopia, Nigeria, Morocco, and Tanzania.",
+    "title": "Workspace Models Offer Lightweight Robotic Memory",
+    "summary": "A new workspace token representation uses train-time VLM supervision to provide lightweight latent memory for robotic manipulation tasks without in-the-loop VLM queries.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20820v1",
+    "published_at": "2026-09-17T17:59:53+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618559+00:00"
+  },
+  {
+    "title": "FAMOS Models 3D Articulation from Sparse Observations",
+    "summary": "FAMOS is a feed-forward model that predicts movable-part segmentation and joint parameters from sparse, unordered sets of partial point clouds.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20817v1",
+    "published_at": "2026-09-17T17:59:40+00:00",
+    "fetched_at": "2026-09-18T08:44:34.618565+00:00"
+  },
+  {
+    "title": "StageGuard Improves Long-Horizon Robot Task Transitions",
+    "summary": "StageGuard combines teacher-model reasoning and distillation for accurate subtask completion and policy switching in hierarchical robot control.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20791v1",
+    "published_at": "2026-09-17T17:53:48+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645812+00:00"
+  },
+  {
+    "title": "GeoAAC Introduces Geometry-Based Adaptive Action Chunking",
+    "summary": "GeoAAC dynamically adjusts action horizons in vision-language-action policies based on the reliability of denoising trajectories.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20776v1",
+    "published_at": "2026-09-17T17:48:07+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645822+00:00"
+  },
+  {
+    "title": "Volkswagen Debuts ID.3 GTI Electric Hot Hatch",
+    "summary": "Volkswagen revealed the ID.3 GTI, featuring 326 horsepower as its most powerful performance badge in an electric vehicle.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/volkswagen-id3-gti/",
+    "published_at": "2026-09-17T17:46:30+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645828+00:00"
+  },
+  {
+    "title": "Agile-WAM Enables Contact-Rich Robot Control",
+    "summary": "Agile-WAM encodes visual and tactile observations into a shared latent space for high-frequency, contact-rich robot manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20761v1",
+    "published_at": "2026-09-17T17:43:51+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645833+00:00"
+  },
+  {
+    "title": "OPTED Enhances End-to-End Autonomous Driving via On-Policy Fine-Tuning",
+    "summary": "OPTED decouples reinforcement learning with a privileged teacher to safely fine-tune end-to-end driving policies in simulation.",
     "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-and-redington-expand-industrial-software-access-in-africa/",
-    "published_at": "2026-09-17T11:17:56+00:00",
-    "fetched_at": "2026-09-17T16:16:57.739967+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20756v1",
+    "published_at": "2026-09-17T17:41:51+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645838+00:00"
   },
   {
-    "title": "Terrace-Topped Tiny House Features Compact 26-Foot Design",
-    "summary": "A new 26-foot tiny house packs dual lofts, storage, pet kennels, and a rooftop terrace into a compact footprint.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/tiny-houses/winter-wonderland-backcountry-tiny-homes/",
-    "published_at": "2026-09-17T11:04:39+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432674+00:00"
-  },
-  {
-    "title": "ABB Partners with Ferrari Hypersail for Marine Electrification",
-    "summary": "ABB is partnering with Ferrari Hypersail on a yacht architecture to manage renewable energy for navigation, propulsion, and foil controls.",
-    "category": "Energy",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/abb-partners-with-ferrari-hypersail-on-marine-electrification/",
-    "published_at": "2026-09-17T10:50:33+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432683+00:00"
-  },
-  {
-    "title": "UK House of Lords Investigates Dunkelflaute Risks for Grid",
-    "summary": "The UK House of Lords launched an inquiry into risks posed by prolonged periods of low wind and solar power generation.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/house-of-lords-inquiry-into-risks-of-dunkleflaute-as-uk-introduces-more-renewables-to-power-grid-17-09-2026/",
-    "published_at": "2026-09-17T10:44:33+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432688+00:00"
-  },
-  {
-    "title": "Teradyne Opens Bengaluru Office to Support Chip Manufacturing",
-    "summary": "Teradyne has opened a new office in Bengaluru to provide customer support, training, and partnerships as India expands semiconductor production.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/teradyne-opens-bengaluru-office-to-support-chip-manufacturing/",
-    "published_at": "2026-09-17T10:43:05+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432692+00:00"
-  },
-  {
-    "title": "Mitsubishi Electric Launches Two Quantum Computing R&D Projects",
-    "summary": "Mitsubishi Electric has launched two NEDO-backed quantum R&D projects focusing on laser control systems and low-noise amplifier modules.",
+    "title": "LLM-Falsifier Evaluates Cyber-Physical Systems via Optimization",
+    "summary": "LLM-Falsifier uses large language models to find counterexamples in cyber-physical systems by minimizing STL robustness degrees.",
     "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mitsubishi-electric-launches-two-quantum-computing-rd-projects/",
-    "published_at": "2026-09-17T10:38:33+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432697+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20752v1",
+    "published_at": "2026-09-17T17:40:04+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645844+00:00"
   },
   {
-    "title": "Bouygues Subsidiary Wins €95M Contract to Overhaul Hospital",
-    "summary": "Bouygues subsidiary Setao has won a €95m contract to overhaul Yopougon University Hospital in Abidjan.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/bouygues-subsidiary-overhauls-major-ivory-coast-hospital/",
-    "published_at": "2026-09-17T10:32:00+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432715+00:00"
+    "title": "MILER Enables Zero-Shot Sim-to-Real Autonomous Driving",
+    "summary": "MILER uses a semantic mid-level representation and trajectory-alignment strategy for zero-shot sim-to-real reinforcement learning in autonomous driving.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20747v1",
+    "published_at": "2026-09-17T17:35:22+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645849+00:00"
   },
   {
-    "title": "VPT Launches Configurable FLX Series DC-DC Converters",
-    "summary": "VPT has launched the FLX Series of configurable DC-DC converters supporting multiple buses with outputs up to 5,000 W.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/vpt-launches-configurable-flx-series-dc-dc-converters/",
-    "published_at": "2026-09-17T09:47:56+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432719+00:00"
-  },
-  {
-    "title": "Stanford Researchers Create Hybrid Human-Mouse Brain Organoid",
-    "summary": "Stanford researchers successfully integrated a human cortical organoid into a mouse's nervous system in a landmark lab experiment.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/imaging-diagnostics/hybrid-mouse-human-brain/",
-    "published_at": "2026-09-17T07:33:42+00:00",
-    "fetched_at": "2026-09-17T16:17:01.432723+00:00"
-  },
-  {
-    "title": "GoSun Unveils Solar-Roofed Electric Tractor",
-    "summary": "GoSun has introduced a small solar-powered tractor designed to provide an off-grid alternative to diesel equipment for small-scale farmers.",
+    "title": "Hydropower Industry Warns of Relicensing Bottlenecks",
+    "summary": "Over 12 GW of hydropower facing relicensing over the next decade confronts rising regulatory requirements that could threaten generation.",
     "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/moonrider-27-gosun-compact-solar-tractor/",
-    "published_at": "2026-09-17T07:27:16+00:00",
-    "fetched_at": "2026-09-17T16:17:19.666393+00:00"
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/renewables/hydropower/hydropower-licensing-requirements-have-exploded-the-industry-says-the-grid-could-pay/",
+    "published_at": "2026-09-17T17:34:26+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645855+00:00"
   },
   {
-    "title": "£19M Elizabeth Line Tunnel Ventilation Contract Planned",
-    "summary": "Rail for London Infrastructure is preparing to procure a £19m contract for ventilation maintenance and repairs on the Elizabeth line.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/19m-elizabeth-line-tunnel-ventilation-maintenance-contract-planned-17-09-2026/",
-    "published_at": "2026-09-17T07:24:26+00:00",
-    "fetched_at": "2026-09-17T16:17:19.666416+00:00"
+    "title": "New Framework Improves Underwater Visual Target Tracking",
+    "summary": "A stereo visual-servoing framework combines target-specific depth estimation with adaptive model-fusion predictive control for autonomous underwater vehicles.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20731v1",
+    "published_at": "2026-09-17T17:22:01+00:00",
+    "fetched_at": "2026-09-18T08:44:38.645860+00:00"
   },
   {
-    "title": "Nuclear Waste Services Plans £42M Assurance Tender",
-    "summary": "Nuclear Waste Services has released a preliminary market engagement notice for a future independent assurance tender valued at £42m.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/nws-engaging-market-on-future-42m-independent-assurance-tender-17-09-2026/",
-    "published_at": "2026-09-17T07:17:42+00:00",
-    "fetched_at": "2026-09-17T16:17:19.666422+00:00"
+    "title": "MoWAM Predicts Future Motion for Efficient World Action Models",
+    "summary": "MoWAM replaces future video generation with explicit future motion prediction to improve robot policy learning and efficiency.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.20709v1",
+    "published_at": "2026-09-17T17:07:00+00:00",
+    "fetched_at": "2026-09-18T08:44:48.891206+00:00"
   },
   {
-    "title": "Challenges in Building Package Digital Twins",
-    "summary": "Semiconductor manufacturing models require careful synchronization with physical production to remain effective.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/why-package-digital-twins-are-so-hard-to-build/",
-    "published_at": "2026-09-17T07:13:29+00:00",
-    "fetched_at": "2026-09-17T09:11:39.688870+00:00"
-  },
-  {
-    "title": "Negative Expansion Materials Resist Warpage",
-    "summary": "Molding compounds and underfill utilize negative expansion materials to improve thermal stability and resist warpage.",
-    "category": "Materials",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/negative-expansion-materials-resist-warpage/",
-    "published_at": "2026-09-17T07:12:21+00:00",
-    "fetched_at": "2026-09-17T16:17:19.666428+00:00"
-  },
-  {
-    "title": "Building the Silicon Heartland Chip Ecosystem",
-    "summary": "Regional growth relies on materials suppliers, packaging hubs, and startups alongside major manufacturers like Intel.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/the-silicon-heartland-wants-to-be-americas-next-chip-powerhouse/",
-    "published_at": "2026-09-17T07:11:08+00:00",
-    "fetched_at": "2026-09-17T09:11:39.688876+00:00"
-  },
-  {
-    "title": "Materials Innovation Drives Semiconductor Manufacturing",
-    "summary": "Expanded computational needs and co-development are reshaping how new materials transition from lab to fab.",
-    "category": "Materials",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/beyond-scaling-the-growing-role-of-materials-innovation-in-semiconductor-manufacturing/",
-    "published_at": "2026-09-17T07:06:17+00:00",
-    "fetched_at": "2026-09-17T09:11:39.688879+00:00"
-  },
-  {
-    "title": "AI Storage Drives Advanced Packaging Innovation",
-    "summary": "Thinner dies, taller stacks, and hybrid bonding are advancing NAND packaging to meet the demands of the AI era.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/ais-storage-problem-is-a-packaging-problem/",
-    "published_at": "2026-09-17T07:05:40+00:00",
-    "fetched_at": "2026-09-17T16:17:19.666433+00:00"
+    "title": "US Power Grid Faces Winter Reliability Challenges",
+    "summary": "Recent winter storms tested the US power grid, exposing fuel and supply chain strains that will intensify with rising demand.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/winter-storms-fern-gianna-tested-the-us-power-grid-2027-could-bring-a-bigger-reliability-challenge/",
+    "published_at": "2026-09-17T17:03:47+00:00",
+    "fetched_at": "2026-09-18T08:44:48.891216+00:00"
   }
 ]
