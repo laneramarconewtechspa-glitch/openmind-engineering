@@ -153,6 +153,24 @@
     "fetched_at": "2026-09-18T08:44:31.164939+00:00"
   },
   {
+    "title": "Engineering Hydrogels with Yeast Exopolysaccharides for Cancer Spheroids",
+    "summary": "Researchers produced exopolysaccharides from Rhodotorula toruloides and combined them with PEGDA to engineer hydrogels capable of embedding and imaging cancer spheroids.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fb53dd305a5de6e6bbb1da3f5e09350d1ec1a2b8",
+    "published_at": "2026-09-18T00:00:00+00:00",
+    "fetched_at": "2026-09-19T08:25:23.623026+00:00"
+  },
+  {
+    "title": "Optimizing Thermoelectric Performance in Janus MSe0.5Te0.5 Bilayers",
+    "summary": "First-principles calculations reveal that symmetry breaking and bilayer coupling in Janus MSe0.5Te0.5 homo-bilayers significantly suppress thermal conductivity and enhance thermoelectric performance.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/578beced4b2c5b082669abc300a6b24c4368de1f",
+    "published_at": "2026-09-18T00:00:00+00:00",
+    "fetched_at": "2026-09-19T08:25:23.623040+00:00"
+  },
+  {
     "title": "Startup Develops Wafer-Scale Superconducting Transistors for Quantum Computing",
     "summary": "S-Transistors is manufacturing superconducting transistors on silicon wafers to reduce heat-generating control cables in quantum computers.",
     "category": "Electronics & Semiconductors",
@@ -250,23 +268,5 @@
     "source_url": "https://newatlas.com/automotive/volkswagen-id3-gti/",
     "published_at": "2026-09-17T17:46:30+00:00",
     "fetched_at": "2026-09-18T19:01:29.441352+00:00"
-  },
-  {
-    "title": "Agile-WAM Enhances Contact-Rich Robot Control",
-    "summary": "The Agile-WAM framework uses a vision-tactile flow-matching architecture to improve performance and latency in contact-rich robot manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20761v1",
-    "published_at": "2026-09-17T17:43:51+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441356+00:00"
-  },
-  {
-    "title": "OPTED Improves Autonomous Driving Policy Fine-Tuning",
-    "summary": "OPTED uses a render-free teacher model to provide reinforcement learning supervision for closed-loop fine-tuning of autonomous driving policies.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20756v1",
-    "published_at": "2026-09-17T17:41:51+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441361+00:00"
   }
 ]
