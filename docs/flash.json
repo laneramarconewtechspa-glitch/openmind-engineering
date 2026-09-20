@@ -1,5 +1,41 @@
 [
   {
+    "title": "Defining Human Driver Digital Twins and Engineering Challenges",
+    "summary": "Researchers explore the definitions, use cases, and engineering challenges associated with Human Driver Digital Twins in the automotive domain.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/af23dd893d7b83183d8cfb239563552f4073e70f",
+    "published_at": "2026-09-20T00:00:00+00:00",
+    "fetched_at": "2026-09-20T08:56:02.686977+00:00"
+  },
+  {
+    "title": "Agentic AI Automates Design-Rule Repair for Chips",
+    "summary": "Purdue University researchers developed a closed-loop agentic framework that automates local design-rule corrections while preserving layout equivalence.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/agentic-ai-automates-design-rule-repair-while-preserving-layout-equivalence/",
+    "published_at": "2026-09-19T20:01:40+00:00",
+    "fetched_at": "2026-09-20T08:56:02.686989+00:00"
+  },
+  {
+    "title": "Unified Chiplet Network Scales Neuromorphic Systems",
+    "summary": "Heidelberg University researchers presented a unified interconnection network for chiplet-based scaling of neuromorphic computing systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/unified-chiplet-network-scales-neuromorphic-computing-systems-heidelberg-university/",
+    "published_at": "2026-09-19T18:23:56+00:00",
+    "fetched_at": "2026-09-20T08:56:02.686994+00:00"
+  },
+  {
+    "title": "Bio-Inspired Approach Recovers Rare Earth Elements from Coal Ash",
+    "summary": "Scientists are utilizing diatoms, sea sponges, and plants for a cleaner method of recovering rare earth elements from industrial waste piles.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024759.htm",
+    "published_at": "2026-09-19T02:08:56+00:00",
+    "fetched_at": "2026-09-20T08:56:02.687000+00:00"
+  },
+  {
     "title": "SoftBank Agrees to Acquire Robotics and AI Institute",
     "summary": "The acquisition deal is currently under review by the Committee on Foreign Investment in the United States.",
     "category": "Robotics",
@@ -232,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.20820v1",
     "published_at": "2026-09-17T17:59:53+00:00",
     "fetched_at": "2026-09-18T19:01:29.441336+00:00"
-  },
-  {
-    "title": "FAMOS Models 3D Articulation from Sparse Data",
-    "summary": "FAMOS is a feed-forward model that predicts movable-part segmentation and joint parameters from sparse, unordered sets of partial point clouds.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20817v1",
-    "published_at": "2026-09-17T17:59:40+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441340+00:00"
-  },
-  {
-    "title": "StageGuard Optimizes Robot Task Transitions",
-    "summary": "StageGuard uses agentic distillation to enable efficient and accurate stage-transition decisions for long-horizon robot control tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20791v1",
-    "published_at": "2026-09-17T17:53:48+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441344+00:00"
-  },
-  {
-    "title": "GeoAAC Adapts Action Chunking for VLA Policies",
-    "summary": "GeoAAC is a geometry-based method that adaptively adjusts action horizons in VLA policies based on prediction reliability.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20776v1",
-    "published_at": "2026-09-17T17:48:07+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441348+00:00"
-  },
-  {
-    "title": "Volkswagen Debuts 326-HP Electric ID.3 GTI",
-    "summary": "Volkswagen has unveiled the ID.3 GTI, marking the most powerful performance model in the GTI badge's history.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/volkswagen-id3-gti/",
-    "published_at": "2026-09-17T17:46:30+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441352+00:00"
   }
 ]
