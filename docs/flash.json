@@ -9,6 +9,78 @@
     "fetched_at": "2026-09-21T09:27:23.076882+00:00"
   },
   {
+    "title": "Retrofitting Residential Septic Tanks for Biogas in Lagos",
+    "summary": "A study evaluates retrofitting residential septic infrastructure in Lagos for decentralised biogas production, estimating a methane yield of 10.89 m3/day.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e406cde36a4af7838bbeea284c204c562eaaff5d",
+    "published_at": "2026-09-22T00:00:00+00:00",
+    "fetched_at": "2026-09-21T17:37:07.941573+00:00"
+  },
+  {
+    "title": "Exolaunch and Space Cargo Book Starship Starfall Missions",
+    "summary": "Exolaunch and Space Cargo have booked missions on SpaceX's Starship utilizing the Starfall reentry capsule.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/exolaunch-space-cargo-starship-starfall/",
+    "published_at": "2026-09-21T16:57:40+00:00",
+    "fetched_at": "2026-09-21T17:37:07.941585+00:00"
+  },
+  {
+    "title": "Semtech Launches 224G TIAs and Drivers for Datacentres",
+    "summary": "Semtech introduced a family of 224G linear transimpedance amplifiers and drivers at CIOE to support near-packaged and co-packaged optics architectures.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/semtech-pushes-on-with-npo-and-cpo-for-datacentres-2026-09/",
+    "published_at": "2026-09-21T15:21:39+00:00",
+    "fetched_at": "2026-09-21T17:37:07.941592+00:00"
+  },
+  {
+    "title": "New Process Converts Plastic Waste Into Fuel",
+    "summary": "Scientists at Oak Ridge National Laboratory used molten salts to break down polyethylene plastic into gasoline and diesel-like fuels.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
+    "published_at": "2026-09-21T13:08:40+00:00",
+    "fetched_at": "2026-09-21T17:37:07.941596+00:00"
+  },
+  {
+    "title": "Scaling Physical AI and Edge Robotics",
+    "summary": "Scaling vision-language-action robotics demands optimized inference, heterogeneous compute, and real-time control on edge hardware.",
+    "category": "Robotics",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/scaling-physical-ai-deployment-beyond-the-demo/",
+    "published_at": "2026-09-21T13:00:00+00:00",
+    "fetched_at": "2026-09-21T17:37:23.779848+00:00"
+  },
+  {
+    "title": "Needle-Thin Multi-Function Brain Implant",
+    "summary": "Researchers created a flexible, needle-thin brain implant capable of recording neural activity, delivering drugs, and stimulating multiple regions.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
+    "published_at": "2026-09-21T12:25:22+00:00",
+    "fetched_at": "2026-09-21T17:37:23.779858+00:00"
+  },
+  {
+    "title": "CXMT Expands into NAND Flash",
+    "summary": "DRAM specialist CXMT is moving into NAND flash to capitalize on AI-driven storage shortages.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/",
+    "published_at": "2026-09-21T11:58:25+00:00",
+    "fetched_at": "2026-09-21T17:37:23.779863+00:00"
+  },
+  {
+    "title": "Gran Sasso Experiment Tests Gravity Quantum Theory",
+    "summary": "Physicists found no evidence of a predicted radiation signal linking gravity fluctuations to the decay of quantum superpositions.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222350.htm",
+    "published_at": "2026-09-21T09:24:50+00:00",
+    "fetched_at": "2026-09-21T17:37:23.779868+00:00"
+  },
+  {
     "title": "Leaders Discuss Structural Shifts for Airport Infrastructure Delivery",
     "summary": "Infrastructure and aviation leaders gathered to debate how new methodologies and collaboration can benefit airport delivery.",
     "category": "Civil & Infrastructure",
@@ -52,122 +124,5 @@
     "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024759.htm",
     "published_at": "2026-09-19T02:08:56+00:00",
     "fetched_at": "2026-09-20T08:56:02.687000+00:00"
-  },
-  {
-    "title": "SoftBank Agrees to Acquire Robotics and AI Institute",
-    "summary": "The acquisition deal is currently under review by the Committee on Foreign Investment in the United States.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
-    "published_at": "2026-09-18T17:14:32+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787481+00:00"
-  },
-  {
-    "title": "3D Printing Silicone Parts Without Tooling",
-    "summary": "3D printing silicone parts eliminates the need for molds and accelerates the production process.",
-    "category": "Materials",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/3d-printing/3d-printing-silicone-parts-without-tooling",
-    "published_at": "2026-09-18T17:01:45+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787494+00:00"
-  },
-  {
-    "title": "Enzymes and Bacterial Protein Production",
-    "summary": "New research provides insight into how RNA influences the reading of genetic information during bacterial protein production.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/how-enzymes-influence-bacterial-protein-production-0918",
-    "published_at": "2026-09-18T16:20:00+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787499+00:00"
-  },
-  {
-    "title": "Littelfuse Launches Solid-State Contactors",
-    "summary": "Littelfuse is expanding its switching portfolio with new solid-state contactors designed for single- and three-phase heating and motor control applications.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/littelfuse-solid-state-contactors-for-heating-motor-control-apps-2026-09/",
-    "published_at": "2026-09-18T16:17:07+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787504+00:00"
-  },
-  {
-    "title": "F-Prime Capital to Present Robotics Investment Report",
-    "summary": "F-Prime Capital will unveil its State of Robotics Investments report at the upcoming RoboBusiness event.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
-    "published_at": "2026-09-18T16:16:44+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787509+00:00"
-  },
-  {
-    "title": "Simulating Acoustic Performance in Music Halls",
-    "summary": "Engineers are using acoustics simulation and ray tracing to improve the design and sound quality of chamber music halls.",
-    "category": "Other Engineering",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/investigating-the-acoustic-performance-of-a-chamber-music-hall-with-simulation/",
-    "published_at": "2026-09-18T15:14:22+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787513+00:00"
-  },
-  {
-    "title": "New Single-Level Tiny House Design",
-    "summary": "A new extra-wide tiny house design offers an open, single-floor layout intended to maximize living space.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/tiny-houses/kirra-removed-tiny-homes/",
-    "published_at": "2026-09-18T13:57:44+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787518+00:00"
-  },
-  {
-    "title": "ESA Selects Iceye and Leonardo for EOGS Studies",
-    "summary": "The European Space Agency awarded contracts to Iceye and Leonardo for architecture studies regarding the planned Earth Observation Governmental System.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/esa-selects-iceye-leonardo-for-europes-eogs-studies-2026-09/",
-    "published_at": "2026-09-18T13:52:50+00:00",
-    "fetched_at": "2026-09-18T19:01:13.787522+00:00"
-  },
-  {
-    "title": "National Gas Advances Project Union Hydrogen Pipeline Design",
-    "summary": "National Gas has moved the St Fergus–Teesside hydrogen pipeline into the engineering design phase as part of a national UK network.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/national-gas-pushes-forward-with-second-phase-of-2414km-hydrogen-pipeline-project-union-18-09-2026/",
-    "published_at": "2026-09-18T12:30:09+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329835+00:00"
-  },
-  {
-    "title": "Scientists Develop Muonium Beam to Test Einstein’s Gravity Theory",
-    "summary": "Researchers created a controlled beam of muonium to test if gravity acts on second-generation particles as predicted by Einstein’s theory.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024808.htm",
-    "published_at": "2026-09-18T11:07:25+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329846+00:00"
-  },
-  {
-    "title": "Huawei Announces Next-Generation AI Chip for 2027",
-    "summary": "Huawei plans to release a new AI chip by early 2027 designed to compete with current Nvidia models.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/ai-humanoids/nvidia-rival-chip-huawei/",
-    "published_at": "2026-09-18T11:03:21+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329851+00:00"
-  },
-  {
-    "title": "HS2 Installs Ironstone Cladding on Warwickshire Canal Viaduct",
-    "summary": "Construction crews have begun applying ironstone cladding to the new Oxford Canal viaduct in Warwickshire.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/in-pictures-hs2-adds-local-touch-to-warwickshire-canal-viaduct-with-ironstone-cladding-18-09-2026/",
-    "published_at": "2026-09-18T10:38:53+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329856+00:00"
-  },
-  {
-    "title": "Velo3D Joins GIDEP to Support Defense Manufacturing",
-    "summary": "Velo3D has joined the Government-Industry Data Exchange Program to help identify risks in defense production.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/velo3d-joins-gidep-to-support-defense-manufacturing/",
-    "published_at": "2026-09-18T10:02:39+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329861+00:00"
   }
 ]
