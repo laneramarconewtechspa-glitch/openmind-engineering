@@ -1,5 +1,23 @@
 [
   {
+    "title": "Report Analyzes US STEM Talent Pipeline and Global Competitiveness",
+    "summary": "A comprehensive index combining decades of data assesses how the United States develops, attracts, deploys, and retains its STEM workforce.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/03502938da761231e4d0ef80ff61aa61bbbf6ae7",
+    "published_at": "2026-09-22T00:00:00+00:00",
+    "fetched_at": "2026-09-21T09:27:23.076882+00:00"
+  },
+  {
+    "title": "Leaders Discuss Structural Shifts for Airport Infrastructure Delivery",
+    "summary": "Infrastructure and aviation leaders gathered to debate how new methodologies and collaboration can benefit airport delivery.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/sponsored/debate-airport-delivery-will-benefit-from-structural-shifts-and-a-new-mindset-21-09-2026/",
+    "published_at": "2026-09-21T03:00:04+00:00",
+    "fetched_at": "2026-09-21T09:27:23.076894+00:00"
+  },
+  {
     "title": "Defining Human Driver Digital Twins and Engineering Challenges",
     "summary": "Researchers explore the definitions, use cases, and engineering challenges associated with Human Driver Digital Twins in the automotive domain.",
     "category": "Other Engineering",
@@ -151,122 +169,5 @@
     "source_url": "https://www.engineering.com/velo3d-joins-gidep-to-support-defense-manufacturing/",
     "published_at": "2026-09-18T10:02:39+00:00",
     "fetched_at": "2026-09-18T19:01:17.329861+00:00"
-  },
-  {
-    "title": "India Expands Electronics and Semiconductor Ecosystem",
-    "summary": "India is developing its semiconductor ecosystem through the India Semiconductor Mission 2.0, quantum computing partnerships, and neuromorphic chip initiatives.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/piecing-together-the-indian-electronics-and-semiconductor-ecosystem/",
-    "published_at": "2026-09-18T08:00:00+00:00",
-    "fetched_at": "2026-09-18T19:01:17.329865+00:00"
-  },
-  {
-    "title": "Global AI Spending Forecast to Reach $2.7 Trillion by 2026",
-    "summary": "Gartner forecasts worldwide AI spending will hit $2.7 trillion in 2026, representing a 49.5% year-over-year increase.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/2026-ai-spend-to-hit-2-7trn-2026-09/",
-    "published_at": "2026-09-18T05:09:22+00:00",
-    "fetched_at": "2026-09-18T19:01:23.452609+00:00"
-  },
-  {
-    "title": "Developing Mars Atmosphere Propellant Technology",
-    "summary": "A PhD candidate is developing technology to convert the Martian atmosphere into propellant for return space travel.",
-    "category": "Aerospace",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/fueling-return-journey-from-mars-lanie-mckinney-0918",
-    "published_at": "2026-09-18T04:00:00+00:00",
-    "fetched_at": "2026-09-18T19:01:23.452618+00:00"
-  },
-  {
-    "title": "Direct Visualization of Defect Effects in BaTiO3 Junctions",
-    "summary": "Researchers combined microscopy and in-situ biasing to establish an asymmetric interfacial pinning mechanism in ferroelectric tunnel junctions.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c46355bfeef4f529fd6228697eb64b74e13ddc0c",
-    "published_at": "2026-09-18T00:00:00+00:00",
-    "fetched_at": "2026-09-18T08:44:31.164939+00:00"
-  },
-  {
-    "title": "Engineering Hydrogels with Yeast Exopolysaccharides for Cancer Spheroids",
-    "summary": "Researchers produced exopolysaccharides from Rhodotorula toruloides and combined them with PEGDA to engineer hydrogels capable of embedding and imaging cancer spheroids.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fb53dd305a5de6e6bbb1da3f5e09350d1ec1a2b8",
-    "published_at": "2026-09-18T00:00:00+00:00",
-    "fetched_at": "2026-09-19T08:25:23.623026+00:00"
-  },
-  {
-    "title": "Optimizing Thermoelectric Performance in Janus MSe0.5Te0.5 Bilayers",
-    "summary": "First-principles calculations reveal that symmetry breaking and bilayer coupling in Janus MSe0.5Te0.5 homo-bilayers significantly suppress thermal conductivity and enhance thermoelectric performance.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/578beced4b2c5b082669abc300a6b24c4368de1f",
-    "published_at": "2026-09-18T00:00:00+00:00",
-    "fetched_at": "2026-09-19T08:25:23.623040+00:00"
-  },
-  {
-    "title": "Startup Develops Wafer-Scale Superconducting Transistors for Quantum Computing",
-    "summary": "S-Transistors is manufacturing superconducting transistors on silicon wafers to reduce heat-generating control cables in quantum computers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/superconducting-transistors",
-    "published_at": "2026-09-17T21:02:26+00:00",
-    "fetched_at": "2026-09-18T19:01:23.452623+00:00"
-  },
-  {
-    "title": "Ysmart London Introduces Toolt Multitool on Kickstarter",
-    "summary": "Ysmart London has launched its new key-fob-sized multitool, packing 36 tools into a single module on Kickstarter.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/ysmart-toolt-36-tool-multitool/",
-    "published_at": "2026-09-17T20:30:00+00:00",
-    "fetched_at": "2026-09-18T08:44:34.618525+00:00"
-  },
-  {
-    "title": "First Solar Alters Patent Enforcement Strategy",
-    "summary": "First Solar is withdrawing its Section 337 complaint while continuing other lawsuits against rival solar manufacturers.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/solar/the-largest-us-solar-manufacturer-is-changing-fronts-in-its-patent-war/",
-    "published_at": "2026-09-17T19:24:52+00:00",
-    "fetched_at": "2026-09-18T15:37:40.984346+00:00"
-  },
-  {
-    "title": "Rack and Pinion Systems for Long-Travel Motion",
-    "summary": "Rack-and-pinion systems offer advantages in speed, precision, and scalability for long-travel motion applications compared to ball screws.",
-    "category": "Mechanical",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/designing-long-travel-axes-when-rack-and-pinion-outperforms-ball-screws-and-linear-motors/",
-    "published_at": "2026-09-17T18:34:16+00:00",
-    "fetched_at": "2026-09-18T19:01:23.452629+00:00"
-  },
-  {
-    "title": "Wearable Sensors Match Motion Capture for Gait Tracking",
-    "summary": "A Yale-led study found that foot-mounted wearable sensors provide gait data for knee osteoarthritis patients comparable to lab-based motion capture.",
-    "category": "Biomedical",
-    "source_name": "Medical Design & Outsourcing",
-    "source_url": "https://www.medicaldesignandoutsourcing.com/yale-wearable-sensors-versus-motion-capture-gait-tracking-knee-osteoarthritis/",
-    "published_at": "2026-09-17T18:15:17+00:00",
-    "fetched_at": "2026-09-18T19:01:23.452634+00:00"
-  },
-  {
-    "title": "SafeHarness Improves Robot Manipulation Safety",
-    "summary": "The SafeHarness framework equips coding agents with obstacle-aware planning to improve collision avoidance during robot manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20822v1",
-    "published_at": "2026-09-17T17:59:58+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441326+00:00"
-  },
-  {
-    "title": "Workspace Tokens Enable Lightweight Robotic Memory",
-    "summary": "Researchers introduced workspace tokens to distill complex VLM queries into lightweight latent memory for efficient robot policy deployment.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.20820v1",
-    "published_at": "2026-09-17T17:59:53+00:00",
-    "fetched_at": "2026-09-18T19:01:29.441336+00:00"
   }
 ]
