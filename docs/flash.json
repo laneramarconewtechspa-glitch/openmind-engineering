@@ -1,5 +1,86 @@
 [
   {
+    "title": "GLP-1 Drugs Boost ResMed Sleep Apnea Therapy Adherence",
+    "summary": "ResMed data shows that GLP-1 weight loss drugs are unexpectedly driving higher CPAP therapy adherence rates.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/business/from-headwind-to-tailwind-how-glp-1s-are-unexpectedly-benefiting-resmed-s-sleep-apnea-business",
+    "published_at": "2026-09-22T19:19:49+00:00",
+    "fetched_at": "2026-09-22T17:15:05.985190+00:00"
+  },
+  {
+    "title": "Pioneering Bioinspired Robotics and Sustainability",
+    "summary": "Roboticist Barbara Mazzolai advocates for a new field of sustainability robotics to reduce technology's environmental footprint.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+    "published_at": "2026-09-22T14:00:04+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205930+00:00"
+  },
+  {
+    "title": "UK Construction Sector Lacks Understanding of Chalk Foundations",
+    "summary": "Attendees at the John Mitchell lecture heard that the UK built environment sector still has lessons to learn about chalk foundations.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/ice/industry-still-has-lessons-to-learn-about-chalk-foundations-22-09-2026/",
+    "published_at": "2026-09-22T13:24:23+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205942+00:00"
+  },
+  {
+    "title": "ICE Launches New Careers App for Students",
+    "summary": "The ICE has launched a mobile app to help civil engineering and infrastructure students navigate their career journeys.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/ice/ice-launches-careers-app-for-civil-engineering-students-22-09-2026/",
+    "published_at": "2026-09-22T13:19:50+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205948+00:00"
+  },
+  {
+    "title": "Scientists Watch Sound Jump Between Quantum States",
+    "summary": "Stanford researchers recorded the first real-time quantum jumps of sound, watching single phonons abruptly vanish between energy states.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
+    "published_at": "2026-09-22T13:17:20+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205954+00:00"
+  },
+  {
+    "title": "New Concrete Mix is Stronger and Absorbs CO2",
+    "summary": "Researchers developed a concrete mixture using zeolite and bamboo biochar that increases strength and captures carbon dioxide.",
+    "category": "Civil & Infrastructure",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260921081105.htm",
+    "published_at": "2026-09-22T11:46:55+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205959+00:00"
+  },
+  {
+    "title": "AI Workloads Force a Rethink of Power Delivery",
+    "summary": "Delivering enough power quickly and consistently to complex AI systems presents a major design challenge.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/why-ai-is-forcing-a-rethink-of-power-delivery-2026-09/",
+    "published_at": "2026-09-22T11:00:56+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205965+00:00"
+  },
+  {
+    "title": "Siemens Named Leader in Gartner AIoT Platforms Magic Quadrant",
+    "summary": "Siemens' Insights Hub combines industrial data with AI-driven workflows to support asset availability and sustainability.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-named-a-leader-in-gartner-aiot-platforms-magic-quadrant/",
+    "published_at": "2026-09-22T10:21:19+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205970+00:00"
+  },
+  {
+    "title": "Google Unveils Premium Googlebooks Laptops",
+    "summary": "Google introduced a new lineup of laptops designed to pair with Android phones and provide easy access to AI services.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/laptops/googlebook-google-android/",
+    "published_at": "2026-09-22T10:15:10+00:00",
+    "fetched_at": "2026-09-22T17:13:30.205974+00:00"
+  },
+  {
     "title": "FCT Flex Assembly Detects Leaks in Liquid-Cooled Systems",
     "summary": "FCT introduced a flex assembly supporting custom sensing patterns and detection zones for liquid-cooled systems.",
     "category": "Electronics & Semiconductors",
@@ -43,6 +124,15 @@
     "source_url": "https://www.semanticscholar.org/paper/e406cde36a4af7838bbeea284c204c562eaaff5d",
     "published_at": "2026-09-22T00:00:00+00:00",
     "fetched_at": "2026-09-21T17:37:07.941573+00:00"
+  },
+  {
+    "title": "Improved Machine Learning QFD Method for Product Design",
+    "summary": "Researchers developed an improved machine learning-based quality function deployment method integrating LDA, rough numbers, ACO, and PROMETHEE to optimize product design prioritization.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/539e3edc26a1d3fee4e87b9240053e614edb9949",
+    "published_at": "2026-09-22T00:00:00+00:00",
+    "fetched_at": "2026-09-22T17:15:05.985181+00:00"
   },
   {
     "title": "Detecting Hardware Trojans in Synthesized Gate-Level Netlists",
@@ -178,95 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.24868v1",
     "published_at": "2026-09-21T16:37:50+00:00",
     "fetched_at": "2026-09-22T08:59:03.438203+00:00"
-  },
-  {
-    "title": "Path Planning for LTL Specifications with Visit Proportions",
-    "summary": "Researchers proposed a path-planning approach that satisfies linear temporal logic specifications while maintaining a desired long-run visit proportion.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24865v1",
-    "published_at": "2026-09-21T16:36:48+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438208+00:00"
-  },
-  {
-    "title": "SE(3) Neural Potential Fields for 6-DoF Trajectory Planning",
-    "summary": "A new method learns SE(3) potential fields directly from posed RGB images to generate collision-free 6-DoF grasp trajectories without explicit 3D reconstruction.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24864v1",
-    "published_at": "2026-09-21T16:35:57+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438213+00:00"
-  },
-  {
-    "title": "Range-Aided SLAM Initialization Using Accurate Heading Data",
-    "summary": "A two-step initialization method for range-aided simultaneous localization and mapping utilizes accurate heading information to estimate transponder and AUV positions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24846v1",
-    "published_at": "2026-09-21T16:24:26+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438218+00:00"
-  },
-  {
-    "title": "Collision-Aware Assembly Framework for Construction Robots",
-    "summary": "A single factor graph framework combines trajectory estimation and planning with collision and cable constraints to coordinate multi-robot construction tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24841v1",
-    "published_at": "2026-09-21T16:20:57+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438223+00:00"
-  },
-  {
-    "title": "Predictive Action Diffusion Policy for Onboard Humanoid Control",
-    "summary": "PredActor uses predictive action diffusion on an onboard computer to jointly generate executable actions and future-state trajectories for humanoid control.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24840v1",
-    "published_at": "2026-09-21T16:20:25+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438228+00:00"
-  },
-  {
-    "title": "Minimum Time Trajectories for Car-Like Robots with Non-Sliding Constraints",
-    "summary": "Researchers formulated non-sliding wheel constraints based on robot dynamics to determine time-optimal trajectories and path primitives for car-like mobile robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24832v1",
-    "published_at": "2026-09-21T16:16:17+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438232+00:00"
-  },
-  {
-    "title": "Graph Neural Automata Clustering via Local Cell Interactions",
-    "summary": "Graph Neural Automata Clustering is an unsupervised clustering method that evolves latent domain states through local interactions on a neighborhood graph.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24823v1",
-    "published_at": "2026-09-21T16:11:47+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438238+00:00"
-  },
-  {
-    "title": "Hyperspectral Characterization of RGB-to-S/P Ratio for Displays",
-    "summary": "Researchers evaluated a closed-form RGB-to-S/P luminance ratio estimator on natural broadband scenes using hyperspectral imagery and found it achieves low median error when chromatically adapted.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24819v1",
-    "published_at": "2026-09-21T16:10:29+00:00",
-    "fetched_at": "2026-09-22T08:59:07.567064+00:00"
-  },
-  {
-    "title": "Uranus Simulation Infrastructure for Embodied AI",
-    "summary": "Uranus is a data-driven robot simulator utilizing an autoregressive diffusion model to generate streaming latent frames for multi-view robot control at 24 FPS.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24815v1",
-    "published_at": "2026-09-21T16:06:16+00:00",
-    "fetched_at": "2026-09-22T08:59:07.567073+00:00"
-  },
-  {
-    "title": "Fast Time-Varying Exponentiated Convolution for Spatial Audio",
-    "summary": "A new convolution method transforms Gaussian noise and impulse responses into reverberation fields and modified spectral-decay fields for spatial audio reproduction.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24809v1",
-    "published_at": "2026-09-21T16:03:27+00:00",
-    "fetched_at": "2026-09-22T08:59:07.567079+00:00"
   }
 ]
