@@ -1,5 +1,32 @@
 [
   {
+    "title": "FCT Flex Assembly Detects Leaks in Liquid-Cooled Systems",
+    "summary": "FCT introduced a flex assembly supporting custom sensing patterns and detection zones for liquid-cooled systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/fct-flex-assembly-detects-leaks-in-liquid-cooled-systems/",
+    "published_at": "2026-09-22T07:22:36+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462349+00:00"
+  },
+  {
+    "title": "Chip Industry Technical Paper Roundup Released",
+    "summary": "A technical paper roundup highlights recent research on AI thermal modeling, chiplet co-design, and LLM EDA orchestration.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-22/",
+    "published_at": "2026-09-22T07:01:29+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462362+00:00"
+  },
+  {
+    "title": "DfT Sets Framework for Great British Railway's 30-Year Rail Plan",
+    "summary": "The UK Department for Transport published a briefing paper outlining a 30-year rail strategy to guide future investment.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/dft-sets-out-framework-for-great-british-railways-30-year-rail-plan-22-09-2026/",
+    "published_at": "2026-09-22T05:30:05+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462368+00:00"
+  },
+  {
     "title": "Report Analyzes US STEM Talent Pipeline and Global Competitiveness",
     "summary": "A comprehensive index combining decades of data assesses how the United States develops, attracts, deploys, and retains its STEM workforce.",
     "category": "Other Engineering",
@@ -18,6 +45,123 @@
     "fetched_at": "2026-09-21T17:37:07.941573+00:00"
   },
   {
+    "title": "Detecting Hardware Trojans in Synthesized Gate-Level Netlists",
+    "summary": "Researchers proposed LoRD, a lightweight heuristic-based approach to detect hardware Trojans in synthesized gate-level netlists.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/detecting-hardware-trojans-in-synthesized-gate-level-netlists-uw-madison-marist/",
+    "published_at": "2026-09-21T23:21:18+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462372+00:00"
+  },
+  {
+    "title": "Concurrent HBM and Host Memory Access Accelerates LLM Inference",
+    "summary": "Researchers presented BOOST, a runtime system enabling concurrent access to host memory and HBM to improve LLM inference throughput.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/concurrent-hbm-and-host-memory-access-improves-llm-inference-throughput-georgia-tech-nvidia-stanford/",
+    "published_at": "2026-09-21T23:13:37+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462377+00:00"
+  },
+  {
+    "title": "UCLA Researchers Explore LLM Agents for High-Level Chip Design",
+    "summary": "A published paper explores whether LLM agents can design better chips by operating at higher levels of abstraction using HLS.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/can-agents-design-better-chips-when-operating-at-a-higher-level-of-abstraction-using-hls-ucla/",
+    "published_at": "2026-09-21T22:59:48+00:00",
+    "fetched_at": "2026-09-22T08:58:55.462381+00:00"
+  },
+  {
+    "title": "Multiple Orbital Launches Scheduled",
+    "summary": "A total of five orbital launches are scheduled this week, featuring Electron, Falcon 9, and Starship.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/launch-preview-092126/",
+    "published_at": "2026-09-21T21:01:41+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118680+00:00"
+  },
+  {
+    "title": "Prosthetics and Haptic Feedback Interfaces",
+    "summary": "Researcher Jeremy Brown discusses ongoing work developing haptic feedback interfaces for upper-limb prosthetics, rehabilitation, and surgical robotics.",
+    "category": "Biomedical",
+    "source_name": "NSF",
+    "source_url": "https://www.nsf.gov/news/podcast-can-prosthetic-limbs-feel-touch-haptic-feedback",
+    "published_at": "2026-09-21T20:47:33+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118690+00:00"
+  },
+  {
+    "title": "Singapore Advances Quantum Technologies Hub",
+    "summary": "Singapore is establishing a regional hub for quantum technologies driven by government funding and commercial focus.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
+    "published_at": "2026-09-21T20:00:00+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118695+00:00"
+  },
+  {
+    "title": "Senate Passes Hydropower Relicensing Act",
+    "summary": "The U.S. Senate has passed the Hydropower Relicensing Transparency Act to improve efficiency in hydropower licensing.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/hydropower-licensing-needs-a-refresh-could-this-new-bill-do-the-job/",
+    "published_at": "2026-09-21T19:09:03+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118700+00:00"
+  },
+  {
+    "title": "Unimore Racing Wins Autonomous Challenge",
+    "summary": "Unimore Racing won the Indy Autonomous Challenge at Laguna Seca, featuring the event's first autonomous car overtakes on a road course.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+    "published_at": "2026-09-21T18:02:09+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118704+00:00"
+  },
+  {
+    "title": "GLIDE Framework Improves Robot Learning",
+    "summary": "Researchers proposed GLIDE, a framework that infers task-specific failure modes to create guardrails for robot behavior cloning without human demonstrations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24996v1",
+    "published_at": "2026-09-21T17:58:49+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118709+00:00"
+  },
+  {
+    "title": "MIGU Framework for Multimodal Instruction",
+    "summary": "MIGU combines semantic and geometric evidence into a unified grounding belief to improve robot manipulation planning under uncertainty.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24995v1",
+    "published_at": "2026-09-21T17:58:22+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118713+00:00"
+  },
+  {
+    "title": "In-Silico Study Evaluates VAD Controller",
+    "summary": "An in-silico study demonstrates that a new integrated system architecture for ventricular assist devices improves physiological regulation and mitigates adverse events.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24966v1",
+    "published_at": "2026-09-21T17:52:21+00:00",
+    "fetched_at": "2026-09-22T08:58:59.118717+00:00"
+  },
+  {
+    "title": "Robotic Pruning in Orchards via Hybrid Reinforcement Learning",
+    "summary": "Researchers developed a visuomotor robotic pruning controller for planar fruit orchards trained entirely in simulation and transferred zero-shot to physical trials.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24906v1",
+    "published_at": "2026-09-21T17:09:58+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438186+00:00"
+  },
+  {
+    "title": "Modular Design Framework Enables Steerable and Reactive Grasping",
+    "summary": "A new framework combines geometric heatmap sampling, model-based reactive control, and reinforcement learning to achieve stable dexterous grasping across objects.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24896v1",
+    "published_at": "2026-09-21T17:02:03+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438197+00:00"
+  },
+  {
     "title": "Exolaunch and Space Cargo Book Starship Starfall Missions",
     "summary": "Exolaunch and Space Cargo have booked missions on SpaceX's Starship utilizing the Starfall reentry capsule.",
     "category": "Aerospace",
@@ -27,102 +171,102 @@
     "fetched_at": "2026-09-21T17:37:07.941585+00:00"
   },
   {
-    "title": "Semtech Launches 224G TIAs and Drivers for Datacentres",
-    "summary": "Semtech introduced a family of 224G linear transimpedance amplifiers and drivers at CIOE to support near-packaged and co-packaged optics architectures.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/semtech-pushes-on-with-npo-and-cpo-for-datacentres-2026-09/",
-    "published_at": "2026-09-21T15:21:39+00:00",
-    "fetched_at": "2026-09-21T17:37:07.941592+00:00"
-  },
-  {
-    "title": "New Process Converts Plastic Waste Into Fuel",
-    "summary": "Scientists at Oak Ridge National Laboratory used molten salts to break down polyethylene plastic into gasoline and diesel-like fuels.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
-    "published_at": "2026-09-21T13:08:40+00:00",
-    "fetched_at": "2026-09-21T17:37:07.941596+00:00"
-  },
-  {
-    "title": "Scaling Physical AI and Edge Robotics",
-    "summary": "Scaling vision-language-action robotics demands optimized inference, heterogeneous compute, and real-time control on edge hardware.",
+    "title": "Dual-System World Action Models Speed Up Robot Control",
+    "summary": "A dual-system world action model decouples global planning from local refinement to deliver high-frequency closed-loop action updates and faster execution.",
     "category": "Robotics",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/scaling-physical-ai-deployment-beyond-the-demo/",
-    "published_at": "2026-09-21T13:00:00+00:00",
-    "fetched_at": "2026-09-21T17:37:23.779848+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24868v1",
+    "published_at": "2026-09-21T16:37:50+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438203+00:00"
   },
   {
-    "title": "Needle-Thin Multi-Function Brain Implant",
-    "summary": "Researchers created a flexible, needle-thin brain implant capable of recording neural activity, delivering drugs, and stimulating multiple regions.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222416.htm",
-    "published_at": "2026-09-21T12:25:22+00:00",
-    "fetched_at": "2026-09-21T17:37:23.779858+00:00"
+    "title": "Path Planning for LTL Specifications with Visit Proportions",
+    "summary": "Researchers proposed a path-planning approach that satisfies linear temporal logic specifications while maintaining a desired long-run visit proportion.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24865v1",
+    "published_at": "2026-09-21T16:36:48+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438208+00:00"
   },
   {
-    "title": "CXMT Expands into NAND Flash",
-    "summary": "DRAM specialist CXMT is moving into NAND flash to capitalize on AI-driven storage shortages.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/",
-    "published_at": "2026-09-21T11:58:25+00:00",
-    "fetched_at": "2026-09-21T17:37:23.779863+00:00"
+    "title": "SE(3) Neural Potential Fields for 6-DoF Trajectory Planning",
+    "summary": "A new method learns SE(3) potential fields directly from posed RGB images to generate collision-free 6-DoF grasp trajectories without explicit 3D reconstruction.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24864v1",
+    "published_at": "2026-09-21T16:35:57+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438213+00:00"
   },
   {
-    "title": "Gran Sasso Experiment Tests Gravity Quantum Theory",
-    "summary": "Physicists found no evidence of a predicted radiation signal linking gravity fluctuations to the decay of quantum superpositions.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260920222350.htm",
-    "published_at": "2026-09-21T09:24:50+00:00",
-    "fetched_at": "2026-09-21T17:37:23.779868+00:00"
+    "title": "Range-Aided SLAM Initialization Using Accurate Heading Data",
+    "summary": "A two-step initialization method for range-aided simultaneous localization and mapping utilizes accurate heading information to estimate transponder and AUV positions.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24846v1",
+    "published_at": "2026-09-21T16:24:26+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438218+00:00"
   },
   {
-    "title": "Leaders Discuss Structural Shifts for Airport Infrastructure Delivery",
-    "summary": "Infrastructure and aviation leaders gathered to debate how new methodologies and collaboration can benefit airport delivery.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/sponsored/debate-airport-delivery-will-benefit-from-structural-shifts-and-a-new-mindset-21-09-2026/",
-    "published_at": "2026-09-21T03:00:04+00:00",
-    "fetched_at": "2026-09-21T09:27:23.076894+00:00"
+    "title": "Collision-Aware Assembly Framework for Construction Robots",
+    "summary": "A single factor graph framework combines trajectory estimation and planning with collision and cable constraints to coordinate multi-robot construction tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24841v1",
+    "published_at": "2026-09-21T16:20:57+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438223+00:00"
   },
   {
-    "title": "Defining Human Driver Digital Twins and Engineering Challenges",
-    "summary": "Researchers explore the definitions, use cases, and engineering challenges associated with Human Driver Digital Twins in the automotive domain.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/af23dd893d7b83183d8cfb239563552f4073e70f",
-    "published_at": "2026-09-20T00:00:00+00:00",
-    "fetched_at": "2026-09-20T08:56:02.686977+00:00"
+    "title": "Predictive Action Diffusion Policy for Onboard Humanoid Control",
+    "summary": "PredActor uses predictive action diffusion on an onboard computer to jointly generate executable actions and future-state trajectories for humanoid control.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24840v1",
+    "published_at": "2026-09-21T16:20:25+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438228+00:00"
   },
   {
-    "title": "Agentic AI Automates Design-Rule Repair for Chips",
-    "summary": "Purdue University researchers developed a closed-loop agentic framework that automates local design-rule corrections while preserving layout equivalence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/agentic-ai-automates-design-rule-repair-while-preserving-layout-equivalence/",
-    "published_at": "2026-09-19T20:01:40+00:00",
-    "fetched_at": "2026-09-20T08:56:02.686989+00:00"
+    "title": "Minimum Time Trajectories for Car-Like Robots with Non-Sliding Constraints",
+    "summary": "Researchers formulated non-sliding wheel constraints based on robot dynamics to determine time-optimal trajectories and path primitives for car-like mobile robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24832v1",
+    "published_at": "2026-09-21T16:16:17+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438232+00:00"
   },
   {
-    "title": "Unified Chiplet Network Scales Neuromorphic Systems",
-    "summary": "Heidelberg University researchers presented a unified interconnection network for chiplet-based scaling of neuromorphic computing systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/unified-chiplet-network-scales-neuromorphic-computing-systems-heidelberg-university/",
-    "published_at": "2026-09-19T18:23:56+00:00",
-    "fetched_at": "2026-09-20T08:56:02.686994+00:00"
+    "title": "Graph Neural Automata Clustering via Local Cell Interactions",
+    "summary": "Graph Neural Automata Clustering is an unsupervised clustering method that evolves latent domain states through local interactions on a neighborhood graph.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24823v1",
+    "published_at": "2026-09-21T16:11:47+00:00",
+    "fetched_at": "2026-09-22T08:59:03.438238+00:00"
   },
   {
-    "title": "Bio-Inspired Approach Recovers Rare Earth Elements from Coal Ash",
-    "summary": "Scientists are utilizing diatoms, sea sponges, and plants for a cleaner method of recovering rare earth elements from industrial waste piles.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260918024759.htm",
-    "published_at": "2026-09-19T02:08:56+00:00",
-    "fetched_at": "2026-09-20T08:56:02.687000+00:00"
+    "title": "Hyperspectral Characterization of RGB-to-S/P Ratio for Displays",
+    "summary": "Researchers evaluated a closed-form RGB-to-S/P luminance ratio estimator on natural broadband scenes using hyperspectral imagery and found it achieves low median error when chromatically adapted.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24819v1",
+    "published_at": "2026-09-21T16:10:29+00:00",
+    "fetched_at": "2026-09-22T08:59:07.567064+00:00"
+  },
+  {
+    "title": "Uranus Simulation Infrastructure for Embodied AI",
+    "summary": "Uranus is a data-driven robot simulator utilizing an autoregressive diffusion model to generate streaming latent frames for multi-view robot control at 24 FPS.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24815v1",
+    "published_at": "2026-09-21T16:06:16+00:00",
+    "fetched_at": "2026-09-22T08:59:07.567073+00:00"
+  },
+  {
+    "title": "Fast Time-Varying Exponentiated Convolution for Spatial Audio",
+    "summary": "A new convolution method transforms Gaussian noise and impulse responses into reverberation fields and modified spectral-decay fields for spatial audio reproduction.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.24809v1",
+    "published_at": "2026-09-21T16:03:27+00:00",
+    "fetched_at": "2026-09-22T08:59:07.567079+00:00"
   }
 ]
