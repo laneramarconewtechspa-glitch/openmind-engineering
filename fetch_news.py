@@ -198,10 +198,9 @@ SOURCES = [
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/earth_climate/environmental_science.xml"},
     {"name": "MD+DI", "url": "https://www.mddionline.com/rss.xml"},
     {"name": "Drug Delivery Business News", "url": "https://www.drugdeliverybusiness.com/feed/"},
-    # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
-    # funzionante per la sezione Tech & Engineering (i pattern noti tornano
-    # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
-    # l'URL corretto, riattivala aggiungendo una riga come le altre qui sopra.
+    {"name": "Science Direct", "url": "https://www.sciencedirect.com/"},
+    {"name": "Pubs", "url": "https://pubs.acs.org/"},
+    {"name": "MDPI", "url": "https://www.mdpi.com/"},
     {
         "name": "arXiv",
         "url": (
