@@ -1,5 +1,86 @@
 [
   {
+    "title": "Fairfax 20' Tiny House Offers Budget Living",
+    "summary": "A recently completed compact tiny house named the Fairfax 20' provides single-floor living for under $35K.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/fairfax-20-updated-dragon-tiny-homes/",
+    "published_at": "2026-09-23T12:27:00+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808050+00:00"
+  },
+  {
+    "title": "RoboBusiness Keynote to Focus on Humanoid Robots",
+    "summary": "Industry leaders at RoboBusiness will discuss the transition of humanoid robots from demos to industrial deployments.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+    "published_at": "2026-09-23T12:25:11+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808091+00:00"
+  },
+  {
+    "title": "Lloyds Report Urges Smarter Risk-Sharing for UK Infrastructure",
+    "summary": "A new report from Lloyds Banking Group calls for improved collaboration and risk-sharing to build climate-resilient UK infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/smarter-risk-sharing-between-government-investors-and-asset-owners-needed-for-uks-ageing-infrastructure-23-09-2026/",
+    "published_at": "2026-09-23T11:54:56+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808097+00:00"
+  },
+  {
+    "title": "PATEO and Arm Partner for Automotive Physical AI",
+    "summary": "The companies are collaborating to examine AI workloads spanning perception, interaction, and computing platforms for vehicles.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/pateo-and-arm-explore-physical-ai-for-automotive-applications/",
+    "published_at": "2026-09-23T10:30:07+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808102+00:00"
+  },
+  {
+    "title": "UK Forms RAF Space Squadron to Protect Satellites",
+    "summary": "The UK has announced the formation of an RAF Space Squadron to defend British satellites and interests in space.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/raf-space-squadron-forms-to-defend-britains-satellites-2026-09/",
+    "published_at": "2026-09-23T10:13:55+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808108+00:00"
+  },
+  {
+    "title": "Gas Leak Disrupts Rail Services in Oxfordshire",
+    "summary": "SGN engineers worked overnight after a major gas leak in Didcot disrupted rail services between Reading and Swindon.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/engineers-worked-throughout-the-night-after-major-gas-leak-disrupts-rail-services-between-reading-and-swindon-23-09-2026/",
+    "published_at": "2026-09-23T09:58:22+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808112+00:00"
+  },
+  {
+    "title": "Details Released on AWE Future Materials Campus",
+    "summary": "The UK government revealed more information regarding the Atomic Weapons Establishment's planned Future Materials Campus infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/further-details-released-about-atomic-weapons-establishments-future-materials-campus-23-09-2026/",
+    "published_at": "2026-09-23T09:28:14+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808117+00:00"
+  },
+  {
+    "title": "UKSA Funds Filtronic for Satellite Ground Networks",
+    "summary": "Filtronic received UK Space Agency funding to develop next-generation RF over IP technology for digital satellite ground networks.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/uksa-backs-filtronic-to-develop-rf-over-ip-for-digital-satellite-ground-networks-2026-09/",
+    "published_at": "2026-09-23T09:26:48+00:00",
+    "fetched_at": "2026-09-23T16:38:27.808121+00:00"
+  },
+  {
+    "title": "HS2 Seeks 10-Year Professional Services Partnering Deal",
+    "summary": "HS2 Ltd is seeking market views for professional services to support the later phases of the high-speed rail programme.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/hs2-seeks-10-year-professional-services-deal-as-programme-transitions-from-civils-23-09-2026/",
+    "published_at": "2026-09-23T08:28:50+00:00",
+    "fetched_at": "2026-09-23T16:38:58.072646+00:00"
+  },
+  {
     "title": "North Sea Energy Transition Window Narrowed",
     "summary": "The North Sea Transition Taskforce reports that the window for a successful energy transition in the UK Continental Shelf has narrowed.",
     "category": "Energy",
@@ -187,86 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.26580v1",
     "published_at": "2026-09-22T15:27:23+00:00",
     "fetched_at": "2026-09-23T09:03:15.511495+00:00"
-  },
-  {
-    "title": "Learning-Based Control for Air-Ground Bimodal Vehicles",
-    "summary": "A new framework integrates a learned mode selector and a reinforcement learning policy for robust air-ground motion control and cross-terrain tracking.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26564v1",
-    "published_at": "2026-09-22T15:16:59+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511499+00:00"
-  },
-  {
-    "title": "Positive Real Synthesis for Sixth-Order Interval Polynomials",
-    "summary": "Researchers provided a constructive proof that every Hurwitz-stable sixth-order interval polynomial family admits a real numerator for strict positive realness.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26541v1",
-    "published_at": "2026-09-22T14:58:24+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511504+00:00"
-  },
-  {
-    "title": "Finite-Horizon Robustness Analysis via Signal-IQCs",
-    "summary": "A new worst-case analysis framework combines bounded signals and partially known disturbances using signal integral-quadratic constraints for finite-horizon systems.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26526v1",
-    "published_at": "2026-09-22T14:51:40+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511508+00:00"
-  },
-  {
-    "title": "LPV Controller Streamlines Spacecraft Mode Transitions",
-    "summary": "A single linear parameter-varying controller improves transient behavior and simplifies verification for spacecraft mode transitions.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26514v1",
-    "published_at": "2026-09-22T14:41:53+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511512+00:00"
-  },
-  {
-    "title": "Plug-and-Play Stability Certificates Using Black-Box Models",
-    "summary": "Decentralized plug-and-play stability certificates are derived using black-box admittance spectra without requiring white-box device models.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26510v1",
-    "published_at": "2026-09-22T14:40:26+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511515+00:00"
-  },
-  {
-    "title": "Pioneering Bioinspired Robotics and Sustainability",
-    "summary": "Roboticist Barbara Mazzolai advocates for a new field of sustainability robotics to reduce technology's environmental footprint.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
-    "published_at": "2026-09-22T14:00:04+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205930+00:00"
-  },
-  {
-    "title": "UK Construction Sector Lacks Understanding of Chalk Foundations",
-    "summary": "Attendees at the John Mitchell lecture heard that the UK built environment sector still has lessons to learn about chalk foundations.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/ice/industry-still-has-lessons-to-learn-about-chalk-foundations-22-09-2026/",
-    "published_at": "2026-09-22T13:24:23+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205942+00:00"
-  },
-  {
-    "title": "ICE Launches New Careers App for Students",
-    "summary": "The ICE has launched a mobile app to help civil engineering and infrastructure students navigate their career journeys.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/ice/ice-launches-careers-app-for-civil-engineering-students-22-09-2026/",
-    "published_at": "2026-09-22T13:19:50+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205948+00:00"
-  },
-  {
-    "title": "Scientists Watch Sound Jump Between Quantum States",
-    "summary": "Stanford researchers recorded the first real-time quantum jumps of sound, watching single phonons abruptly vanish between energy states.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
-    "published_at": "2026-09-22T13:17:20+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205954+00:00"
   }
 ]
