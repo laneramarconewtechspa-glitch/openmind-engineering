@@ -336,6 +336,96 @@
   setInterval(loadFlash, REFRESH_MINUTES * 60 * 1000);
 
   /* ---------------------------------------------------------------- */
+  /* Indicatori live (cover) + pannello "BITL Score"                    */
+  /* ---------------------------------------------------------------- */
+
+  const STATS_FILE = "stats.json";
+  let statsData = { articles_analyzed: 0, sources: [], categories: [] };
+
+  const bitlInfoBtn = document.getElementById("bitl-info-btn");
+  const statEls = {
+    articles: document.getElementById("stat-articles"),
+    sources: document.getElementById("stat-sources"),
+    categories: document.getElementById("stat-categories"),
+  };
+
+  // Effetto "slot machine": il numero sale da 0 al valore vero invece di
+  // comparire di colpo — è l'unico scopo dell'animazione, il dato sotto
+  // resta sempre quello reale letto da stats.json.
+  function animateStatValue(el, target) {
+    if (!el) return;
+    target = Math.max(0, Math.round(Number(target) || 0));
+    if (REDUCED_MOTION || target === 0) { el.textContent = String(target); return; }
+    const duration = 1100;
+    const start = performance.now();
+    function tick(now) {
+      const p = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - p, 3); // ease-out: parte veloce, rallenta in fondo come uno slot vero
+      el.textContent = String(Math.round(eased * target));
+      if (p < 1) requestAnimationFrame(tick);
+      else el.textContent = String(target);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function renderStats() {
+    animateStatValue(statEls.articles, statsData.articles_analyzed);
+    animateStatValue(statEls.sources, statsData.sources.length);
+    animateStatValue(statEls.categories, statsData.categories.length);
+  }
+
+  async function loadStats() {
+    try {
+      const res = await fetch(STATS_FILE, { cache: "no-store" });
+      if (!res.ok) throw new Error("stats.json non disponibile");
+      const data = await res.json();
+      statsData = {
+        articles_analyzed: Number(data.articles_analyzed) || 0,
+        sources: Array.isArray(data.sources) ? data.sources : [],
+        categories: Array.isArray(data.categories) ? data.categories : [],
+      };
+    } catch (err) {
+      // Opzionale (es. repo appena creato, prima ancora del primo sync):
+      // gli indicatori restano a 0, nessun errore visibile.
+      statsData = { articles_analyzed: 0, sources: [], categories: [] };
+    }
+    renderStats();
+  }
+
+  const BITL_WEIGHTS = [
+    ["Evidence", "25%"], ["Applicability", "20%"], ["Impact", "15%"],
+    ["Cross-domain", "15%"], ["Feasibility", "15%"], ["Maturity", "5%"], ["Momentum", "5%"],
+  ];
+
+  function createBitlInfoHTML() {
+    const sourcesHTML = statsData.sources.length
+      ? statsData.sources.map((s) => `<li>${escapeHTML(s)}</li>`).join("")
+      : `<li>${escapeHTML("Loading…")}</li>`;
+    const categoriesHTML = statsData.categories.map((c) => `<li>${escapeHTML(c)}</li>`).join("");
+    const weightsHTML = BITL_WEIGHTS.map(([label, pct]) => `<li><span>${escapeHTML(label)}</span><span>${escapeHTML(pct)}</span></li>`).join("");
+
+    return `
+      <p class="bitl-info-lead">The <strong>BITL Score</strong> — "Be In The Loop" — ranks every story from 0 to 100, so the ones on screen are the ones actually worth your time.</p>
+      <p class="bitl-info-text">Each article is scored by an AI reviewer on seven checks, then combined into one weighted number — never picked by hand, always recomputed the same way:</p>
+      <ul class="bitl-weights">${weightsHTML}</ul>
+      <p class="bitl-info-text">Evidence and real-world applicability count the most: a flashy claim with nothing to back it up scores low, however exciting it sounds.</p>
+      <h3 class="bitl-info-heading">Sources monitored (${statsData.sources.length})</h3>
+      <ul class="bitl-source-list">${sourcesHTML}</ul>
+      <h3 class="bitl-info-heading">Categories tracked (${statsData.categories.length})</h3>
+      <ul class="bitl-source-list">${categoriesHTML}</ul>
+    `;
+  }
+
+  if (bitlInfoBtn) {
+    bitlInfoBtn.addEventListener("click", () => {
+      document.querySelectorAll(".neuron").forEach((el) => el.classList.remove("selected"));
+      openPanel("THE BITL SCORE", createBitlInfoHTML());
+    });
+  }
+
+  loadStats();
+
+  /* ---------------------------------------------------------------- */
   /* Apertura rete                                                     */
   /* ---------------------------------------------------------------- */
 
@@ -643,17 +733,28 @@
   /* Dettaglio                                                          */
   /* ---------------------------------------------------------------- */
 
-  function openDetail(paper, cardEl) {
-    document.querySelectorAll(".neuron").forEach((el) => el.classList.remove("selected"));
-    if (cardEl) cardEl.classList.add("selected");
+  const detailPanelKicker = document.getElementById("detail-panel-kicker");
 
-    detailContent.setAttribute("data-category", paper.category);
-    detailContent.innerHTML = createDetailHTML(paper);
+  // Pannello laterale generico: lo stesso identico markup/animazione serve
+  // sia per il dettaglio di un articolo sia per il pannello "BITL Score" —
+  // un solo posto dove gestire apertura/chiusura/focus/scroll-lock invece
+  // di due pannelli quasi identici duplicati.
+  function openPanel(kickerText, contentHTML, category) {
+    detailPanelKicker.textContent = kickerText;
+    if (category) detailContent.setAttribute("data-category", category);
+    else detailContent.removeAttribute("data-category");
+    detailContent.innerHTML = contentHTML;
     detailPanel.classList.add("visible");
     detailOverlay.classList.add("visible");
     detailPanel.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
     detailClose.focus();
+  }
+
+  function openDetail(paper, cardEl) {
+    document.querySelectorAll(".neuron").forEach((el) => el.classList.remove("selected"));
+    if (cardEl) cardEl.classList.add("selected");
+    openPanel("RESEARCH PAPER", createDetailHTML(paper), paper.category);
   }
 
   function closeDetail() {
