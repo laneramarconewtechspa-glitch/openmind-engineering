@@ -1,5 +1,59 @@
 [
   {
+    "title": "North Sea Energy Transition Window Narrowed",
+    "summary": "The North Sea Transition Taskforce reports that the window for a successful energy transition in the UK Continental Shelf has narrowed.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/window-for-successful-north-sea-energy-transition-narrowed-says-taskforce-23-09-2026/",
+    "published_at": "2026-09-23T07:46:38+00:00",
+    "fetched_at": "2026-09-23T09:02:55.818885+00:00"
+  },
+  {
+    "title": "Chip Turf War Brews in China",
+    "summary": "China's semiconductor industry faces increasing competition as CXMT enters the NAND market and YMTC expands into new areas.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/chip-turf-war-in-china-2026-09/",
+    "published_at": "2026-09-23T05:16:31+00:00",
+    "fetched_at": "2026-09-23T09:02:55.818900+00:00"
+  },
+  {
+    "title": "Alibaba Unveils Zhenwu V900 AI Processor",
+    "summary": "Alibaba's chip unit T-Head previewed its most powerful AI processor for training and inference, with production slated for Q1 2027.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/alibaba-announces-its-most-powerful-ai-processor-yet-2026-09/",
+    "published_at": "2026-09-23T05:15:38+00:00",
+    "fetched_at": "2026-09-23T09:02:58.992007+00:00"
+  },
+  {
+    "title": "2025 DRAM Module Market Grew 59%",
+    "summary": "TrendForce reports that the global DRAM module market grew 59 percent year-over-year in 2025 to reach $21.2 billion.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/dram-module-suppliers-2026-09/",
+    "published_at": "2026-09-23T05:11:03+00:00",
+    "fetched_at": "2026-09-23T09:02:58.992015+00:00"
+  },
+  {
+    "title": "Three Firms Unite Into Medical Device Organization",
+    "summary": "MRPC, PDC, and Injectech are combining precision molding, silicone, and fluid management capabilities under a unified brand in early 2027.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/ma/mrpc-pdc-and-injectech-unite-as-one-medical-device-manufacturing-organization",
+    "published_at": "2026-09-22T19:35:34+00:00",
+    "fetched_at": "2026-09-23T09:02:58.992022+00:00"
+  },
+  {
+    "title": "Google Finances Nuclear Uprates in Georgia",
+    "summary": "Georgia Power and Google agreed to uprate nuclear units at Plants Vogtle and Hatch to add 96 MW of capacity, pending approval.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/google-to-pay-for-nuclear-uprates-at-georgia-powers-hatch-vogtle-plants/",
+    "published_at": "2026-09-22T19:21:58+00:00",
+    "fetched_at": "2026-09-23T09:02:58.992026+00:00"
+  },
+  {
     "title": "GLP-1 Drugs Boost ResMed Sleep Apnea Therapy Adherence",
     "summary": "ResMed data shows that GLP-1 weight loss drugs are unexpectedly driving higher CPAP therapy adherence rates.",
     "category": "Biomedical",
@@ -7,6 +61,177 @@
     "source_url": "https://www.mddionline.com/business/from-headwind-to-tailwind-how-glp-1s-are-unexpectedly-benefiting-resmed-s-sleep-apnea-business",
     "published_at": "2026-09-22T19:19:49+00:00",
     "fetched_at": "2026-09-22T17:15:05.985190+00:00"
+  },
+  {
+    "title": "DOE Allocates $99M for Geothermal Projects",
+    "summary": "The U.S. Department of Energy announced over $99 million for 21 geothermal energy projects across the United States to advance technology and exploration.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/new-project-development/doe-targets-next-gen-geothermal-development-with-99m-for-field-scale-tests-exploration-drilling/",
+    "published_at": "2026-09-22T19:16:37+00:00",
+    "fetched_at": "2026-09-23T09:03:01.565718+00:00"
+  },
+  {
+    "title": "Wafer-Scale Sub-5nm MoS2 Transistors Developed",
+    "summary": "Researchers reported monolayer MoS2 transistors with physical channel lengths below 5 nm, achieving subthreshold performance beyond the silicon limit.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/wafer-scale-sub-5nm-channel-monolayer-mos2-transistors-cmu-uf-mit-et-al/",
+    "published_at": "2026-09-22T17:51:42+00:00",
+    "fetched_at": "2026-09-23T09:03:01.565729+00:00"
+  },
+  {
+    "title": "Thermal Visual Place Recognition via Analytic Online Adaptation",
+    "summary": "A novel framework integrates analytic class-incremental learning with domain-invariant visual place recognition to achieve robust real-time SLAM localization.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26766v1",
+    "published_at": "2026-09-22T17:46:31+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073320+00:00"
+  },
+  {
+    "title": "Single-Sensor Underwater Navigation in Unsteady Flows",
+    "summary": "Researchers demonstrated a causal observer using finite flow histories from a single sensing unit to aid underwater navigation in wake simulations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26753v1",
+    "published_at": "2026-09-22T17:34:33+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073329+00:00"
+  },
+  {
+    "title": "Bilevel Optimization for Multi-Agent Incentive Design",
+    "summary": "A new framework and algorithm use side payments to align independent agent behaviors with a leader's objective in multi-agent systems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26726v1",
+    "published_at": "2026-09-22T17:13:21+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073335+00:00"
+  },
+  {
+    "title": "Designing Multi-kW Power Delivery in 3D Integrated Systems",
+    "summary": "University of Minnesota researchers published a technical paper addressing multi-kW power delivery methodologies for advanced 3D heterogeneous integration.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/designing-multi-kw-power-delivery-for-advanced-3d-chiplet-systems/",
+    "published_at": "2026-09-22T17:09:41+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073340+00:00"
+  },
+  {
+    "title": "GPUThor Attack Amplifies Rowhammer on Protected GPUs",
+    "summary": "University of Toronto researchers developed GPUThor, a high-intensity Rowhammer attack that exploits non-uniform hammering patterns on ECC-protected NVIDIA GPUs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/high-intensity-rowhammer-attack-on-gpus-leveraging-non-uniform-hammering-u-of-toronto/",
+    "published_at": "2026-09-22T16:30:25+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073344+00:00"
+  },
+  {
+    "title": "Canadian Startup Achieves Space Qualification Success",
+    "summary": "Novigrad has advanced faster and more accessible radiation testing to meet the growing demand for reliable electronics in space missions.",
+    "category": "Aerospace",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/canadian-startup-sees-success-in-space-qualification/",
+    "published_at": "2026-09-22T16:21:10+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073348+00:00"
+  },
+  {
+    "title": "Deep Learning Segmentation of Laryngeal Structures",
+    "summary": "U-Net models trained on high-speed videoendoscopy data achieved high accuracy in segmenting laryngeal tissues during connected speech and vowel phonation.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26636v1",
+    "published_at": "2026-09-22T16:09:40+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073352+00:00"
+  },
+  {
+    "title": "Post-Hoc Conformal Prediction for Wireless Communications",
+    "summary": "A new statistical framework provides distribution-free reliability guarantees and estimates miscoverage probabilities for data-driven wireless applications.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26625v1",
+    "published_at": "2026-09-22T15:57:51+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073356+00:00"
+  },
+  {
+    "title": "Reduced Order Observers for Monocular Visual Inertial Odometry",
+    "summary": "A novel reduced order observer framework uses gravity and monocular bearing measurements to estimate body-frame velocity without landmark position estimation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26612v1",
+    "published_at": "2026-09-22T15:48:26+00:00",
+    "fetched_at": "2026-09-23T09:03:11.073360+00:00"
+  },
+  {
+    "title": "MoE Framework with Diffusion Models Secures 6G Networks",
+    "summary": "A mixture-of-experts framework using generative diffusion models provides robust cross-scenario physical layer security for future 6G networks.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26598v1",
+    "published_at": "2026-09-22T15:36:54+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511481+00:00"
+  },
+  {
+    "title": "Decentralized MPC Enables Docking with Tumbling Targets",
+    "summary": "Multiple small servicers use a decentralized model predictive control framework to rendezvous and dock safely with a tumbling target.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26593v1",
+    "published_at": "2026-09-22T15:35:08+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511490+00:00"
+  },
+  {
+    "title": "Deep Koopman MPC Automates Wheel Loader V-Cycles",
+    "summary": "A hierarchical framework combining geometric planning and deep Koopman models enables real-time autonomous wheel-loader V-cycle maneuvers.",
+    "category": "Mechanical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26580v1",
+    "published_at": "2026-09-22T15:27:23+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511495+00:00"
+  },
+  {
+    "title": "Learning-Based Control for Air-Ground Bimodal Vehicles",
+    "summary": "A new framework integrates a learned mode selector and a reinforcement learning policy for robust air-ground motion control and cross-terrain tracking.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26564v1",
+    "published_at": "2026-09-22T15:16:59+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511499+00:00"
+  },
+  {
+    "title": "Positive Real Synthesis for Sixth-Order Interval Polynomials",
+    "summary": "Researchers provided a constructive proof that every Hurwitz-stable sixth-order interval polynomial family admits a real numerator for strict positive realness.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26541v1",
+    "published_at": "2026-09-22T14:58:24+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511504+00:00"
+  },
+  {
+    "title": "Finite-Horizon Robustness Analysis via Signal-IQCs",
+    "summary": "A new worst-case analysis framework combines bounded signals and partially known disturbances using signal integral-quadratic constraints for finite-horizon systems.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26526v1",
+    "published_at": "2026-09-22T14:51:40+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511508+00:00"
+  },
+  {
+    "title": "LPV Controller Streamlines Spacecraft Mode Transitions",
+    "summary": "A single linear parameter-varying controller improves transient behavior and simplifies verification for spacecraft mode transitions.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26514v1",
+    "published_at": "2026-09-22T14:41:53+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511512+00:00"
+  },
+  {
+    "title": "Plug-and-Play Stability Certificates Using Black-Box Models",
+    "summary": "Decentralized plug-and-play stability certificates are derived using black-box admittance spectra without requiring white-box device models.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.26510v1",
+    "published_at": "2026-09-22T14:40:26+00:00",
+    "fetched_at": "2026-09-23T09:03:15.511515+00:00"
   },
   {
     "title": "Pioneering Bioinspired Robotics and Sustainability",
@@ -43,230 +268,5 @@
     "source_url": "https://www.sciencedaily.com/releases/2026/09/260921081054.htm",
     "published_at": "2026-09-22T13:17:20+00:00",
     "fetched_at": "2026-09-22T17:13:30.205954+00:00"
-  },
-  {
-    "title": "New Concrete Mix is Stronger and Absorbs CO2",
-    "summary": "Researchers developed a concrete mixture using zeolite and bamboo biochar that increases strength and captures carbon dioxide.",
-    "category": "Civil & Infrastructure",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260921081105.htm",
-    "published_at": "2026-09-22T11:46:55+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205959+00:00"
-  },
-  {
-    "title": "AI Workloads Force a Rethink of Power Delivery",
-    "summary": "Delivering enough power quickly and consistently to complex AI systems presents a major design challenge.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/why-ai-is-forcing-a-rethink-of-power-delivery-2026-09/",
-    "published_at": "2026-09-22T11:00:56+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205965+00:00"
-  },
-  {
-    "title": "Siemens Named Leader in Gartner AIoT Platforms Magic Quadrant",
-    "summary": "Siemens' Insights Hub combines industrial data with AI-driven workflows to support asset availability and sustainability.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-named-a-leader-in-gartner-aiot-platforms-magic-quadrant/",
-    "published_at": "2026-09-22T10:21:19+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205970+00:00"
-  },
-  {
-    "title": "Google Unveils Premium Googlebooks Laptops",
-    "summary": "Google introduced a new lineup of laptops designed to pair with Android phones and provide easy access to AI services.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/laptops/googlebook-google-android/",
-    "published_at": "2026-09-22T10:15:10+00:00",
-    "fetched_at": "2026-09-22T17:13:30.205974+00:00"
-  },
-  {
-    "title": "FCT Flex Assembly Detects Leaks in Liquid-Cooled Systems",
-    "summary": "FCT introduced a flex assembly supporting custom sensing patterns and detection zones for liquid-cooled systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/fct-flex-assembly-detects-leaks-in-liquid-cooled-systems/",
-    "published_at": "2026-09-22T07:22:36+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462349+00:00"
-  },
-  {
-    "title": "Chip Industry Technical Paper Roundup Released",
-    "summary": "A technical paper roundup highlights recent research on AI thermal modeling, chiplet co-design, and LLM EDA orchestration.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-22/",
-    "published_at": "2026-09-22T07:01:29+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462362+00:00"
-  },
-  {
-    "title": "DfT Sets Framework for Great British Railway's 30-Year Rail Plan",
-    "summary": "The UK Department for Transport published a briefing paper outlining a 30-year rail strategy to guide future investment.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/dft-sets-out-framework-for-great-british-railways-30-year-rail-plan-22-09-2026/",
-    "published_at": "2026-09-22T05:30:05+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462368+00:00"
-  },
-  {
-    "title": "Report Analyzes US STEM Talent Pipeline and Global Competitiveness",
-    "summary": "A comprehensive index combining decades of data assesses how the United States develops, attracts, deploys, and retains its STEM workforce.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/03502938da761231e4d0ef80ff61aa61bbbf6ae7",
-    "published_at": "2026-09-22T00:00:00+00:00",
-    "fetched_at": "2026-09-21T09:27:23.076882+00:00"
-  },
-  {
-    "title": "Retrofitting Residential Septic Tanks for Biogas in Lagos",
-    "summary": "A study evaluates retrofitting residential septic infrastructure in Lagos for decentralised biogas production, estimating a methane yield of 10.89 m3/day.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e406cde36a4af7838bbeea284c204c562eaaff5d",
-    "published_at": "2026-09-22T00:00:00+00:00",
-    "fetched_at": "2026-09-21T17:37:07.941573+00:00"
-  },
-  {
-    "title": "Improved Machine Learning QFD Method for Product Design",
-    "summary": "Researchers developed an improved machine learning-based quality function deployment method integrating LDA, rough numbers, ACO, and PROMETHEE to optimize product design prioritization.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/539e3edc26a1d3fee4e87b9240053e614edb9949",
-    "published_at": "2026-09-22T00:00:00+00:00",
-    "fetched_at": "2026-09-22T17:15:05.985181+00:00"
-  },
-  {
-    "title": "Detecting Hardware Trojans in Synthesized Gate-Level Netlists",
-    "summary": "Researchers proposed LoRD, a lightweight heuristic-based approach to detect hardware Trojans in synthesized gate-level netlists.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/detecting-hardware-trojans-in-synthesized-gate-level-netlists-uw-madison-marist/",
-    "published_at": "2026-09-21T23:21:18+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462372+00:00"
-  },
-  {
-    "title": "Concurrent HBM and Host Memory Access Accelerates LLM Inference",
-    "summary": "Researchers presented BOOST, a runtime system enabling concurrent access to host memory and HBM to improve LLM inference throughput.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/concurrent-hbm-and-host-memory-access-improves-llm-inference-throughput-georgia-tech-nvidia-stanford/",
-    "published_at": "2026-09-21T23:13:37+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462377+00:00"
-  },
-  {
-    "title": "UCLA Researchers Explore LLM Agents for High-Level Chip Design",
-    "summary": "A published paper explores whether LLM agents can design better chips by operating at higher levels of abstraction using HLS.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/can-agents-design-better-chips-when-operating-at-a-higher-level-of-abstraction-using-hls-ucla/",
-    "published_at": "2026-09-21T22:59:48+00:00",
-    "fetched_at": "2026-09-22T08:58:55.462381+00:00"
-  },
-  {
-    "title": "Multiple Orbital Launches Scheduled",
-    "summary": "A total of five orbital launches are scheduled this week, featuring Electron, Falcon 9, and Starship.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/launch-preview-092126/",
-    "published_at": "2026-09-21T21:01:41+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118680+00:00"
-  },
-  {
-    "title": "Prosthetics and Haptic Feedback Interfaces",
-    "summary": "Researcher Jeremy Brown discusses ongoing work developing haptic feedback interfaces for upper-limb prosthetics, rehabilitation, and surgical robotics.",
-    "category": "Biomedical",
-    "source_name": "NSF",
-    "source_url": "https://www.nsf.gov/news/podcast-can-prosthetic-limbs-feel-touch-haptic-feedback",
-    "published_at": "2026-09-21T20:47:33+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118690+00:00"
-  },
-  {
-    "title": "Singapore Advances Quantum Technologies Hub",
-    "summary": "Singapore is establishing a regional hub for quantum technologies driven by government funding and commercial focus.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
-    "published_at": "2026-09-21T20:00:00+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118695+00:00"
-  },
-  {
-    "title": "Senate Passes Hydropower Relicensing Act",
-    "summary": "The U.S. Senate has passed the Hydropower Relicensing Transparency Act to improve efficiency in hydropower licensing.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/hydropower-licensing-needs-a-refresh-could-this-new-bill-do-the-job/",
-    "published_at": "2026-09-21T19:09:03+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118700+00:00"
-  },
-  {
-    "title": "Unimore Racing Wins Autonomous Challenge",
-    "summary": "Unimore Racing won the Indy Autonomous Challenge at Laguna Seca, featuring the event's first autonomous car overtakes on a road course.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
-    "published_at": "2026-09-21T18:02:09+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118704+00:00"
-  },
-  {
-    "title": "GLIDE Framework Improves Robot Learning",
-    "summary": "Researchers proposed GLIDE, a framework that infers task-specific failure modes to create guardrails for robot behavior cloning without human demonstrations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24996v1",
-    "published_at": "2026-09-21T17:58:49+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118709+00:00"
-  },
-  {
-    "title": "MIGU Framework for Multimodal Instruction",
-    "summary": "MIGU combines semantic and geometric evidence into a unified grounding belief to improve robot manipulation planning under uncertainty.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24995v1",
-    "published_at": "2026-09-21T17:58:22+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118713+00:00"
-  },
-  {
-    "title": "In-Silico Study Evaluates VAD Controller",
-    "summary": "An in-silico study demonstrates that a new integrated system architecture for ventricular assist devices improves physiological regulation and mitigates adverse events.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24966v1",
-    "published_at": "2026-09-21T17:52:21+00:00",
-    "fetched_at": "2026-09-22T08:58:59.118717+00:00"
-  },
-  {
-    "title": "Robotic Pruning in Orchards via Hybrid Reinforcement Learning",
-    "summary": "Researchers developed a visuomotor robotic pruning controller for planar fruit orchards trained entirely in simulation and transferred zero-shot to physical trials.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24906v1",
-    "published_at": "2026-09-21T17:09:58+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438186+00:00"
-  },
-  {
-    "title": "Modular Design Framework Enables Steerable and Reactive Grasping",
-    "summary": "A new framework combines geometric heatmap sampling, model-based reactive control, and reinforcement learning to achieve stable dexterous grasping across objects.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24896v1",
-    "published_at": "2026-09-21T17:02:03+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438197+00:00"
-  },
-  {
-    "title": "Exolaunch and Space Cargo Book Starship Starfall Missions",
-    "summary": "Exolaunch and Space Cargo have booked missions on SpaceX's Starship utilizing the Starfall reentry capsule.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/09/exolaunch-space-cargo-starship-starfall/",
-    "published_at": "2026-09-21T16:57:40+00:00",
-    "fetched_at": "2026-09-21T17:37:07.941585+00:00"
-  },
-  {
-    "title": "Dual-System World Action Models Speed Up Robot Control",
-    "summary": "A dual-system world action model decouples global planning from local refinement to deliver high-frequency closed-loop action updates and faster execution.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.24868v1",
-    "published_at": "2026-09-21T16:37:50+00:00",
-    "fetched_at": "2026-09-22T08:59:03.438203+00:00"
   }
 ]
