@@ -145,10 +145,6 @@ SOURCES = [
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/civil_engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/robotics.xml"},
-    # Tech Xplore disattivata: protetta da anti-bot Cloudflare, ogni fetch
-    # dell'articolo tornava 403 e quindi al modello arrivava solo il breve
-    # summary RSS — sprecava valutazioni senza mai produrre contenuto
-    # pubblicabile (vedi anche phys.org, stessa rete Science X, stesso blocco).
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/type/news.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
@@ -165,29 +161,13 @@ SOURCES = [
     {"name": "Engineering.com", "url": "https://www.engineering.com/feed/"},
     {"name": "Renewable Energy World", "url": "https://www.renewableenergyworld.com/feed/"},
     {"name": "Power Engineering", "url": "https://www.power-eng.com/feed/"},
-    # Seconda ondata di fonti, per coprire categorie ancora scoperte (civile,
-    # biomedicale, computing) — stesso criterio: verificate a mano una per una.
     {"name": "New Civil Engineer", "url": "https://www.newcivilengineer.com/feed/"},
     {"name": "Global Construction Review", "url": "https://www.globalconstructionreview.com/feed/"},
     {"name": "Medical Design & Outsourcing", "url": "https://www.medicaldesignandoutsourcing.com/feed/"},
-    # The Register e Data Center Dynamics tolte dopo un run di prova: 38
-    # valutazioni combinate, 0 notizie pubblicate — sono editorialmente
-    # business/cybersecurity/immobiliare data-center, non ricerca
-    # ingegneristica, quindi sprecavano solo quota LLM senza mai passare
-    # il filtro di pertinenza (non un caso di "oggi non c'era nulla").
     {"name": "Semiconductor Engineering", "url": "https://semiengineering.com/feed/"},
     {"name": "Electronics Weekly", "url": "https://www.electronicsweekly.com/feed/"},
     {"name": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/feed/"},
     {"name": "Space.com", "url": "https://www.space.com/feeds/all"},
-    # Terza ondata: più volume in ingresso mantenendo i criteri stringenti
-    # (obiettivo dell'utente: riempire la top 10 tutti i giorni con più
-    # candidati, non abbassando ulteriormente la qualità). Molti sono altri
-    # feed per categoria dello stesso dominio ScienceDaily, già verificato
-    # affidabile (nessun blocco anti-bot) dalle 3 fonti SD già in uso sopra —
-    # qui coprono soprattutto le categorie più scoperte (Biomedical,
-    # Computing, Materials). Bioengineer.org e SD Space Exploration esclusi:
-    # il primo era fuori tema/troppo corto nel test, il secondo avrebbe solo
-    # ingrossato ulteriormente l'Aerospace, già la categoria più coperta.
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/electronics.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/energy_and_resources.xml"},
@@ -201,6 +181,7 @@ SOURCES = [
     {"name": "Science Direct", "url": "https://www.sciencedirect.com/"},
     {"name": "Pubs", "url": "https://pubs.acs.org/"},
     {"name": "MDPI", "url": "https://www.mdpi.com/"},
+    {"name": "NCBI", "url": "https://www.ncbi.nlm.nih.gov/"},
     {
         "name": "arXiv",
         "url": (
