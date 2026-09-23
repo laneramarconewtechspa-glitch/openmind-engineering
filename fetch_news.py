@@ -112,6 +112,18 @@ RETRY_PASS_COOLDOWN_SECONDS = 60
 SEEN_PATH = os.path.join("data", "seen_urls.json")
 SEEN_RETAIN_HOURS = 96
 
+# Contatore CUMULATIVO (mai potato, a differenza di SEEN_PATH) di quanti
+# articoli sono stati davvero mandati all'LLM da quando il progetto esiste:
+# alimenta l'indicatore "ARTICLES ANALYZED" in home — un numero che ha senso
+# solo se cresce sempre, non se si azzera o oscilla run dopo run.
+TOTAL_ANALYZED_PATH = os.path.join("data", "total_analyzed.json")
+
+# Manifest letto dal frontend per i 3 indicatori in home e per il pannello
+# "BITL Score": fonti realmente configurate e tassonomia delle categorie.
+# Generato a ogni run così resta sempre sincronizzato con SOURCES/CATEGORIES
+# qui sotto, senza dover duplicare a mano l'elenco in docs/script.js.
+STATS_OUTPUT_PATH = os.path.join("docs", "stats.json")
+
 # --------------------------------------------------------------------------- #
 # Flash News: striscia leggera (titolo + sintesi, niente analisi BLUF/score)
 # per candidati pertinenti ma esclusi dalla top PUBLISH_TOP_N — scartati per
@@ -145,6 +157,10 @@ SOURCES = [
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/civil_engineering.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/robotics.xml"},
+    # Tech Xplore disattivata: protetta da anti-bot Cloudflare, ogni fetch
+    # dell'articolo tornava 403 e quindi al modello arrivava solo il breve
+    # summary RSS — sprecava valutazioni senza mai produrre contenuto
+    # pubblicabile (vedi anche phys.org, stessa rete Science X, stesso blocco).
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/type/news.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss"},
     {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/feeds/topic/aerospace.rss"},
@@ -161,13 +177,29 @@ SOURCES = [
     {"name": "Engineering.com", "url": "https://www.engineering.com/feed/"},
     {"name": "Renewable Energy World", "url": "https://www.renewableenergyworld.com/feed/"},
     {"name": "Power Engineering", "url": "https://www.power-eng.com/feed/"},
+    # Seconda ondata di fonti, per coprire categorie ancora scoperte (civile,
+    # biomedicale, computing) — stesso criterio: verificate a mano una per una.
     {"name": "New Civil Engineer", "url": "https://www.newcivilengineer.com/feed/"},
     {"name": "Global Construction Review", "url": "https://www.globalconstructionreview.com/feed/"},
     {"name": "Medical Design & Outsourcing", "url": "https://www.medicaldesignandoutsourcing.com/feed/"},
+    # The Register e Data Center Dynamics tolte dopo un run di prova: 38
+    # valutazioni combinate, 0 notizie pubblicate — sono editorialmente
+    # business/cybersecurity/immobiliare data-center, non ricerca
+    # ingegneristica, quindi sprecavano solo quota LLM senza mai passare
+    # il filtro di pertinenza (non un caso di "oggi non c'era nulla").
     {"name": "Semiconductor Engineering", "url": "https://semiengineering.com/feed/"},
     {"name": "Electronics Weekly", "url": "https://www.electronicsweekly.com/feed/"},
     {"name": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/feed/"},
     {"name": "Space.com", "url": "https://www.space.com/feeds/all"},
+    # Terza ondata: più volume in ingresso mantenendo i criteri stringenti
+    # (obiettivo dell'utente: riempire la top 10 tutti i giorni con più
+    # candidati, non abbassando ulteriormente la qualità). Molti sono altri
+    # feed per categoria dello stesso dominio ScienceDaily, già verificato
+    # affidabile (nessun blocco anti-bot) dalle 3 fonti SD già in uso sopra —
+    # qui coprono soprattutto le categorie più scoperte (Biomedical,
+    # Computing, Materials). Bioengineer.org e SD Space Exploration esclusi:
+    # il primo era fuori tema/troppo corto nel test, il secondo avrebbe solo
+    # ingrossato ulteriormente l'Aerospace, già la categoria più coperta.
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/electronics.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/nanotechnology.xml"},
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/matter_energy/energy_and_resources.xml"},
@@ -178,10 +210,10 @@ SOURCES = [
     {"name": "ScienceDaily", "url": "https://www.sciencedaily.com/rss/earth_climate/environmental_science.xml"},
     {"name": "MD+DI", "url": "https://www.mddionline.com/rss.xml"},
     {"name": "Drug Delivery Business News", "url": "https://www.drugdeliverybusiness.com/feed/"},
-    {"name": "Science Direct", "url": "https://www.sciencedirect.com/"},
-    {"name": "Pubs", "url": "https://pubs.acs.org/"},
-    {"name": "MDPI", "url": "https://www.mdpi.com/"},
-    {"name": "NCBI", "url": "https://www.ncbi.nlm.nih.gov/"},
+    # EurekAlert! disattivata: al momento non ho trovato un URL RSS pubblico
+    # funzionante per la sezione Tech & Engineering (i pattern noti tornano
+    # 404 — il sito sembra aver riorganizzato la distribuzione RSS). Se trovi
+    # l'URL corretto, riattivala aggiungendo una riga come le altre qui sopra.
     {
         "name": "arXiv",
         "url": (
@@ -1168,6 +1200,42 @@ def save_seen(seen: dict[str, str]) -> None:
     save_json(SEEN_PATH, kept)
 
 
+def load_total_analyzed() -> int:
+    if not os.path.exists(TOTAL_ANALYZED_PATH):
+        return 0
+    try:
+        with open(TOTAL_ANALYZED_PATH, "r", encoding="utf-8") as fh:
+            return int(json.load(fh).get("count", 0))
+    except (json.JSONDecodeError, OSError, ValueError, TypeError, AttributeError):
+        return 0
+
+
+def save_total_analyzed(count: int) -> None:
+    save_json(TOTAL_ANALYZED_PATH, {"count": count})
+
+
+def save_stats_manifest(articles_analyzed: int) -> None:
+    """Scrive docs/stats.json: alimenta i 3 indicatori in home (articoli
+    analizzati/fonti/categorie) e l'elenco fonti nel pannello 'BITL Score'.
+    Le fonti sono dedotte da SOURCES (dedup per nome, alcune compaiono più
+    volte con feed diversi) più le API dirette non presenti in quella lista."""
+    names, seen_names = [], set()
+    for s in SOURCES:
+        if s["name"] not in seen_names:
+            seen_names.add(s["name"])
+            names.append(s["name"])
+    names.append("Semantic Scholar")
+    if OPENALEX_API_KEY:
+        names.append("OpenAlex")
+
+    save_json(STATS_OUTPUT_PATH, {
+        "articles_analyzed": articles_analyzed,
+        "sources": names,
+        "categories": CATEGORIES,
+        "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+    })
+
+
 # --------------------------------------------------------------------------- #
 # Flash News
 # --------------------------------------------------------------------------- #
@@ -1360,6 +1428,16 @@ def main() -> None:
         save_seen(seen)
     except Exception as exc:  # noqa: BLE001 - la cache è solo un'ottimizzazione
         print(f"[WARN] Impossibile salvare la cache degli URL visti: {exc}", file=sys.stderr)
+
+    # Contatore cumulativo per l'indicatore "ARTICLES ANALYZED" in home: non va
+    # mai potato (a differenza di seen_urls.json), cresce di quanti articoli
+    # sono stati DAVVERO valutati in QUESTO run (stats["evaluated"]).
+    try:
+        total_analyzed = load_total_analyzed() + stats["evaluated"]
+        save_total_analyzed(total_analyzed)
+        save_stats_manifest(total_analyzed)
+    except Exception as exc:  # noqa: BLE001 - gli indicatori sono un extra, non devono bloccare il run
+        print(f"[WARN] Impossibile aggiornare il contatore/manifest per gli indicatori: {exc}", file=sys.stderr)
 
     merged = merge_and_prune(existing, new_briefs)
     save_json(OUTPUT_PATH, merged)
