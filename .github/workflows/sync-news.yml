@@ -41,13 +41,16 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: python fetch_news.py
 
-      - name: Commit updated news.json, flash.json and seen-URL cache
+      - name: Commit updated data files
         run: |
           git config user.name "openmind-news-bot"
           git config user.email "openmind-news-bot@users.noreply.github.com"
-          git add docs/news.json docs/flash.json
-          # cache degli URL già valutati: evita di rivalutarli (e consumare
-          # quota LLM) a ogni sync — vedi SEEN_PATH in fetch_news.py
+          git add docs/news.json docs/flash.json docs/stats.json
+          # cache degli URL già valutati + contatore cumulativo: evitano di
+          # rivalutare gli stessi articoli (e sprecare quota LLM) a ogni sync
+          # e alimentano l'indicatore "ARTICLES ANALYZED" in home — vedi
+          # SEEN_PATH/TOTAL_ANALYZED_PATH in fetch_news.py
           if [ -f data/seen_urls.json ]; then git add data/seen_urls.json; fi
+          if [ -f data/total_analyzed.json ]; then git add data/total_analyzed.json; fi
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie [skip ci]"
           git push
