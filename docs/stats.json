@@ -1,0 +1,41 @@
+{
+  "articles_analyzed": 25,
+  "sources": [
+    "ScienceDaily",
+    "IEEE Spectrum",
+    "MIT Technology Review",
+    "NSF",
+    "New Atlas",
+    "MIT News",
+    "The Robot Report",
+    "SpaceNews",
+    "EE Times",
+    "Engineering.com",
+    "Renewable Energy World",
+    "Power Engineering",
+    "New Civil Engineer",
+    "Global Construction Review",
+    "Medical Design & Outsourcing",
+    "Semiconductor Engineering",
+    "Electronics Weekly",
+    "NASASpaceflight",
+    "Space.com",
+    "MD+DI",
+    "Drug Delivery Business News",
+    "arXiv",
+    "Semantic Scholar"
+  ],
+  "categories": [
+    "Robotics",
+    "Aerospace",
+    "Energy",
+    "Civil & Infrastructure",
+    "Mechanical",
+    "Electronics & Semiconductors",
+    "Materials",
+    "Biomedical",
+    "Computing",
+    "Other Engineering"
+  ],
+  "generated_at": "2026-09-23T22:56:50.694015+00:00"
+}

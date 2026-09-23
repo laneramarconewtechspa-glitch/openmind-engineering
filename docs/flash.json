@@ -1,5 +1,50 @@
 [
   {
+    "title": "Nugget Twin Camper Van Launches with AWD and High Roof",
+    "summary": "Nugget Schmiede has officially launched the high-roofed Nugget Twin camper van, offering all-wheel drive and space for four people.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/campervans/aero-ford-nugget-twin-high-roof/",
+    "published_at": "2026-09-23T21:03:00+00:00",
+    "fetched_at": "2026-09-23T22:56:52.162071+00:00"
+  },
+  {
+    "title": "Quantum Chip Stores Memory via Vibrations to Shrink Hardware",
+    "summary": "Scientists have developed a new computing architecture that stores memory as vibrations, exponentially reducing the hardware size needed for quantum systems.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/https:/refractor.io/science/quantum-computing/quantum-computer-chip-vibrating/",
+    "published_at": "2026-09-23T20:30:00+00:00",
+    "fetched_at": "2026-09-23T22:56:52.162078+00:00"
+  },
+  {
+    "title": "Cognita Tests LLM 'Jury' for FDA Radiology Evaluation",
+    "summary": "Cognita is using multiple large language models under an FDA contract to assess AI-generated radiology reports across roughly 1 million patient exams.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/radiological/cognita-tests-ai-powered-method-to-evaluate-radiology-reports-under-fda-contract",
+    "published_at": "2026-09-23T20:16:40+00:00",
+    "fetched_at": "2026-09-23T22:56:52.162082+00:00"
+  },
+  {
+    "title": "PAL Robotics Demonstrates Mobile Robots in Textile Industry",
+    "summary": "PAL Robotics showcases complex motion and control capabilities working alongside human workers in the textile sector.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mobile-robotics-moves-to-the-textile-industry/",
+    "published_at": "2026-09-23T20:00:00+00:00",
+    "fetched_at": "2026-09-23T22:56:52.162085+00:00"
+  },
+  {
+    "title": "Abbott Adds Berry Street Dietitian Coaching to Lingo",
+    "summary": "Abbott is teaming up with Berry Street to offer virtual one-on-one nutrition coaching linked to continuous glucose monitor data trends.",
+    "category": "Biomedical",
+    "source_name": "Drug Delivery Business News",
+    "source_url": "https://www.drugdeliverybusiness.com/abbott-partners-with-berry-street-to-add-nutrition-coaching-to-lingo/",
+    "published_at": "2026-09-23T17:26:26+00:00",
+    "fetched_at": "2026-09-23T22:56:52.162088+00:00"
+  },
+  {
     "title": "Fairfax 20' Tiny House Offers Budget Living",
     "summary": "A recently completed compact tiny house named the Fairfax 20' provides single-floor living for under $35K.",
     "category": "Civil & Infrastructure",
@@ -223,50 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.26636v1",
     "published_at": "2026-09-22T16:09:40+00:00",
     "fetched_at": "2026-09-23T09:03:11.073352+00:00"
-  },
-  {
-    "title": "Post-Hoc Conformal Prediction for Wireless Communications",
-    "summary": "A new statistical framework provides distribution-free reliability guarantees and estimates miscoverage probabilities for data-driven wireless applications.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26625v1",
-    "published_at": "2026-09-22T15:57:51+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073356+00:00"
-  },
-  {
-    "title": "Reduced Order Observers for Monocular Visual Inertial Odometry",
-    "summary": "A novel reduced order observer framework uses gravity and monocular bearing measurements to estimate body-frame velocity without landmark position estimation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26612v1",
-    "published_at": "2026-09-22T15:48:26+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073360+00:00"
-  },
-  {
-    "title": "MoE Framework with Diffusion Models Secures 6G Networks",
-    "summary": "A mixture-of-experts framework using generative diffusion models provides robust cross-scenario physical layer security for future 6G networks.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26598v1",
-    "published_at": "2026-09-22T15:36:54+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511481+00:00"
-  },
-  {
-    "title": "Decentralized MPC Enables Docking with Tumbling Targets",
-    "summary": "Multiple small servicers use a decentralized model predictive control framework to rendezvous and dock safely with a tumbling target.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26593v1",
-    "published_at": "2026-09-22T15:35:08+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511490+00:00"
-  },
-  {
-    "title": "Deep Koopman MPC Automates Wheel Loader V-Cycles",
-    "summary": "A hierarchical framework combining geometric planning and deep Koopman models enables real-time autonomous wheel-loader V-cycle maneuvers.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26580v1",
-    "published_at": "2026-09-22T15:27:23+00:00",
-    "fetched_at": "2026-09-23T09:03:15.511495+00:00"
   }
 ]
