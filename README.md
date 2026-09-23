@@ -20,12 +20,21 @@ Aggregatore quotidiano di notizie di ingegneria — 100% gratuito, senza server 
   titolo + sintesi breve, generati in batch in `docs/flash.json`.
 - **Frontend**: HTML/CSS/JS puro — un cervello centrale ("Open your mind") che,
   al click, apre una rete di neuroni cliccabili, uno per notizia del giorno.
+- **BITL Score** ("Be In The Loop"): il criterio con cui viene ordinata la top
+  10 — media pesata di 7 controlli fatti dall'LLM su ogni articolo (evidenza,
+  applicabilità, impatto, trasferibilità, maturità, momentum, fattibilità).
+  In home, sotto al titolo, 3 indicatori (articoli analizzati/fonti/categorie,
+  letti da `docs/stats.json`) e un pulsante "i" spiegano il criterio e
+  elencano le fonti monitorate — pensati per crescere con un effetto "slot
+  machine" al caricamento invece di comparire di colpo.
 - **Esecuzione**: uno script Python lanciato 2 volte al giorno da GitHub Actions
-  (gratis su repo pubblici), che scrive `docs/news.json` e `docs/flash.json`.
-  Gli errori temporanei dell'LLM (503, timeout, rate limit) vengono ritentati,
-  la quota giornaliera esaurita fa passare a un modello Gemini di riserva, e gli
-  URL già valutati finiscono in `data/seen_urls.json` per non rivalutarli (e non
-  consumare quota) a ogni sync.
+  (gratis su repo pubblici), che scrive `docs/news.json`, `docs/flash.json` e
+  `docs/stats.json`. Gli errori temporanei dell'LLM (503, timeout, rate limit)
+  vengono ritentati, la quota giornaliera esaurita fa passare a un modello
+  Gemini di riserva, e gli URL già valutati finiscono in `data/seen_urls.json`
+  per non rivalutarli (e non consumare quota) a ogni sync — un contatore
+  cumulativo separato (`data/total_analyzed.json`) alimenta invece l'indicatore
+  "Articles analyzed", che non deve mai diminuire.
 - **Hosting**: GitHub Pages, servito direttamente dalla cartella `docs/`.
 
 ## 1. Crea il repository
@@ -96,14 +105,16 @@ openmind-engineering/
 ├── fetch_news.py                  # raccolta + filtro + strutturazione via Gemini
 ├── requirements.txt
 ├── data/
-│   └── seen_urls.json             # cache degli URL già valutati, generata automaticamente
+│   ├── seen_urls.json             # cache degli URL già valutati, generata automaticamente
+│   └── total_analyzed.json        # contatore cumulativo (mai potato), generato automaticamente
 ├── .github/workflows/sync-news.yml  # cron 2x/giorno + pulsante "Run workflow"
 └── docs/
     ├── index.html
     ├── style.css
     ├── script.js
     ├── news.json                  # top 10 con analisi completa, generato/aggiornato automaticamente
-    └── flash.json                 # Flash News (titolo+sintesi, no analisi), generato/aggiornato automaticamente
+    ├── flash.json                 # Flash News (titolo+sintesi, no analisi), generato/aggiornato automaticamente
+    └── stats.json                 # indicatori home + fonti/categorie per il pannello BITL Score
 ```
 
 ## Personalizzazioni comuni
