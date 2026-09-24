@@ -7,6 +7,7 @@
   --red-dark: #a5121a;
   --red-glow: rgba(215, 25, 32, .45);
   --red-soft: rgba(215, 25, 32, .08);
+  --red-bright: #ff5a60; /* rosso più chiaro: leggibile su fondo inchiostro */
 
   --ink: #141414;
   --ink-soft: #3a3a3a;
@@ -116,59 +117,15 @@ button { font-family: inherit; }
   line-height: 1.7;
   color: var(--ink-soft);
 }
-/* ------------------------------------------------------------------ */
-/* Cover stats — indicatori live + criterio BITL Score                 */
-/* ------------------------------------------------------------------ */
-
-.cover-stats {
-  display: flex; flex-wrap: wrap; align-items: stretch; gap: 12px;
-  margin-top: 22px;
+.cover-tagline {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--ink-light);
 }
 
-.stat-pill {
-  display: flex; align-items: center; gap: 10px;
-  background: var(--paper-white);
-  border: 1px solid var(--line-dark);
-  border-radius: 999px;
-  padding: 8px 18px 8px 8px;
-}
-.stat-value {
-  display: flex; align-items: center; justify-content: center;
-  min-width: 34px; height: 34px; padding: 0 4px;
-  border-radius: 50%;
-  background: var(--red-soft);
-  font-family: var(--font-mono); font-weight: 600; font-size: 15px;
-  color: var(--red);
-  font-variant-numeric: tabular-nums; /* le cifre non "ballano" di larghezza mentre scorrono */
-}
-.stat-label {
-  font-family: var(--font-mono); font-size: 8.5px; font-weight: 600;
-  letter-spacing: .09em; line-height: 1.25; color: var(--ink-soft);
-  text-transform: uppercase;
-}
-
-.cover-criterion {
-  display: flex; align-items: center; gap: 10px;
-  margin-left: auto;
-  padding: 4px 4px 4px 16px;
-}
-.cover-criterion-text {
-  font-family: var(--font-mono); font-size: 9.5px; font-weight: 600;
-  letter-spacing: .08em; line-height: 1.3; color: var(--ink-soft);
-  text-transform: uppercase;
-}
-.cover-criterion-text strong { color: var(--red); }
-
-.info-btn {
-  flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%;
-  border: 1px solid var(--red); background: none; color: var(--red);
-  font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 12px;
-  line-height: 1; cursor: pointer; padding: 0;
-  transition: background .2s ease, color .2s ease;
-}
-.info-btn:hover, .info-btn:focus-visible { background: var(--red); color: var(--paper); }
-
-.cover-footer { margin-top: 56px; }
+.cover-footer { margin-top: 64px; }
 
 .open-button {
   display: inline-flex;
@@ -451,7 +408,120 @@ button { font-family: inherit; }
 }
 .empty-state span { display: block; font-family: var(--font-display); font-size: 26px; color: var(--red); margin-bottom: 6px; }
 
-.network-footer { display: flex; justify-content: center; gap: 28px; padding: 20px; border-top: 1px solid var(--line-dark); font-family: var(--font-mono); font-size: 9px; letter-spacing: .16em; color: var(--ink-light); }
+
+/* ------------------------------------------------------------------ */
+/* Stats — al posto del footer: barra compatta che si espande in fondo  */
+/* ------------------------------------------------------------------ */
+
+.stats-section { padding: 56px clamp(14px, 4vw, 40px) 28px; }
+
+.stats-panel { position: relative; max-width: 1120px; margin: 0 auto; padding-bottom: 6px; }
+
+/* Sfondo del pannello. Stato "a riposo" (senza JS/GSAP o con reduced-motion)
+   = pannello pieno. Con GSAP parte come una pillola alta quanto la sola barra
+   e si espande con lo scroll: vedi initStatsSection() in script.js. */
+.stats-bg {
+  position: absolute; top: 0; left: 0; right: 0; height: 100%;
+  background: var(--ink);
+  border-radius: 28px;
+  box-shadow: var(--shadow-card);
+}
+
+.stats-bar {
+  position: relative; z-index: 1;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+  padding: 14px 22px;
+}
+
+.stat-pill {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--paper-white);
+  border-radius: 999px;
+  padding: 6px 18px 6px 6px;
+}
+.stat-value {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 38px; height: 34px; padding: 0 12px;
+  border-radius: 999px; background: var(--red-soft);
+  font-family: var(--font-mono); font-weight: 600; font-size: 15px;
+  color: var(--red);
+  font-variant-numeric: tabular-nums;
+}
+.stat-label {
+  font-family: var(--font-mono); font-size: 8.5px; font-weight: 600;
+  letter-spacing: .09em; line-height: 1.25; text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* Odometro: ogni cifra è una colonna con 0-9 (ripetuti) che scorre in verticale
+   come il rullo di una slot machine. Le colonne sono aria-hidden: il valore
+   vero è nell'aria-label di .stat-value. */
+.odo { display: inline-flex; height: 1.25em; line-height: 1.25em; overflow: hidden; }
+.odo-col { display: block; height: 1.25em; overflow: hidden; }
+.odo-track { display: flex; flex-direction: column; will-change: transform; }
+.odo-track > span, .odo-static { display: block; height: 1.25em; text-align: center; }
+
+.stats-criterion { display: flex; align-items: center; gap: 10px; margin-left: auto; padding-right: 4px; }
+.stats-criterion-text {
+  font-family: var(--font-mono); font-size: 9.5px; font-weight: 600;
+  letter-spacing: .08em; line-height: 1.3; text-transform: uppercase;
+  color: var(--paper-grey);
+}
+.stats-criterion-text strong { color: var(--red-bright); }
+
+.info-btn {
+  flex-shrink: 0; width: 22px; height: 22px; padding: 0; border-radius: 50%;
+  border: 1px solid var(--red-bright); background: none; color: var(--red-bright);
+  font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: 12px; line-height: 1;
+  cursor: pointer; transition: background .2s ease, color .2s ease;
+}
+.info-btn:hover, .info-btn:focus-visible { background: var(--red-bright); color: var(--ink); }
+.stats-panel .info-btn:focus-visible { outline-color: var(--paper); }
+
+.stats-detail {
+  position: relative; z-index: 1;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px;
+  padding: 8px 22px 22px;
+  color: var(--paper);
+}
+.stats-card {
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 18px;
+  padding: 20px 22px 22px;
+}
+.stats-card-title {
+  margin: 0 0 12px; font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--red-bright);
+}
+.stats-card-lead { margin: 0 0 16px; font-family: var(--font-display); font-weight: 500; font-size: 19px; line-height: 1.3; }
+.stats-card-lead strong { color: var(--red-bright); font-weight: 600; }
+/* Con l'espansione animata le card partono nascoste; è GSAP (scrub) a rivelarle. */
+.stats-section.is-scrubbed .stats-card { opacity: 0; transform: translateY(56px); }
+
+.stats-note { margin: 14px 0 0; font-size: 11.5px; line-height: 1.55; color: rgba(246, 245, 242, .62); }
+
+.stats-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.stats-row { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; row-gap: 5px; align-items: baseline; }
+.stats-row-label { font-size: 12px; color: var(--paper-grey); }
+.stats-row-value { font-family: var(--font-mono); font-size: 11px; font-weight: 600; color: var(--paper); }
+.stats-track { grid-column: 1 / -1; height: 5px; border-radius: 999px; background: rgba(255, 255, 255, .1); overflow: hidden; }
+.stats-fill { display: block; height: 100%; width: 0; border-radius: 999px; background: var(--red); }
+.stats-row.is-zero .stats-row-label, .stats-row.is-zero .stats-row-value { opacity: .42; }
+
+.stats-score { display: flex; gap: 28px; margin: 0 0 18px; }
+.stats-score-item { display: flex; flex-direction: column; gap: 2px; }
+.stats-score-num { font-family: var(--font-display); font-weight: 600; font-size: 44px; line-height: 1; color: var(--paper); }
+.stats-score-cap { font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; color: rgba(246, 245, 242, .55); }
+
+.stats-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.stats-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-mono); font-size: 10.5px; color: rgba(246, 245, 242, .6);
+  border: 1px solid rgba(255, 255, 255, .14); border-radius: 999px; padding: 5px 11px;
+}
+.stats-chip.is-active { color: var(--paper); border-color: rgba(255, 90, 96, .7); background: rgba(215, 25, 32, .16); }
+.stats-chip b { font-weight: 600; color: var(--red-bright); }
 
 /* ------------------------------------------------------------------ */
 /* Detail panel                                                        */
@@ -607,6 +677,7 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 860px) {
+  .stats-detail { grid-template-columns: 1fr; }
   .neural-core { left: 50%; }
   .connector-ring { left: 50%; }
   .network-header { padding: 14px 18px; }
@@ -617,15 +688,30 @@ button { font-family: inherit; }
    dettaglio del desktop, invariato. Vedi computeCirclePositions/
    createPaperCard in script.js per la logica "compact" lato JS. */
 @media (max-width: 640px) {
-  .cover-stats { gap: 8px; margin-top: 18px; }
-  .stat-pill { padding: 6px 14px 6px 6px; gap: 8px; }
-  .stat-value { min-width: 28px; height: 28px; font-size: 13px; }
+  .stats-section { padding-top: 40px; }
+  .stats-bar { padding: 12px 14px; gap: 8px; }
+  .stat-pill { padding: 5px 14px 5px 5px; gap: 8px; }
+  .stat-value { min-width: 30px; height: 28px; padding: 0 9px; font-size: 13px; }
   .stat-label { font-size: 7.5px; }
-  .cover-criterion { margin-left: 0; padding-left: 8px; width: 100%; order: 4; }
-  .cover-criterion-text { font-size: 9px; }
+  .stats-criterion { margin-left: 0; width: 100%; padding: 2px 6px; }
+  .stats-criterion-text { font-size: 9px; }
+  .stats-detail { padding: 6px 14px 16px; gap: 12px; }
+  .stats-card { padding: 18px 16px 20px; border-radius: 16px; }
+  .stats-score-num { font-size: 38px; }
 
-  .network-header { flex-wrap: wrap; row-gap: 8px; }
-  .last-updated { order: 3; width: 100%; }
+  /* Header compatto: marchio + data su due righe, filtri in UNA riga
+     scorrevole in orizzontale (prima si impilavano in colonna e l'header
+     occupava quasi metà schermo, spingendo la rete sotto la piega). */
+  .network-header { flex-wrap: wrap; row-gap: 6px; padding: 12px 14px 8px; }
+  .network-brand { flex: 1 1 100%; }
+  .last-updated { order: 2; width: 100%; font-size: 9px; white-space: normal; }
+  .filters {
+    order: 3; flex: 1 1 100%; flex-wrap: nowrap; overflow-x: auto;
+    margin: 2px -14px 0; padding: 2px 14px 4px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; white-space: nowrap; }
   .neural-core { left: 50%; }
   .connector-ring { left: 50%; }
   .brain-wrap { width: 130px; height: 108px; }
