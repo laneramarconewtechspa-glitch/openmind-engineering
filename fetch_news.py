@@ -112,10 +112,12 @@ RETRY_PASS_COOLDOWN_SECONDS = 60
 SEEN_PATH = os.path.join("data", "seen_urls.json")
 SEEN_RETAIN_HOURS = 96
 
-# Contatore CUMULATIVO (mai potato, a differenza di SEEN_PATH) di quanti
-# articoli sono stati davvero mandati all'LLM da quando il progetto esiste:
-# alimenta l'indicatore "ARTICLES ANALYZED" in home — un numero che ha senso
-# solo se cresce sempre, non se si azzera o oscilla run dopo run.
+# Contatori CUMULATIVI (mai potati, a differenza di SEEN_PATH): quanti articoli
+# sono stati davvero mandati all'LLM da quando il progetto esiste, e quanti di
+# questi sono risultati pertinenti / hanno superato il controllo qualità per
+# l'analisi completa. Alimentano l'indicatore "ARTICLES ANALYZED" e il
+# "funnel" nel pannello espanso del footer: numeri che hanno senso solo se
+# crescono sempre, non se si azzerano o oscillano run dopo run.
 TOTAL_ANALYZED_PATH = os.path.join("data", "total_analyzed.json")
 
 # Manifest letto dal frontend per i 3 indicatori in home e per il pannello
@@ -1200,21 +1202,29 @@ def save_seen(seen: dict[str, str]) -> None:
     save_json(SEEN_PATH, kept)
 
 
-def load_total_analyzed() -> int:
+def load_totals() -> dict:
+    """Contatori cumulativi: {"count": N, "funnel": {"analyzed", "relevant",
+    "substantive"}}. Tollera il vecchio formato (solo "count") e file mancanti
+    o corrotti: in quel caso i contatori del funnel ripartono da zero."""
+    totals = {"count": 0, "funnel": {"analyzed": 0, "relevant": 0, "substantive": 0}}
     if not os.path.exists(TOTAL_ANALYZED_PATH):
-        return 0
+        return totals
     try:
         with open(TOTAL_ANALYZED_PATH, "r", encoding="utf-8") as fh:
-            return int(json.load(fh).get("count", 0))
+            data = json.load(fh)
+        totals["count"] = int(data.get("count", 0))
+        for key in totals["funnel"]:
+            totals["funnel"][key] = int((data.get("funnel") or {}).get(key, 0))
     except (json.JSONDecodeError, OSError, ValueError, TypeError, AttributeError):
-        return 0
+        pass
+    return totals
 
 
-def save_total_analyzed(count: int) -> None:
-    save_json(TOTAL_ANALYZED_PATH, {"count": count})
+def save_totals(totals: dict) -> None:
+    save_json(TOTAL_ANALYZED_PATH, totals)
 
 
-def save_stats_manifest(articles_analyzed: int) -> None:
+def save_stats_manifest(totals: dict) -> None:
     """Scrive docs/stats.json: alimenta i 3 indicatori in home (articoli
     analizzati/fonti/categorie) e l'elenco fonti nel pannello 'BITL Score'.
     Le fonti sono dedotte da SOURCES (dedup per nome, alcune compaiono più
@@ -1229,7 +1239,8 @@ def save_stats_manifest(articles_analyzed: int) -> None:
         names.append("OpenAlex")
 
     save_json(STATS_OUTPUT_PATH, {
-        "articles_analyzed": articles_analyzed,
+        "articles_analyzed": totals["count"],
+        "funnel": totals["funnel"],
         "sources": names,
         "categories": CATEGORIES,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -1433,9 +1444,13 @@ def main() -> None:
     # mai potato (a differenza di seen_urls.json), cresce di quanti articoli
     # sono stati DAVVERO valutati in QUESTO run (stats["evaluated"]).
     try:
-        total_analyzed = load_total_analyzed() + stats["evaluated"]
-        save_total_analyzed(total_analyzed)
-        save_stats_manifest(total_analyzed)
+        totals = load_totals()
+        totals["count"] += stats["evaluated"]
+        totals["funnel"]["analyzed"] += stats["evaluated"]
+        totals["funnel"]["relevant"] += len(relevant_items_this_run)
+        totals["funnel"]["substantive"] += len(new_briefs)
+        save_totals(totals)
+        save_stats_manifest(totals)
     except Exception as exc:  # noqa: BLE001 - gli indicatori sono un extra, non devono bloccare il run
         print(f"[WARN] Impossibile aggiornare il contatore/manifest per gli indicatori: {exc}", file=sys.stderr)
 
