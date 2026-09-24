@@ -29,25 +29,7 @@
         <h1 id="main-title">Be in<br>the loop</h1>
         <div class="cover-rule"></div>
         <p class="cover-subtitle">SCIENCE. ENGINEERING.<br>INNOVATION. CONNECTION.</p>
-
-        <div class="cover-stats" aria-label="Live pipeline stats">
-          <div class="stat-pill">
-            <span class="stat-value" id="stat-articles">0</span>
-            <span class="stat-label">Articles<br>analyzed</span>
-          </div>
-          <div class="stat-pill">
-            <span class="stat-value" id="stat-sources">0</span>
-            <span class="stat-label">Sources</span>
-          </div>
-          <div class="stat-pill">
-            <span class="stat-value" id="stat-categories">0</span>
-            <span class="stat-label">Categories</span>
-          </div>
-          <div class="cover-criterion">
-            <span class="cover-criterion-text">Ranked by<br><strong>BITL Score</strong></span>
-            <button id="bitl-info-btn" class="info-btn" type="button" aria-haspopup="dialog" aria-label="How the BITL Score works">i</button>
-          </div>
-        </div>
+        <p class="cover-tagline">THE FUTURE IS INTERCONNECTED.</p>
       </div>
 
       <div class="cover-footer">
@@ -119,11 +101,40 @@
 
     </div>
 
-    <footer class="network-footer">
-      <span>SCIENCE</span>
-      <span>ENGINEERING</span>
-      <span>INNOVATION</span>
-      <span>CONNECTION</span>
+    <!-- ================================================================ -->
+    <!-- STATS — al posto del vecchio footer: barra compatta che, arrivando  -->
+    <!-- in fondo, si espande (GSAP ScrollTrigger) nel dettaglio completo.    -->
+    <!-- ================================================================ -->
+    <footer id="stats-section" class="stats-section" aria-label="Network statistics">
+      <div id="stats-panel" class="stats-panel">
+        <div id="stats-bg" class="stats-bg" aria-hidden="true"></div>
+
+        <div id="stats-bar" class="stats-bar">
+          <div class="stat-pill">
+            <span class="stat-value" id="stat-articles" aria-live="off">0</span>
+            <span class="stat-label">Articles<br>analyzed</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-value" id="stat-sources" aria-live="off">0</span>
+            <span class="stat-label">Sources</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-value" id="stat-categories" aria-live="off">0</span>
+            <span class="stat-label">Categories</span>
+          </div>
+          <div class="stats-criterion">
+            <span class="stats-criterion-text">Ranked by<br><strong>BITL Score</strong></span>
+            <button id="bitl-info-btn" class="info-btn" type="button" aria-haspopup="dialog" aria-label="How the BITL Score works">i</button>
+          </div>
+        </div>
+
+        <div id="stats-detail" class="stats-detail">
+          <section class="stats-card" id="stats-card-funnel"></section>
+          <section class="stats-card" id="stats-card-categories"></section>
+          <section class="stats-card" id="stats-card-bitl"></section>
+          <section class="stats-card" id="stats-card-sources"></section>
+        </div>
+      </div>
     </footer>
 
   </section>
@@ -154,6 +165,8 @@
 
 </main>
 
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
 <script src="script.js" defer></script>
 </body>
 </html>
