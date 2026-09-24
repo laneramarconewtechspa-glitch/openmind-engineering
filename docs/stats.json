@@ -1,5 +1,5 @@
 {
-  "articles_analyzed": 67,
+  "articles_analyzed": 113,
   "sources": [
     "ScienceDaily",
     "IEEE Spectrum",
@@ -37,5 +37,5 @@
     "Computing",
     "Other Engineering"
   ],
-  "generated_at": "2026-09-24T08:54:39.560658+00:00"
+  "generated_at": "2026-09-24T16:49:56.178495+00:00"
 }

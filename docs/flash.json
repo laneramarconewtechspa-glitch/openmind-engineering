@@ -1,5 +1,86 @@
 [
   {
+    "title": "MIT Handheld Device Collects Cells for Cancer Testing",
+    "summary": "MIT researchers developed a handheld system that gently collects living cells from patient samples to aid cancer testing.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/new-cell-collection-device-could-improve-early-cancer-detection-0924",
+    "published_at": "2026-09-24T15:00:00+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706219+00:00"
+  },
+  {
+    "title": "Blue Energy Files Permit for Texas Gas-to-Nuclear Project",
+    "summary": "Blue Energy has filed the first portion of its NRC construction permit application for a gas-to-nuclear power plant in Texas.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/blue-energy-nrc-application-gas-nuclear-project/",
+    "published_at": "2026-09-24T13:52:48+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706232+00:00"
+  },
+  {
+    "title": "Bechtel Exits TerraPower Natrium Project",
+    "summary": "Bechtel is exiting TerraPower's Natrium project in Wyoming, requiring a rebid of the engineering, procurement, and construction contract.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/bechtel-terrapowers-natrium-epc-contract/",
+    "published_at": "2026-09-24T13:50:48+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706236+00:00"
+  },
+  {
+    "title": "Time Crystals Synchronize Across Microscopic Distances",
+    "summary": "Researchers demonstrated that multiple time crystals inside a semiconductor can synchronize their oscillations using spin-polarized electrons.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
+    "published_at": "2026-09-24T13:16:41+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706240+00:00"
+  },
+  {
+    "title": "Startup Tests Offshore Geothermal Power System Near Oregon",
+    "summary": "Endurance Energy drilled a seafloor well off the Oregon coast to test an underwater geothermal power generator.",
+    "category": "Energy",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/offshore-geothermal-energy",
+    "published_at": "2026-09-24T12:00:02+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706243+00:00"
+  },
+  {
+    "title": "Cognex Launches In-Sight 1750 Wafer ID System",
+    "summary": "Cognex launched a new wafer identification system that uses AI, imaging, and illumination to read difficult markings.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/cognex-launches-in-sight-1750-wafer-identification-system/",
+    "published_at": "2026-09-24T11:07:02+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706246+00:00"
+  },
+  {
+    "title": "EOS Partners with Axiomatek for Mexico Distribution",
+    "summary": "EOS named Axiomatek as its Mexico distribution partner to expand local access to polymer and metal LPBF systems.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/eos-names-axiomatek-as-mexico-distribution-partner/",
+    "published_at": "2026-09-24T10:23:36+00:00",
+    "fetched_at": "2026-09-24T16:50:22.706250+00:00"
+  },
+  {
+    "title": "SHINING 3D Renews WorldSkills Partnership Through 2028",
+    "summary": "SHINING 3D will support five skills competitions at WorldSkills Shanghai 2026 using its 3D scanning and metrology technologies.",
+    "category": "Other Engineering",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/shining-3d-renews-worldskills-partnership-through-2028/",
+    "published_at": "2026-09-24T09:56:59+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481464+00:00"
+  },
+  {
+    "title": "Network Rail Plans £1.4M Lincolnshire Track Renewal",
+    "summary": "Network Rail is investing £1.4M to replace over 730 meters of track between Hubbert’s Bridge and Swineshead.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/1-4m-track-renewal-planned-for-lincolnshire-railway-24-09-2026/",
+    "published_at": "2026-09-24T09:44:32+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481478+00:00"
+  },
+  {
     "title": "SEMICON India 2026: Silicon Startup Funding",
     "summary": "Indian semiconductor startups are seeking capital beyond seed rounds to move from prototypes to volume production.",
     "category": "Electronics & Semiconductors",
@@ -7,6 +88,15 @@
     "source_url": "https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
     "published_at": "2026-09-24T08:15:06+00:00",
     "fetched_at": "2026-09-24T08:54:41.873073+00:00"
+  },
+  {
+    "title": "East Midlands Prepares £5M Highways and Civils Framework",
+    "summary": "Via East Midlands is undertaking preliminary market engagement for a proposed highways maintenance and civil engineering framework.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/uncategorized/east-midlands-prepares-5m-highways-and-civils-framework-24-09-2026/",
+    "published_at": "2026-09-24T08:11:26+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481483+00:00"
   },
   {
     "title": "Network-on-Chip For Multi-Die Devices",
@@ -52,6 +142,42 @@
     "source_url": "https://semiengineering.com/autonomy-levels-for-design-agents-l1-to-l5-explained/",
     "published_at": "2026-09-24T07:01:59+00:00",
     "fetched_at": "2026-09-24T08:54:41.873105+00:00"
+  },
+  {
+    "title": "Uncertainty Drives Innovation Commitment in Construction",
+    "summary": "Geopolitical and economic uncertainty has increased innovation commitment among 61 percent of construction businesses.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/geopolitical-uncertainty-drives-innovation-commitment-among-61-of-construction-businesses-24-09-2026/",
+    "published_at": "2026-09-24T05:30:18+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481487+00:00"
+  },
+  {
+    "title": "Japan Funds Development of Compact Satellite Antennas",
+    "summary": "Japan’s Ministry of Internal Affairs and Communications has allocated $44m to support projects creating compact universal satellite antennas.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/japan-ponders-starlink-alternatives-2026-09/",
+    "published_at": "2026-09-24T05:13:51+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481492+00:00"
+  },
+  {
+    "title": "YMTC Wins German Patent Battle Against Micron",
+    "summary": "YMTC won a patent infringement case against Micron in a German court, securing a 10-year injunction protecting its IP.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/ymtc-wins-patent-battle-against-micron-2026-09/",
+    "published_at": "2026-09-24T05:12:48+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481494+00:00"
+  },
+  {
+    "title": "Engineers Invited to Test Arduino VENTUNO Q SBC",
+    "summary": "element14 is inviting engineers and makers to evaluate Arduino’s new VENTUNO Q single-board computer for free.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/test-arduinos-new-ventuno-q-sbc-for-free-2026-09/",
+    "published_at": "2026-09-24T05:10:56+00:00",
+    "fetched_at": "2026-09-24T16:50:52.481498+00:00"
   },
   {
     "title": "T. rex Fossil Reveals Ancient Blood Vessels",
@@ -142,131 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.28431v1",
     "published_at": "2026-09-23T17:31:52+00:00",
     "fetched_at": "2026-09-24T08:54:45.993838+00:00"
-  },
-  {
-    "title": "Streaming Policy for Always-On Robots",
-    "summary": "ARMS is a streaming policy for always-on robots that uses lightweight modules to asynchronously process perception, embodied states, and past actions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28429v1",
-    "published_at": "2026-09-23T17:29:40+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993843+00:00"
-  },
-  {
-    "title": "Context-Continuous Preference Learning for Exoskeletons",
-    "summary": "Context-Continuous Preference Learning uses Gaussian processes to share observations across nearby operating conditions, reducing user feedback needs for exoskeleton personalization.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28427v1",
-    "published_at": "2026-09-23T17:28:08+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993848+00:00"
-  },
-  {
-    "title": "Abbott Adds Berry Street Dietitian Coaching to Lingo",
-    "summary": "Abbott is teaming up with Berry Street to offer virtual one-on-one nutrition coaching linked to continuous glucose monitor data trends.",
-    "category": "Biomedical",
-    "source_name": "Drug Delivery Business News",
-    "source_url": "https://www.drugdeliverybusiness.com/abbott-partners-with-berry-street-to-add-nutrition-coaching-to-lingo/",
-    "published_at": "2026-09-23T17:26:26+00:00",
-    "fetched_at": "2026-09-23T22:56:52.162088+00:00"
-  },
-  {
-    "title": "Two-Impulse Rendezvous for Thrusting Spacecraft",
-    "summary": "A relative motion framework on the SE2(3) Lie group enables two-impulse rendezvous planning for spacecraft operating under continuous thrust.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28413v1",
-    "published_at": "2026-09-23T17:13:55+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993853+00:00"
-  },
-  {
-    "title": "Robustness Guarantees for Optimal RIS Placement",
-    "summary": "Research shows that optimal placement for Reconfigurable Intelligent Surfaces remains unchanged by moderate position errors in ToF-based self-localization.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28402v1",
-    "published_at": "2026-09-23T17:06:55+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993857+00:00"
-  },
-  {
-    "title": "Empirical Analysis of Near-Field Beam Shaping",
-    "summary": "An empirical analysis evaluated structured near-field beam performance under dynamic blockages for millimeter-wave and sub-terahertz links.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28400v1",
-    "published_at": "2026-09-23T17:05:08+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993861+00:00"
-  },
-  {
-    "title": "Reinforcement Learning for Signal Temporal Logic",
-    "summary": "A time-aware reinforcement learning framework uses spatiotemporal tubes to control robotic systems under strict actuator limits and complex temporal logic specifications.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28396v1",
-    "published_at": "2026-09-23T17:03:00+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993866+00:00"
-  },
-  {
-    "title": "Optimal Guidance with Terminal Angle Constraints",
-    "summary": "A linear-quadratic optimal-control guidance law incorporates bounded missile acceleration commands to achieve terminal intercept-angle constraints against maneuvering targets.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28381v1",
-    "published_at": "2026-09-23T16:55:44+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993870+00:00"
-  },
-  {
-    "title": "ForgetMimic: Motion Unlearning for Humanoid Control",
-    "summary": "ForgetMimic is a motion-level unlearning method designed to eliminate specific motions from reinforcement-learning-based humanoid control policies while preserving others.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28378v1",
-    "published_at": "2026-09-23T16:54:25+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437302+00:00"
-  },
-  {
-    "title": "LEAP-CBF Safety Filter for Uncertain Robotic Systems",
-    "summary": "Least-Effort Adversarial Potentials quantify state robustness against disturbances to serve as a safety filter for uncertain nonlinear systems like quadrupeds and quadrotors.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28364v1",
-    "published_at": "2026-09-23T16:36:11+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437311+00:00"
-  },
-  {
-    "title": "Curvature-Domain Signaling for Continuous Apertures",
-    "summary": "A curvature-domain formulation for continuous-aperture wireless communications provides gauge-invariant signaling and closed-form modal spectra.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28363v1",
-    "published_at": "2026-09-23T16:33:55+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437317+00:00"
-  },
-  {
-    "title": "Partitioned FSI Solver for Spacecraft Sloshing Dynamics",
-    "summary": "A direct numerical simulation fluid-structure interaction framework models rigid-liquid-flexible spacecraft dynamics under microgravity conditions.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28355v1",
-    "published_at": "2026-09-23T16:28:42+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437321+00:00"
-  },
-  {
-    "title": "Spike-MPPI: Motoneuron-Inspired Sampling for Control",
-    "summary": "Spike-MPPI generates temporally structured perturbations through a motoneuron-inspired proposal to improve control smoothness in model predictive path integral control.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28325v1",
-    "published_at": "2026-09-23T16:03:21+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437325+00:00"
-  },
-  {
-    "title": "Multimodal Voice Activity Projection for Social Robots",
-    "summary": "Multimodal Voice Activity Projection estimates conversational floor evolution from audio-visual evidence to help social robots manage turn-taking and mediation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28317v1",
-    "published_at": "2026-09-23T15:57:29+00:00",
-    "fetched_at": "2026-09-24T08:54:49.437330+00:00"
   }
 ]
