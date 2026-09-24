@@ -1,5 +1,77 @@
 [
   {
+    "title": "SEMICON India 2026: Silicon Startup Funding",
+    "summary": "Indian semiconductor startups are seeking capital beyond seed rounds to move from prototypes to volume production.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
+    "published_at": "2026-09-24T08:15:06+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873073+00:00"
+  },
+  {
+    "title": "Network-on-Chip For Multi-Die Devices",
+    "summary": "Native packetized NoC traffic is transported directly across die boundaries using a stable interface.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/a-network-on-chip-noc-for-multi-die-devices/",
+    "published_at": "2026-09-24T07:07:06+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873085+00:00"
+  },
+  {
+    "title": "Managing 3D-IC Design And IP",
+    "summary": "Data management, traceability, and revision control are critical for multi-chiplet heterogeneous integration.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/managing-3d-ic-design-and-ip/",
+    "published_at": "2026-09-24T07:05:05+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873091+00:00"
+  },
+  {
+    "title": "AI Agents in Chip Design",
+    "summary": "Specialization and orchestration grow more important as AI agents expand across chip design silos.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
+    "published_at": "2026-09-24T07:03:42+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873096+00:00"
+  },
+  {
+    "title": "EDA's Future Is Evidence-Driven Automation",
+    "summary": "Users require formal proof and auditable workflows to trust AI-accelerated semiconductor design.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
+    "published_at": "2026-09-24T07:02:50+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873101+00:00"
+  },
+  {
+    "title": "Autonomy Levels For Design Agents",
+    "summary": "New frameworks define decision scopes, validation, intervention points, and accountability for design automation.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/autonomy-levels-for-design-agents-l1-to-l5-explained/",
+    "published_at": "2026-09-24T07:01:59+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873105+00:00"
+  },
+  {
+    "title": "T. rex Fossil Reveals Ancient Blood Vessels",
+    "summary": "Scientists used imaging to discover a fossilized network of blood vessels inside a broken rib from Scotty the T. rex.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
+    "published_at": "2026-09-24T02:20:36+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873110+00:00"
+  },
+  {
+    "title": "Beamed Energy for Solar-Powered Drones",
+    "summary": "BAE Systems won a contract to install a ground-based energy-beaming system on its PHASA-35 stratospheric drone.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/beamed-energy-bae-solar-powered-drone/",
+    "published_at": "2026-09-24T01:18:22+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873114+00:00"
+  },
+  {
     "title": "Nugget Twin Camper Van Launches with AWD and High Roof",
     "summary": "Nugget Schmiede has officially launched the high-roofed Nugget Twin camper van, offering all-wheel drive and space for four people.",
     "category": "Mechanical",
@@ -16,6 +88,15 @@
     "source_url": "https://newatlas.com/https:/refractor.io/science/quantum-computing/quantum-computer-chip-vibrating/",
     "published_at": "2026-09-23T20:30:00+00:00",
     "fetched_at": "2026-09-23T22:56:52.162078+00:00"
+  },
+  {
+    "title": "Quantum Chip Stores Memory as Vibrations",
+    "summary": "Scientists developed a quantum architecture that stores memory as vibrations to shrink required hardware.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/science/quantum-computing/quantum-computer-chip-vibrating/",
+    "published_at": "2026-09-23T20:30:00+00:00",
+    "fetched_at": "2026-09-24T08:54:41.873119+00:00"
   },
   {
     "title": "Cognita Tests LLM 'Jury' for FDA Radiology Evaluation",
@@ -36,6 +117,51 @@
     "fetched_at": "2026-09-23T22:56:52.162085+00:00"
   },
   {
+    "title": "Language-Guided Robot Group Joining",
+    "summary": "Researchers proposed a language-grounded method for robots to predict socially compliant joining poses based on a group's real-time activity and formation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28467v1",
+    "published_at": "2026-09-23T17:55:48+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993823+00:00"
+  },
+  {
+    "title": "Predicting Spinal Curve Progression in Scoliosis",
+    "summary": "A transformer model trained on synthetic data was developed to predict the temporal progression of Adolescent Idiopathic Scoliosis using DXA scans.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28434v1",
+    "published_at": "2026-09-23T17:33:31+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993833+00:00"
+  },
+  {
+    "title": "Asynchronous Diffusion for Dexterous Manipulation",
+    "summary": "LiMA is an asynchronous dual-system generative framework that decouples intent planning from reactive execution to improve robotic dexterous manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28431v1",
+    "published_at": "2026-09-23T17:31:52+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993838+00:00"
+  },
+  {
+    "title": "Streaming Policy for Always-On Robots",
+    "summary": "ARMS is a streaming policy for always-on robots that uses lightweight modules to asynchronously process perception, embodied states, and past actions.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28429v1",
+    "published_at": "2026-09-23T17:29:40+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993843+00:00"
+  },
+  {
+    "title": "Context-Continuous Preference Learning for Exoskeletons",
+    "summary": "Context-Continuous Preference Learning uses Gaussian processes to share observations across nearby operating conditions, reducing user feedback needs for exoskeleton personalization.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28427v1",
+    "published_at": "2026-09-23T17:28:08+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993848+00:00"
+  },
+  {
     "title": "Abbott Adds Berry Street Dietitian Coaching to Lingo",
     "summary": "Abbott is teaming up with Berry Street to offer virtual one-on-one nutrition coaching linked to continuous glucose monitor data trends.",
     "category": "Biomedical",
@@ -45,228 +171,102 @@
     "fetched_at": "2026-09-23T22:56:52.162088+00:00"
   },
   {
-    "title": "Fairfax 20' Tiny House Offers Budget Living",
-    "summary": "A recently completed compact tiny house named the Fairfax 20' provides single-floor living for under $35K.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/tiny-houses/fairfax-20-updated-dragon-tiny-homes/",
-    "published_at": "2026-09-23T12:27:00+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808050+00:00"
-  },
-  {
-    "title": "RoboBusiness Keynote to Focus on Humanoid Robots",
-    "summary": "Industry leaders at RoboBusiness will discuss the transition of humanoid robots from demos to industrial deployments.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
-    "published_at": "2026-09-23T12:25:11+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808091+00:00"
-  },
-  {
-    "title": "Lloyds Report Urges Smarter Risk-Sharing for UK Infrastructure",
-    "summary": "A new report from Lloyds Banking Group calls for improved collaboration and risk-sharing to build climate-resilient UK infrastructure.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/smarter-risk-sharing-between-government-investors-and-asset-owners-needed-for-uks-ageing-infrastructure-23-09-2026/",
-    "published_at": "2026-09-23T11:54:56+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808097+00:00"
-  },
-  {
-    "title": "PATEO and Arm Partner for Automotive Physical AI",
-    "summary": "The companies are collaborating to examine AI workloads spanning perception, interaction, and computing platforms for vehicles.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/pateo-and-arm-explore-physical-ai-for-automotive-applications/",
-    "published_at": "2026-09-23T10:30:07+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808102+00:00"
-  },
-  {
-    "title": "UK Forms RAF Space Squadron to Protect Satellites",
-    "summary": "The UK has announced the formation of an RAF Space Squadron to defend British satellites and interests in space.",
+    "title": "Two-Impulse Rendezvous for Thrusting Spacecraft",
+    "summary": "A relative motion framework on the SE2(3) Lie group enables two-impulse rendezvous planning for spacecraft operating under continuous thrust.",
     "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/raf-space-squadron-forms-to-defend-britains-satellites-2026-09/",
-    "published_at": "2026-09-23T10:13:55+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808108+00:00"
-  },
-  {
-    "title": "Gas Leak Disrupts Rail Services in Oxfordshire",
-    "summary": "SGN engineers worked overnight after a major gas leak in Didcot disrupted rail services between Reading and Swindon.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/engineers-worked-throughout-the-night-after-major-gas-leak-disrupts-rail-services-between-reading-and-swindon-23-09-2026/",
-    "published_at": "2026-09-23T09:58:22+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808112+00:00"
-  },
-  {
-    "title": "Details Released on AWE Future Materials Campus",
-    "summary": "The UK government revealed more information regarding the Atomic Weapons Establishment's planned Future Materials Campus infrastructure.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/further-details-released-about-atomic-weapons-establishments-future-materials-campus-23-09-2026/",
-    "published_at": "2026-09-23T09:28:14+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808117+00:00"
-  },
-  {
-    "title": "UKSA Funds Filtronic for Satellite Ground Networks",
-    "summary": "Filtronic received UK Space Agency funding to develop next-generation RF over IP technology for digital satellite ground networks.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/uksa-backs-filtronic-to-develop-rf-over-ip-for-digital-satellite-ground-networks-2026-09/",
-    "published_at": "2026-09-23T09:26:48+00:00",
-    "fetched_at": "2026-09-23T16:38:27.808121+00:00"
-  },
-  {
-    "title": "HS2 Seeks 10-Year Professional Services Partnering Deal",
-    "summary": "HS2 Ltd is seeking market views for professional services to support the later phases of the high-speed rail programme.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/hs2-seeks-10-year-professional-services-deal-as-programme-transitions-from-civils-23-09-2026/",
-    "published_at": "2026-09-23T08:28:50+00:00",
-    "fetched_at": "2026-09-23T16:38:58.072646+00:00"
-  },
-  {
-    "title": "North Sea Energy Transition Window Narrowed",
-    "summary": "The North Sea Transition Taskforce reports that the window for a successful energy transition in the UK Continental Shelf has narrowed.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/window-for-successful-north-sea-energy-transition-narrowed-says-taskforce-23-09-2026/",
-    "published_at": "2026-09-23T07:46:38+00:00",
-    "fetched_at": "2026-09-23T09:02:55.818885+00:00"
-  },
-  {
-    "title": "Chip Turf War Brews in China",
-    "summary": "China's semiconductor industry faces increasing competition as CXMT enters the NAND market and YMTC expands into new areas.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/chip-turf-war-in-china-2026-09/",
-    "published_at": "2026-09-23T05:16:31+00:00",
-    "fetched_at": "2026-09-23T09:02:55.818900+00:00"
-  },
-  {
-    "title": "Alibaba Unveils Zhenwu V900 AI Processor",
-    "summary": "Alibaba's chip unit T-Head previewed its most powerful AI processor for training and inference, with production slated for Q1 2027.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/alibaba-announces-its-most-powerful-ai-processor-yet-2026-09/",
-    "published_at": "2026-09-23T05:15:38+00:00",
-    "fetched_at": "2026-09-23T09:02:58.992007+00:00"
-  },
-  {
-    "title": "2025 DRAM Module Market Grew 59%",
-    "summary": "TrendForce reports that the global DRAM module market grew 59 percent year-over-year in 2025 to reach $21.2 billion.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/dram-module-suppliers-2026-09/",
-    "published_at": "2026-09-23T05:11:03+00:00",
-    "fetched_at": "2026-09-23T09:02:58.992015+00:00"
-  },
-  {
-    "title": "Three Firms Unite Into Medical Device Organization",
-    "summary": "MRPC, PDC, and Injectech are combining precision molding, silicone, and fluid management capabilities under a unified brand in early 2027.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/ma/mrpc-pdc-and-injectech-unite-as-one-medical-device-manufacturing-organization",
-    "published_at": "2026-09-22T19:35:34+00:00",
-    "fetched_at": "2026-09-23T09:02:58.992022+00:00"
-  },
-  {
-    "title": "Google Finances Nuclear Uprates in Georgia",
-    "summary": "Georgia Power and Google agreed to uprate nuclear units at Plants Vogtle and Hatch to add 96 MW of capacity, pending approval.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/google-to-pay-for-nuclear-uprates-at-georgia-powers-hatch-vogtle-plants/",
-    "published_at": "2026-09-22T19:21:58+00:00",
-    "fetched_at": "2026-09-23T09:02:58.992026+00:00"
-  },
-  {
-    "title": "GLP-1 Drugs Boost ResMed Sleep Apnea Therapy Adherence",
-    "summary": "ResMed data shows that GLP-1 weight loss drugs are unexpectedly driving higher CPAP therapy adherence rates.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/business/from-headwind-to-tailwind-how-glp-1s-are-unexpectedly-benefiting-resmed-s-sleep-apnea-business",
-    "published_at": "2026-09-22T19:19:49+00:00",
-    "fetched_at": "2026-09-22T17:15:05.985190+00:00"
-  },
-  {
-    "title": "DOE Allocates $99M for Geothermal Projects",
-    "summary": "The U.S. Department of Energy announced over $99 million for 21 geothermal energy projects across the United States to advance technology and exploration.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/energy-business/new-project-development/doe-targets-next-gen-geothermal-development-with-99m-for-field-scale-tests-exploration-drilling/",
-    "published_at": "2026-09-22T19:16:37+00:00",
-    "fetched_at": "2026-09-23T09:03:01.565718+00:00"
-  },
-  {
-    "title": "Wafer-Scale Sub-5nm MoS2 Transistors Developed",
-    "summary": "Researchers reported monolayer MoS2 transistors with physical channel lengths below 5 nm, achieving subthreshold performance beyond the silicon limit.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/wafer-scale-sub-5nm-channel-monolayer-mos2-transistors-cmu-uf-mit-et-al/",
-    "published_at": "2026-09-22T17:51:42+00:00",
-    "fetched_at": "2026-09-23T09:03:01.565729+00:00"
-  },
-  {
-    "title": "Thermal Visual Place Recognition via Analytic Online Adaptation",
-    "summary": "A novel framework integrates analytic class-incremental learning with domain-invariant visual place recognition to achieve robust real-time SLAM localization.",
-    "category": "Computing",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26766v1",
-    "published_at": "2026-09-22T17:46:31+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073320+00:00"
+    "source_url": "https://arxiv.org/abs/2609.28413v1",
+    "published_at": "2026-09-23T17:13:55+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993853+00:00"
   },
   {
-    "title": "Single-Sensor Underwater Navigation in Unsteady Flows",
-    "summary": "Researchers demonstrated a causal observer using finite flow histories from a single sensing unit to aid underwater navigation in wake simulations.",
+    "title": "Robustness Guarantees for Optimal RIS Placement",
+    "summary": "Research shows that optimal placement for Reconfigurable Intelligent Surfaces remains unchanged by moderate position errors in ToF-based self-localization.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28402v1",
+    "published_at": "2026-09-23T17:06:55+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993857+00:00"
+  },
+  {
+    "title": "Empirical Analysis of Near-Field Beam Shaping",
+    "summary": "An empirical analysis evaluated structured near-field beam performance under dynamic blockages for millimeter-wave and sub-terahertz links.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28400v1",
+    "published_at": "2026-09-23T17:05:08+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993861+00:00"
+  },
+  {
+    "title": "Reinforcement Learning for Signal Temporal Logic",
+    "summary": "A time-aware reinforcement learning framework uses spatiotemporal tubes to control robotic systems under strict actuator limits and complex temporal logic specifications.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26753v1",
-    "published_at": "2026-09-22T17:34:33+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073329+00:00"
+    "source_url": "https://arxiv.org/abs/2609.28396v1",
+    "published_at": "2026-09-23T17:03:00+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993866+00:00"
   },
   {
-    "title": "Bilevel Optimization for Multi-Agent Incentive Design",
-    "summary": "A new framework and algorithm use side payments to align independent agent behaviors with a leader's objective in multi-agent systems.",
+    "title": "Optimal Guidance with Terminal Angle Constraints",
+    "summary": "A linear-quadratic optimal-control guidance law incorporates bounded missile acceleration commands to achieve terminal intercept-angle constraints against maneuvering targets.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28381v1",
+    "published_at": "2026-09-23T16:55:44+00:00",
+    "fetched_at": "2026-09-24T08:54:45.993870+00:00"
+  },
+  {
+    "title": "ForgetMimic: Motion Unlearning for Humanoid Control",
+    "summary": "ForgetMimic is a motion-level unlearning method designed to eliminate specific motions from reinforcement-learning-based humanoid control policies while preserving others.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28378v1",
+    "published_at": "2026-09-23T16:54:25+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437302+00:00"
+  },
+  {
+    "title": "LEAP-CBF Safety Filter for Uncertain Robotic Systems",
+    "summary": "Least-Effort Adversarial Potentials quantify state robustness against disturbances to serve as a safety filter for uncertain nonlinear systems like quadrupeds and quadrotors.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28364v1",
+    "published_at": "2026-09-23T16:36:11+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437311+00:00"
+  },
+  {
+    "title": "Curvature-Domain Signaling for Continuous Apertures",
+    "summary": "A curvature-domain formulation for continuous-aperture wireless communications provides gauge-invariant signaling and closed-form modal spectra.",
     "category": "Computing",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26726v1",
-    "published_at": "2026-09-22T17:13:21+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073335+00:00"
+    "source_url": "https://arxiv.org/abs/2609.28363v1",
+    "published_at": "2026-09-23T16:33:55+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437317+00:00"
   },
   {
-    "title": "Designing Multi-kW Power Delivery in 3D Integrated Systems",
-    "summary": "University of Minnesota researchers published a technical paper addressing multi-kW power delivery methodologies for advanced 3D heterogeneous integration.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/designing-multi-kw-power-delivery-for-advanced-3d-chiplet-systems/",
-    "published_at": "2026-09-22T17:09:41+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073340+00:00"
-  },
-  {
-    "title": "GPUThor Attack Amplifies Rowhammer on Protected GPUs",
-    "summary": "University of Toronto researchers developed GPUThor, a high-intensity Rowhammer attack that exploits non-uniform hammering patterns on ECC-protected NVIDIA GPUs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/high-intensity-rowhammer-attack-on-gpus-leveraging-non-uniform-hammering-u-of-toronto/",
-    "published_at": "2026-09-22T16:30:25+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073344+00:00"
-  },
-  {
-    "title": "Canadian Startup Achieves Space Qualification Success",
-    "summary": "Novigrad has advanced faster and more accessible radiation testing to meet the growing demand for reliable electronics in space missions.",
+    "title": "Partitioned FSI Solver for Spacecraft Sloshing Dynamics",
+    "summary": "A direct numerical simulation fluid-structure interaction framework models rigid-liquid-flexible spacecraft dynamics under microgravity conditions.",
     "category": "Aerospace",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/canadian-startup-sees-success-in-space-qualification/",
-    "published_at": "2026-09-22T16:21:10+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073348+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28355v1",
+    "published_at": "2026-09-23T16:28:42+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437321+00:00"
   },
   {
-    "title": "Deep Learning Segmentation of Laryngeal Structures",
-    "summary": "U-Net models trained on high-speed videoendoscopy data achieved high accuracy in segmenting laryngeal tissues during connected speech and vowel phonation.",
-    "category": "Biomedical",
+    "title": "Spike-MPPI: Motoneuron-Inspired Sampling for Control",
+    "summary": "Spike-MPPI generates temporally structured perturbations through a motoneuron-inspired proposal to improve control smoothness in model predictive path integral control.",
+    "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.26636v1",
-    "published_at": "2026-09-22T16:09:40+00:00",
-    "fetched_at": "2026-09-23T09:03:11.073352+00:00"
+    "source_url": "https://arxiv.org/abs/2609.28325v1",
+    "published_at": "2026-09-23T16:03:21+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437325+00:00"
+  },
+  {
+    "title": "Multimodal Voice Activity Projection for Social Robots",
+    "summary": "Multimodal Voice Activity Projection estimates conversational floor evolution from audio-visual evidence to help social robots manage turn-taking and mediation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.28317v1",
+    "published_at": "2026-09-23T15:57:29+00:00",
+    "fetched_at": "2026-09-24T08:54:49.437330+00:00"
   }
 ]
