@@ -413,9 +413,13 @@ button { font-family: inherit; }
 /* Stats — al posto del footer: barra compatta che si espande in fondo  */
 /* ------------------------------------------------------------------ */
 
-.stats-section { padding: 56px clamp(14px, 4vw, 40px) 28px; }
+.stats-section {
+  box-sizing: border-box; min-height: 100vh; min-height: 100svh;
+  display: flex; align-items: center;
+  padding: 56px clamp(14px, 4vw, 40px) 52px;
+}
 
-.stats-panel { position: relative; max-width: 1120px; margin: 0 auto; padding-bottom: 6px; }
+.stats-panel { position: relative; width: 100%; max-width: 1120px; margin: 0 auto; padding-bottom: 6px; }
 
 /* Sfondo del pannello. Stato "a riposo" (senza JS/GSAP o con reduced-motion)
    = pannello pieno. Con GSAP parte come una pillola alta quanto la sola barra
@@ -478,50 +482,117 @@ button { font-family: inherit; }
 .info-btn:hover, .info-btn:focus-visible { background: var(--red-bright); color: var(--ink); }
 .stats-panel .info-btn:focus-visible { outline-color: var(--paper); }
 
-.stats-detail {
+/* --- Finestra a scorrimento orizzontale: lo scroll verticale della pagina
+   muove il binario (GSAP ScrollTrigger, sezione "pinnata"). Senza GSAP o con
+   reduced-motion diventa un normale scroll orizzontale con snap. --- */
+.stats-window {
+  --stats-window-h: clamp(300px, 44vh, 390px);
   position: relative; z-index: 1;
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px;
-  padding: 8px 22px 22px;
+  height: var(--stats-window-h);
+  overflow-x: auto; overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, .25) transparent;
   color: var(--paper);
 }
-.stats-card {
-  background: rgba(255, 255, 255, .05);
-  border: 1px solid rgba(255, 255, 255, .12);
-  border-radius: 18px;
-  padding: 20px 22px 22px;
+@supports (height: 100svh) { .stats-window { --stats-window-h: clamp(300px, 44svh, 390px); } }
+.stats-section.is-scrubbed .stats-window { overflow: hidden; scroll-snap-type: none; }
+.stats-section.is-scrubbed .stats-window,
+.stats-section.is-scrubbed .stats-nav { opacity: 0; }
+
+.hs-track { display: flex; height: 100%; width: max-content; padding-left: 22px; will-change: transform; }
+.hs-slide {
+  flex: 0 0 auto; height: 100%; box-sizing: border-box;
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 4px 30px 10px 8px; margin-right: 22px;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+  scroll-snap-align: start;
 }
-.stats-card-title {
-  margin: 0 0 12px; font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+.hs-slide:last-child { margin-right: 0; border-right: 0; padding-right: 30px; }
+.hs-narrow { width: min(340px, 80vw); }
+.hs-mid { width: min(560px, 86vw); }
+.hs-wide { width: min(880px, 90vw); }
+.stats-section.is-scrubbed .hs-slide:not(.is-in) > * { opacity: 0; }
+
+.hs-kicker {
+  display: flex; align-items: baseline; gap: 10px; margin: 0;
+  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
   letter-spacing: .12em; text-transform: uppercase; color: var(--red-bright);
 }
-.stats-card-lead { margin: 0 0 16px; font-family: var(--font-display); font-weight: 500; font-size: 19px; line-height: 1.3; }
-.stats-card-lead strong { color: var(--red-bright); font-weight: 600; }
-/* Con l'espansione animata le card partono nascoste; è GSAP (scrub) a rivelarle. */
-.stats-section.is-scrubbed .stats-card { opacity: 0; transform: translateY(56px); }
+.hs-kicker i { font-style: normal; color: rgba(246, 245, 242, .4); font-weight: 500; letter-spacing: .08em; }
+.hs-title { margin: 0; font-family: var(--font-display); font-weight: 500; font-size: 19px; line-height: 1.28; }
+.hs-title strong { color: var(--red-bright); font-weight: 600; }
+.hs-body { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 10px; }
+.hs-note { margin: 0; font-size: 11px; line-height: 1.5; color: rgba(246, 245, 242, .6); }
+.hs-formula { font-family: var(--font-mono); font-size: 11px; color: rgba(246, 245, 242, .62); letter-spacing: .02em; }
+.hs-formula b { color: var(--paper); font-weight: 600; }
 
-.stats-note { margin: 14px 0 0; font-size: 11.5px; line-height: 1.55; color: rgba(246, 245, 242, .62); }
-
-.stats-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.stats-row { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; row-gap: 5px; align-items: baseline; }
-.stats-row-label { font-size: 12px; color: var(--paper-grey); }
-.stats-row-value { font-family: var(--font-mono); font-size: 11px; font-weight: 600; color: var(--paper); }
-.stats-track { grid-column: 1 / -1; height: 5px; border-radius: 999px; background: rgba(255, 255, 255, .1); overflow: hidden; }
+.stats-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+.stats-rows.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 26px; row-gap: 9px; align-content: start; }
+.stats-row { display: grid; grid-template-columns: 1fr auto; column-gap: 12px; row-gap: 4px; align-items: baseline; }
+.stats-row-label { font-size: 11.5px; color: var(--paper-grey); }
+.stats-row-value { font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; color: var(--paper); }
+.stats-track { grid-column: 1 / -1; height: 4px; border-radius: 999px; background: rgba(255, 255, 255, .1); overflow: hidden; }
 .stats-fill { display: block; height: 100%; width: 0; border-radius: 999px; background: var(--red); }
 .stats-row.is-zero .stats-row-label, .stats-row.is-zero .stats-row-value { opacity: .42; }
 
-.stats-score { display: flex; gap: 28px; margin: 0 0 18px; }
+.stats-score { display: flex; gap: 28px; }
 .stats-score-item { display: flex; flex-direction: column; gap: 2px; }
-.stats-score-num { font-family: var(--font-display); font-weight: 600; font-size: 44px; line-height: 1; color: var(--paper); }
+.stats-score-num { font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: 1; color: var(--paper); font-variant-numeric: tabular-nums; }
 .stats-score-cap { font-family: var(--font-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; color: rgba(246, 245, 242, .55); }
 
-.stats-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.stats-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 5px; align-content: flex-start; }
 .stats-chip {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-family: var(--font-mono); font-size: 10.5px; color: rgba(246, 245, 242, .6);
-  border: 1px solid rgba(255, 255, 255, .14); border-radius: 999px; padding: 5px 11px;
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--font-mono); font-size: 9.5px; color: rgba(246, 245, 242, .58);
+  border: 1px solid rgba(255, 255, 255, .14); border-radius: 999px; padding: 3px 9px;
 }
 .stats-chip.is-active { color: var(--paper); border-color: rgba(255, 90, 96, .7); background: rgba(215, 25, 32, .16); }
 .stats-chip b { font-weight: 600; color: var(--red-bright); }
+
+/* Grafici (SVG generati in script.js) */
+.chart-readout {
+  display: flex; align-items: baseline; gap: 14px; flex-wrap: nowrap; min-height: 15px;
+  font-family: var(--font-mono); font-size: 10.5px; color: rgba(246, 245, 242, .7); white-space: nowrap; overflow: hidden;
+}
+.chart-readout b { color: var(--paper); font-weight: 600; }
+.chart-readout em { font-style: normal; color: var(--red-bright); font-weight: 600; }
+.chart-readout .ro-title { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.chart-box { position: relative; flex: 1; min-height: 0; touch-action: pan-y; }
+.chart-box svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.chart-box text { font-family: var(--font-mono); font-size: 9px; fill: rgba(246, 245, 242, .52); }
+.chart-box .c-cap { font-size: 8.5px; letter-spacing: .1em; fill: rgba(246, 245, 242, .7); text-transform: uppercase; }
+.chart-box .c-grid { stroke: rgba(255, 255, 255, .09); stroke-width: 1; stroke-dasharray: 2 4; }
+.chart-box .c-axis { stroke: rgba(255, 255, 255, .28); stroke-width: 1; }
+.chart-box .c-line { fill: none; stroke: var(--red-bright); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart-box .c-area { fill: url(#gArea); stroke: none; }
+.chart-box .c-dot { fill: var(--ink); stroke: var(--red-bright); stroke-width: 1.6; }
+.chart-box .c-dot.end { fill: var(--red-bright); }
+.chart-box .c-xhair { stroke: rgba(246, 245, 242, .5); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0; }
+.chart-box .c-mean { stroke: var(--paper); stroke-width: 1; stroke-dasharray: 5 4; opacity: .8; }
+.chart-box .c-end-label { fill: var(--paper); font-weight: 600; font-size: 10px; }
+.chart-box .c-empty { fill: rgba(246, 245, 242, .6); font-size: 10.5px; }
+.chart-box .c-bar { fill: rgba(246, 245, 242, .3); }
+.chart-box .c-bar.is-today { fill: var(--red); }
+.chart-box .c-bar.is-on { fill: var(--red-bright); }
+.chart-box .c-hit { fill: transparent; }
+.chart-legend { display: flex; gap: 14px; font-family: var(--font-mono); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; color: rgba(246, 245, 242, .6); }
+.chart-legend span::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 2px; background: rgba(246, 245, 242, .3); }
+.chart-legend .lg-today::before { background: var(--red); }
+.chart-legend .lg-mean::before { height: 0; border-top: 1px dashed var(--paper); border-radius: 0; background: none; width: 12px; vertical-align: middle; }
+
+/* Navigazione: barra di avanzamento + sezioni */
+.stats-nav { position: relative; z-index: 1; padding: 2px 22px 16px; }
+.stats-nav-line { display: block; height: 2px; background: rgba(255, 255, 255, .14); border-radius: 2px; overflow: hidden; }
+.stats-nav-fill { display: block; height: 100%; width: 100%; background: var(--red-bright); transform-origin: 0 50%; transform: scaleX(0); }
+.stats-nav-list { list-style: none; margin: 8px 0 0; padding: 0; display: flex; justify-content: space-between; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.stats-nav-list::-webkit-scrollbar { display: none; }
+.stats-nav-btn {
+  display: block; padding: 3px 0; background: none; border: 0; cursor: pointer; white-space: nowrap;
+  font-family: var(--font-mono); font-size: 9px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(246, 245, 242, .45); transition: color .2s ease;
+}
+.stats-nav-btn:hover, .stats-nav-btn:focus-visible { color: var(--paper); }
+.stats-nav-btn.is-active { color: var(--red-bright); }
 
 /* ------------------------------------------------------------------ */
 /* Detail panel                                                        */
@@ -677,7 +748,6 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 860px) {
-  .stats-detail { grid-template-columns: 1fr; }
   .neural-core { left: 50%; }
   .connector-ring { left: 50%; }
   .network-header { padding: 14px 18px; }
@@ -690,14 +760,15 @@ button { font-family: inherit; }
 @media (max-width: 640px) {
   .stats-section { padding-top: 40px; }
   .stats-bar { padding: 12px 14px; gap: 8px; }
-  .stat-pill { padding: 5px 14px 5px 5px; gap: 8px; }
-  .stat-value { min-width: 30px; height: 28px; padding: 0 9px; font-size: 13px; }
-  .stat-label { font-size: 7.5px; }
+  .stat-pill { flex: 1 1 0; flex-direction: column; justify-content: center; gap: 4px; min-width: 0; padding: 7px 6px 8px; text-align: center; }
+  .stat-value { min-width: 44px; height: 26px; padding: 0 10px; font-size: 13px; }
+  .stat-label { font-size: 7px; letter-spacing: .07em; }
   .stats-criterion { margin-left: 0; width: 100%; padding: 2px 6px; }
   .stats-criterion-text { font-size: 9px; }
-  .stats-detail { padding: 6px 14px 16px; gap: 12px; }
-  .stats-card { padding: 18px 16px 20px; border-radius: 16px; }
-  .stats-score-num { font-size: 38px; }
+  .hs-track { padding-left: 14px; }
+  .stats-nav { padding: 2px 14px 14px; }
+  .hs-title { font-size: 17px; }
+  .stats-score-num { font-size: 34px; }
 
   /* Header compatto: marchio + data su due righe, filtri in UNA riga
      scorrevole in orizzontale (prima si impilavano in colonna e l'header
