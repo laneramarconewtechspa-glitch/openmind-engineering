@@ -128,12 +128,21 @@
           </div>
         </div>
 
-        <div id="stats-detail" class="stats-detail">
-          <section class="stats-card" id="stats-card-funnel"></section>
-          <section class="stats-card" id="stats-card-categories"></section>
-          <section class="stats-card" id="stats-card-bitl"></section>
-          <section class="stats-card" id="stats-card-sources"></section>
+        <div id="stats-window" class="stats-window">
+          <div id="stats-track" class="hs-track">
+            <section class="hs-slide hs-narrow" data-name="Funnel"></section>
+            <section class="hs-slide hs-wide" data-name="Trend"></section>
+            <section class="hs-slide hs-wide" data-name="Scores"></section>
+            <section class="hs-slide hs-narrow" data-name="Weights"></section>
+            <section class="hs-slide hs-mid" data-name="Categories"></section>
+            <section class="hs-slide hs-mid" data-name="Sources"></section>
+          </div>
         </div>
+
+        <nav id="stats-nav" class="stats-nav" aria-label="Statistics sections">
+          <span class="stats-nav-line" aria-hidden="true"><span id="stats-nav-fill" class="stats-nav-fill"></span></span>
+          <ol id="stats-nav-list" class="stats-nav-list"></ol>
+        </nav>
       </div>
     </footer>
 
