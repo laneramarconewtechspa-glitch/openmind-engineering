@@ -119,6 +119,8 @@ SEEN_RETAIN_HOURS = 96
 # "funnel" nel pannello espanso del footer: numeri che hanno senso solo se
 # crescono sempre, non se si azzerano o oscillano run dopo run.
 TOTAL_ANALYZED_PATH = os.path.join("data", "total_analyzed.json")
+# Righe giornaliere conservate per i grafici di tendenza (analizzati/accettati).
+HISTORY_DAYS = 60
 
 # Manifest letto dal frontend per i 3 indicatori in home e per il pannello
 # "BITL Score": fonti realmente configurate e tassonomia delle categorie.
@@ -1206,7 +1208,7 @@ def load_totals() -> dict:
     """Contatori cumulativi: {"count": N, "funnel": {"analyzed", "relevant",
     "substantive"}}. Tollera il vecchio formato (solo "count") e file mancanti
     o corrotti: in quel caso i contatori del funnel ripartono da zero."""
-    totals = {"count": 0, "funnel": {"analyzed": 0, "relevant": 0, "substantive": 0}}
+    totals = {"count": 0, "funnel": {"analyzed": 0, "relevant": 0, "substantive": 0}, "history": []}
     if not os.path.exists(TOTAL_ANALYZED_PATH):
         return totals
     try:
@@ -1215,9 +1217,31 @@ def load_totals() -> dict:
         totals["count"] = int(data.get("count", 0))
         for key in totals["funnel"]:
             totals["funnel"][key] = int((data.get("funnel") or {}).get(key, 0))
-    except (json.JSONDecodeError, OSError, ValueError, TypeError, AttributeError):
+        for h in data.get("history") or []:
+            totals["history"].append({
+                "d": str(h["d"]), "total": int(h["total"]), "analyzed": int(h["analyzed"]),
+                "relevant": int(h["relevant"]), "accepted": int(h["accepted"]),
+            })
+    except (json.JSONDecodeError, OSError, ValueError, TypeError, AttributeError, KeyError):
         pass
     return totals
+
+
+def record_history(totals: dict, analyzed: int, relevant: int, accepted: int) -> None:
+    """Aggiunge questo run alla riga del giorno (UTC) in totals["history"]:
+    analizzati/pertinenti/accettati del giorno e totale cumulativo a fine
+    giornata. Alimenta i grafici di tendenza nelle statistiche. Le righe più
+    vecchie di HISTORY_DAYS giorni vengono scartate."""
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    history = totals["history"]
+    if not history or history[-1]["d"] != today:
+        history.append({"d": today, "total": totals["count"], "analyzed": 0, "relevant": 0, "accepted": 0})
+    row = history[-1]
+    row["analyzed"] += analyzed
+    row["relevant"] += relevant
+    row["accepted"] += accepted
+    row["total"] = totals["count"]
+    del history[:-HISTORY_DAYS]
 
 
 def save_totals(totals: dict) -> None:
@@ -1241,6 +1265,7 @@ def save_stats_manifest(totals: dict) -> None:
     save_json(STATS_OUTPUT_PATH, {
         "articles_analyzed": totals["count"],
         "funnel": totals["funnel"],
+        "history": totals["history"],
         "sources": names,
         "categories": CATEGORIES,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -1449,6 +1474,7 @@ def main() -> None:
         totals["funnel"]["analyzed"] += stats["evaluated"]
         totals["funnel"]["relevant"] += len(relevant_items_this_run)
         totals["funnel"]["substantive"] += len(new_briefs)
+        record_history(totals, stats["evaluated"], len(relevant_items_this_run), len(new_briefs))
         save_totals(totals)
         save_stats_manifest(totals)
     except Exception as exc:  # noqa: BLE001 - gli indicatori sono un extra, non devono bloccare il run
