@@ -1,5 +1,203 @@
 [
   {
+    "title": "Wi-Fi HaLow Bridges Smart Building Connectivity Gaps",
+    "summary": "Wi-Fi HaLow helps bridge the gap between bandwidth, long range, and low power as edge AI transforms smart buildings.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
+    "published_at": "2026-09-25T08:00:34+00:00",
+    "fetched_at": "2026-09-25T09:20:10.811056+00:00"
+  },
+  {
+    "title": "InnovMetric Partners with Wuhan VISION3D",
+    "summary": "InnovMetric has partnered with Wuhan VISION3D to combine automated 3D measurement hardware with PolyWorks inspection software.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/innovmetric-partners-with-wuhan-vision3d-on-inspection-systems/",
+    "published_at": "2026-09-25T05:44:07+00:00",
+    "fetched_at": "2026-09-25T09:20:10.811068+00:00"
+  },
+  {
+    "title": "FDA Panel Backs Multi-Cancer Blood Test",
+    "summary": "An FDA advisory panel narrowly voted in favor of a multi-cancer blood test despite concerns regarding its effectiveness and life-saving proof.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/ivd/fda-advisory-panel-narrowly-backs-multi-cancer-blood-test-despite-effectiveness-concerns",
+    "published_at": "2026-09-25T00:17:03+00:00",
+    "fetched_at": "2026-09-25T09:20:10.811074+00:00"
+  },
+  {
+    "title": "Comparing 2nm Yields Across Major Foundries",
+    "summary": "Estimated comparative yield counts on 2nm wafers show TSMC leading at 90%, followed by Intel at 85% and Samsung at 70%.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/manuf/the-nanometer-stakes-2026-09/",
+    "published_at": "2026-09-25T00:01:03+00:00",
+    "fetched_at": "2026-09-25T09:20:10.811079+00:00"
+  },
+  {
+    "title": "New Language-Processing Tool Estimates Suicide Risk from Text",
+    "summary": "A new language-processing tool identifies high-risk individuals from natural language to enable swifter interventions.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+    "published_at": "2026-09-24T21:00:00+00:00",
+    "fetched_at": "2026-09-25T09:20:13.798558+00:00"
+  },
+  {
+    "title": "Renault 8 Gordini Concept Reimagined as Electric Coupe",
+    "summary": "Renault revealed a two-seat electric coupe concept with 270 horsepower based on its 1964 rally icon.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/renault-legendary-r8-electric-rally-coupe-concept/",
+    "published_at": "2026-09-24T20:27:10+00:00",
+    "fetched_at": "2026-09-25T09:20:13.798568+00:00"
+  },
+  {
+    "title": "Forj Medical Opens New Manufacturing Facility in Costa Rica",
+    "summary": "The medical device CDMO opened a 5,000-square-meter facility in Costa Rica to expand its production capacity.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/manufacturing/forj-medical-opens-costa-rica-manufacturing-facility-to-expand-nearshore-capacity",
+    "published_at": "2026-09-24T19:58:01+00:00",
+    "fetched_at": "2026-09-25T09:20:13.798574+00:00"
+  },
+  {
+    "title": "Delos Data Introduces Apollo Chiplet for Heterogeneous AI",
+    "summary": "Delos Data unveiled the Apollo chiplet to bridge endpoint semantics and interconnects across GPUs, CPUs, and memory.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
+    "published_at": "2026-09-24T18:43:38+00:00",
+    "fetched_at": "2026-09-25T09:20:13.798579+00:00"
+  },
+  {
+    "title": "TrackEverything 3D Tracker Handles Long-Horizon Video",
+    "summary": "Researchers introduced TrackEverything, a 3D point tracker capable of tracking visible points across videos exceeding 1,000 frames.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30222v1",
+    "published_at": "2026-09-24T17:48:20+00:00",
+    "fetched_at": "2026-09-25T09:20:13.798584+00:00"
+  },
+  {
+    "title": "Underwater C3-JEPA World Model for ROV Salvage",
+    "summary": "Researchers introduced Underwater C3-JEPA, an object-centric cross-view world model that predicts task-object state evolution for heavy-load underwater ROV salvage.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30214v1",
+    "published_at": "2026-09-24T17:45:42+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918134+00:00"
+  },
+  {
+    "title": "DOE Allocates $99M for Geothermal Projects",
+    "summary": "The U.S. Department of Energy announced over $99 million for 21 geothermal energy projects to advance technology and exploration.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/renewables/geothermal/doe-targets-next-gen-geothermal-development-with-99m-for-field-scale-tests-exploration-drilling/",
+    "published_at": "2026-09-24T17:36:30+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918144+00:00"
+  },
+  {
+    "title": "Track-Conditioned Residual Estimation for FMCW Radar",
+    "summary": "A proposed track-conditioned residual estimation method reduces radar data representation requirements while improving range and velocity accuracy in simulations.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30176v1",
+    "published_at": "2026-09-24T17:26:11+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918149+00:00"
+  },
+  {
+    "title": "Movable-Element STARS for Robust RSMA-SWIPT Systems",
+    "summary": "A robust multiuser framework integrates movable-element STARS with RSMA and SWIPT to improve spatial flexibility and manage system imperfections.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30172v1",
+    "published_at": "2026-09-24T17:23:32+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918154+00:00"
+  },
+  {
+    "title": "Capability-Tradeoff Contact Selection for Legged Robots",
+    "summary": "A new contact selection method balances physical support and mobility capabilities to speed up loco-manipulation planning for quadruped robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30140v1",
+    "published_at": "2026-09-24T17:08:28+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918159+00:00"
+  },
+  {
+    "title": "Riemannian MeanFlow Policy for Fast Visuomotor Learning",
+    "summary": "The Riemannian MeanFlow Policy enables fast, on-manifold action sequence generation for robotic manipulation tasks with minimal network function evaluations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30127v1",
+    "published_at": "2026-09-24T17:00:57+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918163+00:00"
+  },
+  {
+    "title": "Real-Time Force Regulation for Whole-Hand Dexterous Grasping",
+    "summary": "A new framework estimates whole-hand contacts and dynamically recomputes force distributions to maintain and recover dexterous grasps under disturbances.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30082v1",
+    "published_at": "2026-09-24T16:31:51+00:00",
+    "fetched_at": "2026-09-25T09:20:19.918168+00:00"
+  },
+  {
+    "title": "Rate-Distortion Optimization for Image Quality Metrics via Hessian Estimates",
+    "summary": "Researchers propose approximating full-reference image quality metrics by an input-dependent quadratic distortion to enable block-wise computation in video codecs, achieving significant bit-rate savings.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30077v1",
+    "published_at": "2026-09-24T16:29:05+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121232+00:00"
+  },
+  {
+    "title": "Adversarial Robustness Evaluated in Low-Precision EEG Decoders",
+    "summary": "An adversarial evaluation of compressed brain-computer interface decoders shows that accuracy-preserving compression techniques do not improve direct model robustness.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30037v1",
+    "published_at": "2026-09-24T16:07:01+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121244+00:00"
+  },
+  {
+    "title": "Body-Grounded Replanning for Physically Adaptive Robot Manipulation",
+    "summary": "A novel framework uses internal physical states and language models to trigger high-level replanning, reducing physical effort and adapting manipulation strategies during execution.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30024v1",
+    "published_at": "2026-09-24T16:00:09+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121249+00:00"
+  },
+  {
+    "title": "Human-Guided Residual Reinforcement Learning for Dexterous Manipulation",
+    "summary": "A new framework combines a frozen imitation policy with human-guided residual reinforcement learning to accelerate and stabilize online training for contact-rich manipulation tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.30023v1",
+    "published_at": "2026-09-24T16:00:02+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121253+00:00"
+  },
+  {
+    "title": "Lab on a Contact Lens Measures Stress Through Serotonin",
+    "summary": "Scientists developed a smart contact lens that noninvasively measures low concentrations of serotonin in tears to offer a wearable method for tracking biochemical stress.",
+    "category": "Biomedical",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/serotonin-stress-smart-contact-lens",
+    "published_at": "2026-09-24T15:51:54+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121257+00:00"
+  },
+  {
+    "title": "Accelerating Branch MPC with Parallel Direct Solvers on GPUs",
+    "summary": "A GPU-accelerated direct linear solver exploits two levels of parallelism to significantly speed up branch model predictive control formulations.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2609.29977v1",
+    "published_at": "2026-09-24T15:30:19+00:00",
+    "fetched_at": "2026-09-25T09:20:24.121261+00:00"
+  },
+  {
     "title": "MIT Handheld Device Collects Cells for Cancer Testing",
     "summary": "MIT researchers developed a handheld system that gently collects living cells from patient samples to aid cancer testing.",
     "category": "Biomedical",
@@ -70,203 +268,5 @@
     "source_url": "https://www.engineering.com/shining-3d-renews-worldskills-partnership-through-2028/",
     "published_at": "2026-09-24T09:56:59+00:00",
     "fetched_at": "2026-09-24T16:50:52.481464+00:00"
-  },
-  {
-    "title": "Network Rail Plans £1.4M Lincolnshire Track Renewal",
-    "summary": "Network Rail is investing £1.4M to replace over 730 meters of track between Hubbert’s Bridge and Swineshead.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/1-4m-track-renewal-planned-for-lincolnshire-railway-24-09-2026/",
-    "published_at": "2026-09-24T09:44:32+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481478+00:00"
-  },
-  {
-    "title": "SEMICON India 2026: Silicon Startup Funding",
-    "summary": "Indian semiconductor startups are seeking capital beyond seed rounds to move from prototypes to volume production.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
-    "published_at": "2026-09-24T08:15:06+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873073+00:00"
-  },
-  {
-    "title": "East Midlands Prepares £5M Highways and Civils Framework",
-    "summary": "Via East Midlands is undertaking preliminary market engagement for a proposed highways maintenance and civil engineering framework.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/uncategorized/east-midlands-prepares-5m-highways-and-civils-framework-24-09-2026/",
-    "published_at": "2026-09-24T08:11:26+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481483+00:00"
-  },
-  {
-    "title": "Network-on-Chip For Multi-Die Devices",
-    "summary": "Native packetized NoC traffic is transported directly across die boundaries using a stable interface.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/a-network-on-chip-noc-for-multi-die-devices/",
-    "published_at": "2026-09-24T07:07:06+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873085+00:00"
-  },
-  {
-    "title": "Managing 3D-IC Design And IP",
-    "summary": "Data management, traceability, and revision control are critical for multi-chiplet heterogeneous integration.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/managing-3d-ic-design-and-ip/",
-    "published_at": "2026-09-24T07:05:05+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873091+00:00"
-  },
-  {
-    "title": "AI Agents in Chip Design",
-    "summary": "Specialization and orchestration grow more important as AI agents expand across chip design silos.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-    "published_at": "2026-09-24T07:03:42+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873096+00:00"
-  },
-  {
-    "title": "EDA's Future Is Evidence-Driven Automation",
-    "summary": "Users require formal proof and auditable workflows to trust AI-accelerated semiconductor design.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-    "published_at": "2026-09-24T07:02:50+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873101+00:00"
-  },
-  {
-    "title": "Autonomy Levels For Design Agents",
-    "summary": "New frameworks define decision scopes, validation, intervention points, and accountability for design automation.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/autonomy-levels-for-design-agents-l1-to-l5-explained/",
-    "published_at": "2026-09-24T07:01:59+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873105+00:00"
-  },
-  {
-    "title": "Uncertainty Drives Innovation Commitment in Construction",
-    "summary": "Geopolitical and economic uncertainty has increased innovation commitment among 61 percent of construction businesses.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/geopolitical-uncertainty-drives-innovation-commitment-among-61-of-construction-businesses-24-09-2026/",
-    "published_at": "2026-09-24T05:30:18+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481487+00:00"
-  },
-  {
-    "title": "Japan Funds Development of Compact Satellite Antennas",
-    "summary": "Japan’s Ministry of Internal Affairs and Communications has allocated $44m to support projects creating compact universal satellite antennas.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/japan-ponders-starlink-alternatives-2026-09/",
-    "published_at": "2026-09-24T05:13:51+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481492+00:00"
-  },
-  {
-    "title": "YMTC Wins German Patent Battle Against Micron",
-    "summary": "YMTC won a patent infringement case against Micron in a German court, securing a 10-year injunction protecting its IP.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/ymtc-wins-patent-battle-against-micron-2026-09/",
-    "published_at": "2026-09-24T05:12:48+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481494+00:00"
-  },
-  {
-    "title": "Engineers Invited to Test Arduino VENTUNO Q SBC",
-    "summary": "element14 is inviting engineers and makers to evaluate Arduino’s new VENTUNO Q single-board computer for free.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/test-arduinos-new-ventuno-q-sbc-for-free-2026-09/",
-    "published_at": "2026-09-24T05:10:56+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481498+00:00"
-  },
-  {
-    "title": "T. rex Fossil Reveals Ancient Blood Vessels",
-    "summary": "Scientists used imaging to discover a fossilized network of blood vessels inside a broken rib from Scotty the T. rex.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260922005709.htm",
-    "published_at": "2026-09-24T02:20:36+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873110+00:00"
-  },
-  {
-    "title": "Beamed Energy for Solar-Powered Drones",
-    "summary": "BAE Systems won a contract to install a ground-based energy-beaming system on its PHASA-35 stratospheric drone.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/beamed-energy-bae-solar-powered-drone/",
-    "published_at": "2026-09-24T01:18:22+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873114+00:00"
-  },
-  {
-    "title": "Nugget Twin Camper Van Launches with AWD and High Roof",
-    "summary": "Nugget Schmiede has officially launched the high-roofed Nugget Twin camper van, offering all-wheel drive and space for four people.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/campervans/aero-ford-nugget-twin-high-roof/",
-    "published_at": "2026-09-23T21:03:00+00:00",
-    "fetched_at": "2026-09-23T22:56:52.162071+00:00"
-  },
-  {
-    "title": "Quantum Chip Stores Memory via Vibrations to Shrink Hardware",
-    "summary": "Scientists have developed a new computing architecture that stores memory as vibrations, exponentially reducing the hardware size needed for quantum systems.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/https:/refractor.io/science/quantum-computing/quantum-computer-chip-vibrating/",
-    "published_at": "2026-09-23T20:30:00+00:00",
-    "fetched_at": "2026-09-23T22:56:52.162078+00:00"
-  },
-  {
-    "title": "Quantum Chip Stores Memory as Vibrations",
-    "summary": "Scientists developed a quantum architecture that stores memory as vibrations to shrink required hardware.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/science/quantum-computing/quantum-computer-chip-vibrating/",
-    "published_at": "2026-09-23T20:30:00+00:00",
-    "fetched_at": "2026-09-24T08:54:41.873119+00:00"
-  },
-  {
-    "title": "Cognita Tests LLM 'Jury' for FDA Radiology Evaluation",
-    "summary": "Cognita is using multiple large language models under an FDA contract to assess AI-generated radiology reports across roughly 1 million patient exams.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/radiological/cognita-tests-ai-powered-method-to-evaluate-radiology-reports-under-fda-contract",
-    "published_at": "2026-09-23T20:16:40+00:00",
-    "fetched_at": "2026-09-23T22:56:52.162082+00:00"
-  },
-  {
-    "title": "PAL Robotics Demonstrates Mobile Robots in Textile Industry",
-    "summary": "PAL Robotics showcases complex motion and control capabilities working alongside human workers in the textile sector.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mobile-robotics-moves-to-the-textile-industry/",
-    "published_at": "2026-09-23T20:00:00+00:00",
-    "fetched_at": "2026-09-23T22:56:52.162085+00:00"
-  },
-  {
-    "title": "Language-Guided Robot Group Joining",
-    "summary": "Researchers proposed a language-grounded method for robots to predict socially compliant joining poses based on a group's real-time activity and formation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28467v1",
-    "published_at": "2026-09-23T17:55:48+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993823+00:00"
-  },
-  {
-    "title": "Predicting Spinal Curve Progression in Scoliosis",
-    "summary": "A transformer model trained on synthetic data was developed to predict the temporal progression of Adolescent Idiopathic Scoliosis using DXA scans.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28434v1",
-    "published_at": "2026-09-23T17:33:31+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993833+00:00"
-  },
-  {
-    "title": "Asynchronous Diffusion for Dexterous Manipulation",
-    "summary": "LiMA is an asynchronous dual-system generative framework that decouples intent planning from reactive execution to improve robotic dexterous manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.28431v1",
-    "published_at": "2026-09-23T17:31:52+00:00",
-    "fetched_at": "2026-09-24T08:54:45.993838+00:00"
   }
 ]

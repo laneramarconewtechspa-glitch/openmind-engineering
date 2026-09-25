@@ -1,3 +1,8 @@
 {
-  "count": 113
+  "count": 215,
+  "funnel": {
+    "analyzed": 102,
+    "relevant": 61,
+    "substantive": 57
+  }
 }
