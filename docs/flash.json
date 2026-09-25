@@ -1,5 +1,41 @@
 [
   {
+    "title": "IEEE Spectrum's Video Friday Highlights New Robotics",
+    "summary": "This week's Video Friday showcases new robotic designs, underwater manipulation, and autonomous drone demonstrations.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+    "published_at": "2026-09-25T16:00:04+00:00",
+    "fetched_at": "2026-09-25T16:14:46.986940+00:00"
+  },
+  {
+    "title": "Agility Robotics Explores Wheeled Robot Designs",
+    "summary": "Digit humanoid maker Agility Robotics is investigating alternative form factors including wheels to meet diverse customer needs.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
+    "published_at": "2026-09-25T14:08:27+00:00",
+    "fetched_at": "2026-09-25T16:14:46.986953+00:00"
+  },
+  {
+    "title": "MathWorks Launches MATLAB and Simulink Release 2026b",
+    "summary": "The latest release introduces new tools supporting product variants, point-cloud applications, and hardware-software co-design workflows.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mathworks-introduces-matlab-and-simulink-release-2026b/",
+    "published_at": "2026-09-25T12:20:55+00:00",
+    "fetched_at": "2026-09-25T16:14:46.986959+00:00"
+  },
+  {
+    "title": "U.S. Army Partners with Private Developers for Base Power",
+    "summary": "The U.S. Army selected three private developers to build new power generation and storage projects on underutilized military land.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/onsite-power/microgrids/army-power-generation-gas-nuclear-battery/",
+    "published_at": "2026-09-25T12:09:10+00:00",
+    "fetched_at": "2026-09-25T16:14:46.986962+00:00"
+  },
+  {
     "title": "UK Commits £331M for Climate Resilience",
     "summary": "The UK government announced a £331M funding package to strengthen climate resilience and protect critical infrastructure.",
     "category": "Civil & Infrastructure",
@@ -232,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2609.30023v1",
     "published_at": "2026-09-24T16:00:02+00:00",
     "fetched_at": "2026-09-25T09:20:24.121253+00:00"
-  },
-  {
-    "title": "Lab on a Contact Lens Measures Stress Through Serotonin",
-    "summary": "Scientists developed a smart contact lens that noninvasively measures low concentrations of serotonin in tears to offer a wearable method for tracking biochemical stress.",
-    "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/serotonin-stress-smart-contact-lens",
-    "published_at": "2026-09-24T15:51:54+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121257+00:00"
-  },
-  {
-    "title": "Accelerating Branch MPC with Parallel Direct Solvers on GPUs",
-    "summary": "A GPU-accelerated direct linear solver exploits two levels of parallelism to significantly speed up branch model predictive control formulations.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.29977v1",
-    "published_at": "2026-09-24T15:30:19+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121261+00:00"
-  },
-  {
-    "title": "MIT Handheld Device Collects Cells for Cancer Testing",
-    "summary": "MIT researchers developed a handheld system that gently collects living cells from patient samples to aid cancer testing.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/new-cell-collection-device-could-improve-early-cancer-detection-0924",
-    "published_at": "2026-09-24T15:00:00+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706219+00:00"
-  },
-  {
-    "title": "Blue Energy Files Permit for Texas Gas-to-Nuclear Project",
-    "summary": "Blue Energy has filed the first portion of its NRC construction permit application for a gas-to-nuclear power plant in Texas.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/blue-energy-nrc-application-gas-nuclear-project/",
-    "published_at": "2026-09-24T13:52:48+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706232+00:00"
   }
 ]
