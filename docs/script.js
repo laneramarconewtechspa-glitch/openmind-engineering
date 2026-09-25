@@ -357,15 +357,19 @@
   // direttamente lo stato finale, senza animazioni.
 
   const STATS_FILE = "stats.json";
-  const EMPTY_STATS = { articles_analyzed: 0, sources: [], categories: [], funnel: null };
+  const EMPTY_STATS = { articles_analyzed: 0, sources: [], categories: [], funnel: null, history: [] };
   let statsData = { ...EMPTY_STATS };
 
   const statsSection = document.getElementById("stats-section");
   const statsPanel = document.getElementById("stats-panel");
   const statsBg = document.getElementById("stats-bg");
   const statsBar = document.getElementById("stats-bar");
-  const statsDetail = document.getElementById("stats-detail");
-  const statsCards = statsDetail ? [...statsDetail.querySelectorAll(".stats-card")] : [];
+  const statsWindow = document.getElementById("stats-window");
+  const statsTrack = document.getElementById("stats-track");
+  const statsSlides = statsTrack ? [...statsTrack.querySelectorAll(".hs-slide")] : [];
+  const statsNav = document.getElementById("stats-nav");
+  const statsNavList = document.getElementById("stats-nav-list");
+  const statsNavFill = document.getElementById("stats-nav-fill");
   const bitlInfoBtn = document.getElementById("bitl-info-btn");
   const statEls = {
     articles: document.getElementById("stat-articles"),
@@ -374,7 +378,9 @@
   };
 
   let statsInitialized = false;
-  const statsBarsPlayed = new Set(); // indici delle card le cui barre hanno già fatto l'animazione di riempimento
+  const statsBarsPlayed = new Set(); // slide le cui barre hanno già fatto l'animazione di riempimento
+  const statsRevealed = new Set();   // slide già entrate (grafici disegnati, numeri contati)
+  let statsPinTrigger = null;
   let statsOdometersPlayed = false;
   let statsRefreshTimer = null;
   let scrollTriggerRefreshTimer = null;
@@ -389,6 +395,15 @@
     return { analyzed: n(f.analyzed), relevant: n(f.relevant), substantive: n(f.substantive) };
   }
 
+  function normalizeHistory(list) {
+    if (!Array.isArray(list)) return [];
+    const n = (v) => Math.max(0, Math.round(Number(v) || 0));
+    return list
+      .filter((h) => h && typeof h.d === "string")
+      .map((h) => ({ d: h.d, total: n(h.total), analyzed: n(h.analyzed), relevant: n(h.relevant), accepted: n(h.accepted) }))
+      .sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : 0));
+  }
+
   async function loadStats() {
     try {
       const res = await fetch(STATS_FILE, { cache: "no-store" });
@@ -399,6 +414,7 @@
         sources: Array.isArray(data.sources) ? data.sources : [],
         categories: Array.isArray(data.categories) ? data.categories : [],
         funnel: normalizeFunnel(data.funnel),
+        history: normalizeHistory(data.history),
       };
     } catch (err) {
       // Opzionale (es. repo appena creato, prima ancora del primo sync):
@@ -479,7 +495,7 @@
     });
   }
 
-  /* ---- Contenuto del dettaglio (calcolato sui dati veri già caricati) ---- */
+  /* ---- Contenuto delle slide (calcolato sui dati veri già caricati) ---- */
 
   const BITL_WEIGHTS = [
     ["Evidence", 25], ["Applicability", 20], ["Impact", 15],
@@ -496,6 +512,13 @@
     return m;
   }
 
+  const compactFmt = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
+  const fmtTick = (n) => (Math.abs(n) >= 1000 ? compactFmt.format(n) : formatInt(n));
+  const fmtDay = (d) => {
+    const t = new Date(`${d}T00:00:00Z`);
+    return Number.isNaN(t.getTime()) ? String(d) : t.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+  };
+
   function statsRow(label, valueText, widthPct, isZero) {
     return `<li class="stats-row${isZero ? " is-zero" : ""}">
       <span class="stats-row-label">${escapeHTML(label)}</span>
@@ -504,85 +527,306 @@
     </li>`;
   }
 
-  function funnelCardHTML() {
+  const slideHead = (i, label, title) => `
+    <p class="hs-kicker">${escapeHTML(label)} <i>${String(i + 1).padStart(2, "0")} / ${String(statsSlides.length).padStart(2, "0")}</i></p>
+    <h3 class="hs-title">${title}</h3>`;
+
+  /* ---- Matematica dei grafici ---- */
+
+  function niceStep(raw, integer) {
+    const r = Math.max(raw, 1e-9);
+    const p = Math.pow(10, Math.floor(Math.log10(r)));
+    const f = r / p;
+    const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p;
+    return integer ? Math.max(1, Math.ceil(step)) : step;
+  }
+
+  // Dominio "pulito" con ~3 intervalli. zeroBased: parte da 0 (conteggi);
+  // altrimenti si stringe attorno ai dati (serie cumulative, che non scendono mai).
+  function niceDomain(min, max, zeroBased) {
+    let range = max - min;
+    if (range <= 0) range = Math.max(1, Math.abs(max) * 0.1);
+    const step = niceStep(range / 3, true);
+    const lo = zeroBased ? 0 : Math.max(0, Math.floor((min - range * 0.15) / step) * step);
+    let hi = Math.ceil((max + range * 0.15) / step) * step;
+    if (hi <= lo) hi = lo + step;
+    const ticks = [];
+    for (let v = lo; v <= hi + step / 1000; v += step) ticks.push(v);
+    return { lo, hi, ticks };
+  }
+
+  const svgNum = (n) => Math.round(n * 10) / 10;
+
+  function historyPoints() {
+    const h = statsData.history.slice();
+    if (!h.length && statsData.articles_analyzed > 0) {
+      h.push({ d: new Date().toISOString().slice(0, 10), total: statsData.articles_analyzed, analyzed: 0, relevant: 0, accepted: 0 });
+    }
+    return h;
+  }
+
+  // Due grafici impilati con lo stesso asse X: totale cumulativo degli articoli
+  // analizzati (sopra) e articoli accettati per giorno (sotto).
+  function buildTrendChart(w, h) {
+    const hist = historyPoints();
+    const n = hist.length;
+    const M = { l: 42, r: 48, t: 2, b: 16 };
+    const capH = 14, gap = 10;
+    const pw = w - M.l - M.r;
+    const usable = h - M.t - M.b - capH * 2 - gap;
+    const hA = Math.max(40, Math.round(usable * 0.6));
+    const hB = Math.max(28, usable - hA);
+    const topA = M.t + capH, topB = topA + hA + gap + capH;
+    const x = (i) => M.l + (n > 1 ? (i / (n - 1)) * pw : pw / 2);
+
+    const totals = hist.map((p) => p.total);
+    const accepted = hist.map((p) => p.accepted);
+    const dA = niceDomain(Math.min(...(n ? totals : [0])), Math.max(...(n ? totals : [1])), false);
+    const dB = niceDomain(0, Math.max(...(n ? accepted : [1]), 1), true);
+    const yA = (v) => topA + hA - ((v - dA.lo) / (dA.hi - dA.lo)) * hA;
+    const yB = (v) => topB + hB - ((v - dB.lo) / (dB.hi - dB.lo)) * hB;
+
+    let s = `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="Trend of articles analyzed and accepted per day">
+      <defs><linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a60" stop-opacity=".38"/><stop offset="1" stop-color="#ff5a60" stop-opacity="0"/></linearGradient></defs>
+      <text class="c-cap" x="${M.l}" y="${topA - 5}">Σ Articles analyzed · cumulative</text>
+      <text class="c-cap" x="${M.l}" y="${topB - 5}">Accepted per day</text>`;
+
+    const grid = (d, yf, top, hh) => d.ticks.map((t) =>
+      `<line class="c-grid" x1="${M.l}" x2="${M.l + pw}" y1="${svgNum(yf(t))}" y2="${svgNum(yf(t))}"/><text x="${M.l - 7}" y="${svgNum(yf(t)) + 3}" text-anchor="end">${fmtTick(t)}</text>`).join("");
+    s += grid(dA, yA) + grid(dB, yB);
+    s += `<line class="c-axis" x1="${M.l}" x2="${M.l + pw}" y1="${topA + hA}" y2="${topA + hA}"/><line class="c-axis" x1="${M.l}" x2="${M.l + pw}" y1="${topB + hB}" y2="${topB + hB}"/>`;
+
+    // etichette dell'asse X: al massimo ~una ogni 64px
+    const every = Math.max(1, Math.ceil(n / Math.max(2, Math.floor(pw / 64))));
+    hist.forEach((p, i) => {
+      if (i % every !== 0 && i !== n - 1) return;
+      if (i !== n - 1 && n - 1 - i <= every / 2) return;
+      s += `<text x="${svgNum(x(i))}" y="${h - 3}" text-anchor="middle">${escapeHTML(fmtDay(p.d))}</text>`;
+    });
+
+    if (n >= 1) {
+      const line = (vals, yf) => vals.map((v, i) => `${i ? "L" : "M"}${svgNum(x(i))} ${svgNum(yf(v))}`).join(" ");
+      if (n >= 2) {
+        s += `<path class="c-area" d="${line(totals, yA)} L${svgNum(x(n - 1))} ${topA + hA} L${svgNum(x(0))} ${topA + hA} Z"/>`;
+        s += `<path class="c-line" d="${line(totals, yA)}"/><path class="c-line" d="${line(accepted, yB)}"/>`;
+      }
+      if (n <= 31) accepted.forEach((v, i) => { s += `<circle class="c-dot" cx="${svgNum(x(i))}" cy="${svgNum(yB(v))}" r="2.6"/>`; });
+      s += `<circle class="c-dot end" cx="${svgNum(x(n - 1))}" cy="${svgNum(yA(totals[n - 1]))}" r="3.4"/>`;
+      s += `<text class="c-end-label" x="${svgNum(x(n - 1)) + 9}" y="${svgNum(yA(totals[n - 1])) + 3}">${fmtTick(totals[n - 1])}</text>`;
+      s += `<text class="c-end-label" x="${svgNum(x(n - 1)) + 9}" y="${svgNum(yB(accepted[n - 1])) + 3}">${accepted[n - 1]}</text>`;
+    }
+    if (n < 2) {
+      s += `<text class="c-empty" x="${M.l + pw / 2}" y="${topA + hA / 2 + 4}" text-anchor="middle">${n ? "First data point recorded" : "The trend builds up"} — the line draws itself as syncs accumulate.</text>`;
+    }
+    s += `<line class="c-xhair" data-xhair y1="${topA}" y2="${topB + hB}" x1="0" x2="0"/>`;
+    s += `<circle class="c-dot end" data-hover="a" r="4" cx="0" cy="0" opacity="0"/><circle class="c-dot end" data-hover="b" r="4" cx="0" cy="0" opacity="0"/>`;
+    s += `<rect class="c-hit" x="${M.l}" y="${topA}" width="${pw}" height="${topB + hB - topA}"/></svg>`;
+
+    const readout = (i) => {
+      const p = hist[i];
+      if (!p) return `<span class="ro-title">No history yet</span>`;
+      return `<b>${escapeHTML(fmtDay(p.d))}</b><span><em>${formatInt(p.total)}</em> analyzed</span><span><em>${p.accepted}</em>/${formatInt(p.analyzed)} accepted</span>`;
+    };
+
+    const bind = (slide) => {
+      const svg = slide.querySelector(".chart-box svg");
+      const ro = slide.querySelector(".chart-readout");
+      if (!svg || !ro || n < 1) return;
+      const xh = svg.querySelector("[data-xhair]");
+      const da = svg.querySelector('[data-hover="a"]');
+      const db = svg.querySelector('[data-hover="b"]');
+      const show = (i) => {
+        const cx = svgNum(x(i));
+        xh.setAttribute("x1", cx); xh.setAttribute("x2", cx); xh.style.opacity = 1;
+        da.setAttribute("cx", cx); da.setAttribute("cy", svgNum(yA(totals[i]))); da.setAttribute("opacity", 1);
+        db.setAttribute("cx", cx); db.setAttribute("cy", svgNum(yB(accepted[i]))); db.setAttribute("opacity", 1);
+        ro.innerHTML = readout(i);
+      };
+      const reset = () => { xh.style.opacity = 0; da.setAttribute("opacity", 0); db.setAttribute("opacity", 0); ro.innerHTML = readout(n - 1); };
+      const at = (e) => {
+        const r = svg.getBoundingClientRect();
+        const vx = ((e.clientX - r.left) / r.width) * w;
+        show(Math.max(0, Math.min(n - 1, n > 1 ? Math.round(((vx - M.l) / pw) * (n - 1)) : 0)));
+      };
+      svg.addEventListener("pointermove", at);
+      svg.addEventListener("pointerdown", at);
+      svg.addEventListener("pointerleave", reset);
+    };
+    return { svg: s, readout: readout(n - 1), bind };
+  }
+
+  // Un'asta per ogni articolo, ordinato per BITL Score: in rosso quelli in
+  // classifica oggi, in grigio riserva e archivio.
+  function buildScoresChart(w, h) {
+    const todaySet = new Set(allPapers.map((p) => p.source_url));
+    const items = poolPapers.filter((p) => Number.isFinite(Number(p.score)))
+      .sort((a, b) => Number(b.score) - Number(a.score)).slice(0, 40);
+    const n = items.length;
+    const M = { l: 32, r: 10, t: 6, b: 16 };
+    const pw = w - M.l - M.r, ph = h - M.t - M.b;
+    const y = (v) => M.t + ph - (v / 100) * ph;
+    const band = n ? pw / n : pw;
+    const bw = Math.max(3, Math.min(26, band * 0.68));
+    const bx = (i) => M.l + band * i + (band - bw) / 2;
+
+    let s = `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="BITL Score of each published article">`;
+    [0, 25, 50, 75, 100].forEach((t) => {
+      s += `<line class="${t === 0 ? "c-axis" : "c-grid"}" x1="${M.l}" x2="${M.l + pw}" y1="${svgNum(y(t))}" y2="${svgNum(y(t))}"/><text x="${M.l - 7}" y="${svgNum(y(t)) + 3}" text-anchor="end">${t}</text>`;
+    });
+    items.forEach((p, i) => {
+      const sc = Math.max(0, Math.min(100, Number(p.score)));
+      s += `<rect class="c-bar${todaySet.has(p.source_url) ? " is-today" : ""}" data-i="${i}" x="${svgNum(bx(i))}" y="${svgNum(y(sc))}" width="${svgNum(bw)}" height="${svgNum(M.t + ph - y(sc))}" data-y="${svgNum(y(sc))}" data-h="${svgNum(M.t + ph - y(sc))}" data-base="${svgNum(M.t + ph)}" rx="1.5"/>`;
+      if (i === 0 || (i + 1) % 5 === 0 || n <= 12) s += `<text x="${svgNum(bx(i) + bw / 2)}" y="${h - 3}" text-anchor="middle">${i + 1}</text>`;
+    });
+    const todayScores = allPapers.map((p) => Number(p.score)).filter(Number.isFinite);
+    const mean = todayScores.length ? todayScores.reduce((a, b) => a + b, 0) / todayScores.length : null;
+    if (mean !== null) {
+      s += `<line class="c-mean" x1="${M.l}" x2="${M.l + pw}" y1="${svgNum(y(mean))}" y2="${svgNum(y(mean))}"/>`;
+      s += `<text class="c-end-label" x="${M.l + pw}" y="${svgNum(y(mean)) - 5}" text-anchor="end">avg ${Math.round(mean)}</text>`;
+    }
+    if (!n) s += `<text class="c-empty" x="${M.l + pw / 2}" y="${M.t + ph / 2}" text-anchor="middle">Scores appear after the next sync.</text>`;
+    items.forEach((p, i) => { s += `<rect class="c-hit" data-i="${i}" x="${svgNum(M.l + band * i)}" y="${M.t}" width="${svgNum(band)}" height="${ph}"/>`; });
+    s += "</svg>";
+
+    const readout = (i) => {
+      const p = items[i];
+      if (!p) return `<span class="ro-title">No scored articles yet</span>`;
+      return `<em>#${i + 1}</em><span class="ro-title">${escapeHTML(p.title)}</span><b>${Math.round(Number(p.score))}</b>`;
+    };
+    const bind = (slide) => {
+      const svg = slide.querySelector(".chart-box svg");
+      const ro = slide.querySelector(".chart-readout");
+      if (!svg || !ro || !n) return;
+      const bars = [...svg.querySelectorAll(".c-bar")];
+      const set = (i) => { bars.forEach((b, k) => b.classList.toggle("is-on", k === i)); ro.innerHTML = readout(i); };
+      svg.querySelectorAll(".c-hit").forEach((hit) => {
+        const i = Number(hit.dataset.i);
+        hit.addEventListener("pointerenter", () => set(i));
+        hit.addEventListener("pointerdown", () => set(i));
+        hit.addEventListener("click", () => openDetail(items[i], null));
+        hit.style.cursor = "pointer";
+      });
+      svg.addEventListener("pointerleave", () => { bars.forEach((b) => b.classList.remove("is-on")); ro.innerHTML = readout(0); });
+    };
+    return { svg: s, readout: readout(0), bind, count: n, todayCount: todaySet.size };
+  }
+
+  /* ---- Le 6 slide ---- */
+
+  function funnelSlide(i) {
     const f = statsData.funnel;
     const has = !!f && f.analyzed > 0;
     const rel = has ? pct(f.relevant, f.analyzed) : 0;
     const sub = has ? pct(f.substantive, f.analyzed) : 0;
     const lead = has
-      ? `Of every 100 articles analyzed, <strong>${rel}</strong> are real engineering stories and <strong>${sub}</strong> are rich enough for a full analysis.`
+      ? `Of every 100 articles analyzed, <strong>${rel}</strong> are real engineering stories and <strong>${sub}</strong> get a full analysis.`
       : "The funnel fills in as soon as the next sync has run.";
-    return `
-      <h3 class="stats-card-title">From feed to front page</h3>
-      <p class="stats-card-lead">${lead}</p>
-      <ul class="stats-rows">
-        ${statsRow("Analyzed", has ? formatInt(f.analyzed) : "—", has ? 100 : 0, !has)}
-        ${statsRow("Engineering-relevant", has ? `${rel}%` : "—", rel, !has)}
-        ${statsRow("Passed full analysis", has ? `${sub}%` : "—", sub, !has)}
-      </ul>
-      <p class="stats-note">Then only the highest BITL Scores make the circle — ${MAX_PAPERS} per day.</p>`;
+    return `${slideHead(i, "From feed to front page", lead)}
+      <div class="hs-body">
+        <ul class="stats-rows">
+          ${statsRow("Analyzed", has ? formatInt(f.analyzed) : "—", has ? 100 : 0, !has)}
+          ${statsRow("Engineering-relevant", has ? `${rel}%` : "—", rel, !has)}
+          ${statsRow("Passed full analysis", has ? `${sub}%` : "—", sub, !has)}
+        </ul>
+        <p class="hs-note">Then only the highest BITL Scores make the circle — ${MAX_PAPERS} per day.</p>
+      </div>`;
   }
 
-  function categoriesCardHTML() {
-    const list = publishedPool();
-    const counts = countBy(list, "category");
-    const cats = statsData.categories.length ? [...statsData.categories] : [...counts.keys()];
-    counts.forEach((_, c) => { if (!cats.includes(c)) cats.push(c); });
-    const ordered = cats.map((c, i) => ({ c, i, n: counts.get(c) || 0 })).sort((a, b) => b.n - a.n || a.i - b.i);
-    const max = Math.max(1, ...ordered.map((o) => o.n));
-    const covered = ordered.filter((o) => o.n > 0).length;
-    return `
-      <h3 class="stats-card-title">Coverage by category</h3>
-      <p class="stats-card-lead"><strong>${formatInt(list.length)}</strong> stories published right now, across <strong>${covered}</strong> of ${ordered.length} categories.</p>
-      <ul class="stats-rows">
-        ${ordered.map((o) => statsRow(o.c, String(o.n), pct(o.n, max), o.n === 0)).join("")}
-      </ul>`;
+  function trendSlide(i) {
+    const hist = historyPoints();
+    const last = hist[hist.length - 1];
+    const title = last
+      ? `<strong>${formatInt(last.total)}</strong> articles analyzed so far${last.accepted ? ` — <strong>${last.accepted}</strong> accepted today` : ""}.`
+      : "Analyzed vs. accepted, day by day.";
+    return `${slideHead(i, "Trend", title)}
+      <div class="hs-body">
+        <div class="chart-readout" data-readout></div>
+        <div class="chart-box" data-chart="trend"></div>
+      </div>`;
   }
 
-  function bitlCardHTML() {
+  function scoresSlide(i) {
+    return `${slideHead(i, "BITL Score per article", "Every published story, ranked from best to weakest.")}
+      <div class="hs-body">
+        <div class="chart-readout" data-readout></div>
+        <div class="chart-box" data-chart="scores"></div>
+        <div class="chart-legend"><span class="lg-today">In today's circle</span><span>Reserve &amp; archive</span><span class="lg-mean">Today's average</span></div>
+      </div>`;
+  }
+
+  function weightsSlide(i) {
     const scores = allPapers.map((p) => Number(p.score)).filter((n) => Number.isFinite(n));
     const avg = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : null;
     const top = scores.length ? Math.round(Math.max(...scores)) : null;
     const maxWeight = Math.max(...BITL_WEIGHTS.map((w) => w[1]));
-    return `
-      <h3 class="stats-card-title">The BITL Score</h3>
-      <div class="stats-score">
-        <div class="stats-score-item"><span class="stats-score-num">${avg === null ? "—" : avg}</span><span class="stats-score-cap">Average today</span></div>
-        <div class="stats-score-item"><span class="stats-score-num">${top === null ? "—" : top}</span><span class="stats-score-cap">Highest today</span></div>
-      </div>
-      <ul class="stats-rows">
-        ${BITL_WEIGHTS.map(([label, w]) => statsRow(label, `${w}%`, pct(w, maxWeight), false)).join("")}
-      </ul>
-      <p class="stats-note">Seven checks by an AI reviewer, combined into one weighted 0–100 number.</p>`;
+    const num = (v) => (v === null ? "—" : `<span class="js-count" data-to="${v}">${v}</span>`);
+    return `${slideHead(i, "The BITL Score", "Seven checks, one number.")}
+      <div class="hs-body">
+        <div class="stats-score">
+          <div class="stats-score-item"><span class="stats-score-num">${num(avg)}</span><span class="stats-score-cap">Average today</span></div>
+          <div class="stats-score-item"><span class="stats-score-num">${num(top)}</span><span class="stats-score-cap">Highest today</span></div>
+        </div>
+        <ul class="stats-rows">
+          ${BITL_WEIGHTS.map(([label, w]) => statsRow(label, `${w}%`, pct(w, maxWeight), false)).join("")}
+        </ul>
+        <p class="hs-formula"><b>BITL</b> = Σ wᵢ · sᵢ &nbsp;·&nbsp; Σ wᵢ = 100%</p>
+      </div>`;
   }
 
-  function sourcesCardHTML() {
+  function categoriesSlide(i) {
+    const list = publishedPool();
+    const counts = countBy(list, "category");
+    const cats = statsData.categories.length ? [...statsData.categories] : [...counts.keys()];
+    counts.forEach((_, c) => { if (!cats.includes(c)) cats.push(c); });
+    const ordered = cats.map((c, k) => ({ c, k, n: counts.get(c) || 0 })).sort((a, b) => b.n - a.n || a.k - b.k);
+    const max = Math.max(1, ...ordered.map((o) => o.n));
+    const covered = ordered.filter((o) => o.n > 0).length;
+    return `${slideHead(i, "Coverage by category", `<strong>${formatInt(list.length)}</strong> stories live, across <strong>${covered}</strong> of ${ordered.length} categories.`)}
+      <div class="hs-body">
+        <ul class="stats-rows cols">
+          ${ordered.map((o) => statsRow(o.c, String(o.n), pct(o.n, max), o.n === 0)).join("")}
+        </ul>
+      </div>`;
+  }
+
+  function sourcesSlide(i) {
     const counts = countBy(publishedPool(), "source_name");
     const names = statsData.sources.length ? [...statsData.sources] : [...counts.keys()];
     counts.forEach((_, s) => { if (!names.includes(s)) names.push(s); });
-    const ordered = names.map((s, i) => ({ s, i, n: counts.get(s) || 0 })).sort((a, b) => b.n - a.n || a.i - b.i);
+    const ordered = names.map((s, k) => ({ s, k, n: counts.get(s) || 0 })).sort((a, b) => b.n - a.n || a.k - b.k);
     const active = ordered.filter((o) => o.n > 0).length;
-    return `
-      <h3 class="stats-card-title">Sources monitored</h3>
-      <p class="stats-card-lead"><strong>${active}</strong> of ${ordered.length} sources contributed to the current edition.</p>
-      <ul class="stats-chips">
-        ${ordered.map((o) => `<li class="stats-chip${o.n > 0 ? " is-active" : ""}">${escapeHTML(o.s)}${o.n > 0 ? ` <b>${o.n}</b>` : ""}</li>`).join("")}
-      </ul>`;
+    return `${slideHead(i, "Sources monitored", `<strong>${active}</strong> of ${ordered.length} sources contributed to this edition.`)}
+      <div class="hs-body">
+        <ul class="stats-chips">
+          ${ordered.map((o) => `<li class="stats-chip${o.n > 0 ? " is-active" : ""}">${escapeHTML(o.s)}${o.n > 0 ? ` <b>${o.n}</b>` : ""}</li>`).join("")}
+        </ul>
+      </div>`;
   }
 
+  const SLIDE_BUILDERS = [funnelSlide, trendSlide, scoresSlide, weightsSlide, categoriesSlide, sourcesSlide];
+  const CHART_BUILDERS = { trend: buildTrendChart, scores: buildScoresChart };
+
   function renderStatsDetail() {
-    const html = [funnelCardHTML(), categoriesCardHTML(), bitlCardHTML(), sourcesCardHTML()];
-    statsCards.forEach((card, i) => {
-      card.innerHTML = html[i] || "";
-      // Le barre restano vuote finché la card non entra in vista (animazione
-      // di riempimento); dopo, o senza animazioni, mostrano subito il valore.
+    statsSlides.forEach((slide, i) => {
+      slide.innerHTML = SLIDE_BUILDERS[i](i);
+      const box = slide.querySelector(".chart-box");
+      if (box) {
+        // le dimensioni reali del riquadro decidono la geometria del grafico
+        const w = box.clientWidth || 600;
+        const h = box.clientHeight || 170;
+        const chart = CHART_BUILDERS[box.dataset.chart](w, h);
+        box.innerHTML = chart.svg;
+        const ro = slide.querySelector("[data-readout]");
+        if (ro) ro.innerHTML = chart.readout;
+        chart.bind(slide);
+      }
       if (statsBarsPlayed.has(i) || !hasGsap() || REDUCED_MOTION) applyBars(i, false);
     });
   }
 
-  function applyBars(cardIndex, animate) {
-    const card = statsCards[cardIndex];
-    const fills = card ? [...card.querySelectorAll(".stats-fill")] : [];
+  function applyBars(slideIndex, animate) {
+    const slide = statsSlides[slideIndex];
+    const fills = slide ? [...slide.querySelectorAll(".stats-fill")] : [];
     if (animate && hasGsap()) {
       window.gsap.fromTo(fills, { width: "0%" }, { width: (i, el) => `${el.dataset.w}%`, duration: 1.2, ease: "power3.out", stagger: 0.05 });
     } else {
@@ -590,7 +834,93 @@
     }
   }
 
-  /* ---- Espansione allo scroll ---- */
+  /* ---- Ingresso di una slide: grafici che si disegnano, barre, numeri ---- */
+
+  function revealSlide(i) {
+    if (statsRevealed.has(i)) return;
+    statsRevealed.add(i);
+    statsBarsPlayed.add(i);
+    const slide = statsSlides[i];
+    const { gsap } = window;
+    slide.classList.add("is-in");
+
+    gsap.fromTo([...slide.children], { opacity: 0, y: 18 },
+      { opacity: 1, y: 0, duration: 0.7, ease: "power3.out", stagger: 0.09, clearProps: "opacity,transform" });
+    applyBars(i, true);
+
+    slide.querySelectorAll(".c-line").forEach((path, k) => {
+      const len = path.getTotalLength ? path.getTotalLength() : 0;
+      if (!len) return;
+      path.style.strokeDasharray = len;
+      gsap.fromTo(path, { strokeDashoffset: len }, {
+        strokeDashoffset: 0, duration: 1.9, delay: 0.25 + k * 0.3, ease: "power2.inOut",
+        onComplete: () => { path.style.strokeDasharray = ""; path.style.strokeDashoffset = ""; },
+      });
+    });
+    gsap.from(slide.querySelectorAll(".c-area"), { opacity: 0, duration: 1.2, delay: 1.0, ease: "power1.out" });
+    gsap.from(slide.querySelectorAll(".c-dot, .c-end-label"), { opacity: 0, duration: 0.4, delay: 1.0, stagger: 0.03 });
+    gsap.from(slide.querySelectorAll(".c-mean"), { opacity: 0, duration: 0.6, delay: 1.1 });
+    const bars = [...slide.querySelectorAll(".c-bar")];
+    if (bars.length) {
+      gsap.fromTo(bars, { attr: { y: (k, el) => el.dataset.base, height: 0 } },
+        { attr: { y: (k, el) => el.dataset.y, height: (k, el) => el.dataset.h }, duration: 0.9, delay: 0.3, ease: "power3.out", stagger: 0.025 });
+    }
+    slide.querySelectorAll(".js-count").forEach((el) => {
+      const to = Number(el.dataset.to) || 0;
+      const o = { v: 0 };
+      el.textContent = "0";
+      gsap.to(o, { v: to, duration: 1.5, delay: 0.3, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(o.v); } });
+    });
+  }
+
+  /* ---- Navigazione tra le slide ---- */
+
+  function buildStatsNav() {
+    statsNavList.innerHTML = statsSlides.map((s, i) =>
+      `<li><button type="button" class="stats-nav-btn" data-i="${i}">${escapeHTML(s.dataset.name || "")}</button></li>`).join("");
+    statsNavList.querySelectorAll(".stats-nav-btn").forEach((btn) => {
+      btn.addEventListener("click", () => goToSlide(Number(btn.dataset.i)));
+    });
+    setNavActive(0);
+  }
+
+  function setNavActive(i) {
+    statsNavList.querySelectorAll(".stats-nav-btn").forEach((b, k) => {
+      b.classList.toggle("is-active", k === i);
+      if (k === i) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current");
+    });
+  }
+
+  const trackTravel = () => Math.max(0, statsTrack.offsetWidth - statsWindow.clientWidth);
+
+  function goToSlide(i) {
+    const slide = statsSlides[i];
+    if (!slide) return;
+    const st = statsPinTrigger;
+    if (st) {
+      const p = trackTravel() ? Math.min(1, slide.offsetLeft / trackTravel()) : 0;
+      window.scrollTo({ top: st.start + p * (st.end - st.start), behavior: REDUCED_MOTION ? "auto" : "smooth" });
+    } else {
+      statsWindow.scrollTo({ left: Math.max(0, slide.offsetLeft - 22), behavior: REDUCED_MOTION ? "auto" : "smooth" });
+    }
+  }
+
+  // Dato lo spostamento corrente del binario (px), aggiorna: barra di
+  // avanzamento, sezione attiva e slide da far entrare.
+  function syncSlides(offset, revealAll) {
+    const winW = statsWindow.clientWidth;
+    const travel = trackTravel();
+    let active = 0;
+    statsSlides.forEach((slide, i) => {
+      const left = slide.offsetLeft - offset;
+      if (left <= winW * 0.34 || (travel && offset >= travel - 2)) active = i;
+      if (revealAll || left < winW * 0.82) { if (hasGsap() && !REDUCED_MOTION) revealSlide(i); }
+    });
+    setNavActive(active);
+    window.gsap && window.gsap.set(statsNavFill, { scaleX: travel ? Math.min(1, offset / travel) : 1 });
+  }
+
+  /* ---- Espansione + scorrimento orizzontale ---- */
 
   function initStatsSection() {
     if (statsInitialized || !statsSection) return;
@@ -598,50 +928,76 @@
 
     const animate = hasGsap() && !REDUCED_MOTION;
     renderStatsDetail();
+    buildStatsNav();
     buildAllOdometers(animate);
-    if (!animate) { statsCards.forEach((_, i) => statsBarsPlayed.add(i)); statsOdometersPlayed = true; return; }
 
-    // Lo stato "nascosto" iniziale delle card lo dà il CSS (.is-scrubbed), non
-    // GSAP: le tween che partono più avanti nella timeline non vengono
-    // renderizzate finché lo scrub non le raggiunge, e dopo ogni
-    // ScrollTrigger.refresh() lo stile inline viene ripulito.
+    if (!animate) {
+      statsSlides.forEach((_, k) => statsBarsPlayed.add(k));
+      statsOdometersPlayed = true;
+      statsNavFill.style.transform = "scaleX(0)";
+      statsWindow.addEventListener("scroll", () => {
+        const max = statsWindow.scrollWidth - statsWindow.clientWidth;
+        const off = statsWindow.scrollLeft;
+        statsNavFill.style.transform = `scaleX(${max > 0 ? off / max : 0})`;
+        let active = 0;
+        statsSlides.forEach((s, k) => { if (s.offsetLeft - 22 - off <= statsWindow.clientWidth * 0.34) active = k; });
+        setNavActive(active);
+      }, { passive: true });
+      return;
+    }
+
+    // Lo stato "nascosto" iniziale lo dà il CSS (.is-scrubbed), non GSAP:
+    // dopo ogni ScrollTrigger.refresh() gli stili inline verrebbero ripuliti.
     statsSection.classList.add("is-scrubbed");
 
     const { gsap, ScrollTrigger } = window;
     gsap.registerPlugin(ScrollTrigger);
     ScrollTrigger.config({ ignoreMobileResize: true }); // la barra indirizzi mobile non deve far ricalcolare tutto a ogni scroll
 
-    // Capsula (alta quanto la sola barra) -> pannello pieno, scrubbata sullo scroll:
-    // parte quando la sezione entra dal basso e finisce esattamente a fondo pagina.
-    // Il bordo inferiore dello sfondo segue quello dello schermo, quindi tutto ciò
-    // che è in vista è sempre sopra lo sfondo scuro.
+    // La sezione è alta almeno quanto lo schermo, con il pannello al centro: si
+    // blocca quando la sua cima tocca quella dello schermo (se è più alta dello
+    // schermo, quando ne tocca il fondo, gli unici casi raggiungibili).
+    const pinLine = () => (statsSection.offsetHeight <= window.innerHeight + 1 ? "top top" : "bottom bottom");
+    const panelOffset = () => statsPanel.getBoundingClientRect().top - statsSection.getBoundingClientRect().top;
+    const growStart = () => `top ${Math.round(window.innerHeight * 0.92 - panelOffset())}px`;
+
+    // 1) Capsula (alta quanto la sola barra) -> pannello pieno, scrubbata sullo
+    //    scroll: finisce esattamente quando il pannello arriva a fondo pagina.
     gsap.fromTo(statsBg,
       { height: () => statsBar.offsetHeight, borderRadius: () => statsBar.offsetHeight / 2 },
       {
         height: () => statsPanel.offsetHeight, borderRadius: 28, ease: "none",
-        scrollTrigger: { trigger: statsSection, start: "top 92%", end: "bottom bottom", scrub: 0.8, invalidateOnRefresh: true },
+        scrollTrigger: {
+          trigger: statsSection, start: growStart, end: pinLine, scrub: 0.8, invalidateOnRefresh: true,
+          onUpdate: (self) => { if (self.progress > 0.55) syncSlides(-gsap.getProperty(statsTrack, "x")); },
+        },
       });
 
-    // Ogni card compare quando ENTRA nel viewport (non su una timeline unica):
-    // così, sia in 2 colonne sia in colonna singola su mobile, nessuna card è
-    // mai visibile a metà opacità prima di essere davvero a schermo.
-    statsCards.forEach((card, i) => {
-      gsap.fromTo(card,
-        { opacity: 0, y: 56 },
-        { opacity: 1, y: 0, ease: "power2.out",
-          scrollTrigger: { trigger: card, start: "top 94%", end: "top 68%", scrub: 0.6 } });
-      ScrollTrigger.create({
-        trigger: card, start: "top 84%", once: true,
-        onEnter: () => { statsBarsPlayed.add(i); applyBars(i, true); },
-      });
+    // 2) Il contenuto compare mentre la capsula si apre.
+    gsap.to([statsWindow, statsNav], {
+      opacity: 1, ease: "none",
+      scrollTrigger: { trigger: statsPanel, start: "top 72%", end: "top 50%", scrub: 0.4 },
     });
 
-    // I numeri "rullano" appena la barra entra in vista. Una volta sola.
+    // 3) Sezione bloccata a fondo pagina: ogni pixel di scroll verticale
+    //    sposta il binario in orizzontale (barra di avanzamento inclusa).
+    const hTween = gsap.to(statsTrack, {
+      x: () => -trackTravel(), ease: "none",
+      onUpdate: () => syncSlides(-window.gsap.getProperty(statsTrack, "x")),
+      scrollTrigger: {
+        trigger: statsSection, start: pinLine,
+        end: () => `+=${Math.round(trackTravel() * 0.85 + window.innerHeight * 0.2)}`,
+        pin: true, pinSpacing: true, scrub: 0.7, anticipatePin: 1, invalidateOnRefresh: true,
+      },
+    });
+    statsPinTrigger = hTween.scrollTrigger;
+
+    // 4) I numeri "rullano" appena la barra entra in vista. Una volta sola.
     ScrollTrigger.create({ trigger: statsBar, start: "top 96%", once: true, onEnter: playOdometers });
   }
 
-  // Ricalcola il dettaglio quando arrivano dati nuovi (refresh periodico,
-  // Flash News, stats.json) senza rifare né animazioni né timeline.
+  // Ricalcola tutto quando arrivano dati nuovi (refresh periodico, Flash
+  // News, stats.json) senza rifare né animazioni né timeline.
   function scheduleStatsRefresh() {
     if (!statsInitialized) return;
     clearTimeout(statsRefreshTimer);
@@ -715,6 +1071,7 @@
     if (window.innerWidth === lastRenderWidth) return;
     lastRenderWidth = window.innerWidth;
     if (networkOpened && visiblePapers.length) renderNetwork();
+    if (statsInitialized) { renderStatsDetail(); refreshScrollTriggers(); }
   }, 220));
 
   /* ---------------------------------------------------------------- */
