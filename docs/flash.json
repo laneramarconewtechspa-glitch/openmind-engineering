@@ -1,5 +1,59 @@
 [
   {
+    "title": "UK Commits £331M for Climate Resilience",
+    "summary": "The UK government announced a £331M funding package to strengthen climate resilience and protect critical infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uk-commits-331m-to-strengthen-climate-resilience-and-protect-critical-infrastructure-25-09-2026/",
+    "published_at": "2026-09-25T11:47:14+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903482+00:00"
+  },
+  {
+    "title": "Teledyne and NASA Advance Hydrogen Fuel Cells",
+    "summary": "Teledyne and NASA are collaborating to mature a hydrogen electrical power system from TRL 5 to TRL 7 for space applications.",
+    "category": "Aerospace",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/teledyne-and-nasa-advance-hydrogen-fuel-cell-technology/",
+    "published_at": "2026-09-25T11:20:34+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903494+00:00"
+  },
+  {
+    "title": "Quectel Launches QSM603FCP Smart Board",
+    "summary": "Quectel announced its QSM603FCP smart PCBA for edge computing supporting Android and Linux at Embedded World North America.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/bus-systems-sbcs/qsm603fcp-smart-board-supports-aiot-for-android-linux-2026-09/",
+    "published_at": "2026-09-25T11:05:55+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903498+00:00"
+  },
+  {
+    "title": "SYSTRA and Dassault Partner on Rail Twins",
+    "summary": "SYSTRA and Dassault Systèmes are collaborating to integrate infrastructure data and models for rail virtual twins.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/systra-and-dassault-systemes-collaborate-on-rail-virtual-twins/",
+    "published_at": "2026-09-25T10:54:22+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903502+00:00"
+  },
+  {
+    "title": "Balfour Beatty to Add 2,000 UK Jobs",
+    "summary": "Infrastructure group Balfour Beatty plans to increase its UK workforce by approximately 2,000 employees as project work ramps up.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/balfour-beatty-to-add-2000-uk-jobs-as-infrastructure-work-ramps-up-25-09-2026/",
+    "published_at": "2026-09-25T10:03:02+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903505+00:00"
+  },
+  {
+    "title": "Pentagon Seeks $30M for AI Lie Detector",
+    "summary": "A Department of Defense budget request outlines plans to spend $30.3 million over five years on an AI-powered lie detector program.",
+    "category": "Computing",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+    "published_at": "2026-09-25T09:16:25+00:00",
+    "fetched_at": "2026-09-25T12:21:04.903508+00:00"
+  },
+  {
     "title": "Wi-Fi HaLow Bridges Smart Building Connectivity Gaps",
     "summary": "Wi-Fi HaLow helps bridge the gap between bandwidth, long range, and low power as edge AI transforms smart buildings.",
     "category": "Electronics & Semiconductors",
@@ -214,59 +268,5 @@
     "source_url": "https://www.power-eng.com/nuclear/blue-energy-nrc-application-gas-nuclear-project/",
     "published_at": "2026-09-24T13:52:48+00:00",
     "fetched_at": "2026-09-24T16:50:22.706232+00:00"
-  },
-  {
-    "title": "Bechtel Exits TerraPower Natrium Project",
-    "summary": "Bechtel is exiting TerraPower's Natrium project in Wyoming, requiring a rebid of the engineering, procurement, and construction contract.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/bechtel-terrapowers-natrium-epc-contract/",
-    "published_at": "2026-09-24T13:50:48+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706236+00:00"
-  },
-  {
-    "title": "Time Crystals Synchronize Across Microscopic Distances",
-    "summary": "Researchers demonstrated that multiple time crystals inside a semiconductor can synchronize their oscillations using spin-polarized electrons.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260923035934.htm",
-    "published_at": "2026-09-24T13:16:41+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706240+00:00"
-  },
-  {
-    "title": "Startup Tests Offshore Geothermal Power System Near Oregon",
-    "summary": "Endurance Energy drilled a seafloor well off the Oregon coast to test an underwater geothermal power generator.",
-    "category": "Energy",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/offshore-geothermal-energy",
-    "published_at": "2026-09-24T12:00:02+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706243+00:00"
-  },
-  {
-    "title": "Cognex Launches In-Sight 1750 Wafer ID System",
-    "summary": "Cognex launched a new wafer identification system that uses AI, imaging, and illumination to read difficult markings.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/cognex-launches-in-sight-1750-wafer-identification-system/",
-    "published_at": "2026-09-24T11:07:02+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706246+00:00"
-  },
-  {
-    "title": "EOS Partners with Axiomatek for Mexico Distribution",
-    "summary": "EOS named Axiomatek as its Mexico distribution partner to expand local access to polymer and metal LPBF systems.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/eos-names-axiomatek-as-mexico-distribution-partner/",
-    "published_at": "2026-09-24T10:23:36+00:00",
-    "fetched_at": "2026-09-24T16:50:22.706250+00:00"
-  },
-  {
-    "title": "SHINING 3D Renews WorldSkills Partnership Through 2028",
-    "summary": "SHINING 3D will support five skills competitions at WorldSkills Shanghai 2026 using its 3D scanning and metrology technologies.",
-    "category": "Other Engineering",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/shining-3d-renews-worldskills-partnership-through-2028/",
-    "published_at": "2026-09-24T09:56:59+00:00",
-    "fetched_at": "2026-09-24T16:50:52.481464+00:00"
   }
 ]

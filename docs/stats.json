@@ -1,10 +1,19 @@
 {
-  "articles_analyzed": 215,
+  "articles_analyzed": 229,
   "funnel": {
-    "analyzed": 102,
-    "relevant": 61,
-    "substantive": 57
+    "analyzed": 116,
+    "relevant": 74,
+    "substantive": 69
   },
+  "history": [
+    {
+      "d": "2026-09-25",
+      "total": 229,
+      "analyzed": 14,
+      "relevant": 13,
+      "accepted": 12
+    }
+  ],
   "sources": [
     "ScienceDaily",
     "IEEE Spectrum",
@@ -42,5 +51,5 @@
     "Computing",
     "Other Engineering"
   ],
-  "generated_at": "2026-09-25T09:20:09.580432+00:00"
+  "generated_at": "2026-09-25T12:21:03.256835+00:00"
 }
