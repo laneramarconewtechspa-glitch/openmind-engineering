@@ -1,5 +1,41 @@
 [
   {
+    "title": "Bugatti Plans $650M Residential Tower in Miami",
+    "summary": "Bugatti is developing a $650 million residential skyscraper in Miami aimed at automotive enthusiasts.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/architecture/bugatti-650million-residential-tower-miami/",
+    "published_at": "2026-09-26T05:03:00+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982018+00:00"
+  },
+  {
+    "title": "Researchers Compare A7 CFET and A10 NSFET Technologies",
+    "summary": "Researchers from TUM, UNIMORE, and Applied Materials published a study evaluating A7 CFET and A10 nanosheet FETs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
+    "published_at": "2026-09-25T22:29:43+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982032+00:00"
+  },
+  {
+    "title": "General Robotics Focuses on Modular Intelligence",
+    "summary": "General Robotics is utilizing modular specialized capabilities instead of a single robot brain to help robots adapt across tasks.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
+    "published_at": "2026-09-25T18:43:22+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982039+00:00"
+  },
+  {
+    "title": "FDA Issues Draft Guidance for Surgical Robots",
+    "summary": "The FDA released new draft recommendations for premarket submissions of robotically-assisted surgical devices.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/robotics/fda-issues-draft-guidance-on-robotically-assisted-surgical-devices",
+    "published_at": "2026-09-25T17:55:19+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982044+00:00"
+  },
+  {
     "title": "IEEE Spectrum's Video Friday Highlights New Robotics",
     "summary": "This week's Video Friday showcases new robotic designs, underwater manipulation, and autonomous drone demonstrations.",
     "category": "Robotics",
@@ -7,6 +43,15 @@
     "source_url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
     "published_at": "2026-09-25T16:00:04+00:00",
     "fetched_at": "2026-09-25T16:14:46.986940+00:00"
+  },
+  {
+    "title": "Kent Council Uses Recycled Clothing Mix for Potholes",
+    "summary": "Maidstone Borough Council has started a trial repairing park potholes using a material made partly from recycled clothing.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/recycled-clothing-mix-used-to-repair-park-potholes-in-kent-25-09-2026/",
+    "published_at": "2026-09-25T15:03:21+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982048+00:00"
   },
   {
     "title": "Agility Robotics Explores Wheeled Robot Designs",
@@ -126,6 +171,69 @@
     "fetched_at": "2026-09-25T09:20:10.811079+00:00"
   },
   {
+    "title": "Manipulating 2D Colloidal Crystals with Laguerre-Gaussian Beams",
+    "summary": "Researchers demonstrated using holographically generated Laguerre-Gaussian beams to manipulate particles in two-dimensional colloidal crystals.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c6823814768120a5a2f7a15b71c9d4f206312927",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982055+00:00"
+  },
+  {
+    "title": "DREAMS Hopper Proposed for In-Situ Lunar Resource Utilization",
+    "summary": "A proposed framework uses the DREAMS hopper, T-REx rover, and MoonFall drones for lunar resource extraction and additive manufacturing.",
+    "category": "Aerospace",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bc3055fba8563a9e44c7a0e1ab4e630e2944da0d",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:25.982060+00:00"
+  },
+  {
+    "title": "Machine Learning Model Assesses Campus Urban Sustainability",
+    "summary": "Researchers proposed an XGBoost-driven framework utilizing campus occupancy and environmental data to evaluate and predict building-level sustainability performance.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ad51d7f6dc6fd3b10a3611ee7f96a22943726ba7",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:34.594307+00:00"
+  },
+  {
+    "title": "CAR-T Cell Therapy Engineering for Refractory Myeloma",
+    "summary": "A review highlights how CAR-T cell therapy has achieved durable remissions in patients with relapsed and refractory multiple myeloma.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a5b73a149dcaef12b3118adcfa40c3ac4cc38d4a",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:34.594316+00:00"
+  },
+  {
+    "title": "Chiral Cation Engineering Enables Red CPL in Fluorides",
+    "summary": "Enantiomeric protonated chiral cations were introduced into Mn4+-activated fluorides to trigger effective chirality transfer and narrow-band red circularly polarized luminescence.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/8273e56afa9dcc023fb0e07d2ddda800a1c2fe03",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:34.594322+00:00"
+  },
+  {
+    "title": "Light Funnel Mixer Arrays Enhance Solar Absorption",
+    "summary": "Researchers investigated light-trapping mechanisms in subwavelength Light Funnel Mixer arrays to improve broadband and omnidirectional solar absorption efficiency.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/11d30c853d8eeacb6a3df8f77a7a7b82374f2387",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:34.594327+00:00"
+  },
+  {
+    "title": "2D Cathodoluminescence Maps Si-doped DX Centers in UVC LEDs",
+    "summary": "A novel 2D cathodoluminescence approach was used to identify Si-doped DX centers and nitrogen vacancies in AlGaN-based UVC LEDs at atomic resolution.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/0610f2789c2425162f7d3483201a044d5c0e9721",
+    "published_at": "2026-09-25T00:00:00+00:00",
+    "fetched_at": "2026-09-26T08:58:34.594331+00:00"
+  },
+  {
     "title": "New Language-Processing Tool Estimates Suicide Risk from Text",
     "summary": "A new language-processing tool identifies high-risk individuals from natural language to enable swifter interventions.",
     "category": "Computing",
@@ -160,113 +268,5 @@
     "source_url": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
     "published_at": "2026-09-24T18:43:38+00:00",
     "fetched_at": "2026-09-25T09:20:13.798579+00:00"
-  },
-  {
-    "title": "TrackEverything 3D Tracker Handles Long-Horizon Video",
-    "summary": "Researchers introduced TrackEverything, a 3D point tracker capable of tracking visible points across videos exceeding 1,000 frames.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30222v1",
-    "published_at": "2026-09-24T17:48:20+00:00",
-    "fetched_at": "2026-09-25T09:20:13.798584+00:00"
-  },
-  {
-    "title": "Underwater C3-JEPA World Model for ROV Salvage",
-    "summary": "Researchers introduced Underwater C3-JEPA, an object-centric cross-view world model that predicts task-object state evolution for heavy-load underwater ROV salvage.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30214v1",
-    "published_at": "2026-09-24T17:45:42+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918134+00:00"
-  },
-  {
-    "title": "DOE Allocates $99M for Geothermal Projects",
-    "summary": "The U.S. Department of Energy announced over $99 million for 21 geothermal energy projects to advance technology and exploration.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/renewables/geothermal/doe-targets-next-gen-geothermal-development-with-99m-for-field-scale-tests-exploration-drilling/",
-    "published_at": "2026-09-24T17:36:30+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918144+00:00"
-  },
-  {
-    "title": "Track-Conditioned Residual Estimation for FMCW Radar",
-    "summary": "A proposed track-conditioned residual estimation method reduces radar data representation requirements while improving range and velocity accuracy in simulations.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30176v1",
-    "published_at": "2026-09-24T17:26:11+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918149+00:00"
-  },
-  {
-    "title": "Movable-Element STARS for Robust RSMA-SWIPT Systems",
-    "summary": "A robust multiuser framework integrates movable-element STARS with RSMA and SWIPT to improve spatial flexibility and manage system imperfections.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30172v1",
-    "published_at": "2026-09-24T17:23:32+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918154+00:00"
-  },
-  {
-    "title": "Capability-Tradeoff Contact Selection for Legged Robots",
-    "summary": "A new contact selection method balances physical support and mobility capabilities to speed up loco-manipulation planning for quadruped robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30140v1",
-    "published_at": "2026-09-24T17:08:28+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918159+00:00"
-  },
-  {
-    "title": "Riemannian MeanFlow Policy for Fast Visuomotor Learning",
-    "summary": "The Riemannian MeanFlow Policy enables fast, on-manifold action sequence generation for robotic manipulation tasks with minimal network function evaluations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30127v1",
-    "published_at": "2026-09-24T17:00:57+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918163+00:00"
-  },
-  {
-    "title": "Real-Time Force Regulation for Whole-Hand Dexterous Grasping",
-    "summary": "A new framework estimates whole-hand contacts and dynamically recomputes force distributions to maintain and recover dexterous grasps under disturbances.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30082v1",
-    "published_at": "2026-09-24T16:31:51+00:00",
-    "fetched_at": "2026-09-25T09:20:19.918168+00:00"
-  },
-  {
-    "title": "Rate-Distortion Optimization for Image Quality Metrics via Hessian Estimates",
-    "summary": "Researchers propose approximating full-reference image quality metrics by an input-dependent quadratic distortion to enable block-wise computation in video codecs, achieving significant bit-rate savings.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30077v1",
-    "published_at": "2026-09-24T16:29:05+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121232+00:00"
-  },
-  {
-    "title": "Adversarial Robustness Evaluated in Low-Precision EEG Decoders",
-    "summary": "An adversarial evaluation of compressed brain-computer interface decoders shows that accuracy-preserving compression techniques do not improve direct model robustness.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30037v1",
-    "published_at": "2026-09-24T16:07:01+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121244+00:00"
-  },
-  {
-    "title": "Body-Grounded Replanning for Physically Adaptive Robot Manipulation",
-    "summary": "A novel framework uses internal physical states and language models to trigger high-level replanning, reducing physical effort and adapting manipulation strategies during execution.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30024v1",
-    "published_at": "2026-09-24T16:00:09+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121249+00:00"
-  },
-  {
-    "title": "Human-Guided Residual Reinforcement Learning for Dexterous Manipulation",
-    "summary": "A new framework combines a frozen imitation policy with human-guided residual reinforcement learning to accelerate and stabilize online training for contact-rich manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2609.30023v1",
-    "published_at": "2026-09-24T16:00:02+00:00",
-    "fetched_at": "2026-09-25T09:20:24.121253+00:00"
   }
 ]
