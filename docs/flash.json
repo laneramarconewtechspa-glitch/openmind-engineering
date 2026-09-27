@@ -9,6 +9,24 @@
     "fetched_at": "2026-09-26T08:58:25.982018+00:00"
   },
   {
+    "title": "Fungi Could Enable Food Production on Mars",
+    "summary": "Scientists suggest that beneficial fungi could transform Martian and lunar regolith into material capable of supporting crop growth for space farming.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260924020400.htm",
+    "published_at": "2026-09-26T02:26:05+00:00",
+    "fetched_at": "2026-09-27T09:39:44.591197+00:00"
+  },
+  {
+    "title": "Rare Compounds Discovered in Cannabis Leaves",
+    "summary": "Researchers discovered rare flavoalkaloids and dozens of previously unreported phenolic compounds in cannabis leaves, indicating potential medical utility.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260924231711.htm",
+    "published_at": "2026-09-26T01:25:10+00:00",
+    "fetched_at": "2026-09-27T09:39:44.591210+00:00"
+  },
+  {
     "title": "Researchers Compare A7 CFET and A10 NSFET Technologies",
     "summary": "Researchers from TUM, UNIMORE, and Applied Materials published a study evaluating A7 CFET and A10 nanosheet FETs.",
     "category": "Electronics & Semiconductors",
@@ -250,23 +268,5 @@
     "source_url": "https://newatlas.com/automotive/renault-legendary-r8-electric-rally-coupe-concept/",
     "published_at": "2026-09-24T20:27:10+00:00",
     "fetched_at": "2026-09-25T09:20:13.798568+00:00"
-  },
-  {
-    "title": "Forj Medical Opens New Manufacturing Facility in Costa Rica",
-    "summary": "The medical device CDMO opened a 5,000-square-meter facility in Costa Rica to expand its production capacity.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/manufacturing/forj-medical-opens-costa-rica-manufacturing-facility-to-expand-nearshore-capacity",
-    "published_at": "2026-09-24T19:58:01+00:00",
-    "fetched_at": "2026-09-25T09:20:13.798574+00:00"
-  },
-  {
-    "title": "Delos Data Introduces Apollo Chiplet for Heterogeneous AI",
-    "summary": "Delos Data unveiled the Apollo chiplet to bridge endpoint semantics and interconnects across GPUs, CPUs, and memory.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
-    "published_at": "2026-09-24T18:43:38+00:00",
-    "fetched_at": "2026-09-25T09:20:13.798579+00:00"
   }
 ]
