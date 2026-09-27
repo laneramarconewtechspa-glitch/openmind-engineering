@@ -1,5 +1,14 @@
 [
   {
+    "title": "Generative Adversarial Translation in Cross-Modality Imaging",
+    "summary": "A special issue explores generative adversarial translation techniques to bridge complementary medical imaging modalities and establish common analytical frameworks.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/7b65e93aebf45fd983a7fe3c328c7ddcd20ee3bb",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-27T16:08:38.189852+00:00"
+  },
+  {
     "title": "Bugatti Plans $650M Residential Tower in Miami",
     "summary": "Bugatti is developing a $650 million residential skyscraper in Miami aimed at automotive enthusiasts.",
     "category": "Civil & Infrastructure",
@@ -259,14 +268,5 @@
     "source_url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
     "published_at": "2026-09-24T21:00:00+00:00",
     "fetched_at": "2026-09-25T09:20:13.798558+00:00"
-  },
-  {
-    "title": "Renault 8 Gordini Concept Reimagined as Electric Coupe",
-    "summary": "Renault revealed a two-seat electric coupe concept with 270 horsepower based on its 1964 rally icon.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/renault-legendary-r8-electric-rally-coupe-concept/",
-    "published_at": "2026-09-24T20:27:10+00:00",
-    "fetched_at": "2026-09-25T09:20:13.798568+00:00"
   }
 ]
