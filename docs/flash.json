@@ -1,5 +1,14 @@
 [
   {
+    "title": "Wise Integration and Navitas Partner for Data Centre PSU Development",
+    "summary": "Wise Integration and Navitas Semiconductor are collaborating to advance power-computing applications for data centre power supplies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/wise-integration-and-navitas-semi-hook-up-2026-09/",
+    "published_at": "2026-09-28T05:12:27+00:00",
+    "fetched_at": "2026-09-28T10:20:47.265260+00:00"
+  },
+  {
     "title": "Generative Adversarial Translation in Cross-Modality Imaging",
     "summary": "A special issue explores generative adversarial translation techniques to bridge complementary medical imaging modalities and establish common analytical frameworks.",
     "category": "Biomedical",
@@ -142,131 +151,5 @@
     "source_url": "https://www.engineering.com/systra-and-dassault-systemes-collaborate-on-rail-virtual-twins/",
     "published_at": "2026-09-25T10:54:22+00:00",
     "fetched_at": "2026-09-25T12:21:04.903502+00:00"
-  },
-  {
-    "title": "Balfour Beatty to Add 2,000 UK Jobs",
-    "summary": "Infrastructure group Balfour Beatty plans to increase its UK workforce by approximately 2,000 employees as project work ramps up.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/balfour-beatty-to-add-2000-uk-jobs-as-infrastructure-work-ramps-up-25-09-2026/",
-    "published_at": "2026-09-25T10:03:02+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903505+00:00"
-  },
-  {
-    "title": "Pentagon Seeks $30M for AI Lie Detector",
-    "summary": "A Department of Defense budget request outlines plans to spend $30.3 million over five years on an AI-powered lie detector program.",
-    "category": "Computing",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-    "published_at": "2026-09-25T09:16:25+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903508+00:00"
-  },
-  {
-    "title": "Wi-Fi HaLow Bridges Smart Building Connectivity Gaps",
-    "summary": "Wi-Fi HaLow helps bridge the gap between bandwidth, long range, and low power as edge AI transforms smart buildings.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
-    "published_at": "2026-09-25T08:00:34+00:00",
-    "fetched_at": "2026-09-25T09:20:10.811056+00:00"
-  },
-  {
-    "title": "InnovMetric Partners with Wuhan VISION3D",
-    "summary": "InnovMetric has partnered with Wuhan VISION3D to combine automated 3D measurement hardware with PolyWorks inspection software.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/innovmetric-partners-with-wuhan-vision3d-on-inspection-systems/",
-    "published_at": "2026-09-25T05:44:07+00:00",
-    "fetched_at": "2026-09-25T09:20:10.811068+00:00"
-  },
-  {
-    "title": "FDA Panel Backs Multi-Cancer Blood Test",
-    "summary": "An FDA advisory panel narrowly voted in favor of a multi-cancer blood test despite concerns regarding its effectiveness and life-saving proof.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/ivd/fda-advisory-panel-narrowly-backs-multi-cancer-blood-test-despite-effectiveness-concerns",
-    "published_at": "2026-09-25T00:17:03+00:00",
-    "fetched_at": "2026-09-25T09:20:10.811074+00:00"
-  },
-  {
-    "title": "Comparing 2nm Yields Across Major Foundries",
-    "summary": "Estimated comparative yield counts on 2nm wafers show TSMC leading at 90%, followed by Intel at 85% and Samsung at 70%.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/manuf/the-nanometer-stakes-2026-09/",
-    "published_at": "2026-09-25T00:01:03+00:00",
-    "fetched_at": "2026-09-25T09:20:10.811079+00:00"
-  },
-  {
-    "title": "Manipulating 2D Colloidal Crystals with Laguerre-Gaussian Beams",
-    "summary": "Researchers demonstrated using holographically generated Laguerre-Gaussian beams to manipulate particles in two-dimensional colloidal crystals.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c6823814768120a5a2f7a15b71c9d4f206312927",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982055+00:00"
-  },
-  {
-    "title": "DREAMS Hopper Proposed for In-Situ Lunar Resource Utilization",
-    "summary": "A proposed framework uses the DREAMS hopper, T-REx rover, and MoonFall drones for lunar resource extraction and additive manufacturing.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bc3055fba8563a9e44c7a0e1ab4e630e2944da0d",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982060+00:00"
-  },
-  {
-    "title": "Machine Learning Model Assesses Campus Urban Sustainability",
-    "summary": "Researchers proposed an XGBoost-driven framework utilizing campus occupancy and environmental data to evaluate and predict building-level sustainability performance.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ad51d7f6dc6fd3b10a3611ee7f96a22943726ba7",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:34.594307+00:00"
-  },
-  {
-    "title": "CAR-T Cell Therapy Engineering for Refractory Myeloma",
-    "summary": "A review highlights how CAR-T cell therapy has achieved durable remissions in patients with relapsed and refractory multiple myeloma.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a5b73a149dcaef12b3118adcfa40c3ac4cc38d4a",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:34.594316+00:00"
-  },
-  {
-    "title": "Chiral Cation Engineering Enables Red CPL in Fluorides",
-    "summary": "Enantiomeric protonated chiral cations were introduced into Mn4+-activated fluorides to trigger effective chirality transfer and narrow-band red circularly polarized luminescence.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/8273e56afa9dcc023fb0e07d2ddda800a1c2fe03",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:34.594322+00:00"
-  },
-  {
-    "title": "Light Funnel Mixer Arrays Enhance Solar Absorption",
-    "summary": "Researchers investigated light-trapping mechanisms in subwavelength Light Funnel Mixer arrays to improve broadband and omnidirectional solar absorption efficiency.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/11d30c853d8eeacb6a3df8f77a7a7b82374f2387",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:34.594327+00:00"
-  },
-  {
-    "title": "2D Cathodoluminescence Maps Si-doped DX Centers in UVC LEDs",
-    "summary": "A novel 2D cathodoluminescence approach was used to identify Si-doped DX centers and nitrogen vacancies in AlGaN-based UVC LEDs at atomic resolution.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/0610f2789c2425162f7d3483201a044d5c0e9721",
-    "published_at": "2026-09-25T00:00:00+00:00",
-    "fetched_at": "2026-09-26T08:58:34.594331+00:00"
-  },
-  {
-    "title": "New Language-Processing Tool Estimates Suicide Risk from Text",
-    "summary": "A new language-processing tool identifies high-risk individuals from natural language to enable swifter interventions.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
-    "published_at": "2026-09-24T21:00:00+00:00",
-    "fetched_at": "2026-09-25T09:20:13.798558+00:00"
   }
 ]
