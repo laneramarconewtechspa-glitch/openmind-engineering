@@ -1,5 +1,131 @@
 [
   {
+    "title": "Assessing Photogrammetry in Cultural Heritage Documentation",
+    "summary": "This study assesses the evolution of photogrammetric technologies and hybrid workflows for the documentation and conservation of heritage structures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ed32a6980cca4a28061dc442d85a64d0d4ca3a96",
+    "published_at": "2026-09-29T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299338+00:00"
+  },
+  {
+    "title": "Maintenance Findings as Engineering Feedback Signals",
+    "summary": "This article examines how maintenance-related findings from audits and inspections function as traceable feedback signals in safety-critical asset management systems.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/83776a3343243888e6dd8c2215d6e6823cb1ace6",
+    "published_at": "2026-09-29T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299351+00:00"
+  },
+  {
+    "title": "Atmospheric Corrosion Protection Based on Numerical Simulation",
+    "summary": "This study proposes an atmospheric corrosion protection classification method using a rainfall-on-ground model to assess local corrosion risks.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/6dcef644466d1d646a4d4985f4aba3c39fd4ac65",
+    "published_at": "2026-09-29T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299357+00:00"
+  },
+  {
+    "title": "Evaluating 3D Printing in Engineering Education",
+    "summary": "This study explores how applied, project-based learning using 3D printing and thermal testing deepens engineering students' manufacturing understanding.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/22fa098ce6637155aec2be0b672dc318809038e4",
+    "published_at": "2026-09-29T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299363+00:00"
+  },
+  {
+    "title": "Cu Microstructure Impact on TSV-Induced Residual Stress",
+    "summary": "Researchers experimentally quantify the impact of copper microstructure on through-silicon via-induced residual stress within silicon.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/copper-grain-structure-influences-stress-around-scaled-tsvs-purdue-ucla/",
+    "published_at": "2026-09-28T18:02:09+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299368+00:00"
+  },
+  {
+    "title": "The Exploration Company Raises $450m Series C",
+    "summary": "The Exploration Company has secured a $450 million Series C funding round to develop reusable spacecraft.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/finance/tec-raises-450m-series-c-for-reusable-spacecraft-2026-09/",
+    "published_at": "2026-09-28T15:18:28+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299372+00:00"
+  },
+  {
+    "title": "Synopsys Introduces AgentEngineer Solutions",
+    "summary": "Synopsys has introduced AgentEngineer solutions running on the Autopilot Platform, with general availability planned for late 2026.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/synopsys-introduces-agentengineer-solutions-for-engineering/",
+    "published_at": "2026-09-28T14:37:39+00:00",
+    "fetched_at": "2026-09-28T19:58:17.299377+00:00"
+  },
+  {
+    "title": "MPs Examine Infrastructure Procurement",
+    "summary": "Members of Parliament are assessing state delivery of major infrastructure projects and potential procurement reforms.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/mps-examine-state-effectiveness-and-procurement-in-infrastructure-project-delivery-28-09-2026/",
+    "published_at": "2026-09-28T14:15:19+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295853+00:00"
+  },
+  {
+    "title": "Low Adoption of Household Robots",
+    "summary": "Statista data shows fewer than one in five respondents use robotic vacuum cleaners or lawnmowers in surveyed markets.",
+    "category": "Robotics",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/consumer/where-robots-do-the-housework-2026-09/",
+    "published_at": "2026-09-28T13:28:09+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295862+00:00"
+  },
+  {
+    "title": "Calterah Adapts UWB Keys for In-Cabin Sensing",
+    "summary": "Calterah integrates UWB keyless anchors into synchronized networks to enhance vehicle safety without adding expensive hardware.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
+    "published_at": "2026-09-28T12:58:32+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295867+00:00"
+  },
+  {
+    "title": "UK Infrastructure Chiefs to Receive Briefings on Russia",
+    "summary": "The UK government will hold closed-door briefings for critical national infrastructure chief executives regarding elevated threats.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/critical-national-infrastructure-bodies-to-receive-briefings-on-heightened-russia-threats-28-09-2026/",
+    "published_at": "2026-09-28T11:34:02+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295872+00:00"
+  },
+  {
+    "title": "Rail Crews Repair Signalling After Fire",
+    "summary": "Rail crews worked overnight to restore signalling systems following a trackside fire near Clapham Junction.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/rail-crews-worked-overnight-to-reinstate-signalling-system-after-trackside-fire-near-clapham-junction-28-09-2026/",
+    "published_at": "2026-09-28T10:58:26+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295876+00:00"
+  },
+  {
+    "title": "Pomegranate Compound Boosts Heart Function",
+    "summary": "A compound derived from digestion of pomegranates, walnuts, and berries improved heart function measures by up to 80 percent in animal models.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260925093157.htm",
+    "published_at": "2026-09-28T10:49:22+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295880+00:00"
+  },
+  {
+    "title": "Boxlight Expands Louisiana STEM Initiative",
+    "summary": "Boxlight is expanding a partnership with a Louisiana school district to integrate 3D printing into science lessons.",
+    "category": "Other Engineering",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/boxlight-expands-stem-partnership-with-louisiana-school-district/",
+    "published_at": "2026-09-28T10:34:54+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295884+00:00"
+  },
+  {
     "title": "Wise Integration and Navitas Partner for Data Centre PSU Development",
     "summary": "Wise Integration and Navitas Semiconductor are collaborating to advance power-computing applications for data centre power supplies.",
     "category": "Electronics & Semiconductors",
@@ -16,6 +142,69 @@
     "source_url": "https://www.semanticscholar.org/paper/7b65e93aebf45fd983a7fe3c328c7ddcd20ee3bb",
     "published_at": "2026-09-28T00:00:00+00:00",
     "fetched_at": "2026-09-27T16:08:38.189852+00:00"
+  },
+  {
+    "title": "Modeling Aerosol Clouds for Fire Extinguishing",
+    "summary": "Researchers analyzed a simplified approach to assess aerosol cloud shapes and concentration parameters for extinguishing open-space liquid fires.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/f64e8bb9cc4a711e63447c7507fb8bd32633f184",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295888+00:00"
+  },
+  {
+    "title": "Modeling Electromagnet Retrieval of Underwater Explosives",
+    "summary": "A mathematical model was developed to describe lifting ferromagnetic explosive objects to the water surface using an underwater electromagnet.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e6b835043b32165976f99f76e2ed8f3f43a86d6a",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:58:33.295892+00:00"
+  },
+  {
+    "title": "Basalt Concrete in Chemical and Radiation Facilities",
+    "summary": "This study examines the stress-strain behavior and durability of basalt-fiber-reinforced concrete structures for aggressive and special-purpose environments.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e6b65f9af217411a82e62703dc83f5a33eb875d9",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:59:14.515678+00:00"
+  },
+  {
+    "title": "AI-Driven Form-Finding for Parametric Modeling",
+    "summary": "Researchers combined artificial neural networks with Voronoi-based parametric modeling to optimize building components for thermal and mechanical performance.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a59237e3d88720690e414164c4da8242072b50c9",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:59:14.515688+00:00"
+  },
+  {
+    "title": "Evaluating Interlaminar Shear Strength in Plywood Panels",
+    "summary": "A new engineering method calculates transverse shear stresses in structural plywood panels without requiring three-dimensional solid finite element modeling.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/257ea3dc7c1ce3da4d48959b59b4e17b3c697630",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:59:14.515693+00:00"
+  },
+  {
+    "title": "Defect-Engineered Pd/ZSM-5 for Plastic Hydroconversion",
+    "summary": "Desilicated Pd/ZSM-5 catalysts selectively converted low-density polyethylene into a narrow C3-C6 alkane fraction at 240 degrees Celsius.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/218c870b856f8381957dca962e217ba34f2b03f5",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:59:14.515698+00:00"
+  },
+  {
+    "title": "Mathematical Modeling of Sand Dehydration via Vacuum Systems",
+    "summary": "A new mathematical model optimizes the vacuum dehydration process for construction sand stored in prismatic warehouses.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/07b3152e02fca3c2e66e56782f1e81e168b99cb8",
+    "published_at": "2026-09-28T00:00:00+00:00",
+    "fetched_at": "2026-09-28T19:59:14.515703+00:00"
   },
   {
     "title": "Bugatti Plans $650M Residential Tower in Miami",
@@ -52,104 +241,5 @@
     "source_url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
     "published_at": "2026-09-25T22:29:43+00:00",
     "fetched_at": "2026-09-26T08:58:25.982032+00:00"
-  },
-  {
-    "title": "General Robotics Focuses on Modular Intelligence",
-    "summary": "General Robotics is utilizing modular specialized capabilities instead of a single robot brain to help robots adapt across tasks.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/general-robotics-is-betting-on-modular-intelligence-not-one-robot-brain/",
-    "published_at": "2026-09-25T18:43:22+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982039+00:00"
-  },
-  {
-    "title": "FDA Issues Draft Guidance for Surgical Robots",
-    "summary": "The FDA released new draft recommendations for premarket submissions of robotically-assisted surgical devices.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/robotics/fda-issues-draft-guidance-on-robotically-assisted-surgical-devices",
-    "published_at": "2026-09-25T17:55:19+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982044+00:00"
-  },
-  {
-    "title": "IEEE Spectrum's Video Friday Highlights New Robotics",
-    "summary": "This week's Video Friday showcases new robotic designs, underwater manipulation, and autonomous drone demonstrations.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
-    "published_at": "2026-09-25T16:00:04+00:00",
-    "fetched_at": "2026-09-25T16:14:46.986940+00:00"
-  },
-  {
-    "title": "Kent Council Uses Recycled Clothing Mix for Potholes",
-    "summary": "Maidstone Borough Council has started a trial repairing park potholes using a material made partly from recycled clothing.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/recycled-clothing-mix-used-to-repair-park-potholes-in-kent-25-09-2026/",
-    "published_at": "2026-09-25T15:03:21+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982048+00:00"
-  },
-  {
-    "title": "Agility Robotics Explores Wheeled Robot Designs",
-    "summary": "Digit humanoid maker Agility Robotics is investigating alternative form factors including wheels to meet diverse customer needs.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
-    "published_at": "2026-09-25T14:08:27+00:00",
-    "fetched_at": "2026-09-25T16:14:46.986953+00:00"
-  },
-  {
-    "title": "MathWorks Launches MATLAB and Simulink Release 2026b",
-    "summary": "The latest release introduces new tools supporting product variants, point-cloud applications, and hardware-software co-design workflows.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mathworks-introduces-matlab-and-simulink-release-2026b/",
-    "published_at": "2026-09-25T12:20:55+00:00",
-    "fetched_at": "2026-09-25T16:14:46.986959+00:00"
-  },
-  {
-    "title": "U.S. Army Partners with Private Developers for Base Power",
-    "summary": "The U.S. Army selected three private developers to build new power generation and storage projects on underutilized military land.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/onsite-power/microgrids/army-power-generation-gas-nuclear-battery/",
-    "published_at": "2026-09-25T12:09:10+00:00",
-    "fetched_at": "2026-09-25T16:14:46.986962+00:00"
-  },
-  {
-    "title": "UK Commits £331M for Climate Resilience",
-    "summary": "The UK government announced a £331M funding package to strengthen climate resilience and protect critical infrastructure.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/uk-commits-331m-to-strengthen-climate-resilience-and-protect-critical-infrastructure-25-09-2026/",
-    "published_at": "2026-09-25T11:47:14+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903482+00:00"
-  },
-  {
-    "title": "Teledyne and NASA Advance Hydrogen Fuel Cells",
-    "summary": "Teledyne and NASA are collaborating to mature a hydrogen electrical power system from TRL 5 to TRL 7 for space applications.",
-    "category": "Aerospace",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/teledyne-and-nasa-advance-hydrogen-fuel-cell-technology/",
-    "published_at": "2026-09-25T11:20:34+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903494+00:00"
-  },
-  {
-    "title": "Quectel Launches QSM603FCP Smart Board",
-    "summary": "Quectel announced its QSM603FCP smart PCBA for edge computing supporting Android and Linux at Embedded World North America.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/bus-systems-sbcs/qsm603fcp-smart-board-supports-aiot-for-android-linux-2026-09/",
-    "published_at": "2026-09-25T11:05:55+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903498+00:00"
-  },
-  {
-    "title": "SYSTRA and Dassault Partner on Rail Twins",
-    "summary": "SYSTRA and Dassault Systèmes are collaborating to integrate infrastructure data and models for rail virtual twins.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/systra-and-dassault-systemes-collaborate-on-rail-virtual-twins/",
-    "published_at": "2026-09-25T10:54:22+00:00",
-    "fetched_at": "2026-09-25T12:21:04.903502+00:00"
   }
 ]
