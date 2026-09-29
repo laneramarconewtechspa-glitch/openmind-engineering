@@ -1,5 +1,221 @@
 [
   {
+    "title": "AI Framework for Automated Software Test Case Generation",
+    "summary": "This paper explores an automated test case generation framework that uses large language models to extract test cases from requirement documents.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ed3fed2e83400748900b7b5d9100b4bf0cd85889",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227461+00:00"
+  },
+  {
+    "title": "Solar Energy Feasibility Study for Campus Sustainability",
+    "summary": "A study evaluates installing a 443.7 kW rooftop solar photovoltaic system at Ramaiah Technology Campus to reduce conventional electricity and diesel dependence.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e4d98f474199a133c4ee181d697a8b9b7aa0c8a2",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227474+00:00"
+  },
+  {
+    "title": "Geoinformation Support for Community Energy Resource Planning",
+    "summary": "This article proposes integrating spatial datasets and monitoring systems into geoinformation platforms to improve energy resource planning and efficiency in territorial communities.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/dff62e6225cf9f86a25c69ff116127028230da5a",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227481+00:00"
+  },
+  {
+    "title": "Offshore Petroleum Groundwater Contamination Assessment in Niger Delta",
+    "summary": "An integrated geospatial and hydrogeochemical assessment reveals that groundwater in an offshore Niger Delta field is unsuitable for drinking due to petroleum activities and natural processes.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/da267b547015c51f4e079d70ce089160f9bfc212",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227485+00:00"
+  },
+  {
+    "title": "LNG Plant Design and Modularization Integration",
+    "summary": "This paper reviews how modularization changes LNG plant engineering and fabrication, emphasizing process requirements and construction constraint alignment.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b995f6ac5796b634a617f98f2de58eef44536ec1",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227491+00:00"
+  },
+  {
+    "title": "Engineering Principles and Best Practices for LNG Plants",
+    "summary": "This article reviews key engineering decisions and construction activities involved in designing and building safe, reliable LNG liquefaction plants.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a384f4004e88f4664d74fc6315a2b127c80422d9",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227496+00:00"
+  },
+  {
+    "title": "Water Hammer Modelling in Heterogeneous Transmission Pipelines",
+    "summary": "Numerical modelling of water hammer in a hybrid transmission pipeline demonstrates that rapid valve closure generates surge pressures exceeding allowable steel pipe limits.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/7d6b349c3559d131e4e6e9f3a40273e989c83d92",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:40.227500+00:00"
+  },
+  {
+    "title": "Interim Valuation Certificates in Construction Project Delivery",
+    "summary": "This study assesses the impact of interim valuation certificates on construction project delivery in Ebonyi State using survey data from seventy industry firms.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/5435f0a9b9c60830e792faf0c9ef5aef3c322830",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280287+00:00"
+  },
+  {
+    "title": "Transdisciplinary Education Approaches for Next-Gen Cyber-Physical Systems",
+    "summary": "This position paper explores post-disciplinary and transdisciplinary learning approaches and educational frameworks for next-generation cyber-physical systems.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/521c07145284cda2a2580b749f5005a6050dba0c",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280297+00:00"
+  },
+  {
+    "title": "Risk-Based Fire Safety Engineering Framework for Saudi Infrastructure",
+    "summary": "A structured review proposes a risk-based engineering framework to enhance fire and life safety resilience in critical Saudi Arabian infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/4a04cfbc3dcf1039f25a1de2ae168a9ca6b40974",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280302+00:00"
+  },
+  {
+    "title": "Economically Controlled Reconstruction via Phased Repair Prioritization",
+    "summary": "This article proposes a methodology for phased building reconstruction that prioritizes repair works based on measurable safety and budget criteria.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3880709118f2c1b0d74897891b176b1b9ef94ab4",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280307+00:00"
+  },
+  {
+    "title": "Specification Governance Framework for Agentic Software Engineering",
+    "summary": "This study introduces a specification governance framework that uses structured requirements as an external control plane for AI coding agents.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/364b6b7bff226aa579ba54d2d8d491f536372dfd",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280312+00:00"
+  },
+  {
+    "title": "UAV-Based Photogrammetry for Measuring Tower Structure Tilt",
+    "summary": "A geodetic methodology using UAVs and digital photogrammetry is proposed to determine the tilt of high-rise tower-type engineering structures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/2f4dfdfa99700ae9eab5a9e71cacb884fc7a5896",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280317+00:00"
+  },
+  {
+    "title": "Global Freshwater Degradation and Advanced Engineering Frameworks",
+    "summary": "This paper synthesizes global freshwater degradation, contaminant dynamics, and advanced engineering and policy frameworks for water security.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/26725014521da792b9058453e06e7a9b6ac6b6a2",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280322+00:00"
+  },
+  {
+    "title": "Biogas Quality from Co-Digestion of Cassava Peels and Cow Dung",
+    "summary": "An experimental investigation identifies the optimal blending ratio of cassava peels and cow dung for maximizing methane production in an anaerobic digester.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/24a2345ddbd2eb5a5dec0f2d00302bfbdf78f41d",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280327+00:00"
+  },
+  {
+    "title": "Mitigating Very Fast Transient Overvoltages in GIS via Earthing",
+    "summary": "A case study demonstrates how an additional copper earthing grid successfully mitigated very fast transient overvoltages and prevented flashover incidents in a GIS.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/247e6d85e12ba9a2b4441306f36a93115f044cbf",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280332+00:00"
+  },
+  {
+    "title": "Safety and Management Engineering in Global Mining",
+    "summary": "This scoping review synthesizes regulatory and technological advances in mining safety and management engineering from 2015 to 2025.",
+    "category": "Other Engineering",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/1c540184a1bc530109d37464fa9341e3bb805a2d",
+    "published_at": "2026-09-30T00:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:44.280337+00:00"
+  },
+  {
+    "title": "Heathrow Airport Third Runway Delayed to 2039",
+    "summary": "Heathrow Airport’s third runway opening has been delayed until 2039, with plans to secure planning permission by 2029.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/heathrow-airports-third-runway-delayed-until-2039-29-09-2026/",
+    "published_at": "2026-09-29T07:58:04+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793484+00:00"
+  },
+  {
+    "title": "IBM Details Quantum and AI Developments in India",
+    "summary": "At SEMICON India 2026, IBM discussed quantum scaling, Qiskit education, and AI accelerators in India.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
+    "published_at": "2026-09-29T07:30:00+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793494+00:00"
+  },
+  {
+    "title": "GAD Helps ORR Analyze Climate Hazards to Transport",
+    "summary": "The Government Actuary’s Department produced analysis to help the Office of Rail and Road assess changing climate risks to transport networks.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/government-actuarys-department-helps-orr-analyse-changing-landscape-of-climate-hazards-to-transport-network-29-09-2026/",
+    "published_at": "2026-09-29T05:30:25+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793503+00:00"
+  },
+  {
+    "title": "Gimlet Cloud and Cerebras Partner for AI Inference",
+    "summary": "Gimlet Labs and Cerebras Systems are partnering to deliver ultrafast AI inference using wafer-scale compute and the Gimlet Cloud.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/gimlet-cloud-and-cerebras-to-accelerate-inference-2026-09/",
+    "published_at": "2026-09-29T05:16:05+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793509+00:00"
+  },
+  {
+    "title": "Synopsys Introduces Agent-Engineers for Silicon Workflows",
+    "summary": "Synopsys launched Agent-Engineers capable of reasoning, planning, and executing engineering workflows from silicon to systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/the-agent-engineer-2026-09/",
+    "published_at": "2026-09-29T05:14:18+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793515+00:00"
+  },
+  {
+    "title": "Muscle-Powered Biohybrid Robot Swims Through Watery Maze",
+    "summary": "MIT engineers developed a paper-thin biohybrid robot powered by muscle cells that can swim through a watery maze.",
+    "category": "Robotics",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929",
+    "published_at": "2026-09-29T04:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:47.793520+00:00"
+  },
+  {
+    "title": "Impact of Algorithmic Monoculture in Hiring",
+    "summary": "MIT researchers found that a single algorithm used across multiple firms could benefit job seekers in specific hiring scenarios.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+    "published_at": "2026-09-29T04:00:00+00:00",
+    "fetched_at": "2026-09-29T10:22:50.945359+00:00"
+  },
+  {
     "title": "Assessing Photogrammetry in Cultural Heritage Documentation",
     "summary": "This study assesses the evolution of photogrammetric technologies and hybrid workflows for the documentation and conservation of heritage structures.",
     "category": "Civil & Infrastructure",
@@ -36,210 +252,21 @@
     "fetched_at": "2026-09-28T19:58:17.299363+00:00"
   },
   {
-    "title": "Cu Microstructure Impact on TSV-Induced Residual Stress",
-    "summary": "Researchers experimentally quantify the impact of copper microstructure on through-silicon via-induced residual stress within silicon.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/copper-grain-structure-influences-stress-around-scaled-tsvs-purdue-ucla/",
-    "published_at": "2026-09-28T18:02:09+00:00",
-    "fetched_at": "2026-09-28T19:58:17.299368+00:00"
-  },
-  {
-    "title": "The Exploration Company Raises $450m Series C",
-    "summary": "The Exploration Company has secured a $450 million Series C funding round to develop reusable spacecraft.",
+    "title": "NASA and Boeing Outline Starliner Return Path",
+    "summary": "NASA and Boeing have outlined a revised path for Starliner regarding future International Space Station crew rotations.",
     "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/finance/tec-raises-450m-series-c-for-reusable-spacecraft-2026-09/",
-    "published_at": "2026-09-28T15:18:28+00:00",
-    "fetched_at": "2026-09-28T19:58:17.299372+00:00"
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/09/nasa-boeing-starliners-return-iss-crew/",
+    "published_at": "2026-09-28T22:13:09+00:00",
+    "fetched_at": "2026-09-29T10:22:50.945369+00:00"
   },
   {
-    "title": "Synopsys Introduces AgentEngineer Solutions",
-    "summary": "Synopsys has introduced AgentEngineer solutions running on the Autopilot Platform, with general availability planned for late 2026.",
-    "category": "Computing",
+    "title": "Addressing the Speed Paradox in 3D Printing",
+    "summary": "A discussion on production bottlenecks in additive manufacturing and whether artificial intelligence can resolve them.",
+    "category": "Mechanical",
     "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/synopsys-introduces-agentengineer-solutions-for-engineering/",
-    "published_at": "2026-09-28T14:37:39+00:00",
-    "fetched_at": "2026-09-28T19:58:17.299377+00:00"
-  },
-  {
-    "title": "MPs Examine Infrastructure Procurement",
-    "summary": "Members of Parliament are assessing state delivery of major infrastructure projects and potential procurement reforms.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/mps-examine-state-effectiveness-and-procurement-in-infrastructure-project-delivery-28-09-2026/",
-    "published_at": "2026-09-28T14:15:19+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295853+00:00"
-  },
-  {
-    "title": "Low Adoption of Household Robots",
-    "summary": "Statista data shows fewer than one in five respondents use robotic vacuum cleaners or lawnmowers in surveyed markets.",
-    "category": "Robotics",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/consumer/where-robots-do-the-housework-2026-09/",
-    "published_at": "2026-09-28T13:28:09+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295862+00:00"
-  },
-  {
-    "title": "Calterah Adapts UWB Keys for In-Cabin Sensing",
-    "summary": "Calterah integrates UWB keyless anchors into synchronized networks to enhance vehicle safety without adding expensive hardware.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
-    "published_at": "2026-09-28T12:58:32+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295867+00:00"
-  },
-  {
-    "title": "UK Infrastructure Chiefs to Receive Briefings on Russia",
-    "summary": "The UK government will hold closed-door briefings for critical national infrastructure chief executives regarding elevated threats.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/critical-national-infrastructure-bodies-to-receive-briefings-on-heightened-russia-threats-28-09-2026/",
-    "published_at": "2026-09-28T11:34:02+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295872+00:00"
-  },
-  {
-    "title": "Rail Crews Repair Signalling After Fire",
-    "summary": "Rail crews worked overnight to restore signalling systems following a trackside fire near Clapham Junction.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/rail-crews-worked-overnight-to-reinstate-signalling-system-after-trackside-fire-near-clapham-junction-28-09-2026/",
-    "published_at": "2026-09-28T10:58:26+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295876+00:00"
-  },
-  {
-    "title": "Pomegranate Compound Boosts Heart Function",
-    "summary": "A compound derived from digestion of pomegranates, walnuts, and berries improved heart function measures by up to 80 percent in animal models.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260925093157.htm",
-    "published_at": "2026-09-28T10:49:22+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295880+00:00"
-  },
-  {
-    "title": "Boxlight Expands Louisiana STEM Initiative",
-    "summary": "Boxlight is expanding a partnership with a Louisiana school district to integrate 3D printing into science lessons.",
-    "category": "Other Engineering",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/boxlight-expands-stem-partnership-with-louisiana-school-district/",
-    "published_at": "2026-09-28T10:34:54+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295884+00:00"
-  },
-  {
-    "title": "Wise Integration and Navitas Partner for Data Centre PSU Development",
-    "summary": "Wise Integration and Navitas Semiconductor are collaborating to advance power-computing applications for data centre power supplies.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/wise-integration-and-navitas-semi-hook-up-2026-09/",
-    "published_at": "2026-09-28T05:12:27+00:00",
-    "fetched_at": "2026-09-28T10:20:47.265260+00:00"
-  },
-  {
-    "title": "Generative Adversarial Translation in Cross-Modality Imaging",
-    "summary": "A special issue explores generative adversarial translation techniques to bridge complementary medical imaging modalities and establish common analytical frameworks.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/7b65e93aebf45fd983a7fe3c328c7ddcd20ee3bb",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-27T16:08:38.189852+00:00"
-  },
-  {
-    "title": "Modeling Aerosol Clouds for Fire Extinguishing",
-    "summary": "Researchers analyzed a simplified approach to assess aerosol cloud shapes and concentration parameters for extinguishing open-space liquid fires.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f64e8bb9cc4a711e63447c7507fb8bd32633f184",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295888+00:00"
-  },
-  {
-    "title": "Modeling Electromagnet Retrieval of Underwater Explosives",
-    "summary": "A mathematical model was developed to describe lifting ferromagnetic explosive objects to the water surface using an underwater electromagnet.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e6b835043b32165976f99f76e2ed8f3f43a86d6a",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:58:33.295892+00:00"
-  },
-  {
-    "title": "Basalt Concrete in Chemical and Radiation Facilities",
-    "summary": "This study examines the stress-strain behavior and durability of basalt-fiber-reinforced concrete structures for aggressive and special-purpose environments.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e6b65f9af217411a82e62703dc83f5a33eb875d9",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:59:14.515678+00:00"
-  },
-  {
-    "title": "AI-Driven Form-Finding for Parametric Modeling",
-    "summary": "Researchers combined artificial neural networks with Voronoi-based parametric modeling to optimize building components for thermal and mechanical performance.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a59237e3d88720690e414164c4da8242072b50c9",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:59:14.515688+00:00"
-  },
-  {
-    "title": "Evaluating Interlaminar Shear Strength in Plywood Panels",
-    "summary": "A new engineering method calculates transverse shear stresses in structural plywood panels without requiring three-dimensional solid finite element modeling.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/257ea3dc7c1ce3da4d48959b59b4e17b3c697630",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:59:14.515693+00:00"
-  },
-  {
-    "title": "Defect-Engineered Pd/ZSM-5 for Plastic Hydroconversion",
-    "summary": "Desilicated Pd/ZSM-5 catalysts selectively converted low-density polyethylene into a narrow C3-C6 alkane fraction at 240 degrees Celsius.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/218c870b856f8381957dca962e217ba34f2b03f5",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:59:14.515698+00:00"
-  },
-  {
-    "title": "Mathematical Modeling of Sand Dehydration via Vacuum Systems",
-    "summary": "A new mathematical model optimizes the vacuum dehydration process for construction sand stored in prismatic warehouses.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/07b3152e02fca3c2e66e56782f1e81e168b99cb8",
-    "published_at": "2026-09-28T00:00:00+00:00",
-    "fetched_at": "2026-09-28T19:59:14.515703+00:00"
-  },
-  {
-    "title": "Bugatti Plans $650M Residential Tower in Miami",
-    "summary": "Bugatti is developing a $650 million residential skyscraper in Miami aimed at automotive enthusiasts.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/architecture/bugatti-650million-residential-tower-miami/",
-    "published_at": "2026-09-26T05:03:00+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982018+00:00"
-  },
-  {
-    "title": "Fungi Could Enable Food Production on Mars",
-    "summary": "Scientists suggest that beneficial fungi could transform Martian and lunar regolith into material capable of supporting crop growth for space farming.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260924020400.htm",
-    "published_at": "2026-09-26T02:26:05+00:00",
-    "fetched_at": "2026-09-27T09:39:44.591197+00:00"
-  },
-  {
-    "title": "Rare Compounds Discovered in Cannabis Leaves",
-    "summary": "Researchers discovered rare flavoalkaloids and dozens of previously unreported phenolic compounds in cannabis leaves, indicating potential medical utility.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260924231711.htm",
-    "published_at": "2026-09-26T01:25:10+00:00",
-    "fetched_at": "2026-09-27T09:39:44.591210+00:00"
-  },
-  {
-    "title": "Researchers Compare A7 CFET and A10 NSFET Technologies",
-    "summary": "Researchers from TUM, UNIMORE, and Applied Materials published a study evaluating A7 CFET and A10 nanosheet FETs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
-    "published_at": "2026-09-25T22:29:43+00:00",
-    "fetched_at": "2026-09-26T08:58:25.982032+00:00"
+    "source_url": "https://www.engineering.com/the-speed-paradox-in-3d-printing/",
+    "published_at": "2026-09-28T21:54:53+00:00",
+    "fetched_at": "2026-09-29T10:22:50.945374+00:00"
   }
 ]
