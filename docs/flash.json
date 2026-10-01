@@ -1,5 +1,50 @@
 [
   {
+    "title": "ESA and Mistral Partner to Explore Space AI",
+    "summary": "The European Space Agency and Mistral signed an agreement to increase the role of AI in space.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/esa-mistral-sign-agreement-to-explore-space-ai-2026-10/",
+    "published_at": "2026-10-01T09:04:02+00:00",
+    "fetched_at": "2026-10-01T10:46:23.236553+00:00"
+  },
+  {
+    "title": "Dutch Students Build EV Concept That Captures Tire and Brake Emissions",
+    "summary": "A team of Dutch students designed an EV concept that uses a static charge to capture microplastic shedding from tires and brakes.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/tu-ecomotive-ev-cleans-tire-brake-dust-ventra/",
+    "published_at": "2026-10-01T07:27:21+00:00",
+    "fetched_at": "2026-10-01T10:46:23.236566+00:00"
+  },
+  {
+    "title": "Micron Reports $54B Revenue Quarter",
+    "summary": "Micron announced revenue of $54.23 billion for calendar Q3.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/micron-has-54bn-revenue-quarter-2026-10/",
+    "published_at": "2026-10-01T05:12:56+00:00",
+    "fetched_at": "2026-10-01T10:46:25.877298+00:00"
+  },
+  {
+    "title": "Advantech Launches Robot Controller SBCs",
+    "summary": "Advantech introduced the ASR-A503 robot controller single-board computer and AFE-A503 industrial robot controller powered by the Qualcomm processor.",
+    "category": "Robotics",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/platforms-deliver-inference-vision-navigation-control-and-connectivity-for-robots-2026-10/",
+    "published_at": "2026-10-01T05:02:47+00:00",
+    "fetched_at": "2026-10-01T10:46:25.877308+00:00"
+  },
+  {
+    "title": "Galileo Space Builds Orbit-Processing Satellites",
+    "summary": "Galileo Space is building satellites designed to turn signals into answers directly in orbit.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/galileo-space-is-building-satellites-that-turn-signals-into-answers-in-orbit/",
+    "published_at": "2026-10-01T00:24:08+00:00",
+    "fetched_at": "2026-10-01T10:46:25.877313+00:00"
+  },
+  {
     "title": "Carbon Content Modulation Improves NMOSFET Electron Mobility",
     "summary": "Reducing carbon content in the silicon nitride spacer of NMOSFETs by 2% enhances electron mobility and performance by 6%.",
     "category": "Electronics & Semiconductors",
@@ -223,50 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/a4afe7fbfed62a2d8a6932a4219e6590e6f59938",
     "published_at": "2026-10-01T00:00:00+00:00",
     "fetched_at": "2026-09-30T10:16:55.132209+00:00"
-  },
-  {
-    "title": "Project-Based Learning for Performance-Based Seismic Design",
-    "summary": "A case study demonstrates that project-based learning effectively improves graduate students' conceptual understanding of performance-based seismic design.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a446e79346ec50920e84456b7dfaa213a3107ea5",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132213+00:00"
-  },
-  {
-    "title": "Improved Thermal Model for In-Wheel Motor Hairpin Windings",
-    "summary": "An improved equivalent thermal model reduces modeling difficulty and computational time for hairpin windings in in-wheel permanent magnet motors.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a02e58bb3d02e0940e9ee37f5a8bef8addcbfd2e",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132218+00:00"
-  },
-  {
-    "title": "Alkali-Activated Binders from Soil, Slag, and Fly Ash",
-    "summary": "Researchers developed a high-performance alkali-activated binder using fly ash, slag, and red soil that simultaneously achieves structural strength and efficient dye remediation.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/9c749555b21683015163e1ccbea5baaf4e67d537",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:58.424711+00:00"
-  },
-  {
-    "title": "Fe-SMA Damped High-Strength Steel Frames for Seismic Resilience",
-    "summary": "A new structural system integrating iron-based shape memory alloy dampers and high-strength steel improves seismic resilience, residual deformation control, and collapse resistance.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/98180afbff9ba2a3f0cd11c1bf6a582b6a3f7d15",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:58.424720+00:00"
-  },
-  {
-    "title": "Foamed Concrete Backfill for Buried Flexible Pipelines",
-    "summary": "An experimental and numerical investigation shows that foamed concrete placed below the pipe springline effectively reduces pipeline deformation by improving support stiffness.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/92c7d9348f3615af3030457951d4a3d002f3f71d",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:58.424726+00:00"
   }
 ]
