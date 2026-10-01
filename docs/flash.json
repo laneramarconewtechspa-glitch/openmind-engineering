@@ -1,5 +1,167 @@
 [
   {
+    "title": "Qualcomm Debuts Snapdragon 8 Elite Gen 6 SoCs",
+    "summary": "Qualcomm introduced two new Snapdragon 8 Elite Gen 6 SoCs for smartphones to expand personal agentic AI.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/qualcomm-doubles-down-on-agentic-ai-at-snapdragon-summit-2026/",
+    "published_at": "2026-10-01T17:31:45+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044067+00:00"
+  },
+  {
+    "title": "Arex One Smart HUD Mask Puts Dive Data in View",
+    "summary": "The Arex One scuba mask integrates a head-up display to show dive data directly in the user's field of vision.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/marine/arex-one-hud-dive-mask/",
+    "published_at": "2026-10-01T16:33:13+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044078+00:00"
+  },
+  {
+    "title": "RAIB Report: Train Sped Up After Red Warning Light",
+    "summary": "An interim report reveals a passenger train sped up after its automatic warning system triggered a red light before a fatal crash.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/train-sped-up-after-automatic-warning-system-before-fatal-bedford-crash-raib-report-reveals-01-10-2026/",
+    "published_at": "2026-10-01T15:49:22+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044082+00:00"
+  },
+  {
+    "title": "Canada Rocket Company to Build Large-Scale Engine Test Facility",
+    "summary": "Canada Rocket Company is planning to build Canada's first large-scale rocket engine test facility in London, Ontario.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/10/canada-rocket-company-engine-test-site-ontario/",
+    "published_at": "2026-10-01T15:30:36+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044085+00:00"
+  },
+  {
+    "title": "LMT Group and Novaspace Partner for Latvian Satellite Hub",
+    "summary": "LMT Group and Novaspace are partnering to develop a strategy for a 5G and 6G satellite communications hub in Latvia.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
+    "published_at": "2026-10-01T14:40:51+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044088+00:00"
+  },
+  {
+    "title": "Babcock and DCE Sign MoU for Uncrewed Ground Systems",
+    "summary": "Babcock and Digital Concepts Engineering have signed an MoU to explore the development of uncrewed ground systems.",
+    "category": "Robotics",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/babcock-dce-sign-mou-for-uncrewed-ground-systems-2026-10/",
+    "published_at": "2026-10-01T14:35:41+00:00",
+    "fetched_at": "2026-10-01T17:52:54.044091+00:00"
+  },
+  {
+    "title": "El Niño 2026-27 Utilities Impact",
+    "summary": "A strong El Niño outlook gives utilities several areas to examine, including flood preparedness, storm planning, and resource adequacy.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/what-el-nino-2026-27-could-mean-for-utilities-and-the-power-system/",
+    "published_at": "2026-10-01T13:57:50+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824890+00:00"
+  },
+  {
+    "title": "Superfluid Qubit Error Reduction",
+    "summary": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+    "published_at": "2026-10-01T13:17:13+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824899+00:00"
+  },
+  {
+    "title": "Compact Orthopedic Robotics Market",
+    "summary": "Medtech players are racing to prove that smaller, cheaper systems will define robotics' next growth phase in cost-conscious ASCs.",
+    "category": "Robotics",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/orthopedic/will-compact-robotics-finally-convert-orthopedics-80-non-robotic-surgeon-market-",
+    "published_at": "2026-10-01T13:07:18+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824903+00:00"
+  },
+  {
+    "title": "First U.S. Small Modular Reactor Permit",
+    "summary": "The U.S. NRC issued TVA a construction permit for the first commercial small modular reactor in the United States.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
+    "published_at": "2026-10-01T13:06:26+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824906+00:00"
+  },
+  {
+    "title": "Neurable Launches EEG Headphones",
+    "summary": "Neurotech company Neurable launched its new EEG-enabled consumer headphones featuring 12 dry channels and new tracking metrics.",
+    "category": "Biomedical",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/eeg-headphones-neurable-one",
+    "published_at": "2026-10-01T13:00:03+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824909+00:00"
+  },
+  {
+    "title": "Optimizing PCBA Testing Strategies",
+    "summary": "Engineers can optimize PCBA testing by combining In-Circuit Testing and Functional Testing methodologies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/pcba-test-strategies-how-to-select-the-right-methodology-and-tester/",
+    "published_at": "2026-10-01T13:00:00+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824912+00:00"
+  },
+  {
+    "title": "SME Software for Small Electronics Makers",
+    "summary": "Small electronics manufacturers are finding that affordable SME-focused manufacturing software provides needed functionality.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/small-electronics-manufacturers-save-big-on-erp/",
+    "published_at": "2026-10-01T13:00:00+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824914+00:00"
+  },
+  {
+    "title": "Affordability Limits Grid Investment",
+    "summary": "Utilities face rising operational risks and growing electricity demand, with affordability pressures limiting grid investment.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/affordability-concerns-are-holding-utilities-back-from-investing-in-reliability-and-resilience-report-finds/",
+    "published_at": "2026-10-01T12:58:08+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824917+00:00"
+  },
+  {
+    "title": "Sellafield £3.6bn Framework Suppliers",
+    "summary": "Sellafield Ltd named preferred partners for procurement frameworks worth up to £3.6bn to deliver asset care and construction.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/sellafield-announces-suppliers-on-3-6bn-framework-for-asset-care-and-construction-01-10-2026/",
+    "published_at": "2026-10-01T12:31:43+00:00",
+    "fetched_at": "2026-10-01T17:52:57.824920+00:00"
+  },
+  {
+    "title": "Teradyne Introduces High-Speed Memory Test System",
+    "summary": "Magnum E2 supports testing for LPDDR6, DDR6, GDDR7, and NAND flash from qualification through manufacturing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/teradyne-introduces-high-speed-memory-test-system/",
+    "published_at": "2026-10-01T11:27:00+00:00",
+    "fetched_at": "2026-10-01T17:53:05.094634+00:00"
+  },
+  {
+    "title": "Synopsys and OpenAI Partner on Semiconductor Design AI",
+    "summary": "GPT-Synopsys will support EDA workflows, including PPA optimization, timing closure, and verification.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/synopsys-and-openai-partner-on-semiconductor-design-ai/",
+    "published_at": "2026-10-01T11:25:21+00:00",
+    "fetched_at": "2026-10-01T17:53:05.094642+00:00"
+  },
+  {
+    "title": "AI Tool Reconstructs Images From Brain Scans",
+    "summary": "A new AI tool can analyze brain scans to guess and precisely re-create what a person is looking at.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+    "published_at": "2026-10-01T10:32:24+00:00",
+    "fetched_at": "2026-10-01T17:53:05.094645+00:00"
+  },
+  {
     "title": "ESA and Mistral Partner to Explore Space AI",
     "summary": "The European Space Agency and Mistral signed an agreement to increase the role of AI in space.",
     "category": "Aerospace",
@@ -27,6 +189,15 @@
     "fetched_at": "2026-10-01T10:46:25.877298+00:00"
   },
   {
+    "title": "Iceye and Nokia Partner for Sovereign LEO Satellite Comms",
+    "summary": "Iceye and Nokia are partnering to develop secure broadband low Earth orbit satellite communication systems for governments.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/iceye-nokia-partner-for-sovereign-leo-satellite-comms-2026-10/",
+    "published_at": "2026-10-01T05:06:34+00:00",
+    "fetched_at": "2026-10-01T17:53:05.094647+00:00"
+  },
+  {
     "title": "Advantech Launches Robot Controller SBCs",
     "summary": "Advantech introduced the ASR-A503 robot controller single-board computer and AFE-A503 industrial robot controller powered by the Qualcomm processor.",
     "category": "Robotics",
@@ -34,6 +205,15 @@
     "source_url": "https://www.electronicsweekly.com/news/business/platforms-deliver-inference-vision-navigation-control-and-connectivity-for-robots-2026-10/",
     "published_at": "2026-10-01T05:02:47+00:00",
     "fetched_at": "2026-10-01T10:46:25.877308+00:00"
+  },
+  {
+    "title": "Physicists Measure Quantum Energy Ladder Predicted Decades Ago",
+    "summary": "Researchers used laser-trapped atoms in a quantum simulator to observe energy patterns predicted roughly 40 years ago.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260928100554.htm",
+    "published_at": "2026-10-01T03:06:56+00:00",
+    "fetched_at": "2026-10-01T17:53:05.094650+00:00"
   },
   {
     "title": "Galileo Space Builds Orbit-Processing Satellites",
@@ -88,185 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/e2c02086d31e1f50287dcaeabc246a3fddf58cea",
     "published_at": "2026-10-01T00:00:00+00:00",
     "fetched_at": "2026-09-30T10:16:32.690268+00:00"
-  },
-  {
-    "title": "New Limit Equilibrium Solution for Bucket Foundations",
-    "summary": "This paper presents a new limit equilibrium solution for the ultimate bearing capacity of bucket foundations in sand under combined loading.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e018dc31119a2d0168f614e32e10c97ca7353352",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690273+00:00"
-  },
-  {
-    "title": "AAS and AML Framework for Automation Engineering",
-    "summary": "An article proposes a method to integrate AutomationML engineering data into the Asset Administration Shell to enable cross-domain collaboration.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e0043f96ed68a5782c07dcc68fd45ca311cc4357",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690278+00:00"
-  },
-  {
-    "title": "Study Uncovers Efficiency-Throughput Gap with Copilot",
-    "summary": "A real-world field study finds that GitHub Copilot improves individual developer efficiency without producing statistically significant gains in organizational throughput.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/dc96ea115a262ebabd7840d9d0daffbfbd268f24",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690283+00:00"
-  },
-  {
-    "title": "Project-Based Learning in Crisis Conditions",
-    "summary": "Research demonstrates that project-based learning successfully sustained learning quality and improved exam averages for mechanics students during national crises.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d94f2ccb90522cc9f54d2b2e5e0e0d49e1cdba3e",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690299+00:00"
-  },
-  {
-    "title": "Sampled-Data Control of MIMO Fractional-Order Systems",
-    "summary": "This work investigates sampled-data control of fractional-order multiple-input-multiple-output systems by linking the state-transition matrix image and input gain kernel.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d79f026ed6283872fbe81328508591b3859a88aa",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690303+00:00"
-  },
-  {
-    "title": "Geometric Reconstruction for Buckled Steel Members",
-    "summary": "Researchers propose a geometric reconstruction method using point cloud models to evaluate the residual load-carrying capacity of locally buckled steel members.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d734395436021cea7f2e3304990697f9168a6462",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690307+00:00"
-  },
-  {
-    "title": "Cooperative Yaw Predictive Control for Wind Farms",
-    "summary": "A continuous learning framework using SCADA data is proposed to improve model adaptability and performance in wind farm cooperative yaw control.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d3a8be8344c0566d2685bfe6ef3cace7974fa04d",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690311+00:00"
-  },
-  {
-    "title": "System Dynamics Simulation for Design Scheduling",
-    "summary": "A system dynamics model is developed to simulate engineering design schedule strategies, acting as a virtual decision-making platform for project managers.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d08b195fbaadc4818fea8be0e9f02bb48f601e5d",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690315+00:00"
-  },
-  {
-    "title": "Catalytic Acetic Acid Pretreatment Yields Surface-Acetylated CNFs",
-    "summary": "Researchers developed a FeCl3-catalyzed acetic acid pretreatment to fabricate surface-acetylated cellulose nanofibrils for stabilizing Pickering emulsions and creating transparent optical composite films.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/cebdd1be0b8227092b7d76d2845ef39718c56e0b",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405000+00:00"
-  },
-  {
-    "title": "Model Predicts Seepage Pressure Effect on Brittle Rock Fractures",
-    "summary": "A new micro-macrofracture model characterizes brittle rock dynamic compression failure under seepage pressure by integrating mechanical and chemical interactions.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/cb0c153b8c00223581d2b2d868b0a2163386e1e3",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405010+00:00"
-  },
-  {
-    "title": "Formation Control Framework for Discrete-Time MASs on Lie Groups",
-    "summary": "An intrinsic discrete-time formation controller utilizing Cartan-Schouten connections has been developed for multiagent systems on Lie groups with provable stability guarantees.",
-    "category": "Robotics",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c792f5fd40db0c7c98a8ca475ca2e1f86132e5f9",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405015+00:00"
-  },
-  {
-    "title": "Integrating Mixed Reality with Construction 4.0 Technologies",
-    "summary": "A systematic review and five-layer framework evaluate integrating mixed reality with technologies like robotics and digital twins to improve on-site construction efficiency.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bdcde72ac3313fdfb6ed7226c60f75581c49540f",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405020+00:00"
-  },
-  {
-    "title": "CPT-Based Framework Predicts Pile Running in Layered Soils",
-    "summary": "A new cone tip resistance averaging approach improves the prediction of pile running velocity and depth in layered soils using CPT data.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b3f73b83866fbc9cf8def147cb08e4fb8a2a8242",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405024+00:00"
-  },
-  {
-    "title": "Microcellular Foaming Produces Biobased PLA/CNF Scaffolds",
-    "summary": "Fully biobased tissue engineering scaffolds were fabricated using polylactic acid reinforced with cellulose nanofibers via a microcellular injection molding process.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b0bf5bc4858d7aaa3c7c7466cc96fc86e9ecf267",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:51.405028+00:00"
-  },
-  {
-    "title": "Vision-Language Framework for Early Workplace Hazard Recognition",
-    "summary": "A study investigates a data-efficient vision-language framework using learnable visual prompting and LoRA to recognize workplace hazards from short video clips.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ad9405345b4166fd62b72b3747094e12c3a7f72f",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132177+00:00"
-  },
-  {
-    "title": "Mitigating EMI Challenges in Wide-Bandgap Power Converters",
-    "summary": "A critical review analyzes electromagnetic interference challenges and coordinated mitigation strategies for wide-bandgap semiconductor power electronic converters.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/aca80d8dfe085206d6ed246da582924f4d7c4ebc",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132192+00:00"
-  },
-  {
-    "title": "Demographic Analysis of Extended Reality Research in AECO",
-    "summary": "A review of 104 articles reveals participant demographic biases toward students in extended reality research for architecture, engineering, construction, and operations.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ac32d5fc1bb9e3de240cb0dbb73d77aa6463acaa",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132197+00:00"
-  },
-  {
-    "title": "Identifying Train Motion Parameters from Bridge Strain Data",
-    "summary": "A proposed analytical model uses structural strain monitoring data to identify train motion parameters on high-speed railway bridges.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/aab3de18d217040a2e191b5b2279f6660d5b1969",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132201+00:00"
-  },
-  {
-    "title": "Robust Implementation of 3D Hoek-Brown Criterion",
-    "summary": "Researchers introduced an intermediate principal-stress coefficient to reformulate the 3D Hoek-Brown criterion for rock-mass shear strength analysis.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a7bcb3e035ab5cefdb4f2a66c8fd1518732f7f46",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132205+00:00"
-  },
-  {
-    "title": "Dual-Critic ADP Control for Flexible Flapping-Wing UAVs",
-    "summary": "An adaptive dynamic programming control strategy utilizing a dual-critic network achieves simultaneous vibration suppression and trajectory tracking for flapping-wing UAVs.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a4afe7fbfed62a2d8a6932a4219e6590e6f59938",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:55.132209+00:00"
   }
 ]
