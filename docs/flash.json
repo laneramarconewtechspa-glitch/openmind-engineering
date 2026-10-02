@@ -54,6 +54,60 @@
     "fetched_at": "2026-10-02T10:12:38.234688+00:00"
   },
   {
+    "title": "ALBATROSS Hybrid Robot Sails and Flies",
+    "summary": "Researchers developed a hybrid aerial-marine robot that autorotates to water and uses its wings for wind-powered navigation.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
+    "published_at": "2026-10-02T16:30:02+00:00",
+    "fetched_at": "2026-10-02T17:11:15.608173+00:00"
+  },
+  {
+    "title": "Aston Martin Unveils DBX GT",
+    "summary": "Aston Martin introduced the DBX GT luxury SUV featuring 717 horsepower.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/aston-martin-dbx-gt/",
+    "published_at": "2026-10-02T15:33:00+00:00",
+    "fetched_at": "2026-10-02T17:11:15.608193+00:00"
+  },
+  {
+    "title": "MIT Students Publish Space Economy Guide",
+    "summary": "An MIT aerospace entrepreneurship class released an industry report providing guidance for aspiring space leaders and investors.",
+    "category": "Aerospace",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
+    "published_at": "2026-10-02T14:50:00+00:00",
+    "fetched_at": "2026-10-02T17:11:15.608199+00:00"
+  },
+  {
+    "title": "Caterpillar Plans $1B North Carolina Expansion",
+    "summary": "Caterpillar is investing $1 billion to expand its Sanford, North Carolina manufacturing plant with a new facility.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/caterpillar-plans-1bn-expansion-of-its-north-carolina-plant/",
+    "published_at": "2026-10-02T12:20:34+00:00",
+    "fetched_at": "2026-10-02T17:11:15.608204+00:00"
+  },
+  {
+    "title": "Wearable Systems Driven by Health Monitoring",
+    "summary": "Device miniaturization is driving higher performance and quality in smaller form factors for continuous health monitoring.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/continuous-health-monitoring-drives-integrated-wearable-system-design/",
+    "published_at": "2026-10-02T11:29:26+00:00",
+    "fetched_at": "2026-10-02T17:11:15.608208+00:00"
+  },
+  {
+    "title": "Dynatrace Completes Acquisition of AI Platform Arize",
+    "summary": "Dynatrace has completed its acquisition of Arize, an AI platform whose capabilities will be gradually integrated into the Dynatrace platform.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/dynatrace-completes-acquisition-of-ai-platform-arize/",
+    "published_at": "2026-10-02T10:19:03+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726095+00:00"
+  },
+  {
     "title": "Sabel and Anark Partner for Model-Based Defense Reviews",
     "summary": "TDPWerx will validate full CAD baselines and support 3Di PDF and HTML technical data package formats through a new partnership.",
     "category": "Other Engineering",
@@ -108,6 +162,87 @@
     "fetched_at": "2026-10-02T10:12:41.384464+00:00"
   },
   {
+    "title": "FERPO: Forward Entropy-Regularized Policy Optimization for Reinforcement Learning",
+    "summary": "Researchers proposed FERPO, a new on-policy maximum entropy reinforcement learning algorithm that performs policy improvement without differentiating the critic with respect to actions.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02198v1",
+    "published_at": "2026-10-01T17:59:41+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726106+00:00"
+  },
+  {
+    "title": "InterEvolve Enables Test-Time Evolution for Humanoid Loco-Manipulation",
+    "summary": "InterEvolve uses a behavioral foundation model and an LLM agent to evolve reward programs at test time, enabling physical humanoid robots to adapt to new tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02196v1",
+    "published_at": "2026-10-01T17:59:40+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726111+00:00"
+  },
+  {
+    "title": "Minimal Experiments for Robust Data-Driven Stabilization",
+    "summary": "Researchers analyzed the shortest input sequences required to support robust data-driven stabilization across linear systems.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02187v1",
+    "published_at": "2026-10-01T17:58:56+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726115+00:00"
+  },
+  {
+    "title": "Watch, Infer, Coordinate: Zero-Shot Coordination via Partner Constraints",
+    "summary": "A new framework enables a robot helper to infer a partner robot's physical constraints from observed joint behavior and coordinate on new tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02170v1",
+    "published_at": "2026-10-01T17:56:04+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726119+00:00"
+  },
+  {
+    "title": "DuoMind Framework Enhances Distributed Multi-Robot Coordination",
+    "summary": "DuoMind combines vision-language models and action models in a distributed framework to improve multi-robot coordination and execution.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02161v1",
+    "published_at": "2026-10-01T17:53:09+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726123+00:00"
+  },
+  {
+    "title": "Control Barrier Function Governor for Simultaneous Input-Output Constraints",
+    "summary": "Researchers derived necessary and sufficient conditions for a control barrier function-based governor to satisfy simultaneous input and output constraints in LTI systems.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02151v1",
+    "published_at": "2026-10-01T17:50:16+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726128+00:00"
+  },
+  {
+    "title": "SkeleWAM Introduces Sparse 3D Skeletons for Robotic Manipulation",
+    "summary": "SkeleWAM uses sparse 3D skeletons constructed from RGB-D observations to provide an efficient state space for robotic action generation and future state prediction.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02120v1",
+    "published_at": "2026-10-01T17:35:10+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726132+00:00"
+  },
+  {
+    "title": "Decentralized Power-Optimal Coordination for Magnetically Actuated Spacecraft",
+    "summary": "A new decentralized framework uses time-varying magnetorquer actuation to achieve power-optimal coordination for large spacecraft swarms.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02118v1",
+    "published_at": "2026-10-01T17:34:51+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726136+00:00"
+  },
+  {
+    "title": "Binary Phase Retrieval of Cosine Transforms via Curvature Minimization",
+    "summary": "Researchers developed an algorithm to solve binary phase retrieval for optical cosine transforms by minimizing the curvature of the reconstructed transform.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02112v1",
+    "published_at": "2026-10-01T17:31:57+00:00",
+    "fetched_at": "2026-10-02T17:11:19.726140+00:00"
+  },
+  {
     "title": "Qualcomm Debuts Snapdragon 8 Elite Gen 6 SoCs",
     "summary": "Qualcomm introduced two new Snapdragon 8 Elite Gen 6 SoCs for smartphones to expand personal agentic AI.",
     "category": "Electronics & Semiconductors",
@@ -117,156 +252,21 @@
     "fetched_at": "2026-10-01T17:52:54.044067+00:00"
   },
   {
-    "title": "Arex One Smart HUD Mask Puts Dive Data in View",
-    "summary": "The Arex One scuba mask integrates a head-up display to show dive data directly in the user's field of vision.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/marine/arex-one-hud-dive-mask/",
-    "published_at": "2026-10-01T16:33:13+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044078+00:00"
-  },
-  {
-    "title": "RAIB Report: Train Sped Up After Red Warning Light",
-    "summary": "An interim report reveals a passenger train sped up after its automatic warning system triggered a red light before a fatal crash.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/train-sped-up-after-automatic-warning-system-before-fatal-bedford-crash-raib-report-reveals-01-10-2026/",
-    "published_at": "2026-10-01T15:49:22+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044082+00:00"
-  },
-  {
-    "title": "Canada Rocket Company to Build Large-Scale Engine Test Facility",
-    "summary": "Canada Rocket Company is planning to build Canada's first large-scale rocket engine test facility in London, Ontario.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/10/canada-rocket-company-engine-test-site-ontario/",
-    "published_at": "2026-10-01T15:30:36+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044085+00:00"
-  },
-  {
-    "title": "LyondellBasell Meets GLP-1 Drug Delivery Demands",
-    "summary": "LyondellBasell's Simon Foster discusses how global assets and PP materials support drug delivery growth during the GLP-1 boom.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/drug-delivery/how-lyondellbasell-is-meeting-drug-delivery-demands-during-the-glp-1-boom",
-    "published_at": "2026-10-01T15:17:32+00:00",
-    "fetched_at": "2026-10-02T10:12:44.037595+00:00"
-  },
-  {
-    "title": "LMT Group and Novaspace Partner for Latvian Satellite Hub",
-    "summary": "LMT Group and Novaspace are partnering to develop a strategy for a 5G and 6G satellite communications hub in Latvia.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
-    "published_at": "2026-10-01T14:40:51+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044088+00:00"
-  },
-  {
-    "title": "Babcock and DCE Sign MoU for Uncrewed Ground Systems",
-    "summary": "Babcock and Digital Concepts Engineering have signed an MoU to explore the development of uncrewed ground systems.",
+    "title": "HumanoidToolBench Evaluates Humanoid Tool Use",
+    "summary": "HumanoidToolBench is a new 18-task benchmark and dataset designed to evaluate humanoids on selecting tools and executing tasks across simulation and real hardware.",
     "category": "Robotics",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/babcock-dce-sign-mou-for-uncrewed-ground-systems-2026-10/",
-    "published_at": "2026-10-01T14:35:41+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044091+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02089v1",
+    "published_at": "2026-10-01T17:21:54+00:00",
+    "fetched_at": "2026-10-02T17:11:23.723127+00:00"
   },
   {
-    "title": "El Niño 2026-27 Utilities Impact",
-    "summary": "A strong El Niño outlook gives utilities several areas to examine, including flood preparedness, storm planning, and resource adequacy.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/outage-management/what-el-nino-2026-27-could-mean-for-utilities-and-the-power-system/",
-    "published_at": "2026-10-01T13:57:50+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824890+00:00"
-  },
-  {
-    "title": "Superfluid Qubit Error Reduction",
-    "summary": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-    "published_at": "2026-10-01T13:17:13+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824899+00:00"
-  },
-  {
-    "title": "Compact Orthopedic Robotics Market",
-    "summary": "Medtech players are racing to prove that smaller, cheaper systems will define robotics' next growth phase in cost-conscious ASCs.",
-    "category": "Robotics",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/orthopedic/will-compact-robotics-finally-convert-orthopedics-80-non-robotic-surgeon-market-",
-    "published_at": "2026-10-01T13:07:18+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824903+00:00"
-  },
-  {
-    "title": "First U.S. Small Modular Reactor Permit",
-    "summary": "The U.S. NRC issued TVA a construction permit for the first commercial small modular reactor in the United States.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/nuclear/smrs/tennessee-clinch-river-bwrx-300-smr-nrc-construction-permit/",
-    "published_at": "2026-10-01T13:06:26+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824906+00:00"
-  },
-  {
-    "title": "Neurable Launches EEG Headphones",
-    "summary": "Neurotech company Neurable launched its new EEG-enabled consumer headphones featuring 12 dry channels and new tracking metrics.",
+    "title": "Auditing Airway Flow Operator Composition",
+    "summary": "Researchers audit zero-shot composition of local airway flow operators and find that local regularization fails to guarantee accurate global fields or conservation.",
     "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/eeg-headphones-neurable-one",
-    "published_at": "2026-10-01T13:00:03+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824909+00:00"
-  },
-  {
-    "title": "Optimizing PCBA Testing Strategies",
-    "summary": "Engineers can optimize PCBA testing by combining In-Circuit Testing and Functional Testing methodologies.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/pcba-test-strategies-how-to-select-the-right-methodology-and-tester/",
-    "published_at": "2026-10-01T13:00:00+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824912+00:00"
-  },
-  {
-    "title": "SME Software for Small Electronics Makers",
-    "summary": "Small electronics manufacturers are finding that affordable SME-focused manufacturing software provides needed functionality.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/small-electronics-manufacturers-save-big-on-erp/",
-    "published_at": "2026-10-01T13:00:00+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824914+00:00"
-  },
-  {
-    "title": "Affordability Limits Grid Investment",
-    "summary": "Utilities face rising operational risks and growing electricity demand, with affordability pressures limiting grid investment.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/affordability-concerns-are-holding-utilities-back-from-investing-in-reliability-and-resilience-report-finds/",
-    "published_at": "2026-10-01T12:58:08+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824917+00:00"
-  },
-  {
-    "title": "Sellafield £3.6bn Framework Suppliers",
-    "summary": "Sellafield Ltd named preferred partners for procurement frameworks worth up to £3.6bn to deliver asset care and construction.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/sellafield-announces-suppliers-on-3-6bn-framework-for-asset-care-and-construction-01-10-2026/",
-    "published_at": "2026-10-01T12:31:43+00:00",
-    "fetched_at": "2026-10-01T17:52:57.824920+00:00"
-  },
-  {
-    "title": "Teradyne Introduces High-Speed Memory Test System",
-    "summary": "Magnum E2 supports testing for LPDDR6, DDR6, GDDR7, and NAND flash from qualification through manufacturing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/teradyne-introduces-high-speed-memory-test-system/",
-    "published_at": "2026-10-01T11:27:00+00:00",
-    "fetched_at": "2026-10-01T17:53:05.094634+00:00"
-  },
-  {
-    "title": "Synopsys and OpenAI Partner on Semiconductor Design AI",
-    "summary": "GPT-Synopsys will support EDA workflows, including PPA optimization, timing closure, and verification.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/synopsys-and-openai-partner-on-semiconductor-design-ai/",
-    "published_at": "2026-10-01T11:25:21+00:00",
-    "fetched_at": "2026-10-01T17:53:05.094642+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.02056v1",
+    "published_at": "2026-10-01T17:02:07+00:00",
+    "fetched_at": "2026-10-02T17:11:23.723137+00:00"
   }
 ]

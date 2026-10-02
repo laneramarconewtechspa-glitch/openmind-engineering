@@ -1,9 +1,9 @@
 {
-  "articles_analyzed": 1276,
+  "articles_analyzed": 1334,
   "funnel": {
-    "analyzed": 1163,
-    "relevant": 640,
-    "substantive": 579
+    "analyzed": 1221,
+    "relevant": 690,
+    "substantive": 626
   },
   "history": [
     {
@@ -57,10 +57,10 @@
     },
     {
       "d": "2026-10-02",
-      "total": 1276,
-      "analyzed": 51,
-      "relevant": 40,
-      "accepted": 38
+      "total": 1334,
+      "analyzed": 109,
+      "relevant": 90,
+      "accepted": 85
     }
   ],
   "sources": [
@@ -100,5 +100,5 @@
     "Computing",
     "Other Engineering"
   ],
-  "generated_at": "2026-10-02T10:12:36.461387+00:00"
+  "generated_at": "2026-10-02T17:11:14.184895+00:00"
 }
