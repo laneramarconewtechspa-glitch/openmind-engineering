@@ -1,5 +1,113 @@
 [
   {
+    "title": "OntoSTL Transforms Signal Temporal Logic Formulas Into Knowledge Graphs",
+    "summary": "OntoSTL transforms Signal Temporal Logic requirements into OWL knowledge graphs and applies canonicalization rules to reduce structural redundancy.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/fac5396fd984d3620b027eb50b826e587e2d3ae0",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234651+00:00"
+  },
+  {
+    "title": "New Framework Generates Executable Suggestions for MDE",
+    "summary": "The gamma mu S framework combines Large Language Models with rule-based verification to produce well-formed modeling suggestions.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/dfa732b936b2049dbbb9ebf9cd9b3db32e0d56bd",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234665+00:00"
+  },
+  {
+    "title": "Pattern-Based Approach Validates SysML v2 Models",
+    "summary": "Researchers introduced an approach using the Refinery graph solver to detect undesired patterns and validate SysML v2 models.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bd1c6b6ddef69ab85cad6a15f0846f5fc7a62b3e",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234672+00:00"
+  },
+  {
+    "title": "ModelsOrbit Addresses Model-Driven Engineering for Satellite Fleets",
+    "summary": "ModelsOrbit introduces model-driven engineering foundations to govern evolving satellite fleets operating under partial knowledge and communication constraints.",
+    "category": "Aerospace",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/7fc8511040c9af1107921b42203da0edea0c4e17",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234677+00:00"
+  },
+  {
+    "title": "Automated Generation of Vehicle Security Models from Threat Intelligence",
+    "summary": "A new prototype automatically transforms public cyber threat intelligence from MITRE ATT&CK into valid security model instances.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/7e7207d26a0e5ea326b8dc6b655865f89b3d2aab",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234683+00:00"
+  },
+  {
+    "title": "Physical Execution Plans Decouple DSL Design from Runtime",
+    "summary": "A proposed approach for Model-Driven Engineering introduces physical execution plans to separate model meaning from runtime-specific representations.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/2c7c8884d60267aa26c695672f496170efa8996b",
+    "published_at": "2026-10-03T00:00:00+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234688+00:00"
+  },
+  {
+    "title": "Sabel and Anark Partner for Model-Based Defense Reviews",
+    "summary": "TDPWerx will validate full CAD baselines and support 3Di PDF and HTML technical data package formats through a new partnership.",
+    "category": "Other Engineering",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/sabel-and-anark-partner-on-model-based-defense-reviews/",
+    "published_at": "2026-10-02T09:51:24+00:00",
+    "fetched_at": "2026-10-02T10:12:38.234693+00:00"
+  },
+  {
+    "title": "Chip Industry Week In Review: CFETs, AI, and Photonics",
+    "summary": "Recent developments include CFET scaling past 10 angstroms, AI investments in power and packaging, and advances in quantum hardware.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-week-in-review-158/",
+    "published_at": "2026-10-02T07:01:31+00:00",
+    "fetched_at": "2026-10-02T10:12:41.384435+00:00"
+  },
+  {
+    "title": "Synopsys and OpenAI Partner for EDA Tool AI Models",
+    "summary": "Synopsys and OpenAI will jointly develop GPT-Synopsys to optimize semiconductor design workflows using EDA tools.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/synopsis-and-openai-to-automate-chip-design-2026-10/",
+    "published_at": "2026-10-02T05:12:11+00:00",
+    "fetched_at": "2026-10-02T10:12:41.384446+00:00"
+  },
+  {
+    "title": "Imec Launches NeuroIGNITOR for Living Tissue Stimulation",
+    "summary": "Imec introduced NeuroIGNITOR, a selective bidirectional platform enabling researchers to design and test stimulation paradigms in living tissue.",
+    "category": "Biomedical",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/neuroignitor-enables-researchers-to-design-and-test-stimulation-paradigms-in-living-tissue-2026-10/",
+    "published_at": "2026-10-02T05:11:11+00:00",
+    "fetched_at": "2026-10-02T10:12:41.384453+00:00"
+  },
+  {
+    "title": "SV Microwave Introduces Mini-D RF Interconnects",
+    "summary": "SV Microwave launched SMPM Mini-D RF Interconnects in a space-saving D-sub form factor for board-to-board RF applications.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/smpm-mini-d-rf-interconnects-for-board-to-board-rf-applications-2026-10/",
+    "published_at": "2026-10-02T05:01:45+00:00",
+    "fetched_at": "2026-10-02T10:12:41.384458+00:00"
+  },
+  {
+    "title": "Aliner Debuts Lightweight Alite A-Frame Trailer",
+    "summary": "The Alite towable A-frame trailer weighs under 700 pounds, sets up in 30 seconds, and offers a hard-walled micro-hut.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/camping-trailers/aliner-alite-30-sec-camping-trailer/",
+    "published_at": "2026-10-01T21:03:00+00:00",
+    "fetched_at": "2026-10-02T10:12:41.384464+00:00"
+  },
+  {
     "title": "Qualcomm Debuts Snapdragon 8 Elite Gen 6 SoCs",
     "summary": "Qualcomm introduced two new Snapdragon 8 Elite Gen 6 SoCs for smartphones to expand personal agentic AI.",
     "category": "Electronics & Semiconductors",
@@ -34,6 +142,15 @@
     "source_url": "https://www.nasaspaceflight.com/2026/10/canada-rocket-company-engine-test-site-ontario/",
     "published_at": "2026-10-01T15:30:36+00:00",
     "fetched_at": "2026-10-01T17:52:54.044085+00:00"
+  },
+  {
+    "title": "LyondellBasell Meets GLP-1 Drug Delivery Demands",
+    "summary": "LyondellBasell's Simon Foster discusses how global assets and PP materials support drug delivery growth during the GLP-1 boom.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/drug-delivery/how-lyondellbasell-is-meeting-drug-delivery-demands-during-the-glp-1-boom",
+    "published_at": "2026-10-01T15:17:32+00:00",
+    "fetched_at": "2026-10-02T10:12:44.037595+00:00"
   },
   {
     "title": "LMT Group and Novaspace Partner for Latvian Satellite Hub",
@@ -151,122 +268,5 @@
     "source_url": "https://www.engineering.com/synopsys-and-openai-partner-on-semiconductor-design-ai/",
     "published_at": "2026-10-01T11:25:21+00:00",
     "fetched_at": "2026-10-01T17:53:05.094642+00:00"
-  },
-  {
-    "title": "AI Tool Reconstructs Images From Brain Scans",
-    "summary": "A new AI tool can analyze brain scans to guess and precisely re-create what a person is looking at.",
-    "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
-    "published_at": "2026-10-01T10:32:24+00:00",
-    "fetched_at": "2026-10-01T17:53:05.094645+00:00"
-  },
-  {
-    "title": "ESA and Mistral Partner to Explore Space AI",
-    "summary": "The European Space Agency and Mistral signed an agreement to increase the role of AI in space.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/esa-mistral-sign-agreement-to-explore-space-ai-2026-10/",
-    "published_at": "2026-10-01T09:04:02+00:00",
-    "fetched_at": "2026-10-01T10:46:23.236553+00:00"
-  },
-  {
-    "title": "Dutch Students Build EV Concept That Captures Tire and Brake Emissions",
-    "summary": "A team of Dutch students designed an EV concept that uses a static charge to capture microplastic shedding from tires and brakes.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/tu-ecomotive-ev-cleans-tire-brake-dust-ventra/",
-    "published_at": "2026-10-01T07:27:21+00:00",
-    "fetched_at": "2026-10-01T10:46:23.236566+00:00"
-  },
-  {
-    "title": "Micron Reports $54B Revenue Quarter",
-    "summary": "Micron announced revenue of $54.23 billion for calendar Q3.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/micron-has-54bn-revenue-quarter-2026-10/",
-    "published_at": "2026-10-01T05:12:56+00:00",
-    "fetched_at": "2026-10-01T10:46:25.877298+00:00"
-  },
-  {
-    "title": "Iceye and Nokia Partner for Sovereign LEO Satellite Comms",
-    "summary": "Iceye and Nokia are partnering to develop secure broadband low Earth orbit satellite communication systems for governments.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/iceye-nokia-partner-for-sovereign-leo-satellite-comms-2026-10/",
-    "published_at": "2026-10-01T05:06:34+00:00",
-    "fetched_at": "2026-10-01T17:53:05.094647+00:00"
-  },
-  {
-    "title": "Advantech Launches Robot Controller SBCs",
-    "summary": "Advantech introduced the ASR-A503 robot controller single-board computer and AFE-A503 industrial robot controller powered by the Qualcomm processor.",
-    "category": "Robotics",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/platforms-deliver-inference-vision-navigation-control-and-connectivity-for-robots-2026-10/",
-    "published_at": "2026-10-01T05:02:47+00:00",
-    "fetched_at": "2026-10-01T10:46:25.877308+00:00"
-  },
-  {
-    "title": "Physicists Measure Quantum Energy Ladder Predicted Decades Ago",
-    "summary": "Researchers used laser-trapped atoms in a quantum simulator to observe energy patterns predicted roughly 40 years ago.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260928100554.htm",
-    "published_at": "2026-10-01T03:06:56+00:00",
-    "fetched_at": "2026-10-01T17:53:05.094650+00:00"
-  },
-  {
-    "title": "Galileo Space Builds Orbit-Processing Satellites",
-    "summary": "Galileo Space is building satellites designed to turn signals into answers directly in orbit.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/galileo-space-is-building-satellites-that-turn-signals-into-answers-in-orbit/",
-    "published_at": "2026-10-01T00:24:08+00:00",
-    "fetched_at": "2026-10-01T10:46:25.877313+00:00"
-  },
-  {
-    "title": "Carbon Content Modulation Improves NMOSFET Electron Mobility",
-    "summary": "Reducing carbon content in the silicon nitride spacer of NMOSFETs by 2% enhances electron mobility and performance by 6%.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/feee9ff72aeadaa008ee8bd6578a131347ff1b7d",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:28.704595+00:00"
-  },
-  {
-    "title": "Optimized EBL Structure Enhances Light Output in GaN LEDs",
-    "summary": "Embedding an intralayer potential barrier in a wide electron-blocking layer significantly increases the light output power and external quantum efficiency of InGaN/GaN LEDs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f607175d7494f4c0aae8dbf6e0af5c60031a6b94",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:28.704609+00:00"
-  },
-  {
-    "title": "Enhanced Water Temperature Model for Aqueducts",
-    "summary": "A new one-dimensional calculation model incorporating aqueduct orientation and water surface shading reduces water temperature prediction error by 65%.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ed39c328f047fa67adeaa1b132e0a8d8a65bc65e",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:28.704614+00:00"
-  },
-  {
-    "title": "EduCase Framework for Engineering Education",
-    "summary": "Researchers introduce the EduCase framework, a multiphase structured approach for developing and refining educational case studies in engineering.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e315783044606963492fa4c29c8427febd6305b5",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690257+00:00"
-  },
-  {
-    "title": "Social Presence AR Tool Enhances Online Learning",
-    "summary": "A study shows that integrating real-time voice chat and augmented reality significantly improves student engagement and comprehension in online engineering courses.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e2c02086d31e1f50287dcaeabc246a3fddf58cea",
-    "published_at": "2026-10-01T00:00:00+00:00",
-    "fetched_at": "2026-09-30T10:16:32.690268+00:00"
   }
 ]
