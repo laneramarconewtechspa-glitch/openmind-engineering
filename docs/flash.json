@@ -54,6 +54,60 @@
     "fetched_at": "2026-10-02T10:12:38.234688+00:00"
   },
   {
+    "title": "Omron Highlights Software and Safety in Mobile Robots",
+    "summary": "An Omron project manager notes that software, safety, and fleet management are becoming as critical as the mobile robot hardware itself.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
+    "published_at": "2026-10-02T23:01:36+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602043+00:00"
+  },
+  {
+    "title": "Infineon and TU Munich Publish Hardware Design Paper",
+    "summary": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper examining abstraction and validation in hardware engineering models.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/tracing-hardware-design-from-physical-devices-to-rtl-infineon-tu-munich/",
+    "published_at": "2026-10-02T22:46:46+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602056+00:00"
+  },
+  {
+    "title": "Eli Lilly and Purdue to Share Robot Findings",
+    "summary": "Experts from Eli Lilly and Purdue University will share findings regarding human-robot interaction on manufacturing floors.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/eli-lilly-purdue-to-share-field-learnings-on-human-robot-interaction-at-robobusiness/",
+    "published_at": "2026-10-02T21:12:14+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602062+00:00"
+  },
+  {
+    "title": "UC Berkeley and FuriosaAI Detail High Bandwidth Flash",
+    "summary": "Researchers published a paper on characterizing high bandwidth flash to address memory and bandwidth bottlenecks in LLM serving.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hbf-for-high-throughput-llm-serving-uc-berkeley-furiosaai/",
+    "published_at": "2026-10-02T20:15:40+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602067+00:00"
+  },
+  {
+    "title": "Dexcom Faces Lawsuits Over Glucose Monitor Failures",
+    "summary": "New lawsuits allege that Dexcom G7 glucose monitors malfunctioned and endangered children, bringing the total litigation to 11 cases.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/diabetes/dexcom-faces-lawsuit-alleging-device-failures-endangered-children",
+    "published_at": "2026-10-02T19:52:07+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602072+00:00"
+  },
+  {
+    "title": "Bipartisan Senate Bill Targets Energy Permitting",
+    "summary": "Senators reached a deal on legislation to expedite permitting for energy projects with a vote planned after the midterms.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/can-this-bipartisan-senate-bill-fix-the-grueling-energy-permitting-timeline/",
+    "published_at": "2026-10-02T17:53:50+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602077+00:00"
+  },
+  {
     "title": "ALBATROSS Hybrid Robot Sails and Flies",
     "summary": "Researchers developed a hybrid aerial-marine robot that autorotates to water and uses its wings for wind-powered navigation.",
     "category": "Robotics",
@@ -153,6 +207,51 @@
     "fetched_at": "2026-10-02T10:12:41.384458+00:00"
   },
   {
+    "title": "Review Examines Lithium-Rich Solid-State Batteries",
+    "summary": "A published review systematically summarizes challenges and modification strategies for lithium-rich manganese oxide cathode materials in solid-state batteries.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c12398d8d05c99cea0e20252fca9960f0dfe0f3c",
+    "published_at": "2026-10-02T00:00:00+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602081+00:00"
+  },
+  {
+    "title": "Stable CoOOH/Co3O4 Heterostructure Developed for OER",
+    "summary": "Interface engineering creates a stable CoOOH/Co3O4 heterostructure in ZIF-67, delivering improved overpotential and durability for the oxygen evolution reaction.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/8c73b3e0c9dc6c9429e6db6a68c87d5faaae3fc0",
+    "published_at": "2026-10-02T00:00:00+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602086+00:00"
+  },
+  {
+    "title": "Cu-Doped SnS2 Microboxes Advance CO2 Electroreduction",
+    "summary": "Researchers incorporated atomically dispersed Cu+ into hierarchical SnS2 microboxes to optimize charge transfer and enhance formate faradaic efficiency during CO2 reduction.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3d0ccb7a0c5587be65047d1b7979ce313611f448",
+    "published_at": "2026-10-02T00:00:00+00:00",
+    "fetched_at": "2026-10-03T09:33:41.602090+00:00"
+  },
+  {
+    "title": "Zinc Halide Enables High-Efficiency ZnCuGaSe/ZnS Quantum Dots",
+    "summary": "Researchers demonstrated a zinc halide-mediated shell-engineering strategy to produce ZnCuGaSe/ZnS quantum dots with photoluminescence quantum yields exceeding 94 percent.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/13b8c1d2a3575a52cffe5817a18879e3284393e0",
+    "published_at": "2026-10-02T00:00:00+00:00",
+    "fetched_at": "2026-10-03T09:33:44.160166+00:00"
+  },
+  {
+    "title": "Bioinspired Hierarchical Materials for Atmospheric Water Harvesting",
+    "summary": "A review summarizes recent advances in bioinspired hierarchical structure design for atmospheric water harvesting, organizing materials around surface regulation and sorbent engineering.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/11b7281696d30674780cdc695ef60f24e36a3c14",
+    "published_at": "2026-10-02T00:00:00+00:00",
+    "fetched_at": "2026-10-03T09:33:44.160176+00:00"
+  },
+  {
     "title": "Aliner Debuts Lightweight Alite A-Frame Trailer",
     "summary": "The Alite towable A-frame trailer weighs under 700 pounds, sets up in 30 seconds, and offers a hard-walled micro-hut.",
     "category": "Mechanical",
@@ -169,104 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.02198v1",
     "published_at": "2026-10-01T17:59:41+00:00",
     "fetched_at": "2026-10-02T17:11:19.726106+00:00"
-  },
-  {
-    "title": "InterEvolve Enables Test-Time Evolution for Humanoid Loco-Manipulation",
-    "summary": "InterEvolve uses a behavioral foundation model and an LLM agent to evolve reward programs at test time, enabling physical humanoid robots to adapt to new tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02196v1",
-    "published_at": "2026-10-01T17:59:40+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726111+00:00"
-  },
-  {
-    "title": "Minimal Experiments for Robust Data-Driven Stabilization",
-    "summary": "Researchers analyzed the shortest input sequences required to support robust data-driven stabilization across linear systems.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02187v1",
-    "published_at": "2026-10-01T17:58:56+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726115+00:00"
-  },
-  {
-    "title": "Watch, Infer, Coordinate: Zero-Shot Coordination via Partner Constraints",
-    "summary": "A new framework enables a robot helper to infer a partner robot's physical constraints from observed joint behavior and coordinate on new tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02170v1",
-    "published_at": "2026-10-01T17:56:04+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726119+00:00"
-  },
-  {
-    "title": "DuoMind Framework Enhances Distributed Multi-Robot Coordination",
-    "summary": "DuoMind combines vision-language models and action models in a distributed framework to improve multi-robot coordination and execution.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02161v1",
-    "published_at": "2026-10-01T17:53:09+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726123+00:00"
-  },
-  {
-    "title": "Control Barrier Function Governor for Simultaneous Input-Output Constraints",
-    "summary": "Researchers derived necessary and sufficient conditions for a control barrier function-based governor to satisfy simultaneous input and output constraints in LTI systems.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02151v1",
-    "published_at": "2026-10-01T17:50:16+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726128+00:00"
-  },
-  {
-    "title": "SkeleWAM Introduces Sparse 3D Skeletons for Robotic Manipulation",
-    "summary": "SkeleWAM uses sparse 3D skeletons constructed from RGB-D observations to provide an efficient state space for robotic action generation and future state prediction.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02120v1",
-    "published_at": "2026-10-01T17:35:10+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726132+00:00"
-  },
-  {
-    "title": "Decentralized Power-Optimal Coordination for Magnetically Actuated Spacecraft",
-    "summary": "A new decentralized framework uses time-varying magnetorquer actuation to achieve power-optimal coordination for large spacecraft swarms.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02118v1",
-    "published_at": "2026-10-01T17:34:51+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726136+00:00"
-  },
-  {
-    "title": "Binary Phase Retrieval of Cosine Transforms via Curvature Minimization",
-    "summary": "Researchers developed an algorithm to solve binary phase retrieval for optical cosine transforms by minimizing the curvature of the reconstructed transform.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02112v1",
-    "published_at": "2026-10-01T17:31:57+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726140+00:00"
-  },
-  {
-    "title": "Qualcomm Debuts Snapdragon 8 Elite Gen 6 SoCs",
-    "summary": "Qualcomm introduced two new Snapdragon 8 Elite Gen 6 SoCs for smartphones to expand personal agentic AI.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/qualcomm-doubles-down-on-agentic-ai-at-snapdragon-summit-2026/",
-    "published_at": "2026-10-01T17:31:45+00:00",
-    "fetched_at": "2026-10-01T17:52:54.044067+00:00"
-  },
-  {
-    "title": "HumanoidToolBench Evaluates Humanoid Tool Use",
-    "summary": "HumanoidToolBench is a new 18-task benchmark and dataset designed to evaluate humanoids on selecting tools and executing tasks across simulation and real hardware.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02089v1",
-    "published_at": "2026-10-01T17:21:54+00:00",
-    "fetched_at": "2026-10-02T17:11:23.723127+00:00"
-  },
-  {
-    "title": "Auditing Airway Flow Operator Composition",
-    "summary": "Researchers audit zero-shot composition of local airway flow operators and find that local regularization fails to guarantee accurate global fields or conservation.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02056v1",
-    "published_at": "2026-10-01T17:02:07+00:00",
-    "fetched_at": "2026-10-02T17:11:23.723137+00:00"
   }
 ]
