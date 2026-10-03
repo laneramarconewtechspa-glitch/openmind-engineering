@@ -153,6 +153,15 @@
     "fetched_at": "2026-10-02T17:11:15.608208+00:00"
   },
   {
+    "title": "Ultrashort Pulses Push Superconductors Past Current Limits",
+    "summary": "Researchers used ultrashort electrical pulses to push superconductors closer to the point where their electron pairs break apart.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/09/260930225452.htm",
+    "published_at": "2026-10-02T11:08:12+00:00",
+    "fetched_at": "2026-10-03T15:28:04.797518+00:00"
+  },
+  {
     "title": "Dynatrace Completes Acquisition of AI Platform Arize",
     "summary": "Dynatrace has completed its acquisition of Arize, an AI platform whose capabilities will be gradually integrated into the Dynatrace platform.",
     "category": "Computing",
@@ -259,14 +268,5 @@
     "source_url": "https://newatlas.com/camping-trailers/aliner-alite-30-sec-camping-trailer/",
     "published_at": "2026-10-01T21:03:00+00:00",
     "fetched_at": "2026-10-02T10:12:41.384464+00:00"
-  },
-  {
-    "title": "FERPO: Forward Entropy-Regularized Policy Optimization for Reinforcement Learning",
-    "summary": "Researchers proposed FERPO, a new on-policy maximum entropy reinforcement learning algorithm that performs policy improvement without differentiating the critic with respect to actions.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.02198v1",
-    "published_at": "2026-10-01T17:59:41+00:00",
-    "fetched_at": "2026-10-02T17:11:19.726106+00:00"
   }
 ]
