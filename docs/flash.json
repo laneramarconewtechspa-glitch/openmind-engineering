@@ -1,5 +1,14 @@
 [
   {
+    "title": "New Guide Addresses Geotechnical Risks of Problematic Soils",
+    "summary": "A new book provides an integrated guide to understanding the behavior, risks, and engineering challenges associated with problematic soils in complex environments.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/96c9fb484b035abcadcc701fd6899d74a3b510dd",
+    "published_at": "2026-10-05T00:00:00+00:00",
+    "fetched_at": "2026-10-04T16:13:07.897404+00:00"
+  },
+  {
     "title": "OntoSTL Transforms Signal Temporal Logic Formulas Into Knowledge Graphs",
     "summary": "OntoSTL transforms Signal Temporal Logic requirements into OWL knowledge graphs and applies canonicalization rules to reduce structural redundancy.",
     "category": "Computing",
@@ -259,14 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/11b7281696d30674780cdc695ef60f24e36a3c14",
     "published_at": "2026-10-02T00:00:00+00:00",
     "fetched_at": "2026-10-03T09:33:44.160176+00:00"
-  },
-  {
-    "title": "Aliner Debuts Lightweight Alite A-Frame Trailer",
-    "summary": "The Alite towable A-frame trailer weighs under 700 pounds, sets up in 30 seconds, and offers a hard-walled micro-hut.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/camping-trailers/aliner-alite-30-sec-camping-trailer/",
-    "published_at": "2026-10-01T21:03:00+00:00",
-    "fetched_at": "2026-10-02T10:12:41.384464+00:00"
   }
 ]
