@@ -1,5 +1,203 @@
 [
   {
+    "title": "Chip Industry Technical Paper Roundup",
+    "summary": "Recent technical papers detail advancements in WSe2 transistors, 2nm GAAFETs, and DRAM processing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
+    "published_at": "2026-10-06T07:01:55+00:00",
+    "fetched_at": "2026-10-06T10:59:34.687797+00:00"
+  },
+  {
+    "title": "Swiss Glaciers Lose Over 5% Ice Volume",
+    "summary": "Swiss glaciers experienced their second-biggest percentage drop in ice volume on record due to heat waves and low winter snow.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/swiss-hydropower-threatened-as-glaciers-lose-over-5-of-ice-volume-in-2026-as-heat-waves-low-winter-snow-accelerate-thaw/",
+    "published_at": "2026-10-05T20:02:56+00:00",
+    "fetched_at": "2026-10-06T10:59:34.687810+00:00"
+  },
+  {
+    "title": "Backside Clock Meshes Improve 2nm Nanosheets",
+    "summary": "Researchers explore backside clock meshes for 2nm GAAFET technology to minimize skew and power consumption.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/backside-clock-meshes-cut-skew-and-power-in-2nm-nanosheets-ucsc/",
+    "published_at": "2026-10-05T18:07:21+00:00",
+    "fetched_at": "2026-10-06T10:59:34.687816+00:00"
+  },
+  {
+    "title": "GE HealthCare Acquires Radiopharmaceuticals Business",
+    "summary": "GE HealthCare plans a $945 million acquisition to expand its presence in radiopharmaceuticals.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/ma/ge-healthcare-to-expand-in-radiopharmaceuticals-with-945m-acquisition",
+    "published_at": "2026-10-05T18:01:30+00:00",
+    "fetched_at": "2026-10-06T10:59:34.687821+00:00"
+  },
+  {
+    "title": "Goal-Oriented Wave Computing for Direction-of-Arrival Estimation",
+    "summary": "Researchers explore goal-oriented training for tunable metasurfaces in wave-domain analog computing for direction-of-arrival estimation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06839v1",
+    "published_at": "2026-10-05T17:58:39+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174714+00:00"
+  },
+  {
+    "title": "Pulsar Constellation and LEO GNSS Performance Study",
+    "summary": "A new study analyzes LEO GNSS constellation deployment and its effects on positioning, navigation, and timing performance.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06759v1",
+    "published_at": "2026-10-05T17:34:07+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174726+00:00"
+  },
+  {
+    "title": "Reducing Contact Resistance in 2D Transistors for Advanced CMOS",
+    "summary": "Researchers achieve low contact resistance in oxygen-doped WSe2 monolayer p-type transistors to advance CMOS technology.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/reducing-contact-resistance-pushes-2d-transistors-toward-advanced-cmos-hust-polyu-ucsb-nus/",
+    "published_at": "2026-10-05T17:25:40+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174733+00:00"
+  },
+  {
+    "title": "Interplay Between Excitability and Noise in CMOS Spiking Neurons",
+    "summary": "A physics-based simulation framework demonstrates how time-varying inputs reduce spike time jitter in CMOS analog spiking neurons.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06720v1",
+    "published_at": "2026-10-05T17:13:09+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174738+00:00"
+  },
+  {
+    "title": "Estimation-Aware Optimal Control for Mobile Sensor Target Tracking",
+    "summary": "A proposed estimation-aware optimal control method accounts for nonlinear dynamics and continuous-time constraints in mobile sensor target tracking.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06654v1",
+    "published_at": "2026-10-05T16:34:17+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174743+00:00"
+  },
+  {
+    "title": "Whole-Body Planning for Human-Robot Cloth Co-Transportation",
+    "summary": "A hierarchical planning framework combines learned cloth models and reduced-order manipulation to enable obstacle-aware deformable object co-transportation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06641v1",
+    "published_at": "2026-10-05T16:26:31+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174748+00:00"
+  },
+  {
+    "title": "Inverse Cross-Spectral Neural Networks for Multivariate Time Series",
+    "summary": "Inverse Cross-Spectral Neural Networks use inverse cross-spectral density matrices as graph shift operators to model stationary multivariate time series.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06630v1",
+    "published_at": "2026-10-05T16:24:24+00:00",
+    "fetched_at": "2026-10-06T10:59:38.174754+00:00"
+  },
+  {
+    "title": "Quadrotor Vector Field Following Using Reduced-Attitude Representations",
+    "summary": "Researchers proposed two vector field tracking controllers for quadrotors using reduced-attitude representations to enforce safety-critical control.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06629v1",
+    "published_at": "2026-10-05T16:24:06+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741312+00:00"
+  },
+  {
+    "title": "Robust Deep Learning Framework for Radar Target Detection",
+    "summary": "A proposed robust learning framework called SL-RLF addresses partial label errors in deep-learning-based radar target detection using a symmetry-condition loss function.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06613v1",
+    "published_at": "2026-10-05T16:17:14+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741323+00:00"
+  },
+  {
+    "title": "Row-Parallel DRAM Computing Reduces Data-Reorganization Overhead",
+    "summary": "Researchers published a paper on RAPID, a processing-using-memory architecture performing computation directly in DRAM to reduce data movement overhead.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
+    "published_at": "2026-10-05T16:16:28+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741330+00:00"
+  },
+  {
+    "title": "Retention-Aware Inventory Control for Industrial Refrigeration",
+    "summary": "This study formulates industrial refrigeration compressor control as a stochastic inventory problem to evaluate energy savings from pre-cooling while accounting for thermal losses.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06601v1",
+    "published_at": "2026-10-05T16:10:12+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741336+00:00"
+  },
+  {
+    "title": "Real Part of Butterfly Factorizations for Fast Transforms",
+    "summary": "Researchers established conditions ensuring the preservation of sparse matrix structure when taking the real parts of complex-valued products for fast transforms.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06583v1",
+    "published_at": "2026-10-05T16:00:09+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741341+00:00"
+  },
+  {
+    "title": "Right Bregman Proximal Gradient for Poisson Inverse Problems",
+    "summary": "A novel Bregman proximal algorithm is introduced for convex composite optimization and specialized to solve Poisson inverse problems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06579v1",
+    "published_at": "2026-10-05T15:57:21+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741346+00:00"
+  },
+  {
+    "title": "Adaptive Inductor and Frequency Management for Power Converters",
+    "summary": "A digitally controlled adaptive power conversion framework dynamically co-optimizes inductor configuration and switching frequency to improve efficiency across varied loads.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.06555v1",
+    "published_at": "2026-10-05T15:46:40+00:00",
+    "fetched_at": "2026-10-06T10:59:41.741352+00:00"
+  },
+  {
+    "title": "LogoJET and Roland DG Expand UV Printing Partnership",
+    "summary": "LogoJET is adding Roland DG desktop, benchtop, and large-format UV flatbed printers to its industrial product portfolio.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/roland-dg-and-logojet-expand-uv-printing-partnership/",
+    "published_at": "2026-10-05T12:57:22+00:00",
+    "fetched_at": "2026-10-06T10:59:44.459086+00:00"
+  },
+  {
+    "title": "MathWorks and MapmyIndia Partner for ADAS Development",
+    "summary": "The integration combines high-definition maps with MATLAB, Simulink, and RoadRunner to simulate traffic and road conditions.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mathworks-and-mapmyindia-support-adas-development-in-india/",
+    "published_at": "2026-10-05T12:21:26+00:00",
+    "fetched_at": "2026-10-06T10:59:44.459096+00:00"
+  },
+  {
+    "title": "Synopsys Integrates EDA Tools with Agentic AI",
+    "summary": "Synopsys has joined OpenAI to combine integrated circuit design electronic design automation with agentic artificial intelligence.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
+    "published_at": "2026-10-05T12:00:00+00:00",
+    "fetched_at": "2026-10-06T10:59:44.459101+00:00"
+  },
+  {
+    "title": "eVista XL Limited Edition Tiny House Unveiled",
+    "summary": "The single-story tiny house makes smart use of its compact space to provide practical and comfortable living.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/e-vista-xl-limited-escape/",
+    "published_at": "2026-10-05T11:03:06+00:00",
+    "fetched_at": "2026-10-06T10:59:44.459106+00:00"
+  },
+  {
     "title": "New Guide Addresses Geotechnical Risks of Problematic Soils",
     "summary": "A new book provides an integrated guide to understanding the behavior, risks, and engineering challenges associated with problematic soils in complex environments.",
     "category": "Civil & Infrastructure",
@@ -7,167 +205,5 @@
     "source_url": "https://www.semanticscholar.org/paper/96c9fb484b035abcadcc701fd6899d74a3b510dd",
     "published_at": "2026-10-05T00:00:00+00:00",
     "fetched_at": "2026-10-04T16:13:07.897404+00:00"
-  },
-  {
-    "title": "OntoSTL Transforms Signal Temporal Logic Formulas Into Knowledge Graphs",
-    "summary": "OntoSTL transforms Signal Temporal Logic requirements into OWL knowledge graphs and applies canonicalization rules to reduce structural redundancy.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fac5396fd984d3620b027eb50b826e587e2d3ae0",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234651+00:00"
-  },
-  {
-    "title": "New Framework Generates Executable Suggestions for MDE",
-    "summary": "The gamma mu S framework combines Large Language Models with rule-based verification to produce well-formed modeling suggestions.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/dfa732b936b2049dbbb9ebf9cd9b3db32e0d56bd",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234665+00:00"
-  },
-  {
-    "title": "Pattern-Based Approach Validates SysML v2 Models",
-    "summary": "Researchers introduced an approach using the Refinery graph solver to detect undesired patterns and validate SysML v2 models.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bd1c6b6ddef69ab85cad6a15f0846f5fc7a62b3e",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234672+00:00"
-  },
-  {
-    "title": "ModelsOrbit Addresses Model-Driven Engineering for Satellite Fleets",
-    "summary": "ModelsOrbit introduces model-driven engineering foundations to govern evolving satellite fleets operating under partial knowledge and communication constraints.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/7fc8511040c9af1107921b42203da0edea0c4e17",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234677+00:00"
-  },
-  {
-    "title": "Automated Generation of Vehicle Security Models from Threat Intelligence",
-    "summary": "A new prototype automatically transforms public cyber threat intelligence from MITRE ATT&CK into valid security model instances.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/7e7207d26a0e5ea326b8dc6b655865f89b3d2aab",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234683+00:00"
-  },
-  {
-    "title": "Physical Execution Plans Decouple DSL Design from Runtime",
-    "summary": "A proposed approach for Model-Driven Engineering introduces physical execution plans to separate model meaning from runtime-specific representations.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/2c7c8884d60267aa26c695672f496170efa8996b",
-    "published_at": "2026-10-03T00:00:00+00:00",
-    "fetched_at": "2026-10-02T10:12:38.234688+00:00"
-  },
-  {
-    "title": "Omron Highlights Software and Safety in Mobile Robots",
-    "summary": "An Omron project manager notes that software, safety, and fleet management are becoming as critical as the mobile robot hardware itself.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
-    "published_at": "2026-10-02T23:01:36+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602043+00:00"
-  },
-  {
-    "title": "Infineon and TU Munich Publish Hardware Design Paper",
-    "summary": "Researchers at Infineon Technologies and Technical University of Munich published a technical paper examining abstraction and validation in hardware engineering models.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/tracing-hardware-design-from-physical-devices-to-rtl-infineon-tu-munich/",
-    "published_at": "2026-10-02T22:46:46+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602056+00:00"
-  },
-  {
-    "title": "Eli Lilly and Purdue to Share Robot Findings",
-    "summary": "Experts from Eli Lilly and Purdue University will share findings regarding human-robot interaction on manufacturing floors.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/eli-lilly-purdue-to-share-field-learnings-on-human-robot-interaction-at-robobusiness/",
-    "published_at": "2026-10-02T21:12:14+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602062+00:00"
-  },
-  {
-    "title": "UC Berkeley and FuriosaAI Detail High Bandwidth Flash",
-    "summary": "Researchers published a paper on characterizing high bandwidth flash to address memory and bandwidth bottlenecks in LLM serving.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/hbf-for-high-throughput-llm-serving-uc-berkeley-furiosaai/",
-    "published_at": "2026-10-02T20:15:40+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602067+00:00"
-  },
-  {
-    "title": "Dexcom Faces Lawsuits Over Glucose Monitor Failures",
-    "summary": "New lawsuits allege that Dexcom G7 glucose monitors malfunctioned and endangered children, bringing the total litigation to 11 cases.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/diabetes/dexcom-faces-lawsuit-alleging-device-failures-endangered-children",
-    "published_at": "2026-10-02T19:52:07+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602072+00:00"
-  },
-  {
-    "title": "Bipartisan Senate Bill Targets Energy Permitting",
-    "summary": "Senators reached a deal on legislation to expedite permitting for energy projects with a vote planned after the midterms.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/can-this-bipartisan-senate-bill-fix-the-grueling-energy-permitting-timeline/",
-    "published_at": "2026-10-02T17:53:50+00:00",
-    "fetched_at": "2026-10-03T09:33:41.602077+00:00"
-  },
-  {
-    "title": "ALBATROSS Hybrid Robot Sails and Flies",
-    "summary": "Researchers developed a hybrid aerial-marine robot that autorotates to water and uses its wings for wind-powered navigation.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
-    "published_at": "2026-10-02T16:30:02+00:00",
-    "fetched_at": "2026-10-02T17:11:15.608173+00:00"
-  },
-  {
-    "title": "Aston Martin Unveils DBX GT",
-    "summary": "Aston Martin introduced the DBX GT luxury SUV featuring 717 horsepower.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/aston-martin-dbx-gt/",
-    "published_at": "2026-10-02T15:33:00+00:00",
-    "fetched_at": "2026-10-02T17:11:15.608193+00:00"
-  },
-  {
-    "title": "MIT Students Publish Space Economy Guide",
-    "summary": "An MIT aerospace entrepreneurship class released an industry report providing guidance for aspiring space leaders and investors.",
-    "category": "Aerospace",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/guide-to-new-space-economy-1002",
-    "published_at": "2026-10-02T14:50:00+00:00",
-    "fetched_at": "2026-10-02T17:11:15.608199+00:00"
-  },
-  {
-    "title": "Caterpillar Plans $1B North Carolina Expansion",
-    "summary": "Caterpillar is investing $1 billion to expand its Sanford, North Carolina manufacturing plant with a new facility.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/caterpillar-plans-1bn-expansion-of-its-north-carolina-plant/",
-    "published_at": "2026-10-02T12:20:34+00:00",
-    "fetched_at": "2026-10-02T17:11:15.608204+00:00"
-  },
-  {
-    "title": "Wearable Systems Driven by Health Monitoring",
-    "summary": "Device miniaturization is driving higher performance and quality in smaller form factors for continuous health monitoring.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/continuous-health-monitoring-drives-integrated-wearable-system-design/",
-    "published_at": "2026-10-02T11:29:26+00:00",
-    "fetched_at": "2026-10-02T17:11:15.608208+00:00"
-  },
-  {
-    "title": "Ultrashort Pulses Push Superconductors Past Current Limits",
-    "summary": "Researchers used ultrashort electrical pulses to push superconductors closer to the point where their electron pairs break apart.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/09/260930225452.htm",
-    "published_at": "2026-10-02T11:08:12+00:00",
-    "fetched_at": "2026-10-03T15:28:04.797518+00:00"
   }
 ]
