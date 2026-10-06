@@ -1,5 +1,140 @@
 [
   {
+    "title": "FireDome builds autonomous wildfire defense artillery",
+    "summary": "FireDome builds autonomous wildfire defense systems to protect communities and infrastructure before firefighters arrive.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
+    "published_at": "2026-10-06T16:00:31+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199660+00:00"
+  },
+  {
+    "title": "Motion Design Complexity Drives Surgical Robotics",
+    "summary": "Motion design complexity drives surgical robotics innovation and growth.",
+    "category": "Robotics",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/surgical/the-growing-demand-for-tool-robot-synergy",
+    "published_at": "2026-10-06T15:48:08+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199674+00:00"
+  },
+  {
+    "title": "MIT Launches Initiative to Strengthen STEM Education",
+    "summary": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and AI.",
+    "category": "Other Engineering",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+    "published_at": "2026-10-06T15:00:00+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199682+00:00"
+  },
+  {
+    "title": "UK Reveals Prototype Fusion Powerplant Evolution",
+    "summary": "The latest iteration of the UK’s planned first prototype fusion powerplant has been revealed at a nuclear fusion energy conference.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/latest-evolution-of-uks-proposed-prototype-fusion-powerplant-revealed-06-10-2026/",
+    "published_at": "2026-10-06T14:28:19+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199689+00:00"
+  },
+  {
+    "title": "Dexterous Robot Hand Learns Silk Embroidery",
+    "summary": "A spin-off of AgiBot trained its OmniHand 3 Ultra to split silk strands, thread a needle, and stitch.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/agilink-robot-hand-learns-silk-embroidery/",
+    "published_at": "2026-10-06T14:03:00+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199693+00:00"
+  },
+  {
+    "title": "Schiphol Airport Launches Five Major Tenders",
+    "summary": "Amsterdam’s Schiphol Airport has launched five major tenders covering maintenance, replacement, and project works.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/schiphol-airport-to-get-house-in-order-with-five-nine-year-contracts/",
+    "published_at": "2026-10-06T13:06:52+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199699+00:00"
+  },
+  {
+    "title": "FIDIC and IRF Sign Latin American Infrastructure Agreement",
+    "summary": "The International Federation of Consulting Engineers signed a Memorandum of Understanding with the International Road Federation.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/fidic-signs-agreement-supporting-latin-american-infrastructure/",
+    "published_at": "2026-10-06T13:01:44+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199703+00:00"
+  },
+  {
+    "title": "Applied Intuition Supports Nissan AI-Defined Vehicles",
+    "summary": "The companies will use Vehicle OS and AI-native tools to streamline software workflows across multiple powertrains.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/applied-intuition-supports-nissans-ai-defined-vehicle-development/",
+    "published_at": "2026-10-06T13:00:14+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199707+00:00"
+  },
+  {
+    "title": "Circuit4EU Initiative Targets E-Waste Rare Earths",
+    "summary": "Circuit4EU is a European Union initiative to advance technologies to recover, reuse, and recycle critical raw materials from e-waste.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/e-waste-european-union-circuit4eu",
+    "published_at": "2026-10-06T13:00:02+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199711+00:00"
+  },
+  {
+    "title": "ABP Issues Tender for Grimsby Terminal Civils",
+    "summary": "Associated British Ports has launched a tender process to shortlist contractors for the Grimsby River Terminal Civils Package.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/associated-british-ports-issues-tender-for-grimsby-river-terminal-civils-package-06-10-2026/",
+    "published_at": "2026-10-06T12:25:06+00:00",
+    "fetched_at": "2026-10-06T17:43:48.199715+00:00"
+  },
+  {
+    "title": "CERN Physicists Find Quark-Gluon Plasma Behaves Like a Liquid",
+    "summary": "Researchers at CERN's Large Hadron Collider captured evidence that quark-gluon plasma from the early universe behaves like a true liquid.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261004002556.htm",
+    "published_at": "2026-10-06T12:04:50+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874836+00:00"
+  },
+  {
+    "title": "Concertus Launches £1bn Construction and Civils Framework",
+    "summary": "Design and property consultants Concertus Suffolk launched a £1bn construction, building, and civils procurement framework across seven geographic lots.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/concertus-launches-1bn-construction-building-and-civils-framework-06-10-2026/",
+    "published_at": "2026-10-06T11:26:35+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874850+00:00"
+  },
+  {
+    "title": "RSK Environment Wins London Overground AI Asset Management Contract",
+    "summary": "RSK Environment secured a five-year contract to integrate artificial intelligence and augmented reality into asset management for the London Overground.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/rsk-environment-wins-contract-to-embed-ai-into-asset-management-for-london-overground-06-10-2026/",
+    "published_at": "2026-10-06T10:42:39+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874856+00:00"
+  },
+  {
+    "title": "X-Energy Develops Helium-Cooled Nuclear Reactors for Heavy Industry",
+    "summary": "X-energy is developing small modular reactors to supply high-temperature heat for industrial manufacturers requiring intense power.",
+    "category": "Energy",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
+    "published_at": "2026-10-06T10:35:00+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874860+00:00"
+  },
+  {
+    "title": "Scientists Capture Efficient Natural Energy Transfer Steps",
+    "summary": "Researchers used ultrafast X-rays to reveal how electron and proton changes link to water molecule rearrangement during chemical reactions.",
+    "category": "Energy",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
+    "published_at": "2026-10-06T07:49:51+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874865+00:00"
+  },
+  {
     "title": "Chip Industry Technical Paper Roundup",
     "summary": "Recent technical papers detail advancements in WSe2 transistors, 2nm GAAFETs, and DRAM processing.",
     "category": "Electronics & Semiconductors",
@@ -7,6 +142,15 @@
     "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
     "published_at": "2026-10-06T07:01:55+00:00",
     "fetched_at": "2026-10-06T10:59:34.687797+00:00"
+  },
+  {
+    "title": "SkyeChip Joins Rapidus Collaborative Open Rapid Ecosystem",
+    "summary": "Malaysian IP developer and IC design house SkyeChip has joined the Rapidus Collaborative Open Rapid Ecosystem as a design solution associate.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/skyechip-becomes-rapidus-design-associate-2026-10/",
+    "published_at": "2026-10-06T05:14:20+00:00",
+    "fetched_at": "2026-10-06T17:43:51.874869+00:00"
   },
   {
     "title": "Swiss Glaciers Lose Over 5% Ice Volume",
@@ -124,86 +268,5 @@
     "source_url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
     "published_at": "2026-10-05T16:16:28+00:00",
     "fetched_at": "2026-10-06T10:59:41.741330+00:00"
-  },
-  {
-    "title": "Retention-Aware Inventory Control for Industrial Refrigeration",
-    "summary": "This study formulates industrial refrigeration compressor control as a stochastic inventory problem to evaluate energy savings from pre-cooling while accounting for thermal losses.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06601v1",
-    "published_at": "2026-10-05T16:10:12+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741336+00:00"
-  },
-  {
-    "title": "Real Part of Butterfly Factorizations for Fast Transforms",
-    "summary": "Researchers established conditions ensuring the preservation of sparse matrix structure when taking the real parts of complex-valued products for fast transforms.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06583v1",
-    "published_at": "2026-10-05T16:00:09+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741341+00:00"
-  },
-  {
-    "title": "Right Bregman Proximal Gradient for Poisson Inverse Problems",
-    "summary": "A novel Bregman proximal algorithm is introduced for convex composite optimization and specialized to solve Poisson inverse problems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06579v1",
-    "published_at": "2026-10-05T15:57:21+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741346+00:00"
-  },
-  {
-    "title": "Adaptive Inductor and Frequency Management for Power Converters",
-    "summary": "A digitally controlled adaptive power conversion framework dynamically co-optimizes inductor configuration and switching frequency to improve efficiency across varied loads.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06555v1",
-    "published_at": "2026-10-05T15:46:40+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741352+00:00"
-  },
-  {
-    "title": "LogoJET and Roland DG Expand UV Printing Partnership",
-    "summary": "LogoJET is adding Roland DG desktop, benchtop, and large-format UV flatbed printers to its industrial product portfolio.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/roland-dg-and-logojet-expand-uv-printing-partnership/",
-    "published_at": "2026-10-05T12:57:22+00:00",
-    "fetched_at": "2026-10-06T10:59:44.459086+00:00"
-  },
-  {
-    "title": "MathWorks and MapmyIndia Partner for ADAS Development",
-    "summary": "The integration combines high-definition maps with MATLAB, Simulink, and RoadRunner to simulate traffic and road conditions.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mathworks-and-mapmyindia-support-adas-development-in-india/",
-    "published_at": "2026-10-05T12:21:26+00:00",
-    "fetched_at": "2026-10-06T10:59:44.459096+00:00"
-  },
-  {
-    "title": "Synopsys Integrates EDA Tools with Agentic AI",
-    "summary": "Synopsys has joined OpenAI to combine integrated circuit design electronic design automation with agentic artificial intelligence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
-    "published_at": "2026-10-05T12:00:00+00:00",
-    "fetched_at": "2026-10-06T10:59:44.459101+00:00"
-  },
-  {
-    "title": "eVista XL Limited Edition Tiny House Unveiled",
-    "summary": "The single-story tiny house makes smart use of its compact space to provide practical and comfortable living.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/tiny-houses/e-vista-xl-limited-escape/",
-    "published_at": "2026-10-05T11:03:06+00:00",
-    "fetched_at": "2026-10-06T10:59:44.459106+00:00"
-  },
-  {
-    "title": "New Guide Addresses Geotechnical Risks of Problematic Soils",
-    "summary": "A new book provides an integrated guide to understanding the behavior, risks, and engineering challenges associated with problematic soils in complex environments.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/96c9fb484b035abcadcc701fd6899d74a3b510dd",
-    "published_at": "2026-10-05T00:00:00+00:00",
-    "fetched_at": "2026-10-04T16:13:07.897404+00:00"
   }
 ]
