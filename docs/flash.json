@@ -1,5 +1,104 @@
 [
   {
+    "title": "New Book Examines Crushing Behaviour of Expanded Clay Aggregate",
+    "summary": "A newly published book offers a multi-scale analysis of crushing behaviour and design implications for expanded clay aggregate in engineering.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/0532ccf5e3d544fc65cc56c8a114df8a8c848be0",
+    "published_at": "2026-10-08T00:00:00+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101705+00:00"
+  },
+  {
+    "title": "Teradyne Robotics and Elite Robots Settle Cobot Dispute",
+    "summary": "Teradyne Robotics and Elite Robots have resolved their software legal dispute without releasing the financial terms.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
+    "published_at": "2026-10-07T16:20:52+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101715+00:00"
+  },
+  {
+    "title": "Kyushu University Researcher Develops VR Chair",
+    "summary": "A researcher has designed a chair that provides an alternative virtual reality experience without requiring a headset.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/vr/kyushu-university-chair-virtual-worlds/",
+    "published_at": "2026-10-07T15:56:11+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101719+00:00"
+  },
+  {
+    "title": "Examining Power Architectures for High-Performance Burn-In",
+    "summary": "An upcoming session will explore power technologies and design practices to enhance manufacturer product quality and reliability.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/engineering-reliability-power-architectures-for-high-performance-burn-in/",
+    "published_at": "2026-10-07T15:47:11+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101722+00:00"
+  },
+  {
+    "title": "AMD CTO Discusses Tailored Computing for AI",
+    "summary": "AMD CTO Mark Papermaster highlighted tailored computing and holistic design as keys to delivering artificial intelligence.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/amds-mark-papermaster-exclusive-video-interview-at-world-summit-ai/",
+    "published_at": "2026-10-07T14:57:52+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101726+00:00"
+  },
+  {
+    "title": "Hybrid Headphones Convert into a Bluetooth Speaker",
+    "summary": "A new pair of headphones features a design that allows the headband to twist and form a shared speaker.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/consumer-tech/hybrid-headphones-speaker-tdm-neo-twist/",
+    "published_at": "2026-10-07T13:27:00+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101729+00:00"
+  },
+  {
+    "title": "Automotive Era Drives New Semiconductor Requirements",
+    "summary": "Electrification and software-defined vehicles are driving new packaging and test requirements for semiconductors.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/from-electrification-to-architecture-the-next-automotive-era/",
+    "published_at": "2026-10-07T13:00:00+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101732+00:00"
+  },
+  {
+    "title": "Report Analyzes Australian Residential Building Sector",
+    "summary": "A new report highlights how market volatility hampers the Australian construction sector's capacity to deliver housing.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/how-to-solve-australias-volatile-and-fragmented-residential-building-sector/",
+    "published_at": "2026-10-07T12:59:48+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101735+00:00"
+  },
+  {
+    "title": "Physicists Find Evidence of Superconductivity Ghost",
+    "summary": "Physicists discovered evidence of pair density waves in uranium ditelluride, showing electron pairing behavior persists after superconductivity vanishes.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
+    "published_at": "2026-10-07T12:34:39+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101738+00:00"
+  },
+  {
+    "title": "Harmonic Drive to Demonstrate Integrated Actuators",
+    "summary": "Harmonic Drive will present how integrated actuators can reduce engineering effort by simplifying system integration.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
+    "published_at": "2026-10-07T12:24:09+00:00",
+    "fetched_at": "2026-10-07T18:17:01.101741+00:00"
+  },
+  {
+    "title": "Weight-Loss Drugs Show Potential to Slow Aging",
+    "summary": "Popular weight-loss drugs are showing signs that they may also slow the biological aging process, according to drugmakers.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
+    "published_at": "2026-10-07T12:10:00+00:00",
+    "fetched_at": "2026-10-07T18:17:08.433305+00:00"
+  },
+  {
     "title": "UK CAA Consults on Digital Air Traffic Infrastructure",
     "summary": "The UK Civil Aviation Authority launched a consultation on its proposed System Wide Information Management approach for aviation information exchange.",
     "category": "Aerospace",
@@ -169,104 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.08733v1",
     "published_at": "2026-10-06T17:36:01+00:00",
     "fetched_at": "2026-10-07T10:47:02.589048+00:00"
-  },
-  {
-    "title": "EgoLAP: Learning from Egocentric Human Data for Robot Control",
-    "summary": "EgoLAP is a vision-language-action pre-training framework that jointly learns from human and robot trajectories using a shared language-based action chain-of-thought.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08726v1",
-    "published_at": "2026-10-06T17:30:33+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589053+00:00"
-  },
-  {
-    "title": "Robust Scenario-Based Predictive Control for Battery Energy Storage",
-    "summary": "This study presents the first real-world deployment of scenario-based data-enabled predictive control on a grid-connected battery system to strictly enforce state-of-charge limits.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08702v1",
-    "published_at": "2026-10-06T17:15:27+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589057+00:00"
-  },
-  {
-    "title": "Rydberg Atomic Receivers for Integrated Sensing and Communication",
-    "summary": "This study examines a multi-branch Rydberg atomic receiver architecture for joint communication and radar sensing by solving the Lindblad master equation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08696v1",
-    "published_at": "2026-10-06T17:11:11+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589062+00:00"
-  },
-  {
-    "title": "Magnet-Aware Control Framework for Legged Robots",
-    "summary": "Researchers developed a control framework using model predictive control and whole-body control to compensate for magnetic wrenches acting on legged robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08653v1",
-    "published_at": "2026-10-06T16:38:19+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589066+00:00"
-  },
-  {
-    "title": "Fast Non-Parametric Heteroscedastic Imitation Learning with Geometry",
-    "summary": "This paper proposes a non-parametric imitation learning approach leveraging geometric priors for probabilistic modeling in data-scarce scenarios.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08650v1",
-    "published_at": "2026-10-06T16:36:41+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589070+00:00"
-  },
-  {
-    "title": "Distributed Model-Free Turbine Repositioning for Wind Farms",
-    "summary": "A model-free method using distributed online optimization is proposed for turbine repositioning control to minimize wake effects in floating offshore wind farms.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08646v1",
-    "published_at": "2026-10-06T16:35:07+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589074+00:00"
-  },
-  {
-    "title": "HygieneRoboBench Benchmarks Household Robot Hygiene Planning",
-    "summary": "Researchers introduced HygieneRoboBench and Hygiene-NSP to evaluate and improve how household robots plan safe task execution while managing contamination risks and user priorities.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08642v1",
-    "published_at": "2026-10-06T16:33:44+00:00",
-    "fetched_at": "2026-10-07T10:47:05.852146+00:00"
-  },
-  {
-    "title": "RIWANav Framework Improves Urban Navigation via Self-Improvement",
-    "summary": "RIWANAV is a new post-training framework that uses recursive self-improvement between an action model and a world model to enhance long-horizon urban navigation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08640v1",
-    "published_at": "2026-10-06T16:33:01+00:00",
-    "fetched_at": "2026-10-07T10:47:05.852155+00:00"
-  },
-  {
-    "title": "Force-Aware Locomotion Enables Quadruped Payload Interactions",
-    "summary": "A new force-aware locomotion framework allows quadruped robots to maintain stable payload transport while compliantly responding to external physical interactions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08637v1",
-    "published_at": "2026-10-06T16:32:23+00:00",
-    "fetched_at": "2026-10-07T10:47:05.852161+00:00"
-  },
-  {
-    "title": "CropSentry Multi-Robot System Detects Early Crop Stress",
-    "summary": "CropSentry is a low-cost, ground-based multi-robot system that uses multimodal leaf sensing and spatial mapping to continuously monitor crop health and detect early stress.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08603v1",
-    "published_at": "2026-10-06T16:07:15+00:00",
-    "fetched_at": "2026-10-07T10:47:05.852166+00:00"
-  },
-  {
-    "title": "CMDS Coordinates Pretrained Diffusion Models via Stochastic Control",
-    "summary": "Coordinated Multi-Agent Diffusion Steering treats frozen pretrained diffusion models as reusable primitives, coordinating their processes through stochastic optimal control.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08595v1",
-    "published_at": "2026-10-06T16:02:49+00:00",
-    "fetched_at": "2026-10-07T10:47:05.852170+00:00"
   }
 ]
