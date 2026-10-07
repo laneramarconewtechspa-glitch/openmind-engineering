@@ -1,272 +1,272 @@
 [
   {
-    "title": "FireDome builds autonomous wildfire defense artillery",
-    "summary": "FireDome builds autonomous wildfire defense systems to protect communities and infrastructure before firefighters arrive.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
-    "published_at": "2026-10-06T16:00:31+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199660+00:00"
-  },
-  {
-    "title": "Motion Design Complexity Drives Surgical Robotics",
-    "summary": "Motion design complexity drives surgical robotics innovation and growth.",
-    "category": "Robotics",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/surgical/the-growing-demand-for-tool-robot-synergy",
-    "published_at": "2026-10-06T15:48:08+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199674+00:00"
-  },
-  {
-    "title": "MIT Launches Initiative to Strengthen STEM Education",
-    "summary": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and AI.",
-    "category": "Other Engineering",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
-    "published_at": "2026-10-06T15:00:00+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199682+00:00"
-  },
-  {
-    "title": "UK Reveals Prototype Fusion Powerplant Evolution",
-    "summary": "The latest iteration of the UK’s planned first prototype fusion powerplant has been revealed at a nuclear fusion energy conference.",
-    "category": "Energy",
+    "title": "UK CAA Consults on Digital Air Traffic Infrastructure",
+    "summary": "The UK Civil Aviation Authority launched a consultation on its proposed System Wide Information Management approach for aviation information exchange.",
+    "category": "Aerospace",
     "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/latest-evolution-of-uks-proposed-prototype-fusion-powerplant-revealed-06-10-2026/",
-    "published_at": "2026-10-06T14:28:19+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199689+00:00"
+    "source_url": "https://www.newcivilengineer.com/latest/caa-consults-on-digital-infrastructure-framework-for-air-traffic-management-07-10-2026/",
+    "published_at": "2026-10-07T09:52:38+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074393+00:00"
   },
   {
-    "title": "Dexterous Robot Hand Learns Silk Embroidery",
-    "summary": "A spin-off of AgiBot trained its OmniHand 3 Ultra to split silk strands, thread a needle, and stitch.",
+    "title": "Boston Dynamics Names Rohit Prasad CEO",
+    "summary": "Prasad will lead the company's Physical AI strategy to combine robotics and AI for scaling intelligent machines.",
     "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/robotics/agilink-robot-hand-learns-silk-embroidery/",
-    "published_at": "2026-10-06T14:03:00+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199693+00:00"
-  },
-  {
-    "title": "Schiphol Airport Launches Five Major Tenders",
-    "summary": "Amsterdam’s Schiphol Airport has launched five major tenders covering maintenance, replacement, and project works.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/schiphol-airport-to-get-house-in-order-with-five-nine-year-contracts/",
-    "published_at": "2026-10-06T13:06:52+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199699+00:00"
-  },
-  {
-    "title": "FIDIC and IRF Sign Latin American Infrastructure Agreement",
-    "summary": "The International Federation of Consulting Engineers signed a Memorandum of Understanding with the International Road Federation.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/fidic-signs-agreement-supporting-latin-american-infrastructure/",
-    "published_at": "2026-10-06T13:01:44+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199703+00:00"
-  },
-  {
-    "title": "Applied Intuition Supports Nissan AI-Defined Vehicles",
-    "summary": "The companies will use Vehicle OS and AI-native tools to streamline software workflows across multiple powertrains.",
-    "category": "Computing",
     "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/applied-intuition-supports-nissans-ai-defined-vehicle-development/",
-    "published_at": "2026-10-06T13:00:14+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199707+00:00"
+    "source_url": "https://www.engineering.com/boston-dynamics-appoints-rohit-prasad-as-ceo/",
+    "published_at": "2026-10-07T09:31:31+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074406+00:00"
   },
   {
-    "title": "Circuit4EU Initiative Targets E-Waste Rare Earths",
-    "summary": "Circuit4EU is a European Union initiative to advance technologies to recover, reuse, and recycle critical raw materials from e-waste.",
+    "title": "Flexcompute Simulates Starlab Cabin Airflow",
+    "summary": "GPU-native computational fluid dynamics modeled full-station airflow and is being extended to track carbon dioxide movement.",
+    "category": "Aerospace",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/flexcompute-simulates-starlab-space-station-cabin-airflow/",
+    "published_at": "2026-10-07T08:56:19+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074412+00:00"
+  },
+  {
+    "title": "Logic Fruit Launches FPGA-Based BMC Family for OCP Servers",
+    "summary": "The L-Nex combines OpenBMC, telemetry, remote KVM, and hardware root of trust in a reconfigurable FPGA SoC.",
     "category": "Electronics & Semiconductors",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/e-waste-european-union-circuit4eu",
-    "published_at": "2026-10-06T13:00:02+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199711+00:00"
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/logic-fruit-unveils-fpga-based-bmc-family-for-ocp-servers/",
+    "published_at": "2026-10-07T08:47:46+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074417+00:00"
   },
   {
-    "title": "ABP Issues Tender for Grimsby Terminal Civils",
-    "summary": "Associated British Ports has launched a tender process to shortlist contractors for the Grimsby River Terminal Civils Package.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/associated-british-ports-issues-tender-for-grimsby-river-terminal-civils-package-06-10-2026/",
-    "published_at": "2026-10-06T12:25:06+00:00",
-    "fetched_at": "2026-10-06T17:43:48.199715+00:00"
-  },
-  {
-    "title": "CERN Physicists Find Quark-Gluon Plasma Behaves Like a Liquid",
-    "summary": "Researchers at CERN's Large Hadron Collider captured evidence that quark-gluon plasma from the early universe behaves like a true liquid.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261004002556.htm",
-    "published_at": "2026-10-06T12:04:50+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874836+00:00"
-  },
-  {
-    "title": "Concertus Launches £1bn Construction and Civils Framework",
-    "summary": "Design and property consultants Concertus Suffolk launched a £1bn construction, building, and civils procurement framework across seven geographic lots.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/concertus-launches-1bn-construction-building-and-civils-framework-06-10-2026/",
-    "published_at": "2026-10-06T11:26:35+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874850+00:00"
-  },
-  {
-    "title": "RSK Environment Wins London Overground AI Asset Management Contract",
-    "summary": "RSK Environment secured a five-year contract to integrate artificial intelligence and augmented reality into asset management for the London Overground.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/rsk-environment-wins-contract-to-embed-ai-into-asset-management-for-london-overground-06-10-2026/",
-    "published_at": "2026-10-06T10:42:39+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874856+00:00"
-  },
-  {
-    "title": "X-Energy Develops Helium-Cooled Nuclear Reactors for Heavy Industry",
-    "summary": "X-energy is developing small modular reactors to supply high-temperature heat for industrial manufacturers requiring intense power.",
-    "category": "Energy",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
-    "published_at": "2026-10-06T10:35:00+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874860+00:00"
-  },
-  {
-    "title": "Scientists Capture Efficient Natural Energy Transfer Steps",
-    "summary": "Researchers used ultrafast X-rays to reveal how electron and proton changes link to water molecule rearrangement during chemical reactions.",
-    "category": "Energy",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261004001841.htm",
-    "published_at": "2026-10-06T07:49:51+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874865+00:00"
-  },
-  {
-    "title": "Chip Industry Technical Paper Roundup",
-    "summary": "Recent technical papers detail advancements in WSe2 transistors, 2nm GAAFETs, and DRAM processing.",
+    "title": "Thermal Complexity Rises in AI Chips and Photonics",
+    "summary": "Increasing power density makes heat, stress, and aging harder to predict and more critical to address early in design.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
-    "published_at": "2026-10-06T07:01:55+00:00",
-    "fetched_at": "2026-10-06T10:59:34.687797+00:00"
+    "source_url": "https://semiengineering.com/thermal-complexity-grows-with-ai-chips-and-photonics/",
+    "published_at": "2026-10-07T07:01:34+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074421+00:00"
   },
   {
-    "title": "SkyeChip Joins Rapidus Collaborative Open Rapid Ecosystem",
-    "summary": "Malaysian IP developer and IC design house SkyeChip has joined the Rapidus Collaborative Open Rapid Ecosystem as a design solution associate.",
+    "title": "Semiconductor Sales Reach $1 Trillion Milestone",
+    "summary": "Semiconductor sales reached $159.7 billion in August 2026, marking significant growth compared to previous months.",
     "category": "Electronics & Semiconductors",
     "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/skyechip-becomes-rapidus-design-associate-2026-10/",
-    "published_at": "2026-10-06T05:14:20+00:00",
-    "fetched_at": "2026-10-06T17:43:51.874869+00:00"
+    "source_url": "https://www.electronicsweekly.com/news/business/semi-sales-hit-1trb-2026-10/",
+    "published_at": "2026-10-07T05:13:05+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074426+00:00"
   },
   {
-    "title": "Swiss Glaciers Lose Over 5% Ice Volume",
-    "summary": "Swiss glaciers experienced their second-biggest percentage drop in ice volume on record due to heat waves and low winter snow.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/swiss-hydropower-threatened-as-glaciers-lose-over-5-of-ice-volume-in-2026-as-heat-waves-low-winter-snow-accelerate-thaw/",
-    "published_at": "2026-10-05T20:02:56+00:00",
-    "fetched_at": "2026-10-06T10:59:34.687810+00:00"
-  },
-  {
-    "title": "Backside Clock Meshes Improve 2nm Nanosheets",
-    "summary": "Researchers explore backside clock meshes for 2nm GAAFET technology to minimize skew and power consumption.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/backside-clock-meshes-cut-skew-and-power-in-2nm-nanosheets-ucsc/",
-    "published_at": "2026-10-05T18:07:21+00:00",
-    "fetched_at": "2026-10-06T10:59:34.687816+00:00"
-  },
-  {
-    "title": "GE HealthCare Acquires Radiopharmaceuticals Business",
-    "summary": "GE HealthCare plans a $945 million acquisition to expand its presence in radiopharmaceuticals.",
+    "title": "New Method Fights Gum Disease While Preserving Good Bacteria",
+    "summary": "Disrupting bacterial communication can push dental plaque toward a healthier microbial balance without destroying beneficial species.",
     "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/ma/ge-healthcare-to-expand-in-radiopharmaceuticals-with-945m-acquisition",
-    "published_at": "2026-10-05T18:01:30+00:00",
-    "fetched_at": "2026-10-06T10:59:34.687821+00:00"
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261005012230.htm",
+    "published_at": "2026-10-07T03:55:00+00:00",
+    "fetched_at": "2026-10-07T10:46:55.074431+00:00"
   },
   {
-    "title": "Goal-Oriented Wave Computing for Direction-of-Arrival Estimation",
-    "summary": "Researchers explore goal-oriented training for tunable metasurfaces in wave-domain analog computing for direction-of-arrival estimation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06839v1",
-    "published_at": "2026-10-05T17:58:39+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174714+00:00"
+    "title": "Lemmo Introduces Versatile SUV Ebike",
+    "summary": "Berlin startup Lemmo has announced a versatile SUV ebike designed to offer a comfortable ride for families and adventurous riders.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/bicycles/lemmo-utility-ebike-long-tail-suspension/",
+    "published_at": "2026-10-06T22:01:36+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614685+00:00"
   },
   {
-    "title": "Pulsar Constellation and LEO GNSS Performance Study",
-    "summary": "A new study analyzes LEO GNSS constellation deployment and its effects on positioning, navigation, and timing performance.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06759v1",
-    "published_at": "2026-10-05T17:34:07+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174726+00:00"
-  },
-  {
-    "title": "Reducing Contact Resistance in 2D Transistors for Advanced CMOS",
-    "summary": "Researchers achieve low contact resistance in oxygen-doped WSe2 monolayer p-type transistors to advance CMOS technology.",
+    "title": "Monolithic 3D Memristor-TFT Stack for Neuromorphic Computing",
+    "summary": "Researchers published a paper detailing a monolithically integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/reducing-contact-resistance-pushes-2d-transistors-toward-advanced-cmos-hust-polyu-ucsb-nus/",
-    "published_at": "2026-10-05T17:25:40+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174733+00:00"
+    "source_url": "https://semiengineering.com/monolithic-3d-memristor-tft-stack-for-programmable-neuromorphic-computing-snu-yonsei/",
+    "published_at": "2026-10-06T21:29:31+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614694+00:00"
   },
   {
-    "title": "Interplay Between Excitability and Noise in CMOS Spiking Neurons",
-    "summary": "A physics-based simulation framework demonstrates how time-varying inputs reduce spike time jitter in CMOS analog spiking neurons.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06720v1",
-    "published_at": "2026-10-05T17:13:09+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174738+00:00"
-  },
-  {
-    "title": "Estimation-Aware Optimal Control for Mobile Sensor Target Tracking",
-    "summary": "A proposed estimation-aware optimal control method accounts for nonlinear dynamics and continuous-time constraints in mobile sensor target tracking.",
+    "title": "Leisure Travel Vans Reveals Ford Transit Motorhome",
+    "summary": "Leisure Travel Vans introduced the 2027 Wonder FX motorhome, combining a slide-out wall with a split-recliner Murphy lounge and bed.",
     "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06654v1",
-    "published_at": "2026-10-05T16:34:17+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174743+00:00"
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/rvs-motorhomes/ltv-wonder-fx-ford-motorhome/",
+    "published_at": "2026-10-06T21:03:00+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614699+00:00"
   },
   {
-    "title": "Whole-Body Planning for Human-Robot Cloth Co-Transportation",
-    "summary": "A hierarchical planning framework combines learned cloth models and reduced-order manipulation to enable obstacle-aware deformable object co-transportation.",
+    "title": "Programmable Memory Controller Eases DRAM Adoption",
+    "summary": "Researchers introduced a flexible DRAM interface and memory controller to simplify the adoption of new DRAM techniques.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
+    "published_at": "2026-10-06T20:58:05+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614704+00:00"
+  },
+  {
+    "title": "Deposition Sciences Expands Sunshade Tape Offering",
+    "summary": "Deposition Sciences, Inc. announced a new 12 inch by 30 inch format for its Sunshade thin film coating tape.",
+    "category": "Materials",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/deposition-sciences-inc-expands-sunshade-tape-offering-with-new-12-x-30-format/",
+    "published_at": "2026-10-06T19:20:20+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614709+00:00"
+  },
+  {
+    "title": "PEARS Framework for Tactile Robotic Manipulation",
+    "summary": "Researchers presented PEARS, a physics-prior-guided reinforcement learning framework for sample-efficient online adaptation of tactile robotic policies.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06641v1",
-    "published_at": "2026-10-05T16:26:31+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174748+00:00"
+    "source_url": "https://arxiv.org/abs/2610.08784v1",
+    "published_at": "2026-10-06T17:59:03+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614714+00:00"
   },
   {
-    "title": "Inverse Cross-Spectral Neural Networks for Multivariate Time Series",
-    "summary": "Inverse Cross-Spectral Neural Networks use inverse cross-spectral density matrices as graph shift operators to model stationary multivariate time series.",
+    "title": "Mission-Aware Attestation for Autonomous Systems",
+    "summary": "Researchers evaluated a runtime assurance contract for time-critical autonomous actions using a hardware-in-the-loop vehicle-to-infrastructure platform.",
     "category": "Computing",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06630v1",
-    "published_at": "2026-10-05T16:24:24+00:00",
-    "fetched_at": "2026-10-06T10:59:38.174754+00:00"
+    "source_url": "https://arxiv.org/abs/2610.08771v1",
+    "published_at": "2026-10-06T17:55:18+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614718+00:00"
   },
   {
-    "title": "Quadrotor Vector Field Following Using Reduced-Attitude Representations",
-    "summary": "Researchers proposed two vector field tracking controllers for quadrotors using reduced-attitude representations to enforce safety-critical control.",
-    "category": "Aerospace",
+    "title": "Rapid Fredholm Stabilization for Kuramoto-Sivashinsky Equation",
+    "summary": "Researchers developed a feedback design for rapid stabilization of the Kuramoto-Sivashinsky equation using two boundary inputs.",
+    "category": "Other Engineering",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06629v1",
-    "published_at": "2026-10-05T16:24:06+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741312+00:00"
+    "source_url": "https://arxiv.org/abs/2610.08764v1",
+    "published_at": "2026-10-06T17:50:54+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614723+00:00"
   },
   {
-    "title": "Robust Deep Learning Framework for Radar Target Detection",
-    "summary": "A proposed robust learning framework called SL-RLF addresses partial label errors in deep-learning-based radar target detection using a symmetry-condition loss function.",
+    "title": "VeriFine Framework Scales Verification for Embodied Reasoning",
+    "summary": "Researchers introduced VeriFine, an agent harness framework that scales verification through the co-evolution of policies, training curricula, and judges.",
     "category": "Computing",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.06613v1",
-    "published_at": "2026-10-05T16:17:14+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741323+00:00"
+    "source_url": "https://arxiv.org/abs/2610.08761v1",
+    "published_at": "2026-10-06T17:50:29+00:00",
+    "fetched_at": "2026-10-07T10:46:58.614727+00:00"
   },
   {
-    "title": "Row-Parallel DRAM Computing Reduces Data-Reorganization Overhead",
-    "summary": "Researchers published a paper on RAPID, a processing-using-memory architecture performing computation directly in DRAM to reduce data movement overhead.",
+    "title": "RIS-Assisted Resource Allocation in Upper Mid-Band 6G Networks",
+    "summary": "This paper investigates a reconfigurable intelligent surface-assisted network operating in the upper mid-band to maximize URLLC reliability under finite blocklength constraints.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08744v1",
+    "published_at": "2026-10-06T17:41:05+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589034+00:00"
+  },
+  {
+    "title": "PhoneBot: An Open Humanoid Robot Platform Using Smartphones",
+    "summary": "PhoneBot is a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08737v1",
+    "published_at": "2026-10-06T17:38:19+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589043+00:00"
+  },
+  {
+    "title": "Benchmark and Communication Framework for Robot Spoken Dialogue",
+    "summary": "Researchers propose a benchmark and real-time communication framework to explore spoken dialogue artifacts between robots and humans.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08733v1",
+    "published_at": "2026-10-06T17:36:01+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589048+00:00"
+  },
+  {
+    "title": "EgoLAP: Learning from Egocentric Human Data for Robot Control",
+    "summary": "EgoLAP is a vision-language-action pre-training framework that jointly learns from human and robot trajectories using a shared language-based action chain-of-thought.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08726v1",
+    "published_at": "2026-10-06T17:30:33+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589053+00:00"
+  },
+  {
+    "title": "Robust Scenario-Based Predictive Control for Battery Energy Storage",
+    "summary": "This study presents the first real-world deployment of scenario-based data-enabled predictive control on a grid-connected battery system to strictly enforce state-of-charge limits.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08702v1",
+    "published_at": "2026-10-06T17:15:27+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589057+00:00"
+  },
+  {
+    "title": "Rydberg Atomic Receivers for Integrated Sensing and Communication",
+    "summary": "This study examines a multi-branch Rydberg atomic receiver architecture for joint communication and radar sensing by solving the Lindblad master equation.",
     "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/row-parallel-dram-computing-cuts-data-reorganization-overhead-syracuse-fau-tu-dresden/",
-    "published_at": "2026-10-05T16:16:28+00:00",
-    "fetched_at": "2026-10-06T10:59:41.741330+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08696v1",
+    "published_at": "2026-10-06T17:11:11+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589062+00:00"
+  },
+  {
+    "title": "Magnet-Aware Control Framework for Legged Robots",
+    "summary": "Researchers developed a control framework using model predictive control and whole-body control to compensate for magnetic wrenches acting on legged robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08653v1",
+    "published_at": "2026-10-06T16:38:19+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589066+00:00"
+  },
+  {
+    "title": "Fast Non-Parametric Heteroscedastic Imitation Learning with Geometry",
+    "summary": "This paper proposes a non-parametric imitation learning approach leveraging geometric priors for probabilistic modeling in data-scarce scenarios.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08650v1",
+    "published_at": "2026-10-06T16:36:41+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589070+00:00"
+  },
+  {
+    "title": "Distributed Model-Free Turbine Repositioning for Wind Farms",
+    "summary": "A model-free method using distributed online optimization is proposed for turbine repositioning control to minimize wake effects in floating offshore wind farms.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08646v1",
+    "published_at": "2026-10-06T16:35:07+00:00",
+    "fetched_at": "2026-10-07T10:47:02.589074+00:00"
+  },
+  {
+    "title": "HygieneRoboBench Benchmarks Household Robot Hygiene Planning",
+    "summary": "Researchers introduced HygieneRoboBench and Hygiene-NSP to evaluate and improve how household robots plan safe task execution while managing contamination risks and user priorities.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08642v1",
+    "published_at": "2026-10-06T16:33:44+00:00",
+    "fetched_at": "2026-10-07T10:47:05.852146+00:00"
+  },
+  {
+    "title": "RIWANav Framework Improves Urban Navigation via Self-Improvement",
+    "summary": "RIWANAV is a new post-training framework that uses recursive self-improvement between an action model and a world model to enhance long-horizon urban navigation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08640v1",
+    "published_at": "2026-10-06T16:33:01+00:00",
+    "fetched_at": "2026-10-07T10:47:05.852155+00:00"
+  },
+  {
+    "title": "Force-Aware Locomotion Enables Quadruped Payload Interactions",
+    "summary": "A new force-aware locomotion framework allows quadruped robots to maintain stable payload transport while compliantly responding to external physical interactions.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08637v1",
+    "published_at": "2026-10-06T16:32:23+00:00",
+    "fetched_at": "2026-10-07T10:47:05.852161+00:00"
+  },
+  {
+    "title": "CropSentry Multi-Robot System Detects Early Crop Stress",
+    "summary": "CropSentry is a low-cost, ground-based multi-robot system that uses multimodal leaf sensing and spatial mapping to continuously monitor crop health and detect early stress.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08603v1",
+    "published_at": "2026-10-06T16:07:15+00:00",
+    "fetched_at": "2026-10-07T10:47:05.852166+00:00"
+  },
+  {
+    "title": "CMDS Coordinates Pretrained Diffusion Models via Stochastic Control",
+    "summary": "Coordinated Multi-Agent Diffusion Steering treats frozen pretrained diffusion models as reusable primitives, coordinating their processes through stochastic optimal control.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.08595v1",
+    "published_at": "2026-10-06T16:02:49+00:00",
+    "fetched_at": "2026-10-07T10:47:05.852170+00:00"
   }
 ]
