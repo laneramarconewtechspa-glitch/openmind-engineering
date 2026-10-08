@@ -1,5 +1,77 @@
 [
   {
+    "title": "Cement-Based Supercapacitors Enable Buildings to Store Energy",
+    "summary": "Scientists have developed an experimental cement-based supercapacitor that could allow building materials to store power.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/energy/cement-based-supercapacitor/",
+    "published_at": "2026-10-08T18:03:49+00:00",
+    "fetched_at": "2026-10-08T18:41:08.530123+00:00"
+  },
+  {
+    "title": "DLR Extension to Thamesmead and Beckton Riverside Backed",
+    "summary": "Plans to extend the Docklands Light Railway to Beckton Riverside and Thamesmead received strong support in a public consultation.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/archive/dlr-extension-to-thamesmead-and-beckton-riverside-backed-in-consultation-08-10-2026/",
+    "published_at": "2026-10-08T14:32:04+00:00",
+    "fetched_at": "2026-10-08T18:41:08.530136+00:00"
+  },
+  {
+    "title": "Guide Released for Migrating from NVIDIA Jetson to SiMa.ai",
+    "summary": "A new technical guide outlines the framework for migrating machine learning models from NVIDIA environments to the SiMa.ai platform.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/nvidia-jetson-to-sima-ai-modalix-mlsoc-migration-guide/",
+    "published_at": "2026-10-08T14:00:00+00:00",
+    "fetched_at": "2026-10-08T18:41:08.530142+00:00"
+  },
+  {
+    "title": "Rising Costs and Compute Demand Drive Modular ADAS AI",
+    "summary": "Increasing semiconductor costs and computing needs are pushing automakers toward modular ADAS AI solutions.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
+    "published_at": "2026-10-08T13:00:00+00:00",
+    "fetched_at": "2026-10-08T18:41:08.530146+00:00"
+  },
+  {
+    "title": "COMSOL Named Official Multiphysics Partner of Formula E",
+    "summary": "COMSOL will apply simulation, digital twins, and AI-assisted modeling to electric race car engineering challenges through this new partnership.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/comsol-becomes-formula-es-official-multiphysics-partner/",
+    "published_at": "2026-10-08T12:32:51+00:00",
+    "fetched_at": "2026-10-08T18:41:08.530151+00:00"
+  },
+  {
+    "title": "Google Launches Project Suncatcher Datacentre Satellite",
+    "summary": "Google launched its Project Suncatcher prototype datacentre satellite featuring Trillium TPUs via a SpaceX rideshare mission.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/gadget-master/general/pic-of-the-day-googles-project-suncatcher-datacentre-satellite-in-orbit-2026-10/",
+    "published_at": "2026-10-08T11:24:24+00:00",
+    "fetched_at": "2026-10-08T18:41:19.398005+00:00"
+  },
+  {
+    "title": "OKSI and Qualcomm Partner for Edge AI Autonomy",
+    "summary": "OKSI and Qualcomm are collaborating on edge AI autonomy with optimization for the QCS8550 processor.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/oksi-and-qualcomm-collaborate-on-edge-ai-autonomy/",
+    "published_at": "2026-10-08T11:21:41+00:00",
+    "fetched_at": "2026-10-08T18:41:19.398016+00:00"
+  },
+  {
+    "title": "Bentley Systems Announces 2026 Infrastructure Award Winners",
+    "summary": "Bentley Systems announced its infrastructure award winners following a competition of over 300 projects from 53 countries.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/bentley-systems-announces-2026-infrastructure-award-winners/",
+    "published_at": "2026-10-08T11:20:53+00:00",
+    "fetched_at": "2026-10-08T18:41:19.398022+00:00"
+  },
+  {
     "title": "CIOB Reacts to Irish Budget Infrastructure Plans",
     "summary": "The Chartered Institute of Building welcomed Ireland's infrastructure investment while warning of housing constraints and carbon tax retreats.",
     "category": "Civil & Infrastructure",
@@ -16,6 +88,15 @@
     "source_url": "https://www.engineering.com/lattice-and-arm-collaborate-on-secure-ai-infrastructure/",
     "published_at": "2026-10-08T10:11:43+00:00",
     "fetched_at": "2026-10-08T11:08:43.945935+00:00"
+  },
+  {
+    "title": "Einstein Probe Reveals Hidden Phase of Neutron Star Collisions",
+    "summary": "The Einstein Probe detected prolonged soft X-ray activity following a short gamma-ray burst from neutron star mergers.",
+    "category": "Aerospace",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
+    "published_at": "2026-10-08T10:06:06+00:00",
+    "fetched_at": "2026-10-08T18:41:19.398027+00:00"
   },
   {
     "title": "Mott MacDonald Wins East Coast Hydrogen Design",
@@ -187,86 +268,5 @@
     "source_url": "https://www.eetimes.com/why-ais-limit-is-power-not-chips-gopi-sirineni-at-ai-infra-summit-2026/",
     "published_at": "2026-10-07T19:56:58+00:00",
     "fetched_at": "2026-10-08T11:08:58.477594+00:00"
-  },
-  {
-    "title": "Carl Zeiss and ASML Detail Hyper-NA EUV Lithography",
-    "summary": "Researchers published a technical paper on Hyper-NA EUV lithography systems featuring a numerical aperture of at least 0.75.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/hyper-na-euv-the-next-extension-beyond-high-na-lithography-carl-zeiss-asml/",
-    "published_at": "2026-10-07T19:47:59+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477598+00:00"
-  },
-  {
-    "title": "Modular Recyclable Tire Developed with Silicone Tread",
-    "summary": "Spanish scientists are developing a modular tire design featuring a removable silicone tread to simplify recycling.",
-    "category": "Materials",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/ecotire-modular-recyclable-tire/",
-    "published_at": "2026-10-07T18:37:00+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477602+00:00"
-  },
-  {
-    "title": "World's Tallest Wind Turbine Built in Germany",
-    "summary": "A 365-meter wind turbine built by Gicon in Lusatia, Germany, is slated for inauguration on November 19.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/wind-power/wind-turbine-taller-than-the-eiffel-tower-aims-to-boost-german-electricity-production/",
-    "published_at": "2026-10-07T18:17:00+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477607+00:00"
-  },
-  {
-    "title": "Unsupervised Acoustic Fault Detection for Drones",
-    "summary": "Researchers developed a maneuver-aware acoustic fault detection framework for autonomous drones deployed on an NVIDIA Jetson platform.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.10517v1",
-    "published_at": "2026-10-07T17:55:09+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477611+00:00"
-  },
-  {
-    "title": "RoboJEPA Introduces Scaling Laws for Robotic World Models",
-    "summary": "Researchers presented RoboJEPA, an 8 billion parameter latent world model trained across twelve robotic embodiments to establish computing scaling laws.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.10515v1",
-    "published_at": "2026-10-07T17:54:42+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477615+00:00"
-  },
-  {
-    "title": "Factorized Tactile Representation Improves Sim-to-Real Manipulation",
-    "summary": "A new framework separates tactile responses into geometry, force, and time to enhance sim-to-real tactile manipulation and contact-rich peg insertion.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.10510v1",
-    "published_at": "2026-10-07T17:51:52+00:00",
-    "fetched_at": "2026-10-08T11:09:02.334220+00:00"
-  },
-  {
-    "title": "Agentic RSR Links Scene Reconstruction to Robot Execution",
-    "summary": "Agentic Real-to-Sim-to-Real connects scene reconstruction, policy development, and real-robot execution to achieve reliable transfer across diverse workspaces.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.10479v1",
-    "published_at": "2026-10-07T17:37:20+00:00",
-    "fetched_at": "2026-10-08T11:09:02.334230+00:00"
-  },
-  {
-    "title": "Model-Based Design Enables Robotic Boomerang Throwing",
-    "summary": "Researchers developed a model-based release framework that enables a robotic manipulator to successfully throw and catch a returning boomerang.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.10472v1",
-    "published_at": "2026-10-07T17:34:36+00:00",
-    "fetched_at": "2026-10-08T11:09:02.334235+00:00"
-  },
-  {
-    "title": "DOE Selects Hydropower Projects for Modernization Vouchers",
-    "summary": "The U.S. Department of Energy selected fourteen hydropower projects for negotiations on in-kind technical support vouchers focused on modernization.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
-    "published_at": "2026-10-07T17:27:00+00:00",
-    "fetched_at": "2026-10-08T11:09:02.334239+00:00"
   }
 ]
