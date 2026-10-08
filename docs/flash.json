@@ -1,5 +1,131 @@
 [
   {
+    "title": "CIOB Reacts to Irish Budget Infrastructure Plans",
+    "summary": "The Chartered Institute of Building welcomed Ireland's infrastructure investment while warning of housing constraints and carbon tax retreats.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/ciob-praises-irish-budget-but-warns-of-underlying-constraints-and-a-retreat-on-carbon-taxes/",
+    "published_at": "2026-10-08T10:45:57+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945921+00:00"
+  },
+  {
+    "title": "Lattice and Arm Partner for Secure AI",
+    "summary": "Lattice FPGAs and AMI firmware are collaborating to bring secure management and connectivity to Arm AGI CPU server platforms.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/lattice-and-arm-collaborate-on-secure-ai-infrastructure/",
+    "published_at": "2026-10-08T10:11:43+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945935+00:00"
+  },
+  {
+    "title": "Mott MacDonald Wins East Coast Hydrogen Design",
+    "summary": "Mott MacDonald has been appointed by Northern Gas Networks to deliver front-end engineering design for East Coast Hydrogen.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/mott-macdonald-appointed-to-design-east-coast-hydrogen-infrastructure-08-10-2026/",
+    "published_at": "2026-10-08T09:46:58+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945941+00:00"
+  },
+  {
+    "title": "SuperSharp Leads THEOSCOPE IR Mission",
+    "summary": "Thermal infrared imaging specialist SuperSharp has been chosen to lead Europe's THEOSCOPE Earth observation mission.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/supersharp-to-lead-theoscope-ir-earth-observation-mission-2026-10/",
+    "published_at": "2026-10-08T09:10:26+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945945+00:00"
+  },
+  {
+    "title": "Dŵr Cymru Launches £52.8M Works Framework",
+    "summary": "Welsh water company Dŵr Cymru has launched a framework for low-value construction, repair, maintenance, and improvement works.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/welsh-water-company-dwr-cymru-launches-52-8m-low-value-works-framework-08-10-2026/",
+    "published_at": "2026-10-08T08:31:45+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945952+00:00"
+  },
+  {
+    "title": "Rohm Semiconductor Expands Outsourcing in India",
+    "summary": "Rohm Semiconductor is expanding its back-end semiconductor operations and R&D footprint in India while keeping wafer fabrication in-house.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
+    "published_at": "2026-10-08T07:18:51+00:00",
+    "fetched_at": "2026-10-08T11:08:43.945956+00:00"
+  },
+  {
+    "title": "Hybrid Bonding Process Control Detects Critical Defects Early",
+    "summary": "Complementary inspection and metrology techniques enable detection of smaller defects within a unified workflow.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/finding-critical-defects-before-they-become-costly-failures-process-control-for-hybrid-bonding-and-advanced-packaging/",
+    "published_at": "2026-10-08T07:06:04+00:00",
+    "fetched_at": "2026-10-08T11:08:46.782554+00:00"
+  },
+  {
+    "title": "Shift Left Complicates Fab Data Management",
+    "summary": "Streaming sensor data creates new challenges for advanced process control in semiconductor manufacturing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/shift-left-complicates-fab-data-management/",
+    "published_at": "2026-10-08T07:02:25+00:00",
+    "fetched_at": "2026-10-08T11:08:46.782563+00:00"
+  },
+  {
+    "title": "Electrical Process Control Advances Advanced Packaging",
+    "summary": "Electrical process control emerges as the next frontier alongside traditional visual inspection.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/the-faast-track-enabling-advanced-packaging-through-electrical-process-control/",
+    "published_at": "2026-10-08T07:01:59+00:00",
+    "fetched_at": "2026-10-08T11:08:46.782569+00:00"
+  },
+  {
+    "title": "CPO Testing Adapts to Moving Target Problem",
+    "summary": "Test vendors are adapting to changing connector architectures and alignment tolerances as co-packaged optics becomes mainstream.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/cpo-testing-faces-a-moving-target-problem/",
+    "published_at": "2026-10-08T07:01:36+00:00",
+    "fetched_at": "2026-10-08T11:08:46.782573+00:00"
+  },
+  {
+    "title": "Kier to Deliver £115M Manchester Airport Station Upgrade",
+    "summary": "Network Rail is investing £115M to conduct significant upgrades at the Manchester Airport railway station.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/kier-to-deliver-115m-upgrade-at-manchester-airport-rail-station-08-10-2026/",
+    "published_at": "2026-10-08T05:30:08+00:00",
+    "fetched_at": "2026-10-08T11:08:46.782581+00:00"
+  },
+  {
+    "title": "Intel and Applied Materials Partner on Process Tech",
+    "summary": "Intel and Applied Materials announced a multi-site collaboration covering transistor development, packaging, interconnect, and power delivery.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/intel-and-applied-hook-up-on-process-2026-10/",
+    "published_at": "2026-10-08T05:14:14+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091186+00:00"
+  },
+  {
+    "title": "AI Techniques Aim to Improve Data Center Energy Efficiency",
+    "summary": "Researchers are rethinking large cloud computing systems to help mitigate the growing environmental threat and energy consumption of data centers.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+    "published_at": "2026-10-08T04:00:00+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091196+00:00"
+  },
+  {
+    "title": "Paper-Thin Foot Membrane Powers Crawling Microrobots",
+    "summary": "Researchers have developed a paper-thin foot membrane that harvests electricity from surfaces to power microrobots without heavy onboard batteries.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/robot-harvests-power-skin-feet-membrane/",
+    "published_at": "2026-10-08T02:51:40+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091201+00:00"
+  },
+  {
     "title": "New Book Examines Crushing Behaviour of Expanded Clay Aggregate",
     "summary": "A newly published book offers a multi-scale analysis of crushing behaviour and design implications for expanded clay aggregate in engineering.",
     "category": "Materials",
@@ -9,264 +135,138 @@
     "fetched_at": "2026-10-07T18:17:01.101705+00:00"
   },
   {
-    "title": "Teradyne Robotics and Elite Robots Settle Cobot Dispute",
-    "summary": "Teradyne Robotics and Elite Robots have resolved their software legal dispute without releasing the financial terms.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
-    "published_at": "2026-10-07T16:20:52+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101715+00:00"
-  },
-  {
-    "title": "Kyushu University Researcher Develops VR Chair",
-    "summary": "A researcher has designed a chair that provides an alternative virtual reality experience without requiring a headset.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/vr/kyushu-university-chair-virtual-worlds/",
-    "published_at": "2026-10-07T15:56:11+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101719+00:00"
-  },
-  {
-    "title": "Examining Power Architectures for High-Performance Burn-In",
-    "summary": "An upcoming session will explore power technologies and design practices to enhance manufacturer product quality and reliability.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/engineering-reliability-power-architectures-for-high-performance-burn-in/",
-    "published_at": "2026-10-07T15:47:11+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101722+00:00"
-  },
-  {
-    "title": "AMD CTO Discusses Tailored Computing for AI",
-    "summary": "AMD CTO Mark Papermaster highlighted tailored computing and holistic design as keys to delivering artificial intelligence.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/amds-mark-papermaster-exclusive-video-interview-at-world-summit-ai/",
-    "published_at": "2026-10-07T14:57:52+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101726+00:00"
-  },
-  {
-    "title": "Hybrid Headphones Convert into a Bluetooth Speaker",
-    "summary": "A new pair of headphones features a design that allows the headband to twist and form a shared speaker.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/hybrid-headphones-speaker-tdm-neo-twist/",
-    "published_at": "2026-10-07T13:27:00+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101729+00:00"
-  },
-  {
-    "title": "Automotive Era Drives New Semiconductor Requirements",
-    "summary": "Electrification and software-defined vehicles are driving new packaging and test requirements for semiconductors.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/from-electrification-to-architecture-the-next-automotive-era/",
-    "published_at": "2026-10-07T13:00:00+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101732+00:00"
-  },
-  {
-    "title": "Report Analyzes Australian Residential Building Sector",
-    "summary": "A new report highlights how market volatility hampers the Australian construction sector's capacity to deliver housing.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/how-to-solve-australias-volatile-and-fragmented-residential-building-sector/",
-    "published_at": "2026-10-07T12:59:48+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101735+00:00"
-  },
-  {
-    "title": "Physicists Find Evidence of Superconductivity Ghost",
-    "summary": "Physicists discovered evidence of pair density waves in uranium ditelluride, showing electron pairing behavior persists after superconductivity vanishes.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261005071517.htm",
-    "published_at": "2026-10-07T12:34:39+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101738+00:00"
-  },
-  {
-    "title": "Harmonic Drive to Demonstrate Integrated Actuators",
-    "summary": "Harmonic Drive will present how integrated actuators can reduce engineering effort by simplifying system integration.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
-    "published_at": "2026-10-07T12:24:09+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101741+00:00"
-  },
-  {
-    "title": "Weight-Loss Drugs Show Potential to Slow Aging",
-    "summary": "Popular weight-loss drugs are showing signs that they may also slow the biological aging process, according to drugmakers.",
+    "title": "Vanilla-Derived Compound Accelerates Chronic Wound Healing",
+    "summary": "Researchers discovered that vanillin, a compound found in vanilla pods, can help treat chronic wounds.",
     "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
-    "published_at": "2026-10-07T12:10:00+00:00",
-    "fetched_at": "2026-10-07T18:17:08.433305+00:00"
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/medical/vanilla-accelerate-healing-chronic-wounds-flinders/",
+    "published_at": "2026-10-07T23:03:00+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091206+00:00"
   },
   {
-    "title": "UK CAA Consults on Digital Air Traffic Infrastructure",
-    "summary": "The UK Civil Aviation Authority launched a consultation on its proposed System Wide Information Management approach for aviation information exchange.",
+    "title": "Blue Origin Unveils Spiral Solar Tower for Moon Bases",
+    "summary": "Blue Origin has unveiled a 20-meter-tall solar array tower designed to provide continuous electrical power for future lunar bases.",
     "category": "Aerospace",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/caa-consults-on-digital-infrastructure-framework-for-air-traffic-management-07-10-2026/",
-    "published_at": "2026-10-07T09:52:38+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074393+00:00"
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/space-systems/blue-origin-power-tower-solar-moon-bases/",
+    "published_at": "2026-10-07T22:44:48+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091210+00:00"
   },
   {
-    "title": "Boston Dynamics Names Rohit Prasad CEO",
-    "summary": "Prasad will lead the company's Physical AI strategy to combine robotics and AI for scaling intelligent machines.",
+    "title": "BMW Introduces New F 450 R Lightweight Naked Bike",
+    "summary": "BMW is expanding its lineup with the F 450 R, featuring the powertrain and technology of its adventure sibling in a light naked frame.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/bmw-naked-f450r/",
+    "published_at": "2026-10-07T21:00:00+00:00",
+    "fetched_at": "2026-10-08T11:08:55.091214+00:00"
+  },
+  {
+    "title": "Synopsys Integrates Agentic AI for Chip Design",
+    "summary": "Synopsys is utilizing agentic AI to orchestrate EDA tools for explainable chip design and faster engineering workflows.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
+    "published_at": "2026-10-07T20:07:11+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477579+00:00"
+  },
+  {
+    "title": "Hyundai and Boston Dynamics Deploy Atlas Humanoids",
+    "summary": "The Robotics Metaplant Applications Center will enable the wide-scale rollout of Atlas humanoids for manufacturing work.",
     "category": "Robotics",
     "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/boston-dynamics-appoints-rohit-prasad-as-ceo/",
-    "published_at": "2026-10-07T09:31:31+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074406+00:00"
+    "source_url": "https://www.engineering.com/hyundai-and-boston-dynamics-bet-big-on-ai-robot-training-for-manufacturing/",
+    "published_at": "2026-10-07T20:00:00+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477589+00:00"
   },
   {
-    "title": "Flexcompute Simulates Starlab Cabin Airflow",
-    "summary": "GPU-native computational fluid dynamics modeled full-station airflow and is being extended to track carbon dioxide movement.",
-    "category": "Aerospace",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/flexcompute-simulates-starlab-space-station-cabin-airflow/",
-    "published_at": "2026-10-07T08:56:19+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074412+00:00"
-  },
-  {
-    "title": "Logic Fruit Launches FPGA-Based BMC Family for OCP Servers",
-    "summary": "The L-Nex combines OpenBMC, telemetry, remote KVM, and hardware root of trust in a reconfigurable FPGA SoC.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/logic-fruit-unveils-fpga-based-bmc-family-for-ocp-servers/",
-    "published_at": "2026-10-07T08:47:46+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074417+00:00"
-  },
-  {
-    "title": "Thermal Complexity Rises in AI Chips and Photonics",
-    "summary": "Increasing power density makes heat, stress, and aging harder to predict and more critical to address early in design.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/thermal-complexity-grows-with-ai-chips-and-photonics/",
-    "published_at": "2026-10-07T07:01:34+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074421+00:00"
-  },
-  {
-    "title": "Semiconductor Sales Reach $1 Trillion Milestone",
-    "summary": "Semiconductor sales reached $159.7 billion in August 2026, marking significant growth compared to previous months.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/semi-sales-hit-1trb-2026-10/",
-    "published_at": "2026-10-07T05:13:05+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074426+00:00"
-  },
-  {
-    "title": "New Method Fights Gum Disease While Preserving Good Bacteria",
-    "summary": "Disrupting bacterial communication can push dental plaque toward a healthier microbial balance without destroying beneficial species.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261005012230.htm",
-    "published_at": "2026-10-07T03:55:00+00:00",
-    "fetched_at": "2026-10-07T10:46:55.074431+00:00"
-  },
-  {
-    "title": "Lemmo Introduces Versatile SUV Ebike",
-    "summary": "Berlin startup Lemmo has announced a versatile SUV ebike designed to offer a comfortable ride for families and adventurous riders.",
+    "title": "Power is AI Bottleneck, Says Gopi Sirineni",
+    "summary": "Industry expert Gopi Sirineni noted that power is AI's primary limit rather than chips, proposing autonomous rack controllers to boost efficiency.",
     "category": "Energy",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/bicycles/lemmo-utility-ebike-long-tail-suspension/",
-    "published_at": "2026-10-06T22:01:36+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614685+00:00"
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/why-ais-limit-is-power-not-chips-gopi-sirineni-at-ai-infra-summit-2026/",
+    "published_at": "2026-10-07T19:56:58+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477594+00:00"
   },
   {
-    "title": "Monolithic 3D Memristor-TFT Stack for Neuromorphic Computing",
-    "summary": "Researchers published a paper detailing a monolithically integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing.",
+    "title": "Carl Zeiss and ASML Detail Hyper-NA EUV Lithography",
+    "summary": "Researchers published a technical paper on Hyper-NA EUV lithography systems featuring a numerical aperture of at least 0.75.",
     "category": "Electronics & Semiconductors",
     "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/monolithic-3d-memristor-tft-stack-for-programmable-neuromorphic-computing-snu-yonsei/",
-    "published_at": "2026-10-06T21:29:31+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614694+00:00"
+    "source_url": "https://semiengineering.com/hyper-na-euv-the-next-extension-beyond-high-na-lithography-carl-zeiss-asml/",
+    "published_at": "2026-10-07T19:47:59+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477598+00:00"
   },
   {
-    "title": "Leisure Travel Vans Reveals Ford Transit Motorhome",
-    "summary": "Leisure Travel Vans introduced the 2027 Wonder FX motorhome, combining a slide-out wall with a split-recliner Murphy lounge and bed.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/rvs-motorhomes/ltv-wonder-fx-ford-motorhome/",
-    "published_at": "2026-10-06T21:03:00+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614699+00:00"
-  },
-  {
-    "title": "Programmable Memory Controller Eases DRAM Adoption",
-    "summary": "Researchers introduced a flexible DRAM interface and memory controller to simplify the adoption of new DRAM techniques.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
-    "published_at": "2026-10-06T20:58:05+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614704+00:00"
-  },
-  {
-    "title": "Deposition Sciences Expands Sunshade Tape Offering",
-    "summary": "Deposition Sciences, Inc. announced a new 12 inch by 30 inch format for its Sunshade thin film coating tape.",
+    "title": "Modular Recyclable Tire Developed with Silicone Tread",
+    "summary": "Spanish scientists are developing a modular tire design featuring a removable silicone tread to simplify recycling.",
     "category": "Materials",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/deposition-sciences-inc-expands-sunshade-tape-offering-with-new-12-x-30-format/",
-    "published_at": "2026-10-06T19:20:20+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614709+00:00"
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/ecotire-modular-recyclable-tire/",
+    "published_at": "2026-10-07T18:37:00+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477602+00:00"
   },
   {
-    "title": "PEARS Framework for Tactile Robotic Manipulation",
-    "summary": "Researchers presented PEARS, a physics-prior-guided reinforcement learning framework for sample-efficient online adaptation of tactile robotic policies.",
+    "title": "World's Tallest Wind Turbine Built in Germany",
+    "summary": "A 365-meter wind turbine built by Gicon in Lusatia, Germany, is slated for inauguration on November 19.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/wind-power/wind-turbine-taller-than-the-eiffel-tower-aims-to-boost-german-electricity-production/",
+    "published_at": "2026-10-07T18:17:00+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477607+00:00"
+  },
+  {
+    "title": "Unsupervised Acoustic Fault Detection for Drones",
+    "summary": "Researchers developed a maneuver-aware acoustic fault detection framework for autonomous drones deployed on an NVIDIA Jetson platform.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08784v1",
-    "published_at": "2026-10-06T17:59:03+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614714+00:00"
+    "source_url": "https://arxiv.org/abs/2610.10517v1",
+    "published_at": "2026-10-07T17:55:09+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477611+00:00"
   },
   {
-    "title": "Mission-Aware Attestation for Autonomous Systems",
-    "summary": "Researchers evaluated a runtime assurance contract for time-critical autonomous actions using a hardware-in-the-loop vehicle-to-infrastructure platform.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08771v1",
-    "published_at": "2026-10-06T17:55:18+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614718+00:00"
-  },
-  {
-    "title": "Rapid Fredholm Stabilization for Kuramoto-Sivashinsky Equation",
-    "summary": "Researchers developed a feedback design for rapid stabilization of the Kuramoto-Sivashinsky equation using two boundary inputs.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08764v1",
-    "published_at": "2026-10-06T17:50:54+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614723+00:00"
-  },
-  {
-    "title": "VeriFine Framework Scales Verification for Embodied Reasoning",
-    "summary": "Researchers introduced VeriFine, an agent harness framework that scales verification through the co-evolution of policies, training curricula, and judges.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08761v1",
-    "published_at": "2026-10-06T17:50:29+00:00",
-    "fetched_at": "2026-10-07T10:46:58.614727+00:00"
-  },
-  {
-    "title": "RIS-Assisted Resource Allocation in Upper Mid-Band 6G Networks",
-    "summary": "This paper investigates a reconfigurable intelligent surface-assisted network operating in the upper mid-band to maximize URLLC reliability under finite blocklength constraints.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08744v1",
-    "published_at": "2026-10-06T17:41:05+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589034+00:00"
-  },
-  {
-    "title": "PhoneBot: An Open Humanoid Robot Platform Using Smartphones",
-    "summary": "PhoneBot is a low-cost, open-source humanoid robot platform that repurposes commodity smartphones as its primary sensing and computing unit.",
+    "title": "RoboJEPA Introduces Scaling Laws for Robotic World Models",
+    "summary": "Researchers presented RoboJEPA, an 8 billion parameter latent world model trained across twelve robotic embodiments to establish computing scaling laws.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08737v1",
-    "published_at": "2026-10-06T17:38:19+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589043+00:00"
+    "source_url": "https://arxiv.org/abs/2610.10515v1",
+    "published_at": "2026-10-07T17:54:42+00:00",
+    "fetched_at": "2026-10-08T11:08:58.477615+00:00"
   },
   {
-    "title": "Benchmark and Communication Framework for Robot Spoken Dialogue",
-    "summary": "Researchers propose a benchmark and real-time communication framework to explore spoken dialogue artifacts between robots and humans.",
-    "category": "Computing",
+    "title": "Factorized Tactile Representation Improves Sim-to-Real Manipulation",
+    "summary": "A new framework separates tactile responses into geometry, force, and time to enhance sim-to-real tactile manipulation and contact-rich peg insertion.",
+    "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.08733v1",
-    "published_at": "2026-10-06T17:36:01+00:00",
-    "fetched_at": "2026-10-07T10:47:02.589048+00:00"
+    "source_url": "https://arxiv.org/abs/2610.10510v1",
+    "published_at": "2026-10-07T17:51:52+00:00",
+    "fetched_at": "2026-10-08T11:09:02.334220+00:00"
+  },
+  {
+    "title": "Agentic RSR Links Scene Reconstruction to Robot Execution",
+    "summary": "Agentic Real-to-Sim-to-Real connects scene reconstruction, policy development, and real-robot execution to achieve reliable transfer across diverse workspaces.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.10479v1",
+    "published_at": "2026-10-07T17:37:20+00:00",
+    "fetched_at": "2026-10-08T11:09:02.334230+00:00"
+  },
+  {
+    "title": "Model-Based Design Enables Robotic Boomerang Throwing",
+    "summary": "Researchers developed a model-based release framework that enables a robotic manipulator to successfully throw and catch a returning boomerang.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.10472v1",
+    "published_at": "2026-10-07T17:34:36+00:00",
+    "fetched_at": "2026-10-08T11:09:02.334235+00:00"
+  },
+  {
+    "title": "DOE Selects Hydropower Projects for Modernization Vouchers",
+    "summary": "The U.S. Department of Energy selected fourteen hydropower projects for negotiations on in-kind technical support vouchers focused on modernization.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/renewables/hydropower/doe-selects-second-round-of-hydropower-projects-for-technical-support-with-modernization-in-mind/",
+    "published_at": "2026-10-07T17:27:00+00:00",
+    "fetched_at": "2026-10-08T11:09:02.334239+00:00"
   }
 ]
