@@ -1,5 +1,113 @@
 [
   {
+    "title": "Delivery Drone Air Traffic Controllers Emerge",
+    "summary": "Remote pilots in command are managing neighborhood drone delivery services as commercial autonomous flights expand.",
+    "category": "Aerospace",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/09/1145737/job-titles-delivery-drone-air-traffic-controller-trevor-wischnewsky/",
+    "published_at": "2026-10-09T09:00:00+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558305+00:00"
+  },
+  {
+    "title": "Physical AI Requires Neuromorphic Architecture",
+    "summary": "Physical AI applications face real-world limitations unless neuromorphic paths connect sensors directly to silicon.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
+    "published_at": "2026-10-09T08:39:41+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558317+00:00"
+  },
+  {
+    "title": "Siemens Streamlines Scaling 3D IC Design",
+    "summary": "Siemens Innovator3D IC aims to streamline 3D integrated circuit design from initial planning to final implementation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/scaling-3d-ic-design-trends-challenges-and-practical-workflows/",
+    "published_at": "2026-10-09T07:32:29+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558322+00:00"
+  },
+  {
+    "title": "Chip Industry Highlights: Foundry Pacts and Hyper-NA",
+    "summary": "Recent semiconductor industry developments include a $2 billion foundry pact, hyper-NA EUV updates, and financial reports.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-week-in-review-159/",
+    "published_at": "2026-10-09T07:01:17+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558326+00:00"
+  },
+  {
+    "title": "Rockwell Joins Pharmaceutical Digitization Consortium",
+    "summary": "Rockwell joined an initiative to develop digital standards and AI-enabled tools across the drug development lifecycle.",
+    "category": "Biomedical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/rockwell-joins-consortium-to-digitize-pharmaceutical-development/",
+    "published_at": "2026-10-09T06:26:17+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558330+00:00"
+  },
+  {
+    "title": "Seeq and Cognizant Partner for Pharma Industrial AI",
+    "summary": "Seeq and Cognizant are collaborating to bring scalable OEE monitoring and industrial AI to regulated manufacturing sites.",
+    "category": "Biomedical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/seeq-and-cognizant-collaborate-on-industrial-ai-for-pharma/",
+    "published_at": "2026-10-09T06:21:13+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558333+00:00"
+  },
+  {
+    "title": "Arm Versus Qualcomm Legal Case Concludes",
+    "summary": "The legal battle between Arm and Qualcomm in Delaware has concluded, awaiting final rulings from the judge and jury.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/qualcomm-vs-arm-day-4-2026-10/",
+    "published_at": "2026-10-09T05:17:49+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558337+00:00"
+  },
+  {
+    "title": "ASML Launches Hyper-NA EUV Development",
+    "summary": "ASML started a ten-year program to develop a Hyper-NA EUV lithography tool aimed at achieving 5nm feature sizes.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/asml-starts-on-hyper-na-euv-2026-10/",
+    "published_at": "2026-10-09T05:16:36+00:00",
+    "fetched_at": "2026-10-09T11:06:42.558340+00:00"
+  },
+  {
+    "title": "TSMC September Revenue Climbs 54% Year-Over-Year",
+    "summary": "TSMC reported a September revenue of $16.1 billion, representing a 54.6% increase compared to September 2025.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/tsmc-september-revenue-up-54-yoy-2026-10/",
+    "published_at": "2026-10-09T05:12:21+00:00",
+    "fetched_at": "2026-10-09T11:06:45.596045+00:00"
+  },
+  {
+    "title": "Self-Buoyant Spheroid Culture Enables Programmable Multi-Spheroid Assembly",
+    "summary": "Researchers demonstrated a self-buoyant cell culture method using microbubbles for high-throughput, field-free multi-spheroid assembly and rapid fluid transfer.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/dca0b18d4f5e706e135389bd8a67777175464c62",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-09T11:06:45.596054+00:00"
+  },
+  {
+    "title": "Correlated Electron Conduction Found in WO3 Ferroelastic Walls",
+    "summary": "Surface-exposed ferroelastic twin walls in epitaxial WO3 films act as intrinsic one-dimensional channels with significantly enhanced conductance.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a60e64eeeb20c9c277789e2d2a9efd9e40607fb6",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-09T11:06:45.596058+00:00"
+  },
+  {
+    "title": "DNA Nanodevice-Engineered Macrophages Act as Living Sensors",
+    "summary": "Engineered macrophages utilizing DNA origami nanodevices convert endogenous microenvironmental signals into state-specific reporter outputs for tumor monitoring.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/77d78ce572dc515414a5d4b603fa0192a377b296",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-09T11:06:45.596062+00:00"
+  },
+  {
     "title": "Cement-Based Supercapacitors Enable Buildings to Store Energy",
     "summary": "Scientists have developed an experimental cement-based supercapacitor that could allow building materials to store power.",
     "category": "Energy",
@@ -160,113 +268,5 @@
     "source_url": "https://semiengineering.com/the-faast-track-enabling-advanced-packaging-through-electrical-process-control/",
     "published_at": "2026-10-08T07:01:59+00:00",
     "fetched_at": "2026-10-08T11:08:46.782569+00:00"
-  },
-  {
-    "title": "CPO Testing Adapts to Moving Target Problem",
-    "summary": "Test vendors are adapting to changing connector architectures and alignment tolerances as co-packaged optics becomes mainstream.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/cpo-testing-faces-a-moving-target-problem/",
-    "published_at": "2026-10-08T07:01:36+00:00",
-    "fetched_at": "2026-10-08T11:08:46.782573+00:00"
-  },
-  {
-    "title": "Kier to Deliver £115M Manchester Airport Station Upgrade",
-    "summary": "Network Rail is investing £115M to conduct significant upgrades at the Manchester Airport railway station.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/kier-to-deliver-115m-upgrade-at-manchester-airport-rail-station-08-10-2026/",
-    "published_at": "2026-10-08T05:30:08+00:00",
-    "fetched_at": "2026-10-08T11:08:46.782581+00:00"
-  },
-  {
-    "title": "Intel and Applied Materials Partner on Process Tech",
-    "summary": "Intel and Applied Materials announced a multi-site collaboration covering transistor development, packaging, interconnect, and power delivery.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/intel-and-applied-hook-up-on-process-2026-10/",
-    "published_at": "2026-10-08T05:14:14+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091186+00:00"
-  },
-  {
-    "title": "AI Techniques Aim to Improve Data Center Energy Efficiency",
-    "summary": "Researchers are rethinking large cloud computing systems to help mitigate the growing environmental threat and energy consumption of data centers.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
-    "published_at": "2026-10-08T04:00:00+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091196+00:00"
-  },
-  {
-    "title": "Paper-Thin Foot Membrane Powers Crawling Microrobots",
-    "summary": "Researchers have developed a paper-thin foot membrane that harvests electricity from surfaces to power microrobots without heavy onboard batteries.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/robotics/robot-harvests-power-skin-feet-membrane/",
-    "published_at": "2026-10-08T02:51:40+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091201+00:00"
-  },
-  {
-    "title": "New Book Examines Crushing Behaviour of Expanded Clay Aggregate",
-    "summary": "A newly published book offers a multi-scale analysis of crushing behaviour and design implications for expanded clay aggregate in engineering.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/0532ccf5e3d544fc65cc56c8a114df8a8c848be0",
-    "published_at": "2026-10-08T00:00:00+00:00",
-    "fetched_at": "2026-10-07T18:17:01.101705+00:00"
-  },
-  {
-    "title": "Vanilla-Derived Compound Accelerates Chronic Wound Healing",
-    "summary": "Researchers discovered that vanillin, a compound found in vanilla pods, can help treat chronic wounds.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/medical/vanilla-accelerate-healing-chronic-wounds-flinders/",
-    "published_at": "2026-10-07T23:03:00+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091206+00:00"
-  },
-  {
-    "title": "Blue Origin Unveils Spiral Solar Tower for Moon Bases",
-    "summary": "Blue Origin has unveiled a 20-meter-tall solar array tower designed to provide continuous electrical power for future lunar bases.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/space-systems/blue-origin-power-tower-solar-moon-bases/",
-    "published_at": "2026-10-07T22:44:48+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091210+00:00"
-  },
-  {
-    "title": "BMW Introduces New F 450 R Lightweight Naked Bike",
-    "summary": "BMW is expanding its lineup with the F 450 R, featuring the powertrain and technology of its adventure sibling in a light naked frame.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/bmw-naked-f450r/",
-    "published_at": "2026-10-07T21:00:00+00:00",
-    "fetched_at": "2026-10-08T11:08:55.091214+00:00"
-  },
-  {
-    "title": "Synopsys Integrates Agentic AI for Chip Design",
-    "summary": "Synopsys is utilizing agentic AI to orchestrate EDA tools for explainable chip design and faster engineering workflows.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
-    "published_at": "2026-10-07T20:07:11+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477579+00:00"
-  },
-  {
-    "title": "Hyundai and Boston Dynamics Deploy Atlas Humanoids",
-    "summary": "The Robotics Metaplant Applications Center will enable the wide-scale rollout of Atlas humanoids for manufacturing work.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/hyundai-and-boston-dynamics-bet-big-on-ai-robot-training-for-manufacturing/",
-    "published_at": "2026-10-07T20:00:00+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477589+00:00"
-  },
-  {
-    "title": "Power is AI Bottleneck, Says Gopi Sirineni",
-    "summary": "Industry expert Gopi Sirineni noted that power is AI's primary limit rather than chips, proposing autonomous rack controllers to boost efficiency.",
-    "category": "Energy",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/why-ais-limit-is-power-not-chips-gopi-sirineni-at-ai-infra-summit-2026/",
-    "published_at": "2026-10-07T19:56:58+00:00",
-    "fetched_at": "2026-10-08T11:08:58.477594+00:00"
   }
 ]
