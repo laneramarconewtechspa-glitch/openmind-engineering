@@ -1,5 +1,68 @@
 [
   {
+    "title": "Ascensia and Sava Partner for Next-Gen Diabetes Microsensors",
+    "summary": "Ascensia partners with Sava Technologies to commercialize minimally invasive glucose monitoring microsensors targeting CE approval within 18 to 24 months.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/diabetes/ascensia-partners-with-sava-for-next-gen-diabetes-microsensors",
+    "published_at": "2026-10-09T17:21:46+00:00",
+    "fetched_at": "2026-10-09T17:50:36.362999+00:00"
+  },
+  {
+    "title": "Black Hills to Build Gas Generation and Microgrid for Google",
+    "summary": "Black Hills Corp. plans $1.8 billion in natural gas generation and will manage a 2.1-GW microgrid for Google's Wyoming data center.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/onsite-power/microgrids/google-wyoming-data-center-black-hills-natural-gas/",
+    "published_at": "2026-10-09T15:35:00+00:00",
+    "fetched_at": "2026-10-09T17:50:36.363014+00:00"
+  },
+  {
+    "title": "Starship Ship 42 Undergoes Cryo Proof Testing",
+    "summary": "Ship 42 for Flight 15 has headed back out to Massey’s for additional cryo-proof testing.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/10/ship-40-returns-ship-42-more-testing/",
+    "published_at": "2026-10-09T14:36:44+00:00",
+    "fetched_at": "2026-10-09T17:50:36.363023+00:00"
+  },
+  {
+    "title": "Defence Satcom Revenues Projected to Surpass $23bn by 2035",
+    "summary": "Novaspace released its Satellite Communications for Defense and Security report projecting global military satcom revenues to exceed $23 billion by 2035.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/defence-satcom-revenues-to-surpass-23-by-2035-2026-10/",
+    "published_at": "2026-10-09T14:30:04+00:00",
+    "fetched_at": "2026-10-09T17:50:36.363028+00:00"
+  },
+  {
+    "title": "Axiom Space Highlights Orbital Computing Progress",
+    "summary": "Axiom Space announced progress on its orbital compute strategy, specifically regarding the Axiom Resilient Compute platform.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/axiom-space-highlights-space-computing-progress-2026-10/",
+    "published_at": "2026-10-09T14:13:03+00:00",
+    "fetched_at": "2026-10-09T17:50:36.363032+00:00"
+  },
+  {
+    "title": "UK and Germany Partner on Critical Infrastructure",
+    "summary": "The UK and Germany agreed to cooperate to address threats to their critical national infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uk-and-germany-partner-to-tackle-critical-national-infrastructure-threats-09-10-2026/",
+    "published_at": "2026-10-09T11:01:50+00:00",
+    "fetched_at": "2026-10-09T17:50:39.154988+00:00"
+  },
+  {
+    "title": "Hidden Materials Discovered for Batteries and Solar Fuels",
+    "summary": "Scientists discovered new intermediate materials and a distinct form of bismuth vanadate that could enhance solar fuels and electronics.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
+    "published_at": "2026-10-09T10:20:23+00:00",
+    "fetched_at": "2026-10-09T17:50:39.154999+00:00"
+  },
+  {
     "title": "Delivery Drone Air Traffic Controllers Emerge",
     "summary": "Remote pilots in command are managing neighborhood drone delivery services as commercial autonomous flights expand.",
     "category": "Aerospace",
@@ -16,6 +79,15 @@
     "source_url": "https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
     "published_at": "2026-10-09T08:39:41+00:00",
     "fetched_at": "2026-10-09T11:06:42.558317+00:00"
+  },
+  {
+    "title": "Quantum Bethe Strings Observed in Ultracold Gas",
+    "summary": "Researchers have created and observed unusual quantum states known as Bethe strings using ultracold cesium atoms.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261006234517.htm",
+    "published_at": "2026-10-09T08:25:24+00:00",
+    "fetched_at": "2026-10-09T17:50:39.155004+00:00"
   },
   {
     "title": "Siemens Streamlines Scaling 3D IC Design",
@@ -117,156 +189,84 @@
     "fetched_at": "2026-10-08T18:41:08.530123+00:00"
   },
   {
-    "title": "DLR Extension to Thamesmead and Beckton Riverside Backed",
-    "summary": "Plans to extend the Docklands Light Railway to Beckton Riverside and Thamesmead received strong support in a public consultation.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/archive/dlr-extension-to-thamesmead-and-beckton-riverside-backed-in-consultation-08-10-2026/",
-    "published_at": "2026-10-08T14:32:04+00:00",
-    "fetched_at": "2026-10-08T18:41:08.530136+00:00"
+    "title": "Dex-One2Many Learns Dexterous Manipulation from Video",
+    "summary": "A new framework enables robotic hands to learn generalizable dexterous manipulation from a single human video.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12470v1",
+    "published_at": "2026-10-08T17:59:58+00:00",
+    "fetched_at": "2026-10-09T17:50:39.155009+00:00"
   },
   {
-    "title": "Guide Released for Migrating from NVIDIA Jetson to SiMa.ai",
-    "summary": "A new technical guide outlines the framework for migrating machine learning models from NVIDIA environments to the SiMa.ai platform.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/nvidia-jetson-to-sima-ai-modalix-mlsoc-migration-guide/",
-    "published_at": "2026-10-08T14:00:00+00:00",
-    "fetched_at": "2026-10-08T18:41:08.530142+00:00"
+    "title": "VersaCamVLA Introduces Camera-Configurable Robot Manipulation",
+    "summary": "VersaCamVLA is a new framework that allows Vision-Language-Action policies to adapt to variable camera configurations and poses.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12451v1",
+    "published_at": "2026-10-08T17:58:47+00:00",
+    "fetched_at": "2026-10-09T17:50:39.155013+00:00"
   },
   {
-    "title": "Rising Costs and Compute Demand Drive Modular ADAS AI",
-    "summary": "Increasing semiconductor costs and computing needs are pushing automakers toward modular ADAS AI solutions.",
+    "title": "RoboRSI: Robot Self-Evolution via Top-Down Skill Refinement",
+    "summary": "Researchers introduced RoboRSI, a robot self-improvement system that decomposes tasks into scoped skills, attributes execution outcomes, and accumulates reusable compound behaviors.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12424v1",
+    "published_at": "2026-10-08T17:55:12+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475462+00:00"
+  },
+  {
+    "title": "LeWAM: JEPA World Action Model with Diffusion-Steering MPC",
+    "summary": "LeWAM is a decoder-free JEPA latent model designed for forward, backward, inverse dynamics and policy prediction, enhancing robot state reading and planning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12407v1",
+    "published_at": "2026-10-08T17:46:03+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475473+00:00"
+  },
+  {
+    "title": "PI-UDF: Physics-Informed Collision Learning for Collaborative Robots",
+    "summary": "PI-UDF combines analytical kinematics and learnable embeddings to predict differentiable body-to-body collision distances for real-time multi-arm motion optimization.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12404v1",
+    "published_at": "2026-10-08T17:45:04+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475478+00:00"
+  },
+  {
+    "title": "Interference-Aware Downlink Power Control for HAPS Networks",
+    "summary": "A new analytical and optimization framework for downlink power allocation in high-altitude platform stations achieves up to a 6 dB reduction in required transmit power.",
     "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
-    "published_at": "2026-10-08T13:00:00+00:00",
-    "fetched_at": "2026-10-08T18:41:08.530146+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12380v1",
+    "published_at": "2026-10-08T17:34:38+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475483+00:00"
   },
   {
-    "title": "COMSOL Named Official Multiphysics Partner of Formula E",
-    "summary": "COMSOL will apply simulation, digital twins, and AI-assisted modeling to electric race car engineering challenges through this new partnership.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/comsol-becomes-formula-es-official-multiphysics-partner/",
-    "published_at": "2026-10-08T12:32:51+00:00",
-    "fetched_at": "2026-10-08T18:41:08.530151+00:00"
+    "title": "Embodied Turing Machines: Code-Only-as-Policy for Robots",
+    "summary": "Code-Only-as-Policy measures and tracks robot and task state entirely in code without a VLM or VLA in the control loop, achieving high success rates on bimanual tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12369v1",
+    "published_at": "2026-10-08T17:29:08+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475488+00:00"
   },
   {
-    "title": "Google Launches Project Suncatcher Datacentre Satellite",
-    "summary": "Google launched its Project Suncatcher prototype datacentre satellite featuring Trillium TPUs via a SpaceX rideshare mission.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/gadget-master/general/pic-of-the-day-googles-project-suncatcher-datacentre-satellite-in-orbit-2026-10/",
-    "published_at": "2026-10-08T11:24:24+00:00",
-    "fetched_at": "2026-10-08T18:41:19.398005+00:00"
+    "title": "LiteNWM: Efficient Latent World Models for Visual Navigation",
+    "summary": "LiteNWM shares visual encoding across candidates to predict future representations, improving navigation success rates and drastically reducing trajectory error and inference speedup.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12368v1",
+    "published_at": "2026-10-08T17:29:04+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475492+00:00"
   },
   {
-    "title": "OKSI and Qualcomm Partner for Edge AI Autonomy",
-    "summary": "OKSI and Qualcomm are collaborating on edge AI autonomy with optimization for the QCS8550 processor.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/oksi-and-qualcomm-collaborate-on-edge-ai-autonomy/",
-    "published_at": "2026-10-08T11:21:41+00:00",
-    "fetched_at": "2026-10-08T18:41:19.398016+00:00"
-  },
-  {
-    "title": "Bentley Systems Announces 2026 Infrastructure Award Winners",
-    "summary": "Bentley Systems announced its infrastructure award winners following a competition of over 300 projects from 53 countries.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/bentley-systems-announces-2026-infrastructure-award-winners/",
-    "published_at": "2026-10-08T11:20:53+00:00",
-    "fetched_at": "2026-10-08T18:41:19.398022+00:00"
-  },
-  {
-    "title": "CIOB Reacts to Irish Budget Infrastructure Plans",
-    "summary": "The Chartered Institute of Building welcomed Ireland's infrastructure investment while warning of housing constraints and carbon tax retreats.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/ciob-praises-irish-budget-but-warns-of-underlying-constraints-and-a-retreat-on-carbon-taxes/",
-    "published_at": "2026-10-08T10:45:57+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945921+00:00"
-  },
-  {
-    "title": "Lattice and Arm Partner for Secure AI",
-    "summary": "Lattice FPGAs and AMI firmware are collaborating to bring secure management and connectivity to Arm AGI CPU server platforms.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/lattice-and-arm-collaborate-on-secure-ai-infrastructure/",
-    "published_at": "2026-10-08T10:11:43+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945935+00:00"
-  },
-  {
-    "title": "Einstein Probe Reveals Hidden Phase of Neutron Star Collisions",
-    "summary": "The Einstein Probe detected prolonged soft X-ray activity following a short gamma-ray burst from neutron star mergers.",
-    "category": "Aerospace",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm",
-    "published_at": "2026-10-08T10:06:06+00:00",
-    "fetched_at": "2026-10-08T18:41:19.398027+00:00"
-  },
-  {
-    "title": "Mott MacDonald Wins East Coast Hydrogen Design",
-    "summary": "Mott MacDonald has been appointed by Northern Gas Networks to deliver front-end engineering design for East Coast Hydrogen.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/mott-macdonald-appointed-to-design-east-coast-hydrogen-infrastructure-08-10-2026/",
-    "published_at": "2026-10-08T09:46:58+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945941+00:00"
-  },
-  {
-    "title": "SuperSharp Leads THEOSCOPE IR Mission",
-    "summary": "Thermal infrared imaging specialist SuperSharp has been chosen to lead Europe's THEOSCOPE Earth observation mission.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/supersharp-to-lead-theoscope-ir-earth-observation-mission-2026-10/",
-    "published_at": "2026-10-08T09:10:26+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945945+00:00"
-  },
-  {
-    "title": "Dŵr Cymru Launches £52.8M Works Framework",
-    "summary": "Welsh water company Dŵr Cymru has launched a framework for low-value construction, repair, maintenance, and improvement works.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/welsh-water-company-dwr-cymru-launches-52-8m-low-value-works-framework-08-10-2026/",
-    "published_at": "2026-10-08T08:31:45+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945952+00:00"
-  },
-  {
-    "title": "Rohm Semiconductor Expands Outsourcing in India",
-    "summary": "Rohm Semiconductor is expanding its back-end semiconductor operations and R&D footprint in India while keeping wafer fabrication in-house.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
-    "published_at": "2026-10-08T07:18:51+00:00",
-    "fetched_at": "2026-10-08T11:08:43.945956+00:00"
-  },
-  {
-    "title": "Hybrid Bonding Process Control Detects Critical Defects Early",
-    "summary": "Complementary inspection and metrology techniques enable detection of smaller defects within a unified workflow.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/finding-critical-defects-before-they-become-costly-failures-process-control-for-hybrid-bonding-and-advanced-packaging/",
-    "published_at": "2026-10-08T07:06:04+00:00",
-    "fetched_at": "2026-10-08T11:08:46.782554+00:00"
-  },
-  {
-    "title": "Shift Left Complicates Fab Data Management",
-    "summary": "Streaming sensor data creates new challenges for advanced process control in semiconductor manufacturing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/shift-left-complicates-fab-data-management/",
-    "published_at": "2026-10-08T07:02:25+00:00",
-    "fetched_at": "2026-10-08T11:08:46.782563+00:00"
-  },
-  {
-    "title": "Electrical Process Control Advances Advanced Packaging",
-    "summary": "Electrical process control emerges as the next frontier alongside traditional visual inspection.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/the-faast-track-enabling-advanced-packaging-through-electrical-process-control/",
-    "published_at": "2026-10-08T07:01:59+00:00",
-    "fetched_at": "2026-10-08T11:08:46.782569+00:00"
+    "title": "Convex Safety Filtering via Spectral Selection for Nonconvex Safe Sets",
+    "summary": "Selecting eigenvectors of a matrix function yields a convex input constraint that guarantees a geometric lower bound on eigenvalues for safe sets defined by matrix concave functions.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.12324v1",
+    "published_at": "2026-10-08T17:05:52+00:00",
+    "fetched_at": "2026-10-09T17:50:43.475496+00:00"
   }
 ]
