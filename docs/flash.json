@@ -1,5 +1,23 @@
 [
   {
+    "title": "Thermoprocessing Solutions for Tungsten Powder Carburization",
+    "summary": "A review of reaction mechanisms and automated high-temperature furnace engineering solutions for carburizing tungsten powder highlights ways to improve efficiency.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c7387ec5694707647fb458232558e94b3d105276",
+    "published_at": "2026-10-11T00:00:00+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609371+00:00"
+  },
+  {
+    "title": "Why Humanoid Robot Demos Struggle With Generalization",
+    "summary": "Better data and human judgment are needed to help robots move beyond demos and achieve reliable real-world performance.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
+    "published_at": "2026-10-09T19:28:41+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609383+00:00"
+  },
+  {
     "title": "Ascensia and Sava Partner for Next-Gen Diabetes Microsensors",
     "summary": "Ascensia partners with Sava Technologies to commercialize minimally invasive glucose monitoring microsensors targeting CE approval within 18 to 24 months.",
     "category": "Biomedical",
@@ -180,6 +198,42 @@
     "fetched_at": "2026-10-09T11:06:45.596062+00:00"
   },
   {
+    "title": "Theoretical Study on Nonlinear Optical Response in Double Helicenes",
+    "summary": "Researchers investigated the second-order nonlinear optical responses of S-shaped double helicenes, showing that donor substituents significantly enhance performance.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/8c9ed1bf4b39f5e185551c385972271460d8b150",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609389+00:00"
+  },
+  {
+    "title": "Triazolinedione Chemistry for Advanced Functional Materials",
+    "summary": "A review summarizes triazolinedione chemistry platforms, highlighting reaction mechanisms and applications in smart materials, coatings, and electrochemical interfaces.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/703abc6f714ee86e9c43ca689b918defb718069b",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609393+00:00"
+  },
+  {
+    "title": "Interface-Engineered ReS2 and FeS2 Nanosheets for Hydrogen Evolution",
+    "summary": "A one-step hydrothermal strategy created ReS2 and FeS2 heterojunction nanosheet arrays on carbon cloth, exhibiting high electrochemical hydrogen evolution performance.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3bcd44d5c0dc1f83f479bcbce0ef468bea243795",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609397+00:00"
+  },
+  {
+    "title": "Coordination Engineering in Antimony-Based Hybrid Crystals",
+    "summary": "An acid-solvent strategy enables stepwise evolution of antimony coordination environments in hybrid halides to achieve highly efficient green emission.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/020ae23f27904ab180f5c8e20a62afb32b73ea1d",
+    "published_at": "2026-10-09T00:00:00+00:00",
+    "fetched_at": "2026-10-10T10:17:12.609400+00:00"
+  },
+  {
     "title": "Cement-Based Supercapacitors Enable Buildings to Store Energy",
     "summary": "Scientists have developed an experimental cement-based supercapacitor that could allow building materials to store power.",
     "category": "Energy",
@@ -214,59 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.12424v1",
     "published_at": "2026-10-08T17:55:12+00:00",
     "fetched_at": "2026-10-09T17:50:43.475462+00:00"
-  },
-  {
-    "title": "LeWAM: JEPA World Action Model with Diffusion-Steering MPC",
-    "summary": "LeWAM is a decoder-free JEPA latent model designed for forward, backward, inverse dynamics and policy prediction, enhancing robot state reading and planning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12407v1",
-    "published_at": "2026-10-08T17:46:03+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475473+00:00"
-  },
-  {
-    "title": "PI-UDF: Physics-Informed Collision Learning for Collaborative Robots",
-    "summary": "PI-UDF combines analytical kinematics and learnable embeddings to predict differentiable body-to-body collision distances for real-time multi-arm motion optimization.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12404v1",
-    "published_at": "2026-10-08T17:45:04+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475478+00:00"
-  },
-  {
-    "title": "Interference-Aware Downlink Power Control for HAPS Networks",
-    "summary": "A new analytical and optimization framework for downlink power allocation in high-altitude platform stations achieves up to a 6 dB reduction in required transmit power.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12380v1",
-    "published_at": "2026-10-08T17:34:38+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475483+00:00"
-  },
-  {
-    "title": "Embodied Turing Machines: Code-Only-as-Policy for Robots",
-    "summary": "Code-Only-as-Policy measures and tracks robot and task state entirely in code without a VLM or VLA in the control loop, achieving high success rates on bimanual tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12369v1",
-    "published_at": "2026-10-08T17:29:08+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475488+00:00"
-  },
-  {
-    "title": "LiteNWM: Efficient Latent World Models for Visual Navigation",
-    "summary": "LiteNWM shares visual encoding across candidates to predict future representations, improving navigation success rates and drastically reducing trajectory error and inference speedup.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12368v1",
-    "published_at": "2026-10-08T17:29:04+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475492+00:00"
-  },
-  {
-    "title": "Convex Safety Filtering via Spectral Selection for Nonconvex Safe Sets",
-    "summary": "Selecting eigenvectors of a matrix function yields a convex input constraint that guarantees a geometric lower bound on eigenvalues for safe sets defined by matrix concave functions.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.12324v1",
-    "published_at": "2026-10-08T17:05:52+00:00",
-    "fetched_at": "2026-10-09T17:50:43.475496+00:00"
   }
 ]
