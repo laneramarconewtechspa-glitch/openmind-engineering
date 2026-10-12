@@ -1,5 +1,50 @@
 [
   {
+    "title": "NASA Seeks Solutions for Lunar Static Electricity Risks",
+    "summary": "NASA is asking for ideas to prevent static electricity from zapping astronauts and critical hardware during moon missions.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/moon/the-moon-could-turn-astronauts-into-walking-high-voltage-capacitors-that-accidentally-zap-spacecraft",
+    "published_at": "2026-10-12T18:00:00+00:00",
+    "fetched_at": "2026-10-12T20:42:09.539980+00:00"
+  },
+  {
+    "title": "Sixfab Launches AI HAT+ for Raspberry Pi 5",
+    "summary": "Sixfab introduced the AI HAT+ for Raspberry Pi 5, a third-party accelerator board featuring the DEEPX DX-M1M NPU.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/gadget-watch-sixfab-ai-hat-for-raspberry-pi-5-2026-10/",
+    "published_at": "2026-10-12T16:25:32+00:00",
+    "fetched_at": "2026-10-12T20:42:09.539992+00:00"
+  },
+  {
+    "title": "Ofcom and JOINER Partner on Satellite Spectrum Study",
+    "summary": "Ofcom and the JOINER Platform agreed to collaborate on providing technical evidence for future satellite spectrum policies.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/ofcom-and-joiner-to-study-satellite-spectrum-coexistence-2026-10/",
+    "published_at": "2026-10-12T14:48:39+00:00",
+    "fetched_at": "2026-10-12T20:42:09.539998+00:00"
+  },
+  {
+    "title": "General Fusion Reaches Magnetised Heating Milestone",
+    "summary": "General Fusion's LM26 experiment achieved electron temperatures above 12 million degrees Celsius, verified by the UKAEA.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/general-fusion-reaches-technical-magnetised-heating-milestone-verified-by-ukaea-12-10-2026/",
+    "published_at": "2026-10-12T14:40:35+00:00",
+    "fetched_at": "2026-10-12T20:42:09.540003+00:00"
+  },
+  {
+    "title": "Populous to Lead London Stadium Redevelopment Study",
+    "summary": "Populous has been chosen to lead a study exploring development and leisure opportunities around the London Stadium.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/populous-to-lead-re%e2%80%91development-study-around-london-stadium-12-10-2026/",
+    "published_at": "2026-10-12T11:08:19+00:00",
+    "fetched_at": "2026-10-12T20:42:26.917082+00:00"
+  },
+  {
     "title": "Thermoprocessing Solutions for Tungsten Powder Carburization",
     "summary": "A review of reaction mechanisms and automated high-temperature furnace engineering solutions for carburizing tungsten powder highlights ways to improve efficiency.",
     "category": "Materials",
@@ -7,59 +52,5 @@
     "source_url": "https://www.semanticscholar.org/paper/c7387ec5694707647fb458232558e94b3d105276",
     "published_at": "2026-10-11T00:00:00+00:00",
     "fetched_at": "2026-10-10T10:17:12.609371+00:00"
-  },
-  {
-    "title": "Why Humanoid Robot Demos Struggle With Generalization",
-    "summary": "Better data and human judgment are needed to help robots move beyond demos and achieve reliable real-world performance.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
-    "published_at": "2026-10-09T19:28:41+00:00",
-    "fetched_at": "2026-10-10T10:17:12.609383+00:00"
-  },
-  {
-    "title": "Ascensia and Sava Partner for Next-Gen Diabetes Microsensors",
-    "summary": "Ascensia partners with Sava Technologies to commercialize minimally invasive glucose monitoring microsensors targeting CE approval within 18 to 24 months.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/diabetes/ascensia-partners-with-sava-for-next-gen-diabetes-microsensors",
-    "published_at": "2026-10-09T17:21:46+00:00",
-    "fetched_at": "2026-10-09T17:50:36.362999+00:00"
-  },
-  {
-    "title": "Black Hills to Build Gas Generation and Microgrid for Google",
-    "summary": "Black Hills Corp. plans $1.8 billion in natural gas generation and will manage a 2.1-GW microgrid for Google's Wyoming data center.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/onsite-power/microgrids/google-wyoming-data-center-black-hills-natural-gas/",
-    "published_at": "2026-10-09T15:35:00+00:00",
-    "fetched_at": "2026-10-09T17:50:36.363014+00:00"
-  },
-  {
-    "title": "Starship Ship 42 Undergoes Cryo Proof Testing",
-    "summary": "Ship 42 for Flight 15 has headed back out to Massey’s for additional cryo-proof testing.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/10/ship-40-returns-ship-42-more-testing/",
-    "published_at": "2026-10-09T14:36:44+00:00",
-    "fetched_at": "2026-10-09T17:50:36.363023+00:00"
-  },
-  {
-    "title": "Defence Satcom Revenues Projected to Surpass $23bn by 2035",
-    "summary": "Novaspace released its Satellite Communications for Defense and Security report projecting global military satcom revenues to exceed $23 billion by 2035.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/defence-satcom-revenues-to-surpass-23-by-2035-2026-10/",
-    "published_at": "2026-10-09T14:30:04+00:00",
-    "fetched_at": "2026-10-09T17:50:36.363028+00:00"
-  },
-  {
-    "title": "Axiom Space Highlights Orbital Computing Progress",
-    "summary": "Axiom Space announced progress on its orbital compute strategy, specifically regarding the Axiom Resilient Compute platform.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/axiom-space-highlights-space-computing-progress-2026-10/",
-    "published_at": "2026-10-09T14:13:03+00:00",
-    "fetched_at": "2026-10-09T17:50:36.363032+00:00"
   }
 ]
