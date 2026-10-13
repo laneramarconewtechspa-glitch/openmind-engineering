@@ -1,5 +1,68 @@
 [
   {
+    "title": "Nuclear Regulator Calls for Stronger Leadership",
+    "summary": "The Office for Nuclear Regulation reported that the nuclear sector remains safe and secure but called for improved leadership and cyber security maturity.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/nuclear-regulator-says-sector-safe-and-secure-but-calls-for-stronger-leadership-13-10-2026/",
+    "published_at": "2026-10-13T15:43:26+00:00",
+    "fetched_at": "2026-10-13T19:11:14.989007+00:00"
+  },
+  {
+    "title": "Department of Transport Cancels 16 Road Schemes",
+    "summary": "The UK Department for Transport has cancelled 16 road schemes that were under consideration as recently as July 2025.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/sixteen-road-schemes-quietly-cancelled-by-department-of-transport-13-10-2026/",
+    "published_at": "2026-10-13T14:22:18+00:00",
+    "fetched_at": "2026-10-13T19:11:14.989018+00:00"
+  },
+  {
+    "title": "Neso Buys 1.2GW via Interconnector Over Asset Delay",
+    "summary": "The National Energy System Operator purchased 1.2GW of electricity from a French interconnector after a National Grid asset return was delayed.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/neso-forced-to-buy-1-2gw-of-electricity-via-interconnector-due-to-delay-to-nged-asset-works-13-10-2026/",
+    "published_at": "2026-10-13T14:11:19+00:00",
+    "fetched_at": "2026-10-13T19:11:14.989023+00:00"
+  },
+  {
+    "title": "ORE Catapult Framework Aims to Cut Floating Wind Costs",
+    "summary": "The Offshore Renewable Energy Catapult has released a framework designed to help developers reduce the costs of floating offshore wind projects.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ore-catapult-sets-framework-for-reducing-costs-of-floating-offshore-wind-13-10-2026/",
+    "published_at": "2026-10-13T13:09:15+00:00",
+    "fetched_at": "2026-10-13T19:11:14.989027+00:00"
+  },
+  {
+    "title": "DNA Recording System Tracks Embryo Cell Development",
+    "summary": "Scientists used a DNA recording system to trace mouse embryo development from two cells into organ formation, revealing individual cell lineage.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211556.htm",
+    "published_at": "2026-10-13T10:17:08+00:00",
+    "fetched_at": "2026-10-13T19:11:14.989032+00:00"
+  },
+  {
+    "title": "Network Rail and IET Celebrate Female Engineers for Ada Lovelace Day",
+    "summary": "Network Rail highlighted two female engineers and the IET announced finalists for its Young Woman Engineer awards.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/network-rail-highlights-female-engineers-and-iet-reveals-award-finalists-for-ada-lovelace-day-13-10-2026/",
+    "published_at": "2026-10-13T10:04:30+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417488+00:00"
+  },
+  {
+    "title": "Fortastra Secures $30M Series A for In-Orbit Security Spacecraft",
+    "summary": "Space defence company Fortastra raised $30 million to develop manoeuvrable spacecraft for multi-orbit security coverage.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/fortastra-raises-30m-for-manoeuvrable-spacecraft-for-in-orbit-security-2026-10/",
+    "published_at": "2026-10-13T10:01:42+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417497+00:00"
+  },
+  {
     "title": "Fiat Multiplay Concept Transforms From MPV to Pickup",
     "summary": "Fiat's new Multiplay concept vehicle can transform from a family MPV into a pickup truck.",
     "category": "Mechanical",
@@ -7,6 +70,24 @@
     "source_url": "https://newatlas.com/automotive/fiat-multiplay-concept-mpv-transforms-pickup/",
     "published_at": "2026-10-13T09:50:37+00:00",
     "fetched_at": "2026-10-13T11:18:54.545064+00:00"
+  },
+  {
+    "title": "Physicists Recreate Quantum Effect to Stop Particle Movement",
+    "summary": "Oxford physicists used a hybrid quantum computer to demonstrate a quantum effect that completely halts a particle's movement.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
+    "published_at": "2026-10-13T09:47:22+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417501+00:00"
+  },
+  {
+    "title": "Wireflow and Pickering Form Testblox AB for In-Fixture Testing",
+    "summary": "Swedish PCB test company Wireflow partnered with Pickering Interfaces to launch Testblox AB for automated test modules.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/miniature-modules-open-up-in-fixture-functional-testing-2026-10/",
+    "published_at": "2026-10-13T07:33:28+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417505+00:00"
   },
   {
     "title": "AMD Launches Open Helion Rack Blueprint for Agentic AI",
@@ -27,6 +108,24 @@
     "fetched_at": "2026-10-13T11:18:54.545083+00:00"
   },
   {
+    "title": "Eryri National Park Authority Quashes Hydroelectric Dam Approval",
+    "summary": "The Eryri National Park Authority quashed its planning approval for a hydroelectric dam following pressure from campaigners.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/eryri-national-park-authority-quashes-its-own-approval-of-hydroelectric-dam-13-10-2026/",
+    "published_at": "2026-10-13T05:30:35+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417509+00:00"
+  },
+  {
+    "title": "MicroLED Market Divides Into Three Distinct Sectors",
+    "summary": "Yole reports that the microLED market is splitting into three distinct families driven by AR, optical I/O, and other applications.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/microled-market-splits-in-three-2026-10/",
+    "published_at": "2026-10-13T05:12:14+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417512+00:00"
+  },
+  {
     "title": "Lockheed Unveils PAC-3 Edge Interceptor for Hypersonic Threats",
     "summary": "Lockheed Martin introduced the PAC-3 Edge variant, featuring an improved motor to engage hypersonic glide vehicles and advanced aerial threats.",
     "category": "Aerospace",
@@ -34,6 +133,24 @@
     "source_url": "https://newatlas.com/military/lockheed-martin-pac-3-edge-interceptor-missile/",
     "published_at": "2026-10-13T05:07:45+00:00",
     "fetched_at": "2026-10-13T11:18:54.545088+00:00"
+  },
+  {
+    "title": "Scientists Discover Hidden Spinning Property in Light",
+    "summary": "Researchers uncovered that light can naturally develop spinning and twisting behavior while traveling through empty space.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
+    "published_at": "2026-10-13T04:19:32+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417516+00:00"
+  },
+  {
+    "title": "Review Highlights Recent Immunoglobulin G1 Engineering Strategies",
+    "summary": "A review details recent engineering strategies involving IgG scaffolds, Fc fragments, and domain fusions for antibody-based therapeutics.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/7da870309ffff94ee298e5a0b2326f1ca5e76765",
+    "published_at": "2026-10-13T00:00:00+00:00",
+    "fetched_at": "2026-10-13T19:11:18.417519+00:00"
   },
   {
     "title": "Carbon-Dot Interface Enables Dielectrics on 2D Semiconductors",
