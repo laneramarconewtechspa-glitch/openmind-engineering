@@ -1,5 +1,266 @@
 [
   {
+    "title": "Investigating Process Parameters in Conical Cup Deep Drawing",
+    "summary": "Finite element simulations and experiments evaluated how blank holder force and punch speed influence forming loads during the deep drawing of conical cups.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b35d1ca7e3fdfa8cd4e5c3c5b11b83efbf23f273",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292739+00:00"
+  },
+  {
+    "title": "Securing AI Platforms Using SABSA and DevSecOps",
+    "summary": "A layered security architecture operationalizes the SABSA framework and DevSecOps pipelines to mitigate AI vulnerabilities while maintaining low inference overhead.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/8a6b6536a6f862b7e9e114eb54b0d5aeb5723a96",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292753+00:00"
+  },
+  {
+    "title": "Palm Tree Waste Reinforces Polymeric Composite Features",
+    "summary": "Date palm rachis base wood waste particulates were used to improve the physical, thermal, and mechanical features of polymeric composites.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/83cc8228bae859833be91dc08c43b2279306c37c",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292760+00:00"
+  },
+  {
+    "title": "Thermal Stability Analysis of Optical Electric Field Sensors",
+    "summary": "Researchers identified photoelastic and piezoelectric effects as main factors in thermal drift and proposed a compensation layer to improve sensor stability.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3a41f1a0114442fac8f222e8c0393568ab0a2861",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292765+00:00"
+  },
+  {
+    "title": "Developing Nanobiocomposites for Bone Tissue Engineering",
+    "summary": "Bioactive glass, nano-hydroxyapatite, and chitosan powders were combined to create nanobiocomposites with high bioactivity, mechanical strength, and antibiofilm activity.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/0a454db5e4e74161e8a2295e57459b9fd06da1cf",
+    "published_at": "2026-10-15T00:00:00+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292770+00:00"
+  },
+  {
+    "title": "Datacor Acquires Simulation Software Developer MySep",
+    "summary": "Datacor has acquired MySep to expand its engineering software portfolio for process separator design and performance analysis.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/datacor-acquires-mysep-to-expand-engineering-software-portfolio/",
+    "published_at": "2026-10-14T07:12:59+00:00",
+    "fetched_at": "2026-10-14T09:14:07.292775+00:00"
+  },
+  {
+    "title": "Early Methodology Optimizes Advanced IC Package Design",
+    "summary": "A new methodology optimizes chiplet integration, power integrity, and performance through early-stage IC package design and analysis.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/accelerating-advanced-ic-package-design-a-methodology-for-early-and-iterative-optimization-of-chiplet-integration/",
+    "published_at": "2026-10-14T07:02:00+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447303+00:00"
+  },
+  {
+    "title": "Thermal Effects Drive New Chip Design Complexities",
+    "summary": "Increasing chip complexity requires thermal, electrical, and mechanical effects to be analyzed together.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/why-heat-is-becoming-a-bigger-chip-design-issue/",
+    "published_at": "2026-10-14T07:01:20+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447313+00:00"
+  },
+  {
+    "title": "Amey Appointed System Integrator for Northern Powerhouse Rail",
+    "summary": "Network Rail has named Amey as the system integrator for six projects making up Phase One of the Northern Powerhouse Rail programme.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/amey-appointed-as-system-integrator-for-northern-powerhouse-rail-phase-one-14-10-2026/",
+    "published_at": "2026-10-14T05:30:13+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447319+00:00"
+  },
+  {
+    "title": "Qualcomm Wins Arm Case and $2 in Damages",
+    "summary": "A jury found Arm in breach of its architectural license agreement with Qualcomm and awarded Qualcomm $2 in nominal damages.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/qualcomm-wins-arm-case-awarded-2-in-damages-2026-10/",
+    "published_at": "2026-10-14T05:16:58+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447324+00:00"
+  },
+  {
+    "title": "UK Tech Companies Raise $25.7 Billion This Year",
+    "summary": "UK tech companies raised $25.7 billion in the first nine months of the year, up 88% from the previous year.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/uk-tech-has-raised-25-7bn-this-year-2026-10/",
+    "published_at": "2026-10-14T05:12:57+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447329+00:00"
+  },
+  {
+    "title": "Apple Launches New Smart Speaker and Hub",
+    "summary": "Apple expanded its home electronics lineup by launching a new $200 HomePod smart speaker and a $299 HomeView hub.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/apple-2026-10/",
+    "published_at": "2026-10-14T05:09:23+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447334+00:00"
+  },
+  {
+    "title": "Siemens Software Translates and Applies Test Patterns",
+    "summary": "Siemens' Tessent Silicon Executable software is designed to translate test patterns and apply them onto high-speed interfaces and protocols.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/software-translates-test-patterns-and-applies-them-to-interfaces-and-protocols-2026-10/",
+    "published_at": "2026-10-14T05:02:39+00:00",
+    "fetched_at": "2026-10-14T09:14:10.447338+00:00"
+  },
+  {
+    "title": "Dissolvable Particles Treat Knee Arthritis Without Surgery",
+    "summary": "A new knee arthritis treatment uses dissolvable particles to block abnormal blood vessels, providing lasting pain relief without surgery.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261013234801.htm",
+    "published_at": "2026-10-14T04:39:11+00:00",
+    "fetched_at": "2026-10-14T09:14:13.202463+00:00"
+  },
+  {
+    "title": "Apple Introduces HomeView Smart Display",
+    "summary": "Apple has unveiled HomeView, a seven-inch smart display designed to serve as the center of the connected home.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/consumer-tech/apples-homeview/",
+    "published_at": "2026-10-14T04:09:45+00:00",
+    "fetched_at": "2026-10-14T09:14:13.202483+00:00"
+  },
+  {
+    "title": "ChunkAct Method Improves Efficiency in Agentic Robotics",
+    "summary": "ChunkAct introduces action chunking to agentic robotics, reducing language model calls and improving task success rates.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18874v1",
+    "published_at": "2026-10-13T17:59:57+00:00",
+    "fetched_at": "2026-10-14T09:14:13.202493+00:00"
+  },
+  {
+    "title": "EmbodiedEvo Enables Self-Improving Coding Agents for Physical Tasks",
+    "summary": "EmbodiedEvo allows a coding agent to evolve reusable skills and lessons through feedback for physical tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18867v1",
+    "published_at": "2026-10-13T17:59:51+00:00",
+    "fetched_at": "2026-10-14T09:14:13.202502+00:00"
+  },
+  {
+    "title": "AutoAgent0 Runtime Improves Closed-Loop Autonomous Driving Safety",
+    "summary": "AutoAgent0 is an agentic runtime framework that combines independent scene assessment, rule-based verification, and recovery planning to enhance closed-loop driving safety.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18866v1",
+    "published_at": "2026-10-13T17:59:50+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806604+00:00"
+  },
+  {
+    "title": "ILA Framework Uses Interaction Latents for Contact-Rich Manipulation",
+    "summary": "ILA represents actions through decodable interaction latents that capture motion, contact, and force evolution to improve real-world robot manipulation tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18855v1",
+    "published_at": "2026-10-13T17:59:16+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806645+00:00"
+  },
+  {
+    "title": "ForceWAM Decouples Future and Response Learning for Robot Manipulation",
+    "summary": "ForceWAM combines a world model trained on successful demonstrations with an inverse dynamics model using play data to improve contact-rich robot tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18852v1",
+    "published_at": "2026-10-13T17:58:44+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806650+00:00"
+  },
+  {
+    "title": "Framework Evaluates Physical Recursive Self-Improvement in Robots",
+    "summary": "A new L0-L5 framework differentiates capability-level from meta-level updates to analyze the current state of physical recursive self-improvement in robotics.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18842v1",
+    "published_at": "2026-10-13T17:57:04+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806655+00:00"
+  },
+  {
+    "title": "RoboSimStudio Interactive Toolkit for Real2Sim Robot Manipulation",
+    "summary": "RoboSimStudio is an interactive toolkit that makes physics solvers and parameters editable to help humans and agents refine simulations of robot manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18835v1",
+    "published_at": "2026-10-13T17:55:14+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806659+00:00"
+  },
+  {
+    "title": "WorldOracle Benchmark Evaluates Action-Conditioned World Models",
+    "summary": "WorldOracle is a new benchmark that assesses action-conditioned world models against paired real-world executions across physical state and interaction metrics.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18826v1",
+    "published_at": "2026-10-13T17:52:55+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806664+00:00"
+  },
+  {
+    "title": "RetinaSC Semantic Communication Framework for Diabetic Retinopathy",
+    "summary": "RetinaSC is a lightweight semantic communication framework utilizing models like MobileNetV2 for early telemedicine detection of diabetic retinopathy.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18824v1",
+    "published_at": "2026-10-13T17:52:25+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806669+00:00"
+  },
+  {
+    "title": "Adaptive Diversity Control Optimizes Multi-Agent Reinforcement Learning",
+    "summary": "ADiCo uses a two-timescale feedback control framework to regulate behavioral diversity online during cooperative multi-agent reinforcement learning training.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18808v1",
+    "published_at": "2026-10-13T17:46:27+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806673+00:00"
+  },
+  {
+    "title": "Equilibrium Energy Control Enables Introspective Lifelong Robot Learning",
+    "summary": "EqC uses conditional energy landscapes and energy-gated data aggregation to trigger expert interventions near a policy's competence boundary for robot learning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18790v1",
+    "published_at": "2026-10-13T17:39:36+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806677+00:00"
+  },
+  {
+    "title": "Compositional Sensitivity Analysis for Multiobjective System Co-Design",
+    "summary": "A mathematical framework for compositional sensitivity analysis in multiobjective system design uses tangential design problems to describe first-order variations.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18758v1",
+    "published_at": "2026-10-13T17:22:02+00:00",
+    "fetched_at": "2026-10-14T09:14:16.806682+00:00"
+  },
+  {
+    "title": "AI Amplification in Cybersecurity Attack Surfaces",
+    "summary": "Researchers model cybersecurity dynamics using a queue of branching processes to evaluate vulnerability discovery and resource-constrained patching under attacker activity.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18721v1",
+    "published_at": "2026-10-13T17:02:46+00:00",
+    "fetched_at": "2026-10-14T09:14:24.822406+00:00"
+  },
+  {
+    "title": "RoboFQE: Rollout-Free Evaluation for Robot Policies",
+    "summary": "RoboFQE evaluates visual robot policies from offline trajectories without rollouts by combining fitted Q-evaluation with a pretrained vision foundation model.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.18699v1",
+    "published_at": "2026-10-13T16:48:25+00:00",
+    "fetched_at": "2026-10-14T09:14:24.822416+00:00"
+  },
+  {
     "title": "Nuclear Regulator Calls for Stronger Leadership",
     "summary": "The Office for Nuclear Regulation reported that the nuclear sector remains safe and secure but called for improved leadership and cyber security maturity.",
     "category": "Energy",
@@ -7,230 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/latest/nuclear-regulator-says-sector-safe-and-secure-but-calls-for-stronger-leadership-13-10-2026/",
     "published_at": "2026-10-13T15:43:26+00:00",
     "fetched_at": "2026-10-13T19:11:14.989007+00:00"
-  },
-  {
-    "title": "Department of Transport Cancels 16 Road Schemes",
-    "summary": "The UK Department for Transport has cancelled 16 road schemes that were under consideration as recently as July 2025.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/sixteen-road-schemes-quietly-cancelled-by-department-of-transport-13-10-2026/",
-    "published_at": "2026-10-13T14:22:18+00:00",
-    "fetched_at": "2026-10-13T19:11:14.989018+00:00"
-  },
-  {
-    "title": "Neso Buys 1.2GW via Interconnector Over Asset Delay",
-    "summary": "The National Energy System Operator purchased 1.2GW of electricity from a French interconnector after a National Grid asset return was delayed.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/neso-forced-to-buy-1-2gw-of-electricity-via-interconnector-due-to-delay-to-nged-asset-works-13-10-2026/",
-    "published_at": "2026-10-13T14:11:19+00:00",
-    "fetched_at": "2026-10-13T19:11:14.989023+00:00"
-  },
-  {
-    "title": "ORE Catapult Framework Aims to Cut Floating Wind Costs",
-    "summary": "The Offshore Renewable Energy Catapult has released a framework designed to help developers reduce the costs of floating offshore wind projects.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/ore-catapult-sets-framework-for-reducing-costs-of-floating-offshore-wind-13-10-2026/",
-    "published_at": "2026-10-13T13:09:15+00:00",
-    "fetched_at": "2026-10-13T19:11:14.989027+00:00"
-  },
-  {
-    "title": "DNA Recording System Tracks Embryo Cell Development",
-    "summary": "Scientists used a DNA recording system to trace mouse embryo development from two cells into organ formation, revealing individual cell lineage.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211556.htm",
-    "published_at": "2026-10-13T10:17:08+00:00",
-    "fetched_at": "2026-10-13T19:11:14.989032+00:00"
-  },
-  {
-    "title": "Network Rail and IET Celebrate Female Engineers for Ada Lovelace Day",
-    "summary": "Network Rail highlighted two female engineers and the IET announced finalists for its Young Woman Engineer awards.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/network-rail-highlights-female-engineers-and-iet-reveals-award-finalists-for-ada-lovelace-day-13-10-2026/",
-    "published_at": "2026-10-13T10:04:30+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417488+00:00"
-  },
-  {
-    "title": "Fortastra Secures $30M Series A for In-Orbit Security Spacecraft",
-    "summary": "Space defence company Fortastra raised $30 million to develop manoeuvrable spacecraft for multi-orbit security coverage.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/fortastra-raises-30m-for-manoeuvrable-spacecraft-for-in-orbit-security-2026-10/",
-    "published_at": "2026-10-13T10:01:42+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417497+00:00"
-  },
-  {
-    "title": "Fiat Multiplay Concept Transforms From MPV to Pickup",
-    "summary": "Fiat's new Multiplay concept vehicle can transform from a family MPV into a pickup truck.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/fiat-multiplay-concept-mpv-transforms-pickup/",
-    "published_at": "2026-10-13T09:50:37+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545064+00:00"
-  },
-  {
-    "title": "Physicists Recreate Quantum Effect to Stop Particle Movement",
-    "summary": "Oxford physicists used a hybrid quantum computer to demonstrate a quantum effect that completely halts a particle's movement.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
-    "published_at": "2026-10-13T09:47:22+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417501+00:00"
-  },
-  {
-    "title": "Wireflow and Pickering Form Testblox AB for In-Fixture Testing",
-    "summary": "Swedish PCB test company Wireflow partnered with Pickering Interfaces to launch Testblox AB for automated test modules.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/miniature-modules-open-up-in-fixture-functional-testing-2026-10/",
-    "published_at": "2026-10-13T07:33:28+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417505+00:00"
-  },
-  {
-    "title": "AMD Launches Open Helion Rack Blueprint for Agentic AI",
-    "summary": "AMD introduced an open Helion rack blueprint supporting CPU-only and combined CPU-GPU configurations for agentic AI.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/amd-introduces-open-helion-rack-blueprint-for-agentic-ai/",
-    "published_at": "2026-10-13T07:10:58+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545077+00:00"
-  },
-  {
-    "title": "Cellid Joins Qualcomm Snapdragon START Program",
-    "summary": "Cellid joined Qualcomm's Snapdragon START program with a reference design combining its waveguide and display technologies with the Snapdragon AR1+ Gen 1.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/cellid-joins-qualcomms-snapdragon-start-program/",
-    "published_at": "2026-10-13T06:55:08+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545083+00:00"
-  },
-  {
-    "title": "Eryri National Park Authority Quashes Hydroelectric Dam Approval",
-    "summary": "The Eryri National Park Authority quashed its planning approval for a hydroelectric dam following pressure from campaigners.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/eryri-national-park-authority-quashes-its-own-approval-of-hydroelectric-dam-13-10-2026/",
-    "published_at": "2026-10-13T05:30:35+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417509+00:00"
-  },
-  {
-    "title": "MicroLED Market Divides Into Three Distinct Sectors",
-    "summary": "Yole reports that the microLED market is splitting into three distinct families driven by AR, optical I/O, and other applications.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/microled-market-splits-in-three-2026-10/",
-    "published_at": "2026-10-13T05:12:14+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417512+00:00"
-  },
-  {
-    "title": "Lockheed Unveils PAC-3 Edge Interceptor for Hypersonic Threats",
-    "summary": "Lockheed Martin introduced the PAC-3 Edge variant, featuring an improved motor to engage hypersonic glide vehicles and advanced aerial threats.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/lockheed-martin-pac-3-edge-interceptor-missile/",
-    "published_at": "2026-10-13T05:07:45+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545088+00:00"
-  },
-  {
-    "title": "Scientists Discover Hidden Spinning Property in Light",
-    "summary": "Researchers uncovered that light can naturally develop spinning and twisting behavior while traveling through empty space.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
-    "published_at": "2026-10-13T04:19:32+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417516+00:00"
-  },
-  {
-    "title": "Review Highlights Recent Immunoglobulin G1 Engineering Strategies",
-    "summary": "A review details recent engineering strategies involving IgG scaffolds, Fc fragments, and domain fusions for antibody-based therapeutics.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/7da870309ffff94ee298e5a0b2326f1ca5e76765",
-    "published_at": "2026-10-13T00:00:00+00:00",
-    "fetched_at": "2026-10-13T19:11:18.417519+00:00"
-  },
-  {
-    "title": "Carbon-Dot Interface Enables Dielectrics on 2D Semiconductors",
-    "summary": "Researchers demonstrated an atomically thin carbon-dot monolayer assembly that enables deposition of high-kappa oxide on 2D semiconductors.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/carbon-dot-interface-enables-ultrathin-high-%ce%ba-dielectrics-on-2d-semiconductors-uiuc-netl-argonne-monash/",
-    "published_at": "2026-10-12T22:55:48+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545094+00:00"
-  },
-  {
-    "title": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators",
-    "summary": "Researchers published a method for AI hardware resilience using built-in performance monitors to detect bit-flip attacks in deep neural networks.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/",
-    "published_at": "2026-10-12T22:34:47+00:00",
-    "fetched_at": "2026-10-13T11:18:54.545098+00:00"
-  },
-  {
-    "title": "Deterministic Nucleation Enables Controlled Growth of 2D Semiconductors",
-    "summary": "Researchers published a paper detailing spatially deterministic nucleation of 2D semiconductors using an etching flux to control crystalline material formation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/deterministic-nucleation-enables-controlled-growth-of-2d-semiconductors-kaist-tds-hanyang-et-al/",
-    "published_at": "2026-10-12T22:25:06+00:00",
-    "fetched_at": "2026-10-13T11:18:56.741663+00:00"
-  },
-  {
-    "title": "NASA Seeks Solutions for Lunar Static Electricity Risks",
-    "summary": "NASA is asking for ideas to prevent static electricity from zapping astronauts and critical hardware during moon missions.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/moon/the-moon-could-turn-astronauts-into-walking-high-voltage-capacitors-that-accidentally-zap-spacecraft",
-    "published_at": "2026-10-12T18:00:00+00:00",
-    "fetched_at": "2026-10-12T20:42:09.539980+00:00"
-  },
-  {
-    "title": "Sixfab Launches AI HAT+ for Raspberry Pi 5",
-    "summary": "Sixfab introduced the AI HAT+ for Raspberry Pi 5, a third-party accelerator board featuring the DEEPX DX-M1M NPU.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/gadget-watch-sixfab-ai-hat-for-raspberry-pi-5-2026-10/",
-    "published_at": "2026-10-12T16:25:32+00:00",
-    "fetched_at": "2026-10-12T20:42:09.539992+00:00"
-  },
-  {
-    "title": "Ofcom and JOINER Partner on Satellite Spectrum Study",
-    "summary": "Ofcom and the JOINER Platform agreed to collaborate on providing technical evidence for future satellite spectrum policies.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/ofcom-and-joiner-to-study-satellite-spectrum-coexistence-2026-10/",
-    "published_at": "2026-10-12T14:48:39+00:00",
-    "fetched_at": "2026-10-12T20:42:09.539998+00:00"
-  },
-  {
-    "title": "General Fusion Reaches Magnetised Heating Milestone",
-    "summary": "General Fusion's LM26 experiment achieved electron temperatures above 12 million degrees Celsius, verified by the UKAEA.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/general-fusion-reaches-technical-magnetised-heating-milestone-verified-by-ukaea-12-10-2026/",
-    "published_at": "2026-10-12T14:40:35+00:00",
-    "fetched_at": "2026-10-12T20:42:09.540003+00:00"
-  },
-  {
-    "title": "Populous to Lead London Stadium Redevelopment Study",
-    "summary": "Populous has been chosen to lead a study exploring development and leisure opportunities around the London Stadium.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/populous-to-lead-re%e2%80%91development-study-around-london-stadium-12-10-2026/",
-    "published_at": "2026-10-12T11:08:19+00:00",
-    "fetched_at": "2026-10-12T20:42:26.917082+00:00"
-  },
-  {
-    "title": "Thermoprocessing Solutions for Tungsten Powder Carburization",
-    "summary": "A review of reaction mechanisms and automated high-temperature furnace engineering solutions for carburizing tungsten powder highlights ways to improve efficiency.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c7387ec5694707647fb458232558e94b3d105276",
-    "published_at": "2026-10-11T00:00:00+00:00",
-    "fetched_at": "2026-10-10T10:17:12.609371+00:00"
   }
 ]
