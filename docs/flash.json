@@ -45,6 +45,150 @@
     "fetched_at": "2026-10-14T09:14:07.292770+00:00"
   },
   {
+    "title": "Co-Packaged Optics Advances Toward 2028 Production",
+    "summary": "Industry leaders at the Ayar Labs CPO Summit discussed production planning and readiness for a 2028 demand surge in co-packaged optics.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/co-packaged-optics-moves-from-promise-to-production-planning/",
+    "published_at": "2026-10-14T15:41:12+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061242+00:00"
+  },
+  {
+    "title": "Researchers Characterize HBM2 DRAM Power Consumption",
+    "summary": "Researchers from ETH Zurich and NYU published an experimental power consumption analysis and modeling study using real HBM2 DRAM chips.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/characterization-of-hbm-power-consumption-eth-zurich-nyu/",
+    "published_at": "2026-10-14T15:27:00+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061256+00:00"
+  },
+  {
+    "title": "3D-Printed Modular Power Bank Features Tool-Free Repair",
+    "summary": "The Zero power bank uses 3D-printed modular construction to allow tool-free cell swaps and extended device lifespans.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/consumer-tech/3d-printed-modular-powerbank-repairable-ctrl-energy-zero/",
+    "published_at": "2026-10-14T15:11:03+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061262+00:00"
+  },
+  {
+    "title": "Itron Expands Advanced Grid Reliability Portfolio",
+    "summary": "Itron detailed the GEI Catalyst Feeder Reliability solution as part of the expansion of its Advanced Grid Reliability portfolio.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/grid-modernization/moving-from-reactive-repairs-to-proactive-grid-management-with-don-reeves-from-itron/",
+    "published_at": "2026-10-14T14:35:43+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061267+00:00"
+  },
+  {
+    "title": "Mini-Constellations Accelerate New Tech Deployment in Orbit",
+    "summary": "European thermal-imagery company constellr partnered with Space Inventor to develop next-generation satellites using mini-constellation approaches.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+    "published_at": "2026-10-14T13:09:21+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061272+00:00"
+  },
+  {
+    "title": "Permeta Launches AI Service for FERC Filings",
+    "summary": "Permeta announced the beta launch of FERC.ai, an AI tool designed to query over 500,000 Federal Energy Regulatory Commission filings.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/tired-of-digging-through-ferc-filings-let-ai-do-it-for-you/",
+    "published_at": "2026-10-14T12:54:05+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061276+00:00"
+  },
+  {
+    "title": "Timken Precision Drives Targets Humanoid Robot Motion",
+    "summary": "Timken combined multiple engineering divisions to develop application-specific motion systems tailored for humanoid robots.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
+    "published_at": "2026-10-14T12:20:19+00:00",
+    "fetched_at": "2026-10-14T16:17:50.061281+00:00"
+  },
+  {
+    "title": "Europe's GOES Steel Import Tariffs Spark Industry Debate",
+    "summary": "New European Commission safeguard measures on grain-oriented electrical steel aim to protect local makers but worry the energy sector.",
+    "category": "Energy",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/transformer-shortage-europe-goes-steel",
+    "published_at": "2026-10-14T12:00:03+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014444+00:00"
+  },
+  {
+    "title": "Europe’s Hera Probe Arrives to Inspect DART Asteroid Impact",
+    "summary": "Four years after NASA's DART mission collided with an asteroid, Europe's Hera probe arrives to investigate the wreckage.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/asteroid-comet-missions/four-years-ago-nasa-punched-an-asteroid-europes-hera-probe-arrives-this-month-to-inspect-the-wreckage",
+    "published_at": "2026-10-14T12:00:00+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014455+00:00"
+  },
+  {
+    "title": "Kawasaki Expands Versys Adventure Line with 948cc Model",
+    "summary": "Kawasaki added a new 948cc in-line four adventure motorcycle to its Versys range, positioning it between the 650 and 1100 models.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/kawasaki-versys900-adv-motorcycle/",
+    "published_at": "2026-10-14T11:14:05+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014461+00:00"
+  },
+  {
+    "title": "ZWSOFT Updates ZW3D WuKong for CAD and CAM",
+    "summary": "The latest ZW3D WuKong release introduces sketch constraints, DWG export controls, sheet metal tools, and new machining options.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/zwsoft-updates-zw3d-wukong-for-cad-and-cam-workflows/",
+    "published_at": "2026-10-14T10:25:23+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014465+00:00"
+  },
+  {
+    "title": "Pudu Robotics’ BG1 Series Cleaning Robots Win Two ISSA Awards",
+    "summary": "Pudu Robotics' BG1 cleaning robot series secured two ISSA awards after recording over RMB 100 million in pre-orders.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/pudu-robotics-bg1-series-wins-two-issa-awards/",
+    "published_at": "2026-10-14T10:01:42+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014471+00:00"
+  },
+  {
+    "title": "Unspent Developer Funds Could Fix UK Road Backlog",
+    "summary": "MPs report that over £2.2bn in unspent Community Infrastructure Levy contributions could help address the road repair backlog in England and Wales.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/2-2bn-in-unspent-developer-contributions-could-help-tackle-road-repair-backlog-mps-say-14-10-2026/",
+    "published_at": "2026-10-14T09:14:47+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014477+00:00"
+  },
+  {
+    "title": "The US Military's Race to Develop Artificial Blood",
+    "summary": "The US military is pursuing the development of artificial blood to supply field hospitals following historical casualty evacuation challenges.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/",
+    "published_at": "2026-10-14T09:00:00+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014482+00:00"
+  },
+  {
+    "title": "Ageing Infrastructure and Cyber Threats Imperil UK Water Security",
+    "summary": "UK business and water leaders report that ageing infrastructure and cyber threats are major obstacles to business water security.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ageing-infrastructure-and-cyber-threats-are-disrupting-businesses-water-security-14-10-2026/",
+    "published_at": "2026-10-14T08:59:46+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014486+00:00"
+  },
+  {
+    "title": "Welsh Senedd Backs Motion to Review Rail Funding and Barnett Formula",
+    "summary": "Members of the Senedd backed calls to review the Barnett Formula and accelerate UK investment in Welsh rail infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/welsh-senedd-moves-motion-to-review-operation-of-barnett-formula-in-light-of-unfair-rail-funding-14-10-2026/",
+    "published_at": "2026-10-14T08:49:40+00:00",
+    "fetched_at": "2026-10-14T16:17:54.014490+00:00"
+  },
+  {
     "title": "Datacor Acquires Simulation Software Developer MySep",
     "summary": "Datacor has acquired MySep to expand its engineering software portfolio for process separator design and performance analysis.",
     "category": "Computing",
@@ -124,149 +268,5 @@
     "source_url": "https://www.sciencedaily.com/releases/2026/10/261013234801.htm",
     "published_at": "2026-10-14T04:39:11+00:00",
     "fetched_at": "2026-10-14T09:14:13.202463+00:00"
-  },
-  {
-    "title": "Apple Introduces HomeView Smart Display",
-    "summary": "Apple has unveiled HomeView, a seven-inch smart display designed to serve as the center of the connected home.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/apples-homeview/",
-    "published_at": "2026-10-14T04:09:45+00:00",
-    "fetched_at": "2026-10-14T09:14:13.202483+00:00"
-  },
-  {
-    "title": "ChunkAct Method Improves Efficiency in Agentic Robotics",
-    "summary": "ChunkAct introduces action chunking to agentic robotics, reducing language model calls and improving task success rates.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18874v1",
-    "published_at": "2026-10-13T17:59:57+00:00",
-    "fetched_at": "2026-10-14T09:14:13.202493+00:00"
-  },
-  {
-    "title": "EmbodiedEvo Enables Self-Improving Coding Agents for Physical Tasks",
-    "summary": "EmbodiedEvo allows a coding agent to evolve reusable skills and lessons through feedback for physical tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18867v1",
-    "published_at": "2026-10-13T17:59:51+00:00",
-    "fetched_at": "2026-10-14T09:14:13.202502+00:00"
-  },
-  {
-    "title": "AutoAgent0 Runtime Improves Closed-Loop Autonomous Driving Safety",
-    "summary": "AutoAgent0 is an agentic runtime framework that combines independent scene assessment, rule-based verification, and recovery planning to enhance closed-loop driving safety.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18866v1",
-    "published_at": "2026-10-13T17:59:50+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806604+00:00"
-  },
-  {
-    "title": "ILA Framework Uses Interaction Latents for Contact-Rich Manipulation",
-    "summary": "ILA represents actions through decodable interaction latents that capture motion, contact, and force evolution to improve real-world robot manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18855v1",
-    "published_at": "2026-10-13T17:59:16+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806645+00:00"
-  },
-  {
-    "title": "ForceWAM Decouples Future and Response Learning for Robot Manipulation",
-    "summary": "ForceWAM combines a world model trained on successful demonstrations with an inverse dynamics model using play data to improve contact-rich robot tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18852v1",
-    "published_at": "2026-10-13T17:58:44+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806650+00:00"
-  },
-  {
-    "title": "Framework Evaluates Physical Recursive Self-Improvement in Robots",
-    "summary": "A new L0-L5 framework differentiates capability-level from meta-level updates to analyze the current state of physical recursive self-improvement in robotics.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18842v1",
-    "published_at": "2026-10-13T17:57:04+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806655+00:00"
-  },
-  {
-    "title": "RoboSimStudio Interactive Toolkit for Real2Sim Robot Manipulation",
-    "summary": "RoboSimStudio is an interactive toolkit that makes physics solvers and parameters editable to help humans and agents refine simulations of robot manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18835v1",
-    "published_at": "2026-10-13T17:55:14+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806659+00:00"
-  },
-  {
-    "title": "WorldOracle Benchmark Evaluates Action-Conditioned World Models",
-    "summary": "WorldOracle is a new benchmark that assesses action-conditioned world models against paired real-world executions across physical state and interaction metrics.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18826v1",
-    "published_at": "2026-10-13T17:52:55+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806664+00:00"
-  },
-  {
-    "title": "RetinaSC Semantic Communication Framework for Diabetic Retinopathy",
-    "summary": "RetinaSC is a lightweight semantic communication framework utilizing models like MobileNetV2 for early telemedicine detection of diabetic retinopathy.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18824v1",
-    "published_at": "2026-10-13T17:52:25+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806669+00:00"
-  },
-  {
-    "title": "Adaptive Diversity Control Optimizes Multi-Agent Reinforcement Learning",
-    "summary": "ADiCo uses a two-timescale feedback control framework to regulate behavioral diversity online during cooperative multi-agent reinforcement learning training.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18808v1",
-    "published_at": "2026-10-13T17:46:27+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806673+00:00"
-  },
-  {
-    "title": "Equilibrium Energy Control Enables Introspective Lifelong Robot Learning",
-    "summary": "EqC uses conditional energy landscapes and energy-gated data aggregation to trigger expert interventions near a policy's competence boundary for robot learning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18790v1",
-    "published_at": "2026-10-13T17:39:36+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806677+00:00"
-  },
-  {
-    "title": "Compositional Sensitivity Analysis for Multiobjective System Co-Design",
-    "summary": "A mathematical framework for compositional sensitivity analysis in multiobjective system design uses tangential design problems to describe first-order variations.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18758v1",
-    "published_at": "2026-10-13T17:22:02+00:00",
-    "fetched_at": "2026-10-14T09:14:16.806682+00:00"
-  },
-  {
-    "title": "AI Amplification in Cybersecurity Attack Surfaces",
-    "summary": "Researchers model cybersecurity dynamics using a queue of branching processes to evaluate vulnerability discovery and resource-constrained patching under attacker activity.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18721v1",
-    "published_at": "2026-10-13T17:02:46+00:00",
-    "fetched_at": "2026-10-14T09:14:24.822406+00:00"
-  },
-  {
-    "title": "RoboFQE: Rollout-Free Evaluation for Robot Policies",
-    "summary": "RoboFQE evaluates visual robot policies from offline trajectories without rollouts by combining fitted Q-evaluation with a pretrained vision foundation model.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.18699v1",
-    "published_at": "2026-10-13T16:48:25+00:00",
-    "fetched_at": "2026-10-14T09:14:24.822416+00:00"
-  },
-  {
-    "title": "Nuclear Regulator Calls for Stronger Leadership",
-    "summary": "The Office for Nuclear Regulation reported that the nuclear sector remains safe and secure but called for improved leadership and cyber security maturity.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/nuclear-regulator-says-sector-safe-and-secure-but-calls-for-stronger-leadership-13-10-2026/",
-    "published_at": "2026-10-13T15:43:26+00:00",
-    "fetched_at": "2026-10-13T19:11:14.989007+00:00"
   }
 ]
