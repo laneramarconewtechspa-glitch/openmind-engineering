@@ -1,5 +1,59 @@
 [
   {
+    "title": "Data Orchestration for Semiconductor Enterprises",
+    "summary": "Data orchestration unifies disconnected equipment and systems for semiconductor engineering teams without replacing existing infrastructure.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
+    "published_at": "2026-10-15T14:00:00+00:00",
+    "fetched_at": "2026-10-15T16:04:35.752709+00:00"
+  },
+  {
+    "title": "Avista Partners with Heddian for Utility Communications",
+    "summary": "Avista selected Heddian to support its field communications modernization and upgrade utility connectivity.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/avista-and-heddian-look-to-rewrite-the-utility-communications-playbook/",
+    "published_at": "2026-10-15T13:57:57+00:00",
+    "fetched_at": "2026-10-15T16:04:35.752723+00:00"
+  },
+  {
+    "title": "Agile Space Industries Opens Bellevue Office",
+    "summary": "Agile Space Industries expanded its propulsion solutions operations by opening a new office in the Seattle area.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
+    "published_at": "2026-10-15T12:00:00+00:00",
+    "fetched_at": "2026-10-15T16:04:35.752729+00:00"
+  },
+  {
+    "title": "Engineered Plant Receptors Defend Against Fungal Threats",
+    "summary": "Scientists engineered plant immune receptors to recognize multiple fungal threats and protect global food crops.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
+    "published_at": "2026-10-15T11:45:43+00:00",
+    "fetched_at": "2026-10-15T16:04:35.752733+00:00"
+  },
+  {
+    "title": "Rescale and Honda Expand Digital Engineering Partnership",
+    "summary": "Rescale and Honda signed a multi-year agreement to scale simulation workloads and support AI-driven vehicle development.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/rescale-and-honda-expand-digital-engineering-partnership/",
+    "published_at": "2026-10-15T11:30:39+00:00",
+    "fetched_at": "2026-10-15T16:04:35.752738+00:00"
+  },
+  {
+    "title": "SpaceX Proposes 456 Starship Launches Annually in Texas",
+    "summary": "SpaceX has asked the FAA to increase allowed Starship launches from its South Texas site from 25 to 456 per year.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-wants-to-launch-starship-more-than-450-times-per-year-from-south-texas",
+    "published_at": "2026-10-15T10:00:00+00:00",
+    "fetched_at": "2026-10-15T16:04:39.711810+00:00"
+  },
+  {
     "title": "Grid Modernization Expands Cyberattack Surface",
     "summary": "Grid modernization is expanding the energy sector cyberattack surface while limited network visibility leaves connected assets exposed.",
     "category": "Energy",
@@ -214,59 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.20433v1",
     "published_at": "2026-10-14T16:24:11+00:00",
     "fetched_at": "2026-10-15T08:50:50.395146+00:00"
-  },
-  {
-    "title": "Modeling Diffuse Scattering in Mobility Scenarios",
-    "summary": "Researchers extend diffuse scattering modeling in ray tracing using persistent surface-associated scattering points, improving agreement with empirical radio channel measurements.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20387v1",
-    "published_at": "2026-10-14T15:52:39+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395149+00:00"
-  },
-  {
-    "title": "Jacobian Conditioning in Stacked Intelligent Metasurfaces",
-    "summary": "This study investigates how stacking programmable metasurfaces improves linear transformation synthesis and strengthens weak transformation directions.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20377v1",
-    "published_at": "2026-10-14T15:45:26+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395151+00:00"
-  },
-  {
-    "title": "Co-Packaged Optics Advances Toward 2028 Production",
-    "summary": "Industry leaders at the Ayar Labs CPO Summit discussed production planning and readiness for a 2028 demand surge in co-packaged optics.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/co-packaged-optics-moves-from-promise-to-production-planning/",
-    "published_at": "2026-10-14T15:41:12+00:00",
-    "fetched_at": "2026-10-14T16:17:50.061242+00:00"
-  },
-  {
-    "title": "Researchers Characterize HBM2 DRAM Power Consumption",
-    "summary": "Researchers from ETH Zurich and NYU published an experimental power consumption analysis and modeling study using real HBM2 DRAM chips.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/characterization-of-hbm-power-consumption-eth-zurich-nyu/",
-    "published_at": "2026-10-14T15:27:00+00:00",
-    "fetched_at": "2026-10-14T16:17:50.061256+00:00"
-  },
-  {
-    "title": "First mmWave RSMA Prototype Using Polarization Diversity",
-    "summary": "Researchers developed and prototyped a dual-polarized rate-splitting multiple access design for 25 GHz millimeter-wave communications.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20338v1",
-    "published_at": "2026-10-14T15:19:33+00:00",
-    "fetched_at": "2026-10-15T08:50:56.352090+00:00"
-  },
-  {
-    "title": "3D-Printed Modular Power Bank Features Tool-Free Repair",
-    "summary": "The Zero power bank uses 3D-printed modular construction to allow tool-free cell swaps and extended device lifespans.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/3d-printed-modular-powerbank-repairable-ctrl-energy-zero/",
-    "published_at": "2026-10-14T15:11:03+00:00",
-    "fetched_at": "2026-10-14T16:17:50.061262+00:00"
   }
 ]
