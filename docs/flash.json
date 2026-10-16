@@ -1,5 +1,104 @@
 [
   {
+    "title": "MAIT Group and Sigmetrix Partner for Variation Management",
+    "summary": "MAIT Group partnered with Sigmetrix to integrate tolerance analysis and simulation into PTC and Siemens development environments.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mait-group-partners-with-sigmetrix-on-variation-management/",
+    "published_at": "2026-10-16T14:47:26+00:00",
+    "fetched_at": "2026-10-16T16:12:24.860063+00:00"
+  },
+  {
+    "title": "Kier to Design Heaton Park Metrolink Stop Upgrades",
+    "summary": "Kier was appointed by Transport for Greater Manchester to lead the design of improvements for the Heaton Park Metrolink stop.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/kier-appointed-to-design-heaton-park-metrolink-stop-improvements-16-10-2026/",
+    "published_at": "2026-10-16T14:08:27+00:00",
+    "fetched_at": "2026-10-16T16:12:24.860079+00:00"
+  },
+  {
+    "title": "Swiss Researcher Develops Bacteria-Bound Printable Concrete",
+    "summary": "A Swiss researcher developed a new printable concrete-like material that relies on bacteria instead of cement for binding.",
+    "category": "Materials",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/swiss-researcher-develops-printable-concrete-held-together-with-bacteria/",
+    "published_at": "2026-10-16T13:34:17+00:00",
+    "fetched_at": "2026-10-16T16:12:24.860085+00:00"
+  },
+  {
+    "title": "Siemens Healthineers Narrows Ultrasound Focus",
+    "summary": "Siemens Healthineers is retiring its general imaging ultrasound line to focus entirely on image-guided cardiovascular therapy.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/business/siemens-healthineers-narrows-ultrasound-focus-to-image-guided-cardiovascular-therapy",
+    "published_at": "2026-10-16T12:54:05+00:00",
+    "fetched_at": "2026-10-16T16:12:24.860118+00:00"
+  },
+  {
+    "title": "Uranium Cubes Reveal Nazi Germany Nuclear Program Failure",
+    "summary": "Analysis of surviving uranium cubes and wartime documents shows Nazi Germany's final experimental reactor lacked necessary materials to operate.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
+    "published_at": "2026-10-16T12:32:52+00:00",
+    "fetched_at": "2026-10-16T16:12:24.860126+00:00"
+  },
+  {
+    "title": "Taiwan AI Ambitions Face Talent Shortage",
+    "summary": "AMD executive David Wang stated that Taiwan's opportunities in AI markets could be hindered by a lack of talent.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
+    "published_at": "2026-10-16T10:55:42+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621919+00:00"
+  },
+  {
+    "title": "High Groundwater Influences Attenuation Design",
+    "summary": "Stuart Crisp discusses how high groundwater levels affect the design of open or closed bottom underground attenuation structures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/sponsored/how-high-groundwater-can-influence-the-design-of-below-ground-attenuation-structures-16-10-2026/",
+    "published_at": "2026-10-16T10:44:26+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621929+00:00"
+  },
+  {
+    "title": "Scientists Discover Plastic-Eating Enzyme",
+    "summary": "Researchers found a Pac-Man enzyme that helps bacteria break down certain plastics, offering potential for fighting pollution.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
+    "published_at": "2026-10-16T10:32:03+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621935+00:00"
+  },
+  {
+    "title": "Raltron Unveils Monolithic Crystal Filters",
+    "summary": "Raltron announced an RXF monolithic crystal filter series built for LEO satellite broadband gateway ground stations.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/raltron-monolithic-crystal-filter-series-for-gateway-ground-stations-2026-10/",
+    "published_at": "2026-10-16T10:20:32+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621940+00:00"
+  },
+  {
+    "title": "Brabus Launches $50K Electric Motorcycle",
+    "summary": "Brabus, DAB Motors, and Fragment Design collaborated on the Urban E Fragment Edition electric motorcycle priced at $50,000.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/brabus-urban-e-fragment-edition/",
+    "published_at": "2026-10-16T09:27:46+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621945+00:00"
+  },
+  {
+    "title": "Ofwat Proposes Wastewater Enforcement Package",
+    "summary": "Regulator Ofwat proposed a 280,000 pound enforcement package against Hafren Dyfrdwy for wastewater treatment breaches.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ofwat-proposes-280000-enforcement-package-for-hafren-dyfrdwy-over-wastewater-breaches-16-10-2026/",
+    "published_at": "2026-10-16T09:18:58+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621949+00:00"
+  },
+  {
     "title": "Anglia Expands Analogue Supply Strategy",
     "summary": "Anglia Components announced a strategy to supply the entire signal chain to address customer frustration regarding analogue component supply.",
     "category": "Electronics & Semiconductors",
@@ -36,6 +135,15 @@
     "fetched_at": "2026-10-16T08:58:27.892248+00:00"
   },
   {
+    "title": "NASA Captures Atmospheric Waves Above Hurricane",
+    "summary": "NASA satellites captured rare atmospheric waves rippling high above Hurricane Simon, revealing upper atmosphere disturbances.",
+    "category": "Aerospace",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261015073207.htm",
+    "published_at": "2026-10-16T05:50:44+00:00",
+    "fetched_at": "2026-10-16T16:13:03.621954+00:00"
+  },
+  {
     "title": "IonQ and Cavendish Lab Open Quantum Centre",
     "summary": "IonQ and Cambridge University's Cavendish Lab have opened the IonQ Quantum Innovation Centre at the Ray Dolby Centre.",
     "category": "Computing",
@@ -61,6 +169,15 @@
     "source_url": "https://newatlas.com/military/u740-valkyrie-loyal-wingman-maiden-flight/",
     "published_at": "2026-10-16T04:36:38+00:00",
     "fetched_at": "2026-10-16T08:58:35.172614+00:00"
+  },
+  {
+    "title": "Atomic Steps Guide Quantum Vortices in Superconductors",
+    "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, enabling much easier movement in one direction.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+    "published_at": "2026-10-16T04:22:01+00:00",
+    "fetched_at": "2026-10-16T16:13:11.685299+00:00"
   },
   {
     "title": "Rocket Lab Delays Neutron Debut to 2027",
@@ -151,122 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.22342v1",
     "published_at": "2026-10-15T17:56:17+00:00",
     "fetched_at": "2026-10-16T09:00:09.751492+00:00"
-  },
-  {
-    "title": "Modeling Emotion Spread and Decision-Making in Networks",
-    "summary": "A new Laplacian-based flow framework models emotional contagion in social networks and its effects on consensus, polarization, and decision-making.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22334v1",
-    "published_at": "2026-10-15T17:54:03+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751497+00:00"
-  },
-  {
-    "title": "Illumination-Aware Active Perception for Spacecraft Inspection",
-    "summary": "A new spacecraft inspection planning framework replaces geometric visibility with a learned camera information measure to account for harsh orbital lighting.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22335v1",
-    "published_at": "2026-10-15T17:54:03+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751501+00:00"
-  },
-  {
-    "title": "Mem4Act Latent Memory for Long-Horizon Robotic Control",
-    "summary": "Mem4Act is a framework for learning fixed-size latent memory optimized for long-horizon robotic manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22323v1",
-    "published_at": "2026-10-15T17:51:58+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751505+00:00"
-  },
-  {
-    "title": "Targeted Active Preference Learning for Reward Recovery",
-    "summary": "An informed prior approach and explanation method targets preference queries at underspecified features to improve reward recovery and reduce human effort.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22285v1",
-    "published_at": "2026-10-15T17:41:46+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751509+00:00"
-  },
-  {
-    "title": "Vaonis Unveils Atlas Modular Smart Telescope System",
-    "summary": "Vaonis has opened pre-orders for the Atlas, the world's first modular smart telescope system featuring two optical tubes.",
-    "category": "Other Engineering",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/skywatching-kit/modularity-is-here-vaonis-uveils-their-new-atlas-smart-telescope-system",
-    "published_at": "2026-10-15T17:40:00+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751513+00:00"
-  },
-  {
-    "title": "Auditable Multi-Agent Motion Planning via Posetal Games",
-    "summary": "A new motion planning framework uses posetal games derived from legal guidelines to coordinate multi-agent interactions such as maritime navigation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22277v1",
-    "published_at": "2026-10-15T17:39:16+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751517+00:00"
-  },
-  {
-    "title": "Philips Ultrasound Glitch Linked to Four Patient Deaths",
-    "summary": "A software glitch and unstable cable connection in the Philips Lumify Ultrasound locked clinicians out of scanning, prompting an FDA alert.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/medical-device-markets/four-deaths-linked-to-philips-lumify-ultrasound-glitch",
-    "published_at": "2026-10-15T17:33:58+00:00",
-    "fetched_at": "2026-10-16T09:00:14.520798+00:00"
-  },
-  {
-    "title": "Autonomous Motion Planning for Lunar Propulsive Drones",
-    "summary": "Researchers proposed a vision-guided optimal control framework for safe and fuel-efficient hops between waypoints on the Moon.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22225v1",
-    "published_at": "2026-10-15T17:05:04+00:00",
-    "fetched_at": "2026-10-16T09:00:14.520808+00:00"
-  },
-  {
-    "title": "Vaonis Launches Modular Smart Telescope with Swappable Optics",
-    "summary": "The new Atlas telescope lets users swap optics like camera lenses while utilizing built-in tracking technology.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/consumer-tech/vaonis-atlas-modular-smart-telescope-dual-optics/",
-    "published_at": "2026-10-15T17:01:00+00:00",
-    "fetched_at": "2026-10-16T09:00:14.520813+00:00"
-  },
-  {
-    "title": "Preemptive Communication Improves Multi-Agent Pursuit Safety",
-    "summary": "A new unified control and communication strategy guarantees inter-agent collision avoidance while reducing message transmissions by 77.5%.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22198v1",
-    "published_at": "2026-10-15T16:50:41+00:00",
-    "fetched_at": "2026-10-16T09:00:14.520819+00:00"
-  },
-  {
-    "title": "Inertially Significant Humanoid Teleoperation via WB-MPC",
-    "summary": "Researchers integrated whole body model predictive control with an extended Kalman filter for online estimation of time-varying inertial parameters in humanoids.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22176v1",
-    "published_at": "2026-10-15T16:32:58+00:00",
-    "fetched_at": "2026-10-16T09:00:14.520823+00:00"
-  },
-  {
-    "title": "NASA SkyFall Helicopters to Explore Mars",
-    "summary": "Mars helicopters will cover distance quickly and access areas impossible to reach by ground.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/nasas-skyfall-helicopters-will-show-us-parts-of-mars-weve-never-seen-before-scientists-say",
-    "published_at": "2026-10-15T16:00:00+00:00",
-    "fetched_at": "2026-10-16T09:00:22.354844+00:00"
-  },
-  {
-    "title": "Data Orchestration for Semiconductor Enterprises",
-    "summary": "Data orchestration unifies disconnected equipment and systems for semiconductor engineering teams without replacing existing infrastructure.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
-    "published_at": "2026-10-15T14:00:00+00:00",
-    "fetched_at": "2026-10-15T16:04:35.752709+00:00"
   }
 ]
