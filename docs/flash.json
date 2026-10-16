@@ -1,5 +1,266 @@
 [
   {
+    "title": "Anglia Expands Analogue Supply Strategy",
+    "summary": "Anglia Components announced a strategy to supply the entire signal chain to address customer frustration regarding analogue component supply.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/anglia-addresses-alternative-analogue-2026-10/",
+    "published_at": "2026-10-16T08:04:07+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892225+00:00"
+  },
+  {
+    "title": "Elektrobit and Microchip Streamline AUTOSAR",
+    "summary": "The collaboration combines EB tresos software with Microchip automotive platforms to streamline AUTOSAR software development.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/elektrobit-and-microchip-streamline-autosar-software-development/",
+    "published_at": "2026-10-16T07:02:12+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892238+00:00"
+  },
+  {
+    "title": "FF Launches Nova Humanoid Robots",
+    "summary": "FF launched Nova humanoid robots and Physical AI programs featuring developer tools, educational curricula, and reinforcement learning.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/ff-launches-nova-humanoid-robots-and-physical-ai-programs/",
+    "published_at": "2026-10-16T06:57:12+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892243+00:00"
+  },
+  {
+    "title": "IBM and Siemens Collaborate on 3D Nanostacks",
+    "summary": "IBM and Siemens will develop virtual models, simulation, and lithography techniques to advance 3D nanostack technology.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/ibm-and-siemens-collaborate-to-advance-3d-nanostack-technology/",
+    "published_at": "2026-10-16T06:24:26+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892248+00:00"
+  },
+  {
+    "title": "IonQ and Cavendish Lab Open Quantum Centre",
+    "summary": "IonQ and Cambridge University's Cavendish Lab have opened the IonQ Quantum Innovation Centre at the Ray Dolby Centre.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/ionq-and-cavendish-lab-open-quantum-innovation-centre-2026-10/",
+    "published_at": "2026-10-16T05:15:27+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892253+00:00"
+  },
+  {
+    "title": "Cincoze Launches External EMC Protection Module",
+    "summary": "Cincoze has launched the Power Protection Module to strengthen protection against electromagnetic noise in industrial environments.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/external-emc-protection-module-2026-10/",
+    "published_at": "2026-10-16T05:01:01+00:00",
+    "fetched_at": "2026-10-16T08:58:27.892257+00:00"
+  },
+  {
+    "title": "Airbus U740-Valkyrie Completes Maiden Flight",
+    "summary": "Airbus's uncrewed combat aircraft U740-Valkyrie successfully completed its maiden flight in Northern Europe.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/u740-valkyrie-loyal-wingman-maiden-flight/",
+    "published_at": "2026-10-16T04:36:38+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172614+00:00"
+  },
+  {
+    "title": "Rocket Lab Delays Neutron Debut to 2027",
+    "summary": "Rocket Lab has postponed the launch of its Neutron vehicle due to carbon fibre manufacturing problems.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/10/carbon-fibre-force-rocket-lab-delay-neutron-debut/",
+    "published_at": "2026-10-16T03:49:06+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172623+00:00"
+  },
+  {
+    "title": "Sikorsky Packs Nomad 100 VTOL Squad in Box",
+    "summary": "Sikorsky introduced the Fast Pack system, housing four Nomad 100 VTOL drones and gear inside a 20-foot shipping container.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/nomad-100-fast-pack-drone-squad-shipping-container/",
+    "published_at": "2026-10-16T02:42:12+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172628+00:00"
+  },
+  {
+    "title": "Wireless Optoelectronics Enable Local Gene Control",
+    "summary": "Researchers developed wireless implantable optoelectronic devices to enable local, light-regulated gene activation in mouse lungs.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e3842bde671429f16755a973b796a6b85cf5d340",
+    "published_at": "2026-10-16T00:00:00+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172633+00:00"
+  },
+  {
+    "title": "Remote Control of Cu Sites Enhances Methane Conversion",
+    "summary": "Outer-shell coordination engineering in Zr-based metal-organic frameworks enables remote control of single-atom Cu reactivity for methane hydroxylation.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/74fd5422f78aef343404801dbc1ac63802ec9014",
+    "published_at": "2026-10-16T00:00:00+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172638+00:00"
+  },
+  {
+    "title": "SpaceX Launches Classified US Space Force Mission",
+    "summary": "SpaceX launched a classified mission for the U.S. Space Force from California, marking its 114th Falcon 9 mission of the year.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-space-force-launch-ussf-481-vandenberg",
+    "published_at": "2026-10-15T18:00:00+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172642+00:00"
+  },
+  {
+    "title": "LIBERO-PeRM Benchmark for Personalized Robotic Manipulation",
+    "summary": "Researchers introduced LIBERO-PeRM, a benchmark and simulation framework for preference learning in personalized robotic manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22372v1",
+    "published_at": "2026-10-15T17:59:59+00:00",
+    "fetched_at": "2026-10-16T08:58:35.172646+00:00"
+  },
+  {
+    "title": "Value as Memory Improves General Robot Policies",
+    "summary": "Value as Memory is a framework using value caching and online reinforcement learning that improves robot policy success rates on long-horizon tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22368v1",
+    "published_at": "2026-10-15T17:59:31+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751472+00:00"
+  },
+  {
+    "title": "Unified World Action Model for Egocentric Manipulation",
+    "summary": "Researchers introduced P3-WAM, a unified world action model for egocentric dexterous manipulation that combines 3D perception, action-conditioned prediction, and goal-directed planning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22363v1",
+    "published_at": "2026-10-15T17:59:07+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751482+00:00"
+  },
+  {
+    "title": "GeoState Framework for View-Decoupled 3D World Modeling",
+    "summary": "GeoState is a view-decoupled geometry representation that separates scene-state evolution from camera-dependent observation for predictive 3D world modeling.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22343v1",
+    "published_at": "2026-10-15T17:56:18+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751488+00:00"
+  },
+  {
+    "title": "Spark-0 Spatially Aligned Tactile Pretraining for Robots",
+    "summary": "Spark-0 is a vision-tactile-language-action model that uses touch data for scalable supervision in contact-rich robot dexterous manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22342v1",
+    "published_at": "2026-10-15T17:56:17+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751492+00:00"
+  },
+  {
+    "title": "Modeling Emotion Spread and Decision-Making in Networks",
+    "summary": "A new Laplacian-based flow framework models emotional contagion in social networks and its effects on consensus, polarization, and decision-making.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22334v1",
+    "published_at": "2026-10-15T17:54:03+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751497+00:00"
+  },
+  {
+    "title": "Illumination-Aware Active Perception for Spacecraft Inspection",
+    "summary": "A new spacecraft inspection planning framework replaces geometric visibility with a learned camera information measure to account for harsh orbital lighting.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22335v1",
+    "published_at": "2026-10-15T17:54:03+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751501+00:00"
+  },
+  {
+    "title": "Mem4Act Latent Memory for Long-Horizon Robotic Control",
+    "summary": "Mem4Act is a framework for learning fixed-size latent memory optimized for long-horizon robotic manipulation tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22323v1",
+    "published_at": "2026-10-15T17:51:58+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751505+00:00"
+  },
+  {
+    "title": "Targeted Active Preference Learning for Reward Recovery",
+    "summary": "An informed prior approach and explanation method targets preference queries at underspecified features to improve reward recovery and reduce human effort.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22285v1",
+    "published_at": "2026-10-15T17:41:46+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751509+00:00"
+  },
+  {
+    "title": "Vaonis Unveils Atlas Modular Smart Telescope System",
+    "summary": "Vaonis has opened pre-orders for the Atlas, the world's first modular smart telescope system featuring two optical tubes.",
+    "category": "Other Engineering",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/skywatching-kit/modularity-is-here-vaonis-uveils-their-new-atlas-smart-telescope-system",
+    "published_at": "2026-10-15T17:40:00+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751513+00:00"
+  },
+  {
+    "title": "Auditable Multi-Agent Motion Planning via Posetal Games",
+    "summary": "A new motion planning framework uses posetal games derived from legal guidelines to coordinate multi-agent interactions such as maritime navigation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22277v1",
+    "published_at": "2026-10-15T17:39:16+00:00",
+    "fetched_at": "2026-10-16T09:00:09.751517+00:00"
+  },
+  {
+    "title": "Philips Ultrasound Glitch Linked to Four Patient Deaths",
+    "summary": "A software glitch and unstable cable connection in the Philips Lumify Ultrasound locked clinicians out of scanning, prompting an FDA alert.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/medical-device-markets/four-deaths-linked-to-philips-lumify-ultrasound-glitch",
+    "published_at": "2026-10-15T17:33:58+00:00",
+    "fetched_at": "2026-10-16T09:00:14.520798+00:00"
+  },
+  {
+    "title": "Autonomous Motion Planning for Lunar Propulsive Drones",
+    "summary": "Researchers proposed a vision-guided optimal control framework for safe and fuel-efficient hops between waypoints on the Moon.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22225v1",
+    "published_at": "2026-10-15T17:05:04+00:00",
+    "fetched_at": "2026-10-16T09:00:14.520808+00:00"
+  },
+  {
+    "title": "Vaonis Launches Modular Smart Telescope with Swappable Optics",
+    "summary": "The new Atlas telescope lets users swap optics like camera lenses while utilizing built-in tracking technology.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/consumer-tech/vaonis-atlas-modular-smart-telescope-dual-optics/",
+    "published_at": "2026-10-15T17:01:00+00:00",
+    "fetched_at": "2026-10-16T09:00:14.520813+00:00"
+  },
+  {
+    "title": "Preemptive Communication Improves Multi-Agent Pursuit Safety",
+    "summary": "A new unified control and communication strategy guarantees inter-agent collision avoidance while reducing message transmissions by 77.5%.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22198v1",
+    "published_at": "2026-10-15T16:50:41+00:00",
+    "fetched_at": "2026-10-16T09:00:14.520819+00:00"
+  },
+  {
+    "title": "Inertially Significant Humanoid Teleoperation via WB-MPC",
+    "summary": "Researchers integrated whole body model predictive control with an extended Kalman filter for online estimation of time-varying inertial parameters in humanoids.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.22176v1",
+    "published_at": "2026-10-15T16:32:58+00:00",
+    "fetched_at": "2026-10-16T09:00:14.520823+00:00"
+  },
+  {
+    "title": "NASA SkyFall Helicopters to Explore Mars",
+    "summary": "Mars helicopters will cover distance quickly and access areas impossible to reach by ground.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/nasas-skyfall-helicopters-will-show-us-parts-of-mars-weve-never-seen-before-scientists-say",
+    "published_at": "2026-10-15T16:00:00+00:00",
+    "fetched_at": "2026-10-16T09:00:22.354844+00:00"
+  },
+  {
     "title": "Data Orchestration for Semiconductor Enterprises",
     "summary": "Data orchestration unifies disconnected equipment and systems for semiconductor engineering teams without replacing existing infrastructure.",
     "category": "Electronics & Semiconductors",
@@ -7,266 +268,5 @@
     "source_url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
     "published_at": "2026-10-15T14:00:00+00:00",
     "fetched_at": "2026-10-15T16:04:35.752709+00:00"
-  },
-  {
-    "title": "Avista Partners with Heddian for Utility Communications",
-    "summary": "Avista selected Heddian to support its field communications modernization and upgrade utility connectivity.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/avista-and-heddian-look-to-rewrite-the-utility-communications-playbook/",
-    "published_at": "2026-10-15T13:57:57+00:00",
-    "fetched_at": "2026-10-15T16:04:35.752723+00:00"
-  },
-  {
-    "title": "Agile Space Industries Opens Bellevue Office",
-    "summary": "Agile Space Industries expanded its propulsion solutions operations by opening a new office in the Seattle area.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/agile-space-industries-expands-to-seattle-area-with-new-bellevue-office/",
-    "published_at": "2026-10-15T12:00:00+00:00",
-    "fetched_at": "2026-10-15T16:04:35.752729+00:00"
-  },
-  {
-    "title": "Engineered Plant Receptors Defend Against Fungal Threats",
-    "summary": "Scientists engineered plant immune receptors to recognize multiple fungal threats and protect global food crops.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014015501.htm",
-    "published_at": "2026-10-15T11:45:43+00:00",
-    "fetched_at": "2026-10-15T16:04:35.752733+00:00"
-  },
-  {
-    "title": "Rescale and Honda Expand Digital Engineering Partnership",
-    "summary": "Rescale and Honda signed a multi-year agreement to scale simulation workloads and support AI-driven vehicle development.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/rescale-and-honda-expand-digital-engineering-partnership/",
-    "published_at": "2026-10-15T11:30:39+00:00",
-    "fetched_at": "2026-10-15T16:04:35.752738+00:00"
-  },
-  {
-    "title": "SpaceX Proposes 456 Starship Launches Annually in Texas",
-    "summary": "SpaceX has asked the FAA to increase allowed Starship launches from its South Texas site from 25 to 456 per year.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-wants-to-launch-starship-more-than-450-times-per-year-from-south-texas",
-    "published_at": "2026-10-15T10:00:00+00:00",
-    "fetched_at": "2026-10-15T16:04:39.711810+00:00"
-  },
-  {
-    "title": "Grid Modernization Expands Cyberattack Surface",
-    "summary": "Grid modernization is expanding the energy sector cyberattack surface while limited network visibility leaves connected assets exposed.",
-    "category": "Energy",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/grid-modernization-hidden-cost-a-growing-attack-surface-few-are-watching/",
-    "published_at": "2026-10-15T08:00:00+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579046+00:00"
-  },
-  {
-    "title": "Automated Via Insertion Strengthens Advanced Interconnects",
-    "summary": "Short-resilient via insertion improves semiconductor reliability and performance.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
-    "published_at": "2026-10-15T07:06:02+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579058+00:00"
-  },
-  {
-    "title": "Battery-Free Smart Glasses Powered by Blink Energy",
-    "summary": "Engineers at Northwestern University developed battery-free health-sensing glasses powered by the motion energy of eye blinks.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/wearables/smart-glasses-energy-blinks-health-monitor/",
-    "published_at": "2026-10-15T07:04:13+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579062+00:00"
-  },
-  {
-    "title": "AMBA C2C Expands Chiplet Connectivity Support",
-    "summary": "AMBA C2C extends chiplet connectivity across AXI and CHI with scalable protocol subsets and flexible transport support.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/amba-c2c-moving-forward-with-a-converged-amba-foundation-for-c2c-connectivity/",
-    "published_at": "2026-10-15T07:02:37+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579065+00:00"
-  },
-  {
-    "title": "Natural Language Control Coming to Battle Tanks",
-    "summary": "General Dynamics Land Systems is integrating natural language command and control into combat vehicles with Primordial Labs.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/voice-battle-tank-general-dynamics-primordial-anura/",
-    "published_at": "2026-10-15T00:03:00+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579069+00:00"
-  },
-  {
-    "title": "Investigating Process Parameters in Conical Cup Deep Drawing",
-    "summary": "Finite element simulations and experiments evaluated how blank holder force and punch speed influence forming loads during the deep drawing of conical cups.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b35d1ca7e3fdfa8cd4e5c3c5b11b83efbf23f273",
-    "published_at": "2026-10-15T00:00:00+00:00",
-    "fetched_at": "2026-10-14T09:14:07.292739+00:00"
-  },
-  {
-    "title": "Securing AI Platforms Using SABSA and DevSecOps",
-    "summary": "A layered security architecture operationalizes the SABSA framework and DevSecOps pipelines to mitigate AI vulnerabilities while maintaining low inference overhead.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/8a6b6536a6f862b7e9e114eb54b0d5aeb5723a96",
-    "published_at": "2026-10-15T00:00:00+00:00",
-    "fetched_at": "2026-10-14T09:14:07.292753+00:00"
-  },
-  {
-    "title": "Palm Tree Waste Reinforces Polymeric Composite Features",
-    "summary": "Date palm rachis base wood waste particulates were used to improve the physical, thermal, and mechanical features of polymeric composites.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/83cc8228bae859833be91dc08c43b2279306c37c",
-    "published_at": "2026-10-15T00:00:00+00:00",
-    "fetched_at": "2026-10-14T09:14:07.292760+00:00"
-  },
-  {
-    "title": "Thermal Stability Analysis of Optical Electric Field Sensors",
-    "summary": "Researchers identified photoelastic and piezoelectric effects as main factors in thermal drift and proposed a compensation layer to improve sensor stability.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/3a41f1a0114442fac8f222e8c0393568ab0a2861",
-    "published_at": "2026-10-15T00:00:00+00:00",
-    "fetched_at": "2026-10-14T09:14:07.292765+00:00"
-  },
-  {
-    "title": "Developing Nanobiocomposites for Bone Tissue Engineering",
-    "summary": "Bioactive glass, nano-hydroxyapatite, and chitosan powders were combined to create nanobiocomposites with high bioactivity, mechanical strength, and antibiofilm activity.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/0a454db5e4e74161e8a2295e57459b9fd06da1cf",
-    "published_at": "2026-10-15T00:00:00+00:00",
-    "fetched_at": "2026-10-14T09:14:07.292770+00:00"
-  },
-  {
-    "title": "Artemis III SLS Teams Prepare for Pad Tanking Test",
-    "summary": "Artemis III SLS teams have fully stacked solid rocket boosters and installed all four RS-25 engines for upcoming testing.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/10/artemis-iii-teams-prepare-short-stack-tanking-test/",
-    "published_at": "2026-10-14T22:36:14+00:00",
-    "fetched_at": "2026-10-15T08:50:33.579071+00:00"
-  },
-  {
-    "title": "Benchmark Electronics Expands Thailand High-Mix Operations",
-    "summary": "Benchmark Electronics is expanding its high-mix electronics manufacturing across Thailand using engineering expertise and flexible production.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/benchmark-electronics-thailand-operations-focus-on-high-mix-manufacturing/",
-    "published_at": "2026-10-14T19:34:54+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107933+00:00"
-  },
-  {
-    "title": "3D Scaling Drives New Material Demands",
-    "summary": "ASM International highlights how building complex 3D devices requires significant advances in materials and manufacturing processes.",
-    "category": "Materials",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/beyond-lithography-3d-scaling-puts-new-demands-on-materials/",
-    "published_at": "2026-10-14T18:29:24+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107982+00:00"
-  },
-  {
-    "title": "Hitachi and FANUC Partner for Physical AI",
-    "summary": "Japanese industrial conglomerate Hitachi is collaborating with FANUC to accelerate the integration of artificial intelligence with robotics.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/two-japanese-heavyweights-collaborate-for-physical-ai/",
-    "published_at": "2026-10-14T18:24:12+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107986+00:00"
-  },
-  {
-    "title": "Generative Modeling of Humanoid Neural Weights",
-    "summary": "Researchers demonstrate a latent diffusion framework to directly generate deployable control networks for humanoid robots from learned weights.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20606v1",
-    "published_at": "2026-10-14T17:59:52+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107989+00:00"
-  },
-  {
-    "title": "CoWear Dataset Improves Wearable Inertial Localization",
-    "summary": "Researchers introduce CoWear, a dataset and framework for collaborative inertial localization using multiple consumer smart devices.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20596v1",
-    "published_at": "2026-10-14T17:59:19+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107991+00:00"
-  },
-  {
-    "title": "Simulations Identify Leakage Pathways in GAAFETs",
-    "summary": "Researchers used predictive first-principles simulations to reveal new leakage paths in Gate-All-Around Field-Effect Transistors.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/simulations-pinpoint-leakage-pathway-in-gaafets-sandia-luxembourg/",
-    "published_at": "2026-10-14T17:44:17+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107994+00:00"
-  },
-  {
-    "title": "FedRIC Framework Optimizes Open RAN Federated Learning",
-    "summary": "FedRIC combines compressed gradient descent and resource allocation to handle heterogeneity and latency constraints in Open RAN federated learning.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20530v1",
-    "published_at": "2026-10-14T17:28:01+00:00",
-    "fetched_at": "2026-10-15T08:50:41.107997+00:00"
-  },
-  {
-    "title": "Tiny Drone Uses Rat-Inspired Whiskers for Navigation",
-    "summary": "A new tiny drone borrows biomimetic whiskers to detect objects, vibrations, and air currents for obstacle avoidance.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/drones/whiskers-drones-navigate-dark/",
-    "published_at": "2026-10-14T17:14:04+00:00",
-    "fetched_at": "2026-10-15T08:50:41.108000+00:00"
-  },
-  {
-    "title": "Certifiable State Estimation Under Observability Degeneracy",
-    "summary": "Researchers establish a universal candidate-driven dual certification framework that resolves state estimation challenges under severe physical sensing degeneracy without incurring rank expansion.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20490v1",
-    "published_at": "2026-10-14T17:03:00+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395129+00:00"
-  },
-  {
-    "title": "Flexibility Margins for Electric Distribution Networks",
-    "summary": "This paper develops a framework for quantifying operational flexibility in radial electric distribution systems under coupled active- and reactive-load uncertainty.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20484v1",
-    "published_at": "2026-10-14T16:55:41+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395137+00:00"
-  },
-  {
-    "title": "Tiered-Resolution Volumetric Mapping for Robots",
-    "summary": "A tiered-resolution mapping mechanism integrates LiDAR at two resolutions simultaneously to reduce map size and CPU time for real-time robotic path planning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20476v1",
-    "published_at": "2026-10-14T16:51:35+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395140+00:00"
-  },
-  {
-    "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
-    "summary": "AdaRSI is an on-demand recursive self-improvement framework that fine-tunes only unreliable sub-steps of vision-language-action models to improve task success with lower GPU time.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20474v1",
-    "published_at": "2026-10-14T16:51:09+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395143+00:00"
-  },
-  {
-    "title": "Framework for Spacecraft Autonomy Testing",
-    "summary": "This paper presents an integrated verification framework combining offline ground testing and online flight monitoring to address the trust gap in AI-enabled spacecraft autonomy.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.20433v1",
-    "published_at": "2026-10-14T16:24:11+00:00",
-    "fetched_at": "2026-10-15T08:50:50.395146+00:00"
   }
 ]
