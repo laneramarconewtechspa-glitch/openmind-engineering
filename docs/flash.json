@@ -1,5 +1,23 @@
 [
   {
+    "title": "Opportunity Charging Scales Robot Fleets",
+    "summary": "Opportunity charging is becoming essential for keeping autonomous robot fleets operational and scalable.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
+    "published_at": "2026-10-16T23:39:33+00:00",
+    "fetched_at": "2026-10-17T08:09:36.328792+00:00"
+  },
+  {
+    "title": "AI-Designed Genetic Blueprints for Viruses",
+    "summary": "A Stanford University PhD student used a generative AI model to propose genetic blueprints for microscopic viruses.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+    "published_at": "2026-10-16T18:00:00+00:00",
+    "fetched_at": "2026-10-17T08:09:36.328808+00:00"
+  },
+  {
     "title": "MAIT Group and Sigmetrix Partner for Variation Management",
     "summary": "MAIT Group partnered with Sigmetrix to integrate tolerance analysis and simulation into PTC and Siemens development environments.",
     "category": "Computing",
@@ -250,23 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.22363v1",
     "published_at": "2026-10-15T17:59:07+00:00",
     "fetched_at": "2026-10-16T09:00:09.751482+00:00"
-  },
-  {
-    "title": "GeoState Framework for View-Decoupled 3D World Modeling",
-    "summary": "GeoState is a view-decoupled geometry representation that separates scene-state evolution from camera-dependent observation for predictive 3D world modeling.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22343v1",
-    "published_at": "2026-10-15T17:56:18+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751488+00:00"
-  },
-  {
-    "title": "Spark-0 Spatially Aligned Tactile Pretraining for Robots",
-    "summary": "Spark-0 is a vision-tactile-language-action model that uses touch data for scalable supervision in contact-rich robot dexterous manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22342v1",
-    "published_at": "2026-10-15T17:56:17+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751492+00:00"
   }
 ]
