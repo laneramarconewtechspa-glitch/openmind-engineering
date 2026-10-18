@@ -1,5 +1,14 @@
 [
   {
+    "title": "Choosing BLDC Motors for Robots",
+    "summary": "Factors like sensors and safety help determine the selection of brushless DC motors for robotic arms and mobile platforms.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/how-to-choose-bldc-motor-robotic-arms-mobile-robots/",
+    "published_at": "2026-10-18T12:30:50+00:00",
+    "fetched_at": "2026-10-18T15:08:49.967846+00:00"
+  },
+  {
     "title": "ADI Whitepaper Examines Challenges of Physical AI",
     "summary": "A new ADI whitepaper explores the challenges and opportunities of moving physical AI from laboratories into production machinery.",
     "category": "Robotics",
@@ -259,14 +268,5 @@
     "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-space-force-launch-ussf-481-vandenberg",
     "published_at": "2026-10-15T18:00:00+00:00",
     "fetched_at": "2026-10-16T08:58:35.172642+00:00"
-  },
-  {
-    "title": "LIBERO-PeRM Benchmark for Personalized Robotic Manipulation",
-    "summary": "Researchers introduced LIBERO-PeRM, a benchmark and simulation framework for preference learning in personalized robotic manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22372v1",
-    "published_at": "2026-10-15T17:59:59+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172646+00:00"
   }
 ]
