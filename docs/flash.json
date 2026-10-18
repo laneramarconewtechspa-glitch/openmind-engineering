@@ -1,5 +1,23 @@
 [
   {
+    "title": "ADI Whitepaper Examines Challenges of Physical AI",
+    "summary": "A new ADI whitepaper explores the challenges and opportunities of moving physical AI from laboratories into production machinery.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
+    "published_at": "2026-10-17T21:33:57+00:00",
+    "fetched_at": "2026-10-18T08:26:45.401306+00:00"
+  },
+  {
+    "title": "Review of Composite Fibre Reinforcements in Aerospace",
+    "summary": "A systematic review examines the classification, mechanical performance, and sustainability of composite fibre reinforcements for aerospace structural engineering.",
+    "category": "Aerospace",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/9d3e40821c180953c41a22db3e8249615b04d168",
+    "published_at": "2026-10-17T00:00:00+00:00",
+    "fetched_at": "2026-10-18T08:26:45.401321+00:00"
+  },
+  {
     "title": "Opportunity Charging Scales Robot Fleets",
     "summary": "Opportunity charging is becoming essential for keeping autonomous robot fleets operational and scalable.",
     "category": "Robotics",
@@ -250,23 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.22372v1",
     "published_at": "2026-10-15T17:59:59+00:00",
     "fetched_at": "2026-10-16T08:58:35.172646+00:00"
-  },
-  {
-    "title": "Value as Memory Improves General Robot Policies",
-    "summary": "Value as Memory is a framework using value caching and online reinforcement learning that improves robot policy success rates on long-horizon tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22368v1",
-    "published_at": "2026-10-15T17:59:31+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751472+00:00"
-  },
-  {
-    "title": "Unified World Action Model for Egocentric Manipulation",
-    "summary": "Researchers introduced P3-WAM, a unified world action model for egocentric dexterous manipulation that combines 3D perception, action-conditioned prediction, and goal-directed planning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.22363v1",
-    "published_at": "2026-10-15T17:59:07+00:00",
-    "fetched_at": "2026-10-16T09:00:09.751482+00:00"
   }
 ]
