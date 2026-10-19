@@ -1,5 +1,14 @@
 [
   {
+    "title": "Nobel Prizes Inspire Macro-to-Micro Chip Design",
+    "summary": "This year's Nobel prizes highlighted large systems through their smallest parts, raising questions about what chip design can learn and how AI can help.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/from-macro-to-micro-and-back/",
+    "published_at": "2026-10-19T08:19:07+00:00",
+    "fetched_at": "2026-10-19T09:26:44.951957+00:00"
+  },
+  {
     "title": "Choosing BLDC Motors for Robots",
     "summary": "Factors like sensors and safety help determine the selection of brushless DC motors for robotic arms and mobile platforms.",
     "category": "Robotics",
@@ -133,140 +142,5 @@
     "source_url": "https://newatlas.com/motorcycles/brabus-urban-e-fragment-edition/",
     "published_at": "2026-10-16T09:27:46+00:00",
     "fetched_at": "2026-10-16T16:13:03.621945+00:00"
-  },
-  {
-    "title": "Ofwat Proposes Wastewater Enforcement Package",
-    "summary": "Regulator Ofwat proposed a 280,000 pound enforcement package against Hafren Dyfrdwy for wastewater treatment breaches.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/ofwat-proposes-280000-enforcement-package-for-hafren-dyfrdwy-over-wastewater-breaches-16-10-2026/",
-    "published_at": "2026-10-16T09:18:58+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621949+00:00"
-  },
-  {
-    "title": "Anglia Expands Analogue Supply Strategy",
-    "summary": "Anglia Components announced a strategy to supply the entire signal chain to address customer frustration regarding analogue component supply.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/anglia-addresses-alternative-analogue-2026-10/",
-    "published_at": "2026-10-16T08:04:07+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892225+00:00"
-  },
-  {
-    "title": "Elektrobit and Microchip Streamline AUTOSAR",
-    "summary": "The collaboration combines EB tresos software with Microchip automotive platforms to streamline AUTOSAR software development.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/elektrobit-and-microchip-streamline-autosar-software-development/",
-    "published_at": "2026-10-16T07:02:12+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892238+00:00"
-  },
-  {
-    "title": "FF Launches Nova Humanoid Robots",
-    "summary": "FF launched Nova humanoid robots and Physical AI programs featuring developer tools, educational curricula, and reinforcement learning.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/ff-launches-nova-humanoid-robots-and-physical-ai-programs/",
-    "published_at": "2026-10-16T06:57:12+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892243+00:00"
-  },
-  {
-    "title": "IBM and Siemens Collaborate on 3D Nanostacks",
-    "summary": "IBM and Siemens will develop virtual models, simulation, and lithography techniques to advance 3D nanostack technology.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/ibm-and-siemens-collaborate-to-advance-3d-nanostack-technology/",
-    "published_at": "2026-10-16T06:24:26+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892248+00:00"
-  },
-  {
-    "title": "NASA Captures Atmospheric Waves Above Hurricane",
-    "summary": "NASA satellites captured rare atmospheric waves rippling high above Hurricane Simon, revealing upper atmosphere disturbances.",
-    "category": "Aerospace",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261015073207.htm",
-    "published_at": "2026-10-16T05:50:44+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621954+00:00"
-  },
-  {
-    "title": "IonQ and Cavendish Lab Open Quantum Centre",
-    "summary": "IonQ and Cambridge University's Cavendish Lab have opened the IonQ Quantum Innovation Centre at the Ray Dolby Centre.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/ionq-and-cavendish-lab-open-quantum-innovation-centre-2026-10/",
-    "published_at": "2026-10-16T05:15:27+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892253+00:00"
-  },
-  {
-    "title": "Cincoze Launches External EMC Protection Module",
-    "summary": "Cincoze has launched the Power Protection Module to strengthen protection against electromagnetic noise in industrial environments.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/external-emc-protection-module-2026-10/",
-    "published_at": "2026-10-16T05:01:01+00:00",
-    "fetched_at": "2026-10-16T08:58:27.892257+00:00"
-  },
-  {
-    "title": "Airbus U740-Valkyrie Completes Maiden Flight",
-    "summary": "Airbus's uncrewed combat aircraft U740-Valkyrie successfully completed its maiden flight in Northern Europe.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/u740-valkyrie-loyal-wingman-maiden-flight/",
-    "published_at": "2026-10-16T04:36:38+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172614+00:00"
-  },
-  {
-    "title": "Atomic Steps Guide Quantum Vortices in Superconductors",
-    "summary": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, enabling much easier movement in one direction.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
-    "published_at": "2026-10-16T04:22:01+00:00",
-    "fetched_at": "2026-10-16T16:13:11.685299+00:00"
-  },
-  {
-    "title": "Rocket Lab Delays Neutron Debut to 2027",
-    "summary": "Rocket Lab has postponed the launch of its Neutron vehicle due to carbon fibre manufacturing problems.",
-    "category": "Aerospace",
-    "source_name": "NASASpaceflight",
-    "source_url": "https://www.nasaspaceflight.com/2026/10/carbon-fibre-force-rocket-lab-delay-neutron-debut/",
-    "published_at": "2026-10-16T03:49:06+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172623+00:00"
-  },
-  {
-    "title": "Sikorsky Packs Nomad 100 VTOL Squad in Box",
-    "summary": "Sikorsky introduced the Fast Pack system, housing four Nomad 100 VTOL drones and gear inside a 20-foot shipping container.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/nomad-100-fast-pack-drone-squad-shipping-container/",
-    "published_at": "2026-10-16T02:42:12+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172628+00:00"
-  },
-  {
-    "title": "Wireless Optoelectronics Enable Local Gene Control",
-    "summary": "Researchers developed wireless implantable optoelectronic devices to enable local, light-regulated gene activation in mouse lungs.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e3842bde671429f16755a973b796a6b85cf5d340",
-    "published_at": "2026-10-16T00:00:00+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172633+00:00"
-  },
-  {
-    "title": "Remote Control of Cu Sites Enhances Methane Conversion",
-    "summary": "Outer-shell coordination engineering in Zr-based metal-organic frameworks enables remote control of single-atom Cu reactivity for methane hydroxylation.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/74fd5422f78aef343404801dbc1ac63802ec9014",
-    "published_at": "2026-10-16T00:00:00+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172638+00:00"
-  },
-  {
-    "title": "SpaceX Launches Classified US Space Force Mission",
-    "summary": "SpaceX launched a classified mission for the U.S. Space Force from California, marking its 114th Falcon 9 mission of the year.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-space-force-launch-ussf-481-vandenberg",
-    "published_at": "2026-10-15T18:00:00+00:00",
-    "fetched_at": "2026-10-16T08:58:35.172642+00:00"
   }
 ]
