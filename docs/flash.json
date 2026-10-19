@@ -1,5 +1,77 @@
 [
   {
+    "title": "Qualcomm Wins Key Legal Claims Against Arm in IP Dispute",
+    "summary": "A jury reached a verdict in a four-year intellectual property dispute between Qualcomm and Arm, awarding just $2 in damages.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+    "published_at": "2026-10-19T16:13:37+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987107+00:00"
+  },
+  {
+    "title": "Agentic AI Explores Heterogeneous Chip and Interconnect Architectures",
+    "summary": "Researchers at Argonne National Laboratory and the University of Illinois Urbana-Champaign published a technical paper on agentic AI for heterogeneous system design.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/agentic-ai-explores-heterogeneous-chip-and-interconnect-architectures-argonne-uiuc/",
+    "published_at": "2026-10-19T16:02:46+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987120+00:00"
+  },
+  {
+    "title": "Tactical Titanium Pen Packs Five Emergency Outdoor Tools",
+    "summary": "Hardware brand MeTool introduced a titanium multitool pen featuring five emergency tools for outdoorspeople.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/knives-multitools/metool-sceptrix-tactical-pen-multitool-edc-titanium/",
+    "published_at": "2026-10-19T13:27:00+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987126+00:00"
+  },
+  {
+    "title": "Alaska Landslide Triggers Massive Tsunami Reaching 1,580 Feet",
+    "summary": "A massive landslide in Alaska triggered the second-highest tsunami ever recorded, sending water and debris up a mountainside.",
+    "category": "Civil & Infrastructure",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+    "published_at": "2026-10-19T13:09:18+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987131+00:00"
+  },
+  {
+    "title": "Paradromics and Siemens Healthineers Partner on Brain Implants",
+    "summary": "Paradromics and Siemens Healthineers are building an imaging workflow to improve brain-computer interfaces.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/implants/imaging-collaboration-between-siemens-healthineers-paradromics-aims-to-improve-brain-computer-interfaces",
+    "published_at": "2026-10-19T12:50:06+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987135+00:00"
+  },
+  {
+    "title": "Volvo Cars Expands NVIDIA Partnership for Automated Driving",
+    "summary": "Volvo Cars is expanding its partnership with NVIDIA to integrate technology that supports eyes-off driving in next-generation vehicles.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/volvo-cars-expands-nvidia-partnership-for-automated-driving/",
+    "published_at": "2026-10-19T10:24:19+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987140+00:00"
+  },
+  {
+    "title": "Zesty Adds Autonomous GPU Fractioning for Kubernetes AI Workloads",
+    "summary": "Zesty introduced a capability that adjusts GPU memory and compute sharing dynamically to help teams reduce infrastructure costs.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/zesty-adds-autonomous-gpu-fractioning-for-kubernetes-ai-workloads/",
+    "published_at": "2026-10-19T10:08:59+00:00",
+    "fetched_at": "2026-10-19T18:03:36.987144+00:00"
+  },
+  {
+    "title": "AI Agents Stranded on Virtual Island Display Play Behavior",
+    "summary": "Researchers studying unprompted AI behavior found that copies of Claude Opus left alone on a virtual desert island for 30 hours began to play.",
+    "category": "Computing",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+    "published_at": "2026-10-19T09:08:05+00:00",
+    "fetched_at": "2026-10-19T18:03:39.400401+00:00"
+  },
+  {
     "title": "Nobel Prizes Inspire Macro-to-Micro Chip Design",
     "summary": "This year's Nobel prizes highlighted large systems through their smallest parts, raising questions about what chip design can learn and how AI can help.",
     "category": "Electronics & Semiconductors",
@@ -43,104 +115,5 @@
     "source_url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
     "published_at": "2026-10-16T23:39:33+00:00",
     "fetched_at": "2026-10-17T08:09:36.328792+00:00"
-  },
-  {
-    "title": "AI-Designed Genetic Blueprints for Viruses",
-    "summary": "A Stanford University PhD student used a generative AI model to propose genetic blueprints for microscopic viruses.",
-    "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-    "published_at": "2026-10-16T18:00:00+00:00",
-    "fetched_at": "2026-10-17T08:09:36.328808+00:00"
-  },
-  {
-    "title": "MAIT Group and Sigmetrix Partner for Variation Management",
-    "summary": "MAIT Group partnered with Sigmetrix to integrate tolerance analysis and simulation into PTC and Siemens development environments.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mait-group-partners-with-sigmetrix-on-variation-management/",
-    "published_at": "2026-10-16T14:47:26+00:00",
-    "fetched_at": "2026-10-16T16:12:24.860063+00:00"
-  },
-  {
-    "title": "Kier to Design Heaton Park Metrolink Stop Upgrades",
-    "summary": "Kier was appointed by Transport for Greater Manchester to lead the design of improvements for the Heaton Park Metrolink stop.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/kier-appointed-to-design-heaton-park-metrolink-stop-improvements-16-10-2026/",
-    "published_at": "2026-10-16T14:08:27+00:00",
-    "fetched_at": "2026-10-16T16:12:24.860079+00:00"
-  },
-  {
-    "title": "Swiss Researcher Develops Bacteria-Bound Printable Concrete",
-    "summary": "A Swiss researcher developed a new printable concrete-like material that relies on bacteria instead of cement for binding.",
-    "category": "Materials",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/swiss-researcher-develops-printable-concrete-held-together-with-bacteria/",
-    "published_at": "2026-10-16T13:34:17+00:00",
-    "fetched_at": "2026-10-16T16:12:24.860085+00:00"
-  },
-  {
-    "title": "Siemens Healthineers Narrows Ultrasound Focus",
-    "summary": "Siemens Healthineers is retiring its general imaging ultrasound line to focus entirely on image-guided cardiovascular therapy.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/business/siemens-healthineers-narrows-ultrasound-focus-to-image-guided-cardiovascular-therapy",
-    "published_at": "2026-10-16T12:54:05+00:00",
-    "fetched_at": "2026-10-16T16:12:24.860118+00:00"
-  },
-  {
-    "title": "Uranium Cubes Reveal Nazi Germany Nuclear Program Failure",
-    "summary": "Analysis of surviving uranium cubes and wartime documents shows Nazi Germany's final experimental reactor lacked necessary materials to operate.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
-    "published_at": "2026-10-16T12:32:52+00:00",
-    "fetched_at": "2026-10-16T16:12:24.860126+00:00"
-  },
-  {
-    "title": "Taiwan AI Ambitions Face Talent Shortage",
-    "summary": "AMD executive David Wang stated that Taiwan's opportunities in AI markets could be hindered by a lack of talent.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
-    "published_at": "2026-10-16T10:55:42+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621919+00:00"
-  },
-  {
-    "title": "High Groundwater Influences Attenuation Design",
-    "summary": "Stuart Crisp discusses how high groundwater levels affect the design of open or closed bottom underground attenuation structures.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/sponsored/how-high-groundwater-can-influence-the-design-of-below-ground-attenuation-structures-16-10-2026/",
-    "published_at": "2026-10-16T10:44:26+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621929+00:00"
-  },
-  {
-    "title": "Scientists Discover Plastic-Eating Enzyme",
-    "summary": "Researchers found a Pac-Man enzyme that helps bacteria break down certain plastics, offering potential for fighting pollution.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
-    "published_at": "2026-10-16T10:32:03+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621935+00:00"
-  },
-  {
-    "title": "Raltron Unveils Monolithic Crystal Filters",
-    "summary": "Raltron announced an RXF monolithic crystal filter series built for LEO satellite broadband gateway ground stations.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/raltron-monolithic-crystal-filter-series-for-gateway-ground-stations-2026-10/",
-    "published_at": "2026-10-16T10:20:32+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621940+00:00"
-  },
-  {
-    "title": "Brabus Launches $50K Electric Motorcycle",
-    "summary": "Brabus, DAB Motors, and Fragment Design collaborated on the Urban E Fragment Edition electric motorcycle priced at $50,000.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/brabus-urban-e-fragment-edition/",
-    "published_at": "2026-10-16T09:27:46+00:00",
-    "fetched_at": "2026-10-16T16:13:03.621945+00:00"
   }
 ]
