@@ -1,5 +1,59 @@
 [
   {
+    "title": "Luton Airport Tenders Inspection Contract",
+    "summary": "London Luton Airport is seeking a contractor for civil and structural inspections of Luton Dart assets under an estimated £800,000 contract.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/luton-airport-tenders-civil-and-structural-inspection-contract-20-10-2026/",
+    "published_at": "2026-10-20T07:55:28+00:00",
+    "fetched_at": "2026-10-20T09:04:18.506618+00:00"
+  },
+  {
+    "title": "Q2 EDA Revenues Rise",
+    "summary": "The Electronic System Design industry revenue increased by 12.2% to $5,710.8 million in Q2 according to the ESD Alliance.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/q2-eda-revenues-up-12-2-yoy-2026-10/",
+    "published_at": "2026-10-20T05:14:26+00:00",
+    "fetched_at": "2026-10-20T09:04:18.506631+00:00"
+  },
+  {
+    "title": "Hyperscaler CSP Capex Surge Projected",
+    "summary": "Combined capital expenditures among the world's leading cloud service providers are projected to surge significantly through 2027.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/hyperscaler-csps-pile-on-the-capex-2026-10/",
+    "published_at": "2026-10-20T05:08:24+00:00",
+    "fetched_at": "2026-10-20T09:04:18.506637+00:00"
+  },
+  {
+    "title": "Recycled PETG Tested for Sterile Medical Packaging",
+    "summary": "Coloplast, Impact Plastics, and Placon are testing post-industrial recycled PETG for use in thermoformed sterile barrier systems with promising results.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/packaging/can-recycled-petg-be-used-in-sterile-medical-packaging-",
+    "published_at": "2026-10-19T20:36:51+00:00",
+    "fetched_at": "2026-10-20T09:04:21.334174+00:00"
+  },
+  {
+    "title": "Edwards Lifesciences Recalls Mitral Valve Delivery Systems",
+    "summary": "Edwards Lifesciences recalled roughly 200 Commander M delivery systems following a fatal balloon burst incident.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/cardiovascular/edwards-lifesciences-recalls-mitral-valve-delivery-systems-after-fatal-balloon-burst",
+    "published_at": "2026-10-19T18:45:14+00:00",
+    "fetched_at": "2026-10-20T09:04:21.334185+00:00"
+  },
+  {
+    "title": "Teaching AI Symmetry Improves Prenatal Diagnosis",
+    "summary": "Researchers at MIT and Boston Children's Hospital developed an AI model that adjusts scans on the fly to track fetal movement.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+    "published_at": "2026-10-19T18:20:00+00:00",
+    "fetched_at": "2026-10-20T09:04:21.334190+00:00"
+  },
+  {
     "title": "Qualcomm Wins Key Legal Claims Against Arm in IP Dispute",
     "summary": "A jury reached a verdict in a four-year intellectual property dispute between Qualcomm and Arm, awarding just $2 in damages.",
     "category": "Electronics & Semiconductors",
@@ -16,6 +70,15 @@
     "source_url": "https://semiengineering.com/agentic-ai-explores-heterogeneous-chip-and-interconnect-architectures-argonne-uiuc/",
     "published_at": "2026-10-19T16:02:46+00:00",
     "fetched_at": "2026-10-19T18:03:36.987120+00:00"
+  },
+  {
+    "title": "Anglian Water Fined £1.6M for River Pollution",
+    "summary": "Anglian Water was fined £1.6M after local mismanagement led to sewage dumping into the River Brain in Essex.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/anglian-water-fined-1-6m-for-polluting-river-brain-in-essex-19-10-2026/",
+    "published_at": "2026-10-19T15:52:07+00:00",
+    "fetched_at": "2026-10-20T09:04:21.334197+00:00"
   },
   {
     "title": "Tactical Titanium Pen Packs Five Emergency Outdoor Tools",
@@ -81,6 +144,24 @@
     "fetched_at": "2026-10-19T09:26:44.951957+00:00"
   },
   {
+    "title": "Sweco Secures £37.8M Swedish Security Frameworks",
+    "summary": "Design and engineering consultancy Sweco has won three framework agreements with Specialfastigheter worth an estimated combined £37.8M.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/sweco-secures-37-8m-framework-agreements-for-swedish-high-security-facilities-19-10-2026/",
+    "published_at": "2026-10-19T08:14:38+00:00",
+    "fetched_at": "2026-10-20T09:04:24.956790+00:00"
+  },
+  {
+    "title": "GBR Strategy to Boost Electrification and Accessibility",
+    "summary": "The government states that Great British Railways' Rolling Stock and Infrastructure Strategy will support improvements to electrification and accessibility.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/gbrs-rolling-stock-and-infrastructure-strategy-to-support-electrification-and-accessibility-19-10-2026/",
+    "published_at": "2026-10-19T05:30:36+00:00",
+    "fetched_at": "2026-10-20T09:04:24.956800+00:00"
+  },
+  {
     "title": "Choosing BLDC Motors for Robots",
     "summary": "Factors like sensors and safety help determine the selection of brushless DC motors for robotic arms and mobile platforms.",
     "category": "Robotics",
@@ -97,23 +178,5 @@
     "source_url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
     "published_at": "2026-10-17T21:33:57+00:00",
     "fetched_at": "2026-10-18T08:26:45.401306+00:00"
-  },
-  {
-    "title": "Review of Composite Fibre Reinforcements in Aerospace",
-    "summary": "A systematic review examines the classification, mechanical performance, and sustainability of composite fibre reinforcements for aerospace structural engineering.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/9d3e40821c180953c41a22db3e8249615b04d168",
-    "published_at": "2026-10-17T00:00:00+00:00",
-    "fetched_at": "2026-10-18T08:26:45.401321+00:00"
-  },
-  {
-    "title": "Opportunity Charging Scales Robot Fleets",
-    "summary": "Opportunity charging is becoming essential for keeping autonomous robot fleets operational and scalable.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/why-opportunity-charging-is-winning-as-robot-fleets-scale/",
-    "published_at": "2026-10-16T23:39:33+00:00",
-    "fetched_at": "2026-10-17T08:09:36.328792+00:00"
   }
 ]
