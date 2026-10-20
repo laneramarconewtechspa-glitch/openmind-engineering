@@ -1,5 +1,68 @@
 [
   {
+    "title": "UK Grid Companies Pledge £200B Investment",
+    "summary": "UK electricity transmission and distribution companies committed to a £200bn investment aiming to deliver £58bn of gross value added to the economy by 2035.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/electricity-grid-companies-commit-to-ambitious-skills-jobs-and-economic-growth-targets-20-10-2026/",
+    "published_at": "2026-10-20T15:12:01+00:00",
+    "fetched_at": "2026-10-20T16:43:29.104549+00:00"
+  },
+  {
+    "title": "Under-Skin Implant Controls Prosthetic Arms",
+    "summary": "Two patients in Australia became the first recipients of an under-skin implant that measures muscle electrical signals to control prosthetic arms.",
+    "category": "Biomedical",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/phantom-neuro-prosthetic-arm-implant",
+    "published_at": "2026-10-20T14:00:04+00:00",
+    "fetched_at": "2026-10-20T16:43:29.104563+00:00"
+  },
+  {
+    "title": "AnySignal to Provide Communications for Reflect Orbital",
+    "summary": "AnySignal announced an agreement with Reflect Orbital to deliver space-to-earth communications for three upcoming missions.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
+    "published_at": "2026-10-20T13:00:00+00:00",
+    "fetched_at": "2026-10-20T16:43:29.104573+00:00"
+  },
+  {
+    "title": "HP Launches New OmniBook and ProBook Laptops",
+    "summary": "HP introduced new laptops featuring OLED displays, NPU-based AI capabilities, USB-C connectivity, and options for consumer and business users.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/hp-introduces-omnibook-5-and-probook-4-laptops/",
+    "published_at": "2026-10-20T12:53:11+00:00",
+    "fetched_at": "2026-10-20T16:43:29.104580+00:00"
+  },
+  {
+    "title": "Satellite Deposit Scheme Proposed to Combat Space Junk",
+    "summary": "Researchers suggest a refundable deposit system could compel satellite operators to clean up orbital debris.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/could-satellite-deorbit-deposits-prevent-a-space-debris-disaster",
+    "published_at": "2026-10-20T12:00:00+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671021+00:00"
+  },
+  {
+    "title": "Siemens Launches Silicon Test Execution Software",
+    "summary": "Siemens released new software integrating with Advantest and Teradyne equipment to streamline silicon test workflows.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-launches-software-to-streamline-silicon-test-execution/",
+    "published_at": "2026-10-20T11:52:47+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671031+00:00"
+  },
+  {
+    "title": "DigiKey Invests $100M to Scale Distribution Centre",
+    "summary": "DigiKey is investing $100 million over 18 months to expand its global product distribution centre and order management system.",
+    "category": "Other Engineering",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/distribution/digikey-scales-distribution-centre-for-50-company-growth-2026-10/",
+    "published_at": "2026-10-20T09:46:07+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671037+00:00"
+  },
+  {
     "title": "Luton Airport Tenders Inspection Contract",
     "summary": "London Luton Airport is seeking a contractor for civil and structural inspections of Luton Dart assets under an estimated £800,000 contract.",
     "category": "Civil & Infrastructure",
@@ -25,6 +88,15 @@
     "source_url": "https://www.electronicsweekly.com/news/business/hyperscaler-csps-pile-on-the-capex-2026-10/",
     "published_at": "2026-10-20T05:08:24+00:00",
     "fetched_at": "2026-10-20T09:04:18.506637+00:00"
+  },
+  {
+    "title": "Scientists Reach Quantum Limit on Material Surface",
+    "summary": "Researchers created an ultra-clean surface where molecules maintain quantum properties at the fundamental limit.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
+    "published_at": "2026-10-20T03:02:41+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671042+00:00"
   },
   {
     "title": "Recycled PETG Tested for Sterile Medical Packaging",
@@ -54,6 +126,114 @@
     "fetched_at": "2026-10-20T09:04:21.334190+00:00"
   },
   {
+    "title": "Doppler-Compensated STC Framework for MIMO PMCW Radar",
+    "summary": "A new radar framework uses Doppler-compensated space-time coding to reduce range sidelobes and suppress ghost components.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26842v1",
+    "published_at": "2026-10-19T17:58:53+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671046+00:00"
+  },
+  {
+    "title": "Controllability of Polynomial Systems Proven Undecidable",
+    "summary": "Researchers proved that global controllability of polynomial control systems is undecidable and not recursively enumerable.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26832v1",
+    "published_at": "2026-10-19T17:56:42+00:00",
+    "fetched_at": "2026-10-20T16:44:58.671050+00:00"
+  },
+  {
+    "title": "Data Center Oscillation Isolation and Grid Support Controls",
+    "summary": "Researchers derive fundamental limits and a source-selective controller for simultaneous oscillation isolation and grid support from large data centers.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26812v1",
+    "published_at": "2026-10-19T17:50:47+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422817+00:00"
+  },
+  {
+    "title": "Bio-Inspired Thrust-Assisted Trotting for Bipedal Robots",
+    "summary": "A quadratic program-based model predictive control framework enables thruster-assisted trotting on a bipedal robot using bird-inspired locomotion principles.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26810v1",
+    "published_at": "2026-10-19T17:50:01+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422827+00:00"
+  },
+  {
+    "title": "Exact Model Reduction via Lie Symmetry Groups",
+    "summary": "A new model-reduction technique using Lie group theory reduces the parameter space of engineering systems without changing their input-output maps.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26767v1",
+    "published_at": "2026-10-19T17:25:58+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422833+00:00"
+  },
+  {
+    "title": "Nonlinear Stochastic State-Space ID Using Ensemble Kalman Inversion",
+    "summary": "An ensemble Kalman inversion approach is developed for nonlinear state-space system identification and demonstrated on lithium-ion battery models.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26741v1",
+    "published_at": "2026-10-19T17:06:00+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422838+00:00"
+  },
+  {
+    "title": "Deep Pontryagin Learning for Stochastic Control with Jumps",
+    "summary": "A deep Pontryagin learning framework separates adjoint learning from policy improvement for high-dimensional continuous-time stochastic control problems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26718v1",
+    "published_at": "2026-10-19T16:49:30+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422842+00:00"
+  },
+  {
+    "title": "Vision-Language-Action Models for Agricultural Manipulation",
+    "summary": "A simulation-to-real robot-learning framework adapts pretrained generalist policies like pi_0.5 and Octo for agricultural reaching and grasping tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26717v1",
+    "published_at": "2026-10-19T16:49:17+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422846+00:00"
+  },
+  {
+    "title": "Motion Planning with Temporal Logic in Dynamic Environments",
+    "summary": "Researchers extend the augmented graph of convex sets framework to solve motion planning problems with temporal logic specifications in dynamic environments.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26712v1",
+    "published_at": "2026-10-19T16:45:44+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422850+00:00"
+  },
+  {
+    "title": "Foundation Model Driven Optical Flow Estimation",
+    "summary": "Frozen pretrained visual and depth representations from DINOv2 and Depth Anything V2 are coupled with a matching network to estimate dense optical flow.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26690v1",
+    "published_at": "2026-10-19T16:34:11+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422854+00:00"
+  },
+  {
+    "title": "Robotic Evaluation of Biologically Motivated Sensory Skin",
+    "summary": "A layered biomimetic robotic skin enables physical and empirical comparison of biologically motivated and counterfactual sensory arrangements for tactile tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26680v1",
+    "published_at": "2026-10-19T16:27:32+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422858+00:00"
+  },
+  {
+    "title": "RoboValue: A Benchmark for Robotic Value Models",
+    "summary": "RoboValue introduces a fine-grained sim-and-real benchmark across 35 tasks to evaluate robotic value models on execution understanding and progress monitoring.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26663v1",
+    "published_at": "2026-10-19T16:19:08+00:00",
+    "fetched_at": "2026-10-20T16:45:25.422862+00:00"
+  },
+  {
     "title": "Qualcomm Wins Key Legal Claims Against Arm in IP Dispute",
     "summary": "A jury reached a verdict in a four-year intellectual property dispute between Qualcomm and Arm, awarding just $2 in damages.",
     "category": "Electronics & Semiconductors",
@@ -61,6 +241,15 @@
     "source_url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
     "published_at": "2026-10-19T16:13:37+00:00",
     "fetched_at": "2026-10-19T18:03:36.987107+00:00"
+  },
+  {
+    "title": "EgoRayFormer Improves Egocentric 3D Human Pose Estimation",
+    "summary": "Researchers introduced EgoRayFormer, a causal pose estimator that couples stereo feature sampling and geometric refinement in ray space for head-mounted cameras.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26641v1",
+    "published_at": "2026-10-19T16:03:20+00:00",
+    "fetched_at": "2026-10-20T16:45:41.350184+00:00"
   },
   {
     "title": "Agentic AI Explores Heterogeneous Chip and Interconnect Architectures",
@@ -72,111 +261,12 @@
     "fetched_at": "2026-10-19T18:03:36.987120+00:00"
   },
   {
-    "title": "Anglian Water Fined £1.6M for River Pollution",
-    "summary": "Anglian Water was fined £1.6M after local mismanagement led to sewage dumping into the River Brain in Essex.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/anglian-water-fined-1-6m-for-polluting-river-brain-in-essex-19-10-2026/",
-    "published_at": "2026-10-19T15:52:07+00:00",
-    "fetched_at": "2026-10-20T09:04:21.334197+00:00"
-  },
-  {
-    "title": "Tactical Titanium Pen Packs Five Emergency Outdoor Tools",
-    "summary": "Hardware brand MeTool introduced a titanium multitool pen featuring five emergency tools for outdoorspeople.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/metool-sceptrix-tactical-pen-multitool-edc-titanium/",
-    "published_at": "2026-10-19T13:27:00+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987126+00:00"
-  },
-  {
-    "title": "Alaska Landslide Triggers Massive Tsunami Reaching 1,580 Feet",
-    "summary": "A massive landslide in Alaska triggered the second-highest tsunami ever recorded, sending water and debris up a mountainside.",
-    "category": "Civil & Infrastructure",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
-    "published_at": "2026-10-19T13:09:18+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987131+00:00"
-  },
-  {
-    "title": "Paradromics and Siemens Healthineers Partner on Brain Implants",
-    "summary": "Paradromics and Siemens Healthineers are building an imaging workflow to improve brain-computer interfaces.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/implants/imaging-collaboration-between-siemens-healthineers-paradromics-aims-to-improve-brain-computer-interfaces",
-    "published_at": "2026-10-19T12:50:06+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987135+00:00"
-  },
-  {
-    "title": "Volvo Cars Expands NVIDIA Partnership for Automated Driving",
-    "summary": "Volvo Cars is expanding its partnership with NVIDIA to integrate technology that supports eyes-off driving in next-generation vehicles.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/volvo-cars-expands-nvidia-partnership-for-automated-driving/",
-    "published_at": "2026-10-19T10:24:19+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987140+00:00"
-  },
-  {
-    "title": "Zesty Adds Autonomous GPU Fractioning for Kubernetes AI Workloads",
-    "summary": "Zesty introduced a capability that adjusts GPU memory and compute sharing dynamically to help teams reduce infrastructure costs.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/zesty-adds-autonomous-gpu-fractioning-for-kubernetes-ai-workloads/",
-    "published_at": "2026-10-19T10:08:59+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987144+00:00"
-  },
-  {
-    "title": "AI Agents Stranded on Virtual Island Display Play Behavior",
-    "summary": "Researchers studying unprompted AI behavior found that copies of Claude Opus left alone on a virtual desert island for 30 hours began to play.",
-    "category": "Computing",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-    "published_at": "2026-10-19T09:08:05+00:00",
-    "fetched_at": "2026-10-19T18:03:39.400401+00:00"
-  },
-  {
-    "title": "Nobel Prizes Inspire Macro-to-Micro Chip Design",
-    "summary": "This year's Nobel prizes highlighted large systems through their smallest parts, raising questions about what chip design can learn and how AI can help.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/from-macro-to-micro-and-back/",
-    "published_at": "2026-10-19T08:19:07+00:00",
-    "fetched_at": "2026-10-19T09:26:44.951957+00:00"
-  },
-  {
-    "title": "Sweco Secures £37.8M Swedish Security Frameworks",
-    "summary": "Design and engineering consultancy Sweco has won three framework agreements with Specialfastigheter worth an estimated combined £37.8M.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/sweco-secures-37-8m-framework-agreements-for-swedish-high-security-facilities-19-10-2026/",
-    "published_at": "2026-10-19T08:14:38+00:00",
-    "fetched_at": "2026-10-20T09:04:24.956790+00:00"
-  },
-  {
-    "title": "GBR Strategy to Boost Electrification and Accessibility",
-    "summary": "The government states that Great British Railways' Rolling Stock and Infrastructure Strategy will support improvements to electrification and accessibility.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/gbrs-rolling-stock-and-infrastructure-strategy-to-support-electrification-and-accessibility-19-10-2026/",
-    "published_at": "2026-10-19T05:30:36+00:00",
-    "fetched_at": "2026-10-20T09:04:24.956800+00:00"
-  },
-  {
-    "title": "Choosing BLDC Motors for Robots",
-    "summary": "Factors like sensors and safety help determine the selection of brushless DC motors for robotic arms and mobile platforms.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/how-to-choose-bldc-motor-robotic-arms-mobile-robots/",
-    "published_at": "2026-10-18T12:30:50+00:00",
-    "fetched_at": "2026-10-18T15:08:49.967846+00:00"
-  },
-  {
-    "title": "ADI Whitepaper Examines Challenges of Physical AI",
-    "summary": "A new ADI whitepaper explores the challenges and opportunities of moving physical AI from laboratories into production machinery.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/adi-explains-the-race-to-make-ai-physical/",
-    "published_at": "2026-10-17T21:33:57+00:00",
-    "fetched_at": "2026-10-18T08:26:45.401306+00:00"
+    "title": "Convex Inner Approximations Enable Safe AC Dispatch",
+    "summary": "A new framework constructs convex inner approximations to connect nonlinear network feasibility, constrained device response, and dispatch-interval tracking for safe AC dispatch.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.26634v1",
+    "published_at": "2026-10-19T16:00:08+00:00",
+    "fetched_at": "2026-10-20T16:45:41.350195+00:00"
   }
 ]
