@@ -1,5 +1,266 @@
 [
   {
+    "title": "Scaling CPO Testing Beyond a Single Die",
+    "summary": "Fiber alignment, connector durability, and simultaneous optical and electrical testing present challenges for high-volume manufacturing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/scaling-cpo-testing-beyond-a-single-die/",
+    "published_at": "2026-10-21T07:01:32+00:00",
+    "fetched_at": "2026-10-21T09:06:31.486705+00:00"
+  },
+  {
+    "title": "Apex Recordhunter Electric Drone Sets Speed Record",
+    "summary": "Quantum Systems' experimental Apex Recordhunter reached an unofficial speed of 419.5 knots.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/quantum-systems-electric-drone-unofficial-speed-record/",
+    "published_at": "2026-10-21T04:17:00+00:00",
+    "fetched_at": "2026-10-21T09:06:31.486718+00:00"
+  },
+  {
+    "title": "Lifford Bridge Trials Continuous Corrosion Monitoring",
+    "summary": "A new system for continuous half-joint corrosion monitoring is being trialed on Lifford Bridge.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/in-depth/lifford-bridge-hosts-trial-of-system-offering-continuous-half-joint-corrosion-monitoring-21-10-2026/",
+    "published_at": "2026-10-21T03:00:28+00:00",
+    "fetched_at": "2026-10-21T09:06:31.486723+00:00"
+  },
+  {
+    "title": "Top Ten Chinese Semiconductor Companies Listed",
+    "summary": "SMIC and CXMT lead the list of top Chinese semiconductor companies by revenue.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/ten-best/top-stent-chinese-semiconductor-companies-2026-10/",
+    "published_at": "2026-10-21T00:01:20+00:00",
+    "fetched_at": "2026-10-21T09:06:31.486728+00:00"
+  },
+  {
+    "title": "Project-Based Learning Boosts Mastercam X5 Competence",
+    "summary": "A study on vocational students showed that implementing project-based learning with a demonstration approach significantly improved practical performance competence in Mastercam X5 Turning.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d38a22c973c3aefb83fd540047387111a69ba2b0",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766468+00:00"
+  },
+  {
+    "title": "Reverse Engineering CAD Instruction Improves 3D Modeling",
+    "summary": "Classroom action research demonstrated that reverse engineering-based CAD instruction using the Loft feature effectively enhanced vocational students' geometric visualization and 3D modeling accuracy.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a8cf08b028fd0688e51731ad0bcdd54e523b616a",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766481+00:00"
+  },
+  {
+    "title": "Competency-Based Evaluation Improves Milling Practice",
+    "summary": "A study at a vocational school found that competency-based evaluation successfully increased students' practical milling competence and learning mastery over two cycles.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/949b0d8c8e621be0d693da78480ce334273eac28",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766487+00:00"
+  },
+  {
+    "title": "Risk Matrix Instrument Reduces SMAW Welding PPE Violations",
+    "summary": "Researchers developed a risk matrix-based PPE compliance observation instrument that significantly reduced safety violations during vocational SMAW welding practices.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/59f8c8bc081f54b96abfd937e972d1205e65b863",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766493+00:00"
+  },
+  {
+    "title": "Students Respond Positively to PBL and EveryCircuit",
+    "summary": "A survey of electronics engineering students revealed good overall acceptance of problem-based learning combined with EveryCircuit interactive simulation software.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/2de3d06f3210d58f01569f36d9d24b0af471a16c",
+    "published_at": "2026-10-21T00:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766499+00:00"
+  },
+  {
+    "title": "SpaceX Plans First-Ever Double Starship Catch",
+    "summary": "SpaceX plans to attempt catching both Starship rocket stages during its upcoming test flight in November.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+    "published_at": "2026-10-20T22:29:46+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766504+00:00"
+  },
+  {
+    "title": "MIT Engineers Develop New Recyclable Thermoplastic Yarn",
+    "summary": "MIT engineers created a new thermoplastic yarn designed to mimic conventional elastic yarns and help reduce textile waste.",
+    "category": "Materials",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
+    "published_at": "2026-10-20T21:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:34.766510+00:00"
+  },
+  {
+    "title": "AI and Robotics Combine for Stroke Therapy",
+    "summary": "A new therapeutic approach combines artificial intelligence and human therapy to address physical therapist shortages and assist stroke patients.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/",
+    "published_at": "2026-10-20T21:00:00+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180057+00:00"
+  },
+  {
+    "title": "Sterimax Lens Tool Shoots Dual POVs",
+    "summary": "A new cinematic tool allows cinematographers to simultaneously overlay two points of view directly in-camera.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/photography/sterimax-lens-tool-two-points-of-view/",
+    "published_at": "2026-10-20T18:37:00+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180067+00:00"
+  },
+  {
+    "title": "Co-Generating 3D Motion and Video for Arbitrary Rigs",
+    "summary": "Researchers introduced a model that directly co-generates video and 3D motion for arbitrary skeletons and registers it to a 3D scene.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28632v1",
+    "published_at": "2026-10-20T17:59:56+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180072+00:00"
+  },
+  {
+    "title": "AdaDex Framework Teaches Adaptable Dexterous Skills",
+    "summary": "AdaDex is a new goal-conditioned reinforcement learning framework that transforms short human motion clips into adaptable dexterous robot skills.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28628v1",
+    "published_at": "2026-10-20T17:59:32+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180076+00:00"
+  },
+  {
+    "title": "UniWALM Unifies Language, Perception, and Action for Robots",
+    "summary": "UniWALM is a unified model that integrates video, action, and language into a single shared representation for embodied robot control.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28626v1",
+    "published_at": "2026-10-20T17:59:04+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180079+00:00"
+  },
+  {
+    "title": "PhysCanvas Visuo-Tactile World Model for Robots",
+    "summary": "PhysCanvas is a state-consistent visuo-tactile world model designed for contact-rich robot manipulation policy evaluation and learning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28613v1",
+    "published_at": "2026-10-20T17:54:03+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180083+00:00"
+  },
+  {
+    "title": "SceneRig Reconstructs Simulation-Ready 3D Scenes",
+    "summary": "SceneRig is an agentic system that transforms a single image into an editable, physically stable 3D scene for robotics simulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28585v1",
+    "published_at": "2026-10-20T17:39:42+00:00",
+    "fetched_at": "2026-10-21T09:06:38.180086+00:00"
+  },
+  {
+    "title": "LED Lighting Control Strategies for Energy-Efficient Greenhouses",
+    "summary": "Researchers deployed various greenhouse supplemental lighting strategies at Virginia Tech, showing a prediction-based approach reduces energy costs by 65 percent relative to an always-on baseline.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28570v1",
+    "published_at": "2026-10-20T17:28:44+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622384+00:00"
+  },
+  {
+    "title": "MAPLE: Training-Free Indoor Exploration for Robots",
+    "summary": "A new training-free predictive approach adapts the Mondrian process into an online generative prior to help robots explore unknown indoor environments.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28566v1",
+    "published_at": "2026-10-20T17:25:49+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622394+00:00"
+  },
+  {
+    "title": "Beamfocusing Versus Airy Beams in Antenna Blockage",
+    "summary": "Research proves that conventional beamfocusing maximizes received power for single-antenna receivers regardless of obstacles, outperforming Airy beams.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28557v1",
+    "published_at": "2026-10-20T17:19:00+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622421+00:00"
+  },
+  {
+    "title": "CoGaussian for Open-Vocabulary Collaborative 3D Scene Understanding",
+    "summary": "CoGaussian uses sparse 3D Gaussians aligned with foundation models to communicate and fuse geometric and semantic data across multiple agents.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28530v1",
+    "published_at": "2026-10-20T17:04:38+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622431+00:00"
+  },
+  {
+    "title": "VLM-Guided Contact Retargeting for Humanoid Interaction",
+    "summary": "REACT is a new framework that enables humanoid robots to learn contact-rich physical interactions with humans using onboard sensing and semantic contact modeling.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28523v1",
+    "published_at": "2026-10-20T16:57:52+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622436+00:00"
+  },
+  {
+    "title": "Proof-Carrying Contracts for AI Agent Enforcement",
+    "summary": "Proof-Carrying Contracts provide a framework where AI agents must supply machine-checkable proofs to ensure they preserve agreed constraints during execution.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28484v1",
+    "published_at": "2026-10-20T16:30:34+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622442+00:00"
+  },
+  {
+    "title": "CLOSER for Evidence-Aware Active Visual Verification in Navigation",
+    "summary": "CLOSER combines vision-language model verification with active perception to help embodied agents accurately verify target objects before stopping.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28476v1",
+    "published_at": "2026-10-20T16:27:33+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622447+00:00"
+  },
+  {
+    "title": "Fast Motion Retargeting Pipeline for Humanoid Robots",
+    "summary": "FRDV is a scalable framework that integrates rapid kinematic retargeting and dynamics validation to process human motion capture data for humanoid robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28470v1",
+    "published_at": "2026-10-20T16:22:00+00:00",
+    "fetched_at": "2026-10-21T09:06:41.622453+00:00"
+  },
+  {
+    "title": "Hierarchical Space-Ground Collaborative Network Architecture for 6G",
+    "summary": "Researchers proposed a hierarchical space-ground collaborative network architecture and service-aware deployment strategy to support unified 6G global connectivity.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28459v1",
+    "published_at": "2026-10-20T16:15:07+00:00",
+    "fetched_at": "2026-10-21T09:06:45.385229+00:00"
+  },
+  {
+    "title": "GPT-6-Astra Model Enhances Contact-Rich Robotic Manipulation",
+    "summary": "A new multimodal method leverages tactile understanding and expert demonstrations to generate control commands, improving contact-rich robot manipulation without task-specific fine-tuning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28457v1",
+    "published_at": "2026-10-20T16:15:02+00:00",
+    "fetched_at": "2026-10-21T09:06:45.385239+00:00"
+  },
+  {
+    "title": "Evaluating Stimulus Memorization in Cross-Subject EEG Emotion Recognition",
+    "summary": "Researchers found that high cross-subject EEG emotion recognition accuracies are significantly inflated by stimulus memorization from video labels.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.28422v1",
+    "published_at": "2026-10-20T15:54:18+00:00",
+    "fetched_at": "2026-10-21T09:06:45.385244+00:00"
+  },
+  {
     "title": "UK Grid Companies Pledge £200B Investment",
     "summary": "UK electricity transmission and distribution companies committed to a £200bn investment aiming to deliver £58bn of gross value added to the economy by 2035.",
     "category": "Civil & Infrastructure",
@@ -7,266 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/latest/electricity-grid-companies-commit-to-ambitious-skills-jobs-and-economic-growth-targets-20-10-2026/",
     "published_at": "2026-10-20T15:12:01+00:00",
     "fetched_at": "2026-10-20T16:43:29.104549+00:00"
-  },
-  {
-    "title": "Under-Skin Implant Controls Prosthetic Arms",
-    "summary": "Two patients in Australia became the first recipients of an under-skin implant that measures muscle electrical signals to control prosthetic arms.",
-    "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/phantom-neuro-prosthetic-arm-implant",
-    "published_at": "2026-10-20T14:00:04+00:00",
-    "fetched_at": "2026-10-20T16:43:29.104563+00:00"
-  },
-  {
-    "title": "AnySignal to Provide Communications for Reflect Orbital",
-    "summary": "AnySignal announced an agreement with Reflect Orbital to deliver space-to-earth communications for three upcoming missions.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/anysignal-to-deliver-space-to-earth-communications-for-three-reflect-orbital-missions/",
-    "published_at": "2026-10-20T13:00:00+00:00",
-    "fetched_at": "2026-10-20T16:43:29.104573+00:00"
-  },
-  {
-    "title": "HP Launches New OmniBook and ProBook Laptops",
-    "summary": "HP introduced new laptops featuring OLED displays, NPU-based AI capabilities, USB-C connectivity, and options for consumer and business users.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/hp-introduces-omnibook-5-and-probook-4-laptops/",
-    "published_at": "2026-10-20T12:53:11+00:00",
-    "fetched_at": "2026-10-20T16:43:29.104580+00:00"
-  },
-  {
-    "title": "Satellite Deposit Scheme Proposed to Combat Space Junk",
-    "summary": "Researchers suggest a refundable deposit system could compel satellite operators to clean up orbital debris.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/satellites/could-satellite-deorbit-deposits-prevent-a-space-debris-disaster",
-    "published_at": "2026-10-20T12:00:00+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671021+00:00"
-  },
-  {
-    "title": "Siemens Launches Silicon Test Execution Software",
-    "summary": "Siemens released new software integrating with Advantest and Teradyne equipment to streamline silicon test workflows.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-launches-software-to-streamline-silicon-test-execution/",
-    "published_at": "2026-10-20T11:52:47+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671031+00:00"
-  },
-  {
-    "title": "DigiKey Invests $100M to Scale Distribution Centre",
-    "summary": "DigiKey is investing $100 million over 18 months to expand its global product distribution centre and order management system.",
-    "category": "Other Engineering",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/distribution/digikey-scales-distribution-centre-for-50-company-growth-2026-10/",
-    "published_at": "2026-10-20T09:46:07+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671037+00:00"
-  },
-  {
-    "title": "Luton Airport Tenders Inspection Contract",
-    "summary": "London Luton Airport is seeking a contractor for civil and structural inspections of Luton Dart assets under an estimated £800,000 contract.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/luton-airport-tenders-civil-and-structural-inspection-contract-20-10-2026/",
-    "published_at": "2026-10-20T07:55:28+00:00",
-    "fetched_at": "2026-10-20T09:04:18.506618+00:00"
-  },
-  {
-    "title": "Q2 EDA Revenues Rise",
-    "summary": "The Electronic System Design industry revenue increased by 12.2% to $5,710.8 million in Q2 according to the ESD Alliance.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/q2-eda-revenues-up-12-2-yoy-2026-10/",
-    "published_at": "2026-10-20T05:14:26+00:00",
-    "fetched_at": "2026-10-20T09:04:18.506631+00:00"
-  },
-  {
-    "title": "Hyperscaler CSP Capex Surge Projected",
-    "summary": "Combined capital expenditures among the world's leading cloud service providers are projected to surge significantly through 2027.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/hyperscaler-csps-pile-on-the-capex-2026-10/",
-    "published_at": "2026-10-20T05:08:24+00:00",
-    "fetched_at": "2026-10-20T09:04:18.506637+00:00"
-  },
-  {
-    "title": "Scientists Reach Quantum Limit on Material Surface",
-    "summary": "Researchers created an ultra-clean surface where molecules maintain quantum properties at the fundamental limit.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
-    "published_at": "2026-10-20T03:02:41+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671042+00:00"
-  },
-  {
-    "title": "Recycled PETG Tested for Sterile Medical Packaging",
-    "summary": "Coloplast, Impact Plastics, and Placon are testing post-industrial recycled PETG for use in thermoformed sterile barrier systems with promising results.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/packaging/can-recycled-petg-be-used-in-sterile-medical-packaging-",
-    "published_at": "2026-10-19T20:36:51+00:00",
-    "fetched_at": "2026-10-20T09:04:21.334174+00:00"
-  },
-  {
-    "title": "Edwards Lifesciences Recalls Mitral Valve Delivery Systems",
-    "summary": "Edwards Lifesciences recalled roughly 200 Commander M delivery systems following a fatal balloon burst incident.",
-    "category": "Biomedical",
-    "source_name": "MD+DI",
-    "source_url": "https://www.mddionline.com/cardiovascular/edwards-lifesciences-recalls-mitral-valve-delivery-systems-after-fatal-balloon-burst",
-    "published_at": "2026-10-19T18:45:14+00:00",
-    "fetched_at": "2026-10-20T09:04:21.334185+00:00"
-  },
-  {
-    "title": "Teaching AI Symmetry Improves Prenatal Diagnosis",
-    "summary": "Researchers at MIT and Boston Children's Hospital developed an AI model that adjusts scans on the fly to track fetal movement.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-    "published_at": "2026-10-19T18:20:00+00:00",
-    "fetched_at": "2026-10-20T09:04:21.334190+00:00"
-  },
-  {
-    "title": "Doppler-Compensated STC Framework for MIMO PMCW Radar",
-    "summary": "A new radar framework uses Doppler-compensated space-time coding to reduce range sidelobes and suppress ghost components.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26842v1",
-    "published_at": "2026-10-19T17:58:53+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671046+00:00"
-  },
-  {
-    "title": "Controllability of Polynomial Systems Proven Undecidable",
-    "summary": "Researchers proved that global controllability of polynomial control systems is undecidable and not recursively enumerable.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26832v1",
-    "published_at": "2026-10-19T17:56:42+00:00",
-    "fetched_at": "2026-10-20T16:44:58.671050+00:00"
-  },
-  {
-    "title": "Data Center Oscillation Isolation and Grid Support Controls",
-    "summary": "Researchers derive fundamental limits and a source-selective controller for simultaneous oscillation isolation and grid support from large data centers.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26812v1",
-    "published_at": "2026-10-19T17:50:47+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422817+00:00"
-  },
-  {
-    "title": "Bio-Inspired Thrust-Assisted Trotting for Bipedal Robots",
-    "summary": "A quadratic program-based model predictive control framework enables thruster-assisted trotting on a bipedal robot using bird-inspired locomotion principles.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26810v1",
-    "published_at": "2026-10-19T17:50:01+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422827+00:00"
-  },
-  {
-    "title": "Exact Model Reduction via Lie Symmetry Groups",
-    "summary": "A new model-reduction technique using Lie group theory reduces the parameter space of engineering systems without changing their input-output maps.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26767v1",
-    "published_at": "2026-10-19T17:25:58+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422833+00:00"
-  },
-  {
-    "title": "Nonlinear Stochastic State-Space ID Using Ensemble Kalman Inversion",
-    "summary": "An ensemble Kalman inversion approach is developed for nonlinear state-space system identification and demonstrated on lithium-ion battery models.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26741v1",
-    "published_at": "2026-10-19T17:06:00+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422838+00:00"
-  },
-  {
-    "title": "Deep Pontryagin Learning for Stochastic Control with Jumps",
-    "summary": "A deep Pontryagin learning framework separates adjoint learning from policy improvement for high-dimensional continuous-time stochastic control problems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26718v1",
-    "published_at": "2026-10-19T16:49:30+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422842+00:00"
-  },
-  {
-    "title": "Vision-Language-Action Models for Agricultural Manipulation",
-    "summary": "A simulation-to-real robot-learning framework adapts pretrained generalist policies like pi_0.5 and Octo for agricultural reaching and grasping tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26717v1",
-    "published_at": "2026-10-19T16:49:17+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422846+00:00"
-  },
-  {
-    "title": "Motion Planning with Temporal Logic in Dynamic Environments",
-    "summary": "Researchers extend the augmented graph of convex sets framework to solve motion planning problems with temporal logic specifications in dynamic environments.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26712v1",
-    "published_at": "2026-10-19T16:45:44+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422850+00:00"
-  },
-  {
-    "title": "Foundation Model Driven Optical Flow Estimation",
-    "summary": "Frozen pretrained visual and depth representations from DINOv2 and Depth Anything V2 are coupled with a matching network to estimate dense optical flow.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26690v1",
-    "published_at": "2026-10-19T16:34:11+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422854+00:00"
-  },
-  {
-    "title": "Robotic Evaluation of Biologically Motivated Sensory Skin",
-    "summary": "A layered biomimetic robotic skin enables physical and empirical comparison of biologically motivated and counterfactual sensory arrangements for tactile tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26680v1",
-    "published_at": "2026-10-19T16:27:32+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422858+00:00"
-  },
-  {
-    "title": "RoboValue: A Benchmark for Robotic Value Models",
-    "summary": "RoboValue introduces a fine-grained sim-and-real benchmark across 35 tasks to evaluate robotic value models on execution understanding and progress monitoring.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26663v1",
-    "published_at": "2026-10-19T16:19:08+00:00",
-    "fetched_at": "2026-10-20T16:45:25.422862+00:00"
-  },
-  {
-    "title": "Qualcomm Wins Key Legal Claims Against Arm in IP Dispute",
-    "summary": "A jury reached a verdict in a four-year intellectual property dispute between Qualcomm and Arm, awarding just $2 in damages.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
-    "published_at": "2026-10-19T16:13:37+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987107+00:00"
-  },
-  {
-    "title": "EgoRayFormer Improves Egocentric 3D Human Pose Estimation",
-    "summary": "Researchers introduced EgoRayFormer, a causal pose estimator that couples stereo feature sampling and geometric refinement in ray space for head-mounted cameras.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26641v1",
-    "published_at": "2026-10-19T16:03:20+00:00",
-    "fetched_at": "2026-10-20T16:45:41.350184+00:00"
-  },
-  {
-    "title": "Agentic AI Explores Heterogeneous Chip and Interconnect Architectures",
-    "summary": "Researchers at Argonne National Laboratory and the University of Illinois Urbana-Champaign published a technical paper on agentic AI for heterogeneous system design.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/agentic-ai-explores-heterogeneous-chip-and-interconnect-architectures-argonne-uiuc/",
-    "published_at": "2026-10-19T16:02:46+00:00",
-    "fetched_at": "2026-10-19T18:03:36.987120+00:00"
-  },
-  {
-    "title": "Convex Inner Approximations Enable Safe AC Dispatch",
-    "summary": "A new framework constructs convex inner approximations to connect nonlinear network feasibility, constrained device response, and dispatch-interval tracking for safe AC dispatch.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.26634v1",
-    "published_at": "2026-10-19T16:00:08+00:00",
-    "fetched_at": "2026-10-20T16:45:41.350195+00:00"
   }
 ]
