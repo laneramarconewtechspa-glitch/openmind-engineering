@@ -1,5 +1,95 @@
 [
   {
+    "title": "Socionext Expands AI-Based Design Across SoC Development",
+    "summary": "Socionext is applying Cadence tools to a 3nm SoC and integrating internal engineering knowledge into design workflows.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/socionext-expands-ai-based-design-across-soc-development/",
+    "published_at": "2026-10-21T15:27:33+00:00",
+    "fetched_at": "2026-10-21T16:26:00.196809+00:00"
+  },
+  {
+    "title": "Global Satcom Services Revenues Projected at $145 Billion by 2035",
+    "summary": "Novaspace forecasts global satellite services revenues to grow 44% and reach $145 billion by 2035.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
+    "published_at": "2026-10-21T15:00:22+00:00",
+    "fetched_at": "2026-10-21T16:26:00.196824+00:00"
+  },
+  {
+    "title": "AGCO to Deploy Agility Digit Humanoid in Kansas Factory",
+    "summary": "AGCO plans to pilot the Agility Digit humanoid at an agricultural equipment production facility starting in 2027.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+    "published_at": "2026-10-21T13:19:00+00:00",
+    "fetched_at": "2026-10-21T16:26:00.196831+00:00"
+  },
+  {
+    "title": "Scientists Solve 178-Year-Old Solar Storm Train Delay Mystery",
+    "summary": "Researchers determined a historic solar storm train delay occurred in 1848 instead of 1841, reshaping space weather history.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
+    "published_at": "2026-10-21T12:35:57+00:00",
+    "fetched_at": "2026-10-21T16:26:00.196837+00:00"
+  },
+  {
+    "title": "Via East Midlands Appoints Five Contractors for Framework",
+    "summary": "Via East Midlands appointed five suppliers across seven lots of a civil engineering supplies framework.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/five-contractors-appointed-to-via-east-midlands-1-9m-civil-engineering-supplies-framework-21-10-2026/",
+    "published_at": "2026-10-21T11:49:08+00:00",
+    "fetched_at": "2026-10-21T16:26:02.996317+00:00"
+  },
+  {
+    "title": "EU Grants €27.5M for Latvian Low-Carbon Cement Plant",
+    "summary": "The European Commission's EU Innovation Fund will grant Cemvision up to €27.5m to build an ultra-low-carbon cement plant in Latvia.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/eu-funds-latvian-low-carbon-cement-factory/",
+    "published_at": "2026-10-21T10:46:21+00:00",
+    "fetched_at": "2026-10-21T16:26:02.996341+00:00"
+  },
+  {
+    "title": "Mott MacDonald Relocates US Headquarters to Empire State Building",
+    "summary": "Consultancy firm Mott MacDonald moved its North America headquarters to the Empire State Building to expand its New York presence.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/mott-macdonald-moves-us-headquarters-to-empire-state-building-21-10-2026/",
+    "published_at": "2026-10-21T10:16:28+00:00",
+    "fetched_at": "2026-10-21T16:26:02.996350+00:00"
+  },
+  {
+    "title": "E Ink Announces Kaleido 4 Color ePaper Display",
+    "summary": "E Ink introduced the Kaleido 4 ePaper to double color definition for clearer e-reading.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/electronics/eink-kaleido4-epaper-color/",
+    "published_at": "2026-10-21T09:49:37+00:00",
+    "fetched_at": "2026-10-21T16:26:02.996355+00:00"
+  },
+  {
+    "title": "NASA Announces Plans for Nuclear-Powered Mars Spacecraft",
+    "summary": "NASA announced plans to build Space Reactor-1 Freedom, an interplanetary spacecraft targeted for an uncrewed Mars mission.",
+    "category": "Aerospace",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
+    "published_at": "2026-10-21T09:00:00+00:00",
+    "fetched_at": "2026-10-21T16:26:02.996359+00:00"
+  },
+  {
+    "title": "Solid-State Battery Development",
+    "summary": "Researchers continue advancing solid-state batteries to improve upon traditional lithium-ion technology and liquid electrolyte limitations.",
+    "category": "Energy",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/10/21/1146137/solid-state-batteries-impossible-issue/",
+    "published_at": "2026-10-21T09:00:00+00:00",
+    "fetched_at": "2026-10-21T16:26:05.403907+00:00"
+  },
+  {
     "title": "Scaling CPO Testing Beyond a Single Die",
     "summary": "Fiber alignment, connector durability, and simultaneous optical and electrical testing present challenges for high-volume manufacturing.",
     "category": "Electronics & Semiconductors",
@@ -178,95 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.28566v1",
     "published_at": "2026-10-20T17:25:49+00:00",
     "fetched_at": "2026-10-21T09:06:41.622394+00:00"
-  },
-  {
-    "title": "Beamfocusing Versus Airy Beams in Antenna Blockage",
-    "summary": "Research proves that conventional beamfocusing maximizes received power for single-antenna receivers regardless of obstacles, outperforming Airy beams.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28557v1",
-    "published_at": "2026-10-20T17:19:00+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622421+00:00"
-  },
-  {
-    "title": "CoGaussian for Open-Vocabulary Collaborative 3D Scene Understanding",
-    "summary": "CoGaussian uses sparse 3D Gaussians aligned with foundation models to communicate and fuse geometric and semantic data across multiple agents.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28530v1",
-    "published_at": "2026-10-20T17:04:38+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622431+00:00"
-  },
-  {
-    "title": "VLM-Guided Contact Retargeting for Humanoid Interaction",
-    "summary": "REACT is a new framework that enables humanoid robots to learn contact-rich physical interactions with humans using onboard sensing and semantic contact modeling.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28523v1",
-    "published_at": "2026-10-20T16:57:52+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622436+00:00"
-  },
-  {
-    "title": "Proof-Carrying Contracts for AI Agent Enforcement",
-    "summary": "Proof-Carrying Contracts provide a framework where AI agents must supply machine-checkable proofs to ensure they preserve agreed constraints during execution.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28484v1",
-    "published_at": "2026-10-20T16:30:34+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622442+00:00"
-  },
-  {
-    "title": "CLOSER for Evidence-Aware Active Visual Verification in Navigation",
-    "summary": "CLOSER combines vision-language model verification with active perception to help embodied agents accurately verify target objects before stopping.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28476v1",
-    "published_at": "2026-10-20T16:27:33+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622447+00:00"
-  },
-  {
-    "title": "Fast Motion Retargeting Pipeline for Humanoid Robots",
-    "summary": "FRDV is a scalable framework that integrates rapid kinematic retargeting and dynamics validation to process human motion capture data for humanoid robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28470v1",
-    "published_at": "2026-10-20T16:22:00+00:00",
-    "fetched_at": "2026-10-21T09:06:41.622453+00:00"
-  },
-  {
-    "title": "Hierarchical Space-Ground Collaborative Network Architecture for 6G",
-    "summary": "Researchers proposed a hierarchical space-ground collaborative network architecture and service-aware deployment strategy to support unified 6G global connectivity.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28459v1",
-    "published_at": "2026-10-20T16:15:07+00:00",
-    "fetched_at": "2026-10-21T09:06:45.385229+00:00"
-  },
-  {
-    "title": "GPT-6-Astra Model Enhances Contact-Rich Robotic Manipulation",
-    "summary": "A new multimodal method leverages tactile understanding and expert demonstrations to generate control commands, improving contact-rich robot manipulation without task-specific fine-tuning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28457v1",
-    "published_at": "2026-10-20T16:15:02+00:00",
-    "fetched_at": "2026-10-21T09:06:45.385239+00:00"
-  },
-  {
-    "title": "Evaluating Stimulus Memorization in Cross-Subject EEG Emotion Recognition",
-    "summary": "Researchers found that high cross-subject EEG emotion recognition accuracies are significantly inflated by stimulus memorization from video labels.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.28422v1",
-    "published_at": "2026-10-20T15:54:18+00:00",
-    "fetched_at": "2026-10-21T09:06:45.385244+00:00"
-  },
-  {
-    "title": "UK Grid Companies Pledge £200B Investment",
-    "summary": "UK electricity transmission and distribution companies committed to a £200bn investment aiming to deliver £58bn of gross value added to the economy by 2035.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/electricity-grid-companies-commit-to-ambitious-skills-jobs-and-economic-growth-targets-20-10-2026/",
-    "published_at": "2026-10-20T15:12:01+00:00",
-    "fetched_at": "2026-10-20T16:43:29.104549+00:00"
   }
 ]
