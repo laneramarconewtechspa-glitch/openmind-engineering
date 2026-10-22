@@ -1,5 +1,104 @@
 [
   {
+    "title": "Restoring Damaged Metal Span Bridges",
+    "summary": "Engineering solutions are developed to restore metal bridge span structures damaged by missile strikes.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d617ca890defb1afd16908fda8c88cb2654441af",
+    "published_at": "2026-10-23T00:00:00+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715518+00:00"
+  },
+  {
+    "title": "Improving Intersection Traffic via Markings",
+    "summary": "A study investigates how optimized horizontal road markings improve traffic management and speed control near intersections.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bb5c9c608d154bbd95758735a6c3d6a109f80390",
+    "published_at": "2026-10-23T00:00:00+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715531+00:00"
+  },
+  {
+    "title": "Analysis of Modern Modular Highway Bridges",
+    "summary": "Researchers analyzed technical parameters of international dismantlable highway bridges to support domestic production development.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/2bfc5feb9ec1cf3d8ea3f9ed583dce1572d4a7fc",
+    "published_at": "2026-10-23T00:00:00+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715536+00:00"
+  },
+  {
+    "title": "Life-Cycle Analysis for Pavement Structures",
+    "summary": "A life-cycle approach evaluates the economic and environmental impacts of selecting asphalt versus cement concrete pavements.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/1c9202fd95771f257e0de2f98a9ab7e5e3d1e4dc",
+    "published_at": "2026-10-23T00:00:00+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715540+00:00"
+  },
+  {
+    "title": "UK Ports Urged to Scale Up Automation",
+    "summary": "A new study advises UK ports to transition from pilot projects to full-scale autonomous transport deployment.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uk-ports-urged-to-scale-up-automation-to-boost-productivity-22-10-2026/",
+    "published_at": "2026-10-22T14:15:39+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715546+00:00"
+  },
+  {
+    "title": "Wildscape 28-Foot Tiny House Layout",
+    "summary": "The 28-foot Wildscape tiny house features a flexible layout including a multipurpose living room and home office.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/wildscape-tiny-tect/",
+    "published_at": "2026-10-22T13:56:44+00:00",
+    "fetched_at": "2026-10-22T17:04:17.715550+00:00"
+  },
+  {
+    "title": "NVIDIA Launches Containerized Reference Design for AI Factories",
+    "summary": "NVIDIA introduced the DSX POD, a containerized reference design integrating computing, networking, and cooling for rapid deployment.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/nvidia-introduces-containerized-reference-design-for-ai-factories/",
+    "published_at": "2026-10-22T13:31:19+00:00",
+    "fetched_at": "2026-10-22T17:04:44.512951+00:00"
+  },
+  {
+    "title": "Dassault and Vertiv Partner on AI Factory Design",
+    "summary": "The companies plan a model-based approach to validate power, cooling, and infrastructure prior to constructing NVIDIA DSX AI factories.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/dassault-and-vertiv-plan-ai-factory-design-collaboration/",
+    "published_at": "2026-10-22T12:09:13+00:00",
+    "fetched_at": "2026-10-22T17:04:44.512961+00:00"
+  },
+  {
+    "title": "ABB and Mitsubishi Electric Form Low-Voltage Power Joint Venture",
+    "summary": "ABB will acquire a 51 percent stake in the joint venture for about $495 million, with closure expected in late 2027.",
+    "category": "Energy",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/abb-and-mitsubishi-electric-form-low-voltage-power-joint-venture/",
+    "published_at": "2026-10-22T11:16:52+00:00",
+    "fetched_at": "2026-10-22T17:04:44.512965+00:00"
+  },
+  {
+    "title": "Uncertainty Hits UK's Largest AI Data Centre After Microsoft Exit",
+    "summary": "The proposed Nscale data centre in Essex faces uncertainty following Microsoft's withdrawal as its sole confirmed customer.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uncertainty-over-uks-largest-ai-data-centre-plan-after-microsoft-withdrawal-22-10-2026/",
+    "published_at": "2026-10-22T11:11:48+00:00",
+    "fetched_at": "2026-10-22T17:04:44.512970+00:00"
+  },
+  {
+    "title": "£3.6 Billion Windermere Scheme Proposes New Sewers and Tunnel",
+    "summary": "A new feasibility study proposes 138 kilometers of new sewers and a wastewater tunnel to help protect Windermere.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/3-6bn-windermere-scheme-proposes-138km-of-new-sewers-and-wastewater-tunnel-22-10-2026/",
+    "published_at": "2026-10-22T08:37:49+00:00",
+    "fetched_at": "2026-10-22T17:04:44.512975+00:00"
+  },
+  {
     "title": "Testing ArcCaptain's App-Controlled Welding Rig",
     "summary": "Experienced welders tested ArcCaptain's hobbyist-to-light-industrial-grade double-pulse machine and evaluated its app-based controls.",
     "category": "Mechanical",
@@ -81,6 +180,15 @@
     "fetched_at": "2026-10-22T09:05:49.387402+00:00"
   },
   {
+    "title": "Bulk Modifiers Improve Wide-Bandgap Perovskite Solar Cells",
+    "summary": "Researchers investigated bulk modifiers in wide-bandgap perovskite solar cells, achieving an 18.84 percent power conversion efficiency and an operational lifetime exceeding 800 hours.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/64ecb74d2a738b082540ad30f369bfc84cfad4b9",
+    "published_at": "2026-10-22T00:00:00+00:00",
+    "fetched_at": "2026-10-22T17:05:00.340030+00:00"
+  },
+  {
     "title": "Amazon Opens In-House Robotics Production Facility",
     "summary": "Amazon is addressing its demand for robotics internally by launching a new automation production facility.",
     "category": "Robotics",
@@ -160,113 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.30051v1",
     "published_at": "2026-10-21T17:11:52+00:00",
     "fetched_at": "2026-10-22T09:05:53.247370+00:00"
-  },
-  {
-    "title": "SP-HLM: Sparse-Pose-Driven Humanoid Loco-Manipulation",
-    "summary": "SP-HLM combines sparse body poses with a learned latent motion prior to improve whole-body control and task coordination for humanoid robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30044v1",
-    "published_at": "2026-10-21T17:03:34+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247373+00:00"
-  },
-  {
-    "title": "Revisiting Dual Effect and Certainty Equivalence in Control",
-    "summary": "This paper revisits certainty equivalence and dual effect in linear-Gaussian control models, introducing a Bellman-side no-dual-effect condition characterized by a heat equation.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30034v1",
-    "published_at": "2026-10-21T16:58:17+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247377+00:00"
-  },
-  {
-    "title": "Parametric MISOCP Model for Merchant MTDC Siting and Sizing",
-    "summary": "Researchers propose a sharing-rate-parameterized mixed-integer second-order cone programming model to optimize VSC siting and sizing while balancing AC/DC grid economics.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30011v1",
-    "published_at": "2026-10-21T16:43:28+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293650+00:00"
-  },
-  {
-    "title": "Multiuser Channel Estimation for Flexible Intelligent Metasurfaces",
-    "summary": "A structured block term decomposition estimator is developed to address multiuser channel estimation challenges in flexible intelligent metasurfaces.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30000v1",
-    "published_at": "2026-10-21T16:37:32+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293660+00:00"
-  },
-  {
-    "title": "Convex Koopman Controller Synthesis for Constrained Tracking",
-    "summary": "A constrained Koopman Control Parametrization framework synthesizes state-feedback controllers satisfying input constraints with Lyapunov-certified stability.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29984v1",
-    "published_at": "2026-10-21T16:27:42+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293664+00:00"
-  },
-  {
-    "title": "Active Perception Framework for Safe Mobile Manipulation",
-    "summary": "An active perception framework integrates next-best-view observation with model predictive control to enable safe navigation and inspection for mobile manipulators.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29964v1",
-    "published_at": "2026-10-21T16:19:15+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293667+00:00"
-  },
-  {
-    "title": "Plantbench Library for Plantwide Process Control Simulations",
-    "summary": "Plantbench introduces a library of plantwide process simulations using hashed plain-data configurations to reproduce design, tuning, and instrumentation.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29953v1",
-    "published_at": "2026-10-21T16:14:05+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293671+00:00"
-  },
-  {
-    "title": "Worst-Case Finite-Horizon Analysis of Perturbed LQR via PEP",
-    "summary": "An exact formulation using the Performance Estimation Problem framework quantifies the finite-horizon robustness of LQR systems subject to parametric uncertainties.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.29910v1",
-    "published_at": "2026-10-21T15:49:58+00:00",
-    "fetched_at": "2026-10-22T09:05:56.293675+00:00"
-  },
-  {
-    "title": "Socionext Expands AI-Based Design Across SoC Development",
-    "summary": "Socionext is applying Cadence tools to a 3nm SoC and integrating internal engineering knowledge into design workflows.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/socionext-expands-ai-based-design-across-soc-development/",
-    "published_at": "2026-10-21T15:27:33+00:00",
-    "fetched_at": "2026-10-21T16:26:00.196809+00:00"
-  },
-  {
-    "title": "Global Satcom Services Revenues Projected at $145 Billion by 2035",
-    "summary": "Novaspace forecasts global satellite services revenues to grow 44% and reach $145 billion by 2035.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/global-satcom-services-revenues-to-reach-145-billion-by-2035/",
-    "published_at": "2026-10-21T15:00:22+00:00",
-    "fetched_at": "2026-10-21T16:26:00.196824+00:00"
-  },
-  {
-    "title": "AGCO to Deploy Agility Digit Humanoid in Kansas Factory",
-    "summary": "AGCO plans to pilot the Agility Digit humanoid at an agricultural equipment production facility starting in 2027.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
-    "published_at": "2026-10-21T13:19:00+00:00",
-    "fetched_at": "2026-10-21T16:26:00.196831+00:00"
-  },
-  {
-    "title": "Scientists Solve 178-Year-Old Solar Storm Train Delay Mystery",
-    "summary": "Researchers determined a historic solar storm train delay occurred in 1848 instead of 1841, reshaping space weather history.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261020085021.htm",
-    "published_at": "2026-10-21T12:35:57+00:00",
-    "fetched_at": "2026-10-21T16:26:00.196837+00:00"
   }
 ]
