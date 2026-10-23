@@ -1,5 +1,59 @@
 [
   {
+    "title": "Arm-Qualcomm Verdict Hinges on Compliance Tests",
+    "summary": "The Arm-Qualcomm legal verdict highlights a crucial debate over who controls the compliance tests required for custom chips.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
+    "published_at": "2026-10-23T08:03:27+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775047+00:00"
+  },
+  {
+    "title": "CHIPS Act Funding and Semiconductor Updates",
+    "summary": "Recent semiconductor developments include 389 million dollars in CHIPS Act funding, memory roadmaps, and major investments across the industry.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-week-in-review-161/",
+    "published_at": "2026-10-23T07:01:23+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775062+00:00"
+  },
+  {
+    "title": "U.S. Electronics Production Growth Accelerates",
+    "summary": "Semiconductor Intelligence reports that U.S. electronics production growth accelerated to an 8.1 percent three-month-average change by August 2026.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/electronics-production-growth-accelerating-says-si-2026-10/",
+    "published_at": "2026-10-23T05:16:45+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775068+00:00"
+  },
+  {
+    "title": "Mouser Signs Global Distribution Deal with ControlByWeb",
+    "summary": "Mouser has signed a global distribution agreement with industrial IoT controller manufacturer ControlByWeb.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/mouser-signs-controlbyweb-2026-10/",
+    "published_at": "2026-10-23T05:02:14+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775074+00:00"
+  },
+  {
+    "title": "Chernobyl Radioactive Particles Found to Be Stable",
+    "summary": "X-ray analysis reveals that tiny radioactive particles from Chernobyl have remained stable, trapping radioactive substances inside rather than releasing them.",
+    "category": "Energy",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231241.htm",
+    "published_at": "2026-10-23T03:35:13+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775078+00:00"
+  },
+  {
+    "title": "Apple Projected to Take 25 Percent of 2026 Foldables",
+    "summary": "Counterpoint Research projects Apple will capture 25 percent of the foldables market in 2026.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/markets/apple-to-take-25-of-foldables-market-2026-10/",
+    "published_at": "2026-10-23T00:01:07+00:00",
+    "fetched_at": "2026-10-23T09:00:30.775083+00:00"
+  },
+  {
     "title": "Restoring Damaged Metal Span Bridges",
     "summary": "Engineering solutions are developed to restore metal bridge span structures damaged by missile strikes.",
     "category": "Civil & Infrastructure",
@@ -36,237 +90,183 @@
     "fetched_at": "2026-10-22T17:04:17.715540+00:00"
   },
   {
-    "title": "UK Ports Urged to Scale Up Automation",
-    "summary": "A new study advises UK ports to transition from pilot projects to full-scale autonomous transport deployment.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/uk-ports-urged-to-scale-up-automation-to-boost-productivity-22-10-2026/",
-    "published_at": "2026-10-22T14:15:39+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715546+00:00"
+    "title": "Space Rider Prototype Crashes in Drop Test",
+    "summary": "The full-scale prototype of Europe's Space Rider orbiter failed to deploy its parachute during a drop test.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/europes-space-rider-vehicle-comes-crashing-down-during-drop-test",
+    "published_at": "2026-10-22T22:00:00+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069343+00:00"
   },
   {
-    "title": "Wildscape 28-Foot Tiny House Layout",
-    "summary": "The 28-foot Wildscape tiny house features a flexible layout including a multipurpose living room and home office.",
-    "category": "Civil & Infrastructure",
+    "title": "Scientists Create Plasma Beam Antenna Tuned by Laser",
+    "summary": "Researchers have developed a novel antenna utilizing a plasma beam tuned by a laser instead of traditional solid metal rods.",
+    "category": "Electronics & Semiconductors",
     "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/tiny-houses/wildscape-tiny-tect/",
-    "published_at": "2026-10-22T13:56:44+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715550+00:00"
+    "source_url": "https://newatlas.com/telecommunications/plasma-beam-antenna/",
+    "published_at": "2026-10-22T21:30:00+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069353+00:00"
   },
   {
-    "title": "NVIDIA Launches Containerized Reference Design for AI Factories",
-    "summary": "NVIDIA introduced the DSX POD, a containerized reference design integrating computing, networking, and cooling for rapid deployment.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/nvidia-introduces-containerized-reference-design-for-ai-factories/",
-    "published_at": "2026-10-22T13:31:19+00:00",
-    "fetched_at": "2026-10-22T17:04:44.512951+00:00"
-  },
-  {
-    "title": "Dassault and Vertiv Partner on AI Factory Design",
-    "summary": "The companies plan a model-based approach to validate power, cooling, and infrastructure prior to constructing NVIDIA DSX AI factories.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/dassault-and-vertiv-plan-ai-factory-design-collaboration/",
-    "published_at": "2026-10-22T12:09:13+00:00",
-    "fetched_at": "2026-10-22T17:04:44.512961+00:00"
-  },
-  {
-    "title": "ABB and Mitsubishi Electric Form Low-Voltage Power Joint Venture",
-    "summary": "ABB will acquire a 51 percent stake in the joint venture for about $495 million, with closure expected in late 2027.",
-    "category": "Energy",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/abb-and-mitsubishi-electric-form-low-voltage-power-joint-venture/",
-    "published_at": "2026-10-22T11:16:52+00:00",
-    "fetched_at": "2026-10-22T17:04:44.512965+00:00"
-  },
-  {
-    "title": "Uncertainty Hits UK's Largest AI Data Centre After Microsoft Exit",
-    "summary": "The proposed Nscale data centre in Essex faces uncertainty following Microsoft's withdrawal as its sole confirmed customer.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/uncertainty-over-uks-largest-ai-data-centre-plan-after-microsoft-withdrawal-22-10-2026/",
-    "published_at": "2026-10-22T11:11:48+00:00",
-    "fetched_at": "2026-10-22T17:04:44.512970+00:00"
-  },
-  {
-    "title": "£3.6 Billion Windermere Scheme Proposes New Sewers and Tunnel",
-    "summary": "A new feasibility study proposes 138 kilometers of new sewers and a wastewater tunnel to help protect Windermere.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/3-6bn-windermere-scheme-proposes-138km-of-new-sewers-and-wastewater-tunnel-22-10-2026/",
-    "published_at": "2026-10-22T08:37:49+00:00",
-    "fetched_at": "2026-10-22T17:04:44.512975+00:00"
-  },
-  {
-    "title": "Testing ArcCaptain's App-Controlled Welding Rig",
-    "summary": "Experienced welders tested ArcCaptain's hobbyist-to-light-industrial-grade double-pulse machine and evaluated its app-based controls.",
+    "title": "Apex V2 Multitool Features Slim Magnetic Bit Magazine",
+    "summary": "Ant Design introduced an ultra-slim rectangular driver with a flip-out arm and storage for up to 14 swappable bits.",
     "category": "Mechanical",
     "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/outdoor-gear/arccaptain-mig205mp-pulse-mig-welder-cutter-review/",
-    "published_at": "2026-10-22T07:57:31+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781909+00:00"
+    "source_url": "https://newatlas.com/knives-multitools/ant-design-apex-multi-bit-driver/",
+    "published_at": "2026-10-22T21:03:00+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069359+00:00"
   },
   {
-    "title": "Advancing Computational Lithography for Next-Gen Scaling",
-    "summary": "New models, AI, and cross-industry collaboration are needed to extend semiconductor scaling beyond current edge placement error budgets.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography/",
-    "published_at": "2026-10-22T07:08:02+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781923+00:00"
+    "title": "Ukraine Explores Sovereign Satellite Network with ICEYE and Nokia",
+    "summary": "Ukraine's military signed a letter of intent with Nokia and ICEYE to study developing a sovereign satellite-communication system.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/after-starshield-interruption-ukraine-wants-to-build-its-own-satellite-communication-network-with-iceye-and-nokia",
+    "published_at": "2026-10-22T20:28:04+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069364+00:00"
   },
   {
-    "title": "Extending Silicon Characterization Beyond PVT Workloads",
-    "summary": "Silicon characterization must account for real-world workloads because devices at identical voltage, frequency, and temperature can behave differently.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/pvtw-extending-silicon-characterization-from-pvt-to-real-world-workload/",
-    "published_at": "2026-10-22T07:07:27+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781927+00:00"
-  },
-  {
-    "title": "Self-Aligned CFET Technology for Sub-10 Å CMOS Scaling",
-    "summary": "A new process sequence for SRAM and logic delivers improved performance and electrostatics at smaller nodes.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/how-self-aligned-cfet-technology-could-extend-cmos-scaling-beyond-10-a/",
-    "published_at": "2026-10-22T07:05:02+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781933+00:00"
-  },
-  {
-    "title": "Foundries and OSATs Overlap as Packaging Grows",
-    "summary": "Advanced packaging growth and capacity constraints are driving traditional foundries and OSATs into increasingly overlapping territory.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/foundries-and-osats-increasingly-overlap/",
-    "published_at": "2026-10-22T07:01:03+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781936+00:00"
-  },
-  {
-    "title": "Toyota Enters Hydrogen Truck in 2027 Dakar Rally",
-    "summary": "Toyota announced plans to enter a hydrogen fuel cell version of its Hilux truck in the January 2027 Dakar Rally.",
+    "title": "PG&E Prices San Francisco Grid Takeover at $22.5 Billion",
+    "summary": "Pacific Gas and Electric Company stated that a municipal takeover of the San Francisco public grid by CCSF would cost $22.5 billion.",
     "category": "Energy",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/hydrogen-truck-for-dakar-rally-2026-10/",
-    "published_at": "2026-10-22T05:15:41+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781940+00:00"
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/pge-puts-a-22-5b-price-tag-on-san-francisco-public-grid-takeover-proposal/",
+    "published_at": "2026-10-22T18:37:22+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069369+00:00"
   },
   {
-    "title": "Photon Bridge Secures €10M for AI Lasers",
-    "summary": "Dutch photonics specialist Photon Bridge raised €10 million to produce millions of lasers for AI infrastructure connectivity.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/photon-bridge-raises-e10m-2026-10/",
-    "published_at": "2026-10-22T05:11:49+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781945+00:00"
+    "title": "Dainese Launches Ultralight Smartphone-Powered Airbag Vest",
+    "summary": "Dainese created a lightweight motorcycle airbag vest that eliminates the built-in battery by running on phone power instead.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/dainese-smart-go-motorcycling-airbag/",
+    "published_at": "2026-10-22T18:37:00+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069373+00:00"
   },
   {
-    "title": "Private Wireless RAN Revenue Growth Moderates",
-    "summary": "Dell'Oro reports that private wireless radio access network revenue growth slowed to the mid-single digits in the first half of the year.",
+    "title": "UK Awards $81 Million Contract to Remove Defunct Satellites",
+    "summary": "The UK Space Agency awarded an $81 million contract to remove two defunct UK satellites from orbit using manipulator spacecraft between 2029 and 2032.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/space-systems/britain-space-junk-cleanup-mission-keep-space-tidy/",
+    "published_at": "2026-10-22T18:25:45+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069378+00:00"
+  },
+  {
+    "title": "Deepx Develops Open Software Ecosystem for Physical AI",
+    "summary": "Deepx is combining low-power AI accelerators and portable software to scale physical AI production beyond the data center.",
     "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/h1-slow-down-in-private-wireless-ran-revenue-growth-2026-10/",
-    "published_at": "2026-10-22T05:06:48+00:00",
-    "fetched_at": "2026-10-22T09:05:46.781949+00:00"
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
+    "published_at": "2026-10-22T18:14:49+00:00",
+    "fetched_at": "2026-10-23T09:00:34.069383+00:00"
   },
   {
-    "title": "Startup Reinvents Nuclear Manufacturing with Shipyard-Built Reactors",
-    "summary": "Blue Energy manufactures giant pieces of nuclear reactors at shipyards and ships them on barges to lower costs.",
-    "category": "Energy",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/startup-rejuvenates-nuclear-power-industry-new-manufacturing-approach-1022",
-    "published_at": "2026-10-22T04:00:00+00:00",
-    "fetched_at": "2026-10-22T09:05:49.387402+00:00"
-  },
-  {
-    "title": "Bulk Modifiers Improve Wide-Bandgap Perovskite Solar Cells",
-    "summary": "Researchers investigated bulk modifiers in wide-bandgap perovskite solar cells, achieving an 18.84 percent power conversion efficiency and an operational lifetime exceeding 800 hours.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/64ecb74d2a738b082540ad30f369bfc84cfad4b9",
-    "published_at": "2026-10-22T00:00:00+00:00",
-    "fetched_at": "2026-10-22T17:05:00.340030+00:00"
-  },
-  {
-    "title": "Amazon Opens In-House Robotics Production Facility",
-    "summary": "Amazon is addressing its demand for robotics internally by launching a new automation production facility.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/amazon-takes-on-another-industry-robotics/",
-    "published_at": "2026-10-21T20:00:00+00:00",
-    "fetched_at": "2026-10-22T09:05:49.387414+00:00"
-  },
-  {
-    "title": "AW-0 Framework Integrates Code-Based Planning and Video Prediction",
-    "summary": "Researchers introduced AW-0, an agentic world action model that combines code-based planning with joint video and action prediction for robot manipulation.",
+    "title": "Sensorimotor Alignment Metric for Embodied AI Models",
+    "summary": "Researchers proposed S2, a training-free offline metric measuring sensory representation alignment with physical motion to prioritize robot and VLM models.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30136v1",
-    "published_at": "2026-10-21T17:59:56+00:00",
-    "fetched_at": "2026-10-22T09:05:49.387419+00:00"
+    "source_url": "https://arxiv.org/abs/2610.31670v1",
+    "published_at": "2026-10-22T17:59:51+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407085+00:00"
   },
   {
-    "title": "Unified Capability Framework for Multimodal Embodied Agents",
-    "summary": "Researchers introduce PAPAV, a unified capability-centric framework that defines multimodal embodied agents through five recurring functions: perceive, anticipate, plan, act, and verify.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30108v1",
-    "published_at": "2026-10-21T17:52:48+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247338+00:00"
-  },
-  {
-    "title": "Dynamic Microsegmentation for Multi-Robot Networks",
-    "summary": "A laboratory demonstration shows that dynamic microsegmentation can automatically isolate network threats in real time across a multi-robot IoT network while maintaining operations.",
+    "title": "Workload-Aware Monitoring for Hybrid AI-RAN Platforms",
+    "summary": "A proposed monitoring approach associates radio-work descriptors with processing paths to compare resource usage across shared CPU and GPU workloads.",
     "category": "Computing",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30102v1",
-    "published_at": "2026-10-21T17:50:18+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247348+00:00"
+    "source_url": "https://arxiv.org/abs/2610.31627v1",
+    "published_at": "2026-10-22T17:45:44+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407096+00:00"
   },
   {
-    "title": "Machine-Learning Approaches in Wireless Power Transfer",
-    "summary": "A comprehensive review examines how machine learning supports structural optimization, parameter estimation, and adaptive control in wireless power transfer systems.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30101v1",
-    "published_at": "2026-10-21T17:48:23+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247352+00:00"
-  },
-  {
-    "title": "AtomicRL for Long-Horizon Robotic Manipulation",
-    "summary": "AtomicRL is a reinforcement learning post-training framework that uses atomic task structures and semantic-aware gating to improve long-horizon robotic manipulation.",
+    "title": "Harmonic Function Methods via Root Locus for Robot Paths",
+    "summary": "An offline path generation technique uses generalized root locus branches to drive multiple interchangeable robots to distinct goals while avoiding obstacles.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30097v1",
-    "published_at": "2026-10-21T17:45:24+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247356+00:00"
+    "source_url": "https://arxiv.org/abs/2610.31625v1",
+    "published_at": "2026-10-22T17:45:31+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407102+00:00"
   },
   {
-    "title": "Evaluating Humanoid Locomotion Across Gravity and Soil",
-    "summary": "Simulations test how humanoid locomotion policies transfer across different gravity levels, terrain geometries, and soil models using a Unitree G1 robot.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30080v1",
-    "published_at": "2026-10-21T17:28:57+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247359+00:00"
-  },
-  {
-    "title": "NLOS-Aware TDOA-Based UAV Localization",
-    "summary": "Researchers develop NLOS-aware Cramér-Rao bounds and measurement models for TDOA-based passive UAV localization, validated using flight test data.",
+    "title": "DiffDreamer: Coupled World Models for Quadrotor Control",
+    "summary": "DiffDreamer couples a learned world model with a differentiable simulator to improve training convergence and performance in agile quadrotor control.",
     "category": "Aerospace",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30053v1",
-    "published_at": "2026-10-21T17:13:15+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247365+00:00"
+    "source_url": "https://arxiv.org/abs/2610.31617v1",
+    "published_at": "2026-10-22T17:41:13+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407107+00:00"
   },
   {
-    "title": "Benchmarking Frontier AI Models on Robot Manipulation",
-    "summary": "A closed-loop evaluation framework assesses six frontier AI models on the LIBERO-10 benchmark for direct robot control without task-specific training.",
+    "title": "Progress Probes for Lightweight VLA Runtime Monitoring",
+    "summary": "Training linear probes on policy internal activations provides a lightweight runtime monitor to detect failures in vision-language-action models.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.30051v1",
-    "published_at": "2026-10-21T17:11:52+00:00",
-    "fetched_at": "2026-10-22T09:05:53.247370+00:00"
+    "source_url": "https://arxiv.org/abs/2610.31613v1",
+    "published_at": "2026-10-22T17:40:19+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407112+00:00"
+  },
+  {
+    "title": "Attention-Based Contact Framework for Humanoid Mobility",
+    "summary": "A learning framework uses an attention-based contact planner and tracker to enable versatile humanoid mobility over complex terrain entirely from onboard observations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31608v1",
+    "published_at": "2026-10-22T17:37:36+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407116+00:00"
+  },
+  {
+    "title": "Controlled Radio Fault Injection for Open 5G RANs",
+    "summary": "A software testbed framework applies scheduled I/O transformations to evaluate RAN telemetry, native events, and application delay under controlled radio faults.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31598v1",
+    "published_at": "2026-10-22T17:31:18+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407121+00:00"
+  },
+  {
+    "title": "Echo Framework for VLA Status Denoising and Actions",
+    "summary": "Echo integrates task status signal learning and action generation within a single vision-language-action model to recognize task success, failure, and recovery.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31569v1",
+    "published_at": "2026-10-22T17:12:16+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407125+00:00"
+  },
+  {
+    "title": "Geometry-Dependent Properties Enable Tunable Hydrogel Delivery",
+    "summary": "Varying PPy-PVA hydrogel geometries and microstructures allows tunable iontophoretic drug delivery without requiring individual current-density modulation.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31567v1",
+    "published_at": "2026-10-22T17:10:35+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407130+00:00"
+  },
+  {
+    "title": "Decentralized Bi-Level Optimization for Orbital Transport",
+    "summary": "A decentralized bi-level framework splits cooperative orbital transportation into inner convex thrust allocation and outer payload torque trajectory search.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31562v1",
+    "published_at": "2026-10-22T17:05:17+00:00",
+    "fetched_at": "2026-10-23T09:00:38.407134+00:00"
+  },
+  {
+    "title": "Space Solar Array Simulated in MATLAB/Simulink",
+    "summary": "A photovoltaic array suitable for outer space is simulated in MATLAB/Simulink with and without maximum power point tracking.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31542v1",
+    "published_at": "2026-10-22T16:49:41+00:00",
+    "fetched_at": "2026-10-23T09:00:42.166296+00:00"
+  },
+  {
+    "title": "Direct Inference on Admissible Sets Regression Method",
+    "summary": "A new regression method named Diona estimates states and derivatives locally using on-demand solves instead of long global training.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.31526v1",
+    "published_at": "2026-10-22T16:35:47+00:00",
+    "fetched_at": "2026-10-23T09:00:42.166308+00:00"
   }
 ]
