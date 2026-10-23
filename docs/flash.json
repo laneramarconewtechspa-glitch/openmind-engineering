@@ -1,5 +1,77 @@
 [
   {
+    "title": "Space Tech Expo Europe Final Year in Bremen",
+    "summary": "Space Tech Expo Europe 2026 will be held in Bremen for the final time before moving to Frankfurt in 2027.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/space-tech-expo-europe-to-say-farewell-to-bremen-2026-10/",
+    "published_at": "2026-10-23T14:38:42+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091302+00:00"
+  },
+  {
+    "title": "Indiana Nuclear Proposals Target Retired Fossil Sites",
+    "summary": "Partnerships have signed agreements to explore CANDU reactors and small modular reactors at retired fossil plant sites in Indiana.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/indiana-nuclear-proposals-target-retired-fossil-plant-sites/",
+    "published_at": "2026-10-23T14:32:38+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091316+00:00"
+  },
+  {
+    "title": "ICE Conference Highlights Resilient Transport Challenges",
+    "summary": "Infrastructure professionals gathered in Manchester to explore how the transport sector is responding to pressures on global networks.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/ice/new-ice-conference-highlights-resilient-transport-challenges-23-10-2026/",
+    "published_at": "2026-10-23T14:24:26+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091322+00:00"
+  },
+  {
+    "title": "New Zealand Startup Develops Rollable Bike Rack",
+    "summary": "A New Zealand startup has created a rollable bike rack designed to make loading bicycles onto vehicles easier without lifting.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/bicycles/goover-rollable-bike-rack/",
+    "published_at": "2026-10-23T14:23:00+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091327+00:00"
+  },
+  {
+    "title": "AIAA Forms Team to Define CFD Priorities Through 2045",
+    "summary": "The group will assess aerospace simulation needs and develop a roadmap covering technical challenges and research milestones.",
+    "category": "Aerospace",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/aiaa-forms-team-to-define-cfd-priorities-through-2045/",
+    "published_at": "2026-10-23T13:40:58+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091331+00:00"
+  },
+  {
+    "title": "Trimble Adds Dual GNSS Receivers to Earthworks Platform",
+    "summary": "The new excavator configuration targets small and midsize contractors transitioning to 3D grade control.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/trimble-adds-dual-gnss-receivers-to-earthworks-platform/",
+    "published_at": "2026-10-23T13:03:40+00:00",
+    "fetched_at": "2026-10-23T16:16:49.091336+00:00"
+  },
+  {
+    "title": "Royal Engineers Test Low-Resource Concrete for Crisis Zones",
+    "summary": "Soldiers from the Corps of Royal Engineers investigated producing concrete using recycled bricks, salt water, and 3D printing for use in resource-limited environments.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/royal-engineers-investigate-low-resource-concrete-for-crisis-zone-construction-23-10-2026/",
+    "published_at": "2026-10-23T11:38:13+00:00",
+    "fetched_at": "2026-10-23T16:16:51.576685+00:00"
+  },
+  {
+    "title": "Wearable Patch Designed for Zero-Gravity Eyedrop Delivery",
+    "summary": "Scientists designed a facial patch to deliver eyedrops in zero gravity, which could also be utilized on Earth.",
+    "category": "Biomedical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/space-systems/facial-patch-zero-gravity-eyedrops/",
+    "published_at": "2026-10-23T10:03:00+00:00",
+    "fetched_at": "2026-10-23T16:16:51.576699+00:00"
+  },
+  {
     "title": "Arm-Qualcomm Verdict Hinges on Compliance Tests",
     "summary": "The Arm-Qualcomm legal verdict highlights a crucial debate over who controls the compliance tests required for custom chips.",
     "category": "Electronics & Semiconductors",
@@ -196,77 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.31617v1",
     "published_at": "2026-10-22T17:41:13+00:00",
     "fetched_at": "2026-10-23T09:00:38.407107+00:00"
-  },
-  {
-    "title": "Progress Probes for Lightweight VLA Runtime Monitoring",
-    "summary": "Training linear probes on policy internal activations provides a lightweight runtime monitor to detect failures in vision-language-action models.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31613v1",
-    "published_at": "2026-10-22T17:40:19+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407112+00:00"
-  },
-  {
-    "title": "Attention-Based Contact Framework for Humanoid Mobility",
-    "summary": "A learning framework uses an attention-based contact planner and tracker to enable versatile humanoid mobility over complex terrain entirely from onboard observations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31608v1",
-    "published_at": "2026-10-22T17:37:36+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407116+00:00"
-  },
-  {
-    "title": "Controlled Radio Fault Injection for Open 5G RANs",
-    "summary": "A software testbed framework applies scheduled I/O transformations to evaluate RAN telemetry, native events, and application delay under controlled radio faults.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31598v1",
-    "published_at": "2026-10-22T17:31:18+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407121+00:00"
-  },
-  {
-    "title": "Echo Framework for VLA Status Denoising and Actions",
-    "summary": "Echo integrates task status signal learning and action generation within a single vision-language-action model to recognize task success, failure, and recovery.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31569v1",
-    "published_at": "2026-10-22T17:12:16+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407125+00:00"
-  },
-  {
-    "title": "Geometry-Dependent Properties Enable Tunable Hydrogel Delivery",
-    "summary": "Varying PPy-PVA hydrogel geometries and microstructures allows tunable iontophoretic drug delivery without requiring individual current-density modulation.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31567v1",
-    "published_at": "2026-10-22T17:10:35+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407130+00:00"
-  },
-  {
-    "title": "Decentralized Bi-Level Optimization for Orbital Transport",
-    "summary": "A decentralized bi-level framework splits cooperative orbital transportation into inner convex thrust allocation and outer payload torque trajectory search.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31562v1",
-    "published_at": "2026-10-22T17:05:17+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407134+00:00"
-  },
-  {
-    "title": "Space Solar Array Simulated in MATLAB/Simulink",
-    "summary": "A photovoltaic array suitable for outer space is simulated in MATLAB/Simulink with and without maximum power point tracking.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31542v1",
-    "published_at": "2026-10-22T16:49:41+00:00",
-    "fetched_at": "2026-10-23T09:00:42.166296+00:00"
-  },
-  {
-    "title": "Direct Inference on Admissible Sets Regression Method",
-    "summary": "A new regression method named Diona estimates states and derivatives locally using on-demand solves instead of long global training.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31526v1",
-    "published_at": "2026-10-22T16:35:47+00:00",
-    "fetched_at": "2026-10-23T09:00:42.166308+00:00"
   }
 ]
