@@ -1,5 +1,50 @@
 [
   {
+    "title": "Brax Unveils Modular Phone Focused on Privacy",
+    "summary": "Brax is developing a new modular smartphone that prioritizes maximum privacy through dedicated hardware switches.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/mobile-technology/brax-wink-modular-phone-privacy-keyboard/",
+    "published_at": "2026-10-24T00:03:00+00:00",
+    "fetched_at": "2026-10-24T08:31:37.364706+00:00"
+  },
+  {
+    "title": "Arm Responds to Jury Decision in Qualcomm Trial",
+    "summary": "Arm's Ami Badani cited a $2 nominal damages award as validation following the recent Qualcomm trial decision.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
+    "published_at": "2026-10-24T00:00:00+00:00",
+    "fetched_at": "2026-10-24T08:31:37.364720+00:00"
+  },
+  {
+    "title": "Webinar to Cover FCC Robotics Ruling Impact",
+    "summary": "Industry leaders are hosting a webinar to discuss how new FCC restrictions on connected systems affect automation buyers.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/",
+    "published_at": "2026-10-23T20:06:28+00:00",
+    "fetched_at": "2026-10-24T08:31:37.364726+00:00"
+  },
+  {
+    "title": "Trump Administration Targets Offshore Wind Permits",
+    "summary": "The administration is asking a federal judge to let it reconsider a major federal permit granted for an offshore wind farm.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/wind-power/offshore/trump-again-targets-offshore-wind-risking-deal-to-speed-approvals-of-new-energy-projects/",
+    "published_at": "2026-10-23T19:43:51+00:00",
+    "fetched_at": "2026-10-24T08:31:37.364730+00:00"
+  },
+  {
+    "title": "Generative Bionics Launches Physical AI Data Factory",
+    "summary": "Generative Bionics is launching a new data factory in Italy to advance European robotics sovereignty and humanoid data generation.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
+    "published_at": "2026-10-23T18:56:44+00:00",
+    "fetched_at": "2026-10-24T08:31:37.364735+00:00"
+  },
+  {
     "title": "Space Tech Expo Europe Final Year in Bremen",
     "summary": "Space Tech Expo Europe 2026 will be held in Bremen for the final time before moving to Frankfurt in 2027.",
     "category": "Aerospace",
@@ -223,50 +268,5 @@
     "source_url": "https://newatlas.com/space-systems/britain-space-junk-cleanup-mission-keep-space-tidy/",
     "published_at": "2026-10-22T18:25:45+00:00",
     "fetched_at": "2026-10-23T09:00:34.069378+00:00"
-  },
-  {
-    "title": "Deepx Develops Open Software Ecosystem for Physical AI",
-    "summary": "Deepx is combining low-power AI accelerators and portable software to scale physical AI production beyond the data center.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
-    "published_at": "2026-10-22T18:14:49+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069383+00:00"
-  },
-  {
-    "title": "Sensorimotor Alignment Metric for Embodied AI Models",
-    "summary": "Researchers proposed S2, a training-free offline metric measuring sensory representation alignment with physical motion to prioritize robot and VLM models.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31670v1",
-    "published_at": "2026-10-22T17:59:51+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407085+00:00"
-  },
-  {
-    "title": "Workload-Aware Monitoring for Hybrid AI-RAN Platforms",
-    "summary": "A proposed monitoring approach associates radio-work descriptors with processing paths to compare resource usage across shared CPU and GPU workloads.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31627v1",
-    "published_at": "2026-10-22T17:45:44+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407096+00:00"
-  },
-  {
-    "title": "Harmonic Function Methods via Root Locus for Robot Paths",
-    "summary": "An offline path generation technique uses generalized root locus branches to drive multiple interchangeable robots to distinct goals while avoiding obstacles.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31625v1",
-    "published_at": "2026-10-22T17:45:31+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407102+00:00"
-  },
-  {
-    "title": "DiffDreamer: Coupled World Models for Quadrotor Control",
-    "summary": "DiffDreamer couples a learned world model with a differentiable simulator to improve training convergence and performance in agile quadrotor control.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.31617v1",
-    "published_at": "2026-10-22T17:41:13+00:00",
-    "fetched_at": "2026-10-23T09:00:38.407107+00:00"
   }
 ]
