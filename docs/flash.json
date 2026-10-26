@@ -1,5 +1,23 @@
 [
   {
+    "title": "Self-Heating and Parasitics Hinder Multi-Tier CFET Scaling",
+    "summary": "Researchers from TU Munich and IIT Kanpur studied how self-heating and parasitics impact multi-tier CFET design with vertically stacked nanosheet devices.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/self-heating-and-parasitics-challenge-multi-tier-cfet-scaling-tu-munich-iit-kanpur/",
+    "published_at": "2026-10-26T07:01:24+00:00",
+    "fetched_at": "2026-10-26T09:32:01.186823+00:00"
+  },
+  {
+    "title": "Pt-W Alloy Evaluated for High-NA EUV Mask Absorbers",
+    "summary": "Researchers investigated a platinum-tungsten alloy as a potential low-n EUV mask absorber to enable thinner films and better imaging performance.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/",
+    "published_at": "2026-10-25T21:17:41+00:00",
+    "fetched_at": "2026-10-26T09:32:01.186839+00:00"
+  },
+  {
     "title": "Brax Unveils Modular Phone Focused on Privacy",
     "summary": "Brax is developing a new modular smartphone that prioritizes maximum privacy through dedicated hardware switches.",
     "category": "Electronics & Semiconductors",
@@ -115,158 +133,5 @@
     "source_url": "https://newatlas.com/space-systems/facial-patch-zero-gravity-eyedrops/",
     "published_at": "2026-10-23T10:03:00+00:00",
     "fetched_at": "2026-10-23T16:16:51.576699+00:00"
-  },
-  {
-    "title": "Arm-Qualcomm Verdict Hinges on Compliance Tests",
-    "summary": "The Arm-Qualcomm legal verdict highlights a crucial debate over who controls the compliance tests required for custom chips.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
-    "published_at": "2026-10-23T08:03:27+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775047+00:00"
-  },
-  {
-    "title": "CHIPS Act Funding and Semiconductor Updates",
-    "summary": "Recent semiconductor developments include 389 million dollars in CHIPS Act funding, memory roadmaps, and major investments across the industry.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-week-in-review-161/",
-    "published_at": "2026-10-23T07:01:23+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775062+00:00"
-  },
-  {
-    "title": "U.S. Electronics Production Growth Accelerates",
-    "summary": "Semiconductor Intelligence reports that U.S. electronics production growth accelerated to an 8.1 percent three-month-average change by August 2026.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/electronics-production-growth-accelerating-says-si-2026-10/",
-    "published_at": "2026-10-23T05:16:45+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775068+00:00"
-  },
-  {
-    "title": "Mouser Signs Global Distribution Deal with ControlByWeb",
-    "summary": "Mouser has signed a global distribution agreement with industrial IoT controller manufacturer ControlByWeb.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/mouser-signs-controlbyweb-2026-10/",
-    "published_at": "2026-10-23T05:02:14+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775074+00:00"
-  },
-  {
-    "title": "Chernobyl Radioactive Particles Found to Be Stable",
-    "summary": "X-ray analysis reveals that tiny radioactive particles from Chernobyl have remained stable, trapping radioactive substances inside rather than releasing them.",
-    "category": "Energy",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261021231241.htm",
-    "published_at": "2026-10-23T03:35:13+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775078+00:00"
-  },
-  {
-    "title": "Apple Projected to Take 25 Percent of 2026 Foldables",
-    "summary": "Counterpoint Research projects Apple will capture 25 percent of the foldables market in 2026.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/markets/apple-to-take-25-of-foldables-market-2026-10/",
-    "published_at": "2026-10-23T00:01:07+00:00",
-    "fetched_at": "2026-10-23T09:00:30.775083+00:00"
-  },
-  {
-    "title": "Restoring Damaged Metal Span Bridges",
-    "summary": "Engineering solutions are developed to restore metal bridge span structures damaged by missile strikes.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d617ca890defb1afd16908fda8c88cb2654441af",
-    "published_at": "2026-10-23T00:00:00+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715518+00:00"
-  },
-  {
-    "title": "Improving Intersection Traffic via Markings",
-    "summary": "A study investigates how optimized horizontal road markings improve traffic management and speed control near intersections.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bb5c9c608d154bbd95758735a6c3d6a109f80390",
-    "published_at": "2026-10-23T00:00:00+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715531+00:00"
-  },
-  {
-    "title": "Analysis of Modern Modular Highway Bridges",
-    "summary": "Researchers analyzed technical parameters of international dismantlable highway bridges to support domestic production development.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/2bfc5feb9ec1cf3d8ea3f9ed583dce1572d4a7fc",
-    "published_at": "2026-10-23T00:00:00+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715536+00:00"
-  },
-  {
-    "title": "Life-Cycle Analysis for Pavement Structures",
-    "summary": "A life-cycle approach evaluates the economic and environmental impacts of selecting asphalt versus cement concrete pavements.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/1c9202fd95771f257e0de2f98a9ab7e5e3d1e4dc",
-    "published_at": "2026-10-23T00:00:00+00:00",
-    "fetched_at": "2026-10-22T17:04:17.715540+00:00"
-  },
-  {
-    "title": "Space Rider Prototype Crashes in Drop Test",
-    "summary": "The full-scale prototype of Europe's Space Rider orbiter failed to deploy its parachute during a drop test.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/europes-space-rider-vehicle-comes-crashing-down-during-drop-test",
-    "published_at": "2026-10-22T22:00:00+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069343+00:00"
-  },
-  {
-    "title": "Scientists Create Plasma Beam Antenna Tuned by Laser",
-    "summary": "Researchers have developed a novel antenna utilizing a plasma beam tuned by a laser instead of traditional solid metal rods.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/telecommunications/plasma-beam-antenna/",
-    "published_at": "2026-10-22T21:30:00+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069353+00:00"
-  },
-  {
-    "title": "Apex V2 Multitool Features Slim Magnetic Bit Magazine",
-    "summary": "Ant Design introduced an ultra-slim rectangular driver with a flip-out arm and storage for up to 14 swappable bits.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/ant-design-apex-multi-bit-driver/",
-    "published_at": "2026-10-22T21:03:00+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069359+00:00"
-  },
-  {
-    "title": "Ukraine Explores Sovereign Satellite Network with ICEYE and Nokia",
-    "summary": "Ukraine's military signed a letter of intent with Nokia and ICEYE to study developing a sovereign satellite-communication system.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/satellites/after-starshield-interruption-ukraine-wants-to-build-its-own-satellite-communication-network-with-iceye-and-nokia",
-    "published_at": "2026-10-22T20:28:04+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069364+00:00"
-  },
-  {
-    "title": "PG&E Prices San Francisco Grid Takeover at $22.5 Billion",
-    "summary": "Pacific Gas and Electric Company stated that a municipal takeover of the San Francisco public grid by CCSF would cost $22.5 billion.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/pge-puts-a-22-5b-price-tag-on-san-francisco-public-grid-takeover-proposal/",
-    "published_at": "2026-10-22T18:37:22+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069369+00:00"
-  },
-  {
-    "title": "Dainese Launches Ultralight Smartphone-Powered Airbag Vest",
-    "summary": "Dainese created a lightweight motorcycle airbag vest that eliminates the built-in battery by running on phone power instead.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/dainese-smart-go-motorcycling-airbag/",
-    "published_at": "2026-10-22T18:37:00+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069373+00:00"
-  },
-  {
-    "title": "UK Awards $81 Million Contract to Remove Defunct Satellites",
-    "summary": "The UK Space Agency awarded an $81 million contract to remove two defunct UK satellites from orbit using manipulator spacecraft between 2029 and 2032.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/space-systems/britain-space-junk-cleanup-mission-keep-space-tidy/",
-    "published_at": "2026-10-22T18:25:45+00:00",
-    "fetched_at": "2026-10-23T09:00:34.069378+00:00"
   }
 ]
