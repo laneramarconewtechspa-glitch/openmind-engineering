@@ -1,5 +1,140 @@
 [
   {
+    "title": "Grid Readiness Hinders UK Energy Infrastructure Delivery",
+    "summary": "59% of surveyed UK energy leaders rank grid readiness as a top barrier to delivering energy infrastructure.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/most-uk-energy-infrastructure-leaders-say-grid-readiness-among-their-biggest-delivery-barriers-27-10-2026/",
+    "published_at": "2026-10-27T15:26:54+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887115+00:00"
+  },
+  {
+    "title": "30-Foot Tiny House Offers Compact Living on Wheels",
+    "summary": "The Onyx 2630 tiny house features a light-filled interior and an outdoor porch designed for compact living.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/onyx-2630-mint/",
+    "published_at": "2026-10-27T14:57:00+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887130+00:00"
+  },
+  {
+    "title": "UKRI Launches £20M Trial for Renewable Energy Usage",
+    "summary": "UKRI has launched a £20M trial to encourage consumers to use more electricity during peak renewable generation.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ukri-launches-20m-trial-to-encourage-electricity-use-when-renewables-are-abundant-27-10-2026/",
+    "published_at": "2026-10-27T14:16:13+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887138+00:00"
+  },
+  {
+    "title": "NASA's Perseverance Rover Captures Historic Martian Tracks",
+    "summary": "NASA's Perseverance Mars rover left visible tracks across the Martian surface during a historic drive.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/mars-rovers/mars-rover-tracks-from-a-historic-drive-space-photo-of-the-day-for-oct-27-2026",
+    "published_at": "2026-10-27T14:00:00+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887144+00:00"
+  },
+  {
+    "title": "CopperPilot Raises Pre-Seed Funding for PCB Design AI",
+    "summary": "Startup CopperPilot has raised pre-seed funding to develop an AI agent for printed circuit board design.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/copperpilot-raises-pre-seed-to-develop-ai-agent-for-pcb-design/",
+    "published_at": "2026-10-27T13:58:33+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887148+00:00"
+  },
+  {
+    "title": "Florida's Sand Lake Energy Center Undergoes Upgrades",
+    "summary": "The Sand Lake Energy Center is upgrading its gas turbine, cooling tower, and electrical systems.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/operations-maintenance/maintaining-an-aging-combined-cycle-plant-aint-what-it-used-to-be/",
+    "published_at": "2026-10-27T13:15:42+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887153+00:00"
+  },
+  {
+    "title": "iMicro XL15 Smartphone Microscope Weighs Just 1.2 Grams",
+    "summary": "The iMicro XL15 is a lightweight smartphone microscope that steps back from extreme magnification for a wider view.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/technology/imicro-xl15-pocket-microscope/",
+    "published_at": "2026-10-27T12:36:56+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887158+00:00"
+  },
+  {
+    "title": "CIHT Urges Five-Year Funding Model for Local Highways",
+    "summary": "The Chartered Institution of Highways & Transportation urged a rolling five-year funding model for local highway maintenance.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ciht-urges-adoption-a-rolling-five%e2%80%91year-funding-model-for-local-highway-maintenance-27-10-2026/",
+    "published_at": "2026-10-27T12:02:26+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887163+00:00"
+  },
+  {
+    "title": "Craft Prospect Launches PERSEUS Project for Space Optics",
+    "summary": "Craft Prospect and partners are advancing optical communications for space using next-generation laser technology.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
+    "published_at": "2026-10-27T12:00:00+00:00",
+    "fetched_at": "2026-10-27T17:16:40.887167+00:00"
+  },
+  {
+    "title": "Northern Ireland Unveils Transport Strategy 2035",
+    "summary": "Northern Ireland's Department for Infrastructure has published its Transport Strategy 2035 and opened consultation on the draft Eastern Transport Plan.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/dfi-releases-long-term-vision-for-transport-in-east-of-northern-ireland-27-10-2026/",
+    "published_at": "2026-10-27T11:57:32+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078484+00:00"
+  },
+  {
+    "title": "West Sussex Renews WSP Highways Contract",
+    "summary": "West Sussex County Council renewed its contract with engineering consultancy WSP to deliver highways, transport, and planning services.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/west-sussex-council-renews-contract-with-wsp-for-highways-transport-and-planning-services-27-10-2026/",
+    "published_at": "2026-10-27T11:43:40+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078495+00:00"
+  },
+  {
+    "title": "AWE Starts Engagement for Future Materials Campus",
+    "summary": "AWE has begun pre-application stakeholder engagement for its multi-billion-pound Future Materials Campus project.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/pre-application-engagement-for-awes-future-materials-campus-gets-underway-27-10-2026/",
+    "published_at": "2026-10-27T11:34:17+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078500+00:00"
+  },
+  {
+    "title": "Astroscale Proposes Satellite Bodyguard Fleet",
+    "summary": "Astroscale suggested that space junk removal and repair technologies could be repurposed to build bodyguard spacecraft protecting satellites.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/astroscale-proposes-fleet-of-bodyguard-spacecraft-to-protect-satellites-from-orbital-attacks",
+    "published_at": "2026-10-27T10:00:00+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078505+00:00"
+  },
+  {
+    "title": "Scientists Simulate Universe's First Two Billion Years",
+    "summary": "Smithsonian scientists created a massive simulation called Lumina to recreate the first two billion years of the universe.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm",
+    "published_at": "2026-10-27T09:48:35+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078510+00:00"
+  },
+  {
+    "title": "Tiny Laser Beam Accelerates Computer Memory",
+    "summary": "Researchers developed a technique using an ultrafast laser beam to switch magnetic states for memory devices significantly faster.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm",
+    "published_at": "2026-10-27T09:22:06+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078514+00:00"
+  },
+  {
     "title": "Electronic skin instantly displays touch as light",
     "summary": "Researchers developed a flexible electronic skin that lights up upon touch to visualize pressure location and intensity.",
     "category": "Robotics",
@@ -16,6 +151,24 @@
     "source_url": "https://www.engineering.com/cadence-launches-ai-model-portfolio-for-engineering-workflows/",
     "published_at": "2026-10-27T08:27:40+00:00",
     "fetched_at": "2026-10-27T09:32:14.388851+00:00"
+  },
+  {
+    "title": "Minesto Targets Maldives for Tidal Energy",
+    "summary": "Minesto signed an MOU with Morteza Capital to develop tidal energy projects in the Maldives.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/minesto-targets-the-maldives-for-new-tidal-energy-development/",
+    "published_at": "2026-10-27T08:00:00+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078518+00:00"
+  },
+  {
+    "title": "Imec Report Addresses Optical Interconnect Scaling",
+    "summary": "Imec published a report highlighting the need to scale optical interconnects closer to silicon to meet AI-era bandwidth demands.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/the-imec-report-scaling-optical-interconnects-for-the-ai-era/",
+    "published_at": "2026-10-27T07:01:34+00:00",
+    "fetched_at": "2026-10-27T17:16:44.078523+00:00"
   },
   {
     "title": "Proposed Welsh rail testing facility seeks £330M private capital",
@@ -72,6 +225,15 @@
     "fetched_at": "2026-10-27T09:32:17.476996+00:00"
   },
   {
+    "title": "Senseonics Tests World's First CGM Without On-Body Transmitter",
+    "summary": "Senseonics engineered its Freedom sensor to eliminate the on-body transmitter entirely, advancing to first-in-human testing.",
+    "category": "Biomedical",
+    "source_name": "MD+DI",
+    "source_url": "https://www.mddionline.com/diabetes/senseonics-tests-the-world-s-first-cgm-without-an-on-body-transmitter",
+    "published_at": "2026-10-26T20:09:49+00:00",
+    "fetched_at": "2026-10-27T17:16:59.011519+00:00"
+  },
+  {
     "title": "Flexell Space Establishes French Subsidiary",
     "summary": "Flexell Space created a new French subsidiary to support ongoing contract and volume-production discussions with European customers.",
     "category": "Aerospace",
@@ -106,167 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.35862v1",
     "published_at": "2026-10-26T17:59:11+00:00",
     "fetched_at": "2026-10-27T09:32:21.156538+00:00"
-  },
-  {
-    "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
-    "summary": "A new approach uses virtual nonholonomic constraints to solve nonprehensile robotic catching without requiring object trajectory prediction.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35851v1",
-    "published_at": "2026-10-26T17:57:10+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156548+00:00"
-  },
-  {
-    "title": "Bodyseismography for Contactless Cardiac Assessment",
-    "summary": "A source-transmission-measurement framework models cardiovascular vibrations and body-bed mechanics to enable contactless assessment of cardiac mechanics.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35844v1",
-    "published_at": "2026-10-26T17:55:58+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156553+00:00"
-  },
-  {
-    "title": "Information-Theoretic Secure Aggregation with Heterogeneous Quantization",
-    "summary": "A new federated learning secure aggregation scheme tolerates client dropouts and collusion under heterogeneous client quantization levels.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35833v1",
-    "published_at": "2026-10-26T17:51:08+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156556+00:00"
-  },
-  {
-    "title": "Profiling a Frontier Agent with EBench",
-    "summary": "An evaluation of a multimodal large language model agent controlling a robot demonstrates its capabilities and limitations across manipulation tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35832v1",
-    "published_at": "2026-10-26T17:51:02+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156560+00:00"
-  },
-  {
-    "title": "Security Region Compression via Hybrid Vertex Pruning",
-    "summary": "A vertex pruning approach using local and backward search policies compresses power system security regions to enhance computational efficiency.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35815v1",
-    "published_at": "2026-10-26T17:43:40+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156564+00:00"
-  },
-  {
-    "title": "World Model for Energy Efficiency in Dynamic Metasurface Antennas",
-    "summary": "A world model framework optimizes digital beamforming and dynamic metasurface antenna element weights to maximize time-averaged energy efficiency.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35813v1",
-    "published_at": "2026-10-26T17:42:58+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156567+00:00"
-  },
-  {
-    "title": "Focusing Efficiency for Large Intelligent Surfaces",
-    "summary": "Researchers derive the optimal current distribution on large intelligent surfaces to characterize maximum achievable wireless power transmission efficiency.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35775v1",
-    "published_at": "2026-10-26T17:16:28+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156570+00:00"
-  },
-  {
-    "title": "Graph Neural Network for Wide-Area Ambisonic Rendering",
-    "summary": "A lightweight graph neural network refines spatial interpolation to enable wide-area 6DoF Ambisonic rendering from sparse recordings.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35741v1",
-    "published_at": "2026-10-26T16:57:26+00:00",
-    "fetched_at": "2026-10-27T09:32:21.156573+00:00"
-  },
-  {
-    "title": "Routed Ensembles Improve Multi-Objective RL",
-    "summary": "Researchers introduce routed ensemble policy learning and kernel surrogate attribution to improve multi-objective reinforcement learning performance and efficiency.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35733v1",
-    "published_at": "2026-10-26T16:52:29+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284052+00:00"
-  },
-  {
-    "title": "Specola Tool for Specification-Driven Robot Evaluation",
-    "summary": "Specola is a new Python tool and benchmark interface that evaluates robot behaviors in simulation using Signal Temporal Logic specifications.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35730v1",
-    "published_at": "2026-10-26T16:47:23+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284062+00:00"
-  },
-  {
-    "title": "Dual-Measurement Frequency-Droop for Meshed DC Networks",
-    "summary": "A new dual-measurement frequency-droop controller enables stable grid-forming operation for AC/DC converters in meshed MVDC networks.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35709v1",
-    "published_at": "2026-10-26T16:32:31+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284065+00:00"
-  },
-  {
-    "title": "TrySee Pipeline for Closed-Loop Robot Task Planning",
-    "summary": "TrySee integrates general VLM reasoning with domain-specific modular perception for closed-loop robot task planning without requiring fine-tuning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35687v1",
-    "published_at": "2026-10-26T16:20:28+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284068+00:00"
-  },
-  {
-    "title": "FISRF Framework Improves Robot Task Planning Efficiency",
-    "summary": "The Flexible Instructional Scaffolding Reflection Framework uses an agent-mentor architecture to reduce error-correction rounds and improve robot task success rates.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35686v1",
-    "published_at": "2026-10-26T16:20:06+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284070+00:00"
-  },
-  {
-    "title": "Continuous-Time Safe Planning for Agile Quadrupeds",
-    "summary": "A new real-time motion planning framework maintains fully-actuated SE(2) models and uses composite Bernstein polynomials to certify collision avoidance for quadrupeds.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35670v1",
-    "published_at": "2026-10-26T16:14:07+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284073+00:00"
-  },
-  {
-    "title": "Environment Edits as Corrective Signal for Reward Learning",
-    "summary": "The FERRET algorithm learns robot and object preferences by leveraging human environment edits as a complementary corrective feedback signal.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35659v1",
-    "published_at": "2026-10-26T16:04:42+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284076+00:00"
-  },
-  {
-    "title": "VPR-Space Benchmark for Extraterrestrial Visual Place Recognition",
-    "summary": "VPR-Space is a new benchmark featuring sixteen datasets to evaluate visual place recognition algorithms in space analog environments.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35642v1",
-    "published_at": "2026-10-26T15:51:30+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284079+00:00"
-  },
-  {
-    "title": "TRIDENT Waveform Detector for Dolphin Vocalizations",
-    "summary": "TRIDENT is a new waveform-based detector designed to identify broadband dolphin transient vocalizations amidst noisy impulsive ambient shrimp sounds.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35641v1",
-    "published_at": "2026-10-26T15:50:45+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284082+00:00"
-  },
-  {
-    "title": "FedAvgIm Federated Learning for Inverter-Based Resources",
-    "summary": "FedAvgIm is a privacy-aware federated learning framework that performs multi-site impedance identification of inverter-based resources under data scarcity.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.35640v1",
-    "published_at": "2026-10-26T15:50:11+00:00",
-    "fetched_at": "2026-10-27T09:32:25.284084+00:00"
   }
 ]
