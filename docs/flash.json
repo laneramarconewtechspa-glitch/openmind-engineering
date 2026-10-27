@@ -1,200 +1,272 @@
 [
   {
-    "title": "Ultrasound Implant Improves Brain Drug Delivery",
-    "summary": "An implantable device uses ultrasound to improve targeted drug delivery to the brain and help prevent tumor recurrence.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026",
-    "published_at": "2026-10-26T15:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846313+00:00"
-  },
-  {
-    "title": "Senseonics Launches Eversense CGM Study",
-    "summary": "Senseonics launched a human feasibility study for a transmitter-free version of its Eversense 365 continuous glucose monitor.",
-    "category": "Biomedical",
-    "source_name": "Drug Delivery Business News",
-    "source_url": "https://www.drugdeliverybusiness.com/sensonics-launches-human-feasibility-study-for-transmitter-free-eversense-365-cgm/",
-    "published_at": "2026-10-26T14:33:43+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846326+00:00"
-  },
-  {
-    "title": "Origin Nuclear and SGE UK Form SMR Joint Venture",
-    "summary": "Origin Nuclear and SGE UK signed a letter of intent to form a joint venture to support the deployment of 14 SMRs in the UK.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/origin-nuclear-and-sge-uk-to-form-jv-to-support-deployment-of-14-smrs-in-the-uk-26-10-2026/",
-    "published_at": "2026-10-26T13:53:28+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846332+00:00"
-  },
-  {
-    "title": "Panel-Level Processing Scales Advanced AI Packaging",
-    "summary": "Panel-level processing is emerging as a critical path to scale advanced chip packaging as AI pushes beyond traditional wafer limits.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
-    "published_at": "2026-10-26T13:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846338+00:00"
-  },
-  {
-    "title": "Space-Drawn ZBLAN Fibers Show Strength",
-    "summary": "Engineers successfully produced long ZBLAN optical fibers in microgravity aboard the International Space Station, resulting in stronger fibers.",
-    "category": "Materials",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/zblan-fiber-optic-cables-iss",
-    "published_at": "2026-10-26T12:00:02+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846343+00:00"
-  },
-  {
-    "title": "Rubin Telescope to Find Mini-Moons",
-    "summary": "The Rubin telescope is expected to help discover more of Earth's temporary mini-moons for potential future space missions.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/rubin-telescope-should-find-more-of-earths-mysterious-mini-moons-including-some-we-can-study-up-close",
-    "published_at": "2026-10-26T12:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846348+00:00"
-  },
-  {
-    "title": "KOA Speer Releases Heat Shock Resistors",
-    "summary": "KOA Speer Electronics introduced a new family of heat shock resistors featuring a metal glaze resistance film.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/passives/koa-speer-heat-shock-resistors-feature-metal-glaze-resistance-film-2026-10/",
-    "published_at": "2026-10-26T11:51:22+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846353+00:00"
-  },
-  {
-    "title": "Ancient Solar Eclipse Reveals Earth Rotation Secrets",
-    "summary": "Scientists analyzed a 2,700-year-old solar eclipse by correcting an ancient capital's location to measure past Earth rotation speeds.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
-    "published_at": "2026-10-26T11:06:08+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846358+00:00"
-  },
-  {
-    "title": "CScale Exits Stealth with $145M Funding",
-    "summary": "Optical interconnect startup CScale exited stealth mode with $145 million in Series C funding backed by Nvidia and Intel Capital.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/connectors/cscale-exits-stealth-with-145m-funding-for-gigawatt-scale-ai-2026-10/",
-    "published_at": "2026-10-26T10:26:57+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846363+00:00"
-  },
-  {
-    "title": "Magnetic Vortices Film Advances Neuromorphic Computing",
-    "summary": "Scientists filmed magnetic vortices melting out of an organized lattice, offering new ways to enable brain-like computing technology.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
-    "published_at": "2026-10-26T10:06:16+00:00",
-    "fetched_at": "2026-10-26T18:17:05.846368+00:00"
-  },
-  {
-    "title": "Apprenticeships and SAR Satellites Highlighted in Tech News",
-    "summary": "Recent industry highlights include the Apprenticeship Talent Bridge launch, a flapping airplanes startup, and ongoing expansion of Iceye's SAR satellite constellation.",
-    "category": "Other Engineering",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/what-caught-your-eye-apprenticeships-flapping-airplanes-sar-satellites-2026-10/",
-    "published_at": "2026-10-26T10:04:00+00:00",
-    "fetched_at": "2026-10-26T18:17:25.114105+00:00"
-  },
-  {
-    "title": "Self-Heating and Parasitics Hinder Multi-Tier CFET Scaling",
-    "summary": "Researchers from TU Munich and IIT Kanpur studied how self-heating and parasitics impact multi-tier CFET design with vertically stacked nanosheet devices.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/self-heating-and-parasitics-challenge-multi-tier-cfet-scaling-tu-munich-iit-kanpur/",
-    "published_at": "2026-10-26T07:01:24+00:00",
-    "fetched_at": "2026-10-26T09:32:01.186823+00:00"
-  },
-  {
-    "title": "Algorithm Optimizes Aircraft Torque Link Mass by 23 Percent",
-    "summary": "Researchers applied an improved Schrödinger-based optimization approach to reduce the mass of an aircraft torque link from 4.053 kg to 3.115 kg using finite element analysis.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bbe5ac355fae6d6eefb7e657056f38baa7552046",
-    "published_at": "2026-10-26T00:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:25.114118+00:00"
-  },
-  {
-    "title": "Harness Engineering Workflow Enables Agentic Wireless DSP Generation",
-    "summary": "A new workflow surrounding large language models with hardware architecture guidance enables the generation and deployment of valid wireless digital signal processing RTL designs on RFSoC platforms.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/4752188d6b8decf718d78348e7d626509b31675d",
-    "published_at": "2026-10-26T00:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:25.114125+00:00"
-  },
-  {
-    "title": "UnderTone Brings Frequency Lock Encoding to COTS Wi-Fi Hardware",
-    "summary": "Researchers implemented Frequency Lock Encoding on standard ESP32-C5 microcontrollers by reverse-engineering fractional-N divider registers to induce precise carrier frequency offsets.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/1fa51370a312cf36a4d647af5f90b28e9ead38ad",
-    "published_at": "2026-10-26T00:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:25.114130+00:00"
-  },
-  {
-    "title": "V2C MXene Heterostructures Enhance Nano-Aluminum Reactivity",
-    "summary": "Combining nano-aluminum with a V2C MXene heterostructure suppresses agglomeration, etches alumina shells, and significantly increases peak heat flow and combustion performance.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/1e249fe071eb58ffed3810d1220b45a976854dff",
-    "published_at": "2026-10-26T00:00:00+00:00",
-    "fetched_at": "2026-10-26T18:17:25.114135+00:00"
-  },
-  {
-    "title": "Pt-W Alloy Evaluated for High-NA EUV Mask Absorbers",
-    "summary": "Researchers investigated a platinum-tungsten alloy as a potential low-n EUV mask absorber to enable thinner films and better imaging performance.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/",
-    "published_at": "2026-10-25T21:17:41+00:00",
-    "fetched_at": "2026-10-26T09:32:01.186839+00:00"
-  },
-  {
-    "title": "Brax Unveils Modular Phone Focused on Privacy",
-    "summary": "Brax is developing a new modular smartphone that prioritizes maximum privacy through dedicated hardware switches.",
-    "category": "Electronics & Semiconductors",
+    "title": "Electronic skin instantly displays touch as light",
+    "summary": "Researchers developed a flexible electronic skin that lights up upon touch to visualize pressure location and intensity.",
+    "category": "Robotics",
     "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/mobile-technology/brax-wink-modular-phone-privacy-keyboard/",
-    "published_at": "2026-10-24T00:03:00+00:00",
-    "fetched_at": "2026-10-24T08:31:37.364706+00:00"
+    "source_url": "https://newatlas.com/robotics/eluminator-electronic-skin-displays-touch-as-light/",
+    "published_at": "2026-10-27T09:14:55+00:00",
+    "fetched_at": "2026-10-27T09:32:14.388838+00:00"
   },
   {
-    "title": "Arm Responds to Jury Decision in Qualcomm Trial",
-    "summary": "Arm's Ami Badani cited a $2 nominal damages award as validation following the recent Qualcomm trial decision.",
+    "title": "Cadence launches AI model portfolio for engineering workflows",
+    "summary": "The Maestro portfolio provides improved results and token efficiency with secure cloud and on-premises options.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/cadence-launches-ai-model-portfolio-for-engineering-workflows/",
+    "published_at": "2026-10-27T08:27:40+00:00",
+    "fetched_at": "2026-10-27T09:32:14.388851+00:00"
+  },
+  {
+    "title": "Proposed Welsh rail testing facility seeks £330M private capital",
+    "summary": "A planned Welsh rail testing facility is still searching for £330M in private capital to advance construction.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/proposed-state-of-the-art-welsh-rail-testing-facility-330m-short-of-private-capital-27-10-2026/",
+    "published_at": "2026-10-27T06:30:11+00:00",
+    "fetched_at": "2026-10-27T09:32:14.388858+00:00"
+  },
+  {
+    "title": "Cadence announces Maestro AI Model Portfolio",
+    "summary": "Cadence introduced the Maestro AI Model Portfolio to power AI Super Agents across semiconductor and system design workflows.",
     "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
-    "published_at": "2026-10-24T00:00:00+00:00",
-    "fetched_at": "2026-10-24T08:31:37.364720+00:00"
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/cadence-maestro-2026-10/",
+    "published_at": "2026-10-27T06:16:12+00:00",
+    "fetched_at": "2026-10-27T09:32:14.388862+00:00"
   },
   {
-    "title": "Webinar to Cover FCC Robotics Ruling Impact",
-    "summary": "Industry leaders are hosting a webinar to discuss how new FCC restrictions on connected systems affect automation buyers.",
+    "title": "Anglia signs franchise agreement with Novosense",
+    "summary": "Anglia Components signed a Pan-European franchise agreement with analog and mixed-signal IC manufacturer Novosense Microelectronics.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/anglia-signs-novosensr-2026-10/",
+    "published_at": "2026-10-27T06:13:44+00:00",
+    "fetched_at": "2026-10-27T09:32:14.388865+00:00"
+  },
+  {
+    "title": "Biological Computer 'Hive Mind' Combines Human Neurons",
+    "summary": "Researchers found that combining 15 synthetic biological computer brains allows their collective human neurons to work together and outperform AI.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/ai-humanoids/living-computers-forge-a-hive-mind-and-work-together-to-outsmart-ai/",
+    "published_at": "2026-10-27T03:58:56+00:00",
+    "fetched_at": "2026-10-27T09:32:17.476983+00:00"
+  },
+  {
+    "title": "Split Mass Residence Features Sloping Rooftop Garden",
+    "summary": "K-Thengono Design Studio completed an Indonesian home featuring a green roof, a rooftop swimming pool, and an open interior layout.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/architecture/k-thengono-design-studios-split-mass-residence/",
+    "published_at": "2026-10-27T02:32:00+00:00",
+    "fetched_at": "2026-10-27T09:32:17.476993+00:00"
+  },
+  {
+    "title": "OMRON to Acquire OnLogic for Edge AI",
+    "summary": "OMRON is acquiring OnLogic to combine industrial computing with its automation expertise for AI-intensive applications.",
     "category": "Robotics",
     "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/webinar-discuss-how-fcc-robotics-ruling-affects-automation-buyers/",
-    "published_at": "2026-10-23T20:06:28+00:00",
-    "fetched_at": "2026-10-24T08:31:37.364726+00:00"
+    "source_url": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+    "published_at": "2026-10-26T20:13:13+00:00",
+    "fetched_at": "2026-10-27T09:32:17.476996+00:00"
   },
   {
-    "title": "Trump Administration Targets Offshore Wind Permits",
-    "summary": "The administration is asking a federal judge to let it reconsider a major federal permit granted for an offshore wind farm.",
+    "title": "Flexell Space Establishes French Subsidiary",
+    "summary": "Flexell Space created a new French subsidiary to support ongoing contract and volume-production discussions with European customers.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/flexell-space-establishes-french-subsidiary-to-strengthen-european-presence/",
+    "published_at": "2026-10-26T20:00:00+00:00",
+    "fetched_at": "2026-10-27T09:32:17.477000+00:00"
+  },
+  {
+    "title": "Australia's Snowy 2.0 Pumped Storage Project Faces Cost Increase",
+    "summary": "Snowy Hydro reported that the Snowy 2.0 pumped storage project could cost up to A$25 billion with completion delayed to 2029.",
     "category": "Energy",
     "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/wind-power/offshore/trump-again-targets-offshore-wind-risking-deal-to-speed-approvals-of-new-energy-projects/",
-    "published_at": "2026-10-23T19:43:51+00:00",
-    "fetched_at": "2026-10-24T08:31:37.364730+00:00"
+    "source_url": "https://www.renewableenergyworld.com/energy-storage/pumped-storage/australias-huge-snowy-2-0-pumped-storage-project-gets-a-sobering-cost-adjustment/",
+    "published_at": "2026-10-26T19:50:26+00:00",
+    "fetched_at": "2026-10-27T09:32:17.477003+00:00"
   },
   {
-    "title": "Generative Bionics Launches Physical AI Data Factory",
-    "summary": "Generative Bionics is launching a new data factory in Italy to advance European robotics sovereignty and humanoid data generation.",
+    "title": "NASA Ends Swift Space Telescope Mission",
+    "summary": "NASA officially ended the Swift Observatory mission after a private satellite failed to dock with the spacecraft in orbit.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/missions/nasa-ends-swift-space-telescope-mission-after-failed-rescue-attempt",
+    "published_at": "2026-10-26T18:43:21+00:00",
+    "fetched_at": "2026-10-27T09:32:17.477006+00:00"
+  },
+  {
+    "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+    "summary": "Researchers introduce FLORE, a framework using a force-reactive diffusion policy and compliance controller to achieve force-reactive humanoid loco-manipulation.",
     "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
-    "published_at": "2026-10-23T18:56:44+00:00",
-    "fetched_at": "2026-10-24T08:31:37.364735+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35862v1",
+    "published_at": "2026-10-26T17:59:11+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156538+00:00"
+  },
+  {
+    "title": "Nonprehensile Robotic Catching Using Virtual Constraints",
+    "summary": "A new approach uses virtual nonholonomic constraints to solve nonprehensile robotic catching without requiring object trajectory prediction.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35851v1",
+    "published_at": "2026-10-26T17:57:10+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156548+00:00"
+  },
+  {
+    "title": "Bodyseismography for Contactless Cardiac Assessment",
+    "summary": "A source-transmission-measurement framework models cardiovascular vibrations and body-bed mechanics to enable contactless assessment of cardiac mechanics.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35844v1",
+    "published_at": "2026-10-26T17:55:58+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156553+00:00"
+  },
+  {
+    "title": "Information-Theoretic Secure Aggregation with Heterogeneous Quantization",
+    "summary": "A new federated learning secure aggregation scheme tolerates client dropouts and collusion under heterogeneous client quantization levels.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35833v1",
+    "published_at": "2026-10-26T17:51:08+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156556+00:00"
+  },
+  {
+    "title": "Profiling a Frontier Agent with EBench",
+    "summary": "An evaluation of a multimodal large language model agent controlling a robot demonstrates its capabilities and limitations across manipulation tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35832v1",
+    "published_at": "2026-10-26T17:51:02+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156560+00:00"
+  },
+  {
+    "title": "Security Region Compression via Hybrid Vertex Pruning",
+    "summary": "A vertex pruning approach using local and backward search policies compresses power system security regions to enhance computational efficiency.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35815v1",
+    "published_at": "2026-10-26T17:43:40+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156564+00:00"
+  },
+  {
+    "title": "World Model for Energy Efficiency in Dynamic Metasurface Antennas",
+    "summary": "A world model framework optimizes digital beamforming and dynamic metasurface antenna element weights to maximize time-averaged energy efficiency.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35813v1",
+    "published_at": "2026-10-26T17:42:58+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156567+00:00"
+  },
+  {
+    "title": "Focusing Efficiency for Large Intelligent Surfaces",
+    "summary": "Researchers derive the optimal current distribution on large intelligent surfaces to characterize maximum achievable wireless power transmission efficiency.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35775v1",
+    "published_at": "2026-10-26T17:16:28+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156570+00:00"
+  },
+  {
+    "title": "Graph Neural Network for Wide-Area Ambisonic Rendering",
+    "summary": "A lightweight graph neural network refines spatial interpolation to enable wide-area 6DoF Ambisonic rendering from sparse recordings.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35741v1",
+    "published_at": "2026-10-26T16:57:26+00:00",
+    "fetched_at": "2026-10-27T09:32:21.156573+00:00"
+  },
+  {
+    "title": "Routed Ensembles Improve Multi-Objective RL",
+    "summary": "Researchers introduce routed ensemble policy learning and kernel surrogate attribution to improve multi-objective reinforcement learning performance and efficiency.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35733v1",
+    "published_at": "2026-10-26T16:52:29+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284052+00:00"
+  },
+  {
+    "title": "Specola Tool for Specification-Driven Robot Evaluation",
+    "summary": "Specola is a new Python tool and benchmark interface that evaluates robot behaviors in simulation using Signal Temporal Logic specifications.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35730v1",
+    "published_at": "2026-10-26T16:47:23+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284062+00:00"
+  },
+  {
+    "title": "Dual-Measurement Frequency-Droop for Meshed DC Networks",
+    "summary": "A new dual-measurement frequency-droop controller enables stable grid-forming operation for AC/DC converters in meshed MVDC networks.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35709v1",
+    "published_at": "2026-10-26T16:32:31+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284065+00:00"
+  },
+  {
+    "title": "TrySee Pipeline for Closed-Loop Robot Task Planning",
+    "summary": "TrySee integrates general VLM reasoning with domain-specific modular perception for closed-loop robot task planning without requiring fine-tuning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35687v1",
+    "published_at": "2026-10-26T16:20:28+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284068+00:00"
+  },
+  {
+    "title": "FISRF Framework Improves Robot Task Planning Efficiency",
+    "summary": "The Flexible Instructional Scaffolding Reflection Framework uses an agent-mentor architecture to reduce error-correction rounds and improve robot task success rates.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35686v1",
+    "published_at": "2026-10-26T16:20:06+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284070+00:00"
+  },
+  {
+    "title": "Continuous-Time Safe Planning for Agile Quadrupeds",
+    "summary": "A new real-time motion planning framework maintains fully-actuated SE(2) models and uses composite Bernstein polynomials to certify collision avoidance for quadrupeds.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35670v1",
+    "published_at": "2026-10-26T16:14:07+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284073+00:00"
+  },
+  {
+    "title": "Environment Edits as Corrective Signal for Reward Learning",
+    "summary": "The FERRET algorithm learns robot and object preferences by leveraging human environment edits as a complementary corrective feedback signal.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35659v1",
+    "published_at": "2026-10-26T16:04:42+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284076+00:00"
+  },
+  {
+    "title": "VPR-Space Benchmark for Extraterrestrial Visual Place Recognition",
+    "summary": "VPR-Space is a new benchmark featuring sixteen datasets to evaluate visual place recognition algorithms in space analog environments.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35642v1",
+    "published_at": "2026-10-26T15:51:30+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284079+00:00"
+  },
+  {
+    "title": "TRIDENT Waveform Detector for Dolphin Vocalizations",
+    "summary": "TRIDENT is a new waveform-based detector designed to identify broadband dolphin transient vocalizations amidst noisy impulsive ambient shrimp sounds.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35641v1",
+    "published_at": "2026-10-26T15:50:45+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284082+00:00"
+  },
+  {
+    "title": "FedAvgIm Federated Learning for Inverter-Based Resources",
+    "summary": "FedAvgIm is a privacy-aware federated learning framework that performs multi-site impedance identification of inverter-based resources under data scarcity.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.35640v1",
+    "published_at": "2026-10-26T15:50:11+00:00",
+    "fetched_at": "2026-10-27T09:32:25.284084+00:00"
   }
 ]
