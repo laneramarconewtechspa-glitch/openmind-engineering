@@ -1,5 +1,50 @@
 [
   {
+    "title": "Infrastructure Enters a Defining Era",
+    "summary": "Professor Ali Jadbabaie explains how AI, climate change, and digital transformation are forcing a rethink of infrastructure design and management.",
+    "category": "Civil & Infrastructure",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+    "published_at": "2026-10-28T16:00:00+00:00",
+    "fetched_at": "2026-10-28T17:52:07.461485+00:00"
+  },
+  {
+    "title": "Single Pair Ethernet for Security Networks",
+    "summary": "A whitepaper explores how Single Pair Ethernet overcomes legacy RS-485 limits to support AI surveillance and system convergence.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/secure-safety-and-security-communications/",
+    "published_at": "2026-10-28T14:00:00+00:00",
+    "fetched_at": "2026-10-28T17:52:07.461498+00:00"
+  },
+  {
+    "title": "WorldOracle Tests Robot World Models",
+    "summary": "WorldOracle tests show instances where a world model incorrectly predicted a successful fruit grasp despite the robot missing.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/",
+    "published_at": "2026-10-28T13:44:31+00:00",
+    "fetched_at": "2026-10-28T17:52:07.461505+00:00"
+  },
+  {
+    "title": "Virtual Power Plant Policy Scorecard",
+    "summary": "Most US states received failing grades in a new Virtual Power Plant Policy Scorecard, with only six states earning a 'B'.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/the-best-and-worst-states-for-virtual-power-plants-and-community-power/",
+    "published_at": "2026-10-28T13:25:13+00:00",
+    "fetched_at": "2026-10-28T17:52:07.461510+00:00"
+  },
+  {
+    "title": "Extreme Spin May Cause Black Holes to Split",
+    "summary": "New research suggests that single black holes could potentially split in two, but only if they are spinning at extreme speeds.",
+    "category": "Other Engineering",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/black-holes/black-holes-can-split-in-two-but-only-if-they-spin-at-extreme-speeds",
+    "published_at": "2026-10-28T10:00:00+00:00",
+    "fetched_at": "2026-10-28T17:52:07.461514+00:00"
+  },
+  {
     "title": "New Auto Kit Cleans City Air",
     "summary": "Researchers in South Korea developed an automotive kit designed to scrub roadside air and capture brake dust.",
     "category": "Mechanical",
@@ -223,50 +268,5 @@
     "source_url": "https://arxiv.org/abs/2610.37519v1",
     "published_at": "2026-10-27T16:41:37+00:00",
     "fetched_at": "2026-10-28T10:20:03.604908+00:00"
-  },
-  {
-    "title": "World Dreamer v5-lite: Multi-Robot World Action Model",
-    "summary": "World Dreamer v5-lite is a multi-robot world-action model that uses a shared workspace coordinate state to integrate distributed camera views and predict separate robot actions.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37518v1",
-    "published_at": "2026-10-27T16:40:10+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604911+00:00"
-  },
-  {
-    "title": "Ego-CEVR Framework Learns Robot Manipulation from Egocentric Video",
-    "summary": "Researchers introduce Ego-CEVR, a framework using hierarchical visual representation learning to translate human egocentric videos into robot manipulation capabilities.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37509v1",
-    "published_at": "2026-10-27T16:30:35+00:00",
-    "fetched_at": "2026-10-28T10:20:08.347180+00:00"
-  },
-  {
-    "title": "Quantization-Aware Channel Tracking for Distributed Massive MIMO",
-    "summary": "A new framework develops quantization-aware filters for high-rate IoT in distributed massive MIMO systems utilizing low-resolution ADCs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37508v1",
-    "published_at": "2026-10-27T16:30:07+00:00",
-    "fetched_at": "2026-10-28T10:20:08.347192+00:00"
-  },
-  {
-    "title": "Autonomous Fixed-Wing Interception Using Reinforcement Learning",
-    "summary": "A neural-network-controlled fixed-wing interceptor successfully tracks and intercepts targets using reinforcement learning and monocular vision.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37470v1",
-    "published_at": "2026-10-27T16:04:06+00:00",
-    "fetched_at": "2026-10-28T10:20:08.347196+00:00"
-  },
-  {
-    "title": "Electric-Field Induction Motor Features Improved Rotor Dynamics",
-    "summary": "Engineers developed an electric-field induction motor utilizing discrete circuit components on the rotor surface to emulate deep-bar designs and improve torque.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37452v1",
-    "published_at": "2026-10-27T15:55:08+00:00",
-    "fetched_at": "2026-10-28T10:20:08.347199+00:00"
   }
 ]
