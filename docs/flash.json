@@ -1,5 +1,68 @@
 [
   {
+    "title": "Arctic Fox Introduces Super Mouse with Built-in Touchscreen",
+    "summary": "Arctic Fox is launching its Super Mouse featuring a built-in touchscreen designed to improve workflow speed.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/computers/super-mouse-touchscreen/",
+    "published_at": "2026-10-29T16:30:20+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738633+00:00"
+  },
+  {
+    "title": "Enersea and Carbon Haven Partner for North Sea CO2 Injection",
+    "summary": "Enersea and Carbon Haven are developing an offshore CO2 injection solution to repurpose depleted gas platforms for permanent carbon storage.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/uncategorized/enersea-and-carbon-haven-partner-on-co%e2%82%82-injection-using-existing-north-sea-infrastructure-29-10-2026/",
+    "published_at": "2026-10-29T15:52:07+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738649+00:00"
+  },
+  {
+    "title": "CADFit Open-Source Tool Converts Meshes to Editable CAD Code",
+    "summary": "CADFit has been released as an open-source tool for turning meshes into editable CAD code alongside new AI electronic design announcements.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/more-mesh-to-cad-and-a-full-stack-of-agentic-eda-news/",
+    "published_at": "2026-10-29T15:50:49+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738657+00:00"
+  },
+  {
+    "title": "Woven Mesh Heart Implant Harvests Energy from Motion",
+    "summary": "Researchers built an ultrathin, flexible mesh integrated into heart tissue that generates energy from motion using piezoelectric devices.",
+    "category": "Biomedical",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/medical-implant-energy-harvesting-mesh",
+    "published_at": "2026-10-29T12:00:02+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738663+00:00"
+  },
+  {
+    "title": "STMicroelectronics Weighs More Powerful MCUs and MPUs for Humanoid Robots",
+    "summary": "STMicroelectronics is monitoring the evolving humanoid robot market before deciding whether to develop more powerful MCUs and MPUs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/stmicroelectronics-weighs-developing-more-powerful-mcus-mpus-for-humanoid-robots/",
+    "published_at": "2026-10-29T11:48:02+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738669+00:00"
+  },
+  {
+    "title": "Computer Malfunction Likely Caused Second High-Speed Rail Crash in Spain",
+    "summary": "A computer malfunction is suspected as the cause of a collision between two trains south of Madrid on October 28.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/computer-malfunction-likely-led-to-second-high-speed-rail-crash-in-spain-this-year-29-10-2026/",
+    "published_at": "2026-10-29T10:51:47+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738675+00:00"
+  },
+  {
+    "title": "Engineering Expertise Critical for Extra High Voltage Projects",
+    "summary": "Early engineering support is becoming critical for complex extra high voltage projects connecting data centres and industrial sites.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/why-engineering-expertise-is-critical-to-ehv-projects-29-10-2026/",
+    "published_at": "2026-10-29T10:38:26+00:00",
+    "fetched_at": "2026-10-29T18:02:57.738680+00:00"
+  },
+  {
     "title": "MTC Installs Caracol Robotic Metal AM Platform",
     "summary": "The installation expands research and qualification capabilities for large-format metal components used in aerospace, defence and energy.",
     "category": "Robotics",
@@ -27,6 +90,15 @@
     "fetched_at": "2026-10-29T10:43:04.666697+00:00"
   },
   {
+    "title": "Ancient 128,000-Year-Old Ice Discovered in Tibet",
+    "summary": "Ancient ice found in Tibet preserves a climate record dating back over 128,000 years, offering new insights into past glacial survival.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261028232713.htm",
+    "published_at": "2026-10-29T08:10:47+00:00",
+    "fetched_at": "2026-10-29T18:03:12.695745+00:00"
+  },
+  {
     "title": "Thermal Analysis Shift in Semiconductor Design",
     "summary": "Applying appropriate simulation and abstraction at each design stage is now key to managing thermal challenges.",
     "category": "Electronics & Semiconductors",
@@ -52,6 +124,15 @@
     "source_url": "https://www.electronicsweekly.com/news/business/reassuringly-boring-budget-2026-10/",
     "published_at": "2026-10-29T06:18:56+00:00",
     "fetched_at": "2026-10-29T10:43:30.675891+00:00"
+  },
+  {
+    "title": "AGIBOT Launches Worken and New Platforms",
+    "summary": "AGIBOT introduced Worken to measure robot productivity alongside new hardware and software platforms at its Innovation Day 2026.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/",
+    "published_at": "2026-10-29T04:01:46+00:00",
+    "fetched_at": "2026-10-29T18:03:12.695754+00:00"
   },
   {
     "title": "New Framework Gives Users Social Media Control",
@@ -187,86 +268,5 @@
     "source_url": "https://www.eetimes.com/secure-safety-and-security-communications/",
     "published_at": "2026-10-28T14:00:00+00:00",
     "fetched_at": "2026-10-28T17:52:07.461498+00:00"
-  },
-  {
-    "title": "WorldOracle Tests Robot World Models",
-    "summary": "WorldOracle tests show instances where a world model incorrectly predicted a successful fruit grasp despite the robot missing.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/",
-    "published_at": "2026-10-28T13:44:31+00:00",
-    "fetched_at": "2026-10-28T17:52:07.461505+00:00"
-  },
-  {
-    "title": "Virtual Power Plant Policy Scorecard",
-    "summary": "Most US states received failing grades in a new Virtual Power Plant Policy Scorecard, with only six states earning a 'B'.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/the-best-and-worst-states-for-virtual-power-plants-and-community-power/",
-    "published_at": "2026-10-28T13:25:13+00:00",
-    "fetched_at": "2026-10-28T17:52:07.461510+00:00"
-  },
-  {
-    "title": "TfL Urged to Address Underground Track",
-    "summary": "The London Assembly urged Transport for London to address deteriorating infrastructure after finding 42% of track in very poor condition.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/42-of-track-in-very-poor-condition-tfl-urged-to-tackle-deteriorating-underground-network-28-10-2026/",
-    "published_at": "2026-10-28T12:20:55+00:00",
-    "fetched_at": "2026-10-29T10:43:37.872387+00:00"
-  },
-  {
-    "title": "Sizewell C Financing Criticized",
-    "summary": "Members of Parliament on the Public Accounts Committee called the financing structure for the Sizewell C nuclear plant a terrible deal for taxpayers.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/financing-structure-for-sizewell-c-a-terrible-deal-public-accounts-committee-28-10-2026/",
-    "published_at": "2026-10-28T12:11:50+00:00",
-    "fetched_at": "2026-10-29T10:43:37.872390+00:00"
-  },
-  {
-    "title": "Basildon Council Ordered to Resume Local Plan",
-    "summary": "Housing minister Matthew Pennycook instructed Basildon Borough Council to complete its delayed local plan or face potential government intervention.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/government-orders-basildon-council-to-press-ahead-with-delayed-local-plan-amid-threat-of-intervention-28-10-2026/",
-    "published_at": "2026-10-28T10:26:02+00:00",
-    "fetched_at": "2026-10-29T10:43:37.872394+00:00"
-  },
-  {
-    "title": "Extreme Spin May Cause Black Holes to Split",
-    "summary": "New research suggests that single black holes could potentially split in two, but only if they are spinning at extreme speeds.",
-    "category": "Other Engineering",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/black-holes/black-holes-can-split-in-two-but-only-if-they-spin-at-extreme-speeds",
-    "published_at": "2026-10-28T10:00:00+00:00",
-    "fetched_at": "2026-10-28T17:52:07.461514+00:00"
-  },
-  {
-    "title": "New Auto Kit Cleans City Air",
-    "summary": "Researchers in South Korea developed an automotive kit designed to scrub roadside air and capture brake dust.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/kimm-car-air-purifier-grille-brake-dust/",
-    "published_at": "2026-10-28T08:18:31+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826170+00:00"
-  },
-  {
-    "title": "Intel Plans Quantum Business Acquisition",
-    "summary": "Intel plans to acquire the quantum software platform Classiq to help build its quantum business.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
-    "published_at": "2026-10-28T08:05:29+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826182+00:00"
-  },
-  {
-    "title": "FAA Seeks Advanced Spectrum Monitoring Systems",
-    "summary": "The FAA is seeking ambitious monitoring systems to detect and geolocate aviation radio frequency interference and jamming.",
-    "category": "Aerospace",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/faa-aviation-airwaves",
-    "published_at": "2026-10-28T08:00:04+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826187+00:00"
   }
 ]
