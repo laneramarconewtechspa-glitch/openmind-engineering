@@ -1,5 +1,149 @@
 [
   {
+    "title": "MTC Installs Caracol Robotic Metal AM Platform",
+    "summary": "The installation expands research and qualification capabilities for large-format metal components used in aerospace, defence and energy.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mtc-selects-caracols-robotic-metal-am-platform/",
+    "published_at": "2026-10-29T10:04:56+00:00",
+    "fetched_at": "2026-10-29T10:43:04.666679+00:00"
+  },
+  {
+    "title": "Budget 2026 Raises Concerns Over CCUS De-prioritisation",
+    "summary": "Commentators warn that targeted budget cuts will critically impact the UK energy and net-zero infrastructure pipeline.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-concerns-flagged-on-partial-de-prioritisation-of-ccus-and-cluster-projects-29-10-2026/",
+    "published_at": "2026-10-29T09:37:05+00:00",
+    "fetched_at": "2026-10-29T10:43:04.666692+00:00"
+  },
+  {
+    "title": "AI Transforms Semiconductor Manufacturing from Materials Up",
+    "summary": "Advanced AI chips require innovations in materials, manufacturing equipment, and packaging technologies to meet performance demands.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/how-ai-redefines-semiconductor-manufacturing-from-materials-up/",
+    "published_at": "2026-10-29T08:30:08+00:00",
+    "fetched_at": "2026-10-29T10:43:04.666697+00:00"
+  },
+  {
+    "title": "Thermal Analysis Shift in Semiconductor Design",
+    "summary": "Applying appropriate simulation and abstraction at each design stage is now key to managing thermal challenges.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/is-it-getting-hot-in-here-why-thermal-is-no-longer-a-signoff-problem/",
+    "published_at": "2026-10-29T07:08:48+00:00",
+    "fetched_at": "2026-10-29T10:43:30.675876+00:00"
+  },
+  {
+    "title": "Scaling Autonomous Root Cause Analysis for Bugs",
+    "summary": "New approaches aim to intelligently decide what to investigate, rerun, and compute during regression triage.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/scaling-autonomous-root-cause-analysis-for-regression-triage/",
+    "published_at": "2026-10-29T07:04:37+00:00",
+    "fetched_at": "2026-10-29T10:43:30.675885+00:00"
+  },
+  {
+    "title": "UK Allocates £18 Million for Advanced Chip Design Academy",
+    "summary": "The UK budget includes funding to establish a new advanced chip design academy.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/reassuringly-boring-budget-2026-10/",
+    "published_at": "2026-10-29T06:18:56+00:00",
+    "fetched_at": "2026-10-29T10:43:30.675891+00:00"
+  },
+  {
+    "title": "New Framework Gives Users Social Media Control",
+    "summary": "The Social.Wiki framework lets users easily edit social websites and choose the content they see.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029",
+    "published_at": "2026-10-29T04:00:00+00:00",
+    "fetched_at": "2026-10-29T10:43:30.675894+00:00"
+  },
+  {
+    "title": "Scientists Break Textbook Laser Physics Rule",
+    "summary": "Researchers generated much higher energy X-rays than conventional theory predicts by using two electrons working together.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
+    "published_at": "2026-10-29T03:39:27+00:00",
+    "fetched_at": "2026-10-29T10:43:30.675898+00:00"
+  },
+  {
+    "title": "Ford Ranger Super Duty Gets Oz Micro-Camper Variant",
+    "summary": "Tommy Campers in Australia has developed a new off-road micro-camping canopy for the Ford Ranger Super Duty.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/pickup-campers/tommy-ford-ranger-super-duty-camper-truck/",
+    "published_at": "2026-10-28T21:03:00+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268539+00:00"
+  },
+  {
+    "title": "Astronauts Simulate Mars Mission Underwater",
+    "summary": "An analog astronaut crew spent five days living and working inside a research station 22 feet underwater to study future space missions.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/human-spaceflight/5-days-beneath-the-waves-what-its-like-to-live-in-an-underwater-space-station",
+    "published_at": "2026-10-28T21:00:00+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268549+00:00"
+  },
+  {
+    "title": "Startup Seeks Superconducting Materials for Quantum Scale",
+    "summary": "Canadian startup Meissner Technologies uses AI and lab testing to discover superconducting materials that reduce cooling costs for quantum computers.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/canadian-startup-aims-to-be-quantums-picks-and-shovels/",
+    "published_at": "2026-10-28T20:50:32+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268553+00:00"
+  },
+  {
+    "title": "Humanoid Robots and Ag Tech Advance in Factories",
+    "summary": "Research continues into utilizing human-like robots on factory floors alongside new agricultural equipment in Kansas.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/humanoids-building-humanoids-and-new-robots-for-agriculture-equipment-in-kansas/",
+    "published_at": "2026-10-28T20:00:00+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268557+00:00"
+  },
+  {
+    "title": "Virgin Galactic Unveils First Delta-Class Space Plane",
+    "summary": "Virgin Galactic has revealed its first Delta-class space plane and announced its new name following a public vote.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/private-spaceflight/meet-apeiron-virgin-galactics-1st-delta-class-space-plane",
+    "published_at": "2026-10-28T19:28:10+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268561+00:00"
+  },
+  {
+    "title": "Nextool Introduces Sleek Flagship F20 Multitool",
+    "summary": "Nextool launched the Flagship F20, a triple-handled everyday carry multitool designed to balance performance, weight, and size.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/knives-multitools/nextool-flagship-f20-multitool/",
+    "published_at": "2026-10-28T18:37:40+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268564+00:00"
+  },
+  {
+    "title": "New Ultrasonic Tube Levitates and Guides Matter",
+    "summary": "Researchers demonstrated an ultrasonic tube capable of physically confining and guiding matter through the air using sound waves.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/good-thinking/ultrasound-tube-levitates-matter/",
+    "published_at": "2026-10-28T18:13:09+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268568+00:00"
+  },
+  {
+    "title": "UK Infrastructure Sector Responds to Budget 2026",
+    "summary": "Infrastructure stakeholders have reacted to the Autumn Budget, emphasizing both positive signals and ongoing challenges regarding deliverability.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-industry-reacts-to-welcome-signals-but-emphasises-need-for-deliverability-28-10-2026/",
+    "published_at": "2026-10-28T17:10:11+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268571+00:00"
+  },
+  {
     "title": "Infrastructure Enters a Defining Era",
     "summary": "Professor Ali Jadbabaie explains how AI, climate change, and digital transformation are forcing a rethink of infrastructure design and management.",
     "category": "Civil & Infrastructure",
@@ -7,6 +151,33 @@
     "source_url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
     "published_at": "2026-10-28T16:00:00+00:00",
     "fetched_at": "2026-10-28T17:52:07.461485+00:00"
+  },
+  {
+    "title": "UK Focuses New Electricity Projects on Lowering Bills",
+    "summary": "The UK government announced it will exclusively build new electricity generation projects that lower consumer energy bills.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-government-to-only-build-new-electricity-projects-which-lower-bills-28-10-2026/",
+    "published_at": "2026-10-28T15:49:21+00:00",
+    "fetched_at": "2026-10-29T10:43:34.268574+00:00"
+  },
+  {
+    "title": "DigiKey Expands Standard Product Range",
+    "summary": "DigiKey has expanded its own-label Standard Product line to include a new soldering station and ESD silicone items.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/digikey-adds-to-its-standard-product-range-2026-10/",
+    "published_at": "2026-10-28T15:35:30+00:00",
+    "fetched_at": "2026-10-29T10:43:37.872367+00:00"
+  },
+  {
+    "title": "Tesla R&D Spending Surges",
+    "summary": "Tesla’s R&D-to-revenue ratio reached a new high of 8.7% in Q1 2026, rising significantly faster than its revenue.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/manuf/tealas-rd-costs-rising-2026-10/",
+    "published_at": "2026-10-28T14:12:28+00:00",
+    "fetched_at": "2026-10-29T10:43:37.872383+00:00"
   },
   {
     "title": "Single Pair Ethernet for Security Networks",
@@ -34,6 +205,33 @@
     "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/the-best-and-worst-states-for-virtual-power-plants-and-community-power/",
     "published_at": "2026-10-28T13:25:13+00:00",
     "fetched_at": "2026-10-28T17:52:07.461510+00:00"
+  },
+  {
+    "title": "TfL Urged to Address Underground Track",
+    "summary": "The London Assembly urged Transport for London to address deteriorating infrastructure after finding 42% of track in very poor condition.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/42-of-track-in-very-poor-condition-tfl-urged-to-tackle-deteriorating-underground-network-28-10-2026/",
+    "published_at": "2026-10-28T12:20:55+00:00",
+    "fetched_at": "2026-10-29T10:43:37.872387+00:00"
+  },
+  {
+    "title": "Sizewell C Financing Criticized",
+    "summary": "Members of Parliament on the Public Accounts Committee called the financing structure for the Sizewell C nuclear plant a terrible deal for taxpayers.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/financing-structure-for-sizewell-c-a-terrible-deal-public-accounts-committee-28-10-2026/",
+    "published_at": "2026-10-28T12:11:50+00:00",
+    "fetched_at": "2026-10-29T10:43:37.872390+00:00"
+  },
+  {
+    "title": "Basildon Council Ordered to Resume Local Plan",
+    "summary": "Housing minister Matthew Pennycook instructed Basildon Borough Council to complete its delayed local plan or face potential government intervention.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/government-orders-basildon-council-to-press-ahead-with-delayed-local-plan-amid-threat-of-intervention-28-10-2026/",
+    "published_at": "2026-10-28T10:26:02+00:00",
+    "fetched_at": "2026-10-29T10:43:37.872394+00:00"
   },
   {
     "title": "Extreme Spin May Cause Black Holes to Split",
@@ -70,203 +268,5 @@
     "source_url": "https://spectrum.ieee.org/faa-aviation-airwaves",
     "published_at": "2026-10-28T08:00:04+00:00",
     "fetched_at": "2026-10-28T10:19:53.826187+00:00"
-  },
-  {
-    "title": "Elektrobit and Microchip Streamline AUTOSAR Software",
-    "summary": "The companies combined pre-integrated MCAL software and automation tools to reduce vehicle software integration complexity.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/elektrobit-and-microchip-simplify-autosar-software-development/",
-    "published_at": "2026-10-28T07:56:45+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826191+00:00"
-  },
-  {
-    "title": "New Benchmark Evaluates AI Chip Design",
-    "summary": "Build-A-Chip-Bench uses open-source tools to assess AI agents across the entire chip-design workflow from specification to GDS layout.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/introducing-build-a-chip-bench-from-workload-specification-to-gds/",
-    "published_at": "2026-10-28T07:03:44+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826194+00:00"
-  },
-  {
-    "title": "AI Role Grows in Analog Design",
-    "summary": "Artificial intelligence is playing an increasingly important role in managing the rising complexity of analog and mixed-signal design.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/using-ai-for-analog-design/",
-    "published_at": "2026-10-28T07:02:07+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826198+00:00"
-  },
-  {
-    "title": "Foundation IP Platforms Lower SoC Risks",
-    "summary": "Integrated Foundation IP platforms help reduce integration delays and re-spin risks for HPC and edge AI SoCs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-saves-you-millions-on-hpc-and-edge-ai-socs/",
-    "published_at": "2026-10-28T07:01:06+00:00",
-    "fetched_at": "2026-10-28T10:19:53.826201+00:00"
-  },
-  {
-    "title": "Semiconductor Models Balance IP Secrecy and Accuracy",
-    "summary": "Advanced packaging requires cross-boundary models that protect proprietary processes without breaking prediction accuracy.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/how-much-can-semiconductor-models-hide/",
-    "published_at": "2026-10-28T07:01:04+00:00",
-    "fetched_at": "2026-10-28T10:19:56.982252+00:00"
-  },
-  {
-    "title": "Developing Computers with Superhuman Hearing",
-    "summary": "Researchers are developing computer systems with superhuman hearing for speech recognition, music understanding, and environmental monitoring.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
-    "published_at": "2026-10-28T04:00:00+00:00",
-    "fetched_at": "2026-10-28T10:19:56.982261+00:00"
-  },
-  {
-    "title": "Modernizing Legacy Aircraft Power Architectures",
-    "summary": "High-density switching supplies help modernize legacy aircraft power systems while addressing efficiency and integration challenges.",
-    "category": "Aerospace",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
-    "published_at": "2026-10-27T23:00:00+00:00",
-    "fetched_at": "2026-10-28T10:19:56.982267+00:00"
-  },
-  {
-    "title": "Arrowmax Unveils 52-in-1 Electric Smart Driver",
-    "summary": "The new Arrowspace S1 electric smart driver uses an HD camera system to identify bits and automatically set torque ranges.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/arrowspace-52-in-1-ai-screwdriver/",
-    "published_at": "2026-10-27T21:03:00+00:00",
-    "fetched_at": "2026-10-28T10:19:56.982271+00:00"
-  },
-  {
-    "title": "Underwater Spacewalk Simulations Test Astronaut Protocols",
-    "summary": "Aquanauts conducted underwater simulated spacewalks to test astronaut safety and communication protocols during simulated missions.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/human-spaceflight/how-spacewalking-underwater-made-me-feel-like-i-was-really-in-space",
-    "published_at": "2026-10-27T21:00:00+00:00",
-    "fetched_at": "2026-10-28T10:19:56.982274+00:00"
-  },
-  {
-    "title": "Analog Superposition Increases PCM Storage Density",
-    "summary": "Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition to increase effective storage density.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
-    "published_at": "2026-10-27T20:37:31+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112364+00:00"
-  },
-  {
-    "title": "Ukrainian Startup and GomSpace Test Satellite",
-    "summary": "An experimental spacecraft launched on October 1 could lead to a future Ukrainian-controlled satellite communications network.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-    "published_at": "2026-10-27T20:21:30+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112374+00:00"
-  },
-  {
-    "title": "Cowboy Space Unveils Big Iron Rocket",
-    "summary": "Cowboy Space revealed its Big Iron rocket, which is targeted for a late 2028 debut to build an AI data center constellation.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/cowboy-space-unveils-big-iron-rocket-to-launch-20-000-ai-data-centers",
-    "published_at": "2026-10-27T18:00:00+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112379+00:00"
-  },
-  {
-    "title": "ThinkWorld Framework Enhances Robotic Dynamics Reasoning",
-    "summary": "Researchers introduced a VLA learning framework that grounds action reasoning in world dynamics using reinforcement learning with world imagination.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37666v1",
-    "published_at": "2026-10-27T17:59:52+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112383+00:00"
-  },
-  {
-    "title": "Real-Time Heuristic for Autonomous Vehicle Coordination",
-    "summary": "A bi-level optimization approach using algorithmic differentiation enables real-time coordination of connected and automated vehicles at intersections.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37632v1",
-    "published_at": "2026-10-27T17:53:29+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112386+00:00"
-  },
-  {
-    "title": "Evaluating Spatiotemporal Vision Models on Egocentric Tennis",
-    "summary": "Researchers evaluated vision models on egocentric tennis video tasks to understand how spatiotemporal intelligence supports agile robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37619v1",
-    "published_at": "2026-10-27T17:47:14+00:00",
-    "fetched_at": "2026-10-28T10:20:00.112390+00:00"
-  },
-  {
-    "title": "EgoThumb: Vision-Driven Supernumerary Robotic Thumb",
-    "summary": "EgoThumb is a compact, open-source supernumerary robotic thumb that uses visual imitation learning to map egocentric camera images to continuous joint positions for grasp assistance.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37582v1",
-    "published_at": "2026-10-27T17:22:25+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604880+00:00"
-  },
-  {
-    "title": "Constraint-Referenced Evaluation for Articulated Object Manipulation",
-    "summary": "Constraint-Referenced Strategy evaluates manipulation policies by projecting end-effector twists onto object joint axes to separate progress from off-axis waste.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37550v1",
-    "published_at": "2026-10-27T17:00:01+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604890+00:00"
-  },
-  {
-    "title": "Longitudinal Retinal Imaging Improves Diabetic Retinopathy Prediction",
-    "summary": "A retrospective cohort study demonstrates that multi-visit screening photographs improve the prediction of referable diabetic retinopathy and maculopathy.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37544v1",
-    "published_at": "2026-10-27T16:56:35+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604895+00:00"
-  },
-  {
-    "title": "Open-Source Hybrid Channel Simulator for Non-Terrestrial Networks",
-    "summary": "Researchers propose an open-source hybrid channel simulation framework combining site-specific ray tracing with 3GPP statistical channel simulation for non-terrestrial networks.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37536v1",
-    "published_at": "2026-10-27T16:54:01+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604898+00:00"
-  },
-  {
-    "title": "Computing GR(1) Assume-Guarantee Contracts",
-    "summary": "A new framework develops theory and algorithms to compute compositional assume-guarantee contract operations expressed in the GR(1) modulo theory.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37534v1",
-    "published_at": "2026-10-27T16:53:25+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604902+00:00"
-  },
-  {
-    "title": "Diagnosing Robot Failures in Bimanual Tool Use",
-    "summary": "Researchers analyze sensing channels to diagnose bimanual tool-use failures such as slippage, timing discrepancies, and weak forces.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37533v1",
-    "published_at": "2026-10-27T16:53:18+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604904+00:00"
-  },
-  {
-    "title": "Passive Object Sensing via Distributed Sensing and Hyperdimensional Computing",
-    "summary": "A proposed framework uses distributed wireless channel measurements and hyperdimensional computing to enable risk-aware passive entity sensing beyond robot line-of-sight.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.37519v1",
-    "published_at": "2026-10-27T16:41:37+00:00",
-    "fetched_at": "2026-10-28T10:20:03.604908+00:00"
   }
 ]
