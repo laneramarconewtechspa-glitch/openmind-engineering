@@ -1,5 +1,176 @@
 [
   {
+    "title": "Post-Tensioned Corner Members Improve RC Seismic Performance",
+    "summary": "Response spectrum analysis shows that adding post-tensioned corner members to a multi-storey RC building enhances stiffness and reduces lateral displacement and drift.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ee7f3b8347bf174bf07b16947983f296890120e9",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:36:54.825556+00:00"
+  },
+  {
+    "title": "EYRO AI Glasses: A Multimodal Assistive Navigation Prototype",
+    "summary": "EYRO is a prototype assistive-navigation system that integrates visual perception, speech interaction, and obstacle detection to aid individuals with visual impairments.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/9790e9e4dca275147cacafaf39c7f5dc5e58fb91",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:36:54.825571+00:00"
+  },
+  {
+    "title": "Control-Surface Optimization of a Delta-Wing UAV",
+    "summary": "A delta-wing UAV study uses differential evolution to optimize elevon size and layout, reducing required area and hinge moments while maintaining stability.",
+    "category": "Aerospace",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/6fae426c254a4f7c9ec66c68da85c3461c335b37",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:36:54.825582+00:00"
+  },
+  {
+    "title": "Fire Safety Design Process for Exterior Wall Openings",
+    "summary": "This study proposes a continuous engineering process for assessing fire spread through exterior wall openings following compartment fire development.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/623edea504745a5be9378574a4bb254113011ee4",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:00.134575+00:00"
+  },
+  {
+    "title": "Real-Time Partial Discharge Monitoring for GIS Substations",
+    "summary": "This review evaluates advances in partial discharge sensing and analysis as an early-warning system for gas-insulated switchgear substations.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/38ce15a0df66d27218eaa57994d40ea7f856ef1f",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:00.134586+00:00"
+  },
+  {
+    "title": "Precision Brooding Framework for Broiler Chicks",
+    "summary": "This review treats broiler house ventilation as an engineering problem and proposes a layered reference architecture for embedded control.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/1c5f726f3fcefa7c8c89d1bd08429e00179f38cd",
+    "published_at": "2026-10-31T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:00.134591+00:00"
+  },
+  {
+    "title": "Intel Reports Q3 Supply Chain Disruptions and PC Drops",
+    "summary": "Intel faces manufacturing bottlenecks and rising memory costs that impact PC sales despite growth in data centers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/intels-q3-results-show-supply-chain-disruptions-and-pc-plunge/",
+    "published_at": "2026-10-30T16:37:20+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805753+00:00"
+  },
+  {
+    "title": "UK Accused of Stalling Welsh Rail Overhaul",
+    "summary": "The Welsh government criticized a substantial shortfall in promised funding for rail improvements in Wales.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/uk-government-accused-of-stalling-welsh-rail-overhaul-as-budget-falls-short-30-10-2026/",
+    "published_at": "2026-10-30T16:14:34+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805764+00:00"
+  },
+  {
+    "title": "GomSpace and HIMERA Launch OBRIA NANO Satellite",
+    "summary": "Denmark's GomSpace and Ukrainian startup HIMERA announced the launch of OBRIA NANO, the first test satellite for Ukrainian satcoms.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/gomspace-launches-obria-nano-for-ukrainian-satcoms-2026-10/",
+    "published_at": "2026-10-30T15:45:11+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805769+00:00"
+  },
+  {
+    "title": "Nuclear Chief Flags Strikes and Cyber Threats",
+    "summary": "Nuclear Decommissioning Authority CEO David Peattie ranked potential worker strikes at Sellafield and cybersecurity threats as top concerns.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/nuclear-decommissioning-boss-lists-industrial-action-and-cyber-threats-as-top-concerns-30-10-2026/",
+    "published_at": "2026-10-30T15:12:55+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805774+00:00"
+  },
+  {
+    "title": "Allplan Max 2027 Released for Engineering Workflows",
+    "summary": "The new release adds BIM analysis, workflow automation, and structural support tools across the engineering portfolio.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/allplan-max-2027-launched-for-engineering-workflows/",
+    "published_at": "2026-10-30T14:48:47+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805778+00:00"
+  },
+  {
+    "title": "Siemens Introduces Packaged Microgrid Switchboard",
+    "summary": "The pre-engineered system integrates power distribution, automation, and cybersecurity features for distributed energy resources deployment.",
+    "category": "Energy",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-introduces-packaged-microgrid-switchboard/",
+    "published_at": "2026-10-30T14:36:19+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805783+00:00"
+  },
+  {
+    "title": "Toyota Unveils Snowhunter Tracked Vehicle Concepts",
+    "summary": "Toyota's CALTY research arm created rugged snow-track conversions for five trucks and SUVs for the SEMA Show.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/toyota-snowhunter-concept-tracks-sema-2026/",
+    "published_at": "2026-10-30T14:32:58+00:00",
+    "fetched_at": "2026-10-30T17:37:05.805787+00:00"
+  },
+  {
+    "title": "EOS and BIZU Space Partner on Aerospace 3D Printing",
+    "summary": "The collaboration provides DfAM training and engineering support for developing rocket engine components and propulsion technologies.",
+    "category": "Aerospace",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/eos-partners-with-bizu-space-on-aerospace-3d-printing/",
+    "published_at": "2026-10-30T14:26:49+00:00",
+    "fetched_at": "2026-10-30T17:37:10.299504+00:00"
+  },
+  {
+    "title": "UK Historical Railways Estate to Transfer to Great British Railways",
+    "summary": "A plan to transfer responsibility for the UK’s Historical Railways Estate from National Highways to Great British Railways won support in the House of Lords.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/hendy-confirms-historic-rail-estate-will-move-from-national-highways-to-great-british-railways-30-10-2026/",
+    "published_at": "2026-10-30T13:42:06+00:00",
+    "fetched_at": "2026-10-30T17:37:10.299517+00:00"
+  },
+  {
+    "title": "Oracle Plans Arm AGI CPU for OCI in 2027",
+    "summary": "The planned offering will add Arm compute for cloud applications and agentic AI workloads on OCI.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/oracle-plans-arm-agi-cpu-for-oci-in-2027/",
+    "published_at": "2026-10-30T13:18:02+00:00",
+    "fetched_at": "2026-10-30T17:37:10.299523+00:00"
+  },
+  {
+    "title": "International Team Wins Contract for Zambia Freight Corridor",
+    "summary": "Webuild, İçtaş, and Mota-Engil won a contract for the Lobito Corridor Railway Project connecting to the Angolan border.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/international-team-to-build-zambia-freight-corridor/",
+    "published_at": "2026-10-30T13:09:14+00:00",
+    "fetched_at": "2026-10-30T17:37:10.299529+00:00"
+  },
+  {
+    "title": "Vinci Subsidiary to Build Poland’s Largest Concert Hall",
+    "summary": "Warbud won a €149m construction contract for the second phase of the Sinfonia Varsovia Centrum.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/vinci-to-build-polands-largest-concert-hall-for-e149m/",
+    "published_at": "2026-10-30T12:43:11+00:00",
+    "fetched_at": "2026-10-30T17:37:10.299535+00:00"
+  },
+  {
+    "title": "Emerson Explores Turbine Bypass Cycling Demands",
+    "summary": "A new webinar from Emerson examines the increased cycling demands on steam turbine bypass systems and the associated commissioning mistakes.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/gas/combined-cycle/steam-turbine-bypass-systems-are-being-asked-to-do-more-emerson-explains-the-consequences/",
+    "published_at": "2026-10-30T10:51:55+00:00",
+    "fetched_at": "2026-10-30T17:37:14.755820+00:00"
+  },
+  {
     "title": "Chip Industry Week In Review Highlights AI and Packaging",
     "summary": "Recent developments include HBM shortages threatening AI expansion, TSMC weighing price hikes, and Intel's move into quantum.",
     "category": "Electronics & Semiconductors",
@@ -45,6 +216,33 @@
     "fetched_at": "2026-10-30T10:38:20.926470+00:00"
   },
   {
+    "title": "Numerical Study on Reinforced Concrete Column Fire Resistance",
+    "summary": "Researchers used a 3D finite element model in ANSYS to investigate the behavior of reinforced concrete columns under seismic and post-earthquake fire loading.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bec84ae69f9d5c39219d8da14e9ae547d006b0f4",
+    "published_at": "2026-10-30T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:14.755830+00:00"
+  },
+  {
+    "title": "AI in MPLS and Segment Routing Traffic Engineering",
+    "summary": "A systematic review explores the use of machine learning and deep reinforcement learning for adaptive traffic engineering in MPLS and Segment Routing networks.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/66c735e1d7c519bf731cc18be86ef1b9c650f6b9",
+    "published_at": "2026-10-30T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:14.755836+00:00"
+  },
+  {
+    "title": "Sustainable Biopolymers for Textile Printing",
+    "summary": "A comprehensive review examines renewable biopolymers as sustainable alternatives to petroleum-based materials in modern textile printing applications.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/295c28a39b2514df97b8b3a5c0d1c3a54f23a54f",
+    "published_at": "2026-10-30T00:00:00+00:00",
+    "fetched_at": "2026-10-30T17:37:14.755841+00:00"
+  },
+  {
     "title": "White House Issues Section 232 Ruling on Foreign Robots",
     "summary": "The U.S. secretary of commerce concluded that reliance on robotics imports presents a national security risk.",
     "category": "Robotics",
@@ -70,203 +268,5 @@
     "source_url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
     "published_at": "2026-10-29T19:36:12+00:00",
     "fetched_at": "2026-10-30T10:38:25.579023+00:00"
-  },
-  {
-    "title": "Intel and SAP Integrate AI Warehouse Robots",
-    "summary": "A proof of concept links business-governed warehouse transport tasks to autonomous robots and reports execution status to management software.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/intel-and-sap-demonstrate-ai-driven-warehouse-robot-integration/",
-    "published_at": "2026-10-29T18:28:52+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579032+00:00"
-  },
-  {
-    "title": "Virgin Galactic Unveils Apeiron Rocket Plane",
-    "summary": "Virgin Galactic introduced Apeiron, a new rocket plane designed to carry six passengers to the edge of space.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/virgin-galactic-apeiron-delta-class-spaceship/",
-    "published_at": "2026-10-29T18:06:52+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579037+00:00"
-  },
-  {
-    "title": "SwapBot Enables Tool-Centric Robot Manipulation",
-    "summary": "Researchers introduced SwapBot, a modular end-effector system with interchangeable adapters and tactile sensors for versatile robot tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40646v1",
-    "published_at": "2026-10-29T17:59:20+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579039+00:00"
-  },
-  {
-    "title": "SymAnt Grounds Long-Horizon Action Anticipation",
-    "summary": "SymAnt is a neuro-symbolic approach that unifies neural networks with symbolic priors to anticipate long sequences of future actions.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40632v1",
-    "published_at": "2026-10-29T17:58:00+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579043+00:00"
-  },
-  {
-    "title": "Conveyor Belt Mechanism for Continuum Robots",
-    "summary": "A novel conveyor belt mechanism enables continuous, active repositioning of functional elements along tendon-driven continuum robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40600v1",
-    "published_at": "2026-10-29T17:50:56+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579046+00:00"
-  },
-  {
-    "title": "Analog Realization of Aliev-Panfilov Oscillator",
-    "summary": "A single resistor moves a discrete analog realization of a forced Aliev-Panfilov excitable oscillator from a chaotic to a regular operating point.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40597v1",
-    "published_at": "2026-10-29T17:50:11+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579048+00:00"
-  },
-  {
-    "title": "Deep Learning Clutter Suppression for Multistatic ISAC",
-    "summary": "New deep learning methods improve target localization and velocity estimation by suppressing dense clutter in multistatic ISAC systems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40586v1",
-    "published_at": "2026-10-29T17:47:02+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579051+00:00"
-  },
-  {
-    "title": "Tutorial on Shape Servoing of Deformable Objects",
-    "summary": "This tutorial covers the fundamentals of data-driven Jacobian-based shape control for the automated manipulation of deformable objects.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40559v1",
-    "published_at": "2026-10-29T17:40:56+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579054+00:00"
-  },
-  {
-    "title": "Behavioral Approach to Constrained Linear Quadratic Control",
-    "summary": "This paper develops a constrained linear-quadratic optimal control framework within the behavioral approach using quadratic differential forms.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40542v1",
-    "published_at": "2026-10-29T17:36:13+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307058+00:00"
-  },
-  {
-    "title": "Two-Wheeled Quadrotor with Tilted Rotors for Surface Locomotion",
-    "summary": "A proposed wheeled quadrotor with all-clockwise tilted rotors uses surface contact constraints to generate propulsion without tilting the vehicle.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40502v1",
-    "published_at": "2026-10-29T17:20:22+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307067+00:00"
-  },
-  {
-    "title": "Fundamental Limits of Sampling-Based Reachability Analysis",
-    "summary": "This study analyzes geometric error in sampling-based reachability estimation as a problem of support estimation under flow distortion.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40473v1",
-    "published_at": "2026-10-29T17:08:36+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307071+00:00"
-  },
-  {
-    "title": "Adaptive Search with Path-Constrained Mobile Sensors",
-    "summary": "Researchers cast active path selection for energy-constrained mobile sensors as a multi-armed bandit problem and propose an iterative search algorithm.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40431v1",
-    "published_at": "2026-10-29T16:52:23+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307075+00:00"
-  },
-  {
-    "title": "Improving Fine-Grained Robot Manipulation via DEED Framework",
-    "summary": "The DEED framework adapts pretrained vision-language-action policies for fine-grained manipulation through structured demonstration expansion and execution design.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40430v1",
-    "published_at": "2026-10-29T16:51:45+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307077+00:00"
-  },
-  {
-    "title": "Optimal UAV Path Planning with Localization Constraints",
-    "summary": "A proposed localization-constrained A* planner treats uncertainty as a hard constraint to find reliable UAV paths in GPS-denied areas.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40429v1",
-    "published_at": "2026-10-29T16:51:33+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307080+00:00"
-  },
-  {
-    "title": "Continuous-Action World Models for Cross-Embodiment Robotics",
-    "summary": "Continuous-Action World Models introduce a shared latent function space to support robot action generation across diverse embodiments and frequencies.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40401v1",
-    "published_at": "2026-10-29T16:34:54+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307083+00:00"
-  },
-  {
-    "title": "Arctic Fox Introduces Super Mouse with Built-in Touchscreen",
-    "summary": "Arctic Fox is launching its Super Mouse featuring a built-in touchscreen designed to improve workflow speed.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/computers/super-mouse-touchscreen/",
-    "published_at": "2026-10-29T16:30:20+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738633+00:00"
-  },
-  {
-    "title": "Finite-Sample LTI System Identification from Misspecified Models",
-    "summary": "This paper investigates finite-sample identification of unknown LTI systems when the true system does not belong to the hypothesis class.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40387v1",
-    "published_at": "2026-10-29T16:27:39+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307085+00:00"
-  },
-  {
-    "title": "Securing the Robotics Supply Chain and Research Agenda",
-    "summary": "This paper outlines a sustained federal investment agenda needed over the next decade to secure the robotics supply chain and research gaps.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40385v1",
-    "published_at": "2026-10-29T16:26:33+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307088+00:00"
-  },
-  {
-    "title": "HiFOR: Hierarchical Foresight for Vision-Language-Action Models",
-    "summary": "HiFOR is a hierarchical foresight framework that uses action-guided world retrieval to enhance robotic manipulation policies.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40373v1",
-    "published_at": "2026-10-29T16:21:06+00:00",
-    "fetched_at": "2026-10-30T10:38:30.307090+00:00"
-  },
-  {
-    "title": "EpiCoach: Agentic Bayesian Design for Wearables",
-    "summary": "Researchers present EpiCoach, an agentic system that treats an individual athlete as the subject of accountable N-of-1 science using consumer wearable data.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40370v1",
-    "published_at": "2026-10-29T16:20:24+00:00",
-    "fetched_at": "2026-10-30T10:38:32.759837+00:00"
-  },
-  {
-    "title": "JEDI Compression for In-Context Imitation Learning",
-    "summary": "JEDI compresses robot demonstrations into latent slots to preserve execution details and support many-shot context in in-context imitation learning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2610.40356v1",
-    "published_at": "2026-10-29T16:11:05+00:00",
-    "fetched_at": "2026-10-30T10:38:32.759847+00:00"
-  },
-  {
-    "title": "Enersea and Carbon Haven Partner for North Sea CO2 Injection",
-    "summary": "Enersea and Carbon Haven are developing an offshore CO2 injection solution to repurpose depleted gas platforms for permanent carbon storage.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/uncategorized/enersea-and-carbon-haven-partner-on-co%e2%82%82-injection-using-existing-north-sea-infrastructure-29-10-2026/",
-    "published_at": "2026-10-29T15:52:07+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738649+00:00"
   }
 ]

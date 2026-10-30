@@ -1,9 +1,9 @@
 {
-  "count": 3816,
+  "count": 3902,
   "funnel": {
-    "analyzed": 3703,
-    "relevant": 2513,
-    "substantive": 2331
+    "analyzed": 3789,
+    "relevant": 2574,
+    "substantive": 2385
   },
   "history": [
     {
@@ -253,10 +253,10 @@
     },
     {
       "d": "2026-10-30",
-      "total": 3816,
-      "analyzed": 60,
-      "relevant": 51,
-      "accepted": 46
+      "total": 3902,
+      "analyzed": 146,
+      "relevant": 112,
+      "accepted": 100
     }
   ]
 }
