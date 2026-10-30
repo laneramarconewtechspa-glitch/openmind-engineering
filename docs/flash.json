@@ -1,5 +1,212 @@
 [
   {
+    "title": "Chip Industry Week In Review Highlights AI and Packaging",
+    "summary": "Recent developments include HBM shortages threatening AI expansion, TSMC weighing price hikes, and Intel's move into quantum.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-week-in-review-162/",
+    "published_at": "2026-10-30T07:01:27+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926447+00:00"
+  },
+  {
+    "title": "Cadence Joins DOE Genesis Mission Consortium",
+    "summary": "Cadence will contribute AI-enabled EDA and digital twin technologies to support national laboratory research.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/cadence-joins-does-genesis-mission-consortium/",
+    "published_at": "2026-10-30T06:47:58+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926459+00:00"
+  },
+  {
+    "title": "Intel Reports Q3 Revenue of $16.5 Billion",
+    "summary": "Intel posted $16.5 billion in Q3 revenue but issued a disappointing Q4 forecast between $15 billion and $16 billion.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/intel-q3-disappoints-stock-falls-20-2026-10/",
+    "published_at": "2026-10-30T06:13:45+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926463+00:00"
+  },
+  {
+    "title": "19th-Century Dogtrot House Becomes Prefab Passive House",
+    "summary": "Williamson Williamson combined prefabricated construction and a high-insulation envelope to adapt a traditional dogtrot layout for Ontario.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/architecture/dogtrot-magnetawan/",
+    "published_at": "2026-10-30T05:57:45+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926467+00:00"
+  },
+  {
+    "title": "US DIA Releases Image of China's Secret Spaceplane",
+    "summary": "A commercial satellite captured the clearest public view yet of China's secretive orbital spaceplane from 56 miles away.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/new-image-sheds-light-on-chinas-secret-spaceplane/",
+    "published_at": "2026-10-30T04:32:00+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926470+00:00"
+  },
+  {
+    "title": "White House Issues Section 232 Ruling on Foreign Robots",
+    "summary": "The U.S. secretary of commerce concluded that reliance on robotics imports presents a national security risk.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+    "published_at": "2026-10-29T20:46:53+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926473+00:00"
+  },
+  {
+    "title": "ETH Zurich Researchers Use Bacteria to Bind Sand",
+    "summary": "Researchers at ETH Zurich are using bacteria to bind sand grains together as a sustainable alternative to conventional cement.",
+    "category": "Materials",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/materials/biocement-solid-sand/",
+    "published_at": "2026-10-29T20:20:53+00:00",
+    "fetched_at": "2026-10-30T10:38:20.926476+00:00"
+  },
+  {
+    "title": "2026 Robotics Handbook Explores Humanoids and AI",
+    "summary": "The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
+    "published_at": "2026-10-29T19:36:12+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579023+00:00"
+  },
+  {
+    "title": "Intel and SAP Integrate AI Warehouse Robots",
+    "summary": "A proof of concept links business-governed warehouse transport tasks to autonomous robots and reports execution status to management software.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/intel-and-sap-demonstrate-ai-driven-warehouse-robot-integration/",
+    "published_at": "2026-10-29T18:28:52+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579032+00:00"
+  },
+  {
+    "title": "Virgin Galactic Unveils Apeiron Rocket Plane",
+    "summary": "Virgin Galactic introduced Apeiron, a new rocket plane designed to carry six passengers to the edge of space.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/virgin-galactic-apeiron-delta-class-spaceship/",
+    "published_at": "2026-10-29T18:06:52+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579037+00:00"
+  },
+  {
+    "title": "SwapBot Enables Tool-Centric Robot Manipulation",
+    "summary": "Researchers introduced SwapBot, a modular end-effector system with interchangeable adapters and tactile sensors for versatile robot tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40646v1",
+    "published_at": "2026-10-29T17:59:20+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579039+00:00"
+  },
+  {
+    "title": "SymAnt Grounds Long-Horizon Action Anticipation",
+    "summary": "SymAnt is a neuro-symbolic approach that unifies neural networks with symbolic priors to anticipate long sequences of future actions.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40632v1",
+    "published_at": "2026-10-29T17:58:00+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579043+00:00"
+  },
+  {
+    "title": "Conveyor Belt Mechanism for Continuum Robots",
+    "summary": "A novel conveyor belt mechanism enables continuous, active repositioning of functional elements along tendon-driven continuum robots.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40600v1",
+    "published_at": "2026-10-29T17:50:56+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579046+00:00"
+  },
+  {
+    "title": "Analog Realization of Aliev-Panfilov Oscillator",
+    "summary": "A single resistor moves a discrete analog realization of a forced Aliev-Panfilov excitable oscillator from a chaotic to a regular operating point.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40597v1",
+    "published_at": "2026-10-29T17:50:11+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579048+00:00"
+  },
+  {
+    "title": "Deep Learning Clutter Suppression for Multistatic ISAC",
+    "summary": "New deep learning methods improve target localization and velocity estimation by suppressing dense clutter in multistatic ISAC systems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40586v1",
+    "published_at": "2026-10-29T17:47:02+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579051+00:00"
+  },
+  {
+    "title": "Tutorial on Shape Servoing of Deformable Objects",
+    "summary": "This tutorial covers the fundamentals of data-driven Jacobian-based shape control for the automated manipulation of deformable objects.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40559v1",
+    "published_at": "2026-10-29T17:40:56+00:00",
+    "fetched_at": "2026-10-30T10:38:25.579054+00:00"
+  },
+  {
+    "title": "Behavioral Approach to Constrained Linear Quadratic Control",
+    "summary": "This paper develops a constrained linear-quadratic optimal control framework within the behavioral approach using quadratic differential forms.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40542v1",
+    "published_at": "2026-10-29T17:36:13+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307058+00:00"
+  },
+  {
+    "title": "Two-Wheeled Quadrotor with Tilted Rotors for Surface Locomotion",
+    "summary": "A proposed wheeled quadrotor with all-clockwise tilted rotors uses surface contact constraints to generate propulsion without tilting the vehicle.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40502v1",
+    "published_at": "2026-10-29T17:20:22+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307067+00:00"
+  },
+  {
+    "title": "Fundamental Limits of Sampling-Based Reachability Analysis",
+    "summary": "This study analyzes geometric error in sampling-based reachability estimation as a problem of support estimation under flow distortion.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40473v1",
+    "published_at": "2026-10-29T17:08:36+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307071+00:00"
+  },
+  {
+    "title": "Adaptive Search with Path-Constrained Mobile Sensors",
+    "summary": "Researchers cast active path selection for energy-constrained mobile sensors as a multi-armed bandit problem and propose an iterative search algorithm.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40431v1",
+    "published_at": "2026-10-29T16:52:23+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307075+00:00"
+  },
+  {
+    "title": "Improving Fine-Grained Robot Manipulation via DEED Framework",
+    "summary": "The DEED framework adapts pretrained vision-language-action policies for fine-grained manipulation through structured demonstration expansion and execution design.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40430v1",
+    "published_at": "2026-10-29T16:51:45+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307077+00:00"
+  },
+  {
+    "title": "Optimal UAV Path Planning with Localization Constraints",
+    "summary": "A proposed localization-constrained A* planner treats uncertainty as a hard constraint to find reliable UAV paths in GPS-denied areas.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40429v1",
+    "published_at": "2026-10-29T16:51:33+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307080+00:00"
+  },
+  {
+    "title": "Continuous-Action World Models for Cross-Embodiment Robotics",
+    "summary": "Continuous-Action World Models introduce a shared latent function space to support robot action generation across diverse embodiments and frequencies.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40401v1",
+    "published_at": "2026-10-29T16:34:54+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307083+00:00"
+  },
+  {
     "title": "Arctic Fox Introduces Super Mouse with Built-in Touchscreen",
     "summary": "Arctic Fox is launching its Super Mouse featuring a built-in touchscreen designed to improve workflow speed.",
     "category": "Computing",
@@ -9,6 +216,51 @@
     "fetched_at": "2026-10-29T18:02:57.738633+00:00"
   },
   {
+    "title": "Finite-Sample LTI System Identification from Misspecified Models",
+    "summary": "This paper investigates finite-sample identification of unknown LTI systems when the true system does not belong to the hypothesis class.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40387v1",
+    "published_at": "2026-10-29T16:27:39+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307085+00:00"
+  },
+  {
+    "title": "Securing the Robotics Supply Chain and Research Agenda",
+    "summary": "This paper outlines a sustained federal investment agenda needed over the next decade to secure the robotics supply chain and research gaps.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40385v1",
+    "published_at": "2026-10-29T16:26:33+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307088+00:00"
+  },
+  {
+    "title": "HiFOR: Hierarchical Foresight for Vision-Language-Action Models",
+    "summary": "HiFOR is a hierarchical foresight framework that uses action-guided world retrieval to enhance robotic manipulation policies.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40373v1",
+    "published_at": "2026-10-29T16:21:06+00:00",
+    "fetched_at": "2026-10-30T10:38:30.307090+00:00"
+  },
+  {
+    "title": "EpiCoach: Agentic Bayesian Design for Wearables",
+    "summary": "Researchers present EpiCoach, an agentic system that treats an individual athlete as the subject of accountable N-of-1 science using consumer wearable data.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40370v1",
+    "published_at": "2026-10-29T16:20:24+00:00",
+    "fetched_at": "2026-10-30T10:38:32.759837+00:00"
+  },
+  {
+    "title": "JEDI Compression for In-Context Imitation Learning",
+    "summary": "JEDI compresses robot demonstrations into latent slots to preserve execution details and support many-shot context in in-context imitation learning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2610.40356v1",
+    "published_at": "2026-10-29T16:11:05+00:00",
+    "fetched_at": "2026-10-30T10:38:32.759847+00:00"
+  },
+  {
     "title": "Enersea and Carbon Haven Partner for North Sea CO2 Injection",
     "summary": "Enersea and Carbon Haven are developing an offshore CO2 injection solution to repurpose depleted gas platforms for permanent carbon storage.",
     "category": "Civil & Infrastructure",
@@ -16,257 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/uncategorized/enersea-and-carbon-haven-partner-on-co%e2%82%82-injection-using-existing-north-sea-infrastructure-29-10-2026/",
     "published_at": "2026-10-29T15:52:07+00:00",
     "fetched_at": "2026-10-29T18:02:57.738649+00:00"
-  },
-  {
-    "title": "CADFit Open-Source Tool Converts Meshes to Editable CAD Code",
-    "summary": "CADFit has been released as an open-source tool for turning meshes into editable CAD code alongside new AI electronic design announcements.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/more-mesh-to-cad-and-a-full-stack-of-agentic-eda-news/",
-    "published_at": "2026-10-29T15:50:49+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738657+00:00"
-  },
-  {
-    "title": "Woven Mesh Heart Implant Harvests Energy from Motion",
-    "summary": "Researchers built an ultrathin, flexible mesh integrated into heart tissue that generates energy from motion using piezoelectric devices.",
-    "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/medical-implant-energy-harvesting-mesh",
-    "published_at": "2026-10-29T12:00:02+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738663+00:00"
-  },
-  {
-    "title": "STMicroelectronics Weighs More Powerful MCUs and MPUs for Humanoid Robots",
-    "summary": "STMicroelectronics is monitoring the evolving humanoid robot market before deciding whether to develop more powerful MCUs and MPUs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/stmicroelectronics-weighs-developing-more-powerful-mcus-mpus-for-humanoid-robots/",
-    "published_at": "2026-10-29T11:48:02+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738669+00:00"
-  },
-  {
-    "title": "Computer Malfunction Likely Caused Second High-Speed Rail Crash in Spain",
-    "summary": "A computer malfunction is suspected as the cause of a collision between two trains south of Madrid on October 28.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/computer-malfunction-likely-led-to-second-high-speed-rail-crash-in-spain-this-year-29-10-2026/",
-    "published_at": "2026-10-29T10:51:47+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738675+00:00"
-  },
-  {
-    "title": "Engineering Expertise Critical for Extra High Voltage Projects",
-    "summary": "Early engineering support is becoming critical for complex extra high voltage projects connecting data centres and industrial sites.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/why-engineering-expertise-is-critical-to-ehv-projects-29-10-2026/",
-    "published_at": "2026-10-29T10:38:26+00:00",
-    "fetched_at": "2026-10-29T18:02:57.738680+00:00"
-  },
-  {
-    "title": "MTC Installs Caracol Robotic Metal AM Platform",
-    "summary": "The installation expands research and qualification capabilities for large-format metal components used in aerospace, defence and energy.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mtc-selects-caracols-robotic-metal-am-platform/",
-    "published_at": "2026-10-29T10:04:56+00:00",
-    "fetched_at": "2026-10-29T10:43:04.666679+00:00"
-  },
-  {
-    "title": "Budget 2026 Raises Concerns Over CCUS De-prioritisation",
-    "summary": "Commentators warn that targeted budget cuts will critically impact the UK energy and net-zero infrastructure pipeline.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-concerns-flagged-on-partial-de-prioritisation-of-ccus-and-cluster-projects-29-10-2026/",
-    "published_at": "2026-10-29T09:37:05+00:00",
-    "fetched_at": "2026-10-29T10:43:04.666692+00:00"
-  },
-  {
-    "title": "AI Transforms Semiconductor Manufacturing from Materials Up",
-    "summary": "Advanced AI chips require innovations in materials, manufacturing equipment, and packaging technologies to meet performance demands.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/how-ai-redefines-semiconductor-manufacturing-from-materials-up/",
-    "published_at": "2026-10-29T08:30:08+00:00",
-    "fetched_at": "2026-10-29T10:43:04.666697+00:00"
-  },
-  {
-    "title": "Ancient 128,000-Year-Old Ice Discovered in Tibet",
-    "summary": "Ancient ice found in Tibet preserves a climate record dating back over 128,000 years, offering new insights into past glacial survival.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261028232713.htm",
-    "published_at": "2026-10-29T08:10:47+00:00",
-    "fetched_at": "2026-10-29T18:03:12.695745+00:00"
-  },
-  {
-    "title": "Thermal Analysis Shift in Semiconductor Design",
-    "summary": "Applying appropriate simulation and abstraction at each design stage is now key to managing thermal challenges.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/is-it-getting-hot-in-here-why-thermal-is-no-longer-a-signoff-problem/",
-    "published_at": "2026-10-29T07:08:48+00:00",
-    "fetched_at": "2026-10-29T10:43:30.675876+00:00"
-  },
-  {
-    "title": "Scaling Autonomous Root Cause Analysis for Bugs",
-    "summary": "New approaches aim to intelligently decide what to investigate, rerun, and compute during regression triage.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/scaling-autonomous-root-cause-analysis-for-regression-triage/",
-    "published_at": "2026-10-29T07:04:37+00:00",
-    "fetched_at": "2026-10-29T10:43:30.675885+00:00"
-  },
-  {
-    "title": "UK Allocates £18 Million for Advanced Chip Design Academy",
-    "summary": "The UK budget includes funding to establish a new advanced chip design academy.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/reassuringly-boring-budget-2026-10/",
-    "published_at": "2026-10-29T06:18:56+00:00",
-    "fetched_at": "2026-10-29T10:43:30.675891+00:00"
-  },
-  {
-    "title": "AGIBOT Launches Worken and New Platforms",
-    "summary": "AGIBOT introduced Worken to measure robot productivity alongside new hardware and software platforms at its Innovation Day 2026.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/",
-    "published_at": "2026-10-29T04:01:46+00:00",
-    "fetched_at": "2026-10-29T18:03:12.695754+00:00"
-  },
-  {
-    "title": "New Framework Gives Users Social Media Control",
-    "summary": "The Social.Wiki framework lets users easily edit social websites and choose the content they see.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/new-system-gives-users-more-control-over-online-experience-1029",
-    "published_at": "2026-10-29T04:00:00+00:00",
-    "fetched_at": "2026-10-29T10:43:30.675894+00:00"
-  },
-  {
-    "title": "Scientists Break Textbook Laser Physics Rule",
-    "summary": "Researchers generated much higher energy X-rays than conventional theory predicts by using two electrons working together.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261027063713.htm",
-    "published_at": "2026-10-29T03:39:27+00:00",
-    "fetched_at": "2026-10-29T10:43:30.675898+00:00"
-  },
-  {
-    "title": "Ford Ranger Super Duty Gets Oz Micro-Camper Variant",
-    "summary": "Tommy Campers in Australia has developed a new off-road micro-camping canopy for the Ford Ranger Super Duty.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/pickup-campers/tommy-ford-ranger-super-duty-camper-truck/",
-    "published_at": "2026-10-28T21:03:00+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268539+00:00"
-  },
-  {
-    "title": "Astronauts Simulate Mars Mission Underwater",
-    "summary": "An analog astronaut crew spent five days living and working inside a research station 22 feet underwater to study future space missions.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/human-spaceflight/5-days-beneath-the-waves-what-its-like-to-live-in-an-underwater-space-station",
-    "published_at": "2026-10-28T21:00:00+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268549+00:00"
-  },
-  {
-    "title": "Startup Seeks Superconducting Materials for Quantum Scale",
-    "summary": "Canadian startup Meissner Technologies uses AI and lab testing to discover superconducting materials that reduce cooling costs for quantum computers.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/canadian-startup-aims-to-be-quantums-picks-and-shovels/",
-    "published_at": "2026-10-28T20:50:32+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268553+00:00"
-  },
-  {
-    "title": "Humanoid Robots and Ag Tech Advance in Factories",
-    "summary": "Research continues into utilizing human-like robots on factory floors alongside new agricultural equipment in Kansas.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/humanoids-building-humanoids-and-new-robots-for-agriculture-equipment-in-kansas/",
-    "published_at": "2026-10-28T20:00:00+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268557+00:00"
-  },
-  {
-    "title": "Virgin Galactic Unveils First Delta-Class Space Plane",
-    "summary": "Virgin Galactic has revealed its first Delta-class space plane and announced its new name following a public vote.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/private-spaceflight/meet-apeiron-virgin-galactics-1st-delta-class-space-plane",
-    "published_at": "2026-10-28T19:28:10+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268561+00:00"
-  },
-  {
-    "title": "Nextool Introduces Sleek Flagship F20 Multitool",
-    "summary": "Nextool launched the Flagship F20, a triple-handled everyday carry multitool designed to balance performance, weight, and size.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/nextool-flagship-f20-multitool/",
-    "published_at": "2026-10-28T18:37:40+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268564+00:00"
-  },
-  {
-    "title": "New Ultrasonic Tube Levitates and Guides Matter",
-    "summary": "Researchers demonstrated an ultrasonic tube capable of physically confining and guiding matter through the air using sound waves.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/good-thinking/ultrasound-tube-levitates-matter/",
-    "published_at": "2026-10-28T18:13:09+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268568+00:00"
-  },
-  {
-    "title": "UK Infrastructure Sector Responds to Budget 2026",
-    "summary": "Infrastructure stakeholders have reacted to the Autumn Budget, emphasizing both positive signals and ongoing challenges regarding deliverability.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-industry-reacts-to-welcome-signals-but-emphasises-need-for-deliverability-28-10-2026/",
-    "published_at": "2026-10-28T17:10:11+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268571+00:00"
-  },
-  {
-    "title": "Infrastructure Enters a Defining Era",
-    "summary": "Professor Ali Jadbabaie explains how AI, climate change, and digital transformation are forcing a rethink of infrastructure design and management.",
-    "category": "Civil & Infrastructure",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-    "published_at": "2026-10-28T16:00:00+00:00",
-    "fetched_at": "2026-10-28T17:52:07.461485+00:00"
-  },
-  {
-    "title": "UK Focuses New Electricity Projects on Lowering Bills",
-    "summary": "The UK government announced it will exclusively build new electricity generation projects that lower consumer energy bills.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/budget-2026-government-to-only-build-new-electricity-projects-which-lower-bills-28-10-2026/",
-    "published_at": "2026-10-28T15:49:21+00:00",
-    "fetched_at": "2026-10-29T10:43:34.268574+00:00"
-  },
-  {
-    "title": "DigiKey Expands Standard Product Range",
-    "summary": "DigiKey has expanded its own-label Standard Product line to include a new soldering station and ESD silicone items.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/digikey-adds-to-its-standard-product-range-2026-10/",
-    "published_at": "2026-10-28T15:35:30+00:00",
-    "fetched_at": "2026-10-29T10:43:37.872367+00:00"
-  },
-  {
-    "title": "Tesla R&D Spending Surges",
-    "summary": "Tesla’s R&D-to-revenue ratio reached a new high of 8.7% in Q1 2026, rising significantly faster than its revenue.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/blogs/mannerisms/manuf/tealas-rd-costs-rising-2026-10/",
-    "published_at": "2026-10-28T14:12:28+00:00",
-    "fetched_at": "2026-10-29T10:43:37.872383+00:00"
-  },
-  {
-    "title": "Single Pair Ethernet for Security Networks",
-    "summary": "A whitepaper explores how Single Pair Ethernet overcomes legacy RS-485 limits to support AI surveillance and system convergence.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/secure-safety-and-security-communications/",
-    "published_at": "2026-10-28T14:00:00+00:00",
-    "fetched_at": "2026-10-28T17:52:07.461498+00:00"
   }
 ]
