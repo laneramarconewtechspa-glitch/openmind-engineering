@@ -1,272 +1,272 @@
 [
   {
-    "title": "Post-Tensioned Corner Members Improve RC Seismic Performance",
-    "summary": "Response spectrum analysis shows that adding post-tensioned corner members to a multi-storey RC building enhances stiffness and reduces lateral displacement and drift.",
+    "title": "Estimating Geotechnical Parameters via Electrical Resistivity Tomography",
+    "summary": "Researchers combined electrical resistivity tomography with core drilling and lab testing to estimate subsoil geotechnical parameters in Morocco.",
     "category": "Civil & Infrastructure",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ee7f3b8347bf174bf07b16947983f296890120e9",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:36:54.825556+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/ff0233eeb1e441ad38025578e8c1ec9a92935fa2",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223321+00:00"
   },
   {
-    "title": "EYRO AI Glasses: A Multimodal Assistive Navigation Prototype",
-    "summary": "EYRO is a prototype assistive-navigation system that integrates visual perception, speech interaction, and obstacle detection to aid individuals with visual impairments.",
-    "category": "Computing",
+    "title": "Receptive English Proficiency Across Engineering Programs",
+    "summary": "A study of Vietnamese engineering students revealed a consistent proficiency hierarchy across different academic program types and cohorts.",
+    "category": "Other Engineering",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/9790e9e4dca275147cacafaf39c7f5dc5e58fb91",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:36:54.825571+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/fe8e5b2bfb3d8377f8ff09feab506e5fd56476df",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223329+00:00"
   },
   {
-    "title": "Control-Surface Optimization of a Delta-Wing UAV",
-    "summary": "A delta-wing UAV study uses differential evolution to optimize elevon size and layout, reducing required area and hinge moments while maintaining stability.",
-    "category": "Aerospace",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/6fae426c254a4f7c9ec66c68da85c3461c335b37",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:36:54.825582+00:00"
-  },
-  {
-    "title": "Fire Safety Design Process for Exterior Wall Openings",
-    "summary": "This study proposes a continuous engineering process for assessing fire spread through exterior wall openings following compartment fire development.",
+    "title": "Uncertainty Modeling of Mechanical Properties in Warm Frozen Clay",
+    "summary": "Researchers used copula theory to investigate the dependence between strength and elastic modulus in warm frozen soil for roadbed stability.",
     "category": "Civil & Infrastructure",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/623edea504745a5be9378574a4bb254113011ee4",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:00.134575+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/fc29eaa3f1d7dc8b23866f003d96d41a53e67bc1",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223332+00:00"
   },
   {
-    "title": "Real-Time Partial Discharge Monitoring for GIS Substations",
-    "summary": "This review evaluates advances in partial discharge sensing and analysis as an early-warning system for gas-insulated switchgear substations.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/38ce15a0df66d27218eaa57994d40ea7f856ef1f",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:00.134586+00:00"
-  },
-  {
-    "title": "Precision Brooding Framework for Broiler Chicks",
-    "summary": "This review treats broiler house ventilation as an engineering problem and proposes a layered reference architecture for embedded control.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/1c5f726f3fcefa7c8c89d1bd08429e00179f38cd",
-    "published_at": "2026-10-31T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:00.134591+00:00"
-  },
-  {
-    "title": "Intel Reports Q3 Supply Chain Disruptions and PC Drops",
-    "summary": "Intel faces manufacturing bottlenecks and rising memory costs that impact PC sales despite growth in data centers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/intels-q3-results-show-supply-chain-disruptions-and-pc-plunge/",
-    "published_at": "2026-10-30T16:37:20+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805753+00:00"
-  },
-  {
-    "title": "UK Accused of Stalling Welsh Rail Overhaul",
-    "summary": "The Welsh government criticized a substantial shortfall in promised funding for rail improvements in Wales.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/uk-government-accused-of-stalling-welsh-rail-overhaul-as-budget-falls-short-30-10-2026/",
-    "published_at": "2026-10-30T16:14:34+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805764+00:00"
-  },
-  {
-    "title": "GomSpace and HIMERA Launch OBRIA NANO Satellite",
-    "summary": "Denmark's GomSpace and Ukrainian startup HIMERA announced the launch of OBRIA NANO, the first test satellite for Ukrainian satcoms.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/gomspace-launches-obria-nano-for-ukrainian-satcoms-2026-10/",
-    "published_at": "2026-10-30T15:45:11+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805769+00:00"
-  },
-  {
-    "title": "Nuclear Chief Flags Strikes and Cyber Threats",
-    "summary": "Nuclear Decommissioning Authority CEO David Peattie ranked potential worker strikes at Sellafield and cybersecurity threats as top concerns.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/nuclear-decommissioning-boss-lists-industrial-action-and-cyber-threats-as-top-concerns-30-10-2026/",
-    "published_at": "2026-10-30T15:12:55+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805774+00:00"
-  },
-  {
-    "title": "Allplan Max 2027 Released for Engineering Workflows",
-    "summary": "The new release adds BIM analysis, workflow automation, and structural support tools across the engineering portfolio.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/allplan-max-2027-launched-for-engineering-workflows/",
-    "published_at": "2026-10-30T14:48:47+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805778+00:00"
-  },
-  {
-    "title": "Siemens Introduces Packaged Microgrid Switchboard",
-    "summary": "The pre-engineered system integrates power distribution, automation, and cybersecurity features for distributed energy resources deployment.",
-    "category": "Energy",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-introduces-packaged-microgrid-switchboard/",
-    "published_at": "2026-10-30T14:36:19+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805783+00:00"
-  },
-  {
-    "title": "Toyota Unveils Snowhunter Tracked Vehicle Concepts",
-    "summary": "Toyota's CALTY research arm created rugged snow-track conversions for five trucks and SUVs for the SEMA Show.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/toyota-snowhunter-concept-tracks-sema-2026/",
-    "published_at": "2026-10-30T14:32:58+00:00",
-    "fetched_at": "2026-10-30T17:37:05.805787+00:00"
-  },
-  {
-    "title": "EOS and BIZU Space Partner on Aerospace 3D Printing",
-    "summary": "The collaboration provides DfAM training and engineering support for developing rocket engine components and propulsion technologies.",
-    "category": "Aerospace",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/eos-partners-with-bizu-space-on-aerospace-3d-printing/",
-    "published_at": "2026-10-30T14:26:49+00:00",
-    "fetched_at": "2026-10-30T17:37:10.299504+00:00"
-  },
-  {
-    "title": "UK Historical Railways Estate to Transfer to Great British Railways",
-    "summary": "A plan to transfer responsibility for the UK’s Historical Railways Estate from National Highways to Great British Railways won support in the House of Lords.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/hendy-confirms-historic-rail-estate-will-move-from-national-highways-to-great-british-railways-30-10-2026/",
-    "published_at": "2026-10-30T13:42:06+00:00",
-    "fetched_at": "2026-10-30T17:37:10.299517+00:00"
-  },
-  {
-    "title": "Oracle Plans Arm AGI CPU for OCI in 2027",
-    "summary": "The planned offering will add Arm compute for cloud applications and agentic AI workloads on OCI.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/oracle-plans-arm-agi-cpu-for-oci-in-2027/",
-    "published_at": "2026-10-30T13:18:02+00:00",
-    "fetched_at": "2026-10-30T17:37:10.299523+00:00"
-  },
-  {
-    "title": "International Team Wins Contract for Zambia Freight Corridor",
-    "summary": "Webuild, İçtaş, and Mota-Engil won a contract for the Lobito Corridor Railway Project connecting to the Angolan border.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/international-team-to-build-zambia-freight-corridor/",
-    "published_at": "2026-10-30T13:09:14+00:00",
-    "fetched_at": "2026-10-30T17:37:10.299529+00:00"
-  },
-  {
-    "title": "Vinci Subsidiary to Build Poland’s Largest Concert Hall",
-    "summary": "Warbud won a €149m construction contract for the second phase of the Sinfonia Varsovia Centrum.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/vinci-to-build-polands-largest-concert-hall-for-e149m/",
-    "published_at": "2026-10-30T12:43:11+00:00",
-    "fetched_at": "2026-10-30T17:37:10.299535+00:00"
-  },
-  {
-    "title": "Emerson Explores Turbine Bypass Cycling Demands",
-    "summary": "A new webinar from Emerson examines the increased cycling demands on steam turbine bypass systems and the associated commissioning mistakes.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/gas/combined-cycle/steam-turbine-bypass-systems-are-being-asked-to-do-more-emerson-explains-the-consequences/",
-    "published_at": "2026-10-30T10:51:55+00:00",
-    "fetched_at": "2026-10-30T17:37:14.755820+00:00"
-  },
-  {
-    "title": "Chip Industry Week In Review Highlights AI and Packaging",
-    "summary": "Recent developments include HBM shortages threatening AI expansion, TSMC weighing price hikes, and Intel's move into quantum.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-week-in-review-162/",
-    "published_at": "2026-10-30T07:01:27+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926447+00:00"
-  },
-  {
-    "title": "Cadence Joins DOE Genesis Mission Consortium",
-    "summary": "Cadence will contribute AI-enabled EDA and digital twin technologies to support national laboratory research.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/cadence-joins-does-genesis-mission-consortium/",
-    "published_at": "2026-10-30T06:47:58+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926459+00:00"
-  },
-  {
-    "title": "Intel Reports Q3 Revenue of $16.5 Billion",
-    "summary": "Intel posted $16.5 billion in Q3 revenue but issued a disappointing Q4 forecast between $15 billion and $16 billion.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/intel-q3-disappoints-stock-falls-20-2026-10/",
-    "published_at": "2026-10-30T06:13:45+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926463+00:00"
-  },
-  {
-    "title": "19th-Century Dogtrot House Becomes Prefab Passive House",
-    "summary": "Williamson Williamson combined prefabricated construction and a high-insulation envelope to adapt a traditional dogtrot layout for Ontario.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/architecture/dogtrot-magnetawan/",
-    "published_at": "2026-10-30T05:57:45+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926467+00:00"
-  },
-  {
-    "title": "US DIA Releases Image of China's Secret Spaceplane",
-    "summary": "A commercial satellite captured the clearest public view yet of China's secretive orbital spaceplane from 56 miles away.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/new-image-sheds-light-on-chinas-secret-spaceplane/",
-    "published_at": "2026-10-30T04:32:00+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926470+00:00"
-  },
-  {
-    "title": "Numerical Study on Reinforced Concrete Column Fire Resistance",
-    "summary": "Researchers used a 3D finite element model in ANSYS to investigate the behavior of reinforced concrete columns under seismic and post-earthquake fire loading.",
+    "title": "Automated Gravel Transport Measurement Using Impact Plates",
+    "summary": "Stainless-steel impact plates equipped with accelerometers were installed in a watershed to automate the measurement of gravel transport.",
     "category": "Civil & Infrastructure",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bec84ae69f9d5c39219d8da14e9ae547d006b0f4",
-    "published_at": "2026-10-30T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:14.755830+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/f79af4400cb5fe4738f530213ba5d7c5c777a255",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223335+00:00"
   },
   {
-    "title": "AI in MPLS and Segment Routing Traffic Engineering",
-    "summary": "A systematic review explores the use of machine learning and deep reinforcement learning for adaptive traffic engineering in MPLS and Segment Routing networks.",
-    "category": "Computing",
+    "title": "Bearing Capacity Prediction for Foundations in Rock Slopes",
+    "summary": "A novel finite-element limit analysis software was developed to assess end bearing capacity for foundations in Hoek-Brown rock slopes.",
+    "category": "Civil & Infrastructure",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/66c735e1d7c519bf731cc18be86ef1b9c650f6b9",
-    "published_at": "2026-10-30T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:14.755836+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/f5e0b78b7a5b17072fd97a97ae8eb714eb0afdc4",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223338+00:00"
   },
   {
-    "title": "Sustainable Biopolymers for Textile Printing",
-    "summary": "A comprehensive review examines renewable biopolymers as sustainable alternatives to petroleum-based materials in modern textile printing applications.",
+    "title": "Comparative Impacts of Algal Biomass on Potato Purée",
+    "summary": "Researchers characterized the fortification effects of various algal biomass types on the rheological and physical properties of potato purée.",
     "category": "Materials",
     "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/295c28a39b2514df97b8b3a5c0d1c3a54f23a54f",
-    "published_at": "2026-10-30T00:00:00+00:00",
-    "fetched_at": "2026-10-30T17:37:14.755841+00:00"
+    "source_url": "https://www.semanticscholar.org/paper/f367e6d7591156790d59797176cae15a8ef4fd09",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223343+00:00"
   },
   {
-    "title": "White House Issues Section 232 Ruling on Foreign Robots",
-    "summary": "The U.S. secretary of commerce concluded that reliance on robotics imports presents a national security risk.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
-    "published_at": "2026-10-29T20:46:53+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926473+00:00"
+    "title": "Structural Optimization of a Downward Air Duct Dust Collector",
+    "summary": "Computational fluid dynamics simulations were used to optimize partition plates and tube sheet structures for improved dust collector flow uniformity.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/f1c8b04b5d33e896ea56b0743acb8f48628f98da",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223346+00:00"
   },
   {
-    "title": "ETH Zurich Researchers Use Bacteria to Bind Sand",
-    "summary": "Researchers at ETH Zurich are using bacteria to bind sand grains together as a sustainable alternative to conventional cement.",
+    "title": "Trust-Aware Framework for Sparse Mobile Crowdsensing",
+    "summary": "A reinforcement learning-based framework was proposed to optimize data collection and inference accuracy while filtering out untrustworthy workers.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ee2938b6073317ba3f2fe05dfe3debd2022316e2",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223348+00:00"
+  },
+  {
+    "title": "Device Bias Instability in Scaled Oxide Semiconductor 2T0C DRAM",
+    "summary": "Researchers studied bias instability in BEOL-compatible oxide semiconductor transistors to improve 2T0C DRAM retention and circuit reliability.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ed1b3ab1b70508ed5d904e4d23717e9594774600",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223351+00:00"
+  },
+  {
+    "title": "Applied Game for Spatial Audio in Mobile XR",
+    "summary": "An applied game using hardware LiDAR sensors and real-time sound spatialisation was developed to simplify spatial audio deployment in mobile XR.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ec5d62ca7c11854d44391341bd3635c6ecc63b93",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:14:52.223353+00:00"
+  },
+  {
+    "title": "Smart IoT Objects Infer Human Spatial Reasoning",
+    "summary": "A new proof-of-concept system uses smart IoT objects to monitor physical interactions and quantitatively infer human spatial reasoning.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e362fc46d245a4277396c81003a8cea3f2ea1c06",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186185+00:00"
+  },
+  {
+    "title": "Supervised ML Improves SDN Traffic Classification",
+    "summary": "Combining supervised machine learning models with software-defined networking architecture achieves high-accuracy traffic classification for quality of service management.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e1775b01c49d0459483d797678d2f24fc21f17f8",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186193+00:00"
+  },
+  {
+    "title": "Earth Pressure Analysis for Pit-Retaining Structures",
+    "summary": "An integrated theoretical and numerical study investigates earth pressure against pit-retaining structures rotating around lateral supports with log-spiral failure surfaces.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d9794fd8c2f8f930613a8ef9e5756241781deb3e",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186197+00:00"
+  },
+  {
+    "title": "Repairable Steel Beam-Column Connection with Perforated Plates",
+    "summary": "A novel steel connection featuring peanut-shaped perforated flange cover plates improves seismic performance and energy dissipation.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d93983bbab9fd818ef4a1109f061df910e27b010",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186200+00:00"
+  },
+  {
+    "title": "Study Uncovers Hidden Costs of OpenBIM Interoperability",
+    "summary": "A mixed-methods study in China's construction industry reveals widespread interoperability issues and hidden costs associated with OpenBIM adoption.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d5f306e9fe0460f6cb43ef5e3f1240546f8bb24b",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186203+00:00"
+  },
+  {
+    "title": "Secure Zero-Touch Edge Cloud Framework for 6G E-Health",
+    "summary": "A reference architecture integrates 6G networking, medical IoT, and edge intelligence to support latency-sensitive e-health services.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/d21bc869afbafa5dfd14a2b98bff7e7b755f0c2a",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186206+00:00"
+  },
+  {
+    "title": "Attention-Enhanced Point Cloud Segmentation for Tunnels",
+    "summary": "A novel deep learning network uses parallel dual-level attention for high-precision semantic segmentation of 3D point clouds in tunnel construction.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/cf5a8b15bd79687f7b87963c04722c2c29234714",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186209+00:00"
+  },
+  {
+    "title": "Survey on Tensor-Based Spatiotemporal Data Imputation",
+    "summary": "This study systematically reviews modeling strategies and knowledge engineering perspectives for tensor-based spatiotemporal data imputation.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/cdec2e1ed2e46d7ff08c4bbbc2490156c3df6c39",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186211+00:00"
+  },
+  {
+    "title": "Self-Luminescent COF Boosts Coreactant-Free ECL Sensors",
+    "summary": "A novel cyano-vinylene-linked covalent organic framework enables coreactant-free electrochemiluminescence for sensitive iodide and iodixanol detection.",
     "category": "Materials",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/materials/biocement-solid-sand/",
-    "published_at": "2026-10-29T20:20:53+00:00",
-    "fetched_at": "2026-10-30T10:38:20.926476+00:00"
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c81ac9888bfb498f5a8669e43ca2c63242d1643d",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:11.186214+00:00"
   },
   {
-    "title": "2026 Robotics Handbook Explores Humanoids and AI",
-    "summary": "The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
-    "published_at": "2026-10-29T19:36:12+00:00",
-    "fetched_at": "2026-10-30T10:38:25.579023+00:00"
+    "title": "Enhanced Magnetoelectric Coupling in Gd-Doped BiFeO3 Ceramics",
+    "summary": "Phase-boundary engineering in Gd-doped BiFeO3 ceramics achieves enhanced magnetoelectric coupling and robust high-temperature performance up to 480 K.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/c536fdb3c99794583e5c0a27e5e129a9d93eabff",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070410+00:00"
+  },
+  {
+    "title": "Large Eddy Simulation of Submerged Water Jets",
+    "summary": "Large eddy simulation analyzes submerged water jet flow fields and momentum transfer to evaluate coal-breaking efficiency under varying jet pressures.",
+    "category": "Mechanical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bfb221a385f0961ce7d22bf11d6d550354b42908",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070415+00:00"
+  },
+  {
+    "title": "Fire-Induced Flexural Capacity of Composite Girders",
+    "summary": "A new analytical and finite-element model evaluates the severe deterioration of flexural capacity in prestressed composite girders with corrugated steel webs at high temperatures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/bd0639c2cbba17d7dde49c6d88084b7644da2c63",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070418+00:00"
+  },
+  {
+    "title": "Acoustic Emission Monitoring of Heated CFRP Beams",
+    "summary": "Acoustic emission monitoring successfully detects early damage evolution and interface changes in CFRP-strengthened reinforced concrete beams exposed to moderate elevated temperatures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b3d7e8773a8d7b17728b00640eec71b718c77251",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070420+00:00"
+  },
+  {
+    "title": "Microneedle Patches at the Bio-Agricultural Interface",
+    "summary": "Microneedle patches evolve from biomedical devices into sustainable agricultural tools for precision plant diagnostics, nutrient delivery, and food safety screening.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b2984a4c3d401f95cd70464522e7bee6a6f90b5c",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070423+00:00"
+  },
+  {
+    "title": "SEM-CLIP 2.0 for Nanoscale Defect Detection",
+    "summary": "SEM-CLIP 2.0 introduces a zero- and few-shot learning framework using learnable text prompts for accurate nanoscale defect classification and segmentation in semiconductor manufacturing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ace46d88c4bf0ec3b39f6c795c6f0496c3ef56b6",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070426+00:00"
+  },
+  {
+    "title": "Secure Edge-Cloud Architecture for 6G Health Monitoring",
+    "summary": "An interoperable edge-cloud framework improves temporal synchronization and latency for motion-capture health monitoring in adolescent sports over 6G networks.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a4e5df73ee81f2aead4939006114e35df82decb3",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070428+00:00"
+  },
+  {
+    "title": "Energy-Efficient Clustering for Wireless Sensor Networks",
+    "summary": "A K-nearest neighbors clustering strategy combined with hierarchical protocols reduces energy dissipation and extends network lifetime in heterogeneous wireless sensor networks.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a0a14f7b3a005b41952af610ed930ff9b6c44dd7",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:15.070431+00:00"
+  },
+  {
+    "title": "Production Conditions Affect CdS Pigment Properties",
+    "summary": "This study investigated how raw materials, synthesis routes, and thermal treatment influence the crystallographic structure and optical properties of cadmium yellow pigments.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/98cd10c4f918ae79ffe5ad966913d9264ecb84eb",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:19.724985+00:00"
+  },
+  {
+    "title": "Analysis of Construction Dispute Factors Using KGE and DEMATEL",
+    "summary": "Researchers identified 15 key construction dispute factors and mapped their cause-effect relationships using Gaussian knowledge graph embedding and DEMATEL methods.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/95d8acdf04c7a44f3df08a6a54d9184f85cf4c77",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:19.724991+00:00"
+  },
+  {
+    "title": "Settlement Analysis for Gravity Wharfs on Variable Foundations",
+    "summary": "A new framework evaluates long-term settlement in spatially variable marine clay foundations under consolidation-creep coupling conditions using an equivalent modulus.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/91ec123a9d04213341c7a72953f5fe372e6058f3",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "fetched_at": "2026-10-31T10:15:19.724994+00:00"
   }
 ]
