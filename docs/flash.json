@@ -9,6 +9,69 @@
     "fetched_at": "2026-11-01T10:58:09.253609+00:00"
   },
   {
+    "title": "Scientists Develop Tech to Transmit Smells Over the Internet",
+    "summary": "Scientists have figured out a way to transmit smells over the internet.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/vr/scentronic-smells-sent-over-internet/",
+    "published_at": "2026-11-01T17:03:00+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313447+00:00"
+  },
+  {
+    "title": "Satellites Track Fireballs to Boost Planetary Defense",
+    "summary": "Military and civil satellites are monitoring fireballs in Earth's atmosphere to help improve planetary defense against space debris impacts.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/meteor-showers/planetary-defense-how-military-and-civil-satellites-are-watching-fireballs-to-help-keep-earth-safe-from-space-rocks",
+    "published_at": "2026-11-01T15:00:00+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313460+00:00"
+  },
+  {
+    "title": "VicOne Finds 28 Zero-Day Vulnerabilities Using AI",
+    "summary": "VicOne identified 28 zero-day findings in less than two days using AI-assisted research across physical AI software and tools.",
+    "category": "Computing",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/",
+    "published_at": "2026-11-01T14:00:58+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313467+00:00"
+  },
+  {
+    "title": "Combating Semiconductor Obsolescence in Long-Life Systems",
+    "summary": "Engineers protect long-life systems from semiconductor obsolescence using critical-parts planning, authorized sourcing, and early dialogue.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/designing-for-the-long-haul-building-obsolescence-resilient-product-lifecycles/",
+    "published_at": "2026-11-01T14:00:00+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313472+00:00"
+  },
+  {
+    "title": "NASA's Swift Space Telescope Prepares to Re-enter Earth",
+    "summary": "Researchers are closely monitoring the upcoming deorbit and plunge of the Swift observatory back to Earth.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall",
+    "published_at": "2026-11-01T13:00:00+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313477+00:00"
+  },
+  {
+    "title": "Archimedes' Screw Shrunk to Molecular Scale",
+    "summary": "Scientists have built a molecular motor inspired by Archimedes' screw that uses electricity to spin and increase conductivity.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+    "published_at": "2026-11-01T11:55:46+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313481+00:00"
+  },
+  {
+    "title": "Focused Ultrasound Used to Fight Brain Cancer",
+    "summary": "Researchers combined focused ultrasound, nanoparticles, and microRNAs to attack glioblastoma brain cancer cells.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm",
+    "published_at": "2026-11-01T10:49:13+00:00",
+    "fetched_at": "2026-11-01T17:34:15.313485+00:00"
+  },
+  {
     "title": "Kawasaki Introduces KLE650 Middleweight Adventure Tourer",
     "summary": "Kawasaki has expanded its motorcycle lineup with the new KLE650, a middleweight model designed for long-distance touring comfort.",
     "category": "Mechanical",
@@ -205,68 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/bfb221a385f0961ce7d22bf11d6d550354b42908",
     "published_at": "2026-11-01T00:00:00+00:00",
     "fetched_at": "2026-10-31T10:15:15.070415+00:00"
-  },
-  {
-    "title": "Fire-Induced Flexural Capacity of Composite Girders",
-    "summary": "A new analytical and finite-element model evaluates the severe deterioration of flexural capacity in prestressed composite girders with corrugated steel webs at high temperatures.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bd0639c2cbba17d7dde49c6d88084b7644da2c63",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070418+00:00"
-  },
-  {
-    "title": "Acoustic Emission Monitoring of Heated CFRP Beams",
-    "summary": "Acoustic emission monitoring successfully detects early damage evolution and interface changes in CFRP-strengthened reinforced concrete beams exposed to moderate elevated temperatures.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b3d7e8773a8d7b17728b00640eec71b718c77251",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070420+00:00"
-  },
-  {
-    "title": "Microneedle Patches at the Bio-Agricultural Interface",
-    "summary": "Microneedle patches evolve from biomedical devices into sustainable agricultural tools for precision plant diagnostics, nutrient delivery, and food safety screening.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b2984a4c3d401f95cd70464522e7bee6a6f90b5c",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070423+00:00"
-  },
-  {
-    "title": "SEM-CLIP 2.0 for Nanoscale Defect Detection",
-    "summary": "SEM-CLIP 2.0 introduces a zero- and few-shot learning framework using learnable text prompts for accurate nanoscale defect classification and segmentation in semiconductor manufacturing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ace46d88c4bf0ec3b39f6c795c6f0496c3ef56b6",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070426+00:00"
-  },
-  {
-    "title": "Secure Edge-Cloud Architecture for 6G Health Monitoring",
-    "summary": "An interoperable edge-cloud framework improves temporal synchronization and latency for motion-capture health monitoring in adolescent sports over 6G networks.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a4e5df73ee81f2aead4939006114e35df82decb3",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070428+00:00"
-  },
-  {
-    "title": "Energy-Efficient Clustering for Wireless Sensor Networks",
-    "summary": "A K-nearest neighbors clustering strategy combined with hierarchical protocols reduces energy dissipation and extends network lifetime in heterogeneous wireless sensor networks.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a0a14f7b3a005b41952af610ed930ff9b6c44dd7",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070431+00:00"
-  },
-  {
-    "title": "Production Conditions Affect CdS Pigment Properties",
-    "summary": "This study investigated how raw materials, synthesis routes, and thermal treatment influence the crystallographic structure and optical properties of cadmium yellow pigments.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/98cd10c4f918ae79ffe5ad966913d9264ecb84eb",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:19.724985+00:00"
   }
 ]
