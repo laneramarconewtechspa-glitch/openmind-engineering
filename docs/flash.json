@@ -1,5 +1,23 @@
 [
   {
+    "title": "Finer Energy-Group Structure Improves SpecKit Neutron Spectrum Unfolding",
+    "summary": "A study demonstrates that adopting finer energy-group structures within the SpecKit framework reduces activity errors and enhances reconstruction fidelity in neutron spectrum unfolding.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3d762464ba12eec257aea431c7cc3a3fe3969745",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "fetched_at": "2026-11-01T10:58:09.253609+00:00"
+  },
+  {
+    "title": "Kawasaki Introduces KLE650 Middleweight Adventure Tourer",
+    "summary": "Kawasaki has expanded its motorcycle lineup with the new KLE650, a middleweight model designed for long-distance touring comfort.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/kawasaki-kle650/",
+    "published_at": "2026-11-01T04:03:00+00:00",
+    "fetched_at": "2026-11-01T10:58:09.253616+00:00"
+  },
+  {
     "title": "Estimating Geotechnical Parameters via Electrical Resistivity Tomography",
     "summary": "Researchers combined electrical resistivity tomography with core drilling and lab testing to estimate subsoil geotechnical parameters in Morocco.",
     "category": "Civil & Infrastructure",
@@ -250,23 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/98cd10c4f918ae79ffe5ad966913d9264ecb84eb",
     "published_at": "2026-11-01T00:00:00+00:00",
     "fetched_at": "2026-10-31T10:15:19.724985+00:00"
-  },
-  {
-    "title": "Analysis of Construction Dispute Factors Using KGE and DEMATEL",
-    "summary": "Researchers identified 15 key construction dispute factors and mapped their cause-effect relationships using Gaussian knowledge graph embedding and DEMATEL methods.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/95d8acdf04c7a44f3df08a6a54d9184f85cf4c77",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:19.724991+00:00"
-  },
-  {
-    "title": "Settlement Analysis for Gravity Wharfs on Variable Foundations",
-    "summary": "A new framework evaluates long-term settlement in spatially variable marine clay foundations under consolidation-creep coupling conditions using an equivalent modulus.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/91ec123a9d04213341c7a72953f5fe372e6058f3",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:19.724994+00:00"
   }
 ]
