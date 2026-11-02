@@ -1,5 +1,59 @@
 [
   {
+    "title": "AI Image Enhancement Improves Flip-Chip Defect Detection",
+    "summary": "Researchers demonstrated that AI-based image enhancement improves the detection of interconnect defects and cracks in microelectronic packaging.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
+    "published_at": "2026-11-02T21:08:45+00:00",
+    "fetched_at": "2026-11-02T21:13:03.046032+00:00"
+  },
+  {
+    "title": "3D Integration Lowers Emissions of GPU Scaling",
+    "summary": "Researchers modeled how 2.5D and 3D scaling in chipletized GPUs can reduce the embodied carbon emissions impact of AI data centers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/3d-integration-reduces-embodied-emissions-impact-of-gpu-scaling-imec-vub/",
+    "published_at": "2026-11-02T20:00:12+00:00",
+    "fetched_at": "2026-11-02T21:13:03.046045+00:00"
+  },
+  {
+    "title": "Meter-Scale Quantum Interconnects Link 120-Qubit Processors",
+    "summary": "IBM Research demonstrated meter-scale quantum interconnects capable of linking large individual quantum processor modules.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/quantum-interconnects-link-two-120-qubit-processors-ibm-research/",
+    "published_at": "2026-11-02T19:45:53+00:00",
+    "fetched_at": "2026-11-02T21:13:03.046051+00:00"
+  },
+  {
+    "title": "APPlace Co-Optimizes Device Locations for Analog Placement",
+    "summary": "Researchers published an analog layout automation approach that co-optimizes device locations and access points for routing-aware placement.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/co-optimizing-access-points-improves-analog-placement-ut-austin/",
+    "published_at": "2026-11-02T18:57:45+00:00",
+    "fetched_at": "2026-11-02T21:13:03.046056+00:00"
+  },
+  {
+    "title": "New Electronic Implant Lowers Blood Sugar and Weight",
+    "summary": "Researchers developed an electronic implant that uses an electric catalyst to convert excess glucose in diabetic mice into a substance eliminated through urine.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm",
+    "published_at": "2026-11-02T12:47:18+00:00",
+    "fetched_at": "2026-11-02T21:13:05.643200+00:00"
+  },
+  {
+    "title": "Andes Puts Cuzco RISC-V CPU on Back Burner",
+    "summary": "Andes CTO Charlie Su announced the company has delayed commercial rollout of its high-end RISC-V CPU due to market conditions.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu/",
+    "published_at": "2026-11-02T12:00:00+00:00",
+    "fetched_at": "2026-11-02T21:13:05.643210+00:00"
+  },
+  {
     "title": "Shift Left Becomes a System-Level Design Challenge",
     "summary": "Increased complexity is forcing engineers to validate hardware, software, and physical constraints earlier in the design flow.",
     "category": "Electronics & Semiconductors",
@@ -214,59 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/d93983bbab9fd818ef4a1109f061df910e27b010",
     "published_at": "2026-11-01T00:00:00+00:00",
     "fetched_at": "2026-10-31T10:15:11.186200+00:00"
-  },
-  {
-    "title": "Study Uncovers Hidden Costs of OpenBIM Interoperability",
-    "summary": "A mixed-methods study in China's construction industry reveals widespread interoperability issues and hidden costs associated with OpenBIM adoption.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d5f306e9fe0460f6cb43ef5e3f1240546f8bb24b",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186203+00:00"
-  },
-  {
-    "title": "Secure Zero-Touch Edge Cloud Framework for 6G E-Health",
-    "summary": "A reference architecture integrates 6G networking, medical IoT, and edge intelligence to support latency-sensitive e-health services.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d21bc869afbafa5dfd14a2b98bff7e7b755f0c2a",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186206+00:00"
-  },
-  {
-    "title": "Attention-Enhanced Point Cloud Segmentation for Tunnels",
-    "summary": "A novel deep learning network uses parallel dual-level attention for high-precision semantic segmentation of 3D point clouds in tunnel construction.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/cf5a8b15bd79687f7b87963c04722c2c29234714",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186209+00:00"
-  },
-  {
-    "title": "Survey on Tensor-Based Spatiotemporal Data Imputation",
-    "summary": "This study systematically reviews modeling strategies and knowledge engineering perspectives for tensor-based spatiotemporal data imputation.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/cdec2e1ed2e46d7ff08c4bbbc2490156c3df6c39",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186211+00:00"
-  },
-  {
-    "title": "Self-Luminescent COF Boosts Coreactant-Free ECL Sensors",
-    "summary": "A novel cyano-vinylene-linked covalent organic framework enables coreactant-free electrochemiluminescence for sensitive iodide and iodixanol detection.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c81ac9888bfb498f5a8669e43ca2c63242d1643d",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186214+00:00"
-  },
-  {
-    "title": "Enhanced Magnetoelectric Coupling in Gd-Doped BiFeO3 Ceramics",
-    "summary": "Phase-boundary engineering in Gd-doped BiFeO3 ceramics achieves enhanced magnetoelectric coupling and robust high-temperature performance up to 480 K.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/c536fdb3c99794583e5c0a27e5e129a9d93eabff",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070410+00:00"
   }
 ]
