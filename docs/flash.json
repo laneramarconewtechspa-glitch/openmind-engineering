@@ -1,5 +1,14 @@
 [
   {
+    "title": "Shift Left Becomes a System-Level Design Challenge",
+    "summary": "Increased complexity is forcing engineers to validate hardware, software, and physical constraints earlier in the design flow.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/shift-left-is-becoming-a-system-level-problem/",
+    "published_at": "2026-11-02T08:01:30+00:00",
+    "fetched_at": "2026-11-02T11:52:06.068602+00:00"
+  },
+  {
     "title": "Finer Energy-Group Structure Improves SpecKit Neutron Spectrum Unfolding",
     "summary": "A study demonstrates that adopting finer energy-group structures within the SpecKit framework reduces activity errors and enhances reconstruction fidelity in neutron spectrum unfolding.",
     "category": "Energy",
@@ -259,14 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/c536fdb3c99794583e5c0a27e5e129a9d93eabff",
     "published_at": "2026-11-01T00:00:00+00:00",
     "fetched_at": "2026-10-31T10:15:15.070410+00:00"
-  },
-  {
-    "title": "Large Eddy Simulation of Submerged Water Jets",
-    "summary": "Large eddy simulation analyzes submerged water jet flow fields and momentum transfer to evaluate coal-breaking efficiency under varying jet pressures.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/bfb221a385f0961ce7d22bf11d6d550354b42908",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:15.070415+00:00"
   }
 ]
