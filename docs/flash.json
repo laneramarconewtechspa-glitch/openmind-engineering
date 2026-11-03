@@ -1,5 +1,113 @@
 [
   {
+    "title": "Prism 1 Puts Linux Computer on Smart Glasses",
+    "summary": "Raven Resonance has launched Prism 1, an eye-controlled standalone computer built into a pair of smart glasses running a custom Linux platform.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/wearables/raven-resonance-prism-linux-smart-glasses/",
+    "published_at": "2026-11-03T11:02:46+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242746+00:00"
+  },
+  {
+    "title": "NCSC Warns of AI Ransomware Risk to UK Infrastructure",
+    "summary": "The National Cyber Security Centre warns it is highly likely that AI malware will be used in a ransomware attack on UK critical infrastructure within two years.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/highly-likely-ai-will-be-used-in-ransomware-attack-on-uk-critical-infrastructure-03-11-2026/",
+    "published_at": "2026-11-03T10:52:18+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242759+00:00"
+  },
+  {
+    "title": "OpenUK Launches First Space Tech Radar Report",
+    "summary": "OpenUK released its inaugural Space Tech Radar report covering open technology projects for both Earth and space observation.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/openuks-space-tech-radar-report-plots-open-technology-in-space-2026-11/",
+    "published_at": "2026-11-03T10:47:17+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242765+00:00"
+  },
+  {
+    "title": "Reverse Game Theory Proposed to Align AI Agents",
+    "summary": "Researchers are using reverse game theory to create incentives that make following rules the most rational choice for powerful AI models.",
+    "category": "Computing",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+    "published_at": "2026-11-03T10:43:41+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242770+00:00"
+  },
+  {
+    "title": "GE Vernova Launches Engineering Education Program",
+    "summary": "GE Vernova has launched a $4.5 million education initiative in Greenville aimed at reaching 3,000 students with hands-on learning.",
+    "category": "Other Engineering",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/ge-vernova-launches-engineering-education-program-in-greenville/",
+    "published_at": "2026-11-03T10:23:29+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242775+00:00"
+  },
+  {
+    "title": "HydroWing Adopts AI for Tidal Energy Monitoring",
+    "summary": "HydroWing has contracted Ecodetect for AI-driven environmental monitoring and wildlife detection at its tidal energy project in Wales.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/is-ai-the-answer-for-tidal-energy-wildlife-detection/",
+    "published_at": "2026-11-03T06:15:00+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242779+00:00"
+  },
+  {
+    "title": "Greece Unveils National Semiconductor Strategy",
+    "summary": "Greece opened a draft national strategy for semiconductors and microelectronics for public consultation to expand its role in chip design and research.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/greece-unveils-semiconductor-strategy-2026-11/",
+    "published_at": "2026-11-03T06:12:39+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242784+00:00"
+  },
+  {
+    "title": "Solar Spin-off Noak Secures Five Million Euros",
+    "summary": "Imec and UHasselt spin-off Noak has raised €5 million in seed investment to industrialize perovskite-silicon tandem photovoltaic solar technology.",
+    "category": "Energy",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/imec-spin-off-noak-raises-e5m-2026-11/",
+    "published_at": "2026-11-03T06:11:57+00:00",
+    "fetched_at": "2026-11-03T11:32:52.242790+00:00"
+  },
+  {
+    "title": "Swiss AR Motorcycle Helmet",
+    "summary": "Swiss company Aegis Rider developed an augmented reality motorcycle helmet featuring navigation capabilities designed to replace traditional GPS.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/aegis-rider-ar-helmet/",
+    "published_at": "2026-11-03T04:03:00+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336894+00:00"
+  },
+  {
+    "title": "LHC Detects Quark-Gluon Plasma in Small Collisions",
+    "summary": "CERN scientists using the Large Hadron Collider found evidence of quark-gluon plasma in surprisingly small atomic collisions.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
+    "published_at": "2026-11-03T02:39:04+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336907+00:00"
+  },
+  {
+    "title": "EVO Supercar Makes American Debut",
+    "summary": "A German-engineered $3.3-million EVO supercar made its official American debut.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/apollo-evo/",
+    "published_at": "2026-11-03T02:37:00+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336912+00:00"
+  },
+  {
+    "title": "Loophole Suggests Black Holes Can Split",
+    "summary": "Researchers identified a potential physical loophole indicating that extremely fast-spinning black holes could divide into two.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010525.htm",
+    "published_at": "2026-11-03T01:27:49+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336917+00:00"
+  },
+  {
     "title": "AI Image Enhancement Improves Flip-Chip Defect Detection",
     "summary": "Researchers demonstrated that AI-based image enhancement improves the detection of interconnect defects and cracks in microelectronic packaging.",
     "category": "Electronics & Semiconductors",
@@ -27,6 +135,24 @@
     "fetched_at": "2026-11-02T21:13:03.046051+00:00"
   },
   {
+    "title": "Pixel: Co-Designed Mobile Manipulation Robot",
+    "summary": "Researchers presented Pixel, a full-stack robot system combining a low-cost wheeled humanoid with hardware, data collection, and learning pipelines.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03648v1",
+    "published_at": "2026-11-02T18:59:32+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336922+00:00"
+  },
+  {
+    "title": "Single-Visit Screening for Cochlear Tissue Growth",
+    "summary": "Scientists developed and validated a single-visit algorithm to detect tissue growth around cochlear implant electrodes without an intra-operative baseline.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03644v1",
+    "published_at": "2026-11-02T18:58:50+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336926+00:00"
+  },
+  {
     "title": "APPlace Co-Optimizes Device Locations for Analog Placement",
     "summary": "Researchers published an analog layout automation approach that co-optimizes device locations and access points for routing-aware placement.",
     "category": "Electronics & Semiconductors",
@@ -36,237 +162,111 @@
     "fetched_at": "2026-11-02T21:13:03.046056+00:00"
   },
   {
-    "title": "New Electronic Implant Lowers Blood Sugar and Weight",
-    "summary": "Researchers developed an electronic implant that uses an electric catalyst to convert excess glucose in diabetic mice into a substance eliminated through urine.",
+    "title": "Hierarchical EEG-to-Text Decoding Framework",
+    "summary": "Researchers introduced a hierarchical alignment framework for sentence-level EEG-to-text classification to aid non-invasive brain-computer interfaces.",
     "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm",
-    "published_at": "2026-11-02T12:47:18+00:00",
-    "fetched_at": "2026-11-02T21:13:05.643200+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03623v1",
+    "published_at": "2026-11-02T18:52:26+00:00",
+    "fetched_at": "2026-11-03T11:32:55.336931+00:00"
   },
   {
-    "title": "Andes Puts Cuzco RISC-V CPU on Back Burner",
-    "summary": "Andes CTO Charlie Su announced the company has delayed commercial rollout of its high-end RISC-V CPU due to market conditions.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu/",
-    "published_at": "2026-11-02T12:00:00+00:00",
-    "fetched_at": "2026-11-02T21:13:05.643210+00:00"
+    "title": "TAMPAgent Unifies LVLMs and TAMP for Mobile Manipulation",
+    "summary": "Researchers proposed TAMPAgent, a framework that integrates Large Vision-Language Models with Task and Motion Planning to handle partial observability in mobile manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03584v1",
+    "published_at": "2026-11-02T18:32:18+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190726+00:00"
   },
   {
-    "title": "Shift Left Becomes a System-Level Design Challenge",
-    "summary": "Increased complexity is forcing engineers to validate hardware, software, and physical constraints earlier in the design flow.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/shift-left-is-becoming-a-system-level-problem/",
-    "published_at": "2026-11-02T08:01:30+00:00",
-    "fetched_at": "2026-11-02T11:52:06.068602+00:00"
+    "title": "WISE Improves World Action Models via Pre-Execution Selection",
+    "summary": "WISE is a pre-execution selector that scores sampled rollouts from world action models to improve closed-loop success rates on robotic tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03585v1",
+    "published_at": "2026-11-02T18:32:18+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190735+00:00"
   },
   {
-    "title": "Finer Energy-Group Structure Improves SpecKit Neutron Spectrum Unfolding",
-    "summary": "A study demonstrates that adopting finer energy-group structures within the SpecKit framework reduces activity errors and enhances reconstruction fidelity in neutron spectrum unfolding.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/3d762464ba12eec257aea431c7cc3a3fe3969745",
-    "published_at": "2026-11-02T00:00:00+00:00",
-    "fetched_at": "2026-11-01T10:58:09.253609+00:00"
-  },
-  {
-    "title": "Scientists Develop Tech to Transmit Smells Over the Internet",
-    "summary": "Scientists have figured out a way to transmit smells over the internet.",
+    "title": "Dynamical Unbalanced Optimal Transport for Control Systems",
+    "summary": "A new framework for dynamical unbalanced optimal transport combines relaxed-control theory with a weighted superposition principle for nonlinear control-affine systems.",
     "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/vr/scentronic-smells-sent-over-internet/",
-    "published_at": "2026-11-01T17:03:00+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313447+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03573v1",
+    "published_at": "2026-11-02T18:26:44+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190741+00:00"
   },
   {
-    "title": "Satellites Track Fireballs to Boost Planetary Defense",
-    "summary": "Military and civil satellites are monitoring fireballs in Earth's atmosphere to help improve planetary defense against space debris impacts.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/meteor-showers/planetary-defense-how-military-and-civil-satellites-are-watching-fireballs-to-help-keep-earth-safe-from-space-rocks",
-    "published_at": "2026-11-01T15:00:00+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313460+00:00"
-  },
-  {
-    "title": "VicOne Finds 28 Zero-Day Vulnerabilities Using AI",
-    "summary": "VicOne identified 28 zero-day findings in less than two days using AI-assisted research across physical AI software and tools.",
+    "title": "Quantum Private Information Retrieval Scheme for Forest Graphs",
+    "summary": "Researchers designed an efficient quantum private information retrieval scheme for forest graphs achieving a rate of three over N using an initial GHZ state.",
     "category": "Computing",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/",
-    "published_at": "2026-11-01T14:00:58+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313467+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03558v1",
+    "published_at": "2026-11-02T18:19:25+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190745+00:00"
   },
   {
-    "title": "Combating Semiconductor Obsolescence in Long-Life Systems",
-    "summary": "Engineers protect long-life systems from semiconductor obsolescence using critical-parts planning, authorized sourcing, and early dialogue.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/designing-for-the-long-haul-building-obsolescence-resilient-product-lifecycles/",
-    "published_at": "2026-11-01T14:00:00+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313472+00:00"
+    "title": "Mediating Human-Swarm Interactions Using a Robot Helper",
+    "summary": "A shepherding-inspired approach demonstrates that motion primitives operating on collective shape improve human-swarm interaction performance and reduce perceived workload in virtual reality.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03548v1",
+    "published_at": "2026-11-02T18:10:01+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190750+00:00"
   },
   {
-    "title": "NASA's Swift Space Telescope Prepares to Re-enter Earth",
-    "summary": "Researchers are closely monitoring the upcoming deorbit and plunge of the Swift observatory back to Earth.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall",
-    "published_at": "2026-11-01T13:00:00+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313477+00:00"
+    "title": "Reinforcement Twinning Framework for Actuated Systems",
+    "summary": "A reinforcement-twinning framework utilizes Gaussian-process surrogates and Bayesian policy search to jointly adapt digital twin models and control policies under physical limitations.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03540v1",
+    "published_at": "2026-11-02T18:03:48+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190755+00:00"
   },
   {
-    "title": "Archimedes' Screw Shrunk to Molecular Scale",
-    "summary": "Scientists have built a molecular motor inspired by Archimedes' screw that uses electricity to spin and increase conductivity.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
-    "published_at": "2026-11-01T11:55:46+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313481+00:00"
-  },
-  {
-    "title": "Focused Ultrasound Used to Fight Brain Cancer",
-    "summary": "Researchers combined focused ultrasound, nanoparticles, and microRNAs to attack glioblastoma brain cancer cells.",
+    "title": "Annotated ISIC 2019 Dataset Mitigates Dermoscopy Artifacts",
+    "summary": "Researchers released a rigorously annotated version of the ISIC 2019 dataset featuring binary masks for hair, ink, and vignetting to support artifact-free dermoscopic deep learning.",
     "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261030003017.htm",
-    "published_at": "2026-11-01T10:49:13+00:00",
-    "fetched_at": "2026-11-01T17:34:15.313485+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03502v1",
+    "published_at": "2026-11-02T17:40:08+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190759+00:00"
   },
   {
-    "title": "Kawasaki Introduces KLE650 Middleweight Adventure Tourer",
-    "summary": "Kawasaki has expanded its motorcycle lineup with the new KLE650, a middleweight model designed for long-distance touring comfort.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/kawasaki-kle650/",
-    "published_at": "2026-11-01T04:03:00+00:00",
-    "fetched_at": "2026-11-01T10:58:09.253616+00:00"
+    "title": "Inertia Mismatch Impacts Robot Policy Learning",
+    "summary": "Controlled simulation experiments reveal how inertia mismatch between heavy robot arms and manipulated objects affects the performance of reinforcement learning and behavior cloning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03501v1",
+    "published_at": "2026-11-02T17:40:05+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190764+00:00"
   },
   {
-    "title": "Estimating Geotechnical Parameters via Electrical Resistivity Tomography",
-    "summary": "Researchers combined electrical resistivity tomography with core drilling and lab testing to estimate subsoil geotechnical parameters in Morocco.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ff0233eeb1e441ad38025578e8c1ec9a92935fa2",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223321+00:00"
+    "title": "Delay-Certified Readiness Barriers for Overactuated Multirotors",
+    "summary": "A new Lipschitz-free test maintains readiness barriers for overactuated multirotors under sampled commands and varying speed-controller delays without violating safety floors.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03490v1",
+    "published_at": "2026-11-02T17:33:40+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190768+00:00"
   },
   {
-    "title": "Receptive English Proficiency Across Engineering Programs",
-    "summary": "A study of Vietnamese engineering students revealed a consistent proficiency hierarchy across different academic program types and cohorts.",
-    "category": "Other Engineering",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fe8e5b2bfb3d8377f8ff09feab506e5fd56476df",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223329+00:00"
+    "title": "ToFTouch Multimodal Sensor Combines Proximity and Tactile Sensing",
+    "summary": "ToFTouch integrates time-of-flight sensors with an optics-based pressure array on a gripper to improve pre-grasp adjustment, clutter extraction, and insertion tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03489v1",
+    "published_at": "2026-11-02T17:33:03+00:00",
+    "fetched_at": "2026-11-03T11:32:59.190772+00:00"
   },
   {
-    "title": "Uncertainty Modeling of Mechanical Properties in Warm Frozen Clay",
-    "summary": "Researchers used copula theory to investigate the dependence between strength and elastic modulus in warm frozen soil for roadbed stability.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/fc29eaa3f1d7dc8b23866f003d96d41a53e67bc1",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223332+00:00"
-  },
-  {
-    "title": "Automated Gravel Transport Measurement Using Impact Plates",
-    "summary": "Stainless-steel impact plates equipped with accelerometers were installed in a watershed to automate the measurement of gravel transport.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f79af4400cb5fe4738f530213ba5d7c5c777a255",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223335+00:00"
-  },
-  {
-    "title": "Bearing Capacity Prediction for Foundations in Rock Slopes",
-    "summary": "A novel finite-element limit analysis software was developed to assess end bearing capacity for foundations in Hoek-Brown rock slopes.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f5e0b78b7a5b17072fd97a97ae8eb714eb0afdc4",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223338+00:00"
-  },
-  {
-    "title": "Comparative Impacts of Algal Biomass on Potato Purée",
-    "summary": "Researchers characterized the fortification effects of various algal biomass types on the rheological and physical properties of potato purée.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f367e6d7591156790d59797176cae15a8ef4fd09",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223343+00:00"
-  },
-  {
-    "title": "Structural Optimization of a Downward Air Duct Dust Collector",
-    "summary": "Computational fluid dynamics simulations were used to optimize partition plates and tube sheet structures for improved dust collector flow uniformity.",
-    "category": "Mechanical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f1c8b04b5d33e896ea56b0743acb8f48628f98da",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223346+00:00"
-  },
-  {
-    "title": "Trust-Aware Framework for Sparse Mobile Crowdsensing",
-    "summary": "A reinforcement learning-based framework was proposed to optimize data collection and inference accuracy while filtering out untrustworthy workers.",
+    "title": "GIST Improves FDD Downlink Channel Estimation via Path Structure Transfer",
+    "summary": "Researchers propose Gaussian-Informed Structure Transfer, a method predicting propagation path structures from user equipment locations to reduce downlink channel estimation overhead.",
     "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ee2938b6073317ba3f2fe05dfe3debd2022316e2",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223348+00:00"
-  },
-  {
-    "title": "Device Bias Instability in Scaled Oxide Semiconductor 2T0C DRAM",
-    "summary": "Researchers studied bias instability in BEOL-compatible oxide semiconductor transistors to improve 2T0C DRAM retention and circuit reliability.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ed1b3ab1b70508ed5d904e4d23717e9594774600",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223351+00:00"
-  },
-  {
-    "title": "Applied Game for Spatial Audio in Mobile XR",
-    "summary": "An applied game using hardware LiDAR sensors and real-time sound spatialisation was developed to simplify spatial audio deployment in mobile XR.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ec5d62ca7c11854d44391341bd3635c6ecc63b93",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:14:52.223353+00:00"
-  },
-  {
-    "title": "Smart IoT Objects Infer Human Spatial Reasoning",
-    "summary": "A new proof-of-concept system uses smart IoT objects to monitor physical interactions and quantitatively infer human spatial reasoning.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e362fc46d245a4277396c81003a8cea3f2ea1c06",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186185+00:00"
-  },
-  {
-    "title": "Supervised ML Improves SDN Traffic Classification",
-    "summary": "Combining supervised machine learning models with software-defined networking architecture achieves high-accuracy traffic classification for quality of service management.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/e1775b01c49d0459483d797678d2f24fc21f17f8",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186193+00:00"
-  },
-  {
-    "title": "Earth Pressure Analysis for Pit-Retaining Structures",
-    "summary": "An integrated theoretical and numerical study investigates earth pressure against pit-retaining structures rotating around lateral supports with log-spiral failure surfaces.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d9794fd8c2f8f930613a8ef9e5756241781deb3e",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186197+00:00"
-  },
-  {
-    "title": "Repairable Steel Beam-Column Connection with Perforated Plates",
-    "summary": "A novel steel connection featuring peanut-shaped perforated flange cover plates improves seismic performance and energy dissipation.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/d93983bbab9fd818ef4a1109f061df910e27b010",
-    "published_at": "2026-11-01T00:00:00+00:00",
-    "fetched_at": "2026-10-31T10:15:11.186200+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.03482v1",
+    "published_at": "2026-11-02T17:23:17+00:00",
+    "fetched_at": "2026-11-03T11:33:02.696305+00:00"
   }
 ]
