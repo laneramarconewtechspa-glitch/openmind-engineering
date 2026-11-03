@@ -1,5 +1,113 @@
 [
   {
+    "title": "Randomized Caches in Hardware: Overheads And Limitations",
+    "summary": "Researchers explore the challenges, overheads, and practical implementation trade-offs of using randomized caches to prevent side-channel attacks.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/randomized-caches-in-hw-overheads-and-limitations-rub-max-planck-georgia-tech/",
+    "published_at": "2026-11-03T18:01:10+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942741+00:00"
+  },
+  {
+    "title": "Simera Sense and Spacemanic Partner on Dual-Use Satellite",
+    "summary": "Spacemanic and Simera Sense are collaborating to deliver a compact, dual-use satellite solution named xScape200.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
+    "published_at": "2026-11-03T16:59:43+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942754+00:00"
+  },
+  {
+    "title": "Bringing Design Data Management into Developer Workflows",
+    "summary": "Visual Studio Code is increasingly adopted by engineers as an extensible workspace to manage RTL, HDL, and verification assets.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
+    "published_at": "2026-11-03T15:00:00+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942760+00:00"
+  },
+  {
+    "title": "DTECH Northeast Convenes Experts in Boston",
+    "summary": "DTECH Northeast brings experts to Boston to address extreme weather, grid modernization, and distributed energy resources.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/grid-modernization/dtech-northeast-is-underway-here-are-sessions-you-wont-want-to-miss/",
+    "published_at": "2026-11-03T14:35:08+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942765+00:00"
+  },
+  {
+    "title": "Kenyan Startup Builds AI for Offline Low-Power Phones",
+    "summary": "Fastagger develops AI models that operate offline and on low-power mobile phones to assist small businesses in emerging economies.",
+    "category": "Computing",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
+    "published_at": "2026-11-03T14:30:02+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942769+00:00"
+  },
+  {
+    "title": "Examining the Capital and Inventory Costs of AI Hardware",
+    "summary": "Industry financial reports reveal the massive capital buildup and manufacturing trade-offs involved in scaling AI computing capacity.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
+    "published_at": "2026-11-03T14:08:41+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942774+00:00"
+  },
+  {
+    "title": "The Scaling Challenge of Co-Packaged Optics",
+    "summary": "Commercial success for co-packaged optics relies heavily on advanced packaging techniques to integrate and protect photonic components.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
+    "published_at": "2026-11-03T14:00:00+00:00",
+    "fetched_at": "2026-11-03T18:57:11.942778+00:00"
+  },
+  {
+    "title": "Stratasys Showcases Manufacturing Tools at Formnext",
+    "summary": "Stratasys is highlighting the F870 FDM, postprocessing tools, and NCAMP data for aerospace and defense parts at Formnext.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/stratasys-to-show-new-manufacturing-tools-at-formnext/",
+    "published_at": "2026-11-03T13:00:00+00:00",
+    "fetched_at": "2026-11-03T18:57:15.049884+00:00"
+  },
+  {
+    "title": "SpaceX Starship Moon Mission Faces Complex Refueling",
+    "summary": "NASA's Artemis IV lunar mission requires SpaceX's Starship to complete an unknown number of refueling flights in two orbits.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/artemis/do-we-know-how-many-starship-launches-spacex-will-need-to-get-nasa-astronauts-to-the-moon-no-will-its-refuelling-plan-be-simple-also-no",
+    "published_at": "2026-11-03T13:00:00+00:00",
+    "fetched_at": "2026-11-03T18:57:15.049894+00:00"
+  },
+  {
+    "title": "Rail Baltica Requests €357.5m from EU",
+    "summary": "Rail Baltica has applied for €357.5m from the European Union to support main line construction across Estonia, Latvia, and Lithuania.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/rail-baltica-seeks-further-e357-5m-from-eu/",
+    "published_at": "2026-11-03T12:50:52+00:00",
+    "fetched_at": "2026-11-03T18:57:15.049902+00:00"
+  },
+  {
+    "title": "London Overground Train Derails After Hitting Buffers",
+    "summary": "An out-of-service London Overground train derailed its first three carriages after hitting buffers at Liverpool Street station, injuring the driver.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/train-that-hit-buffers-at-liverpool-street-saw-carriages-derail-and-driver-taken-to-hospital-03-11-2026/",
+    "published_at": "2026-11-03T12:29:11+00:00",
+    "fetched_at": "2026-11-03T18:57:15.049907+00:00"
+  },
+  {
+    "title": "Rotor Clip Qualifies Aerospace Sealing Rings",
+    "summary": "Rotor Clip completed qualification for six new sealing ring configurations for aerospace systems in less than half the usual timeline.",
+    "category": "Aerospace",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/rotor-clip-qualifies-new-sealing-rings-for-aerospace-systems/",
+    "published_at": "2026-11-03T12:12:14+00:00",
+    "fetched_at": "2026-11-03T18:57:15.049911+00:00"
+  },
+  {
     "title": "Prism 1 Puts Linux Computer on Smart Glasses",
     "summary": "Raven Resonance has launched Prism 1, an eye-controlled standalone computer built into a pair of smart glasses running a custom Linux platform.",
     "category": "Computing",
@@ -160,113 +268,5 @@
     "source_url": "https://semiengineering.com/co-optimizing-access-points-improves-analog-placement-ut-austin/",
     "published_at": "2026-11-02T18:57:45+00:00",
     "fetched_at": "2026-11-02T21:13:03.046056+00:00"
-  },
-  {
-    "title": "Hierarchical EEG-to-Text Decoding Framework",
-    "summary": "Researchers introduced a hierarchical alignment framework for sentence-level EEG-to-text classification to aid non-invasive brain-computer interfaces.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03623v1",
-    "published_at": "2026-11-02T18:52:26+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336931+00:00"
-  },
-  {
-    "title": "TAMPAgent Unifies LVLMs and TAMP for Mobile Manipulation",
-    "summary": "Researchers proposed TAMPAgent, a framework that integrates Large Vision-Language Models with Task and Motion Planning to handle partial observability in mobile manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03584v1",
-    "published_at": "2026-11-02T18:32:18+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190726+00:00"
-  },
-  {
-    "title": "WISE Improves World Action Models via Pre-Execution Selection",
-    "summary": "WISE is a pre-execution selector that scores sampled rollouts from world action models to improve closed-loop success rates on robotic tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03585v1",
-    "published_at": "2026-11-02T18:32:18+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190735+00:00"
-  },
-  {
-    "title": "Dynamical Unbalanced Optimal Transport for Control Systems",
-    "summary": "A new framework for dynamical unbalanced optimal transport combines relaxed-control theory with a weighted superposition principle for nonlinear control-affine systems.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03573v1",
-    "published_at": "2026-11-02T18:26:44+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190741+00:00"
-  },
-  {
-    "title": "Quantum Private Information Retrieval Scheme for Forest Graphs",
-    "summary": "Researchers designed an efficient quantum private information retrieval scheme for forest graphs achieving a rate of three over N using an initial GHZ state.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03558v1",
-    "published_at": "2026-11-02T18:19:25+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190745+00:00"
-  },
-  {
-    "title": "Mediating Human-Swarm Interactions Using a Robot Helper",
-    "summary": "A shepherding-inspired approach demonstrates that motion primitives operating on collective shape improve human-swarm interaction performance and reduce perceived workload in virtual reality.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03548v1",
-    "published_at": "2026-11-02T18:10:01+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190750+00:00"
-  },
-  {
-    "title": "Reinforcement Twinning Framework for Actuated Systems",
-    "summary": "A reinforcement-twinning framework utilizes Gaussian-process surrogates and Bayesian policy search to jointly adapt digital twin models and control policies under physical limitations.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03540v1",
-    "published_at": "2026-11-02T18:03:48+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190755+00:00"
-  },
-  {
-    "title": "Annotated ISIC 2019 Dataset Mitigates Dermoscopy Artifacts",
-    "summary": "Researchers released a rigorously annotated version of the ISIC 2019 dataset featuring binary masks for hair, ink, and vignetting to support artifact-free dermoscopic deep learning.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03502v1",
-    "published_at": "2026-11-02T17:40:08+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190759+00:00"
-  },
-  {
-    "title": "Inertia Mismatch Impacts Robot Policy Learning",
-    "summary": "Controlled simulation experiments reveal how inertia mismatch between heavy robot arms and manipulated objects affects the performance of reinforcement learning and behavior cloning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03501v1",
-    "published_at": "2026-11-02T17:40:05+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190764+00:00"
-  },
-  {
-    "title": "Delay-Certified Readiness Barriers for Overactuated Multirotors",
-    "summary": "A new Lipschitz-free test maintains readiness barriers for overactuated multirotors under sampled commands and varying speed-controller delays without violating safety floors.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03490v1",
-    "published_at": "2026-11-02T17:33:40+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190768+00:00"
-  },
-  {
-    "title": "ToFTouch Multimodal Sensor Combines Proximity and Tactile Sensing",
-    "summary": "ToFTouch integrates time-of-flight sensors with an optics-based pressure array on a gripper to improve pre-grasp adjustment, clutter extraction, and insertion tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03489v1",
-    "published_at": "2026-11-02T17:33:03+00:00",
-    "fetched_at": "2026-11-03T11:32:59.190772+00:00"
-  },
-  {
-    "title": "GIST Improves FDD Downlink Channel Estimation via Path Structure Transfer",
-    "summary": "Researchers propose Gaussian-Informed Structure Transfer, a method predicting propagation path structures from user equipment locations to reduce downlink channel estimation overhead.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03482v1",
-    "published_at": "2026-11-02T17:23:17+00:00",
-    "fetched_at": "2026-11-03T11:33:02.696305+00:00"
   }
 ]
