@@ -1,5 +1,41 @@
 [
   {
+    "title": "Trace Gas Orbiter Finds Mars Volcanic Evidence",
+    "summary": "Data from the ExoMars Trace Gas Orbiter has revealed potential atmospheric evidence of volcanic activity on Mars.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/11/tgo-volcanic-activity/",
+    "published_at": "2026-11-04T19:06:36+00:00",
+    "fetched_at": "2026-11-04T19:22:03.744730+00:00"
+  },
+  {
+    "title": "Network Rail Outlines Winter Resilience Plans",
+    "summary": "Network Rail chief executive Jeremy Westlake detailed winter resilience measures for the rail network following recent extreme temperatures.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/network-rail-prioritising-resilience-after-extreme-temperatures-and-high-profile-derailments-04-11-2026/",
+    "published_at": "2026-11-04T15:53:04+00:00",
+    "fetched_at": "2026-11-04T19:22:03.744742+00:00"
+  },
+  {
+    "title": "U.K. Startup Develops Autonomous Cubesat Swarms",
+    "summary": "Startup Shield Space is developing swarms of autonomous, laser-shooting cubesats to defend Western satellites in orbit.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/drone-warfare-in-space-swarms-of-autonomous-laser-shooting-cubesats-could-defend-western-satellites-in-orbit",
+    "published_at": "2026-11-04T13:00:00+00:00",
+    "fetched_at": "2026-11-04T19:22:03.744748+00:00"
+  },
+  {
+    "title": "26-Foot Tiny House Maximizes Space",
+    "summary": "A 26-foot towable tiny house features a space-saving layout including a kitchen, living room, and loft bedroom.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/brightside-backcountry-tiny-homes/",
+    "published_at": "2026-11-04T12:13:50+00:00",
+    "fetched_at": "2026-11-04T19:22:03.744751+00:00"
+  },
+  {
     "title": "HMGCC Challenge Seeks Hostile RF Emitter Detection Tech",
     "summary": "The HMGCC is launching a challenge to create technology that can identify hostile RF emitters in battlefield situations.",
     "category": "Electronics & Semiconductors",
@@ -232,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.05175v1",
     "published_at": "2026-11-03T16:39:48+00:00",
     "fetched_at": "2026-11-04T11:52:03.701571+00:00"
-  },
-  {
-    "title": "Unified Motion Correction for Accelerated ZTE MRI",
-    "summary": "EnMoCo is a regularized maximum a posteriori formulation designed to jointly estimate 3D images and rigid-motion parameters in accelerated ZTE MRI.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05169v1",
-    "published_at": "2026-11-03T16:38:20+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701575+00:00"
-  },
-  {
-    "title": "High-Resolution Quantitative MRI Using MuSE Regularization",
-    "summary": "Researchers introduced a diffusion-model-based reconstruction for quantitative MRI at 0.5 mm isotropic resolution using a pre-trained multiscale energy model.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05132v1",
-    "published_at": "2026-11-03T16:14:43+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701580+00:00"
-  },
-  {
-    "title": "Optimal Control Foundation of Early Exits in ResNets",
-    "summary": "Using optimal control theory, researchers prove that ResNets trained with joint intermediate layer outputs exhibit the turnpike phenomenon.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05120v1",
-    "published_at": "2026-11-03T16:08:15+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701584+00:00"
-  },
-  {
-    "title": "DexHOT: Learning Hand-Object Configuration Transfer",
-    "summary": "DexHOT formulates dexterous manipulation as hand-object configuration transfer to move between feasible configurations specifying hand articulation and object pose.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05119v1",
-    "published_at": "2026-11-03T16:08:03+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701588+00:00"
   }
 ]
