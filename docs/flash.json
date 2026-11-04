@@ -1,5 +1,185 @@
 [
   {
+    "title": "HMGCC Challenge Seeks Hostile RF Emitter Detection Tech",
+    "summary": "The HMGCC is launching a challenge to create technology that can identify hostile RF emitters in battlefield situations.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/hmgcc-challenge-seeks-technology-to-identify-hostile-rf-emitters-2026-11/",
+    "published_at": "2026-11-04T10:43:35+00:00",
+    "fetched_at": "2026-11-04T11:51:48.793066+00:00"
+  },
+  {
+    "title": "University of Hertfordshire Researching Grenfell Chimney Effect",
+    "summary": "Researchers are launching a study into the chimney effect that helped fire and smoke spread rapidly during the Grenfell Tower disaster.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/university-of-hertfordshire-researching-grenfell-chimney-effect-that-helped-fire-spread-04-11-2026/",
+    "published_at": "2026-11-04T09:23:05+00:00",
+    "fetched_at": "2026-11-04T11:51:48.793079+00:00"
+  },
+  {
+    "title": "Quantum Computing Revenue Surpasses $1 Billion in 2025",
+    "summary": "Quantum computing revenue surpassed $1 billion in 2025 while missing forecasts, highlighting the gap between expectations and delivery.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
+    "published_at": "2026-11-04T09:11:15+00:00",
+    "fetched_at": "2026-11-04T11:51:48.793085+00:00"
+  },
+  {
+    "title": "Jacobs Appointed Contractor for £1bn California Wastewater Plant",
+    "summary": "Jacobs has been appointed as the progressive design-build contractor for the Southeast Treatment Plant Nutrient Reduction Project.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/jacobs-selected-as-progressive-design-build-contractor-for-1bn-california-wastewater-plant-04-11-2026/",
+    "published_at": "2026-11-04T08:40:54+00:00",
+    "fetched_at": "2026-11-04T11:51:48.793091+00:00"
+  },
+  {
+    "title": "UKAEA Installs 12t Vessel to Boost Fusion Facility Heat",
+    "summary": "A 12t stainless-steel containment vessel has been installed at the UKAEA Culham campus for the Mast Upgrade.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ukaea-installs-12t-double-beam-box-to-boost-heat-power-at-fusion-facility-04-11-2026/",
+    "published_at": "2026-11-04T08:26:57+00:00",
+    "fetched_at": "2026-11-04T11:51:48.793095+00:00"
+  },
+  {
+    "title": "Unified 3D-IC Signal Integrity Environment Announced",
+    "summary": "A new unified environment spans architecture exploration, extraction, simulation, compliance verification, and system-level signoff.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/3d-ic-signal-integrity-from-silicon-interposers-to-system-signoff/",
+    "published_at": "2026-11-04T08:02:20+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566777+00:00"
+  },
+  {
+    "title": "Application Fit in Power Transistors",
+    "summary": "Silicon MOSFETs, IGBTs, SiC MOSFETs, and GaN HEMTs offer distinct advantages that vary across power stages and converters.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/choosing-the-right-power-transistor-why-application-fit-matters-more-than-technology/",
+    "published_at": "2026-11-04T08:01:04+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566788+00:00"
+  },
+  {
+    "title": "Neural Super Resolution Overview",
+    "summary": "Neural graphics improve image quality and performance while simplifying deployment on constrained devices.",
+    "category": "Computing",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/neural-super-resolution/",
+    "published_at": "2026-11-04T08:01:01+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566793+00:00"
+  },
+  {
+    "title": "GPS-Based Speed Limiters Deployed in US",
+    "summary": "The US has started deploying GPS-based speed-limiting devices on cars to prevent reckless drivers from exceeding limits.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/speed-limiters-on-us-roads-2026-11/",
+    "published_at": "2026-11-04T06:12:27+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566798+00:00"
+  },
+  {
+    "title": "Filtronic Wins £1.9M DCMS Contract",
+    "summary": "Filtronic secured a £1.9 million contract under the Advanced Connectivity Technologies competition delivered by Innovate UK.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/filtronic-wins-1-9m-dcms-contract-2026-11/",
+    "published_at": "2026-11-04T06:04:59+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566805+00:00"
+  },
+  {
+    "title": "MIT-Led Team Receives ARPA-H Funding for Wearable Monitor",
+    "summary": "The team received up to $38 million to develop a low-power, noninvasive sensor patch for early disease detection.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/mit-led-team-receives-funding-for-early-disease-detection-wearable-monitor-1104",
+    "published_at": "2026-11-04T05:00:00+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566809+00:00"
+  },
+  {
+    "title": "Realbotix Launches Tabletop Humanoids Under $12,000",
+    "summary": "Las Vegas-based Realbotix introduced four tabletop humanoid models focusing on the top half to achieve lower consumer pricing.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/ai-humanoids/americans-realistic-humanoids-realbotix/",
+    "published_at": "2026-11-04T03:14:29+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566813+00:00"
+  },
+  {
+    "title": "Robot Dogs Conquer 3,100 Mountain Steps",
+    "summary": "Robot dogs were tested by racing up over 3,000 uneven stone steps on a mountain to aid in machine training.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/ai-humanoids/watch-robot-dogs-climb-giant-mountain/",
+    "published_at": "2026-11-04T00:00:57+00:00",
+    "fetched_at": "2026-11-04T11:51:54.566817+00:00"
+  },
+  {
+    "title": "India's Chip Packaging Boom and Small OSATs",
+    "summary": "Small OSATs in India can start with an investment of up to ₹2 billion, though survival depends on anchor customers, skilled staff, and qualification.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/is-there-room-for-small-scale-osats-in-india-chip-packaging-boom/",
+    "published_at": "2026-11-03T23:30:00+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156552+00:00"
+  },
+  {
+    "title": "NASA Explores Options to Save Hubble",
+    "summary": "NASA is asking industry for ideas to extend the work of the healthy Hubble Space Telescope as atmospheric drag pulls it toward Earth.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope",
+    "published_at": "2026-11-03T22:00:00+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156568+00:00"
+  },
+  {
+    "title": "Europe's Hera Probe Spots Dimorphos",
+    "summary": "Europe's Hera planetary defense spacecraft is closing in on the binary asteroid system and can now distinguish the two rocky bodies.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo",
+    "published_at": "2026-11-03T19:00:00+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156574+00:00"
+  },
+  {
+    "title": "DreamX Universal Latent Action Learner",
+    "summary": "Researchers introduced DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner for cross-embodiment transfer.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05377v1",
+    "published_at": "2026-11-03T18:59:56+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156579+00:00"
+  },
+  {
+    "title": "Bayesian Optimized Model for Real-Time EEG Phase Estimation",
+    "summary": "A Bayesian-Optimized Biquad Filter-Burg model achieves matched or better real-time EEG phase estimation performance at a fraction of calibration time.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05374v1",
+    "published_at": "2026-11-03T18:59:45+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156584+00:00"
+  },
+  {
+    "title": "Iterative Methods for Feedback-Type Linear Equations",
+    "summary": "This paper investigates iterative methods for solving feedback-type linear equations under the small phase condition using numerical-radius contraction.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05371v1",
+    "published_at": "2026-11-03T18:59:05+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156588+00:00"
+  },
+  {
+    "title": "GUILD Guided Iterative Data Collection for Imitation Learning",
+    "summary": "GUILD is a guided data collection method that uses semantic priors and data attribution to improve sample efficiency in robotics.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05368v1",
+    "published_at": "2026-11-03T18:57:35+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156592+00:00"
+  },
+  {
     "title": "Randomized Caches in Hardware: Overheads And Limitations",
     "summary": "Researchers explore the challenges, overheads, and practical implementation trade-offs of using randomized caches to prevent side-channel attacks.",
     "category": "Electronics & Semiconductors",
@@ -7,6 +187,24 @@
     "source_url": "https://semiengineering.com/randomized-caches-in-hw-overheads-and-limitations-rub-max-planck-georgia-tech/",
     "published_at": "2026-11-03T18:01:10+00:00",
     "fetched_at": "2026-11-03T18:57:11.942741+00:00"
+  },
+  {
+    "title": "Analyzing Action-Token Supervision in Mixture-of-Transformer VLAs",
+    "summary": "Researchers investigated how gradient insulation and action-token supervision impact vision-language-action model performance in driving and manipulation.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05249v1",
+    "published_at": "2026-11-03T17:35:27+00:00",
+    "fetched_at": "2026-11-04T11:52:00.156596+00:00"
+  },
+  {
+    "title": "Reality and Perceptual Gaps in Swarm Robotics",
+    "summary": "This study examines robotic swarms deployed across multiple platforms, revealing that physical embodiment alters motion timescales and human emotional responses.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05244v1",
+    "published_at": "2026-11-03T17:26:56+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701547+00:00"
   },
   {
     "title": "Simera Sense and Spacemanic Partner on Dual-Use Satellite",
@@ -18,255 +216,57 @@
     "fetched_at": "2026-11-03T18:57:11.942754+00:00"
   },
   {
-    "title": "Bringing Design Data Management into Developer Workflows",
-    "summary": "Visual Studio Code is increasingly adopted by engineers as an extensible workspace to manage RTL, HDL, and verification assets.",
+    "title": "OperAItor Framework for Chemical Fault Management",
+    "summary": "OperAItor is an open-source framework using large language model agents for supervisory fault management in chemical processes.",
     "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
-    "published_at": "2026-11-03T15:00:00+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942760+00:00"
-  },
-  {
-    "title": "DTECH Northeast Convenes Experts in Boston",
-    "summary": "DTECH Northeast brings experts to Boston to address extreme weather, grid modernization, and distributed energy resources.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/grid-modernization/dtech-northeast-is-underway-here-are-sessions-you-wont-want-to-miss/",
-    "published_at": "2026-11-03T14:35:08+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942765+00:00"
-  },
-  {
-    "title": "Kenyan Startup Builds AI for Offline Low-Power Phones",
-    "summary": "Fastagger develops AI models that operate offline and on low-power mobile phones to assist small businesses in emerging economies.",
-    "category": "Computing",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/ai-small-business-mobile-money-startup",
-    "published_at": "2026-11-03T14:30:02+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942769+00:00"
-  },
-  {
-    "title": "Examining the Capital and Inventory Costs of AI Hardware",
-    "summary": "Industry financial reports reveal the massive capital buildup and manufacturing trade-offs involved in scaling AI computing capacity.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
-    "published_at": "2026-11-03T14:08:41+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942774+00:00"
-  },
-  {
-    "title": "The Scaling Challenge of Co-Packaged Optics",
-    "summary": "Commercial success for co-packaged optics relies heavily on advanced packaging techniques to integrate and protect photonic components.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
-    "published_at": "2026-11-03T14:00:00+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942778+00:00"
-  },
-  {
-    "title": "Stratasys Showcases Manufacturing Tools at Formnext",
-    "summary": "Stratasys is highlighting the F870 FDM, postprocessing tools, and NCAMP data for aerospace and defense parts at Formnext.",
-    "category": "Mechanical",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/stratasys-to-show-new-manufacturing-tools-at-formnext/",
-    "published_at": "2026-11-03T13:00:00+00:00",
-    "fetched_at": "2026-11-03T18:57:15.049884+00:00"
-  },
-  {
-    "title": "SpaceX Starship Moon Mission Faces Complex Refueling",
-    "summary": "NASA's Artemis IV lunar mission requires SpaceX's Starship to complete an unknown number of refueling flights in two orbits.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/artemis/do-we-know-how-many-starship-launches-spacex-will-need-to-get-nasa-astronauts-to-the-moon-no-will-its-refuelling-plan-be-simple-also-no",
-    "published_at": "2026-11-03T13:00:00+00:00",
-    "fetched_at": "2026-11-03T18:57:15.049894+00:00"
-  },
-  {
-    "title": "Rail Baltica Requests €357.5m from EU",
-    "summary": "Rail Baltica has applied for €357.5m from the European Union to support main line construction across Estonia, Latvia, and Lithuania.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/rail-baltica-seeks-further-e357-5m-from-eu/",
-    "published_at": "2026-11-03T12:50:52+00:00",
-    "fetched_at": "2026-11-03T18:57:15.049902+00:00"
-  },
-  {
-    "title": "London Overground Train Derails After Hitting Buffers",
-    "summary": "An out-of-service London Overground train derailed its first three carriages after hitting buffers at Liverpool Street station, injuring the driver.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/train-that-hit-buffers-at-liverpool-street-saw-carriages-derail-and-driver-taken-to-hospital-03-11-2026/",
-    "published_at": "2026-11-03T12:29:11+00:00",
-    "fetched_at": "2026-11-03T18:57:15.049907+00:00"
-  },
-  {
-    "title": "Rotor Clip Qualifies Aerospace Sealing Rings",
-    "summary": "Rotor Clip completed qualification for six new sealing ring configurations for aerospace systems in less than half the usual timeline.",
-    "category": "Aerospace",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/rotor-clip-qualifies-new-sealing-rings-for-aerospace-systems/",
-    "published_at": "2026-11-03T12:12:14+00:00",
-    "fetched_at": "2026-11-03T18:57:15.049911+00:00"
-  },
-  {
-    "title": "Prism 1 Puts Linux Computer on Smart Glasses",
-    "summary": "Raven Resonance has launched Prism 1, an eye-controlled standalone computer built into a pair of smart glasses running a custom Linux platform.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/wearables/raven-resonance-prism-linux-smart-glasses/",
-    "published_at": "2026-11-03T11:02:46+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242746+00:00"
-  },
-  {
-    "title": "NCSC Warns of AI Ransomware Risk to UK Infrastructure",
-    "summary": "The National Cyber Security Centre warns it is highly likely that AI malware will be used in a ransomware attack on UK critical infrastructure within two years.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/highly-likely-ai-will-be-used-in-ransomware-attack-on-uk-critical-infrastructure-03-11-2026/",
-    "published_at": "2026-11-03T10:52:18+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242759+00:00"
-  },
-  {
-    "title": "OpenUK Launches First Space Tech Radar Report",
-    "summary": "OpenUK released its inaugural Space Tech Radar report covering open technology projects for both Earth and space observation.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/openuks-space-tech-radar-report-plots-open-technology-in-space-2026-11/",
-    "published_at": "2026-11-03T10:47:17+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242765+00:00"
-  },
-  {
-    "title": "Reverse Game Theory Proposed to Align AI Agents",
-    "summary": "Researchers are using reverse game theory to create incentives that make following rules the most rational choice for powerful AI models.",
-    "category": "Computing",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-    "published_at": "2026-11-03T10:43:41+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242770+00:00"
-  },
-  {
-    "title": "GE Vernova Launches Engineering Education Program",
-    "summary": "GE Vernova has launched a $4.5 million education initiative in Greenville aimed at reaching 3,000 students with hands-on learning.",
-    "category": "Other Engineering",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/ge-vernova-launches-engineering-education-program-in-greenville/",
-    "published_at": "2026-11-03T10:23:29+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242775+00:00"
-  },
-  {
-    "title": "HydroWing Adopts AI for Tidal Energy Monitoring",
-    "summary": "HydroWing has contracted Ecodetect for AI-driven environmental monitoring and wildlife detection at its tidal energy project in Wales.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/is-ai-the-answer-for-tidal-energy-wildlife-detection/",
-    "published_at": "2026-11-03T06:15:00+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242779+00:00"
-  },
-  {
-    "title": "Greece Unveils National Semiconductor Strategy",
-    "summary": "Greece opened a draft national strategy for semiconductors and microelectronics for public consultation to expand its role in chip design and research.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/greece-unveils-semiconductor-strategy-2026-11/",
-    "published_at": "2026-11-03T06:12:39+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242784+00:00"
-  },
-  {
-    "title": "Solar Spin-off Noak Secures Five Million Euros",
-    "summary": "Imec and UHasselt spin-off Noak has raised €5 million in seed investment to industrialize perovskite-silicon tandem photovoltaic solar technology.",
-    "category": "Energy",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/imec-spin-off-noak-raises-e5m-2026-11/",
-    "published_at": "2026-11-03T06:11:57+00:00",
-    "fetched_at": "2026-11-03T11:32:52.242790+00:00"
-  },
-  {
-    "title": "Swiss AR Motorcycle Helmet",
-    "summary": "Swiss company Aegis Rider developed an augmented reality motorcycle helmet featuring navigation capabilities designed to replace traditional GPS.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/aegis-rider-ar-helmet/",
-    "published_at": "2026-11-03T04:03:00+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336894+00:00"
-  },
-  {
-    "title": "LHC Detects Quark-Gluon Plasma in Small Collisions",
-    "summary": "CERN scientists using the Large Hadron Collider found evidence of quark-gluon plasma in surprisingly small atomic collisions.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221211.htm",
-    "published_at": "2026-11-03T02:39:04+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336907+00:00"
-  },
-  {
-    "title": "EVO Supercar Makes American Debut",
-    "summary": "A German-engineered $3.3-million EVO supercar made its official American debut.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/apollo-evo/",
-    "published_at": "2026-11-03T02:37:00+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336912+00:00"
-  },
-  {
-    "title": "Loophole Suggests Black Holes Can Split",
-    "summary": "Researchers identified a potential physical loophole indicating that extremely fast-spinning black holes could divide into two.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010525.htm",
-    "published_at": "2026-11-03T01:27:49+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336917+00:00"
-  },
-  {
-    "title": "AI Image Enhancement Improves Flip-Chip Defect Detection",
-    "summary": "Researchers demonstrated that AI-based image enhancement improves the detection of interconnect defects and cracks in microelectronic packaging.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
-    "published_at": "2026-11-02T21:08:45+00:00",
-    "fetched_at": "2026-11-02T21:13:03.046032+00:00"
-  },
-  {
-    "title": "3D Integration Lowers Emissions of GPU Scaling",
-    "summary": "Researchers modeled how 2.5D and 3D scaling in chipletized GPUs can reduce the embodied carbon emissions impact of AI data centers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/3d-integration-reduces-embodied-emissions-impact-of-gpu-scaling-imec-vub/",
-    "published_at": "2026-11-02T20:00:12+00:00",
-    "fetched_at": "2026-11-02T21:13:03.046045+00:00"
-  },
-  {
-    "title": "Meter-Scale Quantum Interconnects Link 120-Qubit Processors",
-    "summary": "IBM Research demonstrated meter-scale quantum interconnects capable of linking large individual quantum processor modules.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/quantum-interconnects-link-two-120-qubit-processors-ibm-research/",
-    "published_at": "2026-11-02T19:45:53+00:00",
-    "fetched_at": "2026-11-02T21:13:03.046051+00:00"
-  },
-  {
-    "title": "Pixel: Co-Designed Mobile Manipulation Robot",
-    "summary": "Researchers presented Pixel, a full-stack robot system combining a low-cost wheeled humanoid with hardware, data collection, and learning pipelines.",
-    "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03648v1",
-    "published_at": "2026-11-02T18:59:32+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336922+00:00"
+    "source_url": "https://arxiv.org/abs/2611.05179v1",
+    "published_at": "2026-11-03T16:40:46+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701563+00:00"
   },
   {
-    "title": "Single-Visit Screening for Cochlear Tissue Growth",
-    "summary": "Scientists developed and validated a single-visit algorithm to detect tissue growth around cochlear implant electrodes without an intra-operative baseline.",
+    "title": "Novelty Horizon Limits LLM Scientific Data Generation",
+    "summary": "Large Language Models fail to generate scientific data beyond their training distribution due to a lack of physical grounding and extrapolation.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05175v1",
+    "published_at": "2026-11-03T16:39:48+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701571+00:00"
+  },
+  {
+    "title": "Unified Motion Correction for Accelerated ZTE MRI",
+    "summary": "EnMoCo is a regularized maximum a posteriori formulation designed to jointly estimate 3D images and rigid-motion parameters in accelerated ZTE MRI.",
     "category": "Biomedical",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.03644v1",
-    "published_at": "2026-11-02T18:58:50+00:00",
-    "fetched_at": "2026-11-03T11:32:55.336926+00:00"
+    "source_url": "https://arxiv.org/abs/2611.05169v1",
+    "published_at": "2026-11-03T16:38:20+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701575+00:00"
   },
   {
-    "title": "APPlace Co-Optimizes Device Locations for Analog Placement",
-    "summary": "Researchers published an analog layout automation approach that co-optimizes device locations and access points for routing-aware placement.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/co-optimizing-access-points-improves-analog-placement-ut-austin/",
-    "published_at": "2026-11-02T18:57:45+00:00",
-    "fetched_at": "2026-11-02T21:13:03.046056+00:00"
+    "title": "High-Resolution Quantitative MRI Using MuSE Regularization",
+    "summary": "Researchers introduced a diffusion-model-based reconstruction for quantitative MRI at 0.5 mm isotropic resolution using a pre-trained multiscale energy model.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05132v1",
+    "published_at": "2026-11-03T16:14:43+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701580+00:00"
+  },
+  {
+    "title": "Optimal Control Foundation of Early Exits in ResNets",
+    "summary": "Using optimal control theory, researchers prove that ResNets trained with joint intermediate layer outputs exhibit the turnpike phenomenon.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05120v1",
+    "published_at": "2026-11-03T16:08:15+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701584+00:00"
+  },
+  {
+    "title": "DexHOT: Learning Hand-Object Configuration Transfer",
+    "summary": "DexHOT formulates dexterous manipulation as hand-object configuration transfer to move between feasible configurations specifying hand articulation and object pose.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.05119v1",
+    "published_at": "2026-11-03T16:08:03+00:00",
+    "fetched_at": "2026-11-04T11:52:03.701588+00:00"
   }
 ]
