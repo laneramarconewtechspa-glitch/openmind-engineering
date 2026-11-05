@@ -1,5 +1,41 @@
 [
   {
+    "title": "Protecting 3D-IC Signal Integrity",
+    "summary": "Accurate signal integrity analysis for 3D-ICs must account for interactions across vertical interconnects, interposers, and neighboring channels.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/a-system-level-approach-to-protecting-3d-ic-signal-integrity/",
+    "published_at": "2026-11-05T08:04:55+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933568+00:00"
+  },
+  {
+    "title": "Virtual Testing for Automated Driving",
+    "summary": "Engineers can virtually create rare situations to test automated driving instead of waiting for them to occur on public roads.",
+    "category": "Robotics",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/why-testing-automated-driving-is-harder-than-it-looks/",
+    "published_at": "2026-11-05T08:02:40+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933581+00:00"
+  },
+  {
+    "title": "Physical AI Demands New Chip Hardware",
+    "summary": "Memory bottlenecks and power constraints are forcing chip designers to rethink hardware systems for autonomous machines.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/physical-ai-pushes-the-limits-of-hardware/",
+    "published_at": "2026-11-05T08:01:19+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933588+00:00"
+  },
+  {
+    "title": "Meta Accelerates AI SoC Development",
+    "summary": "Meta's Infra Silicon team implemented a six-month tape-out cadence to match rapid developments in AI model architectures.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/chiplets-meta-scale-chiplet-velocity-accelerating-ai-soc-development-to-match-the-rapid-evolution-of-ai-model/",
+    "published_at": "2026-11-04T20:30:12+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933593+00:00"
+  },
+  {
     "title": "Trace Gas Orbiter Finds Mars Volcanic Evidence",
     "summary": "Data from the ExoMars Trace Gas Orbiter has revealed potential atmospheric evidence of volcanic activity on Mars.",
     "category": "Aerospace",
@@ -7,6 +43,42 @@
     "source_url": "https://www.nasaspaceflight.com/2026/11/tgo-volcanic-activity/",
     "published_at": "2026-11-04T19:06:36+00:00",
     "fetched_at": "2026-11-04T19:22:03.744730+00:00"
+  },
+  {
+    "title": "NASA's Swift Telescope Crashes to Earth",
+    "summary": "NASA's Swift space telescope reentered Earth's atmosphere following a failed attempt by a private spacecraft to boost its orbit.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/missions/nasa-swift-space-telescope-crashes-to-earth",
+    "published_at": "2026-11-04T19:06:08+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933597+00:00"
+  },
+  {
+    "title": "Reinforcement Learning Enables Robot Policy Scaling",
+    "summary": "Researchers demonstrated that online reinforcement learning can improve generalist robot foundation models across diverse tasks simultaneously.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06905v1",
+    "published_at": "2026-11-04T18:52:28+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933602+00:00"
+  },
+  {
+    "title": "Human Mobility Sensing Using Millimeter-Wave Signals",
+    "summary": "Researchers utilized wall-reflected 60.8-GHz communication signals and fixed beamforming vectors for device-free walking-pace and direction classification.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06900v1",
+    "published_at": "2026-11-04T18:49:15+00:00",
+    "fetched_at": "2026-11-05T13:50:22.933606+00:00"
+  },
+  {
+    "title": "Beam-Leakage-Aware Satellite Scheduling Boosts LEO Downlink Capacity",
+    "summary": "Researchers proposed a beam-leakage-aware satellite scheduling algorithm for Ku-band LEO downlinks that improves mean per-beam capacity by 27.2% over nearest-satellite selection.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06726v1",
+    "published_at": "2026-11-04T16:15:36+00:00",
+    "fetched_at": "2026-11-05T13:56:25.079565+00:00"
   },
   {
     "title": "Network Rail Outlines Winter Resilience Plans",
@@ -196,77 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.05374v1",
     "published_at": "2026-11-03T18:59:45+00:00",
     "fetched_at": "2026-11-04T11:52:00.156584+00:00"
-  },
-  {
-    "title": "Iterative Methods for Feedback-Type Linear Equations",
-    "summary": "This paper investigates iterative methods for solving feedback-type linear equations under the small phase condition using numerical-radius contraction.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05371v1",
-    "published_at": "2026-11-03T18:59:05+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156588+00:00"
-  },
-  {
-    "title": "GUILD Guided Iterative Data Collection for Imitation Learning",
-    "summary": "GUILD is a guided data collection method that uses semantic priors and data attribution to improve sample efficiency in robotics.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05368v1",
-    "published_at": "2026-11-03T18:57:35+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156592+00:00"
-  },
-  {
-    "title": "Randomized Caches in Hardware: Overheads And Limitations",
-    "summary": "Researchers explore the challenges, overheads, and practical implementation trade-offs of using randomized caches to prevent side-channel attacks.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/randomized-caches-in-hw-overheads-and-limitations-rub-max-planck-georgia-tech/",
-    "published_at": "2026-11-03T18:01:10+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942741+00:00"
-  },
-  {
-    "title": "Analyzing Action-Token Supervision in Mixture-of-Transformer VLAs",
-    "summary": "Researchers investigated how gradient insulation and action-token supervision impact vision-language-action model performance in driving and manipulation.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05249v1",
-    "published_at": "2026-11-03T17:35:27+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156596+00:00"
-  },
-  {
-    "title": "Reality and Perceptual Gaps in Swarm Robotics",
-    "summary": "This study examines robotic swarms deployed across multiple platforms, revealing that physical embodiment alters motion timescales and human emotional responses.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05244v1",
-    "published_at": "2026-11-03T17:26:56+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701547+00:00"
-  },
-  {
-    "title": "Simera Sense and Spacemanic Partner on Dual-Use Satellite",
-    "summary": "Spacemanic and Simera Sense are collaborating to deliver a compact, dual-use satellite solution named xScape200.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
-    "published_at": "2026-11-03T16:59:43+00:00",
-    "fetched_at": "2026-11-03T18:57:11.942754+00:00"
-  },
-  {
-    "title": "OperAItor Framework for Chemical Fault Management",
-    "summary": "OperAItor is an open-source framework using large language model agents for supervisory fault management in chemical processes.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05179v1",
-    "published_at": "2026-11-03T16:40:46+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701563+00:00"
-  },
-  {
-    "title": "Novelty Horizon Limits LLM Scientific Data Generation",
-    "summary": "Large Language Models fail to generate scientific data beyond their training distribution due to a lack of physical grounding and extrapolation.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05175v1",
-    "published_at": "2026-11-03T16:39:48+00:00",
-    "fetched_at": "2026-11-04T11:52:03.701571+00:00"
   }
 ]
