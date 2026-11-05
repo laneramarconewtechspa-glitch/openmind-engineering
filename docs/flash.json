@@ -1,5 +1,86 @@
 [
   {
+    "title": "New Framework Automates Nanoparticle Image Screening",
+    "summary": "Researchers developed an image-based decision framework for rapid, explainable quality assessment of large-scale nanoparticle libraries.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/6fc1fa4784d25aaea2b203f65e78e21ff1050e9f",
+    "published_at": "2026-11-06T00:00:00+00:00",
+    "fetched_at": "2026-11-05T19:34:33.576560+00:00"
+  },
+  {
+    "title": "Accelerating Edge AI Deployment",
+    "summary": "Open-source technologies are being used to help developers deploy AI applications on resource-constrained embedded devices.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/from-pytorch-to-product-accelerating-edge-ai-through-open-ecosystems/",
+    "published_at": "2026-11-05T18:12:42+00:00",
+    "fetched_at": "2026-11-05T19:34:57.621004+00:00"
+  },
+  {
+    "title": "ChipAgents Introduces AI-Native Analog Design Workflow",
+    "summary": "A new webinar introduces an agentic loop system designed to automate analog chip design, simulation, and verification.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/accelerate-analog-design-with-flexible-ai-native-workflows/",
+    "published_at": "2026-11-05T17:40:24+00:00",
+    "fetched_at": "2026-11-05T19:34:33.576573+00:00"
+  },
+  {
+    "title": "China Blocks SoftBank’s $5.4B Acquisition of ABB Robotics",
+    "summary": "Chinese regulators halted the acquisition citing concerns over the potential transfer of robot data for AI training.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+    "published_at": "2026-11-05T16:25:46+00:00",
+    "fetched_at": "2026-11-05T19:34:33.576581+00:00"
+  },
+  {
+    "title": "NASA’s Voyager 1 Restores Communications",
+    "summary": "The 49-year-old Voyager 1 spacecraft has resumed communications after a brief silence during its interstellar mission.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/voyager/nasas-voyager-1-probe-bounces-back-from-communications-glitch-in-interstellar-space",
+    "published_at": "2026-11-05T15:18:15+00:00",
+    "fetched_at": "2026-11-05T19:34:33.576586+00:00"
+  },
+  {
+    "title": "OpenAI Text Watermarking Faces EU Compliance Challenges",
+    "summary": "Tests indicate OpenAI's textGrain watermark often fails to survive text editing or short-form content, raising questions about its compliance with EU AI Act transparency rules.",
+    "category": "Computing",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+    "published_at": "2026-11-05T15:00:03+00:00",
+    "fetched_at": "2026-11-05T19:34:57.621014+00:00"
+  },
+  {
+    "title": "Auriga Space Explores Electromagnetic Launch Technology",
+    "summary": "Auriga Space is developing electromagnetic launch technology intended to catapult small vehicles to reduce space mission costs.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
+    "published_at": "2026-11-05T14:15:38+00:00",
+    "fetched_at": "2026-11-05T19:34:33.576590+00:00"
+  },
+  {
+    "title": "NASA Announces Experimental X-70 Fractal Aircraft",
+    "summary": "NASA has unveiled its new X-70 Fractal aircraft, an experimental plane designed to test advanced maneuverability and a rapidly reconfigurable design.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/technology/aerospace/nasa-announces-experimental-x-70-fractal-aircraft-a-new-beginning-for-aeronautics",
+    "published_at": "2026-11-05T13:33:52+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210910+00:00"
+  },
+  {
+    "title": "Robot Moth Grows New Sensors Using Artificial Blood",
+    "summary": "Scientists have developed a moth-shaped robot capable of growing new sensors on demand by utilizing chemicals found in its artificial blood.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/robotics/tartu-iit-robot-moth-artificial-blood-uv-sensor/",
+    "published_at": "2026-11-05T11:47:41+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210921+00:00"
+  },
+  {
     "title": "Protecting 3D-IC Signal Integrity",
     "summary": "Accurate signal integrity analysis for 3D-ICs must account for interactions across vertical interconnects, interposers, and neighboring channels.",
     "category": "Electronics & Semiconductors",
@@ -25,6 +106,15 @@
     "source_url": "https://semiengineering.com/physical-ai-pushes-the-limits-of-hardware/",
     "published_at": "2026-11-05T08:01:19+00:00",
     "fetched_at": "2026-11-05T13:50:22.933588+00:00"
+  },
+  {
+    "title": "New Technique Reads Quantum Information Without Destruction",
+    "summary": "Researchers have proposed a method to read quantum information by detecting electrical signals from qubits, achieving high accuracy without destroying the quantum state.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261102202831.htm",
+    "published_at": "2026-11-05T03:47:09+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210926+00:00"
   },
   {
     "title": "Meta Accelerates AI SoC Development",
@@ -54,6 +144,15 @@
     "fetched_at": "2026-11-05T13:50:22.933597+00:00"
   },
   {
+    "title": "Mars Volcanic Activity Suggests Planet Is Sleeping",
+    "summary": "New spacecraft observations indicate that Mars may still be geologically active, with evidence suggesting its volcanoes are currently dormant rather than extinct.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/mars-isnt-dead-recent-volcanic-activity-reveals-its-just-sleeping",
+    "published_at": "2026-11-04T19:00:00+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210931+00:00"
+  },
+  {
     "title": "Reinforcement Learning Enables Robot Policy Scaling",
     "summary": "Researchers demonstrated that online reinforcement learning can improve generalist robot foundation models across diverse tasks simultaneously.",
     "category": "Robotics",
@@ -81,6 +180,33 @@
     "fetched_at": "2026-11-05T13:56:25.079565+00:00"
   },
   {
+    "title": "Full-Stack Survey Reviews Dexterous Robotic Hand Development",
+    "summary": "A new survey examines the integration of foundation models with robotic hardware, highlighting current challenges in data alignment, physical constraints, and deployment readiness.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06724v1",
+    "published_at": "2026-11-04T16:13:29+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210936+00:00"
+  },
+  {
+    "title": "New Synchronization Method Improves LEO Satellite Interference Nulling",
+    "summary": "Researchers have developed a delay-Doppler synchronization technique to enable coherent interference cancellation across distributed low-Earth-orbit satellite networks.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06719v1",
+    "published_at": "2026-11-04T16:12:11+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210940+00:00"
+  },
+  {
+    "title": "Study Analyzes Inference Bottlenecks for Vision-Language-Action Models",
+    "summary": "A comprehensive study of VLA model optimization across various GPU architectures provides new guidelines for managing latency in robotic action generation.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06710v1",
+    "published_at": "2026-11-04T16:09:02+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210945+00:00"
+  },
+  {
     "title": "Network Rail Outlines Winter Resilience Plans",
     "summary": "Network Rail chief executive Jeremy Westlake detailed winter resilience measures for the rail network following recent extreme temperatures.",
     "category": "Civil & Infrastructure",
@@ -88,6 +214,15 @@
     "source_url": "https://www.newcivilengineer.com/latest/network-rail-prioritising-resilience-after-extreme-temperatures-and-high-profile-derailments-04-11-2026/",
     "published_at": "2026-11-04T15:53:04+00:00",
     "fetched_at": "2026-11-04T19:22:03.744742+00:00"
+  },
+  {
+    "title": "Study Evaluates Physical Tactile Cues for Imitation Learning",
+    "summary": "A real-robot study reveals that marker-flow fields are the most effective tactile cue for improving success rates in contact-rich imitation learning tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.06673v1",
+    "published_at": "2026-11-04T15:45:40+00:00",
+    "fetched_at": "2026-11-05T19:34:55.210949+00:00"
   },
   {
     "title": "U.K. Startup Develops Autonomous Cubesat Swarms",
@@ -133,140 +268,5 @@
     "source_url": "https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
     "published_at": "2026-11-04T09:11:15+00:00",
     "fetched_at": "2026-11-04T11:51:48.793085+00:00"
-  },
-  {
-    "title": "Jacobs Appointed Contractor for £1bn California Wastewater Plant",
-    "summary": "Jacobs has been appointed as the progressive design-build contractor for the Southeast Treatment Plant Nutrient Reduction Project.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/jacobs-selected-as-progressive-design-build-contractor-for-1bn-california-wastewater-plant-04-11-2026/",
-    "published_at": "2026-11-04T08:40:54+00:00",
-    "fetched_at": "2026-11-04T11:51:48.793091+00:00"
-  },
-  {
-    "title": "UKAEA Installs 12t Vessel to Boost Fusion Facility Heat",
-    "summary": "A 12t stainless-steel containment vessel has been installed at the UKAEA Culham campus for the Mast Upgrade.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/ukaea-installs-12t-double-beam-box-to-boost-heat-power-at-fusion-facility-04-11-2026/",
-    "published_at": "2026-11-04T08:26:57+00:00",
-    "fetched_at": "2026-11-04T11:51:48.793095+00:00"
-  },
-  {
-    "title": "Unified 3D-IC Signal Integrity Environment Announced",
-    "summary": "A new unified environment spans architecture exploration, extraction, simulation, compliance verification, and system-level signoff.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/3d-ic-signal-integrity-from-silicon-interposers-to-system-signoff/",
-    "published_at": "2026-11-04T08:02:20+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566777+00:00"
-  },
-  {
-    "title": "Application Fit in Power Transistors",
-    "summary": "Silicon MOSFETs, IGBTs, SiC MOSFETs, and GaN HEMTs offer distinct advantages that vary across power stages and converters.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/choosing-the-right-power-transistor-why-application-fit-matters-more-than-technology/",
-    "published_at": "2026-11-04T08:01:04+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566788+00:00"
-  },
-  {
-    "title": "Neural Super Resolution Overview",
-    "summary": "Neural graphics improve image quality and performance while simplifying deployment on constrained devices.",
-    "category": "Computing",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/neural-super-resolution/",
-    "published_at": "2026-11-04T08:01:01+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566793+00:00"
-  },
-  {
-    "title": "GPS-Based Speed Limiters Deployed in US",
-    "summary": "The US has started deploying GPS-based speed-limiting devices on cars to prevent reckless drivers from exceeding limits.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/speed-limiters-on-us-roads-2026-11/",
-    "published_at": "2026-11-04T06:12:27+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566798+00:00"
-  },
-  {
-    "title": "Filtronic Wins £1.9M DCMS Contract",
-    "summary": "Filtronic secured a £1.9 million contract under the Advanced Connectivity Technologies competition delivered by Innovate UK.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/filtronic-wins-1-9m-dcms-contract-2026-11/",
-    "published_at": "2026-11-04T06:04:59+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566805+00:00"
-  },
-  {
-    "title": "MIT-Led Team Receives ARPA-H Funding for Wearable Monitor",
-    "summary": "The team received up to $38 million to develop a low-power, noninvasive sensor patch for early disease detection.",
-    "category": "Biomedical",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/mit-led-team-receives-funding-for-early-disease-detection-wearable-monitor-1104",
-    "published_at": "2026-11-04T05:00:00+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566809+00:00"
-  },
-  {
-    "title": "Realbotix Launches Tabletop Humanoids Under $12,000",
-    "summary": "Las Vegas-based Realbotix introduced four tabletop humanoid models focusing on the top half to achieve lower consumer pricing.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/ai-humanoids/americans-realistic-humanoids-realbotix/",
-    "published_at": "2026-11-04T03:14:29+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566813+00:00"
-  },
-  {
-    "title": "Robot Dogs Conquer 3,100 Mountain Steps",
-    "summary": "Robot dogs were tested by racing up over 3,000 uneven stone steps on a mountain to aid in machine training.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/ai-humanoids/watch-robot-dogs-climb-giant-mountain/",
-    "published_at": "2026-11-04T00:00:57+00:00",
-    "fetched_at": "2026-11-04T11:51:54.566817+00:00"
-  },
-  {
-    "title": "India's Chip Packaging Boom and Small OSATs",
-    "summary": "Small OSATs in India can start with an investment of up to ₹2 billion, though survival depends on anchor customers, skilled staff, and qualification.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/is-there-room-for-small-scale-osats-in-india-chip-packaging-boom/",
-    "published_at": "2026-11-03T23:30:00+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156552+00:00"
-  },
-  {
-    "title": "NASA Explores Options to Save Hubble",
-    "summary": "NASA is asking industry for ideas to extend the work of the healthy Hubble Space Telescope as atmospheric drag pulls it toward Earth.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope",
-    "published_at": "2026-11-03T22:00:00+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156568+00:00"
-  },
-  {
-    "title": "Europe's Hera Probe Spots Dimorphos",
-    "summary": "Europe's Hera planetary defense spacecraft is closing in on the binary asteroid system and can now distinguish the two rocky bodies.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo",
-    "published_at": "2026-11-03T19:00:00+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156574+00:00"
-  },
-  {
-    "title": "DreamX Universal Latent Action Learner",
-    "summary": "Researchers introduced DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner for cross-embodiment transfer.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05377v1",
-    "published_at": "2026-11-03T18:59:56+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156579+00:00"
-  },
-  {
-    "title": "Bayesian Optimized Model for Real-Time EEG Phase Estimation",
-    "summary": "A Bayesian-Optimized Biquad Filter-Burg model achieves matched or better real-time EEG phase estimation performance at a fraction of calibration time.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.05374v1",
-    "published_at": "2026-11-03T18:59:45+00:00",
-    "fetched_at": "2026-11-04T11:52:00.156584+00:00"
   }
 ]
