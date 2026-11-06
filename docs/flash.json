@@ -1,5 +1,32 @@
 [
   {
+    "title": "IEEE Spectrum's Video Friday Highlights Cable-Driven Home Robot",
+    "summary": "The latest Video Friday showcase features a room-scale cable-driven home robot designed to tidy up spaces.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/video-friday-home-cable-robot",
+    "published_at": "2026-11-06T17:00:03+00:00",
+    "fetched_at": "2026-11-06T18:44:57.014104+00:00"
+  },
+  {
+    "title": "POWERGEN 2027 Announces Keynote Program on Grid Reliability",
+    "summary": "Utility and grid executives will headline a keynote program addressing demand growth, grid readiness, and operational resilience.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/business/powergen-2027-announces-keynote-program-featuring-industry-leaders-addressing-grid-reliability-ai-and-the-future-of-power-generation/",
+    "published_at": "2026-11-06T13:29:42+00:00",
+    "fetched_at": "2026-11-06T18:44:57.014116+00:00"
+  },
+  {
+    "title": "Trimble Integrates Cloud Drone Processing into WorksManager",
+    "summary": "The software now overlays flight data with design and machine data to calculate volumes and verify materials.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/trimble-adds-cloud-drone-processing-to-worksmanager/",
+    "published_at": "2026-11-06T11:37:25+00:00",
+    "fetched_at": "2026-11-06T18:44:57.014121+00:00"
+  },
+  {
     "title": "4-Billion-Year-Old Martian Meteorite Discovered in Sahara",
     "summary": "A 4.1-billion-year-old rock found in the Sahara Desert is one of the oldest Martian meteorites ever discovered.",
     "category": "Aerospace",
@@ -241,32 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.08352v1",
     "published_at": "2026-11-05T17:34:53+00:00",
     "fetched_at": "2026-11-06T11:50:17.698784+00:00"
-  },
-  {
-    "title": "Method Estimates Distribution Grid Upgrade Costs from Electrification",
-    "summary": "A new methodology dispatches county-level building electrification projections to evaluate distribution feeder upgrade costs.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08347v1",
-    "published_at": "2026-11-05T17:33:09+00:00",
-    "fetched_at": "2026-11-06T11:50:17.698794+00:00"
-  },
-  {
-    "title": "Output-Feedback Integral Sliding-Mode Extremum Seeking Developed",
-    "summary": "Researchers developed a dither-free extremum-seeking controller for nonlinear dynamic systems with unknown steady-state performance maps.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08345v1",
-    "published_at": "2026-11-05T17:30:52+00:00",
-    "fetched_at": "2026-11-06T11:50:17.698798+00:00"
-  },
-  {
-    "title": "China Blocks SoftBank’s $5.4B Acquisition of ABB Robotics",
-    "summary": "Chinese regulators halted the acquisition citing concerns over the potential transfer of robot data for AI training.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
-    "published_at": "2026-11-05T16:25:46+00:00",
-    "fetched_at": "2026-11-05T19:34:33.576581+00:00"
   }
 ]
