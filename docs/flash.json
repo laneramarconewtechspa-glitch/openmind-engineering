@@ -1,5 +1,50 @@
 [
   {
+    "title": "Lollipop Sensor Makes Pediatric Saliva Tests Fun",
+    "summary": "Researchers at the University of Southern California developed a lollipop-shaped oral sensor to make saliva collection and medical testing easier for kids.",
+    "category": "Biomedical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/good-thinking/lollylab-lollipop-medication-sensor/",
+    "published_at": "2026-11-07T08:03:00+00:00",
+    "fetched_at": "2026-11-07T10:53:34.653665+00:00"
+  },
+  {
+    "title": "Magnetic Modular Display Adds Three Screens to Laptops",
+    "summary": "TobenONE launched a Kickstarter campaign for a magnetic modular display system that quickly attaches up to three adjustable screens to a laptop.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/computers/tobenone-magnetic-modular-display/",
+    "published_at": "2026-11-07T00:03:00+00:00",
+    "fetched_at": "2026-11-07T10:53:34.653678+00:00"
+  },
+  {
+    "title": "AST SpaceMobile Announces Blacklift Rocket for 2028",
+    "summary": "AST SpaceMobile plans to build and launch its broadband satellites using a newly announced in-house rocket called Blacklift starting in 2028.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ast-spacemobile-announces-new-blacklift-rocket-targets-2028-launch-debut",
+    "published_at": "2026-11-06T22:00:00+00:00",
+    "fetched_at": "2026-11-07T10:53:34.653683+00:00"
+  },
+  {
+    "title": "Unistellar Envision Smart Binoculars Feature AR Overlay",
+    "summary": "The Unistellar Envision smart binoculars integrate an augmented reality overlay to provide night sky and landmark identification capabilities.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/skywatching-kit/i-finally-got-my-hands-on-the-unistellar-envision-smart-binoculars-with-augmented-reality-for-the-night-sky-heres-what-theyre-like",
+    "published_at": "2026-11-06T20:00:00+00:00",
+    "fetched_at": "2026-11-07T10:53:34.653687+00:00"
+  },
+  {
+    "title": "POWERGEN 2027 Keynote Focuses on Grid Reliability and AI",
+    "summary": "Utility and grid executives will headline a keynote program addressing demand growth, grid readiness, and operational resilience.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/powergen-2027-announces-keynote-program-featuring-industry-leaders-addressing-grid-reliability-ai-and-the-future-of-power-generation/",
+    "published_at": "2026-11-06T17:46:55+00:00",
+    "fetched_at": "2026-11-07T10:53:37.577570+00:00"
+  },
+  {
     "title": "IEEE Spectrum's Video Friday Highlights Cable-Driven Home Robot",
     "summary": "The latest Video Friday showcase features a room-scale cable-driven home robot designed to tidy up spaces.",
     "category": "Robotics",
@@ -7,6 +52,15 @@
     "source_url": "https://spectrum.ieee.org/video-friday-home-cable-robot",
     "published_at": "2026-11-06T17:00:03+00:00",
     "fetched_at": "2026-11-06T18:44:57.014104+00:00"
+  },
+  {
+    "title": "Leap and HIE Partner to Relaunch Sutherland Space Launches",
+    "summary": "Launch vehicle startup Leap signed an MoU with Highlands and Islands Enterprise to develop and relaunch space launches in Sutherland.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/leap-signs-mou-to-relaunch-sutherland-space-launches-2026-11/",
+    "published_at": "2026-11-06T16:03:52+00:00",
+    "fetched_at": "2026-11-07T10:53:37.577579+00:00"
   },
   {
     "title": "POWERGEN 2027 Announces Keynote Program on Grid Reliability",
@@ -117,6 +171,33 @@
     "fetched_at": "2026-11-05T19:34:33.576560+00:00"
   },
   {
+    "title": "Engineered Corynebacterium glutamicum Produces L-Threonine from Acetate",
+    "summary": "Researchers developed a pH-controlled fed-batch process using an engineered bacterial strain to produce L-threonine from acetate.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b56d033202ef564811fa5a1cc22bbe0cbdcf1f83",
+    "published_at": "2026-11-06T00:00:00+00:00",
+    "fetched_at": "2026-11-07T10:53:37.577584+00:00"
+  },
+  {
+    "title": "Sulfur-Vacancy Engineering Enhances Hydrogen Evolution in Bi2S3",
+    "summary": "Introducing sulfur vacancies breaks centrosymmetry in Bi2S3, unlocking piezo-pyroelectric coupling for improved hydrogen production.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/991fcc527fe1e9864b6f199706cc4c6a6e196e88",
+    "published_at": "2026-11-06T00:00:00+00:00",
+    "fetched_at": "2026-11-07T10:53:37.577588+00:00"
+  },
+  {
+    "title": "Stacking-Sequence Engineering Optimizes Prelithiation of SiOx Anodes",
+    "summary": "Optimizing the stacking sequence of Ni/Ag bilayer thin films on SiOx electrodes enables rapid and efficient direct-contact prelithiation.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/1b9c1d021466598ec0ed889d44573f127a04fa3a",
+    "published_at": "2026-11-06T00:00:00+00:00",
+    "fetched_at": "2026-11-07T10:53:37.577592+00:00"
+  },
+  {
     "title": "Agility Robotics Closes First Trading Day on Nasdaq",
     "summary": "Humanoid developer Agility Robotics ended its first day of trading on the Nasdaq at $11.49, up 2 percent.",
     "category": "Robotics",
@@ -187,86 +268,5 @@
     "source_url": "https://www.eetimes.com/from-pytorch-to-product-accelerating-edge-ai-through-open-ecosystems/",
     "published_at": "2026-11-05T18:12:42+00:00",
     "fetched_at": "2026-11-05T19:34:57.621004+00:00"
-  },
-  {
-    "title": "Core-Lock Scheduling Cuts 5G NR LDPC Decoder Latency",
-    "summary": "A hardware-efficient scheduling mechanism for 5G LDPC decoders reduces decoding latency by up to 45.5 percent without error rate degradation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08400v1",
-    "published_at": "2026-11-05T18:11:27+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780755+00:00"
-  },
-  {
-    "title": "Multimodal Haptic Interface for Softness and Thermal Modulation",
-    "summary": "A new tactile display technology achieves simultaneous control of object stiffness and temperature for virtual reality and medical simulations.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08398v1",
-    "published_at": "2026-11-05T18:10:25+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780759+00:00"
-  },
-  {
-    "title": "SCALE: Real-Time Latent Communication for Cyber-Physical Agents",
-    "summary": "A real-time latent communication method matches and schedules token transmission across cyber-physical agents to improve bandwidth-constrained collaboration.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08390v1",
-    "published_at": "2026-11-05T18:05:58+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780763+00:00"
-  },
-  {
-    "title": "SLA: Scaling Spatial-Language-Action Models via Pre-training",
-    "summary": "A spatial-language-action model scales implicit spatial alignment to continual pre-training while preserving pretrained weights and inference architecture.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08373v1",
-    "published_at": "2026-11-05T17:52:16+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780767+00:00"
-  },
-  {
-    "title": "VisionSIM Simulator Models Real-World Robot Sensor Failures",
-    "summary": "A physically grounded simulation platform models raw measurement processes and modality-specific failure modes for conventional and emerging robot sensors.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08368v1",
-    "published_at": "2026-11-05T17:48:00+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780771+00:00"
-  },
-  {
-    "title": "Radio-to-Pose Information for Gauge-Drift Correction",
-    "summary": "A new interface converts power residuals and pose derivatives into Gaussian information matrices to correct gauge drift in cooperative robot localization.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08361v1",
-    "published_at": "2026-11-05T17:41:02+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780775+00:00"
-  },
-  {
-    "title": "ChipAgents Introduces AI-Native Analog Design Workflow",
-    "summary": "A new webinar introduces an agentic loop system designed to automate analog chip design, simulation, and verification.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/accelerate-analog-design-with-flexible-ai-native-workflows/",
-    "published_at": "2026-11-05T17:40:24+00:00",
-    "fetched_at": "2026-11-05T19:34:33.576573+00:00"
-  },
-  {
-    "title": "OraRefer AI Screenings for Oral Cancer Using Photographs",
-    "summary": "A segmentation-guided patient-level screening model combines smartphone photographs to detect oral cancer and pre-malignant disorders with guaranteed sensitivity.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08360v1",
-    "published_at": "2026-11-05T17:39:50+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780778+00:00"
-  },
-  {
-    "title": "USB Gym Testbed Evaluates Ultrasound View Matching",
-    "summary": "Researchers developed USB Gym, a simulation testbed for closed-loop ultrasound probe guidance using public patient CT data.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08352v1",
-    "published_at": "2026-11-05T17:34:53+00:00",
-    "fetched_at": "2026-11-06T11:50:17.698784+00:00"
   }
 ]
