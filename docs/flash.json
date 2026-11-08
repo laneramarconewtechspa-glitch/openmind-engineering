@@ -18,6 +18,24 @@
     "fetched_at": "2026-11-07T10:53:34.653678+00:00"
   },
   {
+    "title": "Computational Study Explores Copper(I) Photosensitizers for Solar Energy",
+    "summary": "Researchers used density functional theory to investigate how substituent modifications affect the structure and photophysical properties of copper(I) complexes.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/6106a0f780988981ec35d6a0d7bcee9d49cbef02",
+    "published_at": "2026-11-07T00:00:00+00:00",
+    "fetched_at": "2026-11-08T10:54:11.569875+00:00"
+  },
+  {
+    "title": "Battery Reserve Deliverability for Solar Ramp Firming Analyzed",
+    "summary": "A study evaluates how using a battery for solar generation smoothing reduces its available reserve power due to shared stored energy and converters.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/221684b765c22e8090bd07d3617cf09e19c051e1",
+    "published_at": "2026-11-07T00:00:00+00:00",
+    "fetched_at": "2026-11-08T10:54:11.569887+00:00"
+  },
+  {
     "title": "AST SpaceMobile Announces Blacklift Rocket for 2028",
     "summary": "AST SpaceMobile plans to build and launch its broadband satellites using a newly announced in-house rocket called Blacklift starting in 2028.",
     "category": "Aerospace",
@@ -250,23 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.08458v1",
     "published_at": "2026-11-05T18:50:06+00:00",
     "fetched_at": "2026-11-06T11:50:13.780742+00:00"
-  },
-  {
-    "title": "Dynamics-Aware Past-Future Information Bottleneck for Control",
-    "summary": "A constrained information-theoretic compression method ensures compressed dynamical systems are realizable for estimation and control applications.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08426v1",
-    "published_at": "2026-11-05T18:21:29+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780752+00:00"
-  },
-  {
-    "title": "Accelerating Edge AI Deployment",
-    "summary": "Open-source technologies are being used to help developers deploy AI applications on resource-constrained embedded devices.",
-    "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/from-pytorch-to-product-accelerating-edge-ai-through-open-ecosystems/",
-    "published_at": "2026-11-05T18:12:42+00:00",
-    "fetched_at": "2026-11-05T19:34:57.621004+00:00"
   }
 ]
