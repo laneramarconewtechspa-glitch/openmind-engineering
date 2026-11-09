@@ -1,5 +1,59 @@
 [
   {
+    "title": "PhysFVN: Illumination-Aware Visible-NIR Fusion for rPPG",
+    "summary": "Researchers propose PhysFVN, an illumination-aware visible-NIR fusion framework using vision-language models for remote photoplethysmography.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/0fc2ce7bb065d7c275d4a8c5f4939c30f24287ed",
+    "published_at": "2026-11-10T00:00:00+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618853+00:00"
+  },
+  {
+    "title": "LPDDR6 Emerges as Essential Memory in Physical AI",
+    "summary": "LPDDR6 is becoming an essential ingredient as intelligence moves into autonomous and mobile edge systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/memory-in-physical-ai/",
+    "published_at": "2026-11-09T08:15:21+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618868+00:00"
+  },
+  {
+    "title": "TSMC Rumored to Explore 3D DRAM Development",
+    "summary": "Industry reports suggest TSMC has appointed a vice-president to investigate entering the 3D DRAM market.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/tsmc-rumoured-to-be-eyeing-3d-dram-2026-11/",
+    "published_at": "2026-11-09T06:17:29+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618874+00:00"
+  },
+  {
+    "title": "New AI Model Simulates Behavior of Various Substances",
+    "summary": "The WorldParticle system learns how matter moves to simulate substances ranging from sliding sand to folding proteins.",
+    "category": "Computing",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+    "published_at": "2026-11-09T05:00:00+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618879+00:00"
+  },
+  {
+    "title": "France Unveils SCX 26 Warship Concept for 2040s",
+    "summary": "French shipbuilder Naval Group revealed the SCX 26 warship concept featuring lasers, railguns, and drones.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/military/naval-group-super-warship-2040-concept/",
+    "published_at": "2026-11-09T00:03:00+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618884+00:00"
+  },
+  {
+    "title": "Scientists Discover Gravitational Reconnection in Einstein Equations",
+    "summary": "Researchers identified gravitational reconnection where gravitational fields break, reconnect, and transfer energy into matter.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm",
+    "published_at": "2026-11-08T22:14:42+00:00",
+    "fetched_at": "2026-11-09T12:25:12.618889+00:00"
+  },
+  {
     "title": "Lollipop Sensor Makes Pediatric Saliva Tests Fun",
     "summary": "Researchers at the University of Southern California developed a lollipop-shaped oral sensor to make saliva collection and medical testing easier for kids.",
     "category": "Biomedical",
@@ -88,185 +142,5 @@
     "source_url": "https://www.power-eng.com/business/powergen-2027-announces-keynote-program-featuring-industry-leaders-addressing-grid-reliability-ai-and-the-future-of-power-generation/",
     "published_at": "2026-11-06T13:29:42+00:00",
     "fetched_at": "2026-11-06T18:44:57.014116+00:00"
-  },
-  {
-    "title": "Trimble Integrates Cloud Drone Processing into WorksManager",
-    "summary": "The software now overlays flight data with design and machine data to calculate volumes and verify materials.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/trimble-adds-cloud-drone-processing-to-worksmanager/",
-    "published_at": "2026-11-06T11:37:25+00:00",
-    "fetched_at": "2026-11-06T18:44:57.014121+00:00"
-  },
-  {
-    "title": "4-Billion-Year-Old Martian Meteorite Discovered in Sahara",
-    "summary": "A 4.1-billion-year-old rock found in the Sahara Desert is one of the oldest Martian meteorites ever discovered.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/4-billion-year-old-rosetta-stone-found-in-sahara-desert-could-unlock-the-secret-history-of-water-on-mars",
-    "published_at": "2026-11-06T11:00:00+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880087+00:00"
-  },
-  {
-    "title": "ONYX RCR 80V Electric Motorcycle Hits 75mph",
-    "summary": "The ONYX RCR 80V bridges e-bikes and motorcycles, offering a 21,000-watt motor capable of reaching 75 mph.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/bicycles/onyx-rcr-80v-review/",
-    "published_at": "2026-11-06T10:58:24+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880099+00:00"
-  },
-  {
-    "title": "Europe's Chip Industry Faces Geopolitical Pressures",
-    "summary": "At SEMICON Europa 2026, Europe's semiconductor industry will confront a combination of competitive, technological, and geopolitical pressures.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
-    "published_at": "2026-11-06T09:53:05+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880105+00:00"
-  },
-  {
-    "title": "Semiconductor Industry Week in Review",
-    "summary": "Recent developments include HBM smuggling routes into China, Micron pausing Taiwan fab work, and Samsung expanding base-die capacity.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/chip-industry-week-in-review-163/",
-    "published_at": "2026-11-06T08:01:01+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880109+00:00"
-  },
-  {
-    "title": "Glasgow Approves Land Deals for Waste Facility and Sanctuary",
-    "summary": "Glasgow City Council approved land deals to allow Scottish Water to build a waste-treatment facility alongside a water vole sanctuary.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/glasgow-committee-backs-land-deals-for-waste-treatment-centre-and-water-vole-sanctuary-06-11-2026/",
-    "published_at": "2026-11-06T06:30:14+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880113+00:00"
-  },
-  {
-    "title": "Microsoft Declines Option on Nscale's Texas Datacentre",
-    "summary": "Microsoft turned down an option to more than double its capacity at neocloud startup Nscale's Texas datacentre.",
-    "category": "Computing",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/ms-the-ns-down-expansion-option-on-nscales-texas-datacentre-2026-11/",
-    "published_at": "2026-11-06T06:16:09+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880116+00:00"
-  },
-  {
-    "title": "AI Chip Startup Tenspresso Seizes Longer Context Windows",
-    "summary": "Tenspresso, founded by ex-Google AI chip engineers, is in talks to raise $50 million at a $500 million valuation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/tenspresso-bets-on-longer-context-windows-2026-11/",
-    "published_at": "2026-11-06T06:14:03+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880120+00:00"
-  },
-  {
-    "title": "European Fabless Semiconductor Association Launched",
-    "summary": "The European Fabless Semiconductor Association was formally launched in Brussels as the first pan-European body for fabless chip designers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/european-fabless-semiconductor-association-founded-2026-11/",
-    "published_at": "2026-11-06T06:12:42+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880124+00:00"
-  },
-  {
-    "title": "Q3 DRAM Revenue Jumps 369% Year-Over-Year",
-    "summary": "Counterpoint Research reports that Q3 DRAM revenue grew 369% year-over-year, led by Samsung with a 38% market share.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/q3-dram-revenue-up-369-yoy-2026-11/",
-    "published_at": "2026-11-06T06:10:00+00:00",
-    "fetched_at": "2026-11-06T11:50:06.880127+00:00"
-  },
-  {
-    "title": "New Framework Automates Nanoparticle Image Screening",
-    "summary": "Researchers developed an image-based decision framework for rapid, explainable quality assessment of large-scale nanoparticle libraries.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/6fc1fa4784d25aaea2b203f65e78e21ff1050e9f",
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "fetched_at": "2026-11-05T19:34:33.576560+00:00"
-  },
-  {
-    "title": "Engineered Corynebacterium glutamicum Produces L-Threonine from Acetate",
-    "summary": "Researchers developed a pH-controlled fed-batch process using an engineered bacterial strain to produce L-threonine from acetate.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/b56d033202ef564811fa5a1cc22bbe0cbdcf1f83",
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "fetched_at": "2026-11-07T10:53:37.577584+00:00"
-  },
-  {
-    "title": "Sulfur-Vacancy Engineering Enhances Hydrogen Evolution in Bi2S3",
-    "summary": "Introducing sulfur vacancies breaks centrosymmetry in Bi2S3, unlocking piezo-pyroelectric coupling for improved hydrogen production.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/991fcc527fe1e9864b6f199706cc4c6a6e196e88",
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "fetched_at": "2026-11-07T10:53:37.577588+00:00"
-  },
-  {
-    "title": "Stacking-Sequence Engineering Optimizes Prelithiation of SiOx Anodes",
-    "summary": "Optimizing the stacking sequence of Ni/Ag bilayer thin films on SiOx electrodes enables rapid and efficient direct-contact prelithiation.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/1b9c1d021466598ec0ed889d44573f127a04fa3a",
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "fetched_at": "2026-11-07T10:53:37.577592+00:00"
-  },
-  {
-    "title": "Agility Robotics Closes First Trading Day on Nasdaq",
-    "summary": "Humanoid developer Agility Robotics ended its first day of trading on the Nasdaq at $11.49, up 2 percent.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
-    "published_at": "2026-11-05T22:48:14+00:00",
-    "fetched_at": "2026-11-06T11:50:09.913721+00:00"
-  },
-  {
-    "title": "Nextool Releases W20 Pro Multi-Function Ratchet Tool",
-    "summary": "The new W20 Pro combines an adjustable dual-mode ratchet wrench, multi-jaw pliers, and a bit driver into a 10-in-1 tool.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/knives-multitools/nextool-w20-pro-ratchet-multitool/",
-    "published_at": "2026-11-05T21:33:00+00:00",
-    "fetched_at": "2026-11-06T11:50:09.913731+00:00"
-  },
-  {
-    "title": "Blue Origin Unveils New Upper Stage and Engine",
-    "summary": "Blue Origin announced a third stage and a new engine named Northstar for its New Glenn rocket.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-announces-3rd-stage-for-its-powerful-new-glenn-rocket-and-a-new-engine",
-    "published_at": "2026-11-05T20:55:15+00:00",
-    "fetched_at": "2026-11-06T11:50:09.913736+00:00"
-  },
-  {
-    "title": "Polynomial Diffusion Models Optimize Data Center Batteries",
-    "summary": "A new framework uses polynomial diffusion models to forecast electricity prices and optimize battery energy storage dispatch for data centers.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08470v1",
-    "published_at": "2026-11-05T18:55:37+00:00",
-    "fetched_at": "2026-11-06T11:50:09.913740+00:00"
-  },
-  {
-    "title": "OopsieRecover Framework Fixes VLA Robotic Failures",
-    "summary": "OopsieRecover uses semantic interventions to help vision-language-action models generalize recovery behaviors from a few corrective demonstrations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08462v1",
-    "published_at": "2026-11-05T18:53:16+00:00",
-    "fetched_at": "2026-11-06T11:50:09.913744+00:00"
-  },
-  {
-    "title": "Latent RL Priors for Efficient Visual Dexterous Manipulation",
-    "summary": "Researchers introduce a two-stage framework that reuses RL control knowledge to improve data-efficient visual policy learning for dexterous manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.08458v1",
-    "published_at": "2026-11-05T18:50:06+00:00",
-    "fetched_at": "2026-11-06T11:50:13.780742+00:00"
   }
 ]
