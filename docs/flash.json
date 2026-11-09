@@ -9,6 +9,132 @@
     "fetched_at": "2026-11-09T12:25:12.618853+00:00"
   },
   {
+    "title": "NHA Backs BAAJA for Hydropower Reform",
+    "summary": "The National Hydropower Association supports the Bipartisan American Affordability and Jobs Act of 2026 for its potential hydropower reforms.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/could-baaja-be-the-change-that-u-s-hydropower-needs-to-keep-up-industry-voices-are-dam-sure-it-is/",
+    "published_at": "2026-11-09T21:15:26+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754845+00:00"
+  },
+  {
+    "title": "PJM Expects Sufficient Winter Capacity",
+    "summary": "Despite tightening reserve margins and growing demand, PJM expects to have adequate operational capacity to serve its peak this winter.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/news/will-pjm-have-enough-generation-this-winter/",
+    "published_at": "2026-11-09T20:52:30+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754858+00:00"
+  },
+  {
+    "title": "Starfish Space Loses First Otter Spacecraft",
+    "summary": "Starfish Space's first Otter servicing spacecraft suffered an orbital glitch, terminating its NASA technology demonstration mission.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/starfish-space-loses-contact-with-1st-otter-servicing-spacecraft-ending-nasa-tech-demo-mission",
+    "published_at": "2026-11-09T18:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754864+00:00"
+  },
+  {
+    "title": "NASA Launches $1M Moon Base Student Challenge",
+    "summary": "NASA initiated a $1 million challenge asking students to solve lunar base problems to help build humanity's future on the moon.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/nasa-just-launched-a-usd1-million-moon-base-student-challenge-to-award-cash-prizes-to-students-that-solve-lunar-base-problems",
+    "published_at": "2026-11-09T17:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754870+00:00"
+  },
+  {
+    "title": "UK Government Launches Rail Cost Review",
+    "summary": "The UK government launched a review to investigate the high cost of delivering rail infrastructure projects, with recommendations due in six months.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/government-to-review-cost-of-uk-rail-construction-09-11-2026/",
+    "published_at": "2026-11-09T16:23:00+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754875+00:00"
+  },
+  {
+    "title": "Electric Aircraft Hovers at NASA",
+    "summary": "A futuristic electric aircraft was photographed hovering beside Blue Origin's New Glenn rocket stage at NASA.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/technology/aerospace/futuristic-aircraft-takes-flight-at-nasa-space-photo-of-the-day-for-nov-9-2026",
+    "published_at": "2026-11-09T15:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754880+00:00"
+  },
+  {
+    "title": "Celestica and Broadcom Discuss Integrated Optics",
+    "summary": "Celestica and Broadcom detailed how integrated optics can reduce power and latency for AI data centers in an OCP Summit interview.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
+    "published_at": "2026-11-09T14:20:32+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754885+00:00"
+  },
+  {
+    "title": "Rethinking Energy Infrastructure for AI Data Centers",
+    "summary": "Experts discuss how microgrids, storage, and intelligent controls can help ease grid constraints for power-hungry AI data centers.",
+    "category": "Energy",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/powering-ai-data-centers-rethinking-energy-infrastructure-for-the-next-wave-of-ai-growth/",
+    "published_at": "2026-11-09T14:00:51+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754890+00:00"
+  },
+  {
+    "title": "UC Berkeley and NVIDIA Announce Agentic Robotics",
+    "summary": "UC Berkeley and NVIDIA unveiled agentic robotics, an AI approach that writes human-readable code to program robots without relying on massive training datasets.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/agentic-robotics",
+    "published_at": "2026-11-09T14:00:02+00:00",
+    "fetched_at": "2026-11-09T21:51:55.754895+00:00"
+  },
+  {
+    "title": "CCIA Report Examines Satellite Connectivity for Global Internet",
+    "summary": "A new report from the Computer & Communications Industry Association highlights how satellite technology can expand internet access and drive economic growth.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
+    "published_at": "2026-11-09T14:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:58.750139+00:00"
+  },
+  {
+    "title": "Cape Cod Meteorite Traced to Outer Solar System",
+    "summary": "Scientists discovered that a meteor fragment recovered in Cape Cod Bay originated from the asteroid belt between Mars and Jupiter.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/meteor-showers/meteorite-that-landed-in-cape-cod-was-a-lone-wolf-from-beyond-jupiter-scientists-find",
+    "published_at": "2026-11-09T14:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:58.750150+00:00"
+  },
+  {
+    "title": "Silicon Carbide Demand Rises as Europe Faces Investment Flow",
+    "summary": "Silicon carbide demand surges while Europe faces potential sovereignty risks as investment flows abroad.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/still-looking-for-diamonds/",
+    "published_at": "2026-11-09T13:31:16+00:00",
+    "fetched_at": "2026-11-09T21:51:58.750156+00:00"
+  },
+  {
+    "title": "Researchers Explore Location Tracking Tech for Advanced AI Chips",
+    "summary": "Lawmakers and researchers are evaluating ping-based location verification and cryptographic sovereignty certificates to track advanced AI chips and prevent smuggling.",
+    "category": "Computing",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/find-my-ai-chip",
+    "published_at": "2026-11-09T13:00:02+00:00",
+    "fetched_at": "2026-11-09T21:51:58.750162+00:00"
+  },
+  {
+    "title": "Lubrizol Uses AI and Cloud Computing to Accelerate Chemical Innovation",
+    "summary": "Specialty chemicals manufacturer Lubrizol is using AI, cloud computing, and advanced modeling to give researchers tools to test ideas faster.",
+    "category": "Materials",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+    "published_at": "2026-11-09T13:00:00+00:00",
+    "fetched_at": "2026-11-09T21:51:58.750167+00:00"
+  },
+  {
     "title": "LPDDR6 Emerges as Essential Memory in Physical AI",
     "summary": "LPDDR6 is becoming an essential ingredient as intelligence moves into autonomous and mobile edge systems.",
     "category": "Electronics & Semiconductors",
@@ -97,50 +223,5 @@
     "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ast-spacemobile-announces-new-blacklift-rocket-targets-2028-launch-debut",
     "published_at": "2026-11-06T22:00:00+00:00",
     "fetched_at": "2026-11-07T10:53:34.653683+00:00"
-  },
-  {
-    "title": "Unistellar Envision Smart Binoculars Feature AR Overlay",
-    "summary": "The Unistellar Envision smart binoculars integrate an augmented reality overlay to provide night sky and landmark identification capabilities.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/skywatching-kit/i-finally-got-my-hands-on-the-unistellar-envision-smart-binoculars-with-augmented-reality-for-the-night-sky-heres-what-theyre-like",
-    "published_at": "2026-11-06T20:00:00+00:00",
-    "fetched_at": "2026-11-07T10:53:34.653687+00:00"
-  },
-  {
-    "title": "POWERGEN 2027 Keynote Focuses on Grid Reliability and AI",
-    "summary": "Utility and grid executives will headline a keynote program addressing demand growth, grid readiness, and operational resilience.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/energy-business/powergen-2027-announces-keynote-program-featuring-industry-leaders-addressing-grid-reliability-ai-and-the-future-of-power-generation/",
-    "published_at": "2026-11-06T17:46:55+00:00",
-    "fetched_at": "2026-11-07T10:53:37.577570+00:00"
-  },
-  {
-    "title": "IEEE Spectrum's Video Friday Highlights Cable-Driven Home Robot",
-    "summary": "The latest Video Friday showcase features a room-scale cable-driven home robot designed to tidy up spaces.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/video-friday-home-cable-robot",
-    "published_at": "2026-11-06T17:00:03+00:00",
-    "fetched_at": "2026-11-06T18:44:57.014104+00:00"
-  },
-  {
-    "title": "Leap and HIE Partner to Relaunch Sutherland Space Launches",
-    "summary": "Launch vehicle startup Leap signed an MoU with Highlands and Islands Enterprise to develop and relaunch space launches in Sutherland.",
-    "category": "Aerospace",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/leap-signs-mou-to-relaunch-sutherland-space-launches-2026-11/",
-    "published_at": "2026-11-06T16:03:52+00:00",
-    "fetched_at": "2026-11-07T10:53:37.577579+00:00"
-  },
-  {
-    "title": "POWERGEN 2027 Announces Keynote Program on Grid Reliability",
-    "summary": "Utility and grid executives will headline a keynote program addressing demand growth, grid readiness, and operational resilience.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/business/powergen-2027-announces-keynote-program-featuring-industry-leaders-addressing-grid-reliability-ai-and-the-future-of-power-generation/",
-    "published_at": "2026-11-06T13:29:42+00:00",
-    "fetched_at": "2026-11-06T18:44:57.014116+00:00"
   }
 ]
