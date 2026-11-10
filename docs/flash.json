@@ -1,5 +1,122 @@
 [
   {
+    "title": "Octave Launches AI Facilities Tool",
+    "summary": "Octave has launched a cloud-based platform that combines building, space, maintenance, and operational data with digital twin capabilities.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/octave-launches-ai-enabled-multi-site-facilities-management-tool/",
+    "published_at": "2026-11-10T08:36:51+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144079+00:00"
+  },
+  {
+    "title": "Siemens and Swinburne Expand Energy Alliance",
+    "summary": "Siemens and Swinburne are expanding their energy alliance across Asia, with a training and innovation node planned for Malaysia by 2026.",
+    "category": "Energy",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-and-swinburne-expand-energy-alliance-across-asia/",
+    "published_at": "2026-11-10T08:32:21+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144092+00:00"
+  },
+  {
+    "title": "Ensuring Safety for Autonomous Farm Robots",
+    "summary": "Safe agricultural autonomy requires matching safeguards to the machine, its environment, and nearby people.",
+    "category": "Robotics",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
+    "published_at": "2026-11-10T08:32:00+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144097+00:00"
+  },
+  {
+    "title": "AI Complicates Semiconductor Chip Testing",
+    "summary": "Rapidly changing workloads, additional test insertions, and fragmented data are creating challenges for chip testing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
+    "published_at": "2026-11-10T08:07:24+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144101+00:00"
+  },
+  {
+    "title": "Predictive Models Identify Marginal Chips",
+    "summary": "Manufacturers are utilizing test data and predictive models to determine which passing chips require additional screening.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/which-passing-chips-need-more-testing/",
+    "published_at": "2026-11-10T08:05:20+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144105+00:00"
+  },
+  {
+    "title": "AI Reshapes Semiconductor Design and Efficiency",
+    "summary": "Artificial intelligence is reshaping the tools, data, and collaboration models used across silicon design, manufacturing, and testing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/ais-efficiency-challenge-for-the-semiconductor-industry/",
+    "published_at": "2026-11-10T08:03:58+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144109+00:00"
+  },
+  {
+    "title": "New AFM Modes Handbook Released",
+    "summary": "A comprehensive guide has been released to help expand materials research capabilities using atomic force microscopy.",
+    "category": "Materials",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/the-definitive-afm-modes-handbook-2026-edition/",
+    "published_at": "2026-11-10T08:01:35+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144113+00:00"
+  },
+  {
+    "title": "Addressing Silicon Photonics Process Control Challenges",
+    "summary": "Connected inspection, metrology, and software are helping manufacturers move silicon photonics toward high-volume production.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/overcoming-silicon-photonics-process-control-challenges-in-the-ai-era/",
+    "published_at": "2026-11-10T08:01:10+00:00",
+    "fetched_at": "2026-11-10T12:08:17.144117+00:00"
+  },
+  {
+    "title": "Rapidus Reports Delays in 2nm SRAM Production",
+    "summary": "Japan's state-backed Rapidus has failed to produce a functioning 2nm SRAM, casting doubt on its mass production targets.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/delays-reported-at-rapidus-2026-11/",
+    "published_at": "2026-11-10T07:36:00+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398576+00:00"
+  },
+  {
+    "title": "Gallium Oxide Wafers Enter Early Production",
+    "summary": "Gallium oxide wafers are moving into early production, offering an ultra-wide bandgap significantly wider than SiC.",
+    "category": "Materials",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/gallium-oxide-wafers-in-early-production-2026-11/",
+    "published_at": "2026-11-10T06:12:41+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398585+00:00"
+  },
+  {
+    "title": "New Development Platform for Humanoid Robots",
+    "summary": "Inova Semiconductors showcased a development platform for humanoid robots utilizing high-speed networking and low-power FPGAs at electronica 2026.",
+    "category": "Robotics",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/electronica-gand-for-humanoid-robots-2026-11/",
+    "published_at": "2026-11-10T06:06:50+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398589+00:00"
+  },
+  {
+    "title": "MIT-Led Team Receives Funding for Next-Gen Herbicides",
+    "summary": "Researchers received up to $53 million from ARPA-H to use AI in generating safer herbicides and improving food supply security.",
+    "category": "Other Engineering",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+    "published_at": "2026-11-10T05:00:00+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398593+00:00"
+  },
+  {
+    "title": "CERN Finds Evidence of Rare Particle Decay",
+    "summary": "CERN scientists discovered evidence of a particle decay occurring once in roughly 10 billion decays, ending a 40-year search.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
+    "published_at": "2026-11-10T00:42:52+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398597+00:00"
+  },
+  {
     "title": "PhysFVN: Illumination-Aware Visible-NIR Fusion for rPPG",
     "summary": "Researchers propose PhysFVN, an illumination-aware visible-NIR fusion framework using vision-language models for remote photoplethysmography.",
     "category": "Biomedical",
@@ -7,6 +124,24 @@
     "source_url": "https://www.semanticscholar.org/paper/0fc2ce7bb065d7c275d4a8c5f4939c30f24287ed",
     "published_at": "2026-11-10T00:00:00+00:00",
     "fetched_at": "2026-11-09T12:25:12.618853+00:00"
+  },
+  {
+    "title": "Eco Wave Power Completes Phase 1 of Digital Twin",
+    "summary": "Eco Wave Power finished Phase 1 of its AI-powered digital twin program focusing on wave interaction modeling.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/eco-wave-power-completes-first-step-of-its-digital-twin-journey/",
+    "published_at": "2026-11-09T22:25:00+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398601+00:00"
+  },
+  {
+    "title": "NRG Energy Sells Gas Generation Portfolio to LS Power",
+    "summary": "NRG Energy is selling six gas plants back to LS Power for $4 billion in a major portfolio shakeup.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/business/nrg-energy-gas-generation-ls-power-sale/",
+    "published_at": "2026-11-09T21:23:56+00:00",
+    "fetched_at": "2026-11-10T12:08:22.398605+00:00"
   },
   {
     "title": "NHA Backs BAAJA for Hydropower Reform",
@@ -27,6 +162,24 @@
     "fetched_at": "2026-11-09T21:51:55.754858+00:00"
   },
   {
+    "title": "DreamLander Reinforcement Learning Planetary Lander",
+    "summary": "Researchers presented DreamLander, a model-based reinforcement learning algorithm to generate optimal guidance and control for entry, descent, and landing problems.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12824v1",
+    "published_at": "2026-11-09T18:25:19+00:00",
+    "fetched_at": "2026-11-10T12:08:25.285882+00:00"
+  },
+  {
+    "title": "Simulating Vein Compressibility for Ultrasound-Guided Access",
+    "summary": "A physics-based simulation in NVIDIA Isaac Sim was tested to reproduce tissue mechanics and vein compressibility for robotic ultrasound-guided femoral access.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12818v1",
+    "published_at": "2026-11-09T18:21:35+00:00",
+    "fetched_at": "2026-11-10T12:08:25.285891+00:00"
+  },
+  {
     "title": "Starfish Space Loses First Otter Spacecraft",
     "summary": "Starfish Space's first Otter servicing spacecraft suffered an orbital glitch, terminating its NASA technology demonstration mission.",
     "category": "Aerospace",
@@ -34,6 +187,24 @@
     "source_url": "https://www.space.com/space-exploration/launches-spacecraft/starfish-space-loses-contact-with-1st-otter-servicing-spacecraft-ending-nasa-tech-demo-mission",
     "published_at": "2026-11-09T18:00:00+00:00",
     "fetched_at": "2026-11-09T21:51:55.754864+00:00"
+  },
+  {
+    "title": "Sliding Payload Improves Dual-UAV Load Distribution",
+    "summary": "An analysis of dual-drone payload transportation shows that allowing the load to slide along a connecting rope improves tension balance and disturbance rejection.",
+    "category": "Aerospace",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12754v1",
+    "published_at": "2026-11-09T17:34:16+00:00",
+    "fetched_at": "2026-11-10T12:08:25.285895+00:00"
+  },
+  {
+    "title": "Learning World Models via S-Information for Robot Control",
+    "summary": "Researchers introduced backward dynamics and inverse dynamics action predictors to improve latent embeddings and planning efficiency in robot world models.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12732v1",
+    "published_at": "2026-11-09T17:18:27+00:00",
+    "fetched_at": "2026-11-10T12:08:25.285899+00:00"
   },
   {
     "title": "NASA Launches $1M Moon Base Student Challenge",
@@ -45,183 +216,57 @@
     "fetched_at": "2026-11-09T21:51:55.754870+00:00"
   },
   {
-    "title": "UK Government Launches Rail Cost Review",
-    "summary": "The UK government launched a review to investigate the high cost of delivering rail infrastructure projects, with recommendations due in six months.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/government-to-review-cost-of-uk-rail-construction-09-11-2026/",
-    "published_at": "2026-11-09T16:23:00+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754875+00:00"
-  },
-  {
-    "title": "Electric Aircraft Hovers at NASA",
-    "summary": "A futuristic electric aircraft was photographed hovering beside Blue Origin's New Glenn rocket stage at NASA.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/technology/aerospace/futuristic-aircraft-takes-flight-at-nasa-space-photo-of-the-day-for-nov-9-2026",
-    "published_at": "2026-11-09T15:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754880+00:00"
-  },
-  {
-    "title": "Celestica and Broadcom Discuss Integrated Optics",
-    "summary": "Celestica and Broadcom detailed how integrated optics can reduce power and latency for AI data centers in an OCP Summit interview.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
-    "published_at": "2026-11-09T14:20:32+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754885+00:00"
-  },
-  {
-    "title": "Rethinking Energy Infrastructure for AI Data Centers",
-    "summary": "Experts discuss how microgrids, storage, and intelligent controls can help ease grid constraints for power-hungry AI data centers.",
-    "category": "Energy",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/powering-ai-data-centers-rethinking-energy-infrastructure-for-the-next-wave-of-ai-growth/",
-    "published_at": "2026-11-09T14:00:51+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754890+00:00"
-  },
-  {
-    "title": "UC Berkeley and NVIDIA Announce Agentic Robotics",
-    "summary": "UC Berkeley and NVIDIA unveiled agentic robotics, an AI approach that writes human-readable code to program robots without relying on massive training datasets.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/agentic-robotics",
-    "published_at": "2026-11-09T14:00:02+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754895+00:00"
-  },
-  {
-    "title": "CCIA Report Examines Satellite Connectivity for Global Internet",
-    "summary": "A new report from the Computer & Communications Industry Association highlights how satellite technology can expand internet access and drive economic growth.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
-    "published_at": "2026-11-09T14:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:58.750139+00:00"
-  },
-  {
-    "title": "Cape Cod Meteorite Traced to Outer Solar System",
-    "summary": "Scientists discovered that a meteor fragment recovered in Cape Cod Bay originated from the asteroid belt between Mars and Jupiter.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/meteor-showers/meteorite-that-landed-in-cape-cod-was-a-lone-wolf-from-beyond-jupiter-scientists-find",
-    "published_at": "2026-11-09T14:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:58.750150+00:00"
-  },
-  {
-    "title": "Silicon Carbide Demand Rises as Europe Faces Investment Flow",
-    "summary": "Silicon carbide demand surges while Europe faces potential sovereignty risks as investment flows abroad.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/still-looking-for-diamonds/",
-    "published_at": "2026-11-09T13:31:16+00:00",
-    "fetched_at": "2026-11-09T21:51:58.750156+00:00"
-  },
-  {
-    "title": "Researchers Explore Location Tracking Tech for Advanced AI Chips",
-    "summary": "Lawmakers and researchers are evaluating ping-based location verification and cryptographic sovereignty certificates to track advanced AI chips and prevent smuggling.",
-    "category": "Computing",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/find-my-ai-chip",
-    "published_at": "2026-11-09T13:00:02+00:00",
-    "fetched_at": "2026-11-09T21:51:58.750162+00:00"
-  },
-  {
-    "title": "Lubrizol Uses AI and Cloud Computing to Accelerate Chemical Innovation",
-    "summary": "Specialty chemicals manufacturer Lubrizol is using AI, cloud computing, and advanced modeling to give researchers tools to test ideas faster.",
-    "category": "Materials",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-    "published_at": "2026-11-09T13:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:58.750167+00:00"
-  },
-  {
-    "title": "LPDDR6 Emerges as Essential Memory in Physical AI",
-    "summary": "LPDDR6 is becoming an essential ingredient as intelligence moves into autonomous and mobile edge systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/memory-in-physical-ai/",
-    "published_at": "2026-11-09T08:15:21+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618868+00:00"
-  },
-  {
-    "title": "TSMC Rumored to Explore 3D DRAM Development",
-    "summary": "Industry reports suggest TSMC has appointed a vice-president to investigate entering the 3D DRAM market.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/tsmc-rumoured-to-be-eyeing-3d-dram-2026-11/",
-    "published_at": "2026-11-09T06:17:29+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618874+00:00"
-  },
-  {
-    "title": "New AI Model Simulates Behavior of Various Substances",
-    "summary": "The WorldParticle system learns how matter moves to simulate substances ranging from sliding sand to folding proteins.",
-    "category": "Computing",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-    "published_at": "2026-11-09T05:00:00+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618879+00:00"
-  },
-  {
-    "title": "France Unveils SCX 26 Warship Concept for 2040s",
-    "summary": "French shipbuilder Naval Group revealed the SCX 26 warship concept featuring lasers, railguns, and drones.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/naval-group-super-warship-2040-concept/",
-    "published_at": "2026-11-09T00:03:00+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618884+00:00"
-  },
-  {
-    "title": "Scientists Discover Gravitational Reconnection in Einstein Equations",
-    "summary": "Researchers identified gravitational reconnection where gravitational fields break, reconnect, and transfer energy into matter.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261104084011.htm",
-    "published_at": "2026-11-08T22:14:42+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618889+00:00"
-  },
-  {
-    "title": "Lollipop Sensor Makes Pediatric Saliva Tests Fun",
-    "summary": "Researchers at the University of Southern California developed a lollipop-shaped oral sensor to make saliva collection and medical testing easier for kids.",
+    "title": "Differentiable Inverse Rendering for Intravascular OCT Tissue Characterization",
+    "summary": "A new gradient-based inverse rendering method recovers per-pixel optical attenuation from clinical intravascular optical coherence tomography images without training data.",
     "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/good-thinking/lollylab-lollipop-medication-sensor/",
-    "published_at": "2026-11-07T08:03:00+00:00",
-    "fetched_at": "2026-11-07T10:53:34.653665+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12686v1",
+    "published_at": "2026-11-09T16:48:30+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408714+00:00"
   },
   {
-    "title": "Magnetic Modular Display Adds Three Screens to Laptops",
-    "summary": "TobenONE launched a Kickstarter campaign for a magnetic modular display system that quickly attaches up to three adjustable screens to a laptop.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/computers/tobenone-magnetic-modular-display/",
-    "published_at": "2026-11-07T00:03:00+00:00",
-    "fetched_at": "2026-11-07T10:53:34.653678+00:00"
-  },
-  {
-    "title": "Computational Study Explores Copper(I) Photosensitizers for Solar Energy",
-    "summary": "Researchers used density functional theory to investigate how substituent modifications affect the structure and photophysical properties of copper(I) complexes.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/6106a0f780988981ec35d6a0d7bcee9d49cbef02",
-    "published_at": "2026-11-07T00:00:00+00:00",
-    "fetched_at": "2026-11-08T10:54:11.569875+00:00"
-  },
-  {
-    "title": "Battery Reserve Deliverability for Solar Ramp Firming Analyzed",
-    "summary": "A study evaluates how using a battery for solar generation smoothing reduces its available reserve power due to shared stored energy and converters.",
-    "category": "Energy",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/221684b765c22e8090bd07d3617cf09e19c051e1",
-    "published_at": "2026-11-07T00:00:00+00:00",
-    "fetched_at": "2026-11-08T10:54:11.569887+00:00"
-  },
-  {
-    "title": "AST SpaceMobile Announces Blacklift Rocket for 2028",
-    "summary": "AST SpaceMobile plans to build and launch its broadband satellites using a newly announced in-house rocket called Blacklift starting in 2028.",
+    "title": "Nonlinear Control Strategy for UAV Swarm Target Encirclement",
+    "summary": "Researchers propose a hierarchical geometric Lyapunov-based control framework to achieve stable cooperative target encirclement by multiple UAVs in 3D space.",
     "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ast-spacemobile-announces-new-blacklift-rocket-targets-2028-launch-debut",
-    "published_at": "2026-11-06T22:00:00+00:00",
-    "fetched_at": "2026-11-07T10:53:34.653683+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12684v1",
+    "published_at": "2026-11-09T16:47:18+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408723+00:00"
+  },
+  {
+    "title": "Validation Protocol for Radiomic Survival Analysis in Small Cohorts",
+    "summary": "A four-step validation protocol helps address overfitting and high variability in radiomic survival analysis using small patient cohorts.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12682v1",
+    "published_at": "2026-11-09T16:46:25+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408727+00:00"
+  },
+  {
+    "title": "VLA Model Adaptation for Robotic Chess Using Real and Sim Data",
+    "summary": "Fine-tuning vision-language-action models with simulated and real demonstrations is evaluated on a precise robotic chess manipulation task.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12676v1",
+    "published_at": "2026-11-09T16:43:53+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408731+00:00"
+  },
+  {
+    "title": "Offset-Free Data-Driven Predictive Control with Explicit Disturbances",
+    "summary": "A novel data-driven predictive control formulation incorporates an explicit constant output-disturbance model and observer to achieve offset-free tracking.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12666v1",
+    "published_at": "2026-11-09T16:36:27+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408735+00:00"
+  },
+  {
+    "title": "Correctness Boundaries of Typed Plans in Natural-Language Robot Fleets",
+    "summary": "Researchers evaluate plan validation and execution reports for natural-language command execution across a simulated twenty-robot fleet.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.12654v1",
+    "published_at": "2026-11-09T16:23:31+00:00",
+    "fetched_at": "2026-11-10T12:08:47.408738+00:00"
   }
 ]
