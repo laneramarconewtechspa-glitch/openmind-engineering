@@ -1,5 +1,122 @@
 [
   {
+    "title": "Dynamic Creatures Partners With Sixth Wall to Build Hasbro Robots",
+    "summary": "Dynamic Creatures and Sixth Wall Studio are combining character authoring and mobile robots to bring Hasbro characters to life.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
+    "published_at": "2026-11-10T18:31:17+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741942+00:00"
+  },
+  {
+    "title": "Senseonics Reports Record Revenue Growth for Eversense 365",
+    "summary": "Senseonics more than doubled its revenue over last year following a breakout quarter driven by record Eversense 365 sales.",
+    "category": "Biomedical",
+    "source_name": "Drug Delivery Business News",
+    "source_url": "https://www.drugdeliverybusiness.com/senseonics-delivers-breakout-quarter-more-than-doubling-eversense-365-revenue/",
+    "published_at": "2026-11-10T15:22:38+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741955+00:00"
+  },
+  {
+    "title": "Thermal Sensor Array Enables Privacy-Focused Elevator Occupancy Monitoring",
+    "summary": "A new embedded solution combines a Melexis thermal sensor array with an edge processing library for privacy-by-design elevator occupancy detection.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
+    "published_at": "2026-11-10T15:00:00+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741961+00:00"
+  },
+  {
+    "title": "Curiosity Rover Examines New Nazca Dig Site on Mars",
+    "summary": "NASA's Curiosity rover is preparing to characterize and drill into the surface composition of the Nazca site.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/curiosity-mars-rover-sizes-up-new-nazca-dig-site-space-photo-of-the-day-for-nov-10-2026",
+    "published_at": "2026-11-10T15:00:00+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741965+00:00"
+  },
+  {
+    "title": "Sisk Completes Topping Out at Edgbaston Cricket Stadium",
+    "summary": "Sisk reached a topping out milestone on a new hotel and stand development at Warwickshire County Cricket Club.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/sisk-reaches-topping-out-milestone-on-edgbaston-cricket-stadium-development-10-11-2026/",
+    "published_at": "2026-11-10T14:55:06+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741969+00:00"
+  },
+  {
+    "title": "Intel and Altera Expand Collaboration for Physical AI Sensors",
+    "summary": "Altera and Intel are collaborating to simplify sensor integration, real-time data processing, and robotics development.",
+    "category": "Computing",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+    "published_at": "2026-11-10T14:47:10+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741973+00:00"
+  },
+  {
+    "title": "Kratos and Seagate Space Partner for Offshore Launch",
+    "summary": "Kratos and Seagate Space announced a long-term agreement to advance mobile offshore launch capabilities for national security.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
+    "published_at": "2026-11-10T14:00:00+00:00",
+    "fetched_at": "2026-11-10T19:13:22.741977+00:00"
+  },
+  {
+    "title": "ZWO Launches Affordable Seestar S30 Plus Smart Telescope",
+    "summary": "ZWO has released the Seestar S30 Plus, a new smart telescope designed to make galaxy and nebula photography more affordable for beginners.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/stargazing/skywatching-kit/see-the-first-images-from-the-new-zwo-seestar-s30-plus-a-smart-telescope-aimed-at-beginners",
+    "published_at": "2026-11-10T14:00:00+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602769+00:00"
+  },
+  {
+    "title": "NHS SBS Plans £750M Construction and Civils Framework",
+    "summary": "NHS Shared Business Services is planning a £750 million framework covering public sector construction works and civil engineering schemes.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/nhs-sbs-planning-750m-public-sector-construction-and-civils-framework-10-11-2026/",
+    "published_at": "2026-11-10T13:53:47+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602782+00:00"
+  },
+  {
+    "title": "UK Urged to Fund Large-Scale Pumped Energy Storage",
+    "summary": "Former Australian prime minister Malcolm Turnbull urged the UK Government and Ofgem to implement new funding mechanisms for large-scale pumped storage.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/government-urged-to-implement-funding-mechanisms-to-support-large-scale-energy-storage-projects-10-11-2026/",
+    "published_at": "2026-11-10T13:45:53+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602786+00:00"
+  },
+  {
+    "title": "Nuclear Sector Calls for More Reactors After Grid Demand",
+    "summary": "Following an energy operator request for increased electricity grid capacity, the nuclear sector called for more reactors to be built.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/nuclear-sector-says-more-reactors-needed-after-neso-requested-increased-electricity-grid-capacity-10-11-2026/",
+    "published_at": "2026-11-10T13:36:59+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602789+00:00"
+  },
+  {
+    "title": "Residents Return Home After South London Collapse",
+    "summary": "Residents evacuated after a partial building collapse in south London have returned to their homes after more than 11 weeks.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/residents-allowed-to-return-home-11-weeks-after-partial-building-collapse-10-11-2026/",
+    "published_at": "2026-11-10T13:13:30+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602793+00:00"
+  },
+  {
+    "title": "TSMC Reports 59.7% Year-on-Year Revenue Increase for October",
+    "summary": "TSMC announced October revenue of $17.8 billion, marking a 59.7 percent increase compared to the previous year.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/tsmc-october-revenues-up-59-7-yoy-2026-11/",
+    "published_at": "2026-11-10T11:46:02+00:00",
+    "fetched_at": "2026-11-10T19:14:59.602797+00:00"
+  },
+  {
     "title": "Octave Launches AI Facilities Tool",
     "summary": "Octave has launched a cloud-based platform that combines building, space, maintenance, and operational data with digital twin capabilities.",
     "category": "Civil & Infrastructure",
@@ -151,122 +268,5 @@
     "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/could-baaja-be-the-change-that-u-s-hydropower-needs-to-keep-up-industry-voices-are-dam-sure-it-is/",
     "published_at": "2026-11-09T21:15:26+00:00",
     "fetched_at": "2026-11-09T21:51:55.754845+00:00"
-  },
-  {
-    "title": "PJM Expects Sufficient Winter Capacity",
-    "summary": "Despite tightening reserve margins and growing demand, PJM expects to have adequate operational capacity to serve its peak this winter.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/news/will-pjm-have-enough-generation-this-winter/",
-    "published_at": "2026-11-09T20:52:30+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754858+00:00"
-  },
-  {
-    "title": "DreamLander Reinforcement Learning Planetary Lander",
-    "summary": "Researchers presented DreamLander, a model-based reinforcement learning algorithm to generate optimal guidance and control for entry, descent, and landing problems.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12824v1",
-    "published_at": "2026-11-09T18:25:19+00:00",
-    "fetched_at": "2026-11-10T12:08:25.285882+00:00"
-  },
-  {
-    "title": "Simulating Vein Compressibility for Ultrasound-Guided Access",
-    "summary": "A physics-based simulation in NVIDIA Isaac Sim was tested to reproduce tissue mechanics and vein compressibility for robotic ultrasound-guided femoral access.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12818v1",
-    "published_at": "2026-11-09T18:21:35+00:00",
-    "fetched_at": "2026-11-10T12:08:25.285891+00:00"
-  },
-  {
-    "title": "Starfish Space Loses First Otter Spacecraft",
-    "summary": "Starfish Space's first Otter servicing spacecraft suffered an orbital glitch, terminating its NASA technology demonstration mission.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/starfish-space-loses-contact-with-1st-otter-servicing-spacecraft-ending-nasa-tech-demo-mission",
-    "published_at": "2026-11-09T18:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754864+00:00"
-  },
-  {
-    "title": "Sliding Payload Improves Dual-UAV Load Distribution",
-    "summary": "An analysis of dual-drone payload transportation shows that allowing the load to slide along a connecting rope improves tension balance and disturbance rejection.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12754v1",
-    "published_at": "2026-11-09T17:34:16+00:00",
-    "fetched_at": "2026-11-10T12:08:25.285895+00:00"
-  },
-  {
-    "title": "Learning World Models via S-Information for Robot Control",
-    "summary": "Researchers introduced backward dynamics and inverse dynamics action predictors to improve latent embeddings and planning efficiency in robot world models.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12732v1",
-    "published_at": "2026-11-09T17:18:27+00:00",
-    "fetched_at": "2026-11-10T12:08:25.285899+00:00"
-  },
-  {
-    "title": "NASA Launches $1M Moon Base Student Challenge",
-    "summary": "NASA initiated a $1 million challenge asking students to solve lunar base problems to help build humanity's future on the moon.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/nasa-just-launched-a-usd1-million-moon-base-student-challenge-to-award-cash-prizes-to-students-that-solve-lunar-base-problems",
-    "published_at": "2026-11-09T17:00:00+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754870+00:00"
-  },
-  {
-    "title": "Differentiable Inverse Rendering for Intravascular OCT Tissue Characterization",
-    "summary": "A new gradient-based inverse rendering method recovers per-pixel optical attenuation from clinical intravascular optical coherence tomography images without training data.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12686v1",
-    "published_at": "2026-11-09T16:48:30+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408714+00:00"
-  },
-  {
-    "title": "Nonlinear Control Strategy for UAV Swarm Target Encirclement",
-    "summary": "Researchers propose a hierarchical geometric Lyapunov-based control framework to achieve stable cooperative target encirclement by multiple UAVs in 3D space.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12684v1",
-    "published_at": "2026-11-09T16:47:18+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408723+00:00"
-  },
-  {
-    "title": "Validation Protocol for Radiomic Survival Analysis in Small Cohorts",
-    "summary": "A four-step validation protocol helps address overfitting and high variability in radiomic survival analysis using small patient cohorts.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12682v1",
-    "published_at": "2026-11-09T16:46:25+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408727+00:00"
-  },
-  {
-    "title": "VLA Model Adaptation for Robotic Chess Using Real and Sim Data",
-    "summary": "Fine-tuning vision-language-action models with simulated and real demonstrations is evaluated on a precise robotic chess manipulation task.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12676v1",
-    "published_at": "2026-11-09T16:43:53+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408731+00:00"
-  },
-  {
-    "title": "Offset-Free Data-Driven Predictive Control with Explicit Disturbances",
-    "summary": "A novel data-driven predictive control formulation incorporates an explicit constant output-disturbance model and observer to achieve offset-free tracking.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12666v1",
-    "published_at": "2026-11-09T16:36:27+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408735+00:00"
-  },
-  {
-    "title": "Correctness Boundaries of Typed Plans in Natural-Language Robot Fleets",
-    "summary": "Researchers evaluate plan validation and execution reports for natural-language command execution across a simulated twenty-robot fleet.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.12654v1",
-    "published_at": "2026-11-09T16:23:31+00:00",
-    "fetched_at": "2026-11-10T12:08:47.408738+00:00"
   }
 ]
