@@ -9,6 +9,168 @@
     "fetched_at": "2026-11-11T11:42:09.333541+00:00"
   },
   {
+    "title": "STMicro Unifying MCUs Under STM32 Platform",
+    "summary": "STMicroelectronics is consolidating its microcontroller portfolio onto a single STM32 platform while preparing for new EU cybersecurity regulations.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/stmicros-maria-heriz-on-moving-all-its-mcus-to-one-stm32-platform/",
+    "published_at": "2026-11-11T18:28:10+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999813+00:00"
+  },
+  {
+    "title": "Credo Showcases Micro-Emitter Optics for AI Clusters",
+    "summary": "Credo highlighted its micro-emitter optics and 1.6T ZeroFlap ALC technology at OCP 2026 to ensure reliable AI cluster interconnects.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/credo-at-ocp-2026-micro-emitter-optics-and-ai-interconnect-reliability/",
+    "published_at": "2026-11-11T18:01:33+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999827+00:00"
+  },
+  {
+    "title": "Rocket Lab Raises Neutron Launch Price to $70 Million",
+    "summary": "Rocket Lab has increased the launch price of its next-generation Neutron rocket from $55 million to $70 million due to high demand.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
+    "published_at": "2026-11-11T16:00:00+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999832+00:00"
+  },
+  {
+    "title": "Network Rail Faces Estimated £9M Bill for Derailments",
+    "summary": "Repair work following the railway derailments at Lewes and Wickford is estimated to cost Network Rail £5.4M and £3.65M respectively.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/network-rail-facing-estimated-9m-bill-to-repair-lewes-and-wickford-derailments-11-11-2026/",
+    "published_at": "2026-11-11T15:46:24+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999839+00:00"
+  },
+  {
+    "title": "UK Semiconductor Startup Fractile Raises $720M",
+    "summary": "Four-year-old UK semiconductor company Fractile has secured $720 million in funding at a $7 billion valuation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/uk-semi-company-fractile-raises-720m-at-7bn-valuation-2026-11/",
+    "published_at": "2026-11-11T15:12:59+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999844+00:00"
+  },
+  {
+    "title": "Xing Mobility Pitches Immersion-Cooled Battery to Shipbuilders",
+    "summary": "Xing Mobility has unveiled its Immersio CTP marine battery pack which submerges cells in fluid, though its safety and performance claims remain unproven at sea.",
+    "category": "Energy",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/electric-ship-batteries",
+    "published_at": "2026-11-11T15:00:03+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999848+00:00"
+  },
+  {
+    "title": "Rethinking the Motor Drive Signal Chain for Factory Automation",
+    "summary": "A new whitepaper explores how integrating controllers, gate drivers, and power switches can help fit more axes into sealed motor control cabinets.",
+    "category": "Mechanical",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/three-axes-one-controller-rethinking-the-motor-drive-signal-chain-for-factory-automation/",
+    "published_at": "2026-11-11T15:00:00+00:00",
+    "fetched_at": "2026-11-11T19:08:37.999852+00:00"
+  },
+  {
+    "title": "Siemens Adds Agentic AI to HyperLynx",
+    "summary": "Siemens integrated natural-language prompt capabilities into HyperLynx for signal and power integrity verification workflows.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-adds-agentic-ai-to-hyperlynx-verification-workflows/",
+    "published_at": "2026-11-11T14:11:42+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635449+00:00"
+  },
+  {
+    "title": "Emerson Updates DeltaV FB3000 RTU",
+    "summary": "Emerson added proving and batch functions for liquids management in pipelines, terminals, and storage sites.",
+    "category": "Other Engineering",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/emerson-adds-liquids-management-to-deltav-fb3000-rtu/",
+    "published_at": "2026-11-11T13:42:45+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635464+00:00"
+  },
+  {
+    "title": "Low Water Levels Prompt Reservoir Push",
+    "summary": "Below-average water storage in England triggered calls for farmers to build more on-farm reservoir capacity.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/low-reservoir-water-storage-levels-prompt-call-for-more-on-farm-reservoirs-11-11-2026/",
+    "published_at": "2026-11-11T13:19:11+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635468+00:00"
+  },
+  {
+    "title": "Royal Navy Secures £90M for Cable Surveillance",
+    "summary": "The Royal Navy received funding for autonomous drones and AI systems to monitor undersea infrastructure.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/90m-investment-to-strengthen-surveillance-of-undersea-cables-11-11-2026/",
+    "published_at": "2026-11-11T13:11:44+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635473+00:00"
+  },
+  {
+    "title": "Memories.ai Launches Egocentric Video Pipeline",
+    "summary": "Memories.ai built a standardized video collection and annotation pipeline to supply training data for robotics.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
+    "published_at": "2026-11-11T13:00:34+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635477+00:00"
+  },
+  {
+    "title": "NASA's UVEX Telescope to Study Violent Universe",
+    "summary": "NASA's new ultraviolet space telescope will observe turbulent and violent cosmic events.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/science/astrophysics/nasas-new-uvex-space-telescope-will-peer-deep-into-the-universes-most-violent-events",
+    "published_at": "2026-11-11T13:00:00+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635481+00:00"
+  },
+  {
+    "title": "Berkeley AI Agents Program Industrial Robots",
+    "summary": "UC Berkeley and NVIDIA released open-source tools allowing AI coding agents to write and simulate robot programs.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+    "published_at": "2026-11-11T12:55:16+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635508+00:00"
+  },
+  {
+    "title": "Study Unlocks Mammalian Hair Follicle Patterns",
+    "summary": "Scientists discovered that hair follicle patterns form through cells following chemical signals rather than a detailed blueprint.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
+    "published_at": "2026-11-11T12:48:30+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635513+00:00"
+  },
+  {
+    "title": "Jacobs and PCL Win $1B San Francisco Project",
+    "summary": "A Jacobs and PCL Construction joint venture secured a design-build contract for a San Francisco wastewater upgrade.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/jacobs-and-pcl-to-deliver-1bn-san-francisco-wastewater-upgrade/",
+    "published_at": "2026-11-11T12:11:38+00:00",
+    "fetched_at": "2026-11-11T19:08:42.635519+00:00"
+  },
+  {
+    "title": "UK Military Plans Infrastructure Protection for Future Conflict",
+    "summary": "The UK military is developing plans to protect critical infrastructure during a potential war while addressing AI integration concerns.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/military-developing-plans-to-protect-uk-infrastructure-during-future-conflict-11-11-2026/",
+    "published_at": "2026-11-11T11:39:50+00:00",
+    "fetched_at": "2026-11-11T19:08:50.897884+00:00"
+  },
+  {
+    "title": "Minew Unveils MG10 Bluetooth Base Station for Indoor Positioning",
+    "summary": "Minew introduced the MG10 Bluetooth AoA positioning base station to provide real-time sub-meter indoor tracking accuracy.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/minew-mg10-bluetooth-base-station-builds-sub-meter-indoor-positioning-2026-11/",
+    "published_at": "2026-11-11T11:05:10+00:00",
+    "fetched_at": "2026-11-11T19:08:50.897894+00:00"
+  },
+  {
     "title": "Honeywell Launches AI-Enabled Fire Safety Solutions",
     "summary": "New AI detectors and carbon monoxide monitoring aim to reduce false alarms and improve emergency response.",
     "category": "Civil & Infrastructure",
@@ -106,167 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.14470v1",
     "published_at": "2026-11-10T18:33:53+00:00",
     "fetched_at": "2026-11-11T11:42:13.783493+00:00"
-  },
-  {
-    "title": "Dynamic Creatures Partners With Sixth Wall to Build Hasbro Robots",
-    "summary": "Dynamic Creatures and Sixth Wall Studio are combining character authoring and mobile robots to bring Hasbro characters to life.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
-    "published_at": "2026-11-10T18:31:17+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741942+00:00"
-  },
-  {
-    "title": "UGG Unified Generative Geometry Model",
-    "summary": "Researchers introduced UGG, a unified framework that jointly models RGB video and geometric representations for 4D scene understanding and generation.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14440v1",
-    "published_at": "2026-11-10T18:11:40+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783497+00:00"
-  },
-  {
-    "title": "Cascading Contingency Analysis for Power Systems",
-    "summary": "This paper presents a stochastic hybrid systems framework for analyzing cascading contingencies and assessing risk in modern power systems.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14439v1",
-    "published_at": "2026-11-10T18:11:28+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783501+00:00"
-  },
-  {
-    "title": "VLA Model Solves 100 Household Tasks",
-    "summary": "Researchers describe a vision-language-action model solution ranking 9th in the 2026 BEHAVIOR Challenge across 100 household tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14432v1",
-    "published_at": "2026-11-10T18:06:16+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831112+00:00"
-  },
-  {
-    "title": "Capacitive Bridge Transformer Eliminates Magnetic Components",
-    "summary": "A new dual active bridge architecture uses an AC capacitive bridge to replace magnetic components and reduce frequency scaling barriers.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14416v1",
-    "published_at": "2026-11-10T17:57:10+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831123+00:00"
-  },
-  {
-    "title": "SIGMO Motion Planner for Autonomous Vehicles",
-    "summary": "SIGMO is a sigmoid-gated motion planner that uses polynomial sigmoid functions to estimate yield scores for multi-agent navigation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14414v1",
-    "published_at": "2026-11-10T17:53:57+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831127+00:00"
-  },
-  {
-    "title": "Sparse Gaussian-Process Critics in Offline Reinforcement Learning",
-    "summary": "Replacing tree-ensemble critics and adversarial autoencoders with sparse Gaussian-process critics improves hybrid offline reinforcement learning.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14374v1",
-    "published_at": "2026-11-10T17:30:34+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831132+00:00"
-  },
-  {
-    "title": "Gaussian Process-Augmented MPCC for Autonomous Underwater Vehicles",
-    "summary": "A nonlinear model predictive control method uses Gaussian process regression to compensate for dynamics inaccuracies in holonomic AUVs.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14373v1",
-    "published_at": "2026-11-10T17:30:20+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831136+00:00"
-  },
-  {
-    "title": "Integrated Framework for Analyzing Automated Storage Systems",
-    "summary": "Combining statistical model checking with process mining quantifies performance and uncovers behavioral patterns in warehouse storage systems.",
-    "category": "Civil & Infrastructure",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14371v1",
-    "published_at": "2026-11-10T17:28:54+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831139+00:00"
-  },
-  {
-    "title": "Geometry-Pointer-Flow Policy for Deformable Linear Objects",
-    "summary": "A geometry-grounded policy separates grasp-location selection from motion generation to improve manipulation shape control of deformable linear objects.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14274v1",
-    "published_at": "2026-11-10T16:17:48+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831143+00:00"
-  },
-  {
-    "title": "Designed Training Data for Robust Channel Estimation",
-    "summary": "Design criteria for synthetic training data allow offline-trained neural networks to estimate wireless channels robustly under high Doppler shifts.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14267v1",
-    "published_at": "2026-11-10T16:11:11+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831146+00:00"
-  },
-  {
-    "title": "Physics-Constrained Autoencoder for Turbofan Health Index",
-    "summary": "An autoencoder embedding physical equations in its decoder architecture tracks degradation and interprets health indices in turbofan engines.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14266v1",
-    "published_at": "2026-11-10T16:10:36+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831150+00:00"
-  },
-  {
-    "title": "Chain of Physics Framework for Fault Diagnosis",
-    "summary": "A large language model reasoning framework using a constrained knowledge graph improves fault diagnosis accuracy across complex industrial assets.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14263v1",
-    "published_at": "2026-11-10T16:09:44+00:00",
-    "fetched_at": "2026-11-11T11:42:23.831154+00:00"
-  },
-  {
-    "title": "Probabilistic Reachability for Linear Systems with Noise",
-    "summary": "Researchers developed sub-Gaussian and sub-exponential approaches to construct probabilistic reachable sets for linear systems under uncertainty.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14259v1",
-    "published_at": "2026-11-10T16:05:42+00:00",
-    "fetched_at": "2026-11-11T11:42:28.668901+00:00"
-  },
-  {
-    "title": "Elastic-WAM Improves Robot Control Efficiency",
-    "summary": "Elastic-WAM adaptively allocates world refinement computation across time and space to reduce inference overhead in robot control.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14257v1",
-    "published_at": "2026-11-10T16:04:16+00:00",
-    "fetched_at": "2026-11-11T11:42:28.668911+00:00"
-  },
-  {
-    "title": "CFAR Detectors for mmWave Radio SLAM",
-    "summary": "New constant false alarm rate detectors for angular power maps improve positioning accuracy and reduce complexity in mmWave radio SLAM.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14250v1",
-    "published_at": "2026-11-10T16:00:02+00:00",
-    "fetched_at": "2026-11-11T11:42:28.668920+00:00"
-  },
-  {
-    "title": "Information-Theoretic Threshold Design for Event Encoding",
-    "summary": "A data-driven criterion using a dimensionless information retention ratio is introduced for selecting sparse event-encoding thresholds.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14249v1",
-    "published_at": "2026-11-10T15:59:59+00:00",
-    "fetched_at": "2026-11-11T11:42:28.668926+00:00"
-  },
-  {
-    "title": "Continual Learning for Personalized Human-Agent Negotiation",
-    "summary": "Integrating a continual learning model for facial expression recognition into negotiation agents improves individual utility and concession rates.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14247v1",
-    "published_at": "2026-11-10T15:57:45+00:00",
-    "fetched_at": "2026-11-11T11:42:28.668930+00:00"
   }
 ]
