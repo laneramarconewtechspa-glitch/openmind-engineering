@@ -1,5 +1,113 @@
 [
   {
+    "title": "MoS2/NiS Composite Enhances Optical Hydrogen Sensing",
+    "summary": "Researchers demonstrated a MoS2/NiS composite thin film sensor that achieves a 3.5-fold increase in hydrogen sensitivity.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/f46ea6605085630508cc5bbe149f847758e2688c",
+    "published_at": "2026-11-12T00:00:00+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333541+00:00"
+  },
+  {
+    "title": "Honeywell Launches AI-Enabled Fire Safety Solutions",
+    "summary": "New AI detectors and carbon monoxide monitoring aim to reduce false alarms and improve emergency response.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/honeywell-unveils-intelligent-fire-and-life-safety-solutions/",
+    "published_at": "2026-11-11T10:57:05+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333554+00:00"
+  },
+  {
+    "title": "KTM Introduces 330-HP Audi-Powered Buggy",
+    "summary": "The KTM X-Bow Arrow luxury side-by-side buggy brings 330 horsepower to the American off-road market.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/ktm-xbow-arrow/",
+    "published_at": "2026-11-11T10:26:13+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333560+00:00"
+  },
+  {
+    "title": "Skyways Unveils 1,300-Mile Cargo Drone",
+    "summary": "Texas startup Skyways announced its new Skyreach cargo drone can travel over 1,300 miles at a fraction of a helicopter's cost.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/skyways-skyreach-autonomous-hybrid-vtol-cargo-drone/",
+    "published_at": "2026-11-11T08:23:19+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333565+00:00"
+  },
+  {
+    "title": "Harwin Launches XPi Cable Design and Assembly",
+    "summary": "Harwin has launched the XPi unit to provide custom cable integration services for harsh environments and safety-critical applications.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/connectors/electronica-harwin-launches-xpi-cable-design-and-assembly-service-2026-11/",
+    "published_at": "2026-11-11T06:06:09+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333570+00:00"
+  },
+  {
+    "title": "Siemens to Acquire Lauterbach",
+    "summary": "Siemens is acquiring Lauterbach, a specialist in debug and trace tools for embedded software and SoC architectures.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/siemens-buys-lauterbach-2026-11/",
+    "published_at": "2026-11-11T06:02:58+00:00",
+    "fetched_at": "2026-11-11T11:42:09.333574+00:00"
+  },
+  {
+    "title": "Electric Comb for Hair Regrowth",
+    "summary": "Researchers in China developed an electric comb that uses electrical pulses and genetic treatments to encourage hair regrowth among remaining follicles.",
+    "category": "Biomedical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/medical-devices/electric-comb-hair-bounce-back/",
+    "published_at": "2026-11-11T02:28:09+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783464+00:00"
+  },
+  {
+    "title": "Study Reveals Mosquito Odor Preferences",
+    "summary": "A new study shows that different mosquito species are attracted to distinct combinations of skin odors, chemicals, and bacteria.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm",
+    "published_at": "2026-11-11T02:21:13+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783475+00:00"
+  },
+  {
+    "title": "Cooling Media Effects on SUP9 Steel",
+    "summary": "A study investigated how different cooling media during heat treatment affect the microstructure, microhardness, and tensile properties of SUP9 spring steel.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/750f3947295562986f22bf7c490fee6733f9b611",
+    "published_at": "2026-11-11T00:00:00+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783480+00:00"
+  },
+  {
+    "title": "SpaceX Moves Starship Booster to Pad",
+    "summary": "SpaceX moved its Starship Super Heavy booster to the launch pad to prepare for an upcoming test flight.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos",
+    "published_at": "2026-11-10T22:09:39+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783484+00:00"
+  },
+  {
+    "title": "Temporal Shortcuts in Robot Memory Policies",
+    "summary": "Researchers showed that memory-augmented VLA policies indexing time steps can fail by treating pauses as work, and suggest event-based indexing as a fix.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14488v1",
+    "published_at": "2026-11-10T18:47:57+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783488+00:00"
+  },
+  {
+    "title": "TanCRAFT System Prevents Assembly Errors",
+    "summary": "TanCRAFT is a real-time predictive assistance system that tracks scenes and provides anticipatory feedback to significantly reduce human errors in assembly tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14470v1",
+    "published_at": "2026-11-10T18:33:53+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783493+00:00"
+  },
+  {
     "title": "Dynamic Creatures Partners With Sixth Wall to Build Hasbro Robots",
     "summary": "Dynamic Creatures and Sixth Wall Studio are combining character authoring and mobile robots to bring Hasbro characters to life.",
     "category": "Robotics",
@@ -9,264 +117,156 @@
     "fetched_at": "2026-11-10T19:13:22.741942+00:00"
   },
   {
-    "title": "Senseonics Reports Record Revenue Growth for Eversense 365",
-    "summary": "Senseonics more than doubled its revenue over last year following a breakout quarter driven by record Eversense 365 sales.",
-    "category": "Biomedical",
-    "source_name": "Drug Delivery Business News",
-    "source_url": "https://www.drugdeliverybusiness.com/senseonics-delivers-breakout-quarter-more-than-doubling-eversense-365-revenue/",
-    "published_at": "2026-11-10T15:22:38+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741955+00:00"
-  },
-  {
-    "title": "Thermal Sensor Array Enables Privacy-Focused Elevator Occupancy Monitoring",
-    "summary": "A new embedded solution combines a Melexis thermal sensor array with an edge processing library for privacy-by-design elevator occupancy detection.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
-    "published_at": "2026-11-10T15:00:00+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741961+00:00"
-  },
-  {
-    "title": "Curiosity Rover Examines New Nazca Dig Site on Mars",
-    "summary": "NASA's Curiosity rover is preparing to characterize and drill into the surface composition of the Nazca site.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/curiosity-mars-rover-sizes-up-new-nazca-dig-site-space-photo-of-the-day-for-nov-10-2026",
-    "published_at": "2026-11-10T15:00:00+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741965+00:00"
-  },
-  {
-    "title": "Sisk Completes Topping Out at Edgbaston Cricket Stadium",
-    "summary": "Sisk reached a topping out milestone on a new hotel and stand development at Warwickshire County Cricket Club.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/sisk-reaches-topping-out-milestone-on-edgbaston-cricket-stadium-development-10-11-2026/",
-    "published_at": "2026-11-10T14:55:06+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741969+00:00"
-  },
-  {
-    "title": "Intel and Altera Expand Collaboration for Physical AI Sensors",
-    "summary": "Altera and Intel are collaborating to simplify sensor integration, real-time data processing, and robotics development.",
+    "title": "UGG Unified Generative Geometry Model",
+    "summary": "Researchers introduced UGG, a unified framework that jointly models RGB video and geometric representations for 4D scene understanding and generation.",
     "category": "Computing",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
-    "published_at": "2026-11-10T14:47:10+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741973+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14440v1",
+    "published_at": "2026-11-10T18:11:40+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783497+00:00"
   },
   {
-    "title": "Kratos and Seagate Space Partner for Offshore Launch",
-    "summary": "Kratos and Seagate Space announced a long-term agreement to advance mobile offshore launch capabilities for national security.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
-    "published_at": "2026-11-10T14:00:00+00:00",
-    "fetched_at": "2026-11-10T19:13:22.741977+00:00"
-  },
-  {
-    "title": "ZWO Launches Affordable Seestar S30 Plus Smart Telescope",
-    "summary": "ZWO has released the Seestar S30 Plus, a new smart telescope designed to make galaxy and nebula photography more affordable for beginners.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/stargazing/skywatching-kit/see-the-first-images-from-the-new-zwo-seestar-s30-plus-a-smart-telescope-aimed-at-beginners",
-    "published_at": "2026-11-10T14:00:00+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602769+00:00"
-  },
-  {
-    "title": "NHS SBS Plans £750M Construction and Civils Framework",
-    "summary": "NHS Shared Business Services is planning a £750 million framework covering public sector construction works and civil engineering schemes.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/nhs-sbs-planning-750m-public-sector-construction-and-civils-framework-10-11-2026/",
-    "published_at": "2026-11-10T13:53:47+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602782+00:00"
-  },
-  {
-    "title": "UK Urged to Fund Large-Scale Pumped Energy Storage",
-    "summary": "Former Australian prime minister Malcolm Turnbull urged the UK Government and Ofgem to implement new funding mechanisms for large-scale pumped storage.",
+    "title": "Cascading Contingency Analysis for Power Systems",
+    "summary": "This paper presents a stochastic hybrid systems framework for analyzing cascading contingencies and assessing risk in modern power systems.",
     "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/government-urged-to-implement-funding-mechanisms-to-support-large-scale-energy-storage-projects-10-11-2026/",
-    "published_at": "2026-11-10T13:45:53+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602786+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14439v1",
+    "published_at": "2026-11-10T18:11:28+00:00",
+    "fetched_at": "2026-11-11T11:42:13.783501+00:00"
   },
   {
-    "title": "Nuclear Sector Calls for More Reactors After Grid Demand",
-    "summary": "Following an energy operator request for increased electricity grid capacity, the nuclear sector called for more reactors to be built.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/nuclear-sector-says-more-reactors-needed-after-neso-requested-increased-electricity-grid-capacity-10-11-2026/",
-    "published_at": "2026-11-10T13:36:59+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602789+00:00"
-  },
-  {
-    "title": "Residents Return Home After South London Collapse",
-    "summary": "Residents evacuated after a partial building collapse in south London have returned to their homes after more than 11 weeks.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/residents-allowed-to-return-home-11-weeks-after-partial-building-collapse-10-11-2026/",
-    "published_at": "2026-11-10T13:13:30+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602793+00:00"
-  },
-  {
-    "title": "TSMC Reports 59.7% Year-on-Year Revenue Increase for October",
-    "summary": "TSMC announced October revenue of $17.8 billion, marking a 59.7 percent increase compared to the previous year.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/tsmc-october-revenues-up-59-7-yoy-2026-11/",
-    "published_at": "2026-11-10T11:46:02+00:00",
-    "fetched_at": "2026-11-10T19:14:59.602797+00:00"
-  },
-  {
-    "title": "Octave Launches AI Facilities Tool",
-    "summary": "Octave has launched a cloud-based platform that combines building, space, maintenance, and operational data with digital twin capabilities.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/octave-launches-ai-enabled-multi-site-facilities-management-tool/",
-    "published_at": "2026-11-10T08:36:51+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144079+00:00"
-  },
-  {
-    "title": "Siemens and Swinburne Expand Energy Alliance",
-    "summary": "Siemens and Swinburne are expanding their energy alliance across Asia, with a training and innovation node planned for Malaysia by 2026.",
-    "category": "Energy",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-and-swinburne-expand-energy-alliance-across-asia/",
-    "published_at": "2026-11-10T08:32:21+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144092+00:00"
-  },
-  {
-    "title": "Ensuring Safety for Autonomous Farm Robots",
-    "summary": "Safe agricultural autonomy requires matching safeguards to the machine, its environment, and nearby people.",
+    "title": "VLA Model Solves 100 Household Tasks",
+    "summary": "Researchers describe a vision-language-action model solution ranking 9th in the 2026 BEHAVIOR Challenge across 100 household tasks.",
     "category": "Robotics",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
-    "published_at": "2026-11-10T08:32:00+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144097+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14432v1",
+    "published_at": "2026-11-10T18:06:16+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831112+00:00"
   },
   {
-    "title": "AI Complicates Semiconductor Chip Testing",
-    "summary": "Rapidly changing workloads, additional test insertions, and fragmented data are creating challenges for chip testing.",
+    "title": "Capacitive Bridge Transformer Eliminates Magnetic Components",
+    "summary": "A new dual active bridge architecture uses an AC capacitive bridge to replace magnetic components and reduce frequency scaling barriers.",
     "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
-    "published_at": "2026-11-10T08:07:24+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144101+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14416v1",
+    "published_at": "2026-11-10T17:57:10+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831123+00:00"
   },
   {
-    "title": "Predictive Models Identify Marginal Chips",
-    "summary": "Manufacturers are utilizing test data and predictive models to determine which passing chips require additional screening.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/which-passing-chips-need-more-testing/",
-    "published_at": "2026-11-10T08:05:20+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144105+00:00"
-  },
-  {
-    "title": "AI Reshapes Semiconductor Design and Efficiency",
-    "summary": "Artificial intelligence is reshaping the tools, data, and collaboration models used across silicon design, manufacturing, and testing.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/ais-efficiency-challenge-for-the-semiconductor-industry/",
-    "published_at": "2026-11-10T08:03:58+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144109+00:00"
-  },
-  {
-    "title": "New AFM Modes Handbook Released",
-    "summary": "A comprehensive guide has been released to help expand materials research capabilities using atomic force microscopy.",
-    "category": "Materials",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/the-definitive-afm-modes-handbook-2026-edition/",
-    "published_at": "2026-11-10T08:01:35+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144113+00:00"
-  },
-  {
-    "title": "Addressing Silicon Photonics Process Control Challenges",
-    "summary": "Connected inspection, metrology, and software are helping manufacturers move silicon photonics toward high-volume production.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/overcoming-silicon-photonics-process-control-challenges-in-the-ai-era/",
-    "published_at": "2026-11-10T08:01:10+00:00",
-    "fetched_at": "2026-11-10T12:08:17.144117+00:00"
-  },
-  {
-    "title": "Rapidus Reports Delays in 2nm SRAM Production",
-    "summary": "Japan's state-backed Rapidus has failed to produce a functioning 2nm SRAM, casting doubt on its mass production targets.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/delays-reported-at-rapidus-2026-11/",
-    "published_at": "2026-11-10T07:36:00+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398576+00:00"
-  },
-  {
-    "title": "Gallium Oxide Wafers Enter Early Production",
-    "summary": "Gallium oxide wafers are moving into early production, offering an ultra-wide bandgap significantly wider than SiC.",
-    "category": "Materials",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/gallium-oxide-wafers-in-early-production-2026-11/",
-    "published_at": "2026-11-10T06:12:41+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398585+00:00"
-  },
-  {
-    "title": "New Development Platform for Humanoid Robots",
-    "summary": "Inova Semiconductors showcased a development platform for humanoid robots utilizing high-speed networking and low-power FPGAs at electronica 2026.",
+    "title": "SIGMO Motion Planner for Autonomous Vehicles",
+    "summary": "SIGMO is a sigmoid-gated motion planner that uses polynomial sigmoid functions to estimate yield scores for multi-agent navigation.",
     "category": "Robotics",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/electronica-gand-for-humanoid-robots-2026-11/",
-    "published_at": "2026-11-10T06:06:50+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398589+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14414v1",
+    "published_at": "2026-11-10T17:53:57+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831127+00:00"
   },
   {
-    "title": "MIT-Led Team Receives Funding for Next-Gen Herbicides",
-    "summary": "Researchers received up to $53 million from ARPA-H to use AI in generating safer herbicides and improving food supply security.",
+    "title": "Sparse Gaussian-Process Critics in Offline Reinforcement Learning",
+    "summary": "Replacing tree-ensemble critics and adversarial autoencoders with sparse Gaussian-process critics improves hybrid offline reinforcement learning.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14374v1",
+    "published_at": "2026-11-10T17:30:34+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831132+00:00"
+  },
+  {
+    "title": "Gaussian Process-Augmented MPCC for Autonomous Underwater Vehicles",
+    "summary": "A nonlinear model predictive control method uses Gaussian process regression to compensate for dynamics inaccuracies in holonomic AUVs.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14373v1",
+    "published_at": "2026-11-10T17:30:20+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831136+00:00"
+  },
+  {
+    "title": "Integrated Framework for Analyzing Automated Storage Systems",
+    "summary": "Combining statistical model checking with process mining quantifies performance and uncovers behavioral patterns in warehouse storage systems.",
+    "category": "Civil & Infrastructure",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14371v1",
+    "published_at": "2026-11-10T17:28:54+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831139+00:00"
+  },
+  {
+    "title": "Geometry-Pointer-Flow Policy for Deformable Linear Objects",
+    "summary": "A geometry-grounded policy separates grasp-location selection from motion generation to improve manipulation shape control of deformable linear objects.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14274v1",
+    "published_at": "2026-11-10T16:17:48+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831143+00:00"
+  },
+  {
+    "title": "Designed Training Data for Robust Channel Estimation",
+    "summary": "Design criteria for synthetic training data allow offline-trained neural networks to estimate wireless channels robustly under high Doppler shifts.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14267v1",
+    "published_at": "2026-11-10T16:11:11+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831146+00:00"
+  },
+  {
+    "title": "Physics-Constrained Autoencoder for Turbofan Health Index",
+    "summary": "An autoencoder embedding physical equations in its decoder architecture tracks degradation and interprets health indices in turbofan engines.",
+    "category": "Mechanical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14266v1",
+    "published_at": "2026-11-10T16:10:36+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831150+00:00"
+  },
+  {
+    "title": "Chain of Physics Framework for Fault Diagnosis",
+    "summary": "A large language model reasoning framework using a constrained knowledge graph improves fault diagnosis accuracy across complex industrial assets.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14263v1",
+    "published_at": "2026-11-10T16:09:44+00:00",
+    "fetched_at": "2026-11-11T11:42:23.831154+00:00"
+  },
+  {
+    "title": "Probabilistic Reachability for Linear Systems with Noise",
+    "summary": "Researchers developed sub-Gaussian and sub-exponential approaches to construct probabilistic reachable sets for linear systems under uncertainty.",
     "category": "Other Engineering",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-    "published_at": "2026-11-10T05:00:00+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398593+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14259v1",
+    "published_at": "2026-11-10T16:05:42+00:00",
+    "fetched_at": "2026-11-11T11:42:28.668901+00:00"
   },
   {
-    "title": "CERN Finds Evidence of Rare Particle Decay",
-    "summary": "CERN scientists discovered evidence of a particle decay occurring once in roughly 10 billion decays, ending a 40-year search.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
-    "published_at": "2026-11-10T00:42:52+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398597+00:00"
+    "title": "Elastic-WAM Improves Robot Control Efficiency",
+    "summary": "Elastic-WAM adaptively allocates world refinement computation across time and space to reduce inference overhead in robot control.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14257v1",
+    "published_at": "2026-11-10T16:04:16+00:00",
+    "fetched_at": "2026-11-11T11:42:28.668911+00:00"
   },
   {
-    "title": "PhysFVN: Illumination-Aware Visible-NIR Fusion for rPPG",
-    "summary": "Researchers propose PhysFVN, an illumination-aware visible-NIR fusion framework using vision-language models for remote photoplethysmography.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/0fc2ce7bb065d7c275d4a8c5f4939c30f24287ed",
-    "published_at": "2026-11-10T00:00:00+00:00",
-    "fetched_at": "2026-11-09T12:25:12.618853+00:00"
+    "title": "CFAR Detectors for mmWave Radio SLAM",
+    "summary": "New constant false alarm rate detectors for angular power maps improve positioning accuracy and reduce complexity in mmWave radio SLAM.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14250v1",
+    "published_at": "2026-11-10T16:00:02+00:00",
+    "fetched_at": "2026-11-11T11:42:28.668920+00:00"
   },
   {
-    "title": "Eco Wave Power Completes Phase 1 of Digital Twin",
-    "summary": "Eco Wave Power finished Phase 1 of its AI-powered digital twin program focusing on wave interaction modeling.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/tidal-wave-energy/eco-wave-power-completes-first-step-of-its-digital-twin-journey/",
-    "published_at": "2026-11-09T22:25:00+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398601+00:00"
+    "title": "Information-Theoretic Threshold Design for Event Encoding",
+    "summary": "A data-driven criterion using a dimensionless information retention ratio is introduced for selecting sparse event-encoding thresholds.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14249v1",
+    "published_at": "2026-11-10T15:59:59+00:00",
+    "fetched_at": "2026-11-11T11:42:28.668926+00:00"
   },
   {
-    "title": "NRG Energy Sells Gas Generation Portfolio to LS Power",
-    "summary": "NRG Energy is selling six gas plants back to LS Power for $4 billion in a major portfolio shakeup.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/business/nrg-energy-gas-generation-ls-power-sale/",
-    "published_at": "2026-11-09T21:23:56+00:00",
-    "fetched_at": "2026-11-10T12:08:22.398605+00:00"
-  },
-  {
-    "title": "NHA Backs BAAJA for Hydropower Reform",
-    "summary": "The National Hydropower Association supports the Bipartisan American Affordability and Jobs Act of 2026 for its potential hydropower reforms.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/energy-business/policy-and-regulation/could-baaja-be-the-change-that-u-s-hydropower-needs-to-keep-up-industry-voices-are-dam-sure-it-is/",
-    "published_at": "2026-11-09T21:15:26+00:00",
-    "fetched_at": "2026-11-09T21:51:55.754845+00:00"
+    "title": "Continual Learning for Personalized Human-Agent Negotiation",
+    "summary": "Integrating a continual learning model for facial expression recognition into negotiation agents improves individual utility and concession rates.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.14247v1",
+    "published_at": "2026-11-10T15:57:45+00:00",
+    "fetched_at": "2026-11-11T11:42:28.668930+00:00"
   }
 ]
