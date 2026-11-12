@@ -1,5 +1,50 @@
 [
   {
+    "title": "Bubble-Powered Aquaticar Debuts as Amusement Park Ride",
+    "summary": "The Aquaticar is a new amusement park ride vehicle that is powered entirely by bubbles.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/boats-watersports/aquaticar-bubble-powered-underwater-car/",
+    "published_at": "2026-11-12T19:11:04+00:00",
+    "fetched_at": "2026-11-12T19:33:17.311405+00:00"
+  },
+  {
+    "title": "Europe Eyes Arctic Fiber Optic Cable Strategy",
+    "summary": "The European Commission released a strategy plan to build an Arctic cable hub connecting Greenland to mainland Europe.",
+    "category": "Civil & Infrastructure",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/undersea-cables-arctic-european-commission",
+    "published_at": "2026-11-12T17:06:44+00:00",
+    "fetched_at": "2026-11-12T19:33:17.311418+00:00"
+  },
+  {
+    "title": "Pakistani Astronaut to Visit Tiangong Space Station",
+    "summary": "A Pakistani pilot is set to become the first international visitor to China's Tiangong space station this month.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month",
+    "published_at": "2026-11-12T17:00:00+00:00",
+    "fetched_at": "2026-11-12T19:33:17.311424+00:00"
+  },
+  {
+    "title": "Florida Poly University Prepares Flying Police Officer",
+    "summary": "Florida Polytechnic University plans to deploy a Jetson ONE eVTOL for its campus police department.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/florida-poly-police-jetson-one-evtol-faa/",
+    "published_at": "2026-11-12T16:37:48+00:00",
+    "fetched_at": "2026-11-12T19:33:17.311429+00:00"
+  },
+  {
+    "title": "Commercial Satellite Captures Rare Image of ISS",
+    "summary": "A commercial satellite photographed the International Space Station from a unique birds-eye perspective in orbit.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/international-space-station/satellite-snaps-rare-birds-eye-view-of-the-iss-space-photo-of-the-day-for-nov-12-2026",
+    "published_at": "2026-11-12T15:00:00+00:00",
+    "fetched_at": "2026-11-12T19:33:17.311433+00:00"
+  },
+  {
     "title": "Bam Appointed for Transporter Bridge Restoration Phase",
     "summary": "Bam UK & Ireland will undertake the next phase of investigations to restore Middlesbrough's historic Transporter Bridge.",
     "category": "Civil & Infrastructure",
@@ -223,50 +268,5 @@
     "source_url": "https://spectrum.ieee.org/electric-ship-batteries",
     "published_at": "2026-11-11T15:00:03+00:00",
     "fetched_at": "2026-11-11T19:08:37.999848+00:00"
-  },
-  {
-    "title": "Rethinking the Motor Drive Signal Chain for Factory Automation",
-    "summary": "A new whitepaper explores how integrating controllers, gate drivers, and power switches can help fit more axes into sealed motor control cabinets.",
-    "category": "Mechanical",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/three-axes-one-controller-rethinking-the-motor-drive-signal-chain-for-factory-automation/",
-    "published_at": "2026-11-11T15:00:00+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999852+00:00"
-  },
-  {
-    "title": "Siemens Adds Agentic AI to HyperLynx",
-    "summary": "Siemens integrated natural-language prompt capabilities into HyperLynx for signal and power integrity verification workflows.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/siemens-adds-agentic-ai-to-hyperlynx-verification-workflows/",
-    "published_at": "2026-11-11T14:11:42+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635449+00:00"
-  },
-  {
-    "title": "Emerson Updates DeltaV FB3000 RTU",
-    "summary": "Emerson added proving and batch functions for liquids management in pipelines, terminals, and storage sites.",
-    "category": "Other Engineering",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/emerson-adds-liquids-management-to-deltav-fb3000-rtu/",
-    "published_at": "2026-11-11T13:42:45+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635464+00:00"
-  },
-  {
-    "title": "Low Water Levels Prompt Reservoir Push",
-    "summary": "Below-average water storage in England triggered calls for farmers to build more on-farm reservoir capacity.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/low-reservoir-water-storage-levels-prompt-call-for-more-on-farm-reservoirs-11-11-2026/",
-    "published_at": "2026-11-11T13:19:11+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635468+00:00"
-  },
-  {
-    "title": "Royal Navy Secures £90M for Cable Surveillance",
-    "summary": "The Royal Navy received funding for autonomous drones and AI systems to monitor undersea infrastructure.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/90m-investment-to-strengthen-surveillance-of-undersea-cables-11-11-2026/",
-    "published_at": "2026-11-11T13:11:44+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635473+00:00"
   }
 ]
