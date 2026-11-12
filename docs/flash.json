@@ -1,5 +1,122 @@
 [
   {
+    "title": "Bam Appointed for Transporter Bridge Restoration Phase",
+    "summary": "Bam UK & Ireland will undertake the next phase of investigations to restore Middlesbrough's historic Transporter Bridge.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/bam-appointed-for-next-phase-of-iconic-transporter-bridge-restoration-12-11-2026/",
+    "published_at": "2026-11-12T11:21:33+00:00",
+    "fetched_at": "2026-11-12T12:10:30.561357+00:00"
+  },
+  {
+    "title": "SketchUp 2027 Released with New Revit Import Tools",
+    "summary": "The latest software update introduces non-destructive procedures, paperless drafting tools, and a new collaboration hub.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/sketchup-2027-adds-new-modeling-and-revit-import-tools/",
+    "published_at": "2026-11-12T11:21:22+00:00",
+    "fetched_at": "2026-11-12T12:10:30.561369+00:00"
+  },
+  {
+    "title": "IMechE Urges Government Action on Material Reuse",
+    "summary": "The Institution of Mechanical Engineers wants government action to make industrial material reuse commercially viable for a circular economy.",
+    "category": "Mechanical",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/imeche-calls-for-government-action-on-industrial-material-reuse-12-11-2026/",
+    "published_at": "2026-11-12T09:33:11+00:00",
+    "fetched_at": "2026-11-12T12:10:30.561374+00:00"
+  },
+  {
+    "title": "Rethinking Memory Architectures for AI Inference",
+    "summary": "Processing data closer to memory could lower power consumption and enhance performance, despite existing thermal and architectural hurdles.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
+    "published_at": "2026-11-12T08:11:46+00:00",
+    "fetched_at": "2026-11-12T12:10:30.561378+00:00"
+  },
+  {
+    "title": "RISC-V For AI Acceleration",
+    "summary": "Experts debate whether custom instructions make RISC-V a viable breakthrough for AI acceleration.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
+    "published_at": "2026-11-12T08:01:26+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717203+00:00"
+  },
+  {
+    "title": "Foundation IP Strategy for AI SoCs",
+    "summary": "An integrated foundation IP strategy helps reduce execution risk, lower total cost of ownership, and speed up tape-out.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
+    "published_at": "2026-11-12T08:01:23+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717213+00:00"
+  },
+  {
+    "title": "Tees Valley Seeks Input for £1.3bn Transport Plan",
+    "summary": "Tees Valley Combined Authority launched preliminary market engagement for a £1.3bn transport infrastructure procurement programme.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/archive/tees-valley-combined-authority-seeks-supplier-input-on-1-3bn-transport-programme-12-11-2026/",
+    "published_at": "2026-11-12T06:30:18+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717218+00:00"
+  },
+  {
+    "title": "Tria Unveils OSM-SB-EP5 Carrier Board",
+    "summary": "Tria Technologies introduced the OSM-SB-EP5 carrier board to help shorten concept-to-product time for embedded systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/electronica-trias-osm-sb-ep5-aims-to-shorten-concept-to-product-time-2026-11/",
+    "published_at": "2026-11-12T06:10:34+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717222+00:00"
+  },
+  {
+    "title": "SS United States Scuttled as Artificial Reef",
+    "summary": "The world's fastest passenger liner was scuttled off the Florida Panhandle to become the world's largest artificial reef.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/marine/ss-united-states-passenger-liner-largest-artificial-reef/",
+    "published_at": "2026-11-12T05:46:35+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717225+00:00"
+  },
+  {
+    "title": "SpaceX Launches Classified US Space Force Mission",
+    "summary": "SpaceX launched its second classified mission for the U.S. Space Force from California within a six-day span.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
+    "published_at": "2026-11-12T05:24:54+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717228+00:00"
+  },
+  {
+    "title": "New Supercomputer Simulation Recreates Early Universe",
+    "summary": "A supercomputer simulation named Lumina recreates two billion years of early cosmic history to show how the universe emerged from darkness.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+    "published_at": "2026-11-12T04:07:24+00:00",
+    "fetched_at": "2026-11-12T12:10:33.717231+00:00"
+  },
+  {
+    "title": "Quantum Computer Stores Memory in Microscopic Vibrations",
+    "summary": "Researchers developed a quantum computer utilizing microscopic vibrations to store information and perform advanced calculations.",
+    "category": "Computing",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
+    "published_at": "2026-11-12T02:35:20+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589849+00:00"
+  },
+  {
+    "title": "Hardware Location Checks Proposed to Curb AI Chip Smuggling",
+    "summary": "Texas A&M researchers published a cryptographic authorization method using round-trip time measurements to enforce export controls on AI accelerators.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am/",
+    "published_at": "2026-11-12T00:59:35+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589858+00:00"
+  },
+  {
     "title": "MoS2/NiS Composite Enhances Optical Hydrogen Sensing",
     "summary": "Researchers demonstrated a MoS2/NiS composite thin film sensor that achieves a 3.5-fold increase in hydrogen sensitivity.",
     "category": "Materials",
@@ -7,6 +124,51 @@
     "source_url": "https://www.semanticscholar.org/paper/f46ea6605085630508cc5bbe149f847758e2688c",
     "published_at": "2026-11-12T00:00:00+00:00",
     "fetched_at": "2026-11-11T11:42:09.333541+00:00"
+  },
+  {
+    "title": "800V SiC MOSFETs Advance EV Range and Charging Performance",
+    "summary": "An Automotive Tech Forum panel explores how silicon carbide technologies boost electric vehicle range and charging capabilities.",
+    "category": "Energy",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
+    "published_at": "2026-11-11T23:34:28+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589862+00:00"
+  },
+  {
+    "title": "Examining GaN Reliability and Cost Reduction in EVs",
+    "summary": "A keynote presentation examines gallium nitride reliability and its role as an efficient solution for reducing electric vehicle system costs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
+    "published_at": "2026-11-11T23:22:01+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589865+00:00"
+  },
+  {
+    "title": "Artificial Chip Intelligence Transforms Chiplet Design Workflow",
+    "summary": "A new physics-informed foundation model introduces an AI-driven workflow to transform manual chip development into conversational design.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
+    "published_at": "2026-11-11T23:00:05+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589868+00:00"
+  },
+  {
+    "title": "NASA Launches Fresh Push for Mars Sample Return Initiative",
+    "summary": "NASA has initiated a new effort for the Mars Sample Return mission named the Perseverance Sample Retrieval Architecture.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/nasa-kick-starts-a-fresh-push-to-bring-mars-samples-home",
+    "published_at": "2026-11-11T22:00:00+00:00",
+    "fetched_at": "2026-11-12T12:10:38.589871+00:00"
+  },
+  {
+    "title": "US Industrial Automation Sees Significant Third-Quarter Growth",
+    "summary": "Third-quarter numbers indicate major investments in production robotics and physical AI assets across the US industrial sector.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/big-growth-in-us-industrial-automation/",
+    "published_at": "2026-11-11T21:52:36+00:00",
+    "fetched_at": "2026-11-12T12:10:57.297607+00:00"
   },
   {
     "title": "STMicro Unifying MCUs Under STM32 Platform",
@@ -106,167 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/latest/90m-investment-to-strengthen-surveillance-of-undersea-cables-11-11-2026/",
     "published_at": "2026-11-11T13:11:44+00:00",
     "fetched_at": "2026-11-11T19:08:42.635473+00:00"
-  },
-  {
-    "title": "Memories.ai Launches Egocentric Video Pipeline",
-    "summary": "Memories.ai built a standardized video collection and annotation pipeline to supply training data for robotics.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
-    "published_at": "2026-11-11T13:00:34+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635477+00:00"
-  },
-  {
-    "title": "NASA's UVEX Telescope to Study Violent Universe",
-    "summary": "NASA's new ultraviolet space telescope will observe turbulent and violent cosmic events.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/science/astrophysics/nasas-new-uvex-space-telescope-will-peer-deep-into-the-universes-most-violent-events",
-    "published_at": "2026-11-11T13:00:00+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635481+00:00"
-  },
-  {
-    "title": "Berkeley AI Agents Program Industrial Robots",
-    "summary": "UC Berkeley and NVIDIA released open-source tools allowing AI coding agents to write and simulate robot programs.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
-    "published_at": "2026-11-11T12:55:16+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635508+00:00"
-  },
-  {
-    "title": "Study Unlocks Mammalian Hair Follicle Patterns",
-    "summary": "Scientists discovered that hair follicle patterns form through cells following chemical signals rather than a detailed blueprint.",
-    "category": "Biomedical",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
-    "published_at": "2026-11-11T12:48:30+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635513+00:00"
-  },
-  {
-    "title": "Jacobs and PCL Win $1B San Francisco Project",
-    "summary": "A Jacobs and PCL Construction joint venture secured a design-build contract for a San Francisco wastewater upgrade.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Global Construction Review",
-    "source_url": "https://www.globalconstructionreview.com/jacobs-and-pcl-to-deliver-1bn-san-francisco-wastewater-upgrade/",
-    "published_at": "2026-11-11T12:11:38+00:00",
-    "fetched_at": "2026-11-11T19:08:42.635519+00:00"
-  },
-  {
-    "title": "UK Military Plans Infrastructure Protection for Future Conflict",
-    "summary": "The UK military is developing plans to protect critical infrastructure during a potential war while addressing AI integration concerns.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/military-developing-plans-to-protect-uk-infrastructure-during-future-conflict-11-11-2026/",
-    "published_at": "2026-11-11T11:39:50+00:00",
-    "fetched_at": "2026-11-11T19:08:50.897884+00:00"
-  },
-  {
-    "title": "Minew Unveils MG10 Bluetooth Base Station for Indoor Positioning",
-    "summary": "Minew introduced the MG10 Bluetooth AoA positioning base station to provide real-time sub-meter indoor tracking accuracy.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/minew-mg10-bluetooth-base-station-builds-sub-meter-indoor-positioning-2026-11/",
-    "published_at": "2026-11-11T11:05:10+00:00",
-    "fetched_at": "2026-11-11T19:08:50.897894+00:00"
-  },
-  {
-    "title": "Honeywell Launches AI-Enabled Fire Safety Solutions",
-    "summary": "New AI detectors and carbon monoxide monitoring aim to reduce false alarms and improve emergency response.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/honeywell-unveils-intelligent-fire-and-life-safety-solutions/",
-    "published_at": "2026-11-11T10:57:05+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333554+00:00"
-  },
-  {
-    "title": "KTM Introduces 330-HP Audi-Powered Buggy",
-    "summary": "The KTM X-Bow Arrow luxury side-by-side buggy brings 330 horsepower to the American off-road market.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/automotive/ktm-xbow-arrow/",
-    "published_at": "2026-11-11T10:26:13+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333560+00:00"
-  },
-  {
-    "title": "Skyways Unveils 1,300-Mile Cargo Drone",
-    "summary": "Texas startup Skyways announced its new Skyreach cargo drone can travel over 1,300 miles at a fraction of a helicopter's cost.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/skyways-skyreach-autonomous-hybrid-vtol-cargo-drone/",
-    "published_at": "2026-11-11T08:23:19+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333565+00:00"
-  },
-  {
-    "title": "Harwin Launches XPi Cable Design and Assembly",
-    "summary": "Harwin has launched the XPi unit to provide custom cable integration services for harsh environments and safety-critical applications.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/connectors/electronica-harwin-launches-xpi-cable-design-and-assembly-service-2026-11/",
-    "published_at": "2026-11-11T06:06:09+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333570+00:00"
-  },
-  {
-    "title": "Siemens to Acquire Lauterbach",
-    "summary": "Siemens is acquiring Lauterbach, a specialist in debug and trace tools for embedded software and SoC architectures.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/siemens-buys-lauterbach-2026-11/",
-    "published_at": "2026-11-11T06:02:58+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333574+00:00"
-  },
-  {
-    "title": "Electric Comb for Hair Regrowth",
-    "summary": "Researchers in China developed an electric comb that uses electrical pulses and genetic treatments to encourage hair regrowth among remaining follicles.",
-    "category": "Biomedical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/medical-devices/electric-comb-hair-bounce-back/",
-    "published_at": "2026-11-11T02:28:09+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783464+00:00"
-  },
-  {
-    "title": "Study Reveals Mosquito Odor Preferences",
-    "summary": "A new study shows that different mosquito species are attracted to distinct combinations of skin odors, chemicals, and bacteria.",
-    "category": "Other Engineering",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm",
-    "published_at": "2026-11-11T02:21:13+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783475+00:00"
-  },
-  {
-    "title": "Cooling Media Effects on SUP9 Steel",
-    "summary": "A study investigated how different cooling media during heat treatment affect the microstructure, microhardness, and tensile properties of SUP9 spring steel.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/750f3947295562986f22bf7c490fee6733f9b611",
-    "published_at": "2026-11-11T00:00:00+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783480+00:00"
-  },
-  {
-    "title": "SpaceX Moves Starship Booster to Pad",
-    "summary": "SpaceX moved its Starship Super Heavy booster to the launch pad to prepare for an upcoming test flight.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos",
-    "published_at": "2026-11-10T22:09:39+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783484+00:00"
-  },
-  {
-    "title": "Temporal Shortcuts in Robot Memory Policies",
-    "summary": "Researchers showed that memory-augmented VLA policies indexing time steps can fail by treating pauses as work, and suggest event-based indexing as a fix.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14488v1",
-    "published_at": "2026-11-10T18:47:57+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783488+00:00"
-  },
-  {
-    "title": "TanCRAFT System Prevents Assembly Errors",
-    "summary": "TanCRAFT is a real-time predictive assistance system that tracks scenes and provides anticipatory feedback to significantly reduce human errors in assembly tasks.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.14470v1",
-    "published_at": "2026-11-10T18:33:53+00:00",
-    "fetched_at": "2026-11-11T11:42:13.783493+00:00"
   }
 ]
