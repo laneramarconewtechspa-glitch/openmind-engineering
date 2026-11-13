@@ -1,5 +1,50 @@
 [
   {
+    "title": "Brain Waste-Clearing Waves Impaired in Older Adults",
+    "summary": "Researchers found that cerebrospinal fluid waves that clear brain waste during sleep are impaired in older adults.",
+    "category": "Biomedical",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
+    "published_at": "2026-11-13T10:00:00+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814292+00:00"
+  },
+  {
+    "title": "SimScale Launches Engineering AI Blueprint",
+    "summary": "SimScale has launched its Engineering AI Blueprint featuring NVIDIA tools to help move engineering AI from pilots to broader deployment.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/simscale-launches-engineering-ai-blueprint/",
+    "published_at": "2026-11-13T08:39:51+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814304+00:00"
+  },
+  {
+    "title": "AST SpaceMobile Eyes New Launch Vehicle",
+    "summary": "AST SpaceMobile executives expressed confidence in developing a new reusable launch vehicle in two years.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
+    "published_at": "2026-11-13T01:15:21+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814308+00:00"
+  },
+  {
+    "title": "Jake Hecla Tackles Nuclear Challenges",
+    "summary": "An MIT assistant professor is developing tools to cool space-based reactors, detect nuclear weapons, and study emerging nuclear technologies.",
+    "category": "Energy",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/addressing-nuclear-challenges-jake-hecla-1112",
+    "published_at": "2026-11-12T22:10:00+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814312+00:00"
+  },
+  {
+    "title": "Nvidia Confirmed Chip Tracking Feasibility",
+    "summary": "Nvidia privately confirmed to a U.S. lawmaker that tracking chips to prevent smuggling is technically feasible.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "published_at": "2026-11-12T20:16:24+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814315+00:00"
+  },
+  {
     "title": "Bubble-Powered Aquaticar Debuts as Amusement Park Ride",
     "summary": "The Aquaticar is a new amusement park ride vehicle that is powered entirely by bubbles.",
     "category": "Other Engineering",
@@ -7,6 +52,78 @@
     "source_url": "https://newatlas.com/boats-watersports/aquaticar-bubble-powered-underwater-car/",
     "published_at": "2026-11-12T19:11:04+00:00",
     "fetched_at": "2026-11-12T19:33:17.311405+00:00"
+  },
+  {
+    "title": "ProtoVis-Nav Improves UAV Navigation",
+    "summary": "Researchers introduced a prototypical visual imagination framework to improve vision-language navigation and reduce motion errors for UAVs.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17330v1",
+    "published_at": "2026-11-12T18:59:49+00:00",
+    "fetched_at": "2026-11-13T11:48:50.814318+00:00"
+  },
+  {
+    "title": "DiSKO: Distribution Steering for Nonlinear Systems",
+    "summary": "Researchers introduce a data-driven covariance steering framework for stochastic nonlinear systems using Koopman operator theory and deep neural networks.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17301v1",
+    "published_at": "2026-11-12T18:55:31+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422692+00:00"
+  },
+  {
+    "title": "HEIR Resource for Human-Robot Interaction Studies",
+    "summary": "HEIR pairs human speech, gaze, and egocentric video with robot navigation and manipulation trajectories to study intent grounding and execution planning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17238v1",
+    "published_at": "2026-11-12T18:25:41+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422701+00:00"
+  },
+  {
+    "title": "FanCyqlone Parallelized Solver for Optimal Control",
+    "summary": "FanCyqlone is a linear solver exploiting temporal and scenario parallelism to speed up multi-horizon optimal control problems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17221v1",
+    "published_at": "2026-11-12T18:19:04+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422705+00:00"
+  },
+  {
+    "title": "Collaborative Task Allocation via Iterative Clustering",
+    "summary": "An iterative clustering algorithm partitions global multi-robot task allocation problems into tractable subproblems to improve team utility.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17213v1",
+    "published_at": "2026-11-12T18:10:27+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422709+00:00"
+  },
+  {
+    "title": "Generalized Gated Recurrent Units for System Identification",
+    "summary": "The Generalized Gated Recurrent Neural Network unifies LSTM and GRU dynamics using continuous homotopies for nonlinear system identification.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17173v1",
+    "published_at": "2026-11-12T17:45:45+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422712+00:00"
+  },
+  {
+    "title": "XBot-Omni: Omni-Modal Model for Robotic Embodiment",
+    "summary": "XBot-Omni extends the Omni paradigm to robotic modalities, combining a Thinker, Talker, and Actor architecture for embodied communication.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17160v1",
+    "published_at": "2026-11-12T17:38:57+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422715+00:00"
+  },
+  {
+    "title": "FORGE: Force-Aware Multi-Granularity Control",
+    "summary": "FORGE provides a coarse-to-fine control system for humanoid loco-manipulation that integrates momentum observation and wrist-equivalent force estimation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17142v1",
+    "published_at": "2026-11-12T17:30:11+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422718+00:00"
   },
   {
     "title": "Europe Eyes Arctic Fiber Optic Cable Strategy",
@@ -18,6 +135,24 @@
     "fetched_at": "2026-11-12T19:33:17.311418+00:00"
   },
   {
+    "title": "SALA: Semantically Aligned Latent Actions for Robots",
+    "summary": "SALA uses language descriptions of unpaired human and robot video clips to establish semantic correspondence for latent actions in embodied models.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17110v1",
+    "published_at": "2026-11-12T17:04:50+00:00",
+    "fetched_at": "2026-11-13T11:48:54.422721+00:00"
+  },
+  {
+    "title": "TuMAP Pipeline Quantifies Renal Tubular Remodeling",
+    "summary": "Researchers introduced TuMAP, a pathomics pipeline combining foundation models and statistical inference to quantify disease-associated renal tubular remodeling from kidney biopsy slides.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17104v1",
+    "published_at": "2026-11-12T17:02:18+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858214+00:00"
+  },
+  {
     "title": "Pakistani Astronaut to Visit Tiangong Space Station",
     "summary": "A Pakistani pilot is set to become the first international visitor to China's Tiangong space station this month.",
     "category": "Aerospace",
@@ -27,6 +162,33 @@
     "fetched_at": "2026-11-12T19:33:17.311424+00:00"
   },
   {
+    "title": "FPGA-Based Carrier Synthesis for Cryogenic Detectors",
+    "summary": "This work presents an FPGA-based implementation using an oscillator and filter bank to enable real-time frequency adaptivity for cryogenic detector readout.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17099v1",
+    "published_at": "2026-11-12T16:59:11+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858223+00:00"
+  },
+  {
+    "title": "Total Energy Shaping via Gravity Compensation",
+    "summary": "This paper investigates total energy shaping of underactuated mechanical systems using gravity compensation evaluated at the desired equilibrium.",
+    "category": "Mechanical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17095v1",
+    "published_at": "2026-11-12T16:56:51+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858225+00:00"
+  },
+  {
+    "title": "GRID-MRI Assesses Power System Cyber-Resilience",
+    "summary": "The proposed Grid Multidimensional Resilience Index integrates disruption severity and stressors to evaluate electrical power systems under coordinated cyber-physical attacks.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17094v1",
+    "published_at": "2026-11-12T16:55:50+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858228+00:00"
+  },
+  {
     "title": "Florida Poly University Prepares Flying Police Officer",
     "summary": "Florida Polytechnic University plans to deploy a Jetson ONE eVTOL for its campus police department.",
     "category": "Aerospace",
@@ -34,6 +196,51 @@
     "source_url": "https://newatlas.com/aircraft/florida-poly-police-jetson-one-evtol-faa/",
     "published_at": "2026-11-12T16:37:48+00:00",
     "fetched_at": "2026-11-12T19:33:17.311429+00:00"
+  },
+  {
+    "title": "Capacity-Constrained Feedback for Conformal Risk Control",
+    "summary": "This framework jointly optimizes tracking feedback capacity allocation and prediction set construction for online conformal risk control under delayed feedback.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17059v1",
+    "published_at": "2026-11-12T16:37:20+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858231+00:00"
+  },
+  {
+    "title": "Robust Control Design for Jittered Sampling",
+    "summary": "This paper reformulates dynamic output feedback design under bounded sample-to-sample jitter as a robust-control problem using an uncertainty block decomposition.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17046v1",
+    "published_at": "2026-11-12T16:30:03+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858234+00:00"
+  },
+  {
+    "title": "Control-Gibbs Distribution for Optimal Control",
+    "summary": "This work reviews the control-Gibbs distribution and applies projected Langevin sampling to obtain diverse control solutions and solve deterministic optimal control problems.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17034v1",
+    "published_at": "2026-11-12T16:21:09+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858237+00:00"
+  },
+  {
+    "title": "Managing LLM Fallibility in Autonomous Systems",
+    "summary": "This review examines how autonomous systems can adapt their reliance on large language models using classical estimation methods to manage errors and maximize utility.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.17020v1",
+    "published_at": "2026-11-12T16:09:49+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858239+00:00"
+  },
+  {
+    "title": "Channel-Chart-Driven Antenna Activation for MIMO",
+    "summary": "This paper studies energy-efficient uplink reception in cell-free massive MIMO through antenna activation using low-dimensional channel-chart embeddings.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.16996v1",
+    "published_at": "2026-11-12T16:01:21+00:00",
+    "fetched_at": "2026-11-13T11:48:57.858242+00:00"
   },
   {
     "title": "Commercial Satellite Captures Rare Image of ISS",
@@ -61,212 +268,5 @@
     "source_url": "https://www.engineering.com/sketchup-2027-adds-new-modeling-and-revit-import-tools/",
     "published_at": "2026-11-12T11:21:22+00:00",
     "fetched_at": "2026-11-12T12:10:30.561369+00:00"
-  },
-  {
-    "title": "IMechE Urges Government Action on Material Reuse",
-    "summary": "The Institution of Mechanical Engineers wants government action to make industrial material reuse commercially viable for a circular economy.",
-    "category": "Mechanical",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/imeche-calls-for-government-action-on-industrial-material-reuse-12-11-2026/",
-    "published_at": "2026-11-12T09:33:11+00:00",
-    "fetched_at": "2026-11-12T12:10:30.561374+00:00"
-  },
-  {
-    "title": "Rethinking Memory Architectures for AI Inference",
-    "summary": "Processing data closer to memory could lower power consumption and enhance performance, despite existing thermal and architectural hurdles.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
-    "published_at": "2026-11-12T08:11:46+00:00",
-    "fetched_at": "2026-11-12T12:10:30.561378+00:00"
-  },
-  {
-    "title": "RISC-V For AI Acceleration",
-    "summary": "Experts debate whether custom instructions make RISC-V a viable breakthrough for AI acceleration.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
-    "published_at": "2026-11-12T08:01:26+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717203+00:00"
-  },
-  {
-    "title": "Foundation IP Strategy for AI SoCs",
-    "summary": "An integrated foundation IP strategy helps reduce execution risk, lower total cost of ownership, and speed up tape-out.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
-    "published_at": "2026-11-12T08:01:23+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717213+00:00"
-  },
-  {
-    "title": "Tees Valley Seeks Input for £1.3bn Transport Plan",
-    "summary": "Tees Valley Combined Authority launched preliminary market engagement for a £1.3bn transport infrastructure procurement programme.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/archive/tees-valley-combined-authority-seeks-supplier-input-on-1-3bn-transport-programme-12-11-2026/",
-    "published_at": "2026-11-12T06:30:18+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717218+00:00"
-  },
-  {
-    "title": "Tria Unveils OSM-SB-EP5 Carrier Board",
-    "summary": "Tria Technologies introduced the OSM-SB-EP5 carrier board to help shorten concept-to-product time for embedded systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/products/electronica-trias-osm-sb-ep5-aims-to-shorten-concept-to-product-time-2026-11/",
-    "published_at": "2026-11-12T06:10:34+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717222+00:00"
-  },
-  {
-    "title": "SS United States Scuttled as Artificial Reef",
-    "summary": "The world's fastest passenger liner was scuttled off the Florida Panhandle to become the world's largest artificial reef.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/marine/ss-united-states-passenger-liner-largest-artificial-reef/",
-    "published_at": "2026-11-12T05:46:35+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717225+00:00"
-  },
-  {
-    "title": "SpaceX Launches Classified US Space Force Mission",
-    "summary": "SpaceX launched its second classified mission for the U.S. Space Force from California within a six-day span.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
-    "published_at": "2026-11-12T05:24:54+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717228+00:00"
-  },
-  {
-    "title": "New Supercomputer Simulation Recreates Early Universe",
-    "summary": "A supercomputer simulation named Lumina recreates two billion years of early cosmic history to show how the universe emerged from darkness.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
-    "published_at": "2026-11-12T04:07:24+00:00",
-    "fetched_at": "2026-11-12T12:10:33.717231+00:00"
-  },
-  {
-    "title": "Quantum Computer Stores Memory in Microscopic Vibrations",
-    "summary": "Researchers developed a quantum computer utilizing microscopic vibrations to store information and perform advanced calculations.",
-    "category": "Computing",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
-    "published_at": "2026-11-12T02:35:20+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589849+00:00"
-  },
-  {
-    "title": "Hardware Location Checks Proposed to Curb AI Chip Smuggling",
-    "summary": "Texas A&M researchers published a cryptographic authorization method using round-trip time measurements to enforce export controls on AI accelerators.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am/",
-    "published_at": "2026-11-12T00:59:35+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589858+00:00"
-  },
-  {
-    "title": "MoS2/NiS Composite Enhances Optical Hydrogen Sensing",
-    "summary": "Researchers demonstrated a MoS2/NiS composite thin film sensor that achieves a 3.5-fold increase in hydrogen sensitivity.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f46ea6605085630508cc5bbe149f847758e2688c",
-    "published_at": "2026-11-12T00:00:00+00:00",
-    "fetched_at": "2026-11-11T11:42:09.333541+00:00"
-  },
-  {
-    "title": "800V SiC MOSFETs Advance EV Range and Charging Performance",
-    "summary": "An Automotive Tech Forum panel explores how silicon carbide technologies boost electric vehicle range and charging capabilities.",
-    "category": "Energy",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
-    "published_at": "2026-11-11T23:34:28+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589862+00:00"
-  },
-  {
-    "title": "Examining GaN Reliability and Cost Reduction in EVs",
-    "summary": "A keynote presentation examines gallium nitride reliability and its role as an efficient solution for reducing electric vehicle system costs.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
-    "published_at": "2026-11-11T23:22:01+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589865+00:00"
-  },
-  {
-    "title": "Artificial Chip Intelligence Transforms Chiplet Design Workflow",
-    "summary": "A new physics-informed foundation model introduces an AI-driven workflow to transform manual chip development into conversational design.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
-    "published_at": "2026-11-11T23:00:05+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589868+00:00"
-  },
-  {
-    "title": "NASA Launches Fresh Push for Mars Sample Return Initiative",
-    "summary": "NASA has initiated a new effort for the Mars Sample Return mission named the Perseverance Sample Retrieval Architecture.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/nasa-kick-starts-a-fresh-push-to-bring-mars-samples-home",
-    "published_at": "2026-11-11T22:00:00+00:00",
-    "fetched_at": "2026-11-12T12:10:38.589871+00:00"
-  },
-  {
-    "title": "US Industrial Automation Sees Significant Third-Quarter Growth",
-    "summary": "Third-quarter numbers indicate major investments in production robotics and physical AI assets across the US industrial sector.",
-    "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/big-growth-in-us-industrial-automation/",
-    "published_at": "2026-11-11T21:52:36+00:00",
-    "fetched_at": "2026-11-12T12:10:57.297607+00:00"
-  },
-  {
-    "title": "STMicro Unifying MCUs Under STM32 Platform",
-    "summary": "STMicroelectronics is consolidating its microcontroller portfolio onto a single STM32 platform while preparing for new EU cybersecurity regulations.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/stmicros-maria-heriz-on-moving-all-its-mcus-to-one-stm32-platform/",
-    "published_at": "2026-11-11T18:28:10+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999813+00:00"
-  },
-  {
-    "title": "Credo Showcases Micro-Emitter Optics for AI Clusters",
-    "summary": "Credo highlighted its micro-emitter optics and 1.6T ZeroFlap ALC technology at OCP 2026 to ensure reliable AI cluster interconnects.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/credo-at-ocp-2026-micro-emitter-optics-and-ai-interconnect-reliability/",
-    "published_at": "2026-11-11T18:01:33+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999827+00:00"
-  },
-  {
-    "title": "Rocket Lab Raises Neutron Launch Price to $70 Million",
-    "summary": "Rocket Lab has increased the launch price of its next-generation Neutron rocket from $55 million to $70 million due to high demand.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
-    "published_at": "2026-11-11T16:00:00+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999832+00:00"
-  },
-  {
-    "title": "Network Rail Faces Estimated £9M Bill for Derailments",
-    "summary": "Repair work following the railway derailments at Lewes and Wickford is estimated to cost Network Rail £5.4M and £3.65M respectively.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/network-rail-facing-estimated-9m-bill-to-repair-lewes-and-wickford-derailments-11-11-2026/",
-    "published_at": "2026-11-11T15:46:24+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999839+00:00"
-  },
-  {
-    "title": "UK Semiconductor Startup Fractile Raises $720M",
-    "summary": "Four-year-old UK semiconductor company Fractile has secured $720 million in funding at a $7 billion valuation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/uk-semi-company-fractile-raises-720m-at-7bn-valuation-2026-11/",
-    "published_at": "2026-11-11T15:12:59+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999844+00:00"
-  },
-  {
-    "title": "Xing Mobility Pitches Immersion-Cooled Battery to Shipbuilders",
-    "summary": "Xing Mobility has unveiled its Immersio CTP marine battery pack which submerges cells in fluid, though its safety and performance claims remain unproven at sea.",
-    "category": "Energy",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/electric-ship-batteries",
-    "published_at": "2026-11-11T15:00:03+00:00",
-    "fetched_at": "2026-11-11T19:08:37.999848+00:00"
   }
 ]
