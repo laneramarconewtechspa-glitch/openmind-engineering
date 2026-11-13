@@ -1,5 +1,95 @@
 [
   {
+    "title": "Nova Scotia Focuses on Microelectronics Integration",
+    "summary": "Nova Scotia is prioritizing specialized component and hardware integration for subsea, security, and resource markets instead of building chip fabs.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
+    "published_at": "2026-11-13T18:00:00+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860834+00:00"
+  },
+  {
+    "title": "NASA Unveils PROMISE Nuclear Moon Rover",
+    "summary": "NASA announced plans to send the nuclear-powered PROMISE rover to the Moon's South Pole using repurposed Mars rover components.",
+    "category": "Robotics",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "published_at": "2026-11-13T17:30:03+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860848+00:00"
+  },
+  {
+    "title": "Evaluating NewSpace-Grade NOR Flash Reliability",
+    "summary": "A new technical paper examines radiation degradation effects in NOR Flash components and proposes a radiation requirement derivation method.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
+    "published_at": "2026-11-13T15:00:00+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860855+00:00"
+  },
+  {
+    "title": "Ultra-Compact 16-Foot Tiny House Unveiled",
+    "summary": "A new unnamed tiny house measuring just 16 feet long features a space-saving interior layout designed to maximize its minimal footprint.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/16ft-unnamed-dual-loft-affordable-tiny-house-listings/",
+    "published_at": "2026-11-13T14:33:00+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860859+00:00"
+  },
+  {
+    "title": "Rhoda AI Expands Video Models for Robots",
+    "summary": "Rhoda AI has extended its direct video action model with mobile DVA to help robots better understand the physical world.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+    "published_at": "2026-11-13T13:30:44+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860864+00:00"
+  },
+  {
+    "title": "Darlington SMR Will Miss 2030 Deadline and Budget",
+    "summary": "Ontario Power Generation announced that the Darlington SMR project will exceed its budget and miss its October 2030 commercial operation target.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/nuclear/smrs/darlington-smr-opg-delay-budget/",
+    "published_at": "2026-11-13T12:58:42+00:00",
+    "fetched_at": "2026-11-13T19:03:04.860868+00:00"
+  },
+  {
+    "title": "Hawk Ridge Systems and M5D Form 3D Printing Alliance",
+    "summary": "Hawk Ridge Systems and M5D have formed a partnership combining engineering expertise with print technology experience.",
+    "category": "Mechanical",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/hawk-ridge-systems-and-m5d-form-3d-printing-alliance/",
+    "published_at": "2026-11-13T12:48:22+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730163+00:00"
+  },
+  {
+    "title": "BYD Unveils Robot-Powered EV Charging Station",
+    "summary": "BYD has unveiled a charging station combining battery storage, megawatt flash charging, and a robotic automatic plug-in arm.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/byd-solar-robot-flash-charging-station-abu-dhabi/",
+    "published_at": "2026-11-13T12:23:08+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730174+00:00"
+  },
+  {
+    "title": "Turkey Selects AtkinsRéalis for Nuclear Feasibility Study",
+    "summary": "AtkinsRéalis signed an agreement with Turkey's state-owned nuclear energy company to conduct a feasibility study on nuclear expansion.",
+    "category": "Energy",
+    "source_name": "Global Construction Review",
+    "source_url": "https://www.globalconstructionreview.com/turkey-selects-atkinsrealis-for-nuclear-development/",
+    "published_at": "2026-11-13T12:03:17+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730183+00:00"
+  },
+  {
+    "title": "Superheated Magma Delays Crystal Formation",
+    "summary": "Experiments revealed that superheated magma can delay crystal formation for more than eight hours.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
+    "published_at": "2026-11-13T11:56:39+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730188+00:00"
+  },
+  {
     "title": "Brain Waste-Clearing Waves Impaired in Older Adults",
     "summary": "Researchers found that cerebrospinal fluid waves that clear brain waste during sleep are impaired in older adults.",
     "category": "Biomedical",
@@ -9,6 +99,15 @@
     "fetched_at": "2026-11-13T11:48:50.814292+00:00"
   },
   {
+    "title": "Earth's Atmosphere Fueled May 2024 Solar Storm",
+    "summary": "Satellite measurements revealed that 85% of the charged particles fueling a massive solar storm originated from Earth's upper atmosphere.",
+    "category": "Aerospace",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
+    "published_at": "2026-11-13T09:49:36+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730193+00:00"
+  },
+  {
     "title": "SimScale Launches Engineering AI Blueprint",
     "summary": "SimScale has launched its Engineering AI Blueprint featuring NVIDIA tools to help move engineering AI from pilots to broader deployment.",
     "category": "Computing",
@@ -16,6 +115,15 @@
     "source_url": "https://www.engineering.com/simscale-launches-engineering-ai-blueprint/",
     "published_at": "2026-11-13T08:39:51+00:00",
     "fetched_at": "2026-11-13T11:48:50.814304+00:00"
+  },
+  {
+    "title": "Magnetism Breakthrough Aims to Cut AI Chip Energy",
+    "summary": "Researchers overcame the dead layer problem in thin magnetic materials to help slash the energy demands of AI computer chips.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
+    "published_at": "2026-11-13T01:40:17+00:00",
+    "fetched_at": "2026-11-13T19:03:08.730197+00:00"
   },
   {
     "title": "AST SpaceMobile Eyes New Launch Vehicle",
@@ -160,113 +268,5 @@
     "source_url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month",
     "published_at": "2026-11-12T17:00:00+00:00",
     "fetched_at": "2026-11-12T19:33:17.311424+00:00"
-  },
-  {
-    "title": "FPGA-Based Carrier Synthesis for Cryogenic Detectors",
-    "summary": "This work presents an FPGA-based implementation using an oscillator and filter bank to enable real-time frequency adaptivity for cryogenic detector readout.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17099v1",
-    "published_at": "2026-11-12T16:59:11+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858223+00:00"
-  },
-  {
-    "title": "Total Energy Shaping via Gravity Compensation",
-    "summary": "This paper investigates total energy shaping of underactuated mechanical systems using gravity compensation evaluated at the desired equilibrium.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17095v1",
-    "published_at": "2026-11-12T16:56:51+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858225+00:00"
-  },
-  {
-    "title": "GRID-MRI Assesses Power System Cyber-Resilience",
-    "summary": "The proposed Grid Multidimensional Resilience Index integrates disruption severity and stressors to evaluate electrical power systems under coordinated cyber-physical attacks.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17094v1",
-    "published_at": "2026-11-12T16:55:50+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858228+00:00"
-  },
-  {
-    "title": "Florida Poly University Prepares Flying Police Officer",
-    "summary": "Florida Polytechnic University plans to deploy a Jetson ONE eVTOL for its campus police department.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/florida-poly-police-jetson-one-evtol-faa/",
-    "published_at": "2026-11-12T16:37:48+00:00",
-    "fetched_at": "2026-11-12T19:33:17.311429+00:00"
-  },
-  {
-    "title": "Capacity-Constrained Feedback for Conformal Risk Control",
-    "summary": "This framework jointly optimizes tracking feedback capacity allocation and prediction set construction for online conformal risk control under delayed feedback.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17059v1",
-    "published_at": "2026-11-12T16:37:20+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858231+00:00"
-  },
-  {
-    "title": "Robust Control Design for Jittered Sampling",
-    "summary": "This paper reformulates dynamic output feedback design under bounded sample-to-sample jitter as a robust-control problem using an uncertainty block decomposition.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17046v1",
-    "published_at": "2026-11-12T16:30:03+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858234+00:00"
-  },
-  {
-    "title": "Control-Gibbs Distribution for Optimal Control",
-    "summary": "This work reviews the control-Gibbs distribution and applies projected Langevin sampling to obtain diverse control solutions and solve deterministic optimal control problems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17034v1",
-    "published_at": "2026-11-12T16:21:09+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858237+00:00"
-  },
-  {
-    "title": "Managing LLM Fallibility in Autonomous Systems",
-    "summary": "This review examines how autonomous systems can adapt their reliance on large language models using classical estimation methods to manage errors and maximize utility.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17020v1",
-    "published_at": "2026-11-12T16:09:49+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858239+00:00"
-  },
-  {
-    "title": "Channel-Chart-Driven Antenna Activation for MIMO",
-    "summary": "This paper studies energy-efficient uplink reception in cell-free massive MIMO through antenna activation using low-dimensional channel-chart embeddings.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.16996v1",
-    "published_at": "2026-11-12T16:01:21+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858242+00:00"
-  },
-  {
-    "title": "Commercial Satellite Captures Rare Image of ISS",
-    "summary": "A commercial satellite photographed the International Space Station from a unique birds-eye perspective in orbit.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/international-space-station/satellite-snaps-rare-birds-eye-view-of-the-iss-space-photo-of-the-day-for-nov-12-2026",
-    "published_at": "2026-11-12T15:00:00+00:00",
-    "fetched_at": "2026-11-12T19:33:17.311433+00:00"
-  },
-  {
-    "title": "Bam Appointed for Transporter Bridge Restoration Phase",
-    "summary": "Bam UK & Ireland will undertake the next phase of investigations to restore Middlesbrough's historic Transporter Bridge.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/bam-appointed-for-next-phase-of-iconic-transporter-bridge-restoration-12-11-2026/",
-    "published_at": "2026-11-12T11:21:33+00:00",
-    "fetched_at": "2026-11-12T12:10:30.561357+00:00"
-  },
-  {
-    "title": "SketchUp 2027 Released with New Revit Import Tools",
-    "summary": "The latest software update introduces non-destructive procedures, paperless drafting tools, and a new collaboration hub.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/sketchup-2027-adds-new-modeling-and-revit-import-tools/",
-    "published_at": "2026-11-12T11:21:22+00:00",
-    "fetched_at": "2026-11-12T12:10:30.561369+00:00"
   }
 ]
