@@ -1,5 +1,50 @@
 [
   {
+    "title": "iEnFlow Attacks Target Apple Silicon Branch Predictors",
+    "summary": "Researchers introduced iEnFlow, demonstrating endogenous control-flow attacks and speculative exploitation originating purely from the conditional branch predictor on Apple silicon.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/de3aa06a10fac4b56f77f6205a88de26a9d67436",
+    "published_at": "2026-11-15T00:00:00+00:00",
+    "fetched_at": "2026-11-14T11:09:28.589396+00:00"
+  },
+  {
+    "title": "MChammer Characterizes Rowhammer Countermeasures on DDR5",
+    "summary": "A systematic study of hardware countermeasures on DDR5-based systems demonstrated end-to-end Rowhammer bit flips and root privilege escalation.",
+    "category": "Computing",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/87fe26cff4ec911de22c5ca138ea1fdb6c7b9828",
+    "published_at": "2026-11-15T00:00:00+00:00",
+    "fetched_at": "2026-11-14T11:09:28.589408+00:00"
+  },
+  {
+    "title": "Scientists Capture Electrons Making Quantum Jumps in Graphene",
+    "summary": "Researchers captured electrons making sudden transitions across forbidden energy gaps in graphene with 100% probability.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+    "published_at": "2026-11-14T01:13:05+00:00",
+    "fetched_at": "2026-11-14T11:09:28.589413+00:00"
+  },
+  {
+    "title": "3D-Printed Frog Swims Using Light-Powered Artificial Muscles",
+    "summary": "Scientists developed a swimming frog 3D printed with artificial muscles that are powered by light.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/technology/3d-printed-frog-swims-powered-by-light/",
+    "published_at": "2026-11-13T23:03:00+00:00",
+    "fetched_at": "2026-11-14T11:09:28.589417+00:00"
+  },
+  {
+    "title": "Shifting HBM4 Controller Functions Closer to Memory",
+    "summary": "Researchers from UC Riverside published a paper examining the partitioning of HBM controllers across host and base dies for HBM4 memory.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+    "published_at": "2026-11-13T21:53:30+00:00",
+    "fetched_at": "2026-11-14T11:09:28.589420+00:00"
+  },
+  {
     "title": "Nova Scotia Focuses on Microelectronics Integration",
     "summary": "Nova Scotia is prioritizing specialized component and hardware integration for subsea, security, and resource markets instead of building chip fabs.",
     "category": "Electronics & Semiconductors",
@@ -16,6 +61,24 @@
     "source_url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
     "published_at": "2026-11-13T17:30:03+00:00",
     "fetched_at": "2026-11-13T19:03:04.860848+00:00"
+  },
+  {
+    "title": "Jedec Forms New Subcommittee for System Level Reliability Testing",
+    "summary": "Jedec is creating a new Subcommittee JC-14.8 to address System Level Reliability Testing and is inviting industry participation.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/products/test-measurement-products/jedec-creates-subcommittee-to-address-system-level-reliability-testing-2026-11/",
+    "published_at": "2026-11-13T15:17:38+00:00",
+    "fetched_at": "2026-11-14T11:09:31.518499+00:00"
+  },
+  {
+    "title": "Forever Chemical Levels Fall in English Rivers",
+    "summary": "An Environment Agency assessment revealed that levels of two long-lasting chemicals in England's rivers dropped by about 30% over the past decade.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/forever-chemical-levels-in-rivers-reduced-but-englands-waste-treatment-gaps-exposed-13-11-2026/",
+    "published_at": "2026-11-13T15:03:34+00:00",
+    "fetched_at": "2026-11-14T11:09:31.518510+00:00"
   },
   {
     "title": "Evaluating NewSpace-Grade NOR Flash Reliability",
@@ -90,6 +153,15 @@
     "fetched_at": "2026-11-13T19:03:08.730188+00:00"
   },
   {
+    "title": "UK Space Agency Invests £4.5M in ESERO-UK Programme",
+    "summary": "The UK Space Agency is investing £4.5 million in partnership with the ESA for the ESERO-UK programme to inspire young people into space careers.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/design/stem/stem-for-space-uk-space-agency-invests-4-5m-for-esero-uk-2026-11/",
+    "published_at": "2026-11-13T10:08:56+00:00",
+    "fetched_at": "2026-11-14T11:09:31.518515+00:00"
+  },
+  {
     "title": "Brain Waste-Clearing Waves Impaired in Older Adults",
     "summary": "Researchers found that cerebrospinal fluid waves that clear brain waste during sleep are impaired in older adults.",
     "category": "Biomedical",
@@ -117,6 +189,24 @@
     "fetched_at": "2026-11-13T11:48:50.814304+00:00"
   },
   {
+    "title": "Cement Industry Urges Government Support for Emissions Cuts",
+    "summary": "The cement and concrete industry called for stronger government support for emissions-reducing technologies to help reach net-zero goals by 2050.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/cement-industry-calls-for-government-support-to-speed-up-emissions-cuts-13-11-2026/",
+    "published_at": "2026-11-13T06:30:34+00:00",
+    "fetched_at": "2026-11-14T11:09:31.518519+00:00"
+  },
+  {
+    "title": "Panmnesia and Intel Partner on CXL Technology",
+    "summary": "Panmnesia signed an MOU with Intel Korea to collaborate on CXL technology and bring CXL-based servers into AI infrastructure.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/panmesia-and-intel-hook-up-on-cxl-2026-11/",
+    "published_at": "2026-11-13T06:14:02+00:00",
+    "fetched_at": "2026-11-14T11:09:31.518523+00:00"
+  },
+  {
     "title": "Magnetism Breakthrough Aims to Cut AI Chip Energy",
     "summary": "Researchers overcame the dead layer problem in thin magnetic materials to help slash the energy demands of AI computer chips.",
     "category": "Electronics & Semiconductors",
@@ -133,6 +223,15 @@
     "source_url": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
     "published_at": "2026-11-13T01:15:21+00:00",
     "fetched_at": "2026-11-13T11:48:50.814308+00:00"
+  },
+  {
+    "title": "Carboxyl-Functionalized Pyrazole Additive Stabilizes Zinc-Ion Batteries",
+    "summary": "Researchers introduced a carboxyl-functionalized pyrazole additive into the electrolyte to suppress dendrites and corrosion, enabling ultralong-life rechargeable zinc-ion batteries.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/b3dfb294bc9ca8e427d3c677c7438d8a7636df6b",
+    "published_at": "2026-11-13T00:00:00+00:00",
+    "fetched_at": "2026-11-14T11:09:34.155459+00:00"
   },
   {
     "title": "Jake Hecla Tackles Nuclear Challenges",
@@ -169,104 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.17330v1",
     "published_at": "2026-11-12T18:59:49+00:00",
     "fetched_at": "2026-11-13T11:48:50.814318+00:00"
-  },
-  {
-    "title": "DiSKO: Distribution Steering for Nonlinear Systems",
-    "summary": "Researchers introduce a data-driven covariance steering framework for stochastic nonlinear systems using Koopman operator theory and deep neural networks.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17301v1",
-    "published_at": "2026-11-12T18:55:31+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422692+00:00"
-  },
-  {
-    "title": "HEIR Resource for Human-Robot Interaction Studies",
-    "summary": "HEIR pairs human speech, gaze, and egocentric video with robot navigation and manipulation trajectories to study intent grounding and execution planning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17238v1",
-    "published_at": "2026-11-12T18:25:41+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422701+00:00"
-  },
-  {
-    "title": "FanCyqlone Parallelized Solver for Optimal Control",
-    "summary": "FanCyqlone is a linear solver exploiting temporal and scenario parallelism to speed up multi-horizon optimal control problems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17221v1",
-    "published_at": "2026-11-12T18:19:04+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422705+00:00"
-  },
-  {
-    "title": "Collaborative Task Allocation via Iterative Clustering",
-    "summary": "An iterative clustering algorithm partitions global multi-robot task allocation problems into tractable subproblems to improve team utility.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17213v1",
-    "published_at": "2026-11-12T18:10:27+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422709+00:00"
-  },
-  {
-    "title": "Generalized Gated Recurrent Units for System Identification",
-    "summary": "The Generalized Gated Recurrent Neural Network unifies LSTM and GRU dynamics using continuous homotopies for nonlinear system identification.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17173v1",
-    "published_at": "2026-11-12T17:45:45+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422712+00:00"
-  },
-  {
-    "title": "XBot-Omni: Omni-Modal Model for Robotic Embodiment",
-    "summary": "XBot-Omni extends the Omni paradigm to robotic modalities, combining a Thinker, Talker, and Actor architecture for embodied communication.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17160v1",
-    "published_at": "2026-11-12T17:38:57+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422715+00:00"
-  },
-  {
-    "title": "FORGE: Force-Aware Multi-Granularity Control",
-    "summary": "FORGE provides a coarse-to-fine control system for humanoid loco-manipulation that integrates momentum observation and wrist-equivalent force estimation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17142v1",
-    "published_at": "2026-11-12T17:30:11+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422718+00:00"
-  },
-  {
-    "title": "Europe Eyes Arctic Fiber Optic Cable Strategy",
-    "summary": "The European Commission released a strategy plan to build an Arctic cable hub connecting Greenland to mainland Europe.",
-    "category": "Civil & Infrastructure",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/undersea-cables-arctic-european-commission",
-    "published_at": "2026-11-12T17:06:44+00:00",
-    "fetched_at": "2026-11-12T19:33:17.311418+00:00"
-  },
-  {
-    "title": "SALA: Semantically Aligned Latent Actions for Robots",
-    "summary": "SALA uses language descriptions of unpaired human and robot video clips to establish semantic correspondence for latent actions in embodied models.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17110v1",
-    "published_at": "2026-11-12T17:04:50+00:00",
-    "fetched_at": "2026-11-13T11:48:54.422721+00:00"
-  },
-  {
-    "title": "TuMAP Pipeline Quantifies Renal Tubular Remodeling",
-    "summary": "Researchers introduced TuMAP, a pathomics pipeline combining foundation models and statistical inference to quantify disease-associated renal tubular remodeling from kidney biopsy slides.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17104v1",
-    "published_at": "2026-11-12T17:02:18+00:00",
-    "fetched_at": "2026-11-13T11:48:57.858214+00:00"
-  },
-  {
-    "title": "Pakistani Astronaut to Visit Tiangong Space Station",
-    "summary": "A Pakistani pilot is set to become the first international visitor to China's Tiangong space station this month.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month",
-    "published_at": "2026-11-12T17:00:00+00:00",
-    "fetched_at": "2026-11-12T19:33:17.311424+00:00"
   }
 ]
