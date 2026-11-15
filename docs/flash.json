@@ -1,5 +1,14 @@
 [
   {
+    "title": "Nanohybrids for Atopic Dermatitis Therapy",
+    "summary": "Researchers engineered bio-alkaloid ionic liquid-mesoporous silica nanohybrids for optimized transdermal atopic dermatitis therapy.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/ede10afea256d3b0038842394c9b47378406b2fb",
+    "published_at": "2026-11-16T00:00:00+00:00",
+    "fetched_at": "2026-11-15T18:18:13.679165+00:00"
+  },
+  {
     "title": "iEnFlow Attacks Target Apple Silicon Branch Predictors",
     "summary": "Researchers introduced iEnFlow, demonstrating endogenous control-flow attacks and speculative exploitation originating purely from the conditional branch predictor on Apple silicon.",
     "category": "Computing",
@@ -259,14 +268,5 @@
     "source_url": "https://newatlas.com/boats-watersports/aquaticar-bubble-powered-underwater-car/",
     "published_at": "2026-11-12T19:11:04+00:00",
     "fetched_at": "2026-11-12T19:33:17.311405+00:00"
-  },
-  {
-    "title": "ProtoVis-Nav Improves UAV Navigation",
-    "summary": "Researchers introduced a prototypical visual imagination framework to improve vision-language navigation and reduce motion errors for UAVs.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.17330v1",
-    "published_at": "2026-11-12T18:59:49+00:00",
-    "fetched_at": "2026-11-13T11:48:50.814318+00:00"
   }
 ]
