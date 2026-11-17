@@ -9,6 +9,78 @@
     "fetched_at": "2026-11-17T12:47:26.900029+00:00"
   },
   {
+    "title": "Dutch Startup Developing Motorcycle-Stance Hypercar",
+    "summary": "An automotive startup in the Netherlands is designing an 800-hp hypercar where the driver sits leaned forward like on a motorcycle.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/sanrivatti-one-hypercar-motorcycle-apex-seating-position-concept/",
+    "published_at": "2026-11-17T20:00:36+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831540+00:00"
+  },
+  {
+    "title": "ULA Vulcan Centaur Fails Early in Flight",
+    "summary": "United Launch Alliance reported that its Vulcan Centaur rocket failed during launch due to an issue with its first-stage booster.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ula-lost-a-vulcan-centaur-rocket-carrying-40-amazon-satellites-10-minutes-after-launch-but-the-failure-began-just-after-liftoff",
+    "published_at": "2026-11-17T18:48:18+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831553+00:00"
+  },
+  {
+    "title": "COMAC's CE-25A Electric Airliner Carries Crew",
+    "summary": "COMAC's fully electric CE-25A aircraft completed its first crewed flight with two pilots and a flight test engineer on board.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/comac-ce-25a-electric-airliner-first-crewed-flight/",
+    "published_at": "2026-11-17T17:59:34+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831558+00:00"
+  },
+  {
+    "title": "Researchers Propose Defect-Aware Chiplet Matching",
+    "summary": "ASU and Ampere Computing researchers published a method for defect- and topology-aware chiplet matching to optimize heterogeneous integration yield.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+    "published_at": "2026-11-17T17:44:39+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831562+00:00"
+  },
+  {
+    "title": "KAIST Proposes Backside Clock Mesh Architecture",
+    "summary": "KAIST researchers published a clock distribution network design placing the clock mesh on backside metal layers to reduce skew and power.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/backside-clock-mesh-reduces-skew-and-power-in-backside-power-delivery-kaist/",
+    "published_at": "2026-11-17T17:35:37+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831566+00:00"
+  },
+  {
+    "title": "TAIYO YUDEN Introduces New LTCC Solutions",
+    "summary": "TAIYO YUDEN released advanced LTCC solutions for UWB and Bluetooth Low Energy applications to aid miniaturization and RF performance.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
+    "published_at": "2026-11-17T15:00:00+00:00",
+    "fetched_at": "2026-11-17T20:27:05.831570+00:00"
+  },
+  {
+    "title": "Deloitte Launches Edisyl for Enterprise AI Context Packs",
+    "summary": "Deloitte has launched Knowledge Packs to combine curated domain knowledge with internal company data across existing AI tools.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/deloitte-launches-edisyl-for-enterprise-ai-context-packs/",
+    "published_at": "2026-11-17T13:53:32+00:00",
+    "fetched_at": "2026-11-17T20:27:25.279975+00:00"
+  },
+  {
+    "title": "London Energy Recovery Facility Faces £451M Cost Increase",
+    "summary": "The North London Waste Authority proposes increasing the Edmonton Energy Recovery Facility contract price following disputes with Acciona Industrial.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/london-energy-recovery-facility-faces-451m-development-cost-increase-following-significant-disputes-with-acciona-17-11-2026/",
+    "published_at": "2026-11-17T12:10:08+00:00",
+    "fetched_at": "2026-11-17T20:27:25.279986+00:00"
+  },
+  {
     "title": "Honeywell and Keppel Partner for Low-Carbon Fuels",
     "summary": "Honeywell and Keppel are collaborating to evaluate sustainable aviation fuels, renewable diesel, and methanol production pathways in the Asia-Pacific region.",
     "category": "Energy",
@@ -16,6 +88,15 @@
     "source_url": "https://www.engineering.com/honeywell-and-keppel-partner-to-advance-low-carbon-fuels/",
     "published_at": "2026-11-17T10:43:04+00:00",
     "fetched_at": "2026-11-17T12:47:26.900042+00:00"
+  },
+  {
+    "title": "Galafoot Bridge Requires Repairs After Poor Concrete Discovery",
+    "summary": "Refurbishment work on the Galafoot Bridge is extended after its concrete deck slab was found to be in worse condition than anticipated.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/scottish-borders-galafoot-bridge-requires-repair-after-concrete-deck-slab-in-much-worse-condition-then-anticipated-17-11-2026/",
+    "published_at": "2026-11-17T08:37:30+00:00",
+    "fetched_at": "2026-11-17T20:27:25.279990+00:00"
   },
   {
     "title": "Cosmo Bee to Flight-Test Hall Thruster in 2027",
@@ -187,86 +268,5 @@
     "source_url": "https://www.newcivilengineer.com/latest/spains-renewable-sector-loses-e140m-as-grid-constraints-remain-high-analysis-find-16-11-2026/",
     "published_at": "2026-11-16T16:46:59+00:00",
     "fetched_at": "2026-11-16T21:36:14.853757+00:00"
-  },
-  {
-    "title": "Harmonic-Constrained Hosting Capacity of Active Distribution Networks",
-    "summary": "A harmonic optimal power flow method with active energy-storage-system support is proposed to handle harmonic limits constraining active distribution network capacity.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21346v1",
-    "published_at": "2026-11-16T16:25:29+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698477+00:00"
-  },
-  {
-    "title": "Reference Replay for Excitation Injection in Adaptive Control",
-    "summary": "This work establishes a mechanism allowing finite-excitation occurrence to be verified a priori by replaying a given training segment in the reference.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21314v1",
-    "published_at": "2026-11-16T16:09:34+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698481+00:00"
-  },
-  {
-    "title": "Robust Optimal Network Reduction for Distribution Systems",
-    "summary": "This paper extends network reduction to uncertain nodal injections using robust uncertainty sets and a Wasserstein ambiguity set with voltage magnitude error guarantees.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21313v1",
-    "published_at": "2026-11-16T16:09:03+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698483+00:00"
-  },
-  {
-    "title": "US Data Centers Match Entire State Power Consumption",
-    "summary": "Researchers report that America's largest data centers used as much electricity between 2024 and 2025 as the state of Michigan.",
-    "category": "Computing",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/technology/data-centers-using-electricity-entire-states/",
-    "published_at": "2026-11-16T16:01:00+00:00",
-    "fetched_at": "2026-11-16T21:36:14.853763+00:00"
-  },
-  {
-    "title": "Quantum-Assisted D-FACTS Scheduling for Moving Target Defense",
-    "summary": "This paper proposes cross-period candidate sharing and schedule-completion evaluation to allocate physical checks in quantum-assisted D-FACTS scheduling.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21265v1",
-    "published_at": "2026-11-16T15:35:21+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698486+00:00"
-  },
-  {
-    "title": "Hybrid Optimization-Generative Motion Planning for Multiagent Affine Formations",
-    "summary": "This paper introduces a hybrid optimization-generative framework leveraging pre-trained single-agent diffusion priors to solve formation motion planning challenges.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21264v1",
-    "published_at": "2026-11-16T15:35:10+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698489+00:00"
-  },
-  {
-    "title": "Dream Chaser Space Plane Receives FAA Landing Approval",
-    "summary": "Sierra Space has secured FAA landing approval for the debut mission of its Dream Chaser space plane planned for 2027.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/dream-chaser-space-plane-gets-landing-approval-for-debut-mission-in-2027",
-    "published_at": "2026-11-16T14:00:00+00:00",
-    "fetched_at": "2026-11-16T21:36:14.853767+00:00"
-  },
-  {
-    "title": "28 Zero-Day Vulnerabilities Identified in Robotics Software",
-    "summary": "Researchers identified 28 zero-day vulnerabilities in under two days using AI-assisted research across software and tools supporting the physical AI and robotics ecosystem.",
-    "category": "Robotics",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-    "published_at": "2026-11-16T10:00:01+00:00",
-    "fetched_at": "2026-11-16T21:36:17.206550+00:00"
-  },
-  {
-    "title": "Nanohybrids for Atopic Dermatitis Therapy",
-    "summary": "Researchers engineered bio-alkaloid ionic liquid-mesoporous silica nanohybrids for optimized transdermal atopic dermatitis therapy.",
-    "category": "Biomedical",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/ede10afea256d3b0038842394c9b47378406b2fb",
-    "published_at": "2026-11-16T00:00:00+00:00",
-    "fetched_at": "2026-11-15T18:18:13.679165+00:00"
   }
 ]
