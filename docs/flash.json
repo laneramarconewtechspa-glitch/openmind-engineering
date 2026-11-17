@@ -1,5 +1,68 @@
 [
   {
+    "title": "Biofidelic Goat Model Developed for Traumatic Optic Neuropathy",
+    "summary": "Researchers combined finite element analysis and transnasal endoscopy to create a reproducible goat model of traumatic optic neuropathy.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/47420890ab498eb64a1fdd88f8de6fe438cf3f0c",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "fetched_at": "2026-11-17T12:47:26.900029+00:00"
+  },
+  {
+    "title": "Honeywell and Keppel Partner for Low-Carbon Fuels",
+    "summary": "Honeywell and Keppel are collaborating to evaluate sustainable aviation fuels, renewable diesel, and methanol production pathways in the Asia-Pacific region.",
+    "category": "Energy",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/honeywell-and-keppel-partner-to-advance-low-carbon-fuels/",
+    "published_at": "2026-11-17T10:43:04+00:00",
+    "fetched_at": "2026-11-17T12:47:26.900042+00:00"
+  },
+  {
+    "title": "Cosmo Bee to Flight-Test Hall Thruster in 2027",
+    "summary": "South Korean startup Cosmo Bee plans to test its 10 mN-class Honeybee Hall thruster in orbit with D-Orbit in 2027.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/cosmo-bee-to-flight-test-honeybee-hall-thruster-with-d-orbit-in-2027/",
+    "published_at": "2026-11-17T08:00:00+00:00",
+    "fetched_at": "2026-11-17T12:47:26.900046+00:00"
+  },
+  {
+    "title": "One-Atom-Thick Material Reveals Strange Quantum State",
+    "summary": "Osaka University researchers discovered a quantum state with heavy-behaving electrons at the boundary between an ultrathin material and copper.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm",
+    "published_at": "2026-11-17T01:25:39+00:00",
+    "fetched_at": "2026-11-17T12:47:26.900049+00:00"
+  },
+  {
+    "title": "Self-Supervised Virtual Metrology Framework for CMP MRR",
+    "summary": "Researchers proposed a self-supervised attention-based framework called GREP to predict chemical mechanical planarization removal rates from sensor signals.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+    "published_at": "2026-11-17T00:56:29+00:00",
+    "fetched_at": "2026-11-17T12:47:26.900052+00:00"
+  },
+  {
+    "title": "Saloon Desk Turns Sofas Into Workstations",
+    "summary": "A German inventor created a desk that straddles sofas and features independently adjustable desktops that swing open like saloon doors.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/lifestyle/saloon-desk-sofa-workstation/",
+    "published_at": "2026-11-17T00:03:00+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029047+00:00"
+  },
+  {
+    "title": "Michigan Regulators Set Dam Sales Deadline",
+    "summary": "Michigan regulators set a December deadline for a decision regarding Consumers Energy's proposed sale of thirteen hydroelectric dams.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/mpsc-sets-december-deadline-for-decision-on-consumers-energy-dam-sales/",
+    "published_at": "2026-11-16T21:14:40+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029056+00:00"
+  },
+  {
     "title": "SpaceX to Make Starship Even Bigger with V4 Model",
     "summary": "Elon Musk announced that SpaceX's Starship rocket will be expanded further in its next-generation V4 iteration.",
     "category": "Aerospace",
@@ -18,6 +81,105 @@
     "fetched_at": "2026-11-16T21:36:14.853748+00:00"
   },
   {
+    "title": "Hyperlyve Framework Certifies Deep ReLU Stability",
+    "summary": "Researchers introduced Hyperlyve, a parallelized framework that proves the asymptotic stability of nonlinear systems with neural network controllers.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21599v1",
+    "published_at": "2026-11-16T18:58:29+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029059+00:00"
+  },
+  {
+    "title": "Partitioned MiLAC Architecture for MU-MIMO Precoding",
+    "summary": "A partitioned Microwave Linear Analog Computer architecture was proposed for user-specific MU-MIMO precoding using independently configured analog subnetworks.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21561v1",
+    "published_at": "2026-11-16T18:40:02+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029062+00:00"
+  },
+  {
+    "title": "Lazy-MOSAIC Accelerates Manipulation Planning",
+    "summary": "Researchers introduced Lazy-MOSAIC, a planning framework that uses a learned world model to accelerate skill-centric robot manipulation planning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21517v1",
+    "published_at": "2026-11-16T18:10:52+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029065+00:00"
+  },
+  {
+    "title": "Decentralized Protocol Enables Safe Agent Disconnection",
+    "summary": "A decentralized event-triggered topology-switching protocol allows multi-agent systems to disconnect safely from communication networks while reducing complexity.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21513v1",
+    "published_at": "2026-11-16T18:09:22+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029068+00:00"
+  },
+  {
+    "title": "Quantum Memory Advantage for Late-Graph Smoothness",
+    "summary": "Researchers demonstrated an exponential quantum memory advantage over classical receivers for spectral estimation and late-graph smoothness testing.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21500v1",
+    "published_at": "2026-11-16T18:00:35+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029071+00:00"
+  },
+  {
+    "title": "Beamformer Design Enhances ISAC Location Privacy",
+    "summary": "A beamformer design framework was developed to balance rate, sensing, and transmitter location privacy trade-offs in integrated sensing and communication systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21494v1",
+    "published_at": "2026-11-16T17:59:06+00:00",
+    "fetched_at": "2026-11-17T12:47:35.029073+00:00"
+  },
+  {
+    "title": "Distributed Adaptive Identification of Nonlinear Systems without Input Sharing",
+    "summary": "This paper studies continuous-time distributed adaptive identification for unknown nonlinear systems over directed networks without requiring source or neighbor inputs to be shared.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21483v1",
+    "published_at": "2026-11-16T17:53:31+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698455+00:00"
+  },
+  {
+    "title": "RESILAGENT: Cyber-Physical Resilience Architecture for Energy Systems",
+    "summary": "RESILAGENT is a three-pillar architecture designed to handle hybrid threats, cyber intrusions, and climate-driven stress in electrical power and energy systems.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21480v1",
+    "published_at": "2026-11-16T17:51:46+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698464+00:00"
+  },
+  {
+    "title": "Warm Starting Neural Dynamics Models From Few Jacobian Samples",
+    "summary": "Researchers propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians to improve efficiency in model-based reinforcement learning.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21465v1",
+    "published_at": "2026-11-16T17:46:39+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698468+00:00"
+  },
+  {
+    "title": "Robust Action Clusters and Cascades in Opinion Dynamics",
+    "summary": "This study investigates opinion dynamics in networks where agents update private opinions using heterogeneous action thresholds, characterizing robust action clusters and cascades.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21446v1",
+    "published_at": "2026-11-16T17:33:13+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698471+00:00"
+  },
+  {
+    "title": "Quantum Optimization Algorithm for Pinching-Antenna Activation",
+    "summary": "Researchers propose a training-free quantum approximate optimization algorithm with a linear-ramp schedule for antenna activation in pinching-antenna systems.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21443v1",
+    "published_at": "2026-11-16T17:31:32+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698474+00:00"
+  },
+  {
     "title": "Spain Renewable Sector Loses €140M Due to Grid Constraints",
     "summary": "Spain's renewable energy industry lost an estimated €140M in revenue to grid curtailment following recent grid constraints.",
     "category": "Energy",
@@ -27,6 +189,33 @@
     "fetched_at": "2026-11-16T21:36:14.853757+00:00"
   },
   {
+    "title": "Harmonic-Constrained Hosting Capacity of Active Distribution Networks",
+    "summary": "A harmonic optimal power flow method with active energy-storage-system support is proposed to handle harmonic limits constraining active distribution network capacity.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21346v1",
+    "published_at": "2026-11-16T16:25:29+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698477+00:00"
+  },
+  {
+    "title": "Reference Replay for Excitation Injection in Adaptive Control",
+    "summary": "This work establishes a mechanism allowing finite-excitation occurrence to be verified a priori by replaying a given training segment in the reference.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21314v1",
+    "published_at": "2026-11-16T16:09:34+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698481+00:00"
+  },
+  {
+    "title": "Robust Optimal Network Reduction for Distribution Systems",
+    "summary": "This paper extends network reduction to uncertain nodal injections using robust uncertainty sets and a Wasserstein ambiguity set with voltage magnitude error guarantees.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21313v1",
+    "published_at": "2026-11-16T16:09:03+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698483+00:00"
+  },
+  {
     "title": "US Data Centers Match Entire State Power Consumption",
     "summary": "Researchers report that America's largest data centers used as much electricity between 2024 and 2025 as the state of Michigan.",
     "category": "Computing",
@@ -34,6 +223,24 @@
     "source_url": "https://newatlas.com/technology/data-centers-using-electricity-entire-states/",
     "published_at": "2026-11-16T16:01:00+00:00",
     "fetched_at": "2026-11-16T21:36:14.853763+00:00"
+  },
+  {
+    "title": "Quantum-Assisted D-FACTS Scheduling for Moving Target Defense",
+    "summary": "This paper proposes cross-period candidate sharing and schedule-completion evaluation to allocate physical checks in quantum-assisted D-FACTS scheduling.",
+    "category": "Energy",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21265v1",
+    "published_at": "2026-11-16T15:35:21+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698486+00:00"
+  },
+  {
+    "title": "Hybrid Optimization-Generative Motion Planning for Multiagent Affine Formations",
+    "summary": "This paper introduces a hybrid optimization-generative framework leveraging pre-trained single-agent diffusion priors to solve formation motion planning challenges.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.21264v1",
+    "published_at": "2026-11-16T15:35:10+00:00",
+    "fetched_at": "2026-11-17T12:47:45.698489+00:00"
   },
   {
     "title": "Dream Chaser Space Plane Receives FAA Landing Approval",
@@ -61,50 +268,5 @@
     "source_url": "https://www.semanticscholar.org/paper/ede10afea256d3b0038842394c9b47378406b2fb",
     "published_at": "2026-11-16T00:00:00+00:00",
     "fetched_at": "2026-11-15T18:18:13.679165+00:00"
-  },
-  {
-    "title": "iEnFlow Attacks Target Apple Silicon Branch Predictors",
-    "summary": "Researchers introduced iEnFlow, demonstrating endogenous control-flow attacks and speculative exploitation originating purely from the conditional branch predictor on Apple silicon.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/de3aa06a10fac4b56f77f6205a88de26a9d67436",
-    "published_at": "2026-11-15T00:00:00+00:00",
-    "fetched_at": "2026-11-14T11:09:28.589396+00:00"
-  },
-  {
-    "title": "MChammer Characterizes Rowhammer Countermeasures on DDR5",
-    "summary": "A systematic study of hardware countermeasures on DDR5-based systems demonstrated end-to-end Rowhammer bit flips and root privilege escalation.",
-    "category": "Computing",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/87fe26cff4ec911de22c5ca138ea1fdb6c7b9828",
-    "published_at": "2026-11-15T00:00:00+00:00",
-    "fetched_at": "2026-11-14T11:09:28.589408+00:00"
-  },
-  {
-    "title": "Scientists Capture Electrons Making Quantum Jumps in Graphene",
-    "summary": "Researchers captured electrons making sudden transitions across forbidden energy gaps in graphene with 100% probability.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
-    "published_at": "2026-11-14T01:13:05+00:00",
-    "fetched_at": "2026-11-14T11:09:28.589413+00:00"
-  },
-  {
-    "title": "3D-Printed Frog Swims Using Light-Powered Artificial Muscles",
-    "summary": "Scientists developed a swimming frog 3D printed with artificial muscles that are powered by light.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/technology/3d-printed-frog-swims-powered-by-light/",
-    "published_at": "2026-11-13T23:03:00+00:00",
-    "fetched_at": "2026-11-14T11:09:28.589417+00:00"
-  },
-  {
-    "title": "Shifting HBM4 Controller Functions Closer to Memory",
-    "summary": "Researchers from UC Riverside published a paper examining the partitioning of HBM controllers across host and base dies for HBM4 memory.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
-    "published_at": "2026-11-13T21:53:30+00:00",
-    "fetched_at": "2026-11-14T11:09:28.589420+00:00"
   }
 ]
