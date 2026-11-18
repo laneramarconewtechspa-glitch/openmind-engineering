@@ -1,5 +1,122 @@
 [
   {
+    "title": "XL Tiny House Offers Single-Floor Living",
+    "summary": "This single-floor tiny house model provides two bedrooms, a full-sized kitchen, and a spacious living area.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/lot-30-xl-escape/",
+    "published_at": "2026-11-18T12:09:57+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811736+00:00"
+  },
+  {
+    "title": "Skanska Tests Rolls-Royce SMR Component",
+    "summary": "Skanska has completed and tested a prototype concrete pedestal for Rolls-Royce's small modular reactor power plant.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/skanska-completes-prototype-component-for-rolls-royce-small-nuclear-reactor-18-11-2026/",
+    "published_at": "2026-11-18T11:50:18+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811752+00:00"
+  },
+  {
+    "title": "Voyager 1 Reaches 1 Light-Day Milestone",
+    "summary": "It now takes 24 hours for a particle of light to reach NASA's Voyager 1 probe in interstellar space.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/voyager/1-light-day-from-earth-nasas-voyager-1-probe-hits-huge-milestone-in-interstellar-space",
+    "published_at": "2026-11-18T11:35:47+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811759+00:00"
+  },
+  {
+    "title": "Startup Develops AI Nose for Odors",
+    "summary": "AI startup Osmo is using chemical analysis and human scent data to create a foundation model for odors.",
+    "category": "Computing",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+    "published_at": "2026-11-18T10:20:30+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811765+00:00"
+  },
+  {
+    "title": "St Pancras Expansion Targets 5,000 Passengers",
+    "summary": "St Pancras International has advanced design plans to approximately double its international passenger processing capacity.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/st-pancras-international-targets-5000-rail-passengers-an-hour-under-expansion-plans-18-11-2026/",
+    "published_at": "2026-11-18T09:45:04+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811771+00:00"
+  },
+  {
+    "title": "3DCeram to Unveil CLP50 Printer",
+    "summary": "3DCeram is set to introduce its compact top-down DLP system for ceramics supporting open material development.",
+    "category": "Materials",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/3dceram-to-unveil-clp50-for-ceramics-at-formnext-2026/",
+    "published_at": "2026-11-18T07:28:27+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811777+00:00"
+  },
+  {
+    "title": "AMD Acquires AI Firm World Labs",
+    "summary": "AMD has completed its acquisition of AI research firm World Labs, with Fei-Fei Li joining as chief scientist.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/amd-completes-acquisition-of-ai-research-firm-world-labs/",
+    "published_at": "2026-11-18T06:56:03+00:00",
+    "fetched_at": "2026-11-18T12:35:28.811782+00:00"
+  },
+  {
+    "title": "National Grid Recruits 300+ Graduates and Apprentices",
+    "summary": "National Grid launched a recruitment drive for over 300 graduate and apprenticeship positions in Great Britain.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/national-grid-hiring-more-than-300-graduates-and-apprentices-18-11-2026/",
+    "published_at": "2026-11-18T06:30:39+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175470+00:00"
+  },
+  {
+    "title": "Imec Launches Photonics R&D Centre in Hokkaido",
+    "summary": "Imec is expanding operations in Hokkaido, Japan, with government backing and in collaboration with LSTC.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/imec-sets-up-photonics-rd-centre-in-hokkaido-2026-11/",
+    "published_at": "2026-11-18T06:10:52+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175481+00:00"
+  },
+  {
+    "title": "SkyeChip and SiPearl Partner on Arm-Based CPU",
+    "summary": "SkyeChip and SiPearl signed an MoU to develop and commercialise an Arm Neoverse-based compute platform.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/skyechip-and-sipearl-hook-up-to-design-arm-based-cpu-2026-11/",
+    "published_at": "2026-11-18T06:08:12+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175488+00:00"
+  },
+  {
+    "title": "Appalachian Power Announces $24.5B Energy Investment",
+    "summary": "Appalachian Power is investing $17 billion in natural gas generation and $7.5 billion in coal plant upgrades in West Virginia.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/gas/appalachian-power-to-invest-almost-25b-in-new-gas-coal-uprates/",
+    "published_at": "2026-11-18T06:00:00+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175494+00:00"
+  },
+  {
+    "title": "Google Partners with Quaise for Geothermal Power",
+    "summary": "Google agreed to purchase 50 MW of continuous power for its data center from Quaise's geothermal project in Oregon.",
+    "category": "Energy",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/energy/google-quaise-rock-vaporizing-geothermal-tech-data-center-power/",
+    "published_at": "2026-11-18T05:08:09+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175500+00:00"
+  },
+  {
+    "title": "Laser-Fused Moon Dust Bricks Developed for Space",
+    "summary": "A new technology allows the creation of Lego-like building blocks directly from moon dust for extraterrestrial construction.",
+    "category": "Materials",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/materials/3d-printed-moon-lego-bricks/",
+    "published_at": "2026-11-18T04:15:16+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175506+00:00"
+  },
+  {
     "title": "Biofidelic Goat Model Developed for Traumatic Optic Neuropathy",
     "summary": "Researchers combined finite element analysis and transnasal endoscopy to create a reproducible goat model of traumatic optic neuropathy.",
     "category": "Biomedical",
@@ -7,6 +124,24 @@
     "source_url": "https://www.semanticscholar.org/paper/47420890ab498eb64a1fdd88f8de6fe438cf3f0c",
     "published_at": "2026-11-18T00:00:00+00:00",
     "fetched_at": "2026-11-17T12:47:26.900029+00:00"
+  },
+  {
+    "title": "California DMV Bars Waymo AVs From Freeways",
+    "summary": "The California DMV banned Waymo autonomous vehicles from freeways due to safety hazards from recurring vehicle incursions.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+    "published_at": "2026-11-17T23:55:07+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175511+00:00"
+  },
+  {
+    "title": "Foundational Tests Laser-Reflecting Tech for Space Junk",
+    "summary": "British company Foundational successfully tested its laser-reflecting technology in an orbital demonstration to target space debris.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/space-is-filling-up-with-junk-could-laser-reflecting-mirrors-help-humanity-clean-things-up",
+    "published_at": "2026-11-17T21:00:00+00:00",
+    "fetched_at": "2026-11-18T12:35:32.175517+00:00"
   },
   {
     "title": "Dutch Startup Developing Motorcycle-Stance Hypercar",
@@ -18,6 +153,24 @@
     "fetched_at": "2026-11-17T20:27:05.831540+00:00"
   },
   {
+    "title": "Feedback-Linearised Trajectory Tracking via Model-Informed Robust Geometric DDPC",
+    "summary": "This paper studies geometric robust data-driven predictive control for trajectory tracking of a fully actuated manipulator using model-based feedback linearisation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23215v1",
+    "published_at": "2026-11-17T18:56:09+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955929+00:00"
+  },
+  {
+    "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+    "summary": "Researchers propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction by reconstructing masked gaze and trajectory.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23211v1",
+    "published_at": "2026-11-17T18:50:22+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955941+00:00"
+  },
+  {
     "title": "ULA Vulcan Centaur Fails Early in Flight",
     "summary": "United Launch Alliance reported that its Vulcan Centaur rocket failed during launch due to an issue with its first-stage booster.",
     "category": "Aerospace",
@@ -25,6 +178,33 @@
     "source_url": "https://www.space.com/space-exploration/launches-spacecraft/ula-lost-a-vulcan-centaur-rocket-carrying-40-amazon-satellites-10-minutes-after-launch-but-the-failure-began-just-after-liftoff",
     "published_at": "2026-11-17T18:48:18+00:00",
     "fetched_at": "2026-11-17T20:27:05.831553+00:00"
+  },
+  {
+    "title": "Learned vs Kinematic Trajectory Prediction under Reduced Observation Frequency",
+    "summary": "This study examines whether learned trajectory predictors maintain their advantages over kinematic models when observation history frequencies drop.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23198v1",
+    "published_at": "2026-11-17T18:38:28+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955948+00:00"
+  },
+  {
+    "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
+    "summary": "Researchers present WoRD, which uses a learned trajectory prior and diffusion to infer an agent's intended goal from partial observations.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23192v1",
+    "published_at": "2026-11-17T18:35:53+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955953+00:00"
+  },
+  {
+    "title": "Capability Composition in Heterogeneous Teams via Barrier-Guided Diffusion Sampling",
+    "summary": "This method generates cooperative team trajectories satisfying physical constraints by sampling from generative models trained on individual agent demonstrations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23149v1",
+    "published_at": "2026-11-17T18:03:24+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955959+00:00"
   },
   {
     "title": "COMAC's CE-25A Electric Airliner Carries Crew",
@@ -45,6 +225,24 @@
     "fetched_at": "2026-11-17T20:27:05.831562+00:00"
   },
   {
+    "title": "Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array",
+    "summary": "Researchers propose using altimeter measurements from a distributed pressure sensor array to directly observe the direction of the gravity vector in mobile robotics.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23120v1",
+    "published_at": "2026-11-17T17:38:28+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955965+00:00"
+  },
+  {
+    "title": "Auditing a Learned Simulator for Legged Robots on ANYmal D",
+    "summary": "Researchers audit the dynamics model of the Robotic World Model for the ANYmal D quadruped end-to-end to evaluate simulator accuracy and robot-level policy success.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.23118v1",
+    "published_at": "2026-11-17T17:36:40+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955969+00:00"
+  },
+  {
     "title": "KAIST Proposes Backside Clock Mesh Architecture",
     "summary": "KAIST researchers published a clock distribution network design placing the clock mesh on backside metal layers to reduce skew and power.",
     "category": "Electronics & Semiconductors",
@@ -54,219 +252,21 @@
     "fetched_at": "2026-11-17T20:27:05.831566+00:00"
   },
   {
-    "title": "TAIYO YUDEN Introduces New LTCC Solutions",
-    "summary": "TAIYO YUDEN released advanced LTCC solutions for UWB and Bluetooth Low Energy applications to aid miniaturization and RF performance.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
-    "published_at": "2026-11-17T15:00:00+00:00",
-    "fetched_at": "2026-11-17T20:27:05.831570+00:00"
-  },
-  {
-    "title": "Deloitte Launches Edisyl for Enterprise AI Context Packs",
-    "summary": "Deloitte has launched Knowledge Packs to combine curated domain knowledge with internal company data across existing AI tools.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/deloitte-launches-edisyl-for-enterprise-ai-context-packs/",
-    "published_at": "2026-11-17T13:53:32+00:00",
-    "fetched_at": "2026-11-17T20:27:25.279975+00:00"
-  },
-  {
-    "title": "London Energy Recovery Facility Faces £451M Cost Increase",
-    "summary": "The North London Waste Authority proposes increasing the Edmonton Energy Recovery Facility contract price following disputes with Acciona Industrial.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/london-energy-recovery-facility-faces-451m-development-cost-increase-following-significant-disputes-with-acciona-17-11-2026/",
-    "published_at": "2026-11-17T12:10:08+00:00",
-    "fetched_at": "2026-11-17T20:27:25.279986+00:00"
-  },
-  {
-    "title": "Honeywell and Keppel Partner for Low-Carbon Fuels",
-    "summary": "Honeywell and Keppel are collaborating to evaluate sustainable aviation fuels, renewable diesel, and methanol production pathways in the Asia-Pacific region.",
-    "category": "Energy",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/honeywell-and-keppel-partner-to-advance-low-carbon-fuels/",
-    "published_at": "2026-11-17T10:43:04+00:00",
-    "fetched_at": "2026-11-17T12:47:26.900042+00:00"
-  },
-  {
-    "title": "Galafoot Bridge Requires Repairs After Poor Concrete Discovery",
-    "summary": "Refurbishment work on the Galafoot Bridge is extended after its concrete deck slab was found to be in worse condition than anticipated.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/scottish-borders-galafoot-bridge-requires-repair-after-concrete-deck-slab-in-much-worse-condition-then-anticipated-17-11-2026/",
-    "published_at": "2026-11-17T08:37:30+00:00",
-    "fetched_at": "2026-11-17T20:27:25.279990+00:00"
-  },
-  {
-    "title": "Cosmo Bee to Flight-Test Hall Thruster in 2027",
-    "summary": "South Korean startup Cosmo Bee plans to test its 10 mN-class Honeybee Hall thruster in orbit with D-Orbit in 2027.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/cosmo-bee-to-flight-test-honeybee-hall-thruster-with-d-orbit-in-2027/",
-    "published_at": "2026-11-17T08:00:00+00:00",
-    "fetched_at": "2026-11-17T12:47:26.900046+00:00"
-  },
-  {
-    "title": "One-Atom-Thick Material Reveals Strange Quantum State",
-    "summary": "Osaka University researchers discovered a quantum state with heavy-behaving electrons at the boundary between an ultrathin material and copper.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085554.htm",
-    "published_at": "2026-11-17T01:25:39+00:00",
-    "fetched_at": "2026-11-17T12:47:26.900049+00:00"
-  },
-  {
-    "title": "Self-Supervised Virtual Metrology Framework for CMP MRR",
-    "summary": "Researchers proposed a self-supervised attention-based framework called GREP to predict chemical mechanical planarization removal rates from sensor signals.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
-    "published_at": "2026-11-17T00:56:29+00:00",
-    "fetched_at": "2026-11-17T12:47:26.900052+00:00"
-  },
-  {
-    "title": "Saloon Desk Turns Sofas Into Workstations",
-    "summary": "A German inventor created a desk that straddles sofas and features independently adjustable desktops that swing open like saloon doors.",
-    "category": "Other Engineering",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/lifestyle/saloon-desk-sofa-workstation/",
-    "published_at": "2026-11-17T00:03:00+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029047+00:00"
-  },
-  {
-    "title": "Michigan Regulators Set Dam Sales Deadline",
-    "summary": "Michigan regulators set a December deadline for a decision regarding Consumers Energy's proposed sale of thirteen hydroelectric dams.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/hydro-power/dams-civil-structures/mpsc-sets-december-deadline-for-decision-on-consumers-energy-dam-sales/",
-    "published_at": "2026-11-16T21:14:40+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029056+00:00"
-  },
-  {
-    "title": "SpaceX to Make Starship Even Bigger with V4 Model",
-    "summary": "Elon Musk announced that SpaceX's Starship rocket will be expanded further in its next-generation V4 iteration.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/elon-musk-says-spacexs-starship-already-the-largest-rocket-on-earth-will-get-even-bigger-with-next-gen-v4-model",
-    "published_at": "2026-11-16T20:04:22+00:00",
-    "fetched_at": "2026-11-16T21:36:14.853734+00:00"
-  },
-  {
-    "title": "Voyager 1 Nears Distance of One Light-Day from Earth",
-    "summary": "The interstellar probe Voyager 1 is approaching a distance of one light-day from Earth in deep space.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/voyager/what-exactly-is-a-light-day-heres-what-voyager-1s-latest-milestone-means-for-the-interstellar-probe",
-    "published_at": "2026-11-16T19:00:00+00:00",
-    "fetched_at": "2026-11-16T21:36:14.853748+00:00"
-  },
-  {
-    "title": "Hyperlyve Framework Certifies Deep ReLU Stability",
-    "summary": "Researchers introduced Hyperlyve, a parallelized framework that proves the asymptotic stability of nonlinear systems with neural network controllers.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21599v1",
-    "published_at": "2026-11-16T18:58:29+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029059+00:00"
-  },
-  {
-    "title": "Partitioned MiLAC Architecture for MU-MIMO Precoding",
-    "summary": "A partitioned Microwave Linear Analog Computer architecture was proposed for user-specific MU-MIMO precoding using independently configured analog subnetworks.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21561v1",
-    "published_at": "2026-11-16T18:40:02+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029062+00:00"
-  },
-  {
-    "title": "Lazy-MOSAIC Accelerates Manipulation Planning",
-    "summary": "Researchers introduced Lazy-MOSAIC, a planning framework that uses a learned world model to accelerate skill-centric robot manipulation planning.",
+    "title": "CADENCE: Learning Acyclic Gaits for Model-Based Quadruped Locomotion",
+    "summary": "CADENCE is a learned step planner that develops an acyclic gait using reinforcement learning on top of a convex model predictive controller.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21517v1",
-    "published_at": "2026-11-16T18:10:52+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029065+00:00"
+    "source_url": "https://arxiv.org/abs/2611.23102v1",
+    "published_at": "2026-11-17T17:25:29+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955975+00:00"
   },
   {
-    "title": "Decentralized Protocol Enables Safe Agent Disconnection",
-    "summary": "A decentralized event-triggered topology-switching protocol allows multi-agent systems to disconnect safely from communication networks while reducing complexity.",
+    "title": "PAIR: Smart-Home Simulation Environment Grounded in Matter Protocol",
+    "summary": "PAIR is a new smart-home simulation environment grounded in the Matter protocol, providing 84 smart-device assets and a benchmark of 40 tasks for household robots.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21513v1",
-    "published_at": "2026-11-16T18:09:22+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029068+00:00"
-  },
-  {
-    "title": "Quantum Memory Advantage for Late-Graph Smoothness",
-    "summary": "Researchers demonstrated an exponential quantum memory advantage over classical receivers for spectral estimation and late-graph smoothness testing.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21500v1",
-    "published_at": "2026-11-16T18:00:35+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029071+00:00"
-  },
-  {
-    "title": "Beamformer Design Enhances ISAC Location Privacy",
-    "summary": "A beamformer design framework was developed to balance rate, sensing, and transmitter location privacy trade-offs in integrated sensing and communication systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21494v1",
-    "published_at": "2026-11-16T17:59:06+00:00",
-    "fetched_at": "2026-11-17T12:47:35.029073+00:00"
-  },
-  {
-    "title": "Distributed Adaptive Identification of Nonlinear Systems without Input Sharing",
-    "summary": "This paper studies continuous-time distributed adaptive identification for unknown nonlinear systems over directed networks without requiring source or neighbor inputs to be shared.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21483v1",
-    "published_at": "2026-11-16T17:53:31+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698455+00:00"
-  },
-  {
-    "title": "RESILAGENT: Cyber-Physical Resilience Architecture for Energy Systems",
-    "summary": "RESILAGENT is a three-pillar architecture designed to handle hybrid threats, cyber intrusions, and climate-driven stress in electrical power and energy systems.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21480v1",
-    "published_at": "2026-11-16T17:51:46+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698464+00:00"
-  },
-  {
-    "title": "Warm Starting Neural Dynamics Models From Few Jacobian Samples",
-    "summary": "Researchers propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians to improve efficiency in model-based reinforcement learning.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21465v1",
-    "published_at": "2026-11-16T17:46:39+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698468+00:00"
-  },
-  {
-    "title": "Robust Action Clusters and Cascades in Opinion Dynamics",
-    "summary": "This study investigates opinion dynamics in networks where agents update private opinions using heterogeneous action thresholds, characterizing robust action clusters and cascades.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21446v1",
-    "published_at": "2026-11-16T17:33:13+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698471+00:00"
-  },
-  {
-    "title": "Quantum Optimization Algorithm for Pinching-Antenna Activation",
-    "summary": "Researchers propose a training-free quantum approximate optimization algorithm with a linear-ramp schedule for antenna activation in pinching-antenna systems.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.21443v1",
-    "published_at": "2026-11-16T17:31:32+00:00",
-    "fetched_at": "2026-11-17T12:47:45.698474+00:00"
-  },
-  {
-    "title": "Spain Renewable Sector Loses €140M Due to Grid Constraints",
-    "summary": "Spain's renewable energy industry lost an estimated €140M in revenue to grid curtailment following recent grid constraints.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/spains-renewable-sector-loses-e140m-as-grid-constraints-remain-high-analysis-find-16-11-2026/",
-    "published_at": "2026-11-16T16:46:59+00:00",
-    "fetched_at": "2026-11-16T21:36:14.853757+00:00"
+    "source_url": "https://arxiv.org/abs/2611.23070v1",
+    "published_at": "2026-11-17T16:58:30+00:00",
+    "fetched_at": "2026-11-18T12:35:40.955981+00:00"
   }
 ]
