@@ -1,5 +1,59 @@
 [
   {
+    "title": "New Guide for NEC4 Engineering Contracts",
+    "summary": "A new book provides practical solutions and step-by-step guidance for professionals administering NEC4 engineering and construction contracts.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/f3ea2ce2848d7f455fa6513ae83bce555c94b0cf",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308778+00:00"
+  },
+  {
+    "title": "Snomo Electric Touring Skis",
+    "summary": "Snomo has developed a set of cross-country touring skis featuring built-in electric motors to assist users in snowy environments.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/outdoors/snomo-motorized-touring-skis/",
+    "published_at": "2026-11-18T19:11:08+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308790+00:00"
+  },
+  {
+    "title": "NASA Pairs SkyFall Helicopters With Nuclear Rocket",
+    "summary": "Experts question NASA's mission architecture as the agency plans to transport SkyFall Mars helicopters using its first nuclear rocket.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/mars/a-shotgun-marriage-why-are-nasas-skyfall-mars-helicopters-riding-on-a-nuclear-rocket",
+    "published_at": "2026-11-18T17:00:00+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308795+00:00"
+  },
+  {
+    "title": "Tesla Invites Buyers for Cybercab",
+    "summary": "Tesla has invited a small number of customers to purchase its steering-wheel-less, pedal-less self-driving Cybercab.",
+    "category": "Robotics",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/transport/dont-buy-tesla-cybercab/",
+    "published_at": "2026-11-18T15:15:14+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308799+00:00"
+  },
+  {
+    "title": "Single-Chip Multiturn Position Sensors",
+    "summary": "Advanced magnetic sensing technology enables accurate tracking of rotational movement in actuators even when power is removed.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
+    "published_at": "2026-11-18T15:00:00+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308804+00:00"
+  },
+  {
+    "title": "New Clues in Room-Temperature Superconductors",
+    "summary": "Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, highlighting new obstacles in superconductivity.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+    "published_at": "2026-11-18T12:16:46+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308807+00:00"
+  },
+  {
     "title": "XL Tiny House Offers Single-Floor Living",
     "summary": "This single-floor tiny house model provides two bedrooms, a full-sized kitchen, and a spacious living area.",
     "category": "Civil & Infrastructure",
@@ -117,6 +171,15 @@
     "fetched_at": "2026-11-18T12:35:32.175506+00:00"
   },
   {
+    "title": "Magnetic Nanoparticles Target Parkinson's",
+    "summary": "Researchers used magnetic nanoparticles and wearable headbands to stimulate deep brain regions and improve movement problems in mice.",
+    "category": "Biomedical",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+    "published_at": "2026-11-18T03:49:24+00:00",
+    "fetched_at": "2026-11-18T19:51:26.308811+00:00"
+  },
+  {
     "title": "Biofidelic Goat Model Developed for Traumatic Optic Neuropathy",
     "summary": "Researchers combined finite element analysis and transnasal endoscopy to create a reproducible goat model of traumatic optic neuropathy.",
     "category": "Biomedical",
@@ -205,68 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.23149v1",
     "published_at": "2026-11-17T18:03:24+00:00",
     "fetched_at": "2026-11-18T12:35:40.955959+00:00"
-  },
-  {
-    "title": "COMAC's CE-25A Electric Airliner Carries Crew",
-    "summary": "COMAC's fully electric CE-25A aircraft completed its first crewed flight with two pilots and a flight test engineer on board.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/comac-ce-25a-electric-airliner-first-crewed-flight/",
-    "published_at": "2026-11-17T17:59:34+00:00",
-    "fetched_at": "2026-11-17T20:27:05.831558+00:00"
-  },
-  {
-    "title": "Researchers Propose Defect-Aware Chiplet Matching",
-    "summary": "ASU and Ampere Computing researchers published a method for defect- and topology-aware chiplet matching to optimize heterogeneous integration yield.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
-    "published_at": "2026-11-17T17:44:39+00:00",
-    "fetched_at": "2026-11-17T20:27:05.831562+00:00"
-  },
-  {
-    "title": "Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array",
-    "summary": "Researchers propose using altimeter measurements from a distributed pressure sensor array to directly observe the direction of the gravity vector in mobile robotics.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23120v1",
-    "published_at": "2026-11-17T17:38:28+00:00",
-    "fetched_at": "2026-11-18T12:35:40.955965+00:00"
-  },
-  {
-    "title": "Auditing a Learned Simulator for Legged Robots on ANYmal D",
-    "summary": "Researchers audit the dynamics model of the Robotic World Model for the ANYmal D quadruped end-to-end to evaluate simulator accuracy and robot-level policy success.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23118v1",
-    "published_at": "2026-11-17T17:36:40+00:00",
-    "fetched_at": "2026-11-18T12:35:40.955969+00:00"
-  },
-  {
-    "title": "KAIST Proposes Backside Clock Mesh Architecture",
-    "summary": "KAIST researchers published a clock distribution network design placing the clock mesh on backside metal layers to reduce skew and power.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/backside-clock-mesh-reduces-skew-and-power-in-backside-power-delivery-kaist/",
-    "published_at": "2026-11-17T17:35:37+00:00",
-    "fetched_at": "2026-11-17T20:27:05.831566+00:00"
-  },
-  {
-    "title": "CADENCE: Learning Acyclic Gaits for Model-Based Quadruped Locomotion",
-    "summary": "CADENCE is a learned step planner that develops an acyclic gait using reinforcement learning on top of a convex model predictive controller.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23102v1",
-    "published_at": "2026-11-17T17:25:29+00:00",
-    "fetched_at": "2026-11-18T12:35:40.955975+00:00"
-  },
-  {
-    "title": "PAIR: Smart-Home Simulation Environment Grounded in Matter Protocol",
-    "summary": "PAIR is a new smart-home simulation environment grounded in the Matter protocol, providing 84 smart-device assets and a benchmark of 40 tasks for household robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.23070v1",
-    "published_at": "2026-11-17T16:58:30+00:00",
-    "fetched_at": "2026-11-18T12:35:40.955981+00:00"
   }
 ]
