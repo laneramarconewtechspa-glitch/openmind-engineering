@@ -1,5 +1,68 @@
 [
   {
+    "title": "China Rolls Out Rocket for Tiangong Mission",
+    "summary": "China has rolled out the rocket and spacecraft for the Shenzhou-24 mission to carry the first international astronaut to the Tiangong space station.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video",
+    "published_at": "2026-11-19T19:00:00+00:00",
+    "fetched_at": "2026-11-19T19:52:37.906881+00:00"
+  },
+  {
+    "title": "Mitsubishi Electric Unveils AI and Humanoid Robot CNC Cell",
+    "summary": "Mitsubishi Electric demonstrated a CNC work cell combining AI and a general-purpose humanoid robot at the Japan International Machine Tool Fair.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/mitsubishi-electric-cnc-work-cell-uses-ai-and-humanoid-robots/",
+    "published_at": "2026-11-19T15:19:33+00:00",
+    "fetched_at": "2026-11-19T19:52:37.906897+00:00"
+  },
+  {
+    "title": "Thames Water Seeks Approval for £7bn Reservoir",
+    "summary": "Thames Water has applied for a development consent order to build a massive new reservoir near Abingdon in Oxfordshire.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/thames-water-submits-dco-for-7bn-reservoir-near-abingdon-as-new-images-released-19-11-2026/",
+    "published_at": "2026-11-19T13:01:09+00:00",
+    "fetched_at": "2026-11-19T19:52:37.906904+00:00"
+  },
+  {
+    "title": "PSE&G Wins 2026 Grid Changer Award",
+    "summary": "PSE&G won the DTECH Northeast 2026 Grid Changer Award for its Electric Vehicle Charging Program.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/announcing-the-winner-of-the-2026-grid-changer-award-at-dtech-northeast/",
+    "published_at": "2026-11-19T12:05:00+00:00",
+    "fetched_at": "2026-11-19T19:52:37.906909+00:00"
+  },
+  {
+    "title": "Addressing Thermal and EMI in GaN Converters",
+    "summary": "Engineers must treat switching behavior, EMI, PCB design, and thermal management as interconnected challenges in GaN power converters.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/thermal-and-emi-challenges-in-high-density-gan-power-converters-2026-11/",
+    "published_at": "2026-11-19T12:00:02+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105272+00:00"
+  },
+  {
+    "title": "Human Liver Kept Alive Outside Body for Seven Weeks",
+    "summary": "Australian researchers successfully kept a donated human liver alive on life support outside the body for a record seven weeks.",
+    "category": "Biomedical",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+    "published_at": "2026-11-19T12:00:00+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105283+00:00"
+  },
+  {
+    "title": "UK Construction Records 25 Workplace Deaths",
+    "summary": "Provisional Health and Safety Executive figures show the construction sector recorded 25 workplace fatalities in 2025/26.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/hse-data-construction-sector-recorded-25-workplace-deaths-as-uk-total-reached-126-19-11-2026/",
+    "published_at": "2026-11-19T11:58:35+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105287+00:00"
+  },
+  {
     "title": "Materialise Urges Coordinated AM Network for Defense",
     "summary": "Materialise called for shared standards, qualification frameworks, and secure digital infrastructure to link production resources across borders.",
     "category": "Materials",
@@ -9,6 +72,24 @@
     "fetched_at": "2026-11-19T12:29:52.993436+00:00"
   },
   {
+    "title": "U.S. Gas Turbine Fleet Upgrades Could Add 600 TWh",
+    "summary": "An analysis previews that the existing U.S. gas turbine fleet could add up to 600 TWh annually through maintenance and upgrades.",
+    "category": "Energy",
+    "source_name": "Power Engineering",
+    "source_url": "https://www.power-eng.com/gas/turbines/the-u-s-gas-turbine-fleet-may-have-a-lot-left-on-the-table/",
+    "published_at": "2026-11-19T11:00:00+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105291+00:00"
+  },
+  {
+    "title": "ICE Urges Greater Public Say Over Infrastructure",
+    "summary": "The Institution of Civil Engineers and the Future Governance Forum urged leaders to give communities more say over infrastructure projects.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/ice-urges-burnham-to-give-public-greater-say-over-uk-infrastructure-19-11-2026/",
+    "published_at": "2026-11-19T10:14:58+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105295+00:00"
+  },
+  {
     "title": "Italian Startup GR1T Unveils Modular Electric Motorcycle",
     "summary": "Startup GR1T introduced a single platform serving as the foundation for four distinct electric motorcycles sharing the same components.",
     "category": "Mechanical",
@@ -16,6 +97,15 @@
     "source_url": "https://newatlas.com/motorcycles/gr1ts-modular-bikes/",
     "published_at": "2026-11-19T10:03:19+00:00",
     "fetched_at": "2026-11-19T12:29:52.993447+00:00"
+  },
+  {
+    "title": "McCrory Nears Completion of First Rail Project",
+    "summary": "Stockport-based contractor McCrory is nearing completion on its first rail project while targeting sector growth.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/mccrory-nears-completion-of-first-rail-project-as-it-targets-sector-growth-19-11-2026/",
+    "published_at": "2026-11-19T09:05:22+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105300+00:00"
   },
   {
     "title": "Simulating Plasma Chambers for Semiconductor Manufacturing",
@@ -36,6 +126,15 @@
     "fetched_at": "2026-11-19T12:29:52.993454+00:00"
   },
   {
+    "title": "STMicroelectronics Expects to Double MCU Revenues",
+    "summary": "ST expects to double its microcontroller revenues between 2005 and 2028, according to group president Remi El-Ouazzane.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/st-to-double-stm32-revenues-2026-11/",
+    "published_at": "2026-11-19T06:15:21+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105304+00:00"
+  },
+  {
     "title": "AMD Completes Acquisition of AI Chip Pioneer Taalas",
     "summary": "The deal adds specialized silicon expertise to AMD's accelerator roadmap and expands its engineering presence in Canada.",
     "category": "Electronics & Semiconductors",
@@ -43,6 +142,15 @@
     "source_url": "https://www.engineering.com/amd-completes-acquisition-of-ai-inference-chip-pioneer-taalas/",
     "published_at": "2026-11-19T06:11:52+00:00",
     "fetched_at": "2026-11-19T12:29:52.993457+00:00"
+  },
+  {
+    "title": "Pulsiv Signs Distribution Agreement With Easby",
+    "summary": "Power electronics specialist Pulsiv signed a distribution agreement with Easby Electronics for its high-power range.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/pulsiv-signs-easby-2026-11/",
+    "published_at": "2026-11-19T06:09:59+00:00",
+    "fetched_at": "2026-11-19T19:52:41.105308+00:00"
   },
   {
     "title": "BAE Systems Develops Passive Ghost Radar",
@@ -61,6 +169,15 @@
     "source_url": "https://www.semanticscholar.org/paper/f3ea2ce2848d7f455fa6513ae83bce555c94b0cf",
     "published_at": "2026-11-19T00:00:00+00:00",
     "fetched_at": "2026-11-18T19:51:26.308778+00:00"
+  },
+  {
+    "title": "Explainable AI Framework for BIM-Integrated Construction Systems",
+    "summary": "Researchers developed a multi-layer explainable AI framework integrating BIM and sustainability metrics for construction governance and resilience assessment.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a897a9de9045541ad9578a0a84180053aaa1faf0",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "fetched_at": "2026-11-19T19:52:43.615963+00:00"
   },
   {
     "title": "Flexell Space and ALATYR Partner on Orbital Solar Power",
@@ -151,122 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.24840v1",
     "published_at": "2026-11-18T18:06:20+00:00",
     "fetched_at": "2026-11-19T12:30:06.888890+00:00"
-  },
-  {
-    "title": "Greedy Vector Approximation for Multiplierless Complex Products",
-    "summary": "A new greedy approximation algorithm improves complex-valued inner products in multiplierless hardware for fast Fourier transform twiddle factors.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24829v1",
-    "published_at": "2026-11-18T17:59:04+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888894+00:00"
-  },
-  {
-    "title": "Synthesizing Hyperspectral Data for Low-Cost Crop Residue Mapping",
-    "summary": "A novel decoupling framework uses conditional generative models to augment sparse ground-truth datasets for hyperspectral unmixing.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24827v1",
-    "published_at": "2026-11-18T17:58:21+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888897+00:00"
-  },
-  {
-    "title": "RoboMorpher Scales Robot Morphology for Cross-Embodiment Actions",
-    "summary": "RoboMorpher introduces a morphology-conditioned action tokenizer that associates control coordinates with kinematic effects across diverse robots.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24816v1",
-    "published_at": "2026-11-18T17:47:57+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888900+00:00"
-  },
-  {
-    "title": "LAaDT-DSS: Decision Support Software for Rooftop PV Systems",
-    "summary": "LAaDT-DSS provides non-experts with simulation-based decision support for rooftop photovoltaic investments under Turkish tariff rules.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24810v1",
-    "published_at": "2026-11-18T17:45:52+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888903+00:00"
-  },
-  {
-    "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
-    "summary": "HINT-WAM introduces an on-policy self-distillation framework that supervises robot action experts using hindsight video as privileged information.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24789v1",
-    "published_at": "2026-11-18T17:36:15+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888905+00:00"
-  },
-  {
-    "title": "Hierarchical Traffic Engineering for Satellite Networks",
-    "summary": "A hierarchical software-defined networking framework coordinates constellation and payload levels to reduce congestion and improve throughput in satellite networks.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24777v1",
-    "published_at": "2026-11-18T17:23:55+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888908+00:00"
-  },
-  {
-    "title": "Hierarchical Admittance-Impedance Control for Mobile Manipulators",
-    "summary": "A new hierarchical controller combines Cartesian impedance and admittance supervision to enable safe human-guided mobile manipulator load transfers.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24771v1",
-    "published_at": "2026-11-18T17:19:50+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888911+00:00"
-  },
-  {
-    "title": "Transferability of Lateral Velocity Estimation on Production Vehicles",
-    "summary": "Researchers demonstrate that input selection and physical data augmentations improve the cross-vehicle transferability of neural-network lateral velocity estimators.",
-    "category": "Mechanical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24747v1",
-    "published_at": "2026-11-18T17:06:26+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888914+00:00"
-  },
-  {
-    "title": "NASA Pairs SkyFall Helicopters With Nuclear Rocket",
-    "summary": "Experts question NASA's mission architecture as the agency plans to transport SkyFall Mars helicopters using its first nuclear rocket.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/mars/a-shotgun-marriage-why-are-nasas-skyfall-mars-helicopters-riding-on-a-nuclear-rocket",
-    "published_at": "2026-11-18T17:00:00+00:00",
-    "fetched_at": "2026-11-18T19:51:26.308795+00:00"
-  },
-  {
-    "title": "Sparse Signal-Multiplexing Network Ranging Framework Proposed",
-    "summary": "Researchers proposed a task-oriented network ranging framework that uses joint graph and schedule design to reduce rounds and improve localization accuracy.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24702v1",
-    "published_at": "2026-11-18T16:30:02+00:00",
-    "fetched_at": "2026-11-19T12:30:13.869434+00:00"
-  },
-  {
-    "title": "Frequency Spreading Codes for FRESH Filtering Interference Cancellation",
-    "summary": "A new frequency spreading code approach controls spectral correlation properties at low redundancy factors to enable co-channel interference cancellation.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24693v1",
-    "published_at": "2026-11-18T16:20:49+00:00",
-    "fetched_at": "2026-11-19T12:30:13.869443+00:00"
-  },
-  {
-    "title": "Tesla Invites Buyers for Cybercab",
-    "summary": "Tesla has invited a small number of customers to purchase its steering-wheel-less, pedal-less self-driving Cybercab.",
-    "category": "Robotics",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/transport/dont-buy-tesla-cybercab/",
-    "published_at": "2026-11-18T15:15:14+00:00",
-    "fetched_at": "2026-11-18T19:51:26.308799+00:00"
-  },
-  {
-    "title": "Single-Chip Multiturn Position Sensors",
-    "summary": "Advanced magnetic sensing technology enables accurate tracking of rotational movement in actuators even when power is removed.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
-    "published_at": "2026-11-18T15:00:00+00:00",
-    "fetched_at": "2026-11-18T19:51:26.308804+00:00"
   }
 ]
