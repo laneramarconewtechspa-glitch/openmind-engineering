@@ -1,5 +1,185 @@
 [
   {
+    "title": "First Supermassive Black Hole Image Verified",
+    "summary": "An independent research team has validated the first captured image of a supermassive black hole.",
+    "category": "Other Engineering",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/black-holes/einstein-was-right-scientists-verify-1st-image-of-a-black-hole-ever-captured",
+    "published_at": "2026-11-20T11:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:13.366996+00:00"
+  },
+  {
+    "title": "SpaceX Dragon Cargo Capsule Departs ISS",
+    "summary": "SpaceX's 35th Dragon cargo mission is scheduled to undock from the International Space Station.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-dragon-iss-cargo-mission-return-to-earth",
+    "published_at": "2026-11-20T11:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367008+00:00"
+  },
+  {
+    "title": "Siemens Plans Simcenter X on Azure",
+    "summary": "The SaaS simulation suite is designed for scalable HPC, AI workflows, and collaboration across engineering teams.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/siemens-plans-simcenter-x-on-azure-and-marketplace/",
+    "published_at": "2026-11-20T10:10:36+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367012+00:00"
+  },
+  {
+    "title": "AI-Native Chip Development Platform Announced",
+    "summary": "AidaChip has launched a multi-player AI-native platform covering all silicon roles from architecture to production.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/ai-native-chip-development-platform-connects-intent-knowledge-and-execution-2026-11/",
+    "published_at": "2026-11-20T09:13:29+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367016+00:00"
+  },
+  {
+    "title": "Neysa Deploys AMD MI350X AI Cluster in India",
+    "summary": "The new operational cluster supports training, fine-tuning, and inference with compute capacity already contracted.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/neysa-deploys-amd-mi350x-ai-cluster-in-india/",
+    "published_at": "2026-11-20T08:20:38+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367021+00:00"
+  },
+  {
+    "title": "Sizewell C Appoints Risk Management Provider",
+    "summary": "Crysp has been appointed to support health and safety at the Sizewell C nuclear power project.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/sizewell-c-appoints-yorkshire-based-risk-management-platform-provider-20-11-2026/",
+    "published_at": "2026-11-20T06:30:08+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367023+00:00"
+  },
+  {
+    "title": "Google Rejigs TPU Supply Chain",
+    "summary": "Google is reorganizing its TPU supply chain amid a capacity-constrained AI chip market.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/google-rejigging-tpu-supply-chain-2026-11/",
+    "published_at": "2026-11-20T06:16:49+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367027+00:00"
+  },
+  {
+    "title": "TrendForce Predicts NAND Price Drop",
+    "summary": "NAND could face over-supply next year as production increases and consumer orders fall.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/nand-price-to-fall-2026-11/",
+    "published_at": "2026-11-20T06:13:30+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367030+00:00"
+  },
+  {
+    "title": "Datacentre High-Density Power Market to Top $42B",
+    "summary": "Dell'Oro expects the datacentre high-density power market to exceed $42 billion by 2030.",
+    "category": "Energy",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/datacentre-high-density-power-market-to-top-42bn-by-2030-2026-11/",
+    "published_at": "2026-11-20T06:04:45+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367033+00:00"
+  },
+  {
+    "title": "1,300-HP Hybrid Trophy Truck Based on Honda Passport",
+    "summary": "A Honda Passport SUV serves as the base for a wild 1,300-horsepower hybrid Baja spec monster.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/honda-passport-trophy-truck/",
+    "published_at": "2026-11-20T05:15:23+00:00",
+    "fetched_at": "2026-11-20T12:30:13.367036+00:00"
+  },
+  {
+    "title": "Pleasure-Way Debuts First Everbound Luxury Travel Trailer",
+    "summary": "Pleasure-Way has entered the camping trailer market for the first time with the debut of the Everbound Luxury Travel Trailer.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/camping-trailers/pleasure-way-everbound-travel-trailer/",
+    "published_at": "2026-11-20T03:03:00+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927138+00:00"
+  },
+  {
+    "title": "Physicists Flip Magnetic Heart of an Atom in Experiment",
+    "summary": "Physicists have successfully flipped a magnetic switch buried deep within an atom’s heart during a new experiment.",
+    "category": "Other Engineering",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/physics/physicists-flip-atom-experiment/",
+    "published_at": "2026-11-20T01:03:00+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927150+00:00"
+  },
+  {
+    "title": "Acoustofluidic 3D Bioprinting Creates Bionic Skin With Hair Follicles",
+    "summary": "Researchers developed an acoustofluidic-assisted 3D bioprinting platform to fabricate bionic skins capable of hair follicle regeneration.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/667a5772b05506a7e366e99d95c089fb6f9fa0bb",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927154+00:00"
+  },
+  {
+    "title": "Nanoparticle-Enabled Gene Delivery Systems for Pediatric Brain Tumors",
+    "summary": "Researchers reviewed nanoparticle delivery systems designed to help gene therapy cross the blood-brain barrier for pediatric brain tumors.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/1fbf9916fd032baaec1b18bdf4711cf01ca01a09",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927157+00:00"
+  },
+  {
+    "title": "Voyager 1 Team Celebrates One-Light-Day Distance Milestone",
+    "summary": "The Voyager 1 team celebrated the spacecraft reaching a distance milestone while managing a recent communication anomaly.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/voyager/voyager-1-team-unbowed-by-communications-glitch-celebrates-epic-1-light-day-distance-milestone",
+    "published_at": "2026-11-19T23:42:03+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927160+00:00"
+  },
+  {
+    "title": "Relativity Space Tests Terran R Second Stage Hardware",
+    "summary": "Relativity Space tested the Terran R second stage and completed structural qualifications ahead of its inaugural launch.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/11/relativity-update-1116/",
+    "published_at": "2026-11-19T22:08:32+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927164+00:00"
+  },
+  {
+    "title": "Slow-Motion Video Shows SpaceX Starship Tower Catch",
+    "summary": "New slow-motion videos show a tower-eye view of SpaceX successfully catching the Starship upper stage.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/the-view-from-the-tower-watch-starship-come-in-for-chopsticks-catch-in-epic-slo-mo-video",
+    "published_at": "2026-11-19T22:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:22.927166+00:00"
+  },
+  {
+    "title": "Hitachi and Bechtel Partner on Grid Equipment",
+    "summary": "Hitachi and Bechtel announced an agreement to enhance planning and procurement of electrical equipment for U.S. projects.",
+    "category": "Energy",
+    "source_name": "Renewable Energy World",
+    "source_url": "https://www.renewableenergyworld.com/power-grid/hitachi-bechtel-team-up-to-tackle-growing-lead-times-for-power-grid-equipment/",
+    "published_at": "2026-11-19T20:56:44+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289780+00:00"
+  },
+  {
+    "title": "Articulated Finger-Worn Gaming Mouse",
+    "summary": "The Borslon is a radical gaming mouse featuring an articulated finger-worn design that wraps the entire finger.",
+    "category": "Computing",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/computers/borslon-finger-worn-gaming-mouse/",
+    "published_at": "2026-11-19T20:00:04+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289789+00:00"
+  },
+  {
+    "title": "Engine Trouble Redirects Hayabusa2 Mission",
+    "summary": "Japan's space agency changed destinations for the final act of the Hayabusa2 asteroid mission due to ion thruster problems.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/asteroid-comet-missions/no-more-asteroid-landing-engine-trouble-forces-japans-hayabusa2-probe-to-change-plans",
+    "published_at": "2026-11-19T20:00:00+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289792+00:00"
+  },
+  {
     "title": "China Rolls Out Rocket for Tiangong Mission",
     "summary": "China has rolled out the rocket and spacecraft for the Shenzhou-24 mission to carry the first international astronaut to the Tiangong space station.",
     "category": "Aerospace",
@@ -9,264 +189,84 @@
     "fetched_at": "2026-11-19T19:52:37.906881+00:00"
   },
   {
-    "title": "Mitsubishi Electric Unveils AI and Humanoid Robot CNC Cell",
-    "summary": "Mitsubishi Electric demonstrated a CNC work cell combining AI and a general-purpose humanoid robot at the Japan International Machine Tool Fair.",
+    "title": "AgentRoboCritic Analyzes Robot Control Agents",
+    "summary": "Researchers introduced AgentRoboCritic to perform a systematic action-level analysis of frontier multimodal language agents on direct robot control.",
     "category": "Robotics",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/mitsubishi-electric-cnc-work-cell-uses-ai-and-humanoid-robots/",
-    "published_at": "2026-11-19T15:19:33+00:00",
-    "fetched_at": "2026-11-19T19:52:37.906897+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26613v1",
+    "published_at": "2026-11-19T18:57:25+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289796+00:00"
   },
   {
-    "title": "Thames Water Seeks Approval for £7bn Reservoir",
-    "summary": "Thames Water has applied for a development consent order to build a massive new reservoir near Abingdon in Oxfordshire.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/thames-water-submits-dco-for-7bn-reservoir-near-abingdon-as-new-images-released-19-11-2026/",
-    "published_at": "2026-11-19T13:01:09+00:00",
-    "fetched_at": "2026-11-19T19:52:37.906904+00:00"
+    "title": "Tutorial on Complementarity-Based Contact Models",
+    "summary": "A new self-contained tutorial connects rigid-body dynamics, conic optimization, and frictional contact for robotics simulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26600v1",
+    "published_at": "2026-11-19T18:54:07+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289798+00:00"
   },
   {
-    "title": "PSE&G Wins 2026 Grid Changer Award",
-    "summary": "PSE&G won the DTECH Northeast 2026 Grid Changer Award for its Electric Vehicle Charging Program.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/announcing-the-winner-of-the-2026-grid-changer-award-at-dtech-northeast/",
-    "published_at": "2026-11-19T12:05:00+00:00",
-    "fetched_at": "2026-11-19T19:52:37.906909+00:00"
+    "title": "PGX Framework for Humanoid Loco-Manipulation",
+    "summary": "Researchers proposed PGX, a framework that decomposes long-horizon loco-manipulation into state machines, VLA skills, and world-coordinate locking.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26596v1",
+    "published_at": "2026-11-19T18:52:18+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289801+00:00"
   },
   {
-    "title": "Addressing Thermal and EMI in GaN Converters",
-    "summary": "Engineers must treat switching behavior, EMI, PCB design, and thermal management as interconnected challenges in GaN power converters.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/thermal-and-emi-challenges-in-high-density-gan-power-converters-2026-11/",
-    "published_at": "2026-11-19T12:00:02+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105272+00:00"
+    "title": "PhyDEX Benchmark Tests Physical Reasoning",
+    "summary": "PhyDEX is a new throwing benchmark evaluating vision-language-action models on dynamic extrinsic dexterity and physical reasoning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26565v1",
+    "published_at": "2026-11-19T18:33:43+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289803+00:00"
   },
   {
-    "title": "Human Liver Kept Alive Outside Body for Seven Weeks",
-    "summary": "Australian researchers successfully kept a donated human liver alive on life support outside the body for a record seven weeks.",
+    "title": "CANON-QSM Speeds Up Susceptibility Mapping",
+    "summary": "CANON-QSM is a new solver that uses closed-form updates and Newton-type steps to accelerate quantitative susceptibility mapping.",
     "category": "Biomedical",
-    "source_name": "MIT Technology Review",
-    "source_url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
-    "published_at": "2026-11-19T12:00:00+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105283+00:00"
-  },
-  {
-    "title": "UK Construction Records 25 Workplace Deaths",
-    "summary": "Provisional Health and Safety Executive figures show the construction sector recorded 25 workplace fatalities in 2025/26.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/hse-data-construction-sector-recorded-25-workplace-deaths-as-uk-total-reached-126-19-11-2026/",
-    "published_at": "2026-11-19T11:58:35+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105287+00:00"
-  },
-  {
-    "title": "Materialise Urges Coordinated AM Network for Defense",
-    "summary": "Materialise called for shared standards, qualification frameworks, and secure digital infrastructure to link production resources across borders.",
-    "category": "Materials",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/materialise-calls-for-coordinated-am-network-for-defense-production/",
-    "published_at": "2026-11-19T11:02:16+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993436+00:00"
-  },
-  {
-    "title": "U.S. Gas Turbine Fleet Upgrades Could Add 600 TWh",
-    "summary": "An analysis previews that the existing U.S. gas turbine fleet could add up to 600 TWh annually through maintenance and upgrades.",
-    "category": "Energy",
-    "source_name": "Power Engineering",
-    "source_url": "https://www.power-eng.com/gas/turbines/the-u-s-gas-turbine-fleet-may-have-a-lot-left-on-the-table/",
-    "published_at": "2026-11-19T11:00:00+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105291+00:00"
-  },
-  {
-    "title": "ICE Urges Greater Public Say Over Infrastructure",
-    "summary": "The Institution of Civil Engineers and the Future Governance Forum urged leaders to give communities more say over infrastructure projects.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/ice-urges-burnham-to-give-public-greater-say-over-uk-infrastructure-19-11-2026/",
-    "published_at": "2026-11-19T10:14:58+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105295+00:00"
-  },
-  {
-    "title": "Italian Startup GR1T Unveils Modular Electric Motorcycle",
-    "summary": "Startup GR1T introduced a single platform serving as the foundation for four distinct electric motorcycles sharing the same components.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/motorcycles/gr1ts-modular-bikes/",
-    "published_at": "2026-11-19T10:03:19+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993447+00:00"
-  },
-  {
-    "title": "McCrory Nears Completion of First Rail Project",
-    "summary": "Stockport-based contractor McCrory is nearing completion on its first rail project while targeting sector growth.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/mccrory-nears-completion-of-first-rail-project-as-it-targets-sector-growth-19-11-2026/",
-    "published_at": "2026-11-19T09:05:22+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105300+00:00"
-  },
-  {
-    "title": "Simulating Plasma Chambers for Semiconductor Manufacturing",
-    "summary": "Researchers linked plasma chamber simulation with feature-scale process modeling to optimize plasma etching processes and predict etch profiles.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/simulation-of-plasma-chambers-for-predictive-simulation-of-semiconductor-manufacturing/",
-    "published_at": "2026-11-19T08:01:39+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993451+00:00"
-  },
-  {
-    "title": "Detachable Fiber Connectors Create Photonics Challenges",
-    "summary": "Multiple designs are emerging for CPO and NPO, though standardization and high-volume manufacturing remain unready.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/detachable-fiber-connectors-pose-new-challenges-for-photonics/",
-    "published_at": "2026-11-19T08:01:36+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993454+00:00"
-  },
-  {
-    "title": "STMicroelectronics Expects to Double MCU Revenues",
-    "summary": "ST expects to double its microcontroller revenues between 2005 and 2028, according to group president Remi El-Ouazzane.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/st-to-double-stm32-revenues-2026-11/",
-    "published_at": "2026-11-19T06:15:21+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105304+00:00"
-  },
-  {
-    "title": "AMD Completes Acquisition of AI Chip Pioneer Taalas",
-    "summary": "The deal adds specialized silicon expertise to AMD's accelerator roadmap and expands its engineering presence in Canada.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/amd-completes-acquisition-of-ai-inference-chip-pioneer-taalas/",
-    "published_at": "2026-11-19T06:11:52+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993457+00:00"
-  },
-  {
-    "title": "Pulsiv Signs Distribution Agreement With Easby",
-    "summary": "Power electronics specialist Pulsiv signed a distribution agreement with Easby Electronics for its high-power range.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/pulsiv-signs-easby-2026-11/",
-    "published_at": "2026-11-19T06:09:59+00:00",
-    "fetched_at": "2026-11-19T19:52:41.105308+00:00"
-  },
-  {
-    "title": "BAE Systems Develops Passive Ghost Radar",
-    "summary": "BAE Systems developed a portable stealth system that detects and tracks airborne threats without transmitting radio signals.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/military/bae-systems-ghost-passive-radar/",
-    "published_at": "2026-11-19T05:56:54+00:00",
-    "fetched_at": "2026-11-19T12:29:52.993460+00:00"
-  },
-  {
-    "title": "New Guide for NEC4 Engineering Contracts",
-    "summary": "A new book provides practical solutions and step-by-step guidance for professionals administering NEC4 engineering and construction contracts.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/f3ea2ce2848d7f455fa6513ae83bce555c94b0cf",
-    "published_at": "2026-11-19T00:00:00+00:00",
-    "fetched_at": "2026-11-18T19:51:26.308778+00:00"
-  },
-  {
-    "title": "Explainable AI Framework for BIM-Integrated Construction Systems",
-    "summary": "Researchers developed a multi-layer explainable AI framework integrating BIM and sustainability metrics for construction governance and resilience assessment.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a897a9de9045541ad9578a0a84180053aaa1faf0",
-    "published_at": "2026-11-19T00:00:00+00:00",
-    "fetched_at": "2026-11-19T19:52:43.615963+00:00"
-  },
-  {
-    "title": "Flexell Space and ALATYR Partner on Orbital Solar Power",
-    "summary": "Flexell Space and ALATYR signed an MoU to assess ultralight solar cells for space-based computing infrastructure.",
-    "category": "Aerospace",
-    "source_name": "SpaceNews",
-    "source_url": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
-    "published_at": "2026-11-18T22:02:00+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250081+00:00"
-  },
-  {
-    "title": "Luminary Autopilot Automates Physics AI Workflows",
-    "summary": "Luminary Autopilot introduces prompts to create AI simulation workflows supported by continual large physics models.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/luminary-autopilot-aims-to-automate-physics-ai/",
-    "published_at": "2026-11-18T21:57:43+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250089+00:00"
-  },
-  {
-    "title": "Snomo Electric Touring Skis",
-    "summary": "Snomo has developed a set of cross-country touring skis featuring built-in electric motors to assist users in snowy environments.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/outdoors/snomo-motorized-touring-skis/",
-    "published_at": "2026-11-18T19:11:08+00:00",
-    "fetched_at": "2026-11-18T19:51:26.308790+00:00"
-  },
-  {
-    "title": "Grana Vision-Language Model for Robot Manipulation",
-    "summary": "Researchers introduced Grana, a compositional reward model that estimates continuous progress for long-horizon robot tasks.",
-    "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24926v1",
-    "published_at": "2026-11-18T18:53:53+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250093+00:00"
+    "source_url": "https://arxiv.org/abs/2611.26561v1",
+    "published_at": "2026-11-19T18:27:29+00:00",
+    "fetched_at": "2026-11-20T12:30:26.289806+00:00"
   },
   {
-    "title": "AMISS Integrity Framework for Magnetic Navigation",
-    "summary": "A solution-separation monitoring algorithm was developed to detect map errors and bound estimation errors in magnetic navigation.",
-    "category": "Aerospace",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24893v1",
-    "published_at": "2026-11-18T18:34:59+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250096+00:00"
-  },
-  {
-    "title": "Teleoperated Robotic Haircutting with Delay Compensation",
-    "summary": "A unilateral Internet teleoperation framework combines delay-compensation techniques and passivity-based control for robotic haircutting.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24883v1",
-    "published_at": "2026-11-18T18:28:34+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250098+00:00"
-  },
-  {
-    "title": "Evaluating Local AI Agents in Power Electronics Simulation",
-    "summary": "A new evaluation framework measures the power, energy, and time costs of running local agentic AI for power electronics simulations.",
+    "title": "Thermal-Guided Ensemble RL for GPU Power Forecasting",
+    "summary": "A thermal-guided ensemble reinforcement learning framework improves short-term GPU power forecasting and energy management in AI data centers.",
     "category": "Energy",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24880v1",
-    "published_at": "2026-11-18T18:27:40+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250101+00:00"
+    "source_url": "https://arxiv.org/abs/2611.26527v1",
+    "published_at": "2026-11-19T18:09:46+00:00",
+    "fetched_at": "2026-11-20T12:30:36.502722+00:00"
   },
   {
-    "title": "Multi-Agent Self-Play for Autonomous Driving Scenarios",
-    "summary": "An extended multi-agent self-play framework uses agent-relative dynamic goals to generate safety-critical edge cases for autonomous vehicle testing.",
+    "title": "Deterministic Temporal Embedding for Calcium Imaging",
+    "summary": "A deterministic temporal embedding framework maps pixel-wise fluorescence traces to a low-dimensional representation to extract calcium-dependent activity sources.",
+    "category": "Biomedical",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26522v1",
+    "published_at": "2026-11-19T18:00:35+00:00",
+    "fetched_at": "2026-11-20T12:30:36.502732+00:00"
+  },
+  {
+    "title": "Autonomous AI Agent Designs and Builds Circuit Boards",
+    "summary": "JARVIS is an embodied AI agent that autonomously designs, fabricates, and tests power electronic circuit boards without human intervention.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.26503v1",
+    "published_at": "2026-11-19T17:53:30+00:00",
+    "fetched_at": "2026-11-20T12:30:36.502736+00:00"
+  },
+  {
+    "title": "Open-Source ROS 2 Framework for Surgical Teleoperation",
+    "summary": "An open-source ROS 2 framework integrates the Haply Inverse3 haptic device with the da Vinci Research Kit for surgical teleoperation.",
     "category": "Robotics",
     "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24876v1",
-    "published_at": "2026-11-18T18:23:29+00:00",
-    "fetched_at": "2026-11-19T12:30:00.250104+00:00"
-  },
-  {
-    "title": "Allocentric Belief Enables Communication-Free Collective Intelligence",
-    "summary": "Researchers show that anchoring decentralized agents to a single shared external witness allows spontaneous, communication-free coordination across multiple environments.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24858v1",
-    "published_at": "2026-11-18T18:17:30+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888880+00:00"
-  },
-  {
-    "title": "Probing Action-Dependent Semantic Forecasting in Autonomous Driving",
-    "summary": "A study evaluates action dependence in autonomous driving world models, showing that wrong actions severely degrade semantic forecasting performance.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.24840v1",
-    "published_at": "2026-11-18T18:06:20+00:00",
-    "fetched_at": "2026-11-19T12:30:06.888890+00:00"
+    "source_url": "https://arxiv.org/abs/2611.26485v1",
+    "published_at": "2026-11-19T17:41:08+00:00",
+    "fetched_at": "2026-11-20T12:30:36.502739+00:00"
   }
 ]
