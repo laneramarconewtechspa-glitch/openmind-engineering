@@ -1,5 +1,41 @@
 [
   {
+    "title": "Russia Developing Nuclear Space Weapon",
+    "summary": "A U.S. Defense Intelligence Agency report states that Russia is developing a nuke-carrying satellite.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/satellites/russia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds",
+    "published_at": "2026-11-20T17:00:00+00:00",
+    "fetched_at": "2026-11-20T19:29:35.301545+00:00"
+  },
+  {
+    "title": "Southern Water Fined £525,000 for Sewage Leak",
+    "summary": "The Environment Agency has penalized Southern Water following a negligent sewage leak that closed a Kent beach.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/southern-water-fined-500000-for-sewage-deluge-at-kent-beach-20-11-2026/",
+    "published_at": "2026-11-20T16:09:31+00:00",
+    "fetched_at": "2026-11-20T19:29:35.301559+00:00"
+  },
+  {
+    "title": "CERN Scientists Detect Extremely Rare Particle Decay",
+    "summary": "CERN researchers found the first evidence of a particle decay process that occurs once in every 10 billion beauty particles.",
+    "category": "Other Engineering",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm",
+    "published_at": "2026-11-20T12:23:23+00:00",
+    "fetched_at": "2026-11-20T19:29:35.301564+00:00"
+  },
+  {
+    "title": "Proposed Cambridgeshire Wind Farm Raises Concerns",
+    "summary": "Plans for a Cambridgeshire wind farm featuring turbines twice the height of Big Ben have raised local impact queries in Parliament.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/proposed-wind-farm-with-turbines-twice-the-height-of-big-ben-raises-local-impact-concerns-20-11-2026/",
+    "published_at": "2026-11-20T12:18:04+00:00",
+    "fetched_at": "2026-11-20T19:29:35.301568+00:00"
+  },
+  {
     "title": "First Supermassive Black Hole Image Verified",
     "summary": "An independent research team has validated the first captured image of a supermassive black hole.",
     "category": "Other Engineering",
@@ -232,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.26561v1",
     "published_at": "2026-11-19T18:27:29+00:00",
     "fetched_at": "2026-11-20T12:30:26.289806+00:00"
-  },
-  {
-    "title": "Thermal-Guided Ensemble RL for GPU Power Forecasting",
-    "summary": "A thermal-guided ensemble reinforcement learning framework improves short-term GPU power forecasting and energy management in AI data centers.",
-    "category": "Energy",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26527v1",
-    "published_at": "2026-11-19T18:09:46+00:00",
-    "fetched_at": "2026-11-20T12:30:36.502722+00:00"
-  },
-  {
-    "title": "Deterministic Temporal Embedding for Calcium Imaging",
-    "summary": "A deterministic temporal embedding framework maps pixel-wise fluorescence traces to a low-dimensional representation to extract calcium-dependent activity sources.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26522v1",
-    "published_at": "2026-11-19T18:00:35+00:00",
-    "fetched_at": "2026-11-20T12:30:36.502732+00:00"
-  },
-  {
-    "title": "Autonomous AI Agent Designs and Builds Circuit Boards",
-    "summary": "JARVIS is an embodied AI agent that autonomously designs, fabricates, and tests power electronic circuit boards without human intervention.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26503v1",
-    "published_at": "2026-11-19T17:53:30+00:00",
-    "fetched_at": "2026-11-20T12:30:36.502736+00:00"
-  },
-  {
-    "title": "Open-Source ROS 2 Framework for Surgical Teleoperation",
-    "summary": "An open-source ROS 2 framework integrates the Haply Inverse3 haptic device with the da Vinci Research Kit for surgical teleoperation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26485v1",
-    "published_at": "2026-11-19T17:41:08+00:00",
-    "fetched_at": "2026-11-20T12:30:36.502739+00:00"
   }
 ]
