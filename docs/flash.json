@@ -162,6 +162,33 @@
     "fetched_at": "2026-11-20T12:30:22.927157+00:00"
   },
   {
+    "title": "Cerium-functionalized PEO coating enhances biodegradable zinc bone implants",
+    "summary": "Researchers developed a cerium-functionalized plasma electrolytic oxidation coating on pure zinc implants to improve osteoimmunomodulation, angiogenesis, and osteogenesis.",
+    "category": "Biomedical",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/e9b38f4293f63058b25e63c7875c4563de3ea173",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "fetched_at": "2026-11-21T11:58:08.915523+00:00"
+  },
+  {
+    "title": "Growth-spiral control boosts vertical piezoresponse in ferroelectric films",
+    "summary": "Direct liquid injection chemical vapor deposition achieves chiral spiral growth in bismuth titanate thin films, significantly enhancing local vertical piezoresponse.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/af57c40115158ad48d58c7be2ccf12c3d6d430f5",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "fetched_at": "2026-11-21T11:58:08.915534+00:00"
+  },
+  {
+    "title": "Solvent-free Zn-MOF separator engineering stabilizes aqueous zinc-ion batteries",
+    "summary": "A novel solvent-free in situ growth strategy constructs a Zn-MOF functional layer on separators to suppress zinc dendrites and enable long-cycling aqueous zinc-ion batteries.",
+    "category": "Energy",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3dd92cfc28f22053cbaaa85f50c7b4beac54c435",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "fetched_at": "2026-11-21T11:58:08.915539+00:00"
+  },
+  {
     "title": "Voyager 1 Team Celebrates One-Light-Day Distance Milestone",
     "summary": "The Voyager 1 team celebrated the spacecraft reaching a distance milestone while managing a recent communication anomaly.",
     "category": "Aerospace",
@@ -241,32 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.26600v1",
     "published_at": "2026-11-19T18:54:07+00:00",
     "fetched_at": "2026-11-20T12:30:26.289798+00:00"
-  },
-  {
-    "title": "PGX Framework for Humanoid Loco-Manipulation",
-    "summary": "Researchers proposed PGX, a framework that decomposes long-horizon loco-manipulation into state machines, VLA skills, and world-coordinate locking.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26596v1",
-    "published_at": "2026-11-19T18:52:18+00:00",
-    "fetched_at": "2026-11-20T12:30:26.289801+00:00"
-  },
-  {
-    "title": "PhyDEX Benchmark Tests Physical Reasoning",
-    "summary": "PhyDEX is a new throwing benchmark evaluating vision-language-action models on dynamic extrinsic dexterity and physical reasoning.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26565v1",
-    "published_at": "2026-11-19T18:33:43+00:00",
-    "fetched_at": "2026-11-20T12:30:26.289803+00:00"
-  },
-  {
-    "title": "CANON-QSM Speeds Up Susceptibility Mapping",
-    "summary": "CANON-QSM is a new solver that uses closed-form updates and Newton-type steps to accelerate quantitative susceptibility mapping.",
-    "category": "Biomedical",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.26561v1",
-    "published_at": "2026-11-19T18:27:29+00:00",
-    "fetched_at": "2026-11-20T12:30:26.289806+00:00"
   }
 ]
