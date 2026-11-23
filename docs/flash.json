@@ -1,5 +1,104 @@
 [
   {
+    "title": "3D-Printed Carbon Black Sensors Improve Piezoresistive Performance",
+    "summary": "Researchers investigated carbon black and Ecoflex nanocomposite sensors fabricated using a 3D printing-assisted technique to enhance piezoresistive performance.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/a9aa9a0e10aac818d70f2f3dc79d6e25541baab1",
+    "published_at": "2026-11-24T00:00:00+00:00",
+    "fetched_at": "2026-11-23T23:49:32.609810+00:00"
+  },
+  {
+    "title": "Theoretical Study Explores Plastic Shot Blasting",
+    "summary": "Researchers analyzed plastic shot blasting as a surface hardening method for metals that minimizes roughness and avoids microcracks.",
+    "category": "Materials",
+    "source_name": "Semantic Scholar",
+    "source_url": "https://www.semanticscholar.org/paper/3fe17f71c240556d34eec67a76fc831605dbfb10",
+    "published_at": "2026-11-24T00:00:00+00:00",
+    "fetched_at": "2026-11-23T23:49:35.345278+00:00"
+  },
+  {
+    "title": "Potatoes Grown in Simulated Lunar Dust",
+    "summary": "Researchers have successfully grown potatoes in simulated lunar regolith, potentially enabling future moon base farming.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/moon/will-astronauts-farm-on-the-moon-scientists-successfully-grow-potatoes-in-simulated-lunar-dust",
+    "published_at": "2026-11-23T22:00:00+00:00",
+    "fetched_at": "2026-11-23T23:49:37.666243+00:00"
+  },
+  {
+    "title": "Hybrid-Bonded 3D NAND Boosts In-Memory Compute Density",
+    "summary": "Researchers from IBM, Micron, and the University of Patras published a paper on a hybrid-bonded 3D-NAND-flash-based analog in-memory-compute macro.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/hybrid-bonded-3d-nand-boosts-analog-in-memory-compute-density/",
+    "published_at": "2026-11-23T21:35:38+00:00",
+    "fetched_at": "2026-11-23T23:49:32.609818+00:00"
+  },
+  {
+    "title": "Kleox Reveals Tiny Expanding Teardrop Camper Trailer",
+    "summary": "Kleox has developed an all-new expanding teardrop trailer that measures under 10 feet long and stretches out at camp to sleep two people.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/camping-trailers/kleox-move-expandable-tiny-teardrop/",
+    "published_at": "2026-11-23T20:33:00+00:00",
+    "fetched_at": "2026-11-23T23:49:32.609822+00:00"
+  },
+  {
+    "title": "Boom Supersonic Fires Up Prototype Engine Core",
+    "summary": "Boom Supersonic has successfully fired up the prototype core of an engine designed to power its Overture airliner and data center turbines.",
+    "category": "Aerospace",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/aircraft/boom-supersonic-sprint-core-engine-test/",
+    "published_at": "2026-11-23T16:47:54+00:00",
+    "fetched_at": "2026-11-23T23:49:32.609824+00:00"
+  },
+  {
+    "title": "UK Infrastructure Unprepared for Worsening Climate Impacts, MPs Warn",
+    "summary": "UK MPs warned during a debate that transport links and emergency services are not ready for frequent flooding, heatwaves, droughts, and wildfires.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/mps-warn-uk-infrastructure-unprepared-for-worsening-climate-impacts-23-11-2026/",
+    "published_at": "2026-11-23T16:12:53+00:00",
+    "fetched_at": "2026-11-23T23:49:32.609827+00:00"
+  },
+  {
+    "title": "The Sovereign AI Paradox and Compute Control",
+    "summary": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing and impact technology dominance.",
+    "category": "Computing",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/the-sovereign-ai-paradox-who-controls-the-compute/",
+    "published_at": "2026-11-23T16:08:35+00:00",
+    "fetched_at": "2026-11-23T23:49:37.666251+00:00"
+  },
+  {
+    "title": "Enterprises Favor On-Premises AI Infrastructure",
+    "summary": "More than half of large organizations surveyed plan to own at least some AI infrastructure due to data privacy and regulatory concerns.",
+    "category": "Computing",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/enterprises-favour-on-premises-ai-as-sovereignty-and-compliance-concerns-grow-23-11-2026/",
+    "published_at": "2026-11-23T15:30:09+00:00",
+    "fetched_at": "2026-11-23T23:49:35.345253+00:00"
+  },
+  {
+    "title": "AICTE and Nemetschek Partner for AEC Skills",
+    "summary": "The partnership will establish centers of excellence at 15 institutions to support training for 150,000 students.",
+    "category": "Civil & Infrastructure",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/aicte-nemetschek-sign-mou-for-aec-skills-development/",
+    "published_at": "2026-11-23T15:09:05+00:00",
+    "fetched_at": "2026-11-23T23:49:35.345270+00:00"
+  },
+  {
+    "title": "Secure Flash Aids Cyber Resilience Act Compliance",
+    "summary": "Winbond's TrustME W77Q Secure Flash helps OEMs meet EU Cyber Resilience Act requirements for connected products.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/secure-flash-a-practical-path-to-cyber-resilience-act-compliance/",
+    "published_at": "2026-11-23T15:00:00+00:00",
+    "fetched_at": "2026-11-23T23:49:35.345274+00:00"
+  },
+  {
     "title": "SoC Architectures Redefine Smart Meters for Modernized Grids",
     "summary": "Texas Instruments is enabling electric meters to utilize system-on-chip architectures to evolve into intelligent edge hubs supporting a modernized grid.",
     "category": "Energy",
@@ -7,23 +106,5 @@
     "source_url": "https://www.renewableenergyworld.com/power-grid/how-modern-system-on-chip-soc-architectures-are-redefining-the-smart-meter/",
     "published_at": "2026-11-23T11:00:00+00:00",
     "fetched_at": "2026-11-23T15:05:37.585792+00:00"
-  },
-  {
-    "title": "Russia Developing Nuclear Space Weapon",
-    "summary": "A U.S. Defense Intelligence Agency report states that Russia is developing a nuke-carrying satellite.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/satellites/russia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds",
-    "published_at": "2026-11-20T17:00:00+00:00",
-    "fetched_at": "2026-11-20T19:29:35.301545+00:00"
-  },
-  {
-    "title": "Southern Water Fined £525,000 for Sewage Leak",
-    "summary": "The Environment Agency has penalized Southern Water following a negligent sewage leak that closed a Kent beach.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/southern-water-fined-500000-for-sewage-deluge-at-kent-beach-20-11-2026/",
-    "published_at": "2026-11-20T16:09:31+00:00",
-    "fetched_at": "2026-11-20T19:29:35.301559+00:00"
   }
 ]
