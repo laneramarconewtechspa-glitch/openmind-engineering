@@ -1,5 +1,131 @@
 [
   {
+    "title": "GM Plans Major Factory Automation Expansion",
+    "summary": "General Motors plans a major increase in factory robotics on a tight timeline targeting 2028.",
+    "category": "Robotics",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/gm-plans-big-bump-in-factory-automation/",
+    "published_at": "2026-11-24T20:43:43+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339812+00:00"
+  },
+  {
+    "title": "Stepped-Roof University Wins World Building of the Year",
+    "summary": "Prestige University by Sanjay Puri Architects won the World Building of the Year award for its stepped roof design.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/architecture/waf-2026-prestige-university/",
+    "published_at": "2026-11-24T20:33:00+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339825+00:00"
+  },
+  {
+    "title": "Four Companies Form Dual-Use Space Mission Partnership",
+    "summary": "Simera Sense, Spacemanic, Zaitra and World from Space signed an MOU to cooperate on complete dual-use space missions.",
+    "category": "Aerospace",
+    "source_name": "SpaceNews",
+    "source_url": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
+    "published_at": "2026-11-24T15:17:50+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339830+00:00"
+  },
+  {
+    "title": "SoftBank Acquires Robotics and AI Institute",
+    "summary": "SoftBank completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group to expand its portfolio.",
+    "category": "Robotics",
+    "source_name": "The Robot Report",
+    "source_url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+    "published_at": "2026-11-24T14:48:57+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339833+00:00"
+  },
+  {
+    "title": "Russia Launches Progress 97 Cargo Ship to ISS",
+    "summary": "Russia launched the robotic Progress 97 freighter toward the International Space Station from Kazakhstan.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/international-space-station/russia-progress-97-cargo-launch-international-space-station",
+    "published_at": "2026-11-24T13:16:26+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339837+00:00"
+  },
+  {
+    "title": "£2M Investment Kickstarts Welsh Tidal Turbine Project",
+    "summary": "A £2M investment from the North Wales Clean Energy Fund will help fund construction of a tidal turbine off Anglesey.",
+    "category": "Energy",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/leading-role-in-tidal-energy-for-wales-as-2m-investment-kickstarts-turbine-project-off-anglesey-24-11-2026/",
+    "published_at": "2026-11-24T13:09:34+00:00",
+    "fetched_at": "2026-11-24T22:10:51.339842+00:00"
+  },
+  {
+    "title": "Voice AI Systems Struggle With Kenyan Speech and Code-Switching",
+    "summary": "Researchers and startups in Kenya are working to bridge a generalization gap in voice AI caused by spontaneous code-switching, dynamic Sheng slang, dialects, and background noise.",
+    "category": "Computing",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/swahili-speech-recognition",
+    "published_at": "2026-11-24T12:00:03+00:00",
+    "fetched_at": "2026-11-24T22:11:13.614526+00:00"
+  },
+  {
+    "title": "Ordinary Metal Hides New Form of Magnetism",
+    "summary": "Scientists discovered a strange form of magnetism in an ordinary metal that changes electron behavior.",
+    "category": "Materials",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm",
+    "published_at": "2026-11-24T11:18:20+00:00",
+    "fetched_at": "2026-11-24T22:10:54.103725+00:00"
+  },
+  {
+    "title": "Foldable 84-Key Piano Fits in a Backpack",
+    "summary": "Pliavo’s Fold-and-Go Piano features a keyboard that splits into hinged sections for easy portable travel.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/music/pliavo-folding-piano/",
+    "published_at": "2026-11-24T10:54:17+00:00",
+    "fetched_at": "2026-11-24T22:10:54.103736+00:00"
+  },
+  {
+    "title": "Microsoft Powers Up First AMD Helios AI System",
+    "summary": "Azure plans to deploy the new AMD Helios rack-scale system at scale to support AI inference.",
+    "category": "Computing",
+    "source_name": "Engineering.com",
+    "source_url": "https://www.engineering.com/microsoft-powers-up-first-amd-helios-ai-rack-scale-system/",
+    "published_at": "2026-11-24T08:27:49+00:00",
+    "fetched_at": "2026-11-24T22:10:54.103741+00:00"
+  },
+  {
+    "title": "Report Urges Recognizing Waterways as National Infrastructure",
+    "summary": "A new report says Britain's navigable waterways must be recognized as vital infrastructure requiring sustained investment.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/waterways-should-be-recognised-as-vital-national-infrastructure-says-iwa-24-11-2026/",
+    "published_at": "2026-11-24T06:30:58+00:00",
+    "fetched_at": "2026-11-24T22:10:54.103744+00:00"
+  },
+  {
+    "title": "Research Boost for FDSOI and RF-SOI Semiconductors",
+    "summary": "Acorn Technologies and Prof Jean-Pierre Raskin demonstrated results using the Acorn Buried Stressor technology.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/research-boost-for-fdsoi-and-rf-soi-2026-11/",
+    "published_at": "2026-11-24T06:12:38+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056403+00:00"
+  },
+  {
+    "title": "EnSilica Secures $80M GNSS ASIC Contract",
+    "summary": "EnSilica has agreed to develop a custom GNSS ASIC for a resilient positioning, navigation, and timing systems supplier.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/ensilica-2026-11/",
+    "published_at": "2026-11-24T06:02:14+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056415+00:00"
+  },
+  {
+    "title": "U.S. Building Only 10% of Needed Power Lines",
+    "summary": "Experts warn that the U.S. grid is falling behind as electricity demand rises, building just 10% of necessary high-voltage lines.",
+    "category": "Energy",
+    "source_name": "ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005339.htm",
+    "published_at": "2026-11-24T04:30:23+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056419+00:00"
+  },
+  {
     "title": "3D-Printed Carbon Black Sensors Improve Piezoresistive Performance",
     "summary": "Researchers investigated carbon black and Ecoflex nanocomposite sensors fabricated using a 3D printing-assisted technique to enhance piezoresistive performance.",
     "category": "Materials",
@@ -45,66 +171,102 @@
     "fetched_at": "2026-11-23T23:49:32.609822+00:00"
   },
   {
-    "title": "Boom Supersonic Fires Up Prototype Engine Core",
-    "summary": "Boom Supersonic has successfully fired up the prototype core of an engine designed to power its Overture airliner and data center turbines.",
-    "category": "Aerospace",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/aircraft/boom-supersonic-sprint-core-engine-test/",
-    "published_at": "2026-11-23T16:47:54+00:00",
-    "fetched_at": "2026-11-23T23:49:32.609824+00:00"
-  },
-  {
-    "title": "UK Infrastructure Unprepared for Worsening Climate Impacts, MPs Warn",
-    "summary": "UK MPs warned during a debate that transport links and emergency services are not ready for frequent flooding, heatwaves, droughts, and wildfires.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/mps-warn-uk-infrastructure-unprepared-for-worsening-climate-impacts-23-11-2026/",
-    "published_at": "2026-11-23T16:12:53+00:00",
-    "fetched_at": "2026-11-23T23:49:32.609827+00:00"
-  },
-  {
-    "title": "The Sovereign AI Paradox and Compute Control",
-    "summary": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing and impact technology dominance.",
+    "title": "Pruning Autonomous Driving VLAs with MoOP",
+    "summary": "Researchers proposed MoOP, a VLM pruning method that reduces parameters while retaining reasoning and driving performance.",
     "category": "Computing",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/the-sovereign-ai-paradox-who-controls-the-compute/",
-    "published_at": "2026-11-23T16:08:35+00:00",
-    "fetched_at": "2026-11-23T23:49:37.666251+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31240v1",
+    "published_at": "2026-11-23T18:59:52+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056422+00:00"
   },
   {
-    "title": "Enterprises Favor On-Premises AI Infrastructure",
-    "summary": "More than half of large organizations surveyed plan to own at least some AI infrastructure due to data privacy and regulatory concerns.",
+    "title": "Asynchronous Coding Agents for Robot Control",
+    "summary": "ACAP is an asynchronous framework organizing a robot as a team of persistent agents to improve control efficiency.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31205v1",
+    "published_at": "2026-11-23T18:52:19+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056425+00:00"
+  },
+  {
+    "title": "Tropical Geometry-Based Lyapunov Function Synthesis",
+    "summary": "A new framework uses tropical geometry to jointly synthesize neural network Lyapunov functions and stabilizing controllers.",
     "category": "Computing",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/enterprises-favour-on-premises-ai-as-sovereignty-and-compliance-concerns-grow-23-11-2026/",
-    "published_at": "2026-11-23T15:30:09+00:00",
-    "fetched_at": "2026-11-23T23:49:35.345253+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31203v1",
+    "published_at": "2026-11-23T18:50:07+00:00",
+    "fetched_at": "2026-11-24T22:10:58.056428+00:00"
   },
   {
-    "title": "AICTE and Nemetschek Partner for AEC Skills",
-    "summary": "The partnership will establish centers of excellence at 15 institutions to support training for 150,000 students.",
-    "category": "Civil & Infrastructure",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/aicte-nemetschek-sign-mou-for-aec-skills-development/",
-    "published_at": "2026-11-23T15:09:05+00:00",
-    "fetched_at": "2026-11-23T23:49:35.345270+00:00"
+    "title": "Embo-Harness Framework for Frontier Model Policies",
+    "summary": "Embo-Harness studies and evaluates frontier multimodal models serving directly as policies within closed-loop robotic agentic loops.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31201v1",
+    "published_at": "2026-11-23T18:48:54+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190640+00:00"
   },
   {
-    "title": "Secure Flash Aids Cyber Resilience Act Compliance",
-    "summary": "Winbond's TrustME W77Q Secure Flash helps OEMs meet EU Cyber Resilience Act requirements for connected products.",
+    "title": "Formalised Framework for Analog Electronics in Lean 4",
+    "summary": "Researchers present a formalised framework for circuit theory and analog electronics using the Lean 4 interactive theorem prover.",
     "category": "Electronics & Semiconductors",
-    "source_name": "EE Times",
-    "source_url": "https://www.eetimes.com/secure-flash-a-practical-path-to-cyber-resilience-act-compliance/",
-    "published_at": "2026-11-23T15:00:00+00:00",
-    "fetched_at": "2026-11-23T23:49:35.345274+00:00"
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31159v1",
+    "published_at": "2026-11-23T18:23:15+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190651+00:00"
   },
   {
-    "title": "SoC Architectures Redefine Smart Meters for Modernized Grids",
-    "summary": "Texas Instruments is enabling electric meters to utilize system-on-chip architectures to evolve into intelligent edge hubs supporting a modernized grid.",
-    "category": "Energy",
-    "source_name": "Renewable Energy World",
-    "source_url": "https://www.renewableenergyworld.com/power-grid/how-modern-system-on-chip-soc-architectures-are-redefining-the-smart-meter/",
-    "published_at": "2026-11-23T11:00:00+00:00",
-    "fetched_at": "2026-11-23T15:05:37.585792+00:00"
+    "title": "ConfID: Data-Driven Identification of Uncertainty Sets",
+    "summary": "ConfID is a unified framework that establishes reachset, trace, and simulation conformance by identifying uncertainty sets for nominal models.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31127v1",
+    "published_at": "2026-11-23T18:00:06+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190655+00:00"
+  },
+  {
+    "title": "WeaveVLA 3D Relational Grounding for VLA Models",
+    "summary": "WeaveVLA enhances VLA action generation by explicitly modeling task-relevant relative 3D relations and maintaining relational context across observations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31126v1",
+    "published_at": "2026-11-23T17:59:32+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190658+00:00"
+  },
+  {
+    "title": "RUIBench: Evaluating Robot-Use Interfaces for Agents",
+    "summary": "RUIBench introduces 30 manipulation tasks across five suites to systematically study the impact of robot-use interfaces on agent reliability.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31115v1",
+    "published_at": "2026-11-23T17:52:55+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190661+00:00"
+  },
+  {
+    "title": "NoveltyGate Accelerates VLA Prefix Computations",
+    "summary": "NoveltyGate is a training-free method that routes prefix tokens to low-rank or original MLPs based on input novelty to accelerate VLA models.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31099v1",
+    "published_at": "2026-11-23T17:40:45+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190664+00:00"
+  },
+  {
+    "title": "Real2Worlds2Real Agentic Real2Sim2Real Framework",
+    "summary": "Real2Worlds2Real is an agentic framework that integrates scalable simulation-world construction with policy development for robot manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31098v1",
+    "published_at": "2026-11-23T17:39:59+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190667+00:00"
+  },
+  {
+    "title": "Marginal-Cost Clustering for Courier Dispatch Routing",
+    "summary": "A marginal-cost clustering criterion improves courier dispatch for pickup and delivery problems with time windows and fleet sizing.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.31085v1",
+    "published_at": "2026-11-23T17:34:28+00:00",
+    "fetched_at": "2026-11-24T22:11:01.190669+00:00"
   }
 ]
