@@ -1,5 +1,23 @@
 [
   {
+    "title": "Semiconductor Engineering Technical Paper Roundup",
+    "summary": "Recent technical papers cover hybrid-bonded 3D NAND, defect-aware chiplet matching, and backside clock meshes.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Semiconductor Engineering",
+    "source_url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
+    "published_at": "2026-11-25T08:01:01+00:00",
+    "fetched_at": "2026-11-25T15:17:59.729500+00:00"
+  },
+  {
+    "title": "Rare Mercedes-Benz C 111-II Heading to Auction",
+    "summary": "A surviving experimental Mercedes-Benz C 111-II supercar with a four-rotor Wankel engine is headed to auction.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/automotive/mercedes-c111-auction/",
+    "published_at": "2026-11-25T04:16:51+00:00",
+    "fetched_at": "2026-11-25T15:17:59.729512+00:00"
+  },
+  {
     "title": "GM Plans Major Factory Automation Expansion",
     "summary": "General Motors plans a major increase in factory robotics on a tight timeline targeting 2028.",
     "category": "Robotics",
@@ -16,6 +34,24 @@
     "source_url": "https://newatlas.com/architecture/waf-2026-prestige-university/",
     "published_at": "2026-11-24T20:33:00+00:00",
     "fetched_at": "2026-11-24T22:10:51.339825+00:00"
+  },
+  {
+    "title": "Neural Implicit Representation for Bathymetry Estimation",
+    "summary": "Researchers proposed a differentiable neural rendering framework for sidescan sonar to improve underwater bathymetry estimation.",
+    "category": "Other Engineering",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33118v1",
+    "published_at": "2026-11-24T18:49:18+00:00",
+    "fetched_at": "2026-11-25T15:17:59.729519+00:00"
+  },
+  {
+    "title": "QoS-Constrained Sum-Rate Maximization in RIS-Assisted Systems",
+    "summary": "A study investigates joint optimization for pinching-antenna NOMA systems assisted by a reconfigurable intelligent surface.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32849v1",
+    "published_at": "2026-11-24T15:55:19+00:00",
+    "fetched_at": "2026-11-25T15:17:59.729523+00:00"
   },
   {
     "title": "Four Companies Form Dual-Use Space Mission Partnership",
@@ -232,41 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.31126v1",
     "published_at": "2026-11-23T17:59:32+00:00",
     "fetched_at": "2026-11-24T22:11:01.190658+00:00"
-  },
-  {
-    "title": "RUIBench: Evaluating Robot-Use Interfaces for Agents",
-    "summary": "RUIBench introduces 30 manipulation tasks across five suites to systematically study the impact of robot-use interfaces on agent reliability.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31115v1",
-    "published_at": "2026-11-23T17:52:55+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190661+00:00"
-  },
-  {
-    "title": "NoveltyGate Accelerates VLA Prefix Computations",
-    "summary": "NoveltyGate is a training-free method that routes prefix tokens to low-rank or original MLPs based on input novelty to accelerate VLA models.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31099v1",
-    "published_at": "2026-11-23T17:40:45+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190664+00:00"
-  },
-  {
-    "title": "Real2Worlds2Real Agentic Real2Sim2Real Framework",
-    "summary": "Real2Worlds2Real is an agentic framework that integrates scalable simulation-world construction with policy development for robot manipulation.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31098v1",
-    "published_at": "2026-11-23T17:39:59+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190667+00:00"
-  },
-  {
-    "title": "Marginal-Cost Clustering for Courier Dispatch Routing",
-    "summary": "A marginal-cost clustering criterion improves courier dispatch for pickup and delivery problems with time windows and fleet sizing.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31085v1",
-    "published_at": "2026-11-23T17:34:28+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190669+00:00"
   }
 ]
