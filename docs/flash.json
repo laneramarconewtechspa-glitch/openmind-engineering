@@ -1,5 +1,86 @@
 [
   {
+    "title": "SpaceX Approved to Deploy 1 Million Starmind Satellites",
+    "summary": "The FCC has approved SpaceX to deploy one million Starmind AI data-center satellites in orbit.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
+    "published_at": "2026-11-25T18:49:15+00:00",
+    "fetched_at": "2026-11-25T21:02:11.222507+00:00"
+  },
+  {
+    "title": "NASA Deploys Aircraft for US Army Detonation Monitoring",
+    "summary": "NASA is sending research aircraft and using satellites as the Army prepares to detonate degrading explosives in Iowa.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/technology/aerospace/nasa-sends-planes-to-monitor-us-armys-lead-detonation-irresponsible-to-compare-it-to-chernobyl-agency-chief-says",
+    "published_at": "2026-11-25T16:24:24+00:00",
+    "fetched_at": "2026-11-25T21:02:11.222520+00:00"
+  },
+  {
+    "title": "Study Links Drained Peatlands to Long-Term Warming",
+    "summary": "A new study reveals that the long-term decomposition of drained bogs, fens, and swamps causes about three percent of human-caused climate warming.",
+    "category": "Energy",
+    "source_name": "MIT News",
+    "source_url": "https://news.mit.edu/2026/draining-peatlands-leaves-long-warming-legacy-1125",
+    "published_at": "2026-11-25T16:00:00+00:00",
+    "fetched_at": "2026-11-25T21:02:11.222525+00:00"
+  },
+  {
+    "title": "Volcanic Eruptions Create New Beaches on Iwo Jima",
+    "summary": "Satellites captured images of new land created by a volcanic eruption, extending the beaches of Iwo Jima.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/astronomy/earth/satellites-watch-volcanic-eruptions-add-new-beaches-on-iwo-jima-space-photo-of-the-day-for-nov-25-2026",
+    "published_at": "2026-11-25T15:00:00+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075760+00:00"
+  },
+  {
+    "title": "Conductive Polymer Hair Dyes Turn Hair Into EEG Electrodes",
+    "summary": "Researchers developed electrically conductive polymer hair dyes that function as gel-free EEG electrodes for brain monitoring.",
+    "category": "Biomedical",
+    "source_name": "IEEE Spectrum",
+    "source_url": "https://spectrum.ieee.org/hair-dye-eeg-electroencephalography",
+    "published_at": "2026-11-25T14:00:01+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075770+00:00"
+  },
+  {
+    "title": "ESA Unveils First Close-Ups of Asteroid Dimorphos",
+    "summary": "The European Space Agency shares the Hera probe's first images of asteroid Dimorphos following NASA's DART impact.",
+    "category": "Aerospace",
+    "source_name": "Space.com",
+    "source_url": "https://www.space.com/space-exploration/asteroid-comet-missions/watch-live-europe-unveils-1st-close-up-views-of-asteroid-dimorphos-after-nasas-dart-impact",
+    "published_at": "2026-11-25T14:00:00+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075774+00:00"
+  },
+  {
+    "title": "UK Space Agency Funds Seven Climate Services Projects",
+    "summary": "The UK Space Agency is funding seven projects utilizing satellite data to support climate change management.",
+    "category": "Aerospace",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/uk-space-agency-backs-seven-commercial-climate-services-projects-2026-11/",
+    "published_at": "2026-11-25T10:42:05+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075778+00:00"
+  },
+  {
+    "title": "Jacobs to Design DFW Airport Rail Modifications",
+    "summary": "Jacobs has been appointed to design automated rail system modifications for Dallas Fort Worth International Airport's new terminal.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/jacobs-appointed-to-design-dallas-fort-worth-light-rail-modifications-for-12bn-new-terminal-25-11-2026/",
+    "published_at": "2026-11-25T10:01:46+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075782+00:00"
+  },
+  {
+    "title": "Wearable Tech Turns Arm Skin Into a Trackpad",
+    "summary": "Researchers developed technology that uses a wearer's arm skin as a functional trackpad to control smartwatches.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/electronics/epipad-forearm-trackpad/",
+    "published_at": "2026-11-25T08:12:30+00:00",
+    "fetched_at": "2026-11-25T21:02:15.075786+00:00"
+  },
+  {
     "title": "Semiconductor Engineering Technical Paper Roundup",
     "summary": "Recent technical papers cover hybrid-bonded 3D NAND, defect-aware chiplet matching, and backside clock meshes.",
     "category": "Electronics & Semiconductors",
@@ -16,6 +97,15 @@
     "source_url": "https://newatlas.com/automotive/mercedes-c111-auction/",
     "published_at": "2026-11-25T04:16:51+00:00",
     "fetched_at": "2026-11-25T15:17:59.729512+00:00"
+  },
+  {
+    "title": "UK Carbon Border Adjustment Mechanism Risks Infrastructure Sector",
+    "summary": "The Carbon Border Adjustment Mechanism is a new tax on carbon intensive goods imported into the UK starting in January 2027.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/in-depth/carbon-border-adjustment-mechanism-the-unknown-infrastructure-sector-risk-25-11-2026/",
+    "published_at": "2026-11-25T04:00:26+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149546+00:00"
   },
   {
     "title": "GM Plans Major Factory Automation Expansion",
@@ -36,6 +126,33 @@
     "fetched_at": "2026-11-24T22:10:51.339825+00:00"
   },
   {
+    "title": "PyRUA-Dex Framework for Bimanual Robotic Manipulation",
+    "summary": "PyRUA-Dex enables coding agents to develop dexterous bimanual manipulation through programmatic policies without needing human demonstrations.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33144v1",
+    "published_at": "2026-11-24T18:56:44+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149556+00:00"
+  },
+  {
+    "title": "ROAM-Bench Evaluates Embodied Spatial Intelligence",
+    "summary": "ROAM-Bench evaluates embodied active spatial intelligence and evidence verification under robot motion and collision constraints across 250 tasks.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33143v1",
+    "published_at": "2026-11-24T18:56:22+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149560+00:00"
+  },
+  {
+    "title": "Exploratory Midtraining Enhances Robot Policy Adaptability",
+    "summary": "Researchers introduce beta-Data and an exploratory midtraining approach to build behavioral coverage and improve robot policy adaptation and online learning.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33130v1",
+    "published_at": "2026-11-24T18:52:34+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149564+00:00"
+  },
+  {
     "title": "Neural Implicit Representation for Bathymetry Estimation",
     "summary": "Researchers proposed a differentiable neural rendering framework for sidescan sonar to improve underwater bathymetry estimation.",
     "category": "Other Engineering",
@@ -43,6 +160,87 @@
     "source_url": "https://arxiv.org/abs/2611.33118v1",
     "published_at": "2026-11-24T18:49:18+00:00",
     "fetched_at": "2026-11-25T15:17:59.729519+00:00"
+  },
+  {
+    "title": "ClusterVAD Unsupervised Voice Activity Detection Model",
+    "summary": "ClusterVAD is an unsupervised voice activity detection method built on frozen speech foundation model representations without requiring training labels.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33059v1",
+    "published_at": "2026-11-24T18:03:21+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149568+00:00"
+  },
+  {
+    "title": "Autonomous Vehicle Drifting via Generative Policies",
+    "summary": "An online reinforcement learning method combines stochastic differential equation sampling with value-based policy optimization for autonomous vehicle drifting.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33040v1",
+    "published_at": "2026-11-24T17:50:47+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149571+00:00"
+  },
+  {
+    "title": "SHARPnP Hyperspectral Super-Resolution Framework",
+    "summary": "SHARPnP is an interpretable framework coupling registration and reconstruction for RGB-guided hyperspectral super-resolution from noisy, unaligned measurements.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33032v1",
+    "published_at": "2026-11-24T17:43:33+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149575+00:00"
+  },
+  {
+    "title": "Embodied AI Vulnerability to Mirrored Environments",
+    "summary": "A study on RoboDojo-Mirror reveals that mirrors significantly reduce the aggregate success rates of diverse robotic manipulation policies.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.33010v1",
+    "published_at": "2026-11-24T17:32:00+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149578+00:00"
+  },
+  {
+    "title": "CAPER Framework for Robotic Assembly Planning",
+    "summary": "CAPER uses PartGround and PlanRefine modules to help vision-language models generate reliable manual-guided robotic assembly procedures with finite inventory consistency.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32986v1",
+    "published_at": "2026-11-24T17:16:21+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149582+00:00"
+  },
+  {
+    "title": "VidForce Estimates Force and Articulation from Video",
+    "summary": "VidForce estimates interaction trajectories and force profiles from third-person RGB videos to drive real-world articulated-object manipulation.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32967v1",
+    "published_at": "2026-11-24T17:03:47+00:00",
+    "fetched_at": "2026-11-25T21:02:19.149585+00:00"
+  },
+  {
+    "title": "Framework for Level 4 Autonomous Vehicle Architecture Rationalization",
+    "summary": "Researchers propose an Operational Design Domain-based systems-engineering framework to optimize fault-tolerant architectures and reduce lifecycle costs for Level 4 autonomous vehicles.",
+    "category": "Robotics",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32960v1",
+    "published_at": "2026-11-24T16:58:06+00:00",
+    "fetched_at": "2026-11-25T21:02:23.641295+00:00"
+  },
+  {
+    "title": "Lembas Framework Optimizes Video RAG Token Allocation",
+    "summary": "A new plug-and-play framework formulates video retrieval-augmented generation as a token allocation problem, improving accuracy while significantly reducing computational overhead.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32938v1",
+    "published_at": "2026-11-24T16:43:31+00:00",
+    "fetched_at": "2026-11-25T21:02:23.641307+00:00"
+  },
+  {
+    "title": "China Launches Shenzhou-24 to Tiangong Space Station",
+    "summary": "China launched the Shenzhou-24 crewed spacecraft to the Tiangong space station, welcoming its first international visitor.",
+    "category": "Aerospace",
+    "source_name": "NASASpaceflight",
+    "source_url": "https://www.nasaspaceflight.com/2026/11/shenzhou-24/",
+    "published_at": "2026-11-24T16:26:52+00:00",
+    "fetched_at": "2026-11-25T21:02:23.641311+00:00"
   },
   {
     "title": "QoS-Constrained Sum-Rate Maximization in RIS-Assisted Systems",
@@ -54,6 +252,15 @@
     "fetched_at": "2026-11-25T15:17:59.729523+00:00"
   },
   {
+    "title": "DOPER 6D Object Pose Estimation Framework",
+    "summary": "Researchers present DOPER, a real-time RGB pose estimation framework that recovers the 6D pose of known objects using a shared visual backbone and geometric constraints.",
+    "category": "Computing",
+    "source_name": "arXiv",
+    "source_url": "https://arxiv.org/abs/2611.32846v1",
+    "published_at": "2026-11-24T15:54:17+00:00",
+    "fetched_at": "2026-11-25T21:02:23.641315+00:00"
+  },
+  {
     "title": "Four Companies Form Dual-Use Space Mission Partnership",
     "summary": "Simera Sense, Spacemanic, Zaitra and World from Space signed an MOU to cooperate on complete dual-use space missions.",
     "category": "Aerospace",
@@ -61,212 +268,5 @@
     "source_url": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
     "published_at": "2026-11-24T15:17:50+00:00",
     "fetched_at": "2026-11-24T22:10:51.339830+00:00"
-  },
-  {
-    "title": "SoftBank Acquires Robotics and AI Institute",
-    "summary": "SoftBank completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group to expand its portfolio.",
-    "category": "Robotics",
-    "source_name": "The Robot Report",
-    "source_url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
-    "published_at": "2026-11-24T14:48:57+00:00",
-    "fetched_at": "2026-11-24T22:10:51.339833+00:00"
-  },
-  {
-    "title": "Russia Launches Progress 97 Cargo Ship to ISS",
-    "summary": "Russia launched the robotic Progress 97 freighter toward the International Space Station from Kazakhstan.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/space-exploration/international-space-station/russia-progress-97-cargo-launch-international-space-station",
-    "published_at": "2026-11-24T13:16:26+00:00",
-    "fetched_at": "2026-11-24T22:10:51.339837+00:00"
-  },
-  {
-    "title": "£2M Investment Kickstarts Welsh Tidal Turbine Project",
-    "summary": "A £2M investment from the North Wales Clean Energy Fund will help fund construction of a tidal turbine off Anglesey.",
-    "category": "Energy",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/leading-role-in-tidal-energy-for-wales-as-2m-investment-kickstarts-turbine-project-off-anglesey-24-11-2026/",
-    "published_at": "2026-11-24T13:09:34+00:00",
-    "fetched_at": "2026-11-24T22:10:51.339842+00:00"
-  },
-  {
-    "title": "Voice AI Systems Struggle With Kenyan Speech and Code-Switching",
-    "summary": "Researchers and startups in Kenya are working to bridge a generalization gap in voice AI caused by spontaneous code-switching, dynamic Sheng slang, dialects, and background noise.",
-    "category": "Computing",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/swahili-speech-recognition",
-    "published_at": "2026-11-24T12:00:03+00:00",
-    "fetched_at": "2026-11-24T22:11:13.614526+00:00"
-  },
-  {
-    "title": "Ordinary Metal Hides New Form of Magnetism",
-    "summary": "Scientists discovered a strange form of magnetism in an ordinary metal that changes electron behavior.",
-    "category": "Materials",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm",
-    "published_at": "2026-11-24T11:18:20+00:00",
-    "fetched_at": "2026-11-24T22:10:54.103725+00:00"
-  },
-  {
-    "title": "Foldable 84-Key Piano Fits in a Backpack",
-    "summary": "Pliavo’s Fold-and-Go Piano features a keyboard that splits into hinged sections for easy portable travel.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/music/pliavo-folding-piano/",
-    "published_at": "2026-11-24T10:54:17+00:00",
-    "fetched_at": "2026-11-24T22:10:54.103736+00:00"
-  },
-  {
-    "title": "Microsoft Powers Up First AMD Helios AI System",
-    "summary": "Azure plans to deploy the new AMD Helios rack-scale system at scale to support AI inference.",
-    "category": "Computing",
-    "source_name": "Engineering.com",
-    "source_url": "https://www.engineering.com/microsoft-powers-up-first-amd-helios-ai-rack-scale-system/",
-    "published_at": "2026-11-24T08:27:49+00:00",
-    "fetched_at": "2026-11-24T22:10:54.103741+00:00"
-  },
-  {
-    "title": "Report Urges Recognizing Waterways as National Infrastructure",
-    "summary": "A new report says Britain's navigable waterways must be recognized as vital infrastructure requiring sustained investment.",
-    "category": "Civil & Infrastructure",
-    "source_name": "New Civil Engineer",
-    "source_url": "https://www.newcivilengineer.com/latest/waterways-should-be-recognised-as-vital-national-infrastructure-says-iwa-24-11-2026/",
-    "published_at": "2026-11-24T06:30:58+00:00",
-    "fetched_at": "2026-11-24T22:10:54.103744+00:00"
-  },
-  {
-    "title": "Research Boost for FDSOI and RF-SOI Semiconductors",
-    "summary": "Acorn Technologies and Prof Jean-Pierre Raskin demonstrated results using the Acorn Buried Stressor technology.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/research-boost-for-fdsoi-and-rf-soi-2026-11/",
-    "published_at": "2026-11-24T06:12:38+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056403+00:00"
-  },
-  {
-    "title": "EnSilica Secures $80M GNSS ASIC Contract",
-    "summary": "EnSilica has agreed to develop a custom GNSS ASIC for a resilient positioning, navigation, and timing systems supplier.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Electronics Weekly",
-    "source_url": "https://www.electronicsweekly.com/news/business/ensilica-2026-11/",
-    "published_at": "2026-11-24T06:02:14+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056415+00:00"
-  },
-  {
-    "title": "U.S. Building Only 10% of Needed Power Lines",
-    "summary": "Experts warn that the U.S. grid is falling behind as electricity demand rises, building just 10% of necessary high-voltage lines.",
-    "category": "Energy",
-    "source_name": "ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/releases/2026/11/261123005339.htm",
-    "published_at": "2026-11-24T04:30:23+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056419+00:00"
-  },
-  {
-    "title": "3D-Printed Carbon Black Sensors Improve Piezoresistive Performance",
-    "summary": "Researchers investigated carbon black and Ecoflex nanocomposite sensors fabricated using a 3D printing-assisted technique to enhance piezoresistive performance.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/a9aa9a0e10aac818d70f2f3dc79d6e25541baab1",
-    "published_at": "2026-11-24T00:00:00+00:00",
-    "fetched_at": "2026-11-23T23:49:32.609810+00:00"
-  },
-  {
-    "title": "Theoretical Study Explores Plastic Shot Blasting",
-    "summary": "Researchers analyzed plastic shot blasting as a surface hardening method for metals that minimizes roughness and avoids microcracks.",
-    "category": "Materials",
-    "source_name": "Semantic Scholar",
-    "source_url": "https://www.semanticscholar.org/paper/3fe17f71c240556d34eec67a76fc831605dbfb10",
-    "published_at": "2026-11-24T00:00:00+00:00",
-    "fetched_at": "2026-11-23T23:49:35.345278+00:00"
-  },
-  {
-    "title": "Potatoes Grown in Simulated Lunar Dust",
-    "summary": "Researchers have successfully grown potatoes in simulated lunar regolith, potentially enabling future moon base farming.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/moon/will-astronauts-farm-on-the-moon-scientists-successfully-grow-potatoes-in-simulated-lunar-dust",
-    "published_at": "2026-11-23T22:00:00+00:00",
-    "fetched_at": "2026-11-23T23:49:37.666243+00:00"
-  },
-  {
-    "title": "Hybrid-Bonded 3D NAND Boosts In-Memory Compute Density",
-    "summary": "Researchers from IBM, Micron, and the University of Patras published a paper on a hybrid-bonded 3D-NAND-flash-based analog in-memory-compute macro.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "Semiconductor Engineering",
-    "source_url": "https://semiengineering.com/hybrid-bonded-3d-nand-boosts-analog-in-memory-compute-density/",
-    "published_at": "2026-11-23T21:35:38+00:00",
-    "fetched_at": "2026-11-23T23:49:32.609818+00:00"
-  },
-  {
-    "title": "Kleox Reveals Tiny Expanding Teardrop Camper Trailer",
-    "summary": "Kleox has developed an all-new expanding teardrop trailer that measures under 10 feet long and stretches out at camp to sleep two people.",
-    "category": "Mechanical",
-    "source_name": "New Atlas",
-    "source_url": "https://newatlas.com/camping-trailers/kleox-move-expandable-tiny-teardrop/",
-    "published_at": "2026-11-23T20:33:00+00:00",
-    "fetched_at": "2026-11-23T23:49:32.609822+00:00"
-  },
-  {
-    "title": "Pruning Autonomous Driving VLAs with MoOP",
-    "summary": "Researchers proposed MoOP, a VLM pruning method that reduces parameters while retaining reasoning and driving performance.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31240v1",
-    "published_at": "2026-11-23T18:59:52+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056422+00:00"
-  },
-  {
-    "title": "Asynchronous Coding Agents for Robot Control",
-    "summary": "ACAP is an asynchronous framework organizing a robot as a team of persistent agents to improve control efficiency.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31205v1",
-    "published_at": "2026-11-23T18:52:19+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056425+00:00"
-  },
-  {
-    "title": "Tropical Geometry-Based Lyapunov Function Synthesis",
-    "summary": "A new framework uses tropical geometry to jointly synthesize neural network Lyapunov functions and stabilizing controllers.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31203v1",
-    "published_at": "2026-11-23T18:50:07+00:00",
-    "fetched_at": "2026-11-24T22:10:58.056428+00:00"
-  },
-  {
-    "title": "Embo-Harness Framework for Frontier Model Policies",
-    "summary": "Embo-Harness studies and evaluates frontier multimodal models serving directly as policies within closed-loop robotic agentic loops.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31201v1",
-    "published_at": "2026-11-23T18:48:54+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190640+00:00"
-  },
-  {
-    "title": "Formalised Framework for Analog Electronics in Lean 4",
-    "summary": "Researchers present a formalised framework for circuit theory and analog electronics using the Lean 4 interactive theorem prover.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31159v1",
-    "published_at": "2026-11-23T18:23:15+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190651+00:00"
-  },
-  {
-    "title": "ConfID: Data-Driven Identification of Uncertainty Sets",
-    "summary": "ConfID is a unified framework that establishes reachset, trace, and simulation conformance by identifying uncertainty sets for nominal models.",
-    "category": "Other Engineering",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31127v1",
-    "published_at": "2026-11-23T18:00:06+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190655+00:00"
-  },
-  {
-    "title": "WeaveVLA 3D Relational Grounding for VLA Models",
-    "summary": "WeaveVLA enhances VLA action generation by explicitly modeling task-relevant relative 3D relations and maintaining relational context across observations.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.31126v1",
-    "published_at": "2026-11-23T17:59:32+00:00",
-    "fetched_at": "2026-11-24T22:11:01.190658+00:00"
   }
 ]
