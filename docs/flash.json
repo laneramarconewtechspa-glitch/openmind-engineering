@@ -1,5 +1,23 @@
 [
   {
+    "title": "Tiny Vineyard House Features Retractable Roof and Floor Furniture",
+    "summary": "Architect Lautaro Esain has built a 33-square-meter dwelling featuring a roof that opens above the main room and furniture that folds into the floor.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/tiny-houses/tiny-vineyard-house-lautaro-esain/",
+    "published_at": "2026-11-27T20:12:54+00:00",
+    "fetched_at": "2026-11-27T20:32:22.317586+00:00"
+  },
+  {
+    "title": "Penguin Revives Retired DDR4 for AI Servers",
+    "summary": "Enterprises are being encouraged to reuse older DDR4 DRAM to meet memory expansion demands for AI servers.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+    "published_at": "2026-11-27T19:17:00+00:00",
+    "fetched_at": "2026-11-27T20:32:22.317599+00:00"
+  },
+  {
     "title": "A46 and A38 Road Projects Cancelled Due to Budget Cuts",
     "summary": "The A46 Newark Bypass and A38 Derby Junctions projects have been cancelled to cut £428M from transport spending.",
     "category": "Civil & Infrastructure",
@@ -250,23 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.34764v1",
     "published_at": "2026-11-25T17:32:43+00:00",
     "fetched_at": "2026-11-26T13:30:14.112932+00:00"
-  },
-  {
-    "title": "AutoRSP AI Agent for Radar Sensing Pipeline Design",
-    "summary": "AutoRSP is an AI agent that automatically designs radar sensing pipelines using sub-agents and validation feedback from realistic simulation and edge execution.",
-    "category": "Electronics & Semiconductors",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34754v1",
-    "published_at": "2026-11-25T17:26:36+00:00",
-    "fetched_at": "2026-11-26T13:30:14.112935+00:00"
-  },
-  {
-    "title": "Vision-Language Scene Graphs as Memory for Embodied QA",
-    "summary": "Evaluating simulated multi-room scene-graph pipelines shows how targeted repairs improve answerability and recall for embodied question answering systems.",
-    "category": "Computing",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34745v1",
-    "published_at": "2026-11-25T17:23:01+00:00",
-    "fetched_at": "2026-11-26T13:30:14.112938+00:00"
   }
 ]
