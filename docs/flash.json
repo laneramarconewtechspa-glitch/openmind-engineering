@@ -1,5 +1,50 @@
 [
   {
+    "title": "A46 and A38 Road Projects Cancelled Due to Budget Cuts",
+    "summary": "The A46 Newark Bypass and A38 Derby Junctions projects have been cancelled to cut £428M from transport spending.",
+    "category": "Civil & Infrastructure",
+    "source_name": "New Civil Engineer",
+    "source_url": "https://www.newcivilengineer.com/latest/a46-newark-bypass-and-a38-derby-junctions-cancelled-as-roads-budget-cut-by-428m-27-11-2026/",
+    "published_at": "2026-11-27T12:01:54+00:00",
+    "fetched_at": "2026-11-27T13:21:34.953726+00:00"
+  },
+  {
+    "title": "Huawei to Detail Custom HBM Design at ISSCC 2027",
+    "summary": "Huawei plans to share details about its custom high-bandwidth memory design at the upcoming ISSCC 2027 conference.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "EE Times",
+    "source_url": "https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
+    "published_at": "2026-11-27T08:56:46+00:00",
+    "fetched_at": "2026-11-27T13:21:34.953738+00:00"
+  },
+  {
+    "title": "UK Quantum Companies Raise $621M in Funding",
+    "summary": "UK quantum computing companies have raised $621 million so far this year, significantly surpassing previous funding levels.",
+    "category": "Computing",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/uk-quantum-conpanies-have-raised-621m-this-year-2026-11/",
+    "published_at": "2026-11-27T06:11:50+00:00",
+    "fetched_at": "2026-11-27T13:21:34.953743+00:00"
+  },
+  {
+    "title": "Smartphone Market Decline Forecasted Until 2030",
+    "summary": "Counterpoint Research forecasts smartphone shipments will decline in 2026 and 2027 due to rising component costs and device pricing.",
+    "category": "Electronics & Semiconductors",
+    "source_name": "Electronics Weekly",
+    "source_url": "https://www.electronicsweekly.com/news/business/smart-phone-market-to-fall-14-this-year-6-next-year-2026-11/",
+    "published_at": "2026-11-27T06:10:58+00:00",
+    "fetched_at": "2026-11-27T13:21:34.953747+00:00"
+  },
+  {
+    "title": "Toyota Reveals BKE Concept Two-Wheeler",
+    "summary": "Automotive manufacturer Toyota has unexpectedly unveiled the new BKE Concept electric motorcycle.",
+    "category": "Mechanical",
+    "source_name": "New Atlas",
+    "source_url": "https://newatlas.com/motorcycles/toyota-bke-concept/",
+    "published_at": "2026-11-26T22:00:00+00:00",
+    "fetched_at": "2026-11-27T13:21:34.953750+00:00"
+  },
+  {
     "title": "TechFest Awards 2026 Celebrates Construction Tech Innovators",
     "summary": "The winners of the Construction News and New Civil Engineer TechFest Awards 2026 were announced at a London ceremony.",
     "category": "Civil & Infrastructure",
@@ -223,50 +268,5 @@
     "source_url": "https://arxiv.org/abs/2611.34745v1",
     "published_at": "2026-11-25T17:23:01+00:00",
     "fetched_at": "2026-11-26T13:30:14.112938+00:00"
-  },
-  {
-    "title": "ELMO Emergent Representations in Imitation Learning",
-    "summary": "ELMO is an end-to-end framework that jointly trains a planner and decoder to encode robot trajectories as grounded semantic codes representing behavioral intent.",
-    "category": "Robotics",
-    "source_name": "arXiv",
-    "source_url": "https://arxiv.org/abs/2611.34741v1",
-    "published_at": "2026-11-25T17:19:06+00:00",
-    "fetched_at": "2026-11-26T13:30:14.112942+00:00"
-  },
-  {
-    "title": "NASA Deploys Aircraft for US Army Detonation Monitoring",
-    "summary": "NASA is sending research aircraft and using satellites as the Army prepares to detonate degrading explosives in Iowa.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/technology/aerospace/nasa-sends-planes-to-monitor-us-armys-lead-detonation-irresponsible-to-compare-it-to-chernobyl-agency-chief-says",
-    "published_at": "2026-11-25T16:24:24+00:00",
-    "fetched_at": "2026-11-25T21:02:11.222520+00:00"
-  },
-  {
-    "title": "Study Links Drained Peatlands to Long-Term Warming",
-    "summary": "A new study reveals that the long-term decomposition of drained bogs, fens, and swamps causes about three percent of human-caused climate warming.",
-    "category": "Energy",
-    "source_name": "MIT News",
-    "source_url": "https://news.mit.edu/2026/draining-peatlands-leaves-long-warming-legacy-1125",
-    "published_at": "2026-11-25T16:00:00+00:00",
-    "fetched_at": "2026-11-25T21:02:11.222525+00:00"
-  },
-  {
-    "title": "Volcanic Eruptions Create New Beaches on Iwo Jima",
-    "summary": "Satellites captured images of new land created by a volcanic eruption, extending the beaches of Iwo Jima.",
-    "category": "Aerospace",
-    "source_name": "Space.com",
-    "source_url": "https://www.space.com/astronomy/earth/satellites-watch-volcanic-eruptions-add-new-beaches-on-iwo-jima-space-photo-of-the-day-for-nov-25-2026",
-    "published_at": "2026-11-25T15:00:00+00:00",
-    "fetched_at": "2026-11-25T21:02:15.075760+00:00"
-  },
-  {
-    "title": "Conductive Polymer Hair Dyes Turn Hair Into EEG Electrodes",
-    "summary": "Researchers developed electrically conductive polymer hair dyes that function as gel-free EEG electrodes for brain monitoring.",
-    "category": "Biomedical",
-    "source_name": "IEEE Spectrum",
-    "source_url": "https://spectrum.ieee.org/hair-dye-eeg-electroencephalography",
-    "published_at": "2026-11-25T14:00:01+00:00",
-    "fetched_at": "2026-11-25T21:02:15.075770+00:00"
   }
 ]
